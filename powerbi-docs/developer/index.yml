@@ -13,12 +13,12 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: 33b047952ce5ca7748bc54595e27c4025bd34e6b
-  ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+  ms.openlocfilehash: 3ed27c97169c1b4a579dadb001555445fe8fc43f
+  ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 10/14/2020
-  ms.locfileid: "92048839"
+  ms.lasthandoff: 10/29/2020
+  ms.locfileid: "92916781"
 highlightedContent:
   items:
   - title: Использование встроенной аналитики с Power BI
@@ -85,7 +85,7 @@ additionalContent:
       summary: Интерфейсы REST API Power BI предоставляют конечные точки служб для внедрения, администрирования и работы с пользовательскими ресурсами.
       url: /rest/api/power-bi/
     - title: REST API Azure Resource Manager
-      summary: API, предоставляющий набор веб-служб RESTful, позволяющий создавать, извлекать, обновлять и удалять выделенные емкости Power BI.
+      summary: API-интерфейс, который предоставляет набор веб-служб RESTful и позволяет создавать, получать, изменять и удалять емкости Power BI.
       url: /rest/api/power-bi-embedded/
     - title: Документация по Microsoft Power Platform
       summary: Сведения о том, как решения Power BI, Power Apps, Power Automate и Power Virtual Agents работают вместе и дополняют друг друга.
