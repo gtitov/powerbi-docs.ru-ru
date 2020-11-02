@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 10/13/2020
+ms.date: 10/22/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b2fd8375e105769ed0c9a81e7d894cc0f31f08b0
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.openlocfilehash: 104692fff7f94168a505dc6e1f2c513d647554ce
+ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92258401"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "92349651"
 ---
 # <a name="dynamic-m-query-parameters-in-power-bi-desktop-preview"></a>Динамические параметры запроса M в Power BI Desktop (предварительная версия)
 
@@ -28,7 +28,12 @@ ms.locfileid: "92258401"
 
 ![Включение предварительной версии функции](media/desktop-dynamic-m-query-parameters/dynamic-m-query-parameters-01.png)
 
-В качестве необходимого компонента для этой функции необходим допустимый [параметр запроса M](/power-query/power-query-query-parameters), созданный и упомянутый в одной или нескольких таблицах прямых запросов. Давайте рассмотрим пример динамической передачи **одиночного значения** параметру:
+В качестве необходимого компонента для этой функции необходим допустимый [параметр запроса M](/power-query/power-query-query-parameters), созданный и упомянутый в одной или нескольких таблицах прямых запросов. 
+
+> [!NOTE]
+> Обязательно ознакомьтесь с разделом [Рекомендации и ограничения](#considerations-and-limitations) в этой статье, так как с этой функцией поддерживаются не все источники DirectQuery.
+
+Давайте рассмотрим пример динамической передачи **одиночного значения** параметру:
 
 1. В Power BI Desktop запустите **Power Query** на вкладке **Данные** и выберите **New Parameters** "Новые параметры" в ленте **Управление параметрами** .
 
@@ -147,7 +152,13 @@ Products
 Существуют рекомендации и ограничения, которые следует учитывать при использовании динамических параметров запроса M:
 
 * Один параметр нельзя привязать к нескольким полям и наоборот.
-* Эта функция поддерживается только для источника данных на основе M и исключает поддержку собственного SQL-запроса.
+* Эта функция поддерживается только для источников данных на основе M. Не поддерживаются следующие источники DirectQuery:
+    * Источники данных на основе T-SQL: SQL Server, База данных SQL Azure, Пулы Synapse SQL (также называется Хранилище данных SQL Azure) и пулы Synapse SQL OnDemand
+    * Источники данных Live Connect: Azure Analysis Services, SQL Server Analysis Services, наборы данных Power BI
+    * Другие неподдерживаемые источники данных: Oracle, Teradata и Relational SAP Hana
+    * Частично поддерживается с помощью программирования конечных точек XMLA/TOM: SAP BW и SAP HANA 
+
+
 * Ниже приведены неподдерживаемые типы встроенных параметров.
   * Любой
   * Duration

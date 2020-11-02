@@ -8,26 +8,30 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 03/13/2019
-ms.openlocfilehash: 7624e51bf8c1ee49f2b7e7a0682e12b24bcdfa98
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: c43542bc6c2bb0699403062f68024f9718bbbb60
+ms.sourcegitcommit: 54e571a10b0fdde5cd6036017eac9ef228de5116
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748478"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "92501956"
 ---
 # <a name="power-bi-visuals-api-changelog"></a>Журнал изменений API визуальных элементов Power BI
 На этой странице содержится краткий обзор версий API. Перечисленные здесь версии считаются стабильными, в них изменений не будет.
+
+
+## <a name="api-v340"></a>API версии 3.4.0
+  * `fetchMoreData`: новый параметр `aggregateSegments` (значение по умолчанию — true) для поддержки FetchMoreData без агрегирования
 
 ## <a name="api-v320"></a>API версии 3.2.0
   * Поддерживает функцию **[supportsMultiVisualSelection](./supportsmultivisualselection-feature.md)** .
 
 ## <a name="api-v260"></a>API версии 2.6.0
   * Добавляет **isInFocus** в параметр обновления и метод **switchFocusModeState** в узел визуального элемента.
-  * Поддерживает настройку **подытогов**.
+  * Поддерживает настройку **подытогов** .
 
 ## <a name="api-v250"></a>API версии 2.5.0
   * Поддерживает **[Панель аналитики](./analytics-pane.md)** .
-  * Поддерживает методы `SelectionIdBuilder` **withMatrixNode** и **withTable**.
+  * Поддерживает методы `SelectionIdBuilder` **withMatrixNode** и **withTable** .
   * Больше не поддерживает интерфейс `DataRepetitionSelector` (заменено интерфейсом `data.CustomVisualOpaqueIdentity`).
 
 ## <a name="api-v230"></a>API версии 2.3.0
@@ -104,7 +108,7 @@ ms.locfileid: "91748478"
 
 ## <a name="api-v120"></a>API версии 1.2.0
 * Добавляет **colorPalette** для управления цветами, используемыми в визуальном элементе.
-* Поддерживает **выбор нескольких элементов**. selectionManager может принимать массив `SelectionId`.
+* Поддерживает **выбор нескольких элементов** . selectionManager может принимать массив `SelectionId`.
 * Поддерживает **[визуальные элементы R](https://github.com/Microsoft/PowerBI-visuals/blob/master/RVisualTutorial/CreateRHTML.md)** с помощью скриптов R.
 
 ## <a name="api-v110"></a>API версии 1.1.0

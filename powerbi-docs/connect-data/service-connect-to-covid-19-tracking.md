@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.date: 04/05/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 5487d9f0eb5d8b172cc3e29ea24e88704267cd85
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 01dab6cad6142b455a0d61a0011e43cea6da23e1
+ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85230252"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "92349531"
 ---
 # <a name="connect-to-the-covid-19-us-tracking-report"></a>Подключение к отчету по отслеживанию COVID-19 в США
 В этой статье рассказывается, как установить шаблон приложение для отчета по отслеживанию COVID-19 и как подключиться к источникам данных.
@@ -26,13 +26,13 @@ ms.locfileid: "85230252"
 
 ## <a name="install-the-app"></a>Установка приложения
 
-1. Щелкните следующую ссылку, чтобы перейти к приложению: [шаблон приложения "Отчет по отслеживанию COVID-19 в США"](https://appsource.microsoft.com/en-us/product/power-bi/pbi-contentpacks.covid19ms)
+1. Щелкните следующую ссылку, чтобы перейти к приложению: [шаблон приложения "Отчет по отслеживанию COVID-19 в США"](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.covid19ms)
 
-1. На странице приложения в AppSource нажмите кнопку [**Получить**](https://appsource.microsoft.com/en-us/product/power-bi/pbi-contentpacks.covid19ms).
+1. На странице приложения в AppSource нажмите кнопку [**Получить**](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.covid19ms).
 
-    [![Приложение "Отчет по отслеживанию COVID-19 в США" в Appsource](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-appsource-icon.png)](https://appsource.microsoft.com/en-us/product/power-bi/pbi-contentpacks.covid19ms)
+    [![Приложение "Отчет по отслеживанию COVID-19 в США" в Appsource](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-appsource-icon.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.covid19ms)
 
-1. При появлении запроса нажмите кнопку **Установить**. После установки приложения оно появится на странице "Приложения".
+1. При появлении запроса нажмите кнопку **Установить** . После установки приложения оно появится на странице "Приложения".
 
    ![Приложение "Отчет по отслеживанию COVID-19 в США" на странице "Приложения"](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-apps-page-icon.png)
 
@@ -40,15 +40,25 @@ ms.locfileid: "85230252"
 
 1. Чтобы открыть приложение, щелкните его значок на странице "Приложения".
 
-1. На экране-заставке нажмите **Подключить**.
+1. На экране-заставке нажмите **Подключить** .
 
    ![Экран-заставка шаблона приложения](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-splash-screen.png)
 
-1. По очереди появятся два диалоговых окна входа. В обоих окнах установите уровень конфиденциальности "Общедоступный".
+1. Появится диалоговое окно "Параметры". Обязательные параметры отсутствуют. Нажмите кнопку **Далее** .
 
-   ![Диалоговое окно входа в приложение "Отчет по отслеживанию COVID-19 в США"](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-signin-dialog.png)
+   ![Снимок экрана: диалоговое окно параметров отчета по отслеживанию Covid-19 в США.](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-parameters-dialog.png)
 
-   Отчет подключится к источникам данных и заполнится актуальными данными. В течение этого времени вращается индикатор активности.
+1. Появится диалоговое окно метода проверки подлинности. Рекомендуемые значения предварительно заполнены. Не меняйте их, если не уверены в их назначении.
+
+    Нажмите кнопку **Далее** .
+
+   ![Снимок экрана: диалоговое окно проверки подлинности для отчета по отслеживанию Covid-19 в США.](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-authentication-dialog.png)
+
+1. Нажмите кнопку **Вход** .
+
+   ![Снимок экрана: диалоговое окно входа для отчета по отслеживанию Covid-19 в США.](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-signin-dialog.png)
+ 
+   Отчет подключится к источникам данных и заполнится актуальными данными. В это время вы увидите пример данных и подтверждение того, что обновление выполняется.
 
    ![Обновление данных в приложении "Отчет по отслеживанию COVID-19 в США"](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-refresh-monitor.png)
 

@@ -5,15 +5,15 @@ services: powerbi
 author: maggiesMSFT
 ms.service: powerbi
 ms.topic: include
-ms.date: 09/04/2020
+ms.date: 10/21/2020
 ms.author: maggies
 ms.custom: include file
-ms.openlocfilehash: 0bf9f1a6eb918e55ab3811b9c6fde2628bdd91ad
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 87c35df25a17090f1788abbeb979afab3ad9d6a9
+ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91983754"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "92462235"
 ---
 |Функция   | Административный  | Участник  | Участник  | Зритель |
 |---|---|---|---|---|
@@ -31,6 +31,7 @@ ms.locfileid: "91983754"
 | Публиковать отчеты в рабочей области, удалять содержимое.  |  ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png)  | ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png)  |   |
 | Создать отчет в другой рабочей области на основе набора данных в этой области.<sup>2</sup> |  ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png)  | ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png)  |   |
 | Копирование отчета<sup>3</sup> | ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png) |  |
+| Управление разрешениями для наборов данных<sup>3</sup>. | ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png) |  |
 | Данные расписания обновляются через локальный шлюз<sup>4</sup> | ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png) |  |
 | Изменение параметров подключения через шлюз<sup>4</sup> | ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png) |  |
 | Просмотр элемента и взаимодействие с ним<sup>5</sup> |  ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png)  | ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png)  | ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png)  |

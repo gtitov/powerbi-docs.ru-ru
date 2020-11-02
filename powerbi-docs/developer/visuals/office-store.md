@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 07/14/2020
-ms.openlocfilehash: 55661d8faa39d26d19d15696252cf46b74c84a50
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: 1809b1f539c82de4bf98689dbb259594a603b90c
+ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92049437"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "92349697"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Публикация визуализаций Power BI в Центре партнеров
 
@@ -62,6 +62,9 @@ ms.locfileid: "92049437"
 ## <a name="submitting-to-appsource"></a>Отправка в AppSource
 
 Чтобы отправить визуализацию Power BI в AppSource, необходимо получить пакет приложения от команды Power BI, а затем отправить его в Центр партнеров.
+
+>[!IMPORTANT]
+>Если вы повторно отправляете визуальный элемент, его идентификатор GUID изменить нельзя.
 
 ### <a name="getting-the-app-package"></a>Получение пакета приложения
 

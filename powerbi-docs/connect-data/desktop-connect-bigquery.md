@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: edf49ba9fa85ab2c46040fdac74691bea8b5b960
-ms.sourcegitcommit: 6b436f6ed872cbc040ed6e2d3ac089c08fc78daf
+ms.openlocfilehash: 68698d51b074102a8d8e556101fcfaf6a39c2c62
+ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "91928316"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "92349421"
 ---
 # <a name="connect-to-a-google-bigquery-database-in-power-bi-desktop"></a>Подключение к базе данных Google BigQuery в Power BI Desktop
 В Power BI Desktop вы можете подключиться к базе данных **Google BigQuery** и использовать ее так же, как и любой другой источник данных в Power BI Desktop.
@@ -49,7 +49,7 @@ ms.locfileid: "91928316"
   Source = GoogleBigQuery.Database([BillingProject="Include-Billing-Project-Id-Here"])
   ```
 
-  Начиная с выпуска за сентябрь 2020 года мы включили поддержку [API хранения данных Google BigQuery](https://cloud.google.com/bigquery/docs/reference/storage). Некоторые клиенты могут столкнуться с проблемами с этой функцией, если они используют детализированные разрешения. В этом случае может появиться следующее сообщение об ошибке:
+  Начиная с выпуска за сентябрь 2020 года мы включили поддержку [API хранения данных Google BigQuery](https://cloud.google.com/bigquery/docs/reference/storage). Эта функция включена по умолчанию и управляется необязательным логическим аргументом с именем "UseStorageApi". Некоторые клиенты могут столкнуться с проблемами с этой функцией, если они используют детализированные разрешения. В этом случае может появиться следующее сообщение об ошибке:
 
   `ERROR [HY000] [Microsoft][BigQuery] (131) Unable to authenticate with Google BigQuery Storage API. Check your account permissions`
 
@@ -60,7 +60,15 @@ ms.locfileid: "91928316"
   - `bigquery.readsessions.update` — обновляет сеанс чтения через API хранения данных BigQuery.
 
   Эти разрешения обычно предоставляются в роли BigQuery.User. Дополнительные сведения см. в разделе [Стандартные роли и разрешения Google BigQuery](https://cloud.google.com/bigquery/docs/access-control).
-
+  
+  Если описанные выше действия не помогли устранить проблему или вы хотите отключить поддержку API хранения, измените запрос следующим образом:
+  ```
+  Source = GoogleBigQuery.Database([UseStorageApi=false])
+  ```
+  Если вы уже используете проект выставления счетов, измените запрос следующим образом:
+  ```
+  Source = GoogleBigQuery.Database([BillingProject="Include-Billing-Project-Id-Here", UseStorageApi=false])
+  ```
 
 ## <a name="next-steps"></a>Дальнейшие действия
 В Power BI Desktop можно подключаться к данным самых разных видов. Дополнительные сведения об источниках данных см. в перечисленных ниже статьях.
