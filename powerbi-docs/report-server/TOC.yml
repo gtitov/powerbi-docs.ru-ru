@@ -79,6 +79,8 @@
               href: access-dataset-odata.md
             - name: "Изменение строк подключения к источникам данных с помощью\_PowerShell"
               href: connect-data-source-apis.md
+            - name: "Изменение строк подключения к источникам данных с помощью\_PowerShell до октября 2020\_г."
+              href: connect-data-source-apis-pre-oct-2020.md
             - name: Настройка запланированного обновления
               href: configure-scheduled-refresh.md
             - name: Добавление комментариев к отчету
