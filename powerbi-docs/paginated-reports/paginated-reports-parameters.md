@@ -8,14 +8,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 09/28/2020
-ms.openlocfilehash: aa4df6db3058ef3d6f8c399e1bf20f0edf17ebc8
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 217c1b571c01068d64283df0b25b5e56bbc8b956
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91600494"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297220"
 ---
 # <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>Создание параметров для отчетов с разбивкой на страницы в службе Power BI
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 Из этой статьи вы узнаете, как в службе Power BI создать параметры для отчетов с разбивкой на страницы.  Параметр отчета позволяет выбрать данные для отчета и изменить его внешний вид. Вы можете указать значения по умолчанию и список доступных значений. Читатели отчетов могут изменить эти значения. Они также могут выполнять поиск значений, используя текстовые поля параметров. Сведения о взаимодействии бизнес-пользователей с параметрами в службе Power BI см. в статье [Просмотр параметров для отчетов с разбивкой на страницы в службе Power BI](../consumer/paginated-reports-view-parameters.md).  
 
@@ -44,7 +46,7 @@ ms.locfileid: "91600494"
   
 3.  В поле **Prompt** (Подсказка) введите текст, который будет отображаться рядом с текстовым полем параметра при запуске отчета.  
   
-4.  В поле **Тип данных**выберите тип данных для значения параметра.  
+4.  В поле **Тип данных** выберите тип данных для значения параметра.  
   
 5.  Если параметр может содержать пустое значение, выберите **Разрешить пустое значение**.  
   

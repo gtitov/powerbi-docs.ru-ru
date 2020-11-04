@@ -9,14 +9,16 @@ ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
 ms.date: 09/09/2020
-ms.openlocfilehash: 7b12f6f6db864fb7b6af4df0d1019dc2eeed2617
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 0816ba6f3ff606a73c835ac71af66655fd49acfd
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91747489"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93298063"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>Параметры URL-адреса в отчетах с разбивкой на страницы в Power BI
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 Вы можете отправлять команды в отчеты с разбивкой на страницы в Power BI, добавив параметр в URL-адрес. Например, вы просмотрели отчет, используя конкретный набор значений параметров отчета. Вы инкапсулируете эти сведения в URL-адрес с помощью предопределенных параметров доступа к URL-адресу. Затем вы настраиваете обработку отчета в Power BI путем внедрения параметров для форматов отрисовки или для отображения панели инструментов отчета. После этого вы вставляете этот URL-адрес непосредственно в сообщение электронной почты или на веб-страницу, чтобы другие пользователи могли так же как вы работать с отчетом в браузере. 
 
@@ -49,12 +51,12 @@ URL-адрес веб-службы клиента Power BI. Например:
 
 **&** Используется для разделения пар "имя-значение" в параметрах доступа к URL-адресу.
 
-**префикс** — префикс для параметра URL-адреса (например, rp: или rdl:), указывающий действие в службе Power BI. 
+**префикс**  — префикс для параметра URL-адреса (например, rp: или rdl:), указывающий действие в службе Power BI. 
 
 > [!NOTE]
 > Параметры отчета должны иметь префикс параметра и указываются с учетом регистра. 
 
-**параметр** — имя параметра. 
+**параметр**  — имя параметра. 
 
 ### <a name="value"></a>Значение 
 
@@ -68,7 +70,7 @@ URL-адрес веб-службы клиента Power BI. Например:
 
 ### <a name="report-commands-rdl"></a>Команды отчета (`rdl:`) 
 
-**Формат экспорта** — задает формат отображения и экспорта отчета.
+**Формат экспорта**  — задает формат отображения и экспорта отчета.
 
 Пример: rdl:format=PDF
 

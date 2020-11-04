@@ -8,14 +8,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 10/19/2020
-ms.openlocfilehash: 2a0490106d5954a57abea1dd5de61f26f2fe2377
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.openlocfilehash: 7cba43ff6339ce890ca2f4f1744282648eaf877b
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92257032"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297896"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Отчеты с разбивкой на страницы в Power BI: Часто задаваемые вопросы 
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 В этой статье содержатся ответы на часто задаваемые вопросы об отчетах с разбивкой на страницы. Это отчеты с широкой поддержкой форматирования и идеальной попиксельной оптимизацией для печати или создания PDF. Под термином "с разбивкой на страницы" подразумевается то, что формат отчетов подбирается с учетом отображения на нескольких страницах. Отчеты с разбивкой на страницы создаются на основе технологии RDL (языка определения отчетов), используемой в SQL Server Reporting Services. 
 
@@ -72,11 +74,11 @@ ms.locfileid: "92257032"
 
 Объем памяти по умолчанию для отчетов с разбивкой на страницы для номеров SKU уровня Premium составляет:
 
-- **P1/A4** . По умолчанию 20 %; не менее 10 %
-- **P2/A5** . По умолчанию 20 %; не менее 5 %
-- **P3/A6** . По умолчанию 20 %; не менее 2,5 %
+- **P1/A4**. По умолчанию 20 %; не менее 10 %
+- **P2/A5**. По умолчанию 20 %; не менее 5 %
+- **P3/A6**. По умолчанию 20 %; не менее 2,5 %
 
-Администраторы Power BI могут изменять максимальный процент памяти по умолчанию на портале администрирования. Перейдите в раздел рабочей нагрузки **Отчеты с разбивкой на страницы** на вкладке **Параметры емкости** страницы **Power BI Premium** .
+Администраторы Power BI могут изменять максимальный процент памяти по умолчанию на портале администрирования. Перейдите в раздел рабочей нагрузки **Отчеты с разбивкой на страницы** на вкладке **Параметры емкости** страницы **Power BI Premium**.
 
 :::image type="content" source="media/paginated-reports-faq/paginated-reports-capacity-settings.png" alt-text="Раздел Отчеты с разбивкой на страницы на вкладке Параметры емкости":::
 
@@ -181,7 +183,7 @@ ms.locfileid: "92257032"
 
 При просмотре отчетов с разбивкой на страницы в службе Power BI может истечь время ожидания сеансов, и пользователь получит следующее уведомление:
 
-:::image type="content" source="media/paginated-reports-faq/expired-session-notification.png" alt-text="Раздел Отчеты с разбивкой на страницы на вкладке Параметры емкости":::
+:::image type="content" source="media/paginated-reports-faq/expired-session-notification.png" alt-text="Уведомление об истечении срока действия сеанса для отчета с разбивкой на страницы":::
 
 - Время ожидания сеанса истечет после 60 минут бездействия либо ранее, если устройство заблокировано или неактивно либо если отчет не отображается на активной вкладке в браузере.
 

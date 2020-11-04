@@ -8,14 +8,16 @@ ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 07/10/2020
 ms.author: maggies
-ms.openlocfilehash: f362303a79acb3468d6523eb24383ca0f3d49609
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 05da5fa050fc92ebae320af9e07fe6505b5790f4
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264617"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297959"
 ---
 # <a name="enter-data-directly-in-a-paginated-report-in-report-builder---power-bi"></a>Ввод данных непосредственно в отчет с разбивкой на страницы в построителе отчетов — Power BI
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 В этой статье вы узнаете о функции новой версии Microsoft Power BI Report Builder, которая позволяет вводить данные непосредственно в отчет RDL как внедренный набор данных.  Аналогичная функция реализована в Power BI Desktop. Можно ввести значение непосредственно в набор данных в отчете или вставить его из другой программы, например из Microsoft Excel. После создания набора данных путем ввода данных его можно использовать так же, как и любой другой созданный вами внедренный набор данных. Кроме того, вы можете добавить несколько таблиц и использовать одну таблицу в качестве фильтра для других. Эта функция особенно удобна для небольших и статичных наборов данных, которые может потребоваться использовать в отчете, таких как параметры отчета.
  
@@ -94,7 +96,7 @@ ms.locfileid: "86264617"
 
     - SalesAmount
 
-    По умолчанию Report Builder суммирует поля в разделе **Значения**, но можно выбрать другой агрегат.
+    По умолчанию Report Builder суммирует поля в разделе **Значения** , но можно выбрать другой агрегат.
 
     :::image type="content" source="media/paginated-reports-enter-data/paginated-select-aggregation.png" alt-text="Снимок экрана: различные агрегаты для выбора":::
  
