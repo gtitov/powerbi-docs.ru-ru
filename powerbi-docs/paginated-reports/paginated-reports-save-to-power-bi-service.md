@@ -8,14 +8,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 05/04/2020
-ms.openlocfilehash: edda0fa0232430541af1fc1766fd5d8bc23c5e1c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 28058161672de9db0cac5093e652e1d551f6a80a
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221030"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297321"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service"></a>Публикация отчета с разбивкой на страницы в службе Power BI
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 Из этой статьи вы узнаете, как опубликовать отчет с разбивкой на страницы в службе Power BI, передав его с локального компьютера. Отчеты с разбивкой на страницы можно передавать в личную рабочую область или в любую другую рабочую область, размещенную в емкости Premium. Найдите значок в виде бриллианта ![Значок емкости Power BI Premium в виде бриллианта](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) рядом с именем рабочей области. 
 
@@ -25,11 +27,11 @@ ms.locfileid: "85221030"
 
 Если рабочая область не имеет значка с бриллиантом ![Значок емкости Power BI Premium в виде бриллианта](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) рядом с именем, ее следует добавить в емкость Premium. 
 
-1. Выберите **Рабочие области**, щелкните многоточие ( **...** ) рядом с именем рабочей области и выберите **Изменить рабочую область**.
+1. Выберите **Рабочие области** , щелкните многоточие ( **...** ) рядом с именем рабочей области и выберите **Изменить рабочую область**.
 
     ![Выбор действия "Изменить рабочую область"](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-edit-workspace.png)
 
-1. В диалоговом окне **Изменение рабочей области** разверните узел **Дополнительно**, затем переместите ползунок **Dedicated capacity** (Выделенная емкость) в положение **Вкл.**
+1. В диалоговом окне **Изменение рабочей области** разверните узел **Дополнительно** , затем переместите ползунок **Dedicated capacity** (Выделенная емкость) в положение **Вкл.**
 
     ![Выбор выделенной емкости](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-edit-workspace-dialog.png)
 
@@ -69,13 +71,13 @@ ms.locfileid: "85221030"
 
 1. Выберите **Получить данные**.
 
-    ![Элемент "Получить данные" в Power BI](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-get-data.png)
+    ![Получение данных в Power BI](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-get-data.png)
 
 1. В поле **Файлы** выберите **Получить**.
 
     ![Элемент "Получить файлы" в Power BI](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-files-get.png)
 
-1. Выберите **Локальный файл**, перейдите к отчету с разбивкой на страницы и щелкните **Открыть**.
+1. Выберите **Локальный файл** , перейдите к отчету с разбивкой на страницы и щелкните **Открыть**.
 
     ![Выбор элемента "Локальный файл"](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-local-file.png)
 
