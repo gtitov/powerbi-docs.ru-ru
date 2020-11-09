@@ -6,17 +6,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/19/2020
+ms.date: 10/30/2020
 ms.author: kfollis
 ms.custom: MC
 ROBOTS: NOINDEX
 LocalizationGroup: Admin
-ms.openlocfilehash: 19933ccbf18003e293e823c2b1f201e953c7bde0
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 68cd001995603fec3a64e4b2c79ee2216bfe9ac0
+ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90854789"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "93132305"
 ---
 # <a name="power-bi-planned-maintenance"></a>Плановое обслуживание Power BI
 
@@ -38,8 +38,14 @@ ms.locfileid: "90854789"
 * Клиенты, активно редактирующие или публикующие отчеты с визуальными элементами организации (локально или в OneDrive и SharePoint), должны либо повторно импортировать эти элементы с помощью хранилища визуальных элементов организации, либо загрузить обновленный PBIX-файл перед повторной публикацией. Дополнительные сведения см. в статье о [визуальных элементах организации](organizational-visuals.md).
 * Если книги Excel, в которых используется функция "Анализ в Excel", не обновляются, возможно, потребуется обновить строку подключения или повторно скачать ODC-файл подключения для этого набора данных. Дополнительные сведения см. в статье о функции [Анализ в Excel](../collaborate-share/service-analyze-in-excel.md#connect-to-power-bi-data).
 * После завершения обслуживания ссылки на Power BI, внедренные в содержимое, могут не работать. Например, при попытке перейти по внедренной ссылке в SharePoint или Teams у пользователя может произойти ошибка. Чтобы устранить эту проблему, необходимо повторно создать внедренную ссылку в Power BI, а затем обновить расположения, в которых она используются. Дополнительные сведения о внедренных ссылках см. в статьях [Внедрение веб-части отчетов в SharePoint Online](../collaborate-share/service-embed-report-spo.md) и [Совместная работа в Microsoft Teams с использованием Power BI](../collaborate-share/service-collaborate-microsoft-teams.md).
+* Некоторые данные об использовании, собранные до обслуживания, недоступны после его завершения. Эти данные об использовании включают следующее.
+
+  * [Журнал действий Power BI](service-admin-auditing.md#use-the-activity-log). Пользователи должны скачивать журналы действий перед обслуживанием. Можно также использовать [данные журнала аудита Office 365](service-admin-auditing.md#access-your-audit-logs) для получения эквивалентных сведений о действиях.
+  * Просмотр счетчика в [представлении происхождения](../collaborate-share/service-data-lineage.md#explore-lineage-view)
+  * [Отчет о метриках защиты данных](service-security-data-protection-metrics-report.md)
+  * [Метрики использования (предварительная версия)](../collaborate-share/service-modern-usage-metrics.md)
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
 * [Включение уведомлений о прерывании в работе служб](service-interruption-notifications.md)
-* [Отслеживание предстоящих изменений в Центре сообщений](/microsoft-365/admin/manage/message-center?view=o365-worldwide)
+* [Отслеживание предстоящих изменений в Центре сообщений](/microsoft-365/admin/manage/message-center)

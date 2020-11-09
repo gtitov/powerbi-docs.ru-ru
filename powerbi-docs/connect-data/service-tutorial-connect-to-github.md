@@ -7,22 +7,24 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.custom: connect-to-services
 ms.topic: tutorial
-ms.date: 08/07/2019
+ms.date: 10/30/2020
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: cf79a5ecf4d98595a033733824a41002a7cd38e0
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 805b7805d932468e973805d9496a5b25d4391fdd
+ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860562"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "93132627"
 ---
 # <a name="tutorial-connect-to-a-github-repo-with-power-bi"></a>Руководство. Подключение к репозиторию в GitHub с помощью Power BI
-В этом учебнике вы подключитесь к реальным данным в службе GitHub с помощью Power BI, после чего служба Power BI автоматически создаст панели мониторинга и отчеты. Подключившись к общедоступному *репозиторию* содержимого Power BI, можно знать ответы на подобные вопросы: сколько людей участвует в создании общедоступного содержимого Power BI; кто вносит наибольший вклад; в какой день недели содержимое добавляется наиболее активно; И другие вопросы. 
+В этом руководстве вы подключаетесь к реальным данным — общедоступному репозиторию содержимого Power BI (также известному как *репозиторий* ) в службе GitHub. Power BI автоматически создает панель мониторинга и отчет с данными. Вы увидите ответы на такие вопросы, как: Сколько людей участвует в создании общедоступного репозитория Power BI? кто вносит наибольший вклад; в какой день недели содержимое добавляется наиболее активно; И другие вопросы. 
+
+Вы также можете подключиться к собственному частному или общедоступному репозиторию GitHub. Статья [Подключение к GitHub с помощью Power BI](service-connect-to-github.md) объясняет, как использовать *приложение-шаблон* Power BI для подключения к репозиториям.
 
 ![Отчет GitHub в Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-punch-card.png)
 
-В этом учебнике вы выполните следующие действия:
+В этом руководстве выполняются следующие шаги:
 
 > [!div class="checklist"]
 > * зарегистрируете учетную запись GitHub, если у вас ее еще нет; 
@@ -44,11 +46,11 @@ ms.locfileid: "90860562"
 
 ## <a name="how-to-connect"></a>Способы подключения
 1. Войдите в службу Power BI (`https://app.powerbi.com`). 
-2. В области навигации выберите **Приложения**, а затем — **Получить приложения**.
+2. В области навигации выберите **Приложения** , а затем — **Получить приложения**.
    
    ![Кнопка "Получить приложения" в Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial.png) 
 
-3. Выберите **Приложения**, в поле поиска введите **GitHub** и нажмите кнопку **Получить**.
+3. Выберите **Приложения** , в поле поиска введите **GitHub** и нажмите кнопку **Получить**.
    
    ![Кнопка "Получить" в Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-app-source.png) 
 
@@ -58,13 +60,13 @@ ms.locfileid: "90860562"
 
     ![Начало работы с новым приложением](media/service-tutorial-connect-to-github/power-bi-new-app-connect-get-started.png)
 
-7. Введите имя и владельца репозитория. URL-адрес этого репозитория — https://github.com/MicrosoftDocs/powerbi-docs, поэтому в поле **Владелец репозитория** укажите **MicrosoftDocs**, а в поле **Репозиторий** — **powerbi-docs**. 
+7. Введите имя и владельца репозитория. URL-адрес этого репозитория — https://github.com/MicrosoftDocs/powerbi-docs, поэтому в поле **Владелец репозитория** укажите **MicrosoftDocs** , а в поле **Репозиторий**  — **powerbi-docs**. 
    
     ![Имя репозитория Power BI в GitHub](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-connect.png)
 
 5. Введите созданные учетные данные GitHub. Power BI может пропустить этот шаг, если вы уже вошли в GitHub в браузере. 
 
-6. В качестве метода **проверки подлинности** оставьте для **OAuth2**\>**Войти**.
+6. В качестве метода **проверки подлинности** оставьте для **oAuth2**\> **Войти**.
 
 7. Следуйте инструкциям по проверке подлинности GitHub на экране. Предоставьте Power BI разрешение на доступ к данным GitHub.
    
@@ -75,7 +77,7 @@ ms.locfileid: "90860562"
 
     ![Приложение в области навигации](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav-expanded.png)
 
-10. Щелкните **Дополнительные параметры** (...) рядом с именем панели мониторинга > **Переименовать** > введите **Панель мониторинга GitHub**.
+10. Щелкните **Дополнительные параметры** (...) рядом с именем панели мониторинга > **Переименовать**  > введите **Панель мониторинга GitHub**.
  
     ![Плитка GitHub в Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav.png) 
 
@@ -110,7 +112,7 @@ ms.locfileid: "90860562"
 
 ## <a name="view-the-github-report"></a>Просмотр отчета GitHub 
 
-1. На панели мониторинга GitHub выберите гистограмму **Запросы на вытягивание по месяцам**, чтобы открыть связанный отчет.
+1. На панели мониторинга GitHub выберите гистограмму **Запросы на вытягивание по месяцам** , чтобы открыть связанный отчет.
 
     ![Гистограмма "Запросы на вытягивание по месяцам"](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-column-chart.png)
 
@@ -118,7 +120,7 @@ ms.locfileid: "90860562"
 
     ![Отчет GitHub в Power BI с выделенными данными по пользователю](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-cross-filter-total-prs.png)
 
-3. Выберите вкладку **Перфокарта**, чтобы перейти к следующей странице отчета. 
+3. Выберите вкладку **Перфокарта** , чтобы перейти к следующей странице отчета. 
  
     ![Страница "Перфокарта" отчета GitHub в Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-tues-3pm.png)
 
@@ -138,4 +140,4 @@ ms.locfileid: "90860562"
 В этом учебнике вы подключились к общедоступному репозиторию GitHub и получили данные, которые служба Power BI отформатировала в панели мониторинга и отчете. Вы получили ответы на некоторые вопросы, изучив панель мониторинга и отчет. Теперь вы можете узнать, как подключаться к другим службами, таким как Salesforce, Microsoft Dynamics и Google Analytics. 
  
 > [!div class="nextstepaction"]
-> [Подключение к используемым веб-службам](service-connect-to-services.md)
+> [Подключение к GitHub с помощью приложения-шаблона Power BI](service-connect-to-github.md)

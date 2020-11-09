@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/07/2020
 ms.author: davidi
-ms.openlocfilehash: 918b9a98d66a1c739421433d35f593dc74d19773
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: ae6047950256a783172ef871c2bd58dc15ff033a
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91981488"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297605"
 ---
 # <a name="power-bi-data-sources"></a>Источники данных Power BI
 
@@ -64,45 +64,46 @@ ms.locfileid: "91981488"
 | Google Analytics | Да | Да | Нет | Нет | Нет | Нет |
 | Google BigQuery | Да | Да | Да | Нет | Нет | Да |
 | Файл Hadoop (HDFS) | Да | нет | Нет | Нет | Нет | Нет |
+| Hive LLAP | Да | Да | Да | Да | Нет | Нет |
 | HDInsight Interactive Query | Да | Да | Да | Нет | Нет | Нет |
 | IBM DB2 | Да | Да | Да | Да | Нет | Да |
 | База данных IBM Informix | Да | Да | Нет | Да | Нет | Нет |
 | IBM Netezza | Да | Да | Да | Да | Да | Нет |
 | Impala | Да | Да | Да | Да | Да | Да |
 | Indexima | Да | Да | Да | Да | Да | Нет |
-| Industrial App Store | Да | Да | Нет | Нет | Нет | Нет |
-| Information Grid | Да | Да | Нет | Нет | Нет | нет |
+| Industrial App Store | Да | Да | Нет | Нет | Нет | нет |
+| Information Grid | Да | Да | Нет | Нет | Нет | Нет |
 | Intersystems IRIS | Да | Да | Да | Да | Да | Нет |
-| Хранилище данных Intune | Да | Да | Нет | нет | Нет | Нет |
+| Хранилище данных Intune | Да | Да | Нет | Нет | Нет | Нет |
 | Jethro ODBC | Да | Да | Да | Да | Да | Нет |
 | JSON | Да | Да | Нет | Да** | Нет <sup>4</sup> | Да |
-| Kyligence Enterprise | Да | Да | Да | Да | Да | Нет |
-| MailChimp | Да | Да | Нет | Нет | Нет | нет |
-| Marketo | Да | Да | Нет | Нет | нет | Нет |
+| Kyligence Enterprise | Да | Да | Да | Да | Да | нет |
+| MailChimp | Да | Да | Нет | Нет | нет | Нет |
+| Marketo | Да | Да | Нет | Нет | Нет | Нет |
 | MarkLogic ODBC | Да | Да | Да | Да | Да | Нет |
-| Microsoft Azure Consumption Insights | Да | Да | нет | Нет | Нет | Нет |
+| Microsoft Azure Consumption Insights | Да | Да | Нет | Нет | Нет | Нет |
 | Microsoft Exchange | Да | Да | Нет | Да | Нет | Нет |
 | Microsoft Exchange Online | Да | Да | Нет | Нет | Нет | Да |
-| Безопасность Microsoft Graph | Да | Да | Нет | Да | Нет | нет |
+| Безопасность Microsoft Graph | Да | Да | Нет | Да | Нет | Нет |
 | Mixpanel | Да | Да | Нет | Нет | Нет | Нет |
 | MySQL | Да | Да | Нет | Да | Да | Да |
 | OData | Да | Да <sup>7</sup> | Нет | Да | Нет | Да |
 | ODBC | Да | Да | Нет | Да | Да | Да |
 | OleDb | Да | Да | Нет | Да | Да | Нет |
 | Oracle; | Да | Да | Да | Да | Да | Да |
-| Paxata <sup>8</sup> | Да | Да | Нет | Да | нет | Нет |
-| PDF | Да | Да | Нет | Да | Нет <sup>4</sup> | Да |
-| Planview Enterprise One — CTM | Да | Да | нет | Нет | Нет | Нет |
+| Paxata <sup>8</sup> | Да | Да | Нет | Да | Нет | Нет |
+| PDF | Да | Да | нет | Да | Нет <sup>4</sup> | Да |
+| Planview Enterprise One — CTM | Да | Да | Нет | Нет | Нет | Нет |
 | Planview Enterprise One — PRM | Да | Да | Нет | Нет | Нет | Нет |
 | Planview Projectplace | Да | Да | Нет | Нет | Нет | Нет |
 | PostgreSQL | Да | Да | Да | Да | Нет | Да |
-| Потоки данных Power BI | Да | Да | Нет | Нет | Нет | Да |
-| Наборы данных Power BI | Да | Да | Да | нет | Нет | Нет |
-| Потоки данных Power Platform | Да | Да | нет | Нет | Нет | Да |
+| Потоки данных Power BI | Да | Да | Нет | нет | Нет | Да |
+| Наборы данных Power BI | Да | Да | Да | Нет | Нет | Нет |
+| Потоки данных Power Platform | Да | Да | Нет | Нет | Нет | Да |
 | Сценарий Python | Да | Да <sup>5</sup> | Нет | Да <sup>5</sup> | Да | Нет |
 | QubolePresto | Да | Да | Да | Да | Да | Нет |
 | Quick Base | Да | Да | Нет | Да | Да | Нет |
-| QuickBooks Online | Да | Да | Нет | Нет | нет | Нет |
+| QuickBooks Online | Да | Да | Нет | Нет | Нет | Нет |
 | Скрипт R | Да | Да <sup>5</sup> | Нет | Да <sup>5</sup> | Нет | Нет |
 | Roamler | Да | Да | Нет | Да | Нет | Нет |
 | Объекты Salesforce | Да | Да | Нет | Нет | Нет | Да |
@@ -113,10 +114,10 @@ ms.locfileid: "91981488"
 | Папка SharePoint | Да | Да | Нет | Да | Нет <sup>4</sup> | Да |
 | SharePoint | Да | Да | Нет | Да | Нет <sup>4</sup> | Да |
 | Список SharePoint Online | Да | Да | Нет | Да | Нет | Да |
-| Smartsheet | Да | Да | Нет | Нет | Нет | Да |
-| Snowflake | Да | Да | Да | Да | нет | Да |
+| Smartsheet | Да | Да | Нет | Нет | нет | Да |
+| Snowflake | Да | Да | Да | Да | Нет | Да |
 | Spark | Да | Да | Да | Да | Нет | Да |
-| SparkPost | Да | Да | нет | Нет | Нет | Нет |
+| SparkPost | Да | Да | Нет | Нет | Нет | Нет |
 | SQL Server | Да | Да | Да | Да | Да | Да |
 | службы SQL Server Analysis Services | Да | Да | Да | Да | Да | Нет |
 | Stripe | Да | Да | Нет | Нет | Нет | Нет |

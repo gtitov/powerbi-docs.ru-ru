@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 08/04/2020
+ms.date: 10/29/2020
 ms.author: maggies
-ms.openlocfilehash: cedabd613e177aa9a3645e80db38b74d799b8799
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 52d38fd0705a6f9335f0ddd965acb0d9f56d38ee
+ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861206"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93045063"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Источники данных отчетов Power BI в решении "Сервер отчетов Power BI"
 Отчеты Power BI можно подключать к разным источникам данных. В зависимости от способа использования данных доступны различные источники данных. Данные можно импортировать или запрашивать напрямую с помощью DirectQuery или активного подключения к службам SQL Server Analysis Services. Некоторые источники данных, доступные в Power BI Desktop, оптимизированы для сервера отчетов Power BI, но не поддерживаются для публикации на сервере отчетов Power BI.
@@ -189,6 +189,8 @@ ms.locfileid: "90861206"
 | ZenDesk (бета-версия) |Нет |Нет |Нет |Нет |
 
 ** Проверка подлинности LDAP с помощью Teradata (включается в Power BI Desktop с помощью команды командной строки "setx PBI_EnableTeradataLdap true") не поддерживается для обновления модели.
+
+Сервер отчетов Power BI имеет ограничение при использовании веб-данных: обновлять можно только файлы данных из Интернета. Данные, основанные на странице или примере, не обновляются. Это ограничение обусловлено тем, что выражения M, созданные с использованием Web.BrowserContents и Web.Page, не могут быть обновлены. Сервер отчетов Power BI может обновлять только источники данных Web.Contents.
 
 ## <a name="list-of-supported-authentication-methods-for-directquery"></a>Список поддерживаемых методов проверки подлинности для DirectQuery
 

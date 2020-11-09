@@ -6,71 +6,110 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
-ms.date: 09/01/2020
+ms.date: 10/26/2020
 ms.author: maggies
-ms.openlocfilehash: 69aa11216624416f005dcb2e47d1b818204ae7ec
-ms.sourcegitcommit: 89ce1777a85b9fc476f077cbe22978c6cf923603
+ms.openlocfilehash: 165d38c718377ff7e47442cdf0fe67173b610bd8
+ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89286735"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93044956"
 ---
 # <a name="change-data-source-connection-strings-in-power-bi-reports-with-powershell---power-bi-report-server"></a>Изменение строк подключения к источникам данных в отчетах Power BI с помощью PowerShell — сервер отчетов Microsoft Power BI
 
 
-Для взаимодействия с необходимыми API вы можете изменить строки подключения к источнику данных отчетов Power BI, размещенных на Сервере отчетов Power BI, с помощью PowerShell. 
+Начиная с выпуска Сервера отчетов Power BI за октябрь 2020 г., мы предоставляем возможность обновлять подключения для отчетов Power BI для DirectQuery.
 
-> [!NOTE]
-> Сейчас эта функция работает только для DirectQuery. Поддержка импорта и обновления данных ожидается в ближайшее время.
+> [!IMPORTANT]
+> Это также является критическим изменением по сравнению с тем, как аналогичную настройку можно выполнить в предыдущих выпусках. Если вы используете версию Сервера отчетов Power BI, выпущенную до октября 2020 г., см. раздел [Изменение строк подключения к источникам данных в отчетах Power BI с помощью PowerShell — Сервер отчетов Power BI (до октября 2020 г.)](connect-data-source-apis-pre-oct-2020.md).
 
-1. Установите командлеты PowerShell для сервера отчетов Power BI. Командлеты и инструкции по установке см. на странице [https://github.com/Microsoft/ReportingServicesTools](https://github.com/Microsoft/ReportingServicesTools). 
+## <a name="prerequisites"></a>Предварительные требования.
+- Скачайте выпуск [Сервера отчетов Power BI за октябрь 2020 г. и оптимизированную для него версию Power BI Desktop](https://powerbi.microsoft.com/report-server/).
+- Отчет, сохраненный в выпуске Power BI Desktop за октябрь 2020 г., оптимизированном для Сервера отчетов, с включенными **расширенными метаданными наборов данных**.
+- Отчет, использующий параметризованные соединения. Только отчеты с параметризованными соединениями и базами данных могут быть обновлены после публикации.
+- В этом примере используются инструменты PowerShell Reporting Services. Вы можете добиться того же результата с помощью новых REST API.
 
-    Установите модуль `ReportingServicesTools` прямо из [коллекции PowerShell](https://www.powershellgallery.com/packages/ReportingServicesTools/), используя следующую команду.
+## <a name="create-a-report-with-parameterized-connections"></a>Создание отчета с параметризованными соединениями
+    
+1. Создайте подключение SQL Server к серверу. В приведенном ниже примере мы подключаемся к localhost для базы данных ReportServer и извлекаем данные из ExecutionLog.
 
-    ```powershell
-    Install-Module ReportingServicesTools
+    :::image type="content" source="media/connect-data-source-apis/sql-server-connect-database.png" alt-text="Подключение к базе данных SQL Server":::
+
+    Вот как выглядит запрос M на этом этапе.
+
+    ```
+    let
+        Source = Sql.Database("localhost", "ReportServer"),
+        dbo_ExecutionLog3 = Source{[Schema="dbo",Item="ExecutionLog3"]}[Data]
+    in
+        dbo_ExecutionLog3
     ```
 
-2. Получите сведения о существующем источнике данных для файла Power BI с помощью командлетов PowerShell:
+2. Выберите **Управление параметрами** на ленте Редактора Power Query.
+
+    :::image type="content" source="media/connect-data-source-apis/power-query-manage-parameters.png" alt-text="Выбор элемента &quot;Управление параметрами&quot;":::
+
+1.  Создайте параметры для имени сервера servername и имени базы данных databasename.
+
+    :::image type="content" source="media/connect-data-source-apis/report-server-manage-parameters.png" alt-text="Управление параметрами, задание servername и databasename":::
+
+
+3. Измените запрос для первого подключения и сопоставьте базу данных и имя сервера.
+
+    :::image type="content" source="media/connect-data-source-apis/report-server-map-database-server.png" alt-text="Сопоставление имени сервера и имени базы данных":::
+
+    Теперь запрос выглядит следующим образом.
+
+    ```
+    let
+        Source = Sql.Database(ServerName, Databasename),
+        dbo_ExecutionLog3 = Source{[Schema="dbo",Item="ExecutionLog3"]}[Data]
+    in
+        dbo_ExecutionLog3
+    ```
+    
+    4. Опубликуйте этот отчет на сервере. В этом примере отчет называется executionlogparameter. На следующем рисунке показан пример страницы управления источником данных.
+
+    :::image type="content" source="media/connect-data-source-apis/report-server-manage-data-source-credentials.png" alt-text="Страница управления источником данных":::
+
+## <a name="update-parameters-using-the-powershell-tools"></a>Обновление параметров с помощью инструментов PowerShell
+
+1. Откройте PowerShell и установите новейшие инструменты Reporting Services, следуя инструкциям по адресу [https://github.com/microsoft/ReportingServicesTools](https://github.com/microsoft/ReportingServicesTools).
+    
+2.  Чтобы получить параметр для отчета, используйте новый REST DataModelParameters API DataModelParameters, применив следующий вызов PowerShell.
 
     ```powershell
-    Get-RsRestItemDataSource -RsItem '/MyPbixReport'
+    Get-RsRestItemDataModelParameters '/executionlogparameter'
+
+        Name         Value
+        ----         -----
+        ServerName   localhost
+        Databasename ReportServer
     ```
 
-    Чтобы просмотреть сведения о первом источнике данных, который содержится в отчете Power BI, используйте следующую строку: 
+3. Мы сохраняем результат этого вызова в переменной.
 
     ```powershell
-    $dataSources[0]
+    $parameters = Get-RsRestItemDataModelParameters '/executionlogparameter'
     ```
 
-3. Измените сведения о подключении и учетные данные требуемым образом. Если вы изменяете строку подключения и источник данных использует сохраненные учетные данные, необходимо указать пароль к учетной записи. 
-
-    Чтобы изменить строку подключения к источнику данных, используйте следующую строку:
+4. Эта переменная обновляется значениями, которые необходимо изменить.
+5. Мы сохраняем результат этого вызова в переменной.
 
     ```powershell
-    $dataSources[0].ConnectionString = 'data source=myCatalogServer;initial catalog=ReportServer;persist security info=False' 
+    $parameters[0].Value = 'myproductionserver'
+    $parameters[1].Value = 'myproductiondatabase'
     ```
 
-    Чтобы изменить тип учетных данных для источника данных, используйте следующую строку:
+6. Располагая обновленными значениями, можно использовать командлет `Set-RsRestItemDataModelParameters` для обновления значений на сервере.
 
     ```powershell
-    $dataSources[0].DataModelDataSource.AuthType = 'Integrated'
+    Set-RsRestItemDataModelParameters -RsItem '/executionlogparameter' -DataModelParameters $parameters
     ```
 
-    Чтобы изменить имя пользователя и пароль для источника данных, используйте следующую строку:
+7. После обновления параметров сервер обновляет все источники данных, привязанные к этим параметрам. Вернувшись к диалоговому окну **Изменение источника данных** , вы сможете задать учетные данные для обновленного сервера и базы данных.
 
-    ```powershell
-    $dataSources[0].DataModelDataSource.Username = 'domain\user'
-    ```
-    ```powershell
-    $dataSources[0].DataModelDataSource.Secret = 'password'
-    ```
-
-4. Сохраните измененные учетные данные на сервере.
-
-    ```powershell
-    Set-RsRestItemDataSource -RsItem '/MyPbixReport' -RsItemType 'PowerBIReport' -DataSources $dataSources
-    ```
+    :::image type="content" source="media/connect-data-source-apis/report-server-manage-executionlogparameter-dialog.png" alt-text="Задание учетных данных для обновленного сервера и базы данных":::
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

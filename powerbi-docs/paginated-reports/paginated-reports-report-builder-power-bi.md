@@ -8,17 +8,26 @@ featuredvideoid: jXTiYJKw1Rs
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 05/19/2020
-ms.openlocfilehash: 16fcc18492b371accaaf3c447d7a88978051f8c3
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.date: 10/16/2020
+ms.openlocfilehash: 2c136f4d81a9cb1c1904c3a06b58271391c76c23
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859665"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297764"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Сведения об отчетах с разбивкой на страницы в Power BI Premium
 
-*Отчеты с разбивкой на страницы* создаются специально для печати или совместного использования. Под термином *с разбивкой на страницы* подразумевается то, что формат отчетов подбирается с учетом отображения на странице. Можно настроить отображение всех данных отчета в таблице, даже если для этого потребуется много страниц. В качестве названия для таких отчетов также употребляют описательное выражение *с точностью до пикселя*, которое указывает на возможность точно настраивать макет отчета. Построитель отчетов Power BI — это автономное средство для создания отчетов с разбивкой на страницы. Отчеты с разбивкой на страницы создаются на основе технологии RDL (языка определения отчетов), которая уже давно является стандартным форматом отчетов в SQL Server Reporting Services. 
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
+
+*Отчеты с разбивкой на страницы* создаются специально для печати или совместного использования. Под термином *с разбивкой на страницы* подразумевается то, что формат отчетов подбирается с учетом отображения на странице. Можно настроить отображение всех данных отчета в таблице, даже если для этого потребуется много страниц. В качестве названия для таких отчетов также употребляют описательное выражение *с точностью до пикселя* , которое указывает на возможность точно настраивать макет отчета. Power BI Report Builder — это автономное средство для создания отчетов с разбивкой на страницы для службы Power BI. 
+
+Ниже приведены некоторые быстрые ссылки, если вы готовы приступить к работе.
+
+- [Установка построителя отчетов Power BI из Центра загрузки Майкрософт](https://aka.ms/pbireportbuilder)
+- [Руководство. Создание отчета с разбивкой на страницы](paginated-reports-quickstart-aw.md)
+- [Примеры отчетов Power BI с разбивкой на страницы](paginated-reports-samples.md)
+- Ищете сведения о Report Builder для Сервера отчетов Power BI или SQL Server Reporting Services? См. вместо этого раздел [Установка Report Builder — Сервер отчетов Power BI](../report-server/install-report-builder.md).
 
 Отчеты с разбивкой на страницы часто имеют много страниц. Например, этот отчет содержит 563 страницы. Для каждой страницы соблюдается точное форматирование: на каждой странице размещен строго один счет и повторяются стандартные колонтитулы.
 
@@ -51,7 +60,7 @@ ms.locfileid: "90859665"
 - SQL Server через шлюз;
 - SQL Server Analysis Services через шлюз.
 - Наборы данных Power BI
-- Oracle
+- Oracle;
 - Teradata
 
 ## <a name="design-your-report"></a>Создание отчета  
@@ -98,5 +107,6 @@ ms.locfileid: "90859665"
 - [Установка построителя отчетов Power BI из Центра загрузки Майкрософт](https://aka.ms/pbireportbuilder)
 - [Руководство. Создание отчета с разбивкой на страницы](paginated-reports-quickstart-aw.md)
 - [Онлайн-курс: отчеты с разбивкой на страницы в Power BI за один день](../learning-catalog/paginated-reports-online-course.md)
+- [Примеры отчетов Power BI с разбивкой на страницы](paginated-reports-samples.md)
 - [Ввод данных непосредственно в отчет с разбивкой на страницы](paginated-reports-enter-data.md)
 - [Руководство. Внедрение отчетов Power BI с разбивкой на страницы в приложение для клиентов](../developer/embedded/embed-paginated-reports-customers.md)

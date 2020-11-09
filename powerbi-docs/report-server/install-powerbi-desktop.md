@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
-ms.date: 07/24/2020
-ms.openlocfilehash: d361430387d9c24b8b4ef0b673c50cf4cec5a24b
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.date: 10/16/2020
+ms.openlocfilehash: 62add0b1268b06bb227bdc1b8ec2e4ae59358c57
+ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252614"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93044760"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Установка приложения Power BI Desktop, оптимизированного для сервера отчетов Power BI
 
@@ -45,9 +45,9 @@ ms.locfileid: "87252614"
     После автоматического запуска приложения вы будете готовы к работе.
 
 ## <a name="verify-youre-using-the-correct-version"></a>Проверка используемой версии
-Проверить используемую версию Power BI Desktop нетрудно: Посмотрите на экран запуска или заголовок окна Power BI Desktop. Если в строке заголовка отображается **Power BI Desktop (май 2020 г.)** , вы установили правильную версию. Кроме того, цвета логотипа Power BI изменены на обратные: желтый на черном вместо черного на желтом.
+Проверить используемую версию Power BI Desktop нетрудно: Посмотрите на экран запуска или заголовок окна Power BI Desktop. Если в строке заголовка вы видите **Power BI Desktop (октябрь 2020 г.)** , вы установили правильную версию. Кроме того, цвета логотипа Power BI изменены на обратные: желтый на черном вместо черного на желтом.
 
-![Power BI Desktop (май 2020 г.)](media/install-powerbi-desktop/power-bi-report-server-desktop-may-2020.png)
+![Power BI Desktop (октябрь 2020 г.)](media/install-powerbi-desktop/power-bi-report-server-desktop-may-2020.png)
 
 В строке заголовка версии Power BI Desktop для службы Power BI не указаны месяц и год выпуска.
 

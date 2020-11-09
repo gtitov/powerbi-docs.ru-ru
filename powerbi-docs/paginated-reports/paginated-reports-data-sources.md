@@ -8,14 +8,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 07/27/2020
-ms.openlocfilehash: f433a90580034495b4f7b1f6201c4481ffc627c5
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: d6f436477a8226dec870d039c8fe10491456a325
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859872"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93298204"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Поддерживаемые источники данных для отчетов с разбивкой на страницы Power BI
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 Эта статья описывает поддерживаемые источники данных для отчетов с разбивкой на страницы в службе Power BI и подключение к источникам данных базы данных SQL Azure. Некоторые источники данных поддерживаются изначально. К другим вы можете подключиться с помощью шлюзов данных.
 
@@ -25,7 +27,7 @@ ms.locfileid: "90859872"
 
 | Источник данных | Authentication | Примечания |
 | --- | --- | --- |
-| База данных SQL Azure <br>Хранилище данных SQL Azure | Базовый, единый вход, OAuth2 | Вы можете использовать корпоративный шлюз с базой данных SQL Azure. Однако вы не можете использовать SSO или oAuth2 для проверки подлинности в этих сценариях.   |
+| База данных SQL Azure <br>Хранилище данных SQL Azure | Базовый, единый вход, OAuth2 | Вы можете использовать корпоративный шлюз с базой данных SQL Azure. Однако вы не можете использовать SSO или oAuth2 для проверки подлинности в этих сценариях.   |
 | Управляемый экземпляр базы данных SQL Azure | Базовый | через общедоступную или частную конечную точку (частная конечная точка должна маршрутизироваться через корпоративный шлюз)  |
 | Azure Analysis Services | SSO, OAuth2 | Брандмауэр AAS должен быть отключен или настроен для разрешения всех диапазонов IP-адресов в регионе BlackForest. Это относится только к региону BlackForest.  Единый вход из внешнего клиента не поддерживается. |
 | Набор данных Power BI | Единый вход | Наборы данных Power BI Premium и отличные от них. Требуется разрешение на чтение |
@@ -53,11 +55,11 @@ ms.locfileid: "90859872"
 
 ![Идет публикация в Power BI](media/paginated-reports-data-sources/power-bi-paginated-publishing.png)
 
-Если не указать учетные данные, при запуске отчета возникает ошибка. Нажмите кнопку **Продолжить**, чтобы перейти на страницу **Учетные данные источника данных** для только что отправленного отчета:
+Если не указать учетные данные, при запуске отчета возникает ошибка. Нажмите кнопку **Продолжить** , чтобы перейти на страницу **Учетные данные источника данных** для только что отправленного отчета:
 
 ![Параметры для базы данных SQL Azure](media/paginated-reports-data-sources/power-bi-paginated-settings-azure-sql.png)
 
-Щелкните ссылку **Изменить учетные данные** для заданного источника данных, чтобы открыть диалоговое окно **Настройка**:
+Щелкните ссылку **Изменить учетные данные** для заданного источника данных, чтобы открыть диалоговое окно **Настройка** :
 
 ![Настройка базы данных SQL Azure](media/paginated-reports-data-sources/power-bi-paginated-configure-azure-sql.png)
 
@@ -65,9 +67,9 @@ ms.locfileid: "90859872"
 
 - Базовый (имя пользователя и пароль)
 - Единый вход
-- OAuth2 (сохраненный токен AAD)
+- OAuth2 (сохраненный токен Azure Active Directory)
 
-Для правильной работы единого входа и OAuth2 на сервере базы данных SQL Azure, к которому подключается источник данных, должна быть включена [поддержка проверки подлинности AAD](/azure/sql-database/sql-database-aad-authentication-configure). Для метода проверки подлинности OAuth2 AAD создает токен и сохраняет его для будущего обращения к источнику данных. Чтобы вместо этого использовать [метод проверки подлинности на базе единого входа](../connect-data/service-azure-sql-database-with-direct-connect.md#single-sign-on), выберите расположенный ниже параметр единого входа **Конечные пользователи используют свои учетные данные OAuth2 при доступе к этому источнику данных через DirectQuery**.
+Для правильной работы единого входа и OAuth2 на сервере Базы данных SQL Azure, к которому подключается источник данных, должна быть включена [поддержка проверки подлинности Azure Active Directory](/azure/sql-database/sql-database-aad-authentication-configure). Для метода проверки подлинности OAuth2 Azure Active Directory создает токен и сохраняет его для будущего обращения к источнику данных. Чтобы вместо этого использовать [метод проверки подлинности на базе единого входа](../connect-data/service-azure-sql-database-with-direct-connect.md#single-sign-on), выберите расположенный ниже параметр единого входа **Конечные пользователи используют свои учетные данные OAuth2 при доступе к этому источнику данных через DirectQuery**.
   
 ## <a name="next-steps"></a>Дальнейшие действия
 

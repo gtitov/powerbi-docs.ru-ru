@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 07/24/2020
 ms.author: maggies
-ms.openlocfilehash: 73772b96929ffd91dc5a38634ab9a1a2e57286b1
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: b41ca7c8a85a544afea84e7f19a06f91dc85f376
+ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87251349"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93045023"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Создание отчета Power BI для Сервера отчетов Power BI
 Отчеты Power BI можно хранить и администрировать локально на веб-портале Сервера отчетов Power BI так же, как и в облачной службе Power BI (https://powerbi.com). Вы можете создавать и редактировать отчеты в приложении Power BI Desktop, а затем публиковать их на веб-портале. Затем можно сообщить читателям в вашей организации о том, что эти отчеты можно просматривать в браузере или мобильном приложении Power BI на мобильных устройствах.
@@ -44,9 +44,9 @@ ms.locfileid: "87251349"
 
 2. На завершающем этапе процесса установки выберите параметр **Start Power BI Desktop now** (Запустить Power BI Desktop).
    
-    После автоматического запуска приложения вы будете готовы к работе. Если в строке заголовка отображается **Power BI Desktop (май 2020 г.)** , вы установили правильную версию.
+    После автоматического запуска приложения вы будете готовы к работе. Если в строке заголовка вы видите **Power BI Desktop (октябрь 2020 г.)** , вы установили правильную версию.
 
-    ![Power BI Desktop (май 2020 г.)](media/quickstart-create-powerbi-report/power-bi-report-server-desktop-may-2020.png)
+    ![Power BI Desktop (октябрь 2020 г.)](media/quickstart-create-powerbi-report/power-bi-report-server-desktop-may-2020.png)
 
 3. Если вы не знакомы с Power BI Desktop, просмотрите видеоролики на экране приветствия.
    
@@ -58,7 +58,7 @@ ms.locfileid: "87251349"
 1. На экране приветствия выберите **Get Data** (Получить данные).
    
     На вкладке **Home** (Главная) выберите пункт **Get Data** (Получить данные).
-2. Выберите источник данных (в этом примере **Analysis Services**).
+2. Выберите источник данных (в этом примере **Analysis Services** ).
    
     ![Выбор источника данных](media/quickstart-create-powerbi-report/power-bi-report-server-get-data-ssas.png)
 3. Заполните поле **Server** (Сервер) и при необходимости поле **Database** (База данных). Убедитесь, что установлен флажок **Connect live** (Подключение в реальном времени) и нажмите кнопку **ОK**.
