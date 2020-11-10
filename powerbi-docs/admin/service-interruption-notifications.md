@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/25/2020
 ms.author: kfollis
-ms.openlocfilehash: 20fb1f117432d5c36bfe0c536bc0803871134c95
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 8b9c10c8b3faa87cfc19c3c1d8f87a36de0307dd
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91981534"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916137"
 ---
 # <a name="service-interruption-notifications"></a>Уведомления о перебое в работе служб
 
@@ -21,7 +21,7 @@ ms.locfileid: "91981534"
 
 ![Уведомление по электронной почте об обновлении](media/service-interruption-notifications/refresh-notification-email.png)
 
-Сейчас мы отправляем сообщения электронной почты для следующих _сценариев надежности_:
+Сейчас мы отправляем сообщения электронной почты для следующих _сценариев надежности_ :
 
 - Надежность открытия отчетов
 - Надежность обновления моделей
@@ -30,7 +30,7 @@ ms.locfileid: "91981534"
 Уведомления отправляются, когда происходит _значительная задержка_ в работе, например при открытии отчетов, обновлении набора данных или выполнении запросов. После разрешения инцидента вы получите сообщение электронной почты с дальнейшими указаниями.
 
 > [!NOTE]
-> Сейчас эта функция доступна только для выделенных емкостей в Power BI Premium. Она недоступна для общей или встроенной емкости.
+> Сейчас эта функция доступна только для емкостей в Power BI Premium. Она недоступна для общей или встроенной емкости.
 
 ## <a name="capacity-and-reliability-notifications"></a>Уведомления о емкости и надежности
 

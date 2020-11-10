@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: f189ea2944f86a3caabfbc51ae5b2887bc7c89bb
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 3a541c46f78c5e5cd25b47a94394a011fd61954f
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83278614"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916551"
 ---
 # <a name="optimization-guide-for-power-bi"></a>Рекомендации по оптимизации Power BI
 
@@ -83,7 +83,7 @@ ms.locfileid: "83278614"
 
 ### <a name="capacity-settings"></a>Параметры емкости
 
-При использовании выделенных мощностей, которые доступны для Power BI Premium (ценовые категории P) или Power BI Embedded (ценовые категории A4-A6), можно управлять параметрами емкости. Дополнительные сведения см. в статье [Управление емкостями Premium](../admin/service-premium-capacity-manage.md). Рекомендации по оптимизации производительности для емкости Premium см. в [этой статье](../admin/service-premium-capacity-optimize.md).
+При использовании емкостей, которые доступны для Power BI Premium (ценовые категории P) или Power BI Embedded (ценовые категории A4–A6), можно управлять параметрами емкости. Дополнительные сведения см. в статье [Управление емкостями Premium](../admin/service-premium-capacity-manage.md). Рекомендации по оптимизации производительности для емкости Premium см. в [этой статье](../admin/service-premium-capacity-optimize.md).
 
 ### <a name="gateway-sizing"></a>Выбор размера шлюза
 

@@ -8,16 +8,16 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/17/2020
-ms.openlocfilehash: 762cc2d3d170f5418616da46806f8a445490ee8d
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 4102ed7307c9b7be40fb682befc4056094cbe6ad
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635224"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916942"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>Емкость и номера SKU в аналитике Power BI Embedded
 
-При переносе в рабочую среду для аналитики Power BI Embedded требуется выделенная емкость (номер SKU *A*, *EM* или *P*) в целях публикации внедренного содержимого Power BI.
+При переносе в рабочую среду для аналитики Power BI Embedded требуется емкость (ценовая категория *A* , *EM* или *P* ) для публикации внедренного содержимого Power BI.
 
 Емкость — это выделенный набор ресурсов, зарезервированных для монопольного использования. Она позволяет публиковать панели мониторинга, отчеты и наборы данных для пользователей без необходимости приобретать лицензии для них. Она также обеспечивает предсказуемую и согласованную производительность для содержимого.
 
@@ -27,8 +27,8 @@ ms.locfileid: "91635224"
 ## <a name="what-is-embedded-analytics"></a>Что такое встроенная аналитика?
 
 Встроенная аналитика Power BI включает в себя два решения:
-* *Power BI Embedded* — предложение Azure;
-* внедрение Power BI в рамках *Power BI Premium* — предложение Office.
+* *Power BI Embedded*  — предложение Azure;
+* внедрение Power BI в рамках *Power BI Premium*  — предложение Office.
 
 ### <a name="power-bi-embedded"></a>Power BI Embedded
 

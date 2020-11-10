@@ -284,7 +284,7 @@
               href: service-gateway-personal-mode.md
             - name: Управление источниками данных шлюза
               items:
-                - name: Управление источниками данных
+                - name: Добавление и удаление источника данных шлюза
                   href: service-gateway-data-sources.md
                 - name: "Управление источником данных предприятия\_— службы Analysis Services"
                   href: service-gateway-enterprise-manage-ssas.md

@@ -8,19 +8,19 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/04/2020
 ms.author: v-pemyer
-ms.openlocfilehash: f1608fd2511e38758b5bf05041d625cf524fff34
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 169a94beab8cb5b4c44105aba4c1cdf02e902c06
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83127814"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916873"
 ---
 # <a name="when-to-use-paginated-reports-in-power-bi"></a>В каких случаях использовать отчеты с разбивкой на страницы в Power BI
 
 Эта статья предназначена для разработчиков отчетов Power BI. В ней представлены рекомендации, которые помогут в разработке [отчетов с разбивкой на страницы Power BI](../paginated-reports/paginated-reports-report-builder-power-bi.md).
 
 > [!NOTE]
-> Для публикации отчетов с разбивкой на страницы Power BI требуется подписка Power BI Premium. Отчеты отображаются только в том случае, если они находятся в рабочей области с выделенной емкостью со [включенной рабочей нагрузкой отчетов с разбивкой на страницы](../admin/service-admin-premium-workloads.md#paginated-reports).
+> Для публикации отчетов с разбивкой на страницы Power BI требуется подписка Power BI Premium. Отчеты отображаются, только если они находятся в рабочей области с емкостью со [включенной рабочей нагрузкой отчетов с разбивкой на страницы](../admin/service-admin-premium-workloads.md#paginated-reports).
 
 Отчеты с разбивкой на страницы Power BI оптимизированы для **печати** и **создания PDF-файлов**. Кроме того, они предоставляют возможность создавать идеально оформленные макеты с широкими возможностями форматирования. Таким образом, отчеты с разбивкой на страницы идеально подходят для рабочих отчетов, таких как счета на продажу.
 
