@@ -8,7 +8,7 @@
         - name: Обзор редактора запросов
           href: desktop-query-overview.md
         - name: Самостоятельная подготовка данных с помощью потоков данных
-          href: service-dataflows-overview.md
+          href: ./dataflows/dataflows-introduction-self-service.md
     - name: Учебники
       expanded: true
       items:
@@ -98,39 +98,39 @@
         - name: Самостоятельная подготовка данных
           items:
             - name: Создание и использование потоков данных
-              href: service-dataflows-create-use.md
+              href: ./dataflows/dataflows-create.md
             - name: Использование DirectQuery с потоками данных в Power BI (предварительная версия)
-              href: service-dataflows-directquery.md
+              href: ./dataflows/dataflows-configure-consume.md
             - name: Использование расширенного ядра вычислений для потоков данных
-              href: service-dataflows-enhanced-compute-engine.md
+              href: ./dataflows/dataflows-premium-features.md
             - name: Вычисляемые сущности с Power BI Premium
-              href: service-dataflows-computed-entities-premium.md
+              href: ./dataflows/dataflows-premium-features.md
             - name: Подключение к источникам данных с помощью потоков данных
-              href: service-dataflows-data-sources.md
+              href: ./dataflows/dataflows-configure-consume.md
             - name: Использование потоков данных с локальными источниками данных
-              href: service-dataflows-on-premises-gateways.md
+              href: ./dataflows/dataflows-configure-consume.md
             - name: Связывание сущностей из разных потоков данных
-              href: service-dataflows-linked-entities.md
+              href: ./dataflows/dataflows-premium-features.md
             - name: Использование добавочного обновления для потоков данных
-              href: service-dataflows-incremental-refresh.md
+              href: ./dataflows/dataflows-premium-features.md
             - name: Ресурсы для разработчиков потоков данных
-              href: service-dataflows-developer-resources.md
+              href: ./dataflows/dataflows-configure-consume.md
             - name: Подключение к потокам данных в Power BI Desktop
               href: desktop-connect-dataflows.md
             - name: Потоки данных и интеграция Azure Data Lake (предварительная версия)
-              href: service-dataflows-azure-data-lake-integration.md
+              href: ./dataflows/dataflows-azure-data-lake-storage-integration.md
             - name: "Подключение Azure Data Lake\_Storage 2-го\_поколения для хранения потоков данных"
-              href: service-dataflows-connect-azure-data-lake-storage-gen2.md
+              href: ./dataflows/dataflows-azure-data-lake-storage-integration.md
             - name: Настройка параметров потоков данных рабочей области (предварительная версия)
-              href: service-dataflows-configure-workspace-storage-settings.md
+              href: ./dataflows/dataflows-configure-consume.md
             - name: Добавление папки CDM в Power BI в виде потока данных (предварительная версия)
-              href: service-dataflows-add-cdm-folder.md
+              href: ./dataflows/dataflows-machine-learning-integration.md
             - name: "Интеграция машинного обучения с Power\_BI"
-              href: service-machine-learning-integration.md
+              href: ./dataflows/dataflows-machine-learning-integration.md
             - name: "Использование Cognitive Services в Power\_BI"
-              href: service-cognitive-services.md
+              href: ./dataflows/dataflows-machine-learning-integration.md
             - name: "Автоматизированное машинное обучение в Power\_BI"
-              href: service-machine-learning-automated.md
+              href: ./dataflows/dataflows-machine-learning-integration.md
     - name: Справка
       items:
         - name: Ярлыки редактора формул

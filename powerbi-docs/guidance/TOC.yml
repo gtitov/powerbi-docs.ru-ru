@@ -21,7 +21,7 @@
             - name: "Отключение фонового обновления Power\_Query"
               href: power-query-background-refresh.md
             - name: Рекомендации по потокам данных
-              href: ../transform-model/service-dataflows-best-practices.md
+              href: ../transform-model/dataflows/dataflows-introduction-self-service.md
         - name: Моделирование данных
           items:
             - name: Что такое схема типа "звезда"?
