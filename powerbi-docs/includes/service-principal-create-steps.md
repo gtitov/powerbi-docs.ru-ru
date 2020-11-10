@@ -48,7 +48,7 @@ Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
 
 Чтобы приложение Azure AD могло получить доступ к содержимому и API-интерфейсам Power BI, администратор Power BI должен включить доступ субъекта-службы на портале администрирования Power BI.
 
-Добавьте группу безопасности, созданную в Azure AD, в раздел отдельных групп безопасности на странице **Параметры разработчика** .
+Добавьте группу безопасности, созданную в Azure AD, в раздел отдельных групп безопасности на странице **Параметры разработчика**.
 
 >[!IMPORTANT]
 >Субъекты-службы имеют доступ ко всем параметрам клиента, для которых они включены. В зависимости от параметров администратора, это может быть определенная группа безопасности или вся организация.
@@ -65,10 +65,10 @@ Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
 >[!NOTE]
 >В этом разделе содержатся инструкции для пользовательского интерфейса. Вы также можете добавить субъект-службу в рабочую область, используя команду [Groups — add group user API](/rest/api/power-bi/groups/addgroupuser) (Группы — добавление API-интерфейса пользователя группы).
 
-1. Перейдите к рабочей области, для которой требуется включить доступ, а затем в меню **Еще** выберите команду **Доступ к рабочей области** .
+1. Перейдите к рабочей области, для которой требуется включить доступ, а затем в меню **Еще** выберите команду **Доступ к рабочей области**.
 
-    :::image type="content" source="../developer/embedded/media/embed-service-principal/workspace-access.png" alt-text="Снимок экрана: страница &quot;Параметры разработчика&quot; в области параметров администратора на портале Power BI.":::
+    :::image type="content" source="../developer/embedded/media/embed-service-principal/workspace-access.png" alt-text="Снимок экрана: кнопка &quot;Доступ к рабочей области&quot; в меню &quot;Еще&quot; в рабочей области Power BI.":::
 
 2. Добавьте субъект-службу как **Администратор** или **Участник** в эту рабочую область.
 
-    :::image type="content" source="../developer/embedded/media/embed-service-principal/add-service-principal-in-the-UI.png" alt-text="Снимок экрана: страница &quot;Параметры разработчика&quot; в области параметров администратора на портале Power BI.":::
+    :::image type="content" source="../developer/embedded/media/embed-service-principal/add-service-principal-in-the-UI.png" alt-text="Снимок экрана: добавление участника или администратора в область доступа на портале Power BI.":::

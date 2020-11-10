@@ -86,7 +86,7 @@ ms.locfileid: "92256850"
 
 ![Раздел персонализации визуального элемента на панели "Формат"](media/power-bi-personalize-visuals/power-bi-personalize-perspective-07.png)
 
-Для параметра *Перспектива читателя отчета* изначально установлено значение *Поля по умолчанию* . После выбора стрелки раскрывающегося списка вы увидите другие созданные вами перспективы.
+Для параметра *Перспектива читателя отчета* изначально установлено значение *Поля по умолчанию*. После выбора стрелки раскрывающегося списка вы увидите другие созданные вами перспективы.
 
 ![Выбор стрелки раскрывающегося списка для просмотра других перспектив](media/power-bi-personalize-visuals/power-bi-personalize-perspective-08.png)
 
@@ -100,19 +100,19 @@ ms.locfileid: "92256850"
 
 ### <a name="in-power-bi-desktop"></a>Power BI Desktop
 
-Чтобы включить эту функцию в Power BI Desktop, последовательно выберите **Файл** > **Параметры и настройки** > **Параметры** > **Текущий файл** > **Параметры отчета** . Убедитесь, что параметр **Персонализировать визуальные элементы** включен.
+Чтобы включить эту функцию в Power BI Desktop, последовательно выберите **Файл** > **Параметры и настройки** > **Параметры** > **Текущий файл** > **Параметры отчета**. Убедитесь, что параметр **Персонализировать визуальные элементы** включен.
 
-:::image type="content" source="media/power-bi-personalize-visuals/personalize-report-setting-desktop.png" alt-text="Персонализация представления":::
+:::image type="content" source="media/power-bi-personalize-visuals/personalize-report-setting-desktop.png" alt-text="Включение персонализации в отчете":::
 
 ### <a name="in-the-power-bi-service"></a>В службе Power BI
 
 Чтобы включить эту функцию в службе Power BI, перейдите в раздел **Параметры** для отчета.
 
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-report-service-settings-personalize-visual.png" alt-text="Персонализация представления":::
+:::image type="content" source="media/power-bi-personalize-visuals/power-bi-report-service-settings-personalize-visual.png" alt-text="Параметры отчета в службе Power BI":::
 
-Выберите **Персонализировать визуальные элементы** > **Сохранить** .
+Выберите **Персонализировать визуальные элементы** > **Сохранить**.
 
-:::image type="content" source="media/power-bi-personalize-visuals/personalize-report-setting-service.png" alt-text="Персонализация представления":::
+:::image type="content" source="media/power-bi-personalize-visuals/personalize-report-setting-service.png" alt-text="Включение персонализации визуальных элементов в службе":::
 
 ## <a name="turn-the-feature-on-or-off-at-a-page-or-visual-level"></a>Включение и отключение компонента на уровне страницы или визуального элемента
 
@@ -120,21 +120,21 @@ ms.locfileid: "92256850"
 
 ### <a name="per-page"></a>Для страницы
 
-Перейдите на вкладку "Страница" и выберите **Формат** на панели **Визуализации** .
+Перейдите на вкладку "Страница" и выберите **Формат** на панели **Визуализации**.
 
-:::image type="content" source="media/power-bi-personalize-visuals/personalize-page-level-setting.png" alt-text="Персонализация представления":::
+:::image type="content" source="media/power-bi-personalize-visuals/personalize-page-level-setting.png" alt-text="Выберите &quot;Персонализировать визуальный элемент&quot; для страницы.":::
  
 Переключите ползунок **Персонализировать визуальный элемент** >   в положение **Вкл.** или **Выкл.** .
 
 ### <a name="per-visual"></a>Для визуального элемента
 
-Выберите визуальный элемент > выберите **Формат** в области **Визуализации** > раскройте **Заголовок визуального элемента** .
+Выберите визуальный элемент > выберите **Формат** в области **Визуализации** > раскройте **Заголовок визуального элемента**.
 
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-header-personalize.png" alt-text="Персонализация представления":::
+:::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-header-personalize.png" alt-text="Выберите заголовок визуального элемента":::
  
 Переключите ползунок **Персонализировать визуальный элемент** >   в положение **Вкл.** или **Выкл.** .
 
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-personalize-on-off.png" alt-text="Персонализация представления":::
+:::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-personalize-on-off.png" alt-text="Ползунок Персонализировать визуальный элемент в положении вкл. или выкл.":::
 
 
 ## <a name="limitations"></a>Ограничения

@@ -40,18 +40,18 @@ ms.locfileid: "92463088"
 
 ## <a name="open-the-settings-pane-in-power-bi-desktop"></a>Откройте панель "Параметры" в Power BI Desktop
 
-1. Выберите **Файл** > **Параметры и настройки** > **Параметры** .
-1. В разделе **Текущий файл** выберите **Параметры отчета** .
+1. Выберите **Файл** > **Параметры и настройки** > **Параметры**.
+1. В разделе **Текущий файл** выберите **Параметры отчета**.
 
-    :::image type="content" source="media/power-bi-report-settings/desktop-report-settings-pane.png" alt-text="Снимок экрана: панель параметров отчета в службе Power BI.":::
+    :::image type="content" source="media/power-bi-report-settings/desktop-report-settings-pane.png" alt-text="Снимок экрана: панель &quot;Параметры&quot; в Power BI Desktop":::
 
     В оставшейся части этой статьи описываются определенные параметры отчета.
 
 ## <a name="open-the-settings-pane-in-the-power-bi-service"></a>Откройте панель "Параметры" в службе Power BI
 
-1. В режиме чтения отчета выберите **Файл** > **Параметры** .
+1. В режиме чтения отчета выберите **Файл** > **Параметры**.
 
-    :::image type="content" source="media/power-bi-report-settings/service-report-file-settings.png" alt-text="Снимок экрана: панель параметров отчета в службе Power BI.":::
+    :::image type="content" source="media/power-bi-report-settings/service-report-file-settings.png" alt-text="Снимок экрана: меню &quot;Файл&quot; и &quot;Параметры&quot;.":::
 
 1. В области **Параметры** отображается несколько переключателей, которые можно задать для этого отчета. В оставшейся части этой статьи описываются некоторые из них.
 
@@ -63,7 +63,7 @@ ms.locfileid: "92463088"
 
 В настоящее время параметр области страниц можно изменить только в службе Power BI. Если перевести переключатель **Область страниц** в положение "Вкл.", в режиме чтения вкладки страниц отчета будут отображаться в нижней части, а не сбоку. В режиме правки вкладки страницы отчета уже расположены в нижней части отчета.
 
-:::image type="content" source="media/power-bi-report-settings/report-settings-pages-pane.png" alt-text="Снимок экрана: панель параметров отчета в службе Power BI.":::
+:::image type="content" source="media/power-bi-report-settings/report-settings-pages-pane.png" alt-text="Снимок экрана: настройка области страниц.":::
 
 ## <a name="control-filters"></a>Фильтры элементов управления
 
