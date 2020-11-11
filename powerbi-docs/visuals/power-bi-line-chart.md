@@ -1,20 +1,20 @@
 ---
 title: Графики в Power BI
 description: Графики в Power BI
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 59cede1cae716661be8d3796330bde7da44170eb
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: acbd6e40a351885b8644aca48edf41db81462864
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91634603"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93411988"
 ---
 # <a name="line-charts-in-power-bi"></a>Графики в Power BI
 
@@ -47,7 +47,7 @@ ms.locfileid: "91634603"
      
     ![линия рядом с областью полей](media/power-bi-line-charts/power-bi-year-filter.png)
 
-    Замените **Расширенные фильтры** на **Базовые фильтры**, после чего выберите **2012**, **2013** и **2014**.
+    Замените **Расширенные фильтры** на **Базовые фильтры** , после чего выберите **2012** , **2013** и **2014**.
 
     ![Фильтр по годам](media/power-bi-line-charts/power-bi-filter-year.png)
 

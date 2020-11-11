@@ -1,21 +1,21 @@
 ---
 title: Часть 1. Добавление визуализаций в отчет Power BI
 description: Часть 1. Добавление визуализаций в отчет Power BI
-author: mihart
-ms.reviewer: rien
+author: msftrien
+ms.reviewer: mihart
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 05/06/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 439807717a91a22520969a85a3991b76f8115833
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3a2002c9f17428c84704d68f621cf18443252557
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232376"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93411896"
 ---
 # <a name="add-visuals-to-a-power-bi-report-part-1"></a>Добавление визуальных элементов в отчет Power BI (часть 1)
 
@@ -60,7 +60,7 @@ ms.locfileid: "85232376"
 
  Создайте визуализацию и измените ее тип. 
  
- 1. Выберите **Продукт** > **Категория**, а затем **Продукт** > **Число продуктов**, чтобы добавить эти поля в раздел **Значения**.
+ 1. Выберите **Продукт** > **Категория** , а затем **Продукт** > **Число продуктов** , чтобы добавить эти поля в раздел **Значения**.
 
     ![Снимок экрана: панель "Поля" с вызванным разделом "Значения".](media/power-bi-report-add-visualizations-i/power-bi-create-visual.png)
 
@@ -68,7 +68,7 @@ ms.locfileid: "85232376"
 
    ![Снимок экрана: панель "Визуализации" после нажатия значка "Гистограмма с накоплением".](media/power-bi-report-add-visualizations-i/power-bi-convert.png)
 
-1. Чтобы изменить способ сортировки визуального элемента, выберите **Дополнительные действия** (...).  Используйте параметры сортировки, чтобы изменить направление сортировки (по возрастанию или по убыванию) и столбец, используемый для сортировки (**Сортировать по**).
+1. Чтобы изменить способ сортировки визуального элемента, выберите **Дополнительные действия** (...).  Используйте параметры сортировки, чтобы изменить направление сортировки (по возрастанию или по убыванию) и столбец, используемый для сортировки ( **Сортировать по** ).
 
    ![Снимок экрана с раскрывающимся списком "Другие действия".](media/power-bi-report-add-visualizations-i/power-bi-sort.png)
   

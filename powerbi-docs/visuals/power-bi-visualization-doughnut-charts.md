@@ -1,20 +1,20 @@
 ---
 title: Кольцевые диаграммы в Power BI
 description: Кольцевые диаграммы в Power BI
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f76fe26f8b7d4f9e9c0cbe1ffe22c71d815a9307
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 24788b16718e1223bdd2040d42a67e4f175b8371
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239734"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93413069"
 ---
 # <a name="create-and-use-doughnut-charts-in-power-bi"></a>Создание и использование кольцевых диаграмм в Power BI
 
@@ -44,11 +44,11 @@ ms.locfileid: "85239734"
 
 1. Откройте пустую страницу отчета и в области "Поля" выберите **Продажи** \> **Продажи за последний год**.  
    
-3. В области "Визуализации" щелкните значок кольцевой диаграммы ![значок кольцевой диаграммы](media/power-bi-visualization-doughnut-charts/power-bi-icon.png), чтобы преобразовать линейчатую диаграмму в кольцевую. Если поля **Продажи за прошлый год** нет в области **Значения**, перетащите его туда.
+3. В области "Визуализации" щелкните значок кольцевой диаграммы ![значок кольцевой диаграммы](media/power-bi-visualization-doughnut-charts/power-bi-icon.png), чтобы преобразовать линейчатую диаграмму в кольцевую. Если поля **Продажи за прошлый год** нет в области **Значения** , перетащите его туда.
      
    ![Панель визуализации с выбранным значком кольцевой диаграммы](media/power-bi-visualization-doughnut-charts/power-bi-doughnut-chart.png)
 
-4. Выберите **Элемент** \> **Категория**, чтобы добавить его в область **условных обозначений**. 
+4. Выберите **Элемент** \> **Категория** , чтобы добавить его в область **условных обозначений**. 
      
     ![кольцевая диаграмма рядом с областью полей](media/power-bi-visualization-doughnut-charts/power-bi-doughnut-done.png)
 

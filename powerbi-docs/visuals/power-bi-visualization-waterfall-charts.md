@@ -1,8 +1,8 @@
 ---
 title: Каскадные диаграммы в Power BI
 description: Каскадные диаграммы в Power BI
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 12/5/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 148fe66039cb273d4ee20521762d5720252c7492
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: ce3c52774326bd9fc66fecde7496fefb1cf6888c
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635730"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412126"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Каскадные диаграммы в Power BI
 
@@ -70,7 +70,7 @@ ms.locfileid: "91635730"
 
     ![Шаблоны визуализаций](media/power-bi-visualization-waterfall-charts/convert-waterfall.png)
 
-1. Выберите **Время** > **Финансовый месяц**, чтобы добавить время в область **Категория**.
+1. Выберите **Время** > **Финансовый месяц** , чтобы добавить время в область **Категория**.
 
     ![каскадная диаграмма](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-month.png)
 
@@ -78,7 +78,7 @@ ms.locfileid: "91635730"
 
 1. Убедитесь в том, что Power BI сортирует каскадную диаграмму в хронологическом порядке по месяцам. Щелкните **Дополнительные параметры** (...) в правом верхнем углу диаграммы.
 
-    Для этого примера выберите **Сортировать по**, а затем выберите **Финансовый месяц**. Желтый индикатор рядом с выбранным параметром указывает, когда он применяется.
+    Для этого примера выберите **Сортировать по** , а затем выберите **Финансовый месяц**. Желтый индикатор рядом с выбранным параметром указывает, когда он применяется.
 
     ![Выберите "Сортировать по > Финансовый месяц"](media/power-bi-visualization-waterfall-charts/power-bi-sort-by-fiscalmonth.png)
     
@@ -94,7 +94,7 @@ ms.locfileid: "91635730"
 
 Подробно изучите данные, чтобы увидеть, что больше всего влияет на изменения по месяцам.
 
-1.  Выберите **Магазин** > **Территория**, чтобы добавить **территорию** в контейнер **Распределение**.
+1.  Выберите **Магазин** > **Территория** , чтобы добавить **территорию** в контейнер **Распределение**.
 
     ![Снимок экрана: добавление элемента "Территория" в область "Распределение".](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
 

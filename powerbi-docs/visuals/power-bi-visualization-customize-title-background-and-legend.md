@@ -1,21 +1,21 @@
 ---
 title: Форматирование визуализаций в Power BI
 description: Настройка заголовка, фона и условных обозначений визуализации
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 03/06/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8ef9aec1bf01120c8c7e765fe3c59c23da40ceab
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0d19d7366dce571e2d89ba5cbc6ffbe936ec50e2
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235870"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93410999"
 ---
 # <a name="customize-visualization-titles-backgrounds-and-legends"></a>Настройка заголовков визуализаций, фона и условных обозначений
 
@@ -49,7 +49,7 @@ ms.locfileid: "85235870"
 
 1. В области **визуализации** выберите значок валика для отображения параметров форматирования.
 
-1. Выберите **Заголовок**, чтобы развернуть этот раздел.
+1. Выберите **Заголовок** , чтобы развернуть этот раздел.
 
    ![Снимок экрана: область форматирования с выделенным значком валика и стрелкой в раскрывающемся списке "Заголовок".](media/power-bi-visualization-customize-title-background-and-legend/power-bi-format-menu.png)
 
@@ -59,9 +59,9 @@ ms.locfileid: "85235870"
 
     ![Снимок экрана: область форматирования с введенным текстом заголовка.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-title.png)
 
-1. Измените **цвет шрифта** на белый, а **цвет фона** — на синий.    
+1. Измените **цвет шрифта** на белый, а **цвет фона**  — на синий.    
 
-    а. Щелкните раскрывающийся список и выберите цвет в одном из разделов: **Цвета темы**, **Последние цвета**, **Дополнительный цвет**.
+    а. Щелкните раскрывающийся список и выберите цвет в одном из разделов: **Цвета темы** , **Последние цвета** , **Дополнительный цвет**.
     
     ![Снимок экрана: параметры цвета шрифта и цвета фона.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-color.png)
 
@@ -106,9 +106,9 @@ ms.locfileid: "85235870"
 
 1. Откройте страницу отчета **Обзор** и выберите диаграмму **Разница в общем объеме продаж по FiscalMonth и региональным менеджерам**.
 
-1. Откройте панель **форматирования**, щелкнув значок валика.
+1. Откройте панель **форматирования** , щелкнув значок валика.
 
-1. Разверните параметры **условных обозначений**:
+1. Разверните параметры **условных обозначений** :
 
     ![Снимок экрана: карточка условных обозначений.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-legends.png)
 

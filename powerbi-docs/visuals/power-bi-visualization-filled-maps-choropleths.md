@@ -1,8 +1,8 @@
 ---
 title: Картограммы (хороплеты) в Power BI
 description: Документация по созданию картограмм (хороплетов) в Power BI
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 12/05/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 45069a4a575659d44e41f1010d9941f21caa1ad1
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: ce0adb6d5115ece1b228690c496d022f8dfc9e56
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861643"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93413000"
 ---
 # <a name="create-and-use-filled-maps-choropleth-maps-in-power-bi"></a>Создание и использование картограмм (хороплетов) в Power BI
 
@@ -28,7 +28,7 @@ ms.locfileid: "90861643"
 ![Карта США](media/power-bi-visualization-filled-maps-choropleths/large-map.png)
 
 ## <a name="what-is-sent-to-bing"></a>Какие данные отправляются в Bing
-Power BI интегрируется с Bing для предоставления картографических координат по умолчанию (этот процесс называется геокодированием). При создании визуализации карты в службе Power BI или Power BI Desktop данные в контейнерах **Расположение**, **Широта** и **Долгота**, используемых для создания визуального элемента, отправляются в Bing.
+Power BI интегрируется с Bing для предоставления картографических координат по умолчанию (этот процесс называется геокодированием). При создании визуализации карты в службе Power BI или Power BI Desktop данные в контейнерах **Расположение** , **Широта** и **Долгота** , используемых для создания визуального элемента, отправляются в Bing.
 
 Вам или администратору может потребоваться обновить брандмауэр, чтобы разрешить доступ к URL-адресам, которые Bing использует для геокодирования.  Ниже приведены эти URL-адреса:
 - https://dev.virtualearth.net/REST/V1/Locations    
@@ -49,7 +49,7 @@ Power BI интегрируется с Bing для предоставления 
 
 ### <a name="prerequisites"></a>Предварительные требования
 В этом руководстве используется [PBIX-файл с образцом "Продажи и маркетинг"](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix).
-1. В левом верхнем разделе строки меню выберите **Файл**  > **Открыть**.
+1. В левом верхнем разделе строки меню выберите **Файл**   > **Открыть**.
    
 2. Найдите свою копию **PBIX-файла "Продажи и маркетинг"** .
 
@@ -74,7 +74,7 @@ Power BI интегрируется с Bing для предоставления 
    б.  Наведите указатель мыши на значение **State** (Штат) и выберите значок развертывания.  
    ![Фильтры уровня визуальных элементов: показано State(All)](media/power-bi-visualization-filled-maps-choropleths/img004.png)
 
-   в.  Установите флажок рядом с **Все** и снимите флажок рядом с **AK**(Аляска).
+   в.  Установите флажок рядом с **Все** и снимите флажок рядом с **AK** (Аляска).
 
    ![Раскрывающийся список штатов: All и AK не выбраны](media/power-bi-visualization-filled-maps-choropleths/img005.png)
 4. Откройте панель форматирования, щелкнув значок валика, и выберите **Цвета данных**.

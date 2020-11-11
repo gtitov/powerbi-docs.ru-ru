@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.custom: ''
 ms.date: 04/16/2019
-ms.openlocfilehash: eb9476b3f21d1149492982a8dcae3d8ce89e9629
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: f84527a189be0f78f73470cbc475f45206dd8cf1
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748662"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412402"
 ---
 # <a name="auto-install-power-bi-apps-when-embedding-for-your-organization"></a>Автоматическая установка приложений Power BI при внедрении для организации
 
@@ -25,7 +25,7 @@ ms.locfileid: "91748662"
 
 ## <a name="embed-for-power-bi-users-user-owns-data"></a>Внедрение для пользователей Power BI (данные принадлежат пользователю)
 
-Чтобы разрешить автоматическую установку приложений для пользователей, вам нужно предоставить приложению разрешение "Создание содержимого" при [его регистрации](register-app.md#register-with-the-power-bi-application-registration-tool) или добавить это разрешение, если вы уже зарегистрировали свое приложение.
+Чтобы разрешить автоматическую установку приложений для пользователей, вам нужно предоставить приложению разрешение "Создание содержимого" при [его регистрации](register-app.md#register-an-azure-ad-app) или добавить это разрешение, если вы уже зарегистрировали свое приложение.
 
 ![Регистрация приложения с разрешением на создание содержимого](media/embed-auto-install-app/register-app-create-content.png)
 

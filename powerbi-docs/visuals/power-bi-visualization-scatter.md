@@ -1,8 +1,8 @@
 ---
 title: Точечные и пузырьковые диаграммы в Power BI
 description: Точечные и пузырьковые диаграммы в Power BI
-author: mihart
-ms.reviewer: amac
+author: msftrien
+ms.reviewer: mihart
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 11/21/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 963bd77568db4390bca73a4ec4e9ce97ee616a58
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: b3b2dc8892b2b9b875621c6925c6f3c652da44c6
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91632901"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412701"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Точечные и пузырьковые диаграммы в Power BI
 
@@ -169,7 +169,7 @@ ms.locfileid: "91632901"
 
 ![Снимок экрана точечной диаграммы с одной точкой.](media/power-bi-visualization-scatter/pbi-scatter-tshoot1.png)
 
-Добавьте поле в контейнер **Сведения**, чтобы сообщить Power BI, каким образом нужно группировать значения. Поле должно быть уникальным для каждой точки, которую нужно отобразить. Подойдет просто номер строки или поле идентификатора.
+Добавьте поле в контейнер **Сведения** , чтобы сообщить Power BI, каким образом нужно группировать значения. Поле должно быть уникальным для каждой точки, которую нужно отобразить. Подойдет просто номер строки или поле идентификатора.
 
 ![Снимок экрана точечной диаграммы, добавляющей RowNum в контейнер сведений.](media/power-bi-visualization-scatter/pbi-scatter-tshoot.png)
 

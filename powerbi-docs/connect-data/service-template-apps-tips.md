@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: d23062a5b8fe4a1a68be372865746a1a7d497c26
-ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
+ms.openlocfilehash: 4530a6579a3109a2696c77a79a3a5a1c6b8092dd
+ms.sourcegitcommit: 1b3a626c5ca612a7f23058f8e5cc0147a94db51c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "92349674"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "94348066"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Советы по созданию приложений-шаблонов в Power BI
 
@@ -141,7 +141,7 @@ ms.locfileid: "92349674"
 * страница скачивания AppSource — является общедоступной; получить ссылку можно со своей страницы AppSource;
 * Power BI — доступно для просмотра пользователю Power BI.
 
-Пример перенаправления пользователя на ссылку для скачивания приложения в Power BI: [репозиторий GitHub](https://github.com/microsoft/Template-apps-examples/tree/master/src).
+Пример перенаправления пользователя на ссылку для скачивания приложения в Power BI: [репозиторий GitHub](https://github.com/microsoft/Template-apps-examples).
 
 [![Ссылка для скачивания приложения](media/service-template-apps-tips/service-template-apps-tips-download.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.pbiapps-github)
 

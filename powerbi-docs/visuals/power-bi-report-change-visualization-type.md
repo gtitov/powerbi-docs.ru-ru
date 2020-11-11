@@ -1,20 +1,20 @@
 ---
 title: Изменение типа визуализации в отчете
 description: Изменение типа визуализации отчета в службе Power BI и Power BI Desktop
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 12/28/2019
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1db098b65a02d0949342f1e3192730a4b8be7f85
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: aed596dd6ced774d56abb3439d308155bbe1fe9c
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232007"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93411643"
 ---
 # <a name="change-the-type-of-visualization-in-a-power-bi-report"></a>Изменение типа визуализации в отчете Power BI
 
