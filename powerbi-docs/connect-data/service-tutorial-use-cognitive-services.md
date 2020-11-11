@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 02/20/2020
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 934ffa649885b270dd7f321f45168723f53bc379
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 406a2aebbf5d043ce74ca189c18b384f6c70e716
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91600361"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397192"
 ---
 # <a name="tutorial-use-cognitive-services-in-power-bi"></a>Руководство. Использование Cognitive Services в Power BI
 
@@ -70,13 +70,13 @@ Power BI предоставляет доступ к набору функций
 
 ![Снимок экрана: диалоговое окно "Вызов функции" с раскрывающимся меню "текст".](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_06.png)
 
-Теперь нажмите **Вызвать**, чтобы выполнить функцию. В таблицу будет добавлен новый столбец с оценкой тональности для каждой строки. Вы можете вернуться к **Аналитике ИИ**, чтобы аналогичным способом извлечь ключевые фразы из текста отзывов.
+Теперь нажмите **Вызвать** , чтобы выполнить функцию. В таблицу будет добавлен новый столбец с оценкой тональности для каждой строки. Вы можете вернуться к **Аналитике ИИ** , чтобы аналогичным способом извлечь ключевые фразы из текста отзывов.
 
 После завершения преобразований измените имя запроса на "Комментарии клиентов" и нажмите **Готово**.
 
 ![Снимок экрана: страница "Изменение запросов" с выделенным элементом "Имя".](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_07.png)
 
-Затем нажмите **Сохранить**, чтобы сохранить поток данных, и присвойте ему имя Fabrikam. Нажмите кнопку **Обновить сейчас**, которая отобразилась после сохранения потока данных.
+Затем нажмите **Сохранить** , чтобы сохранить поток данных, и присвойте ему имя Fabrikam. Нажмите кнопку **Обновить сейчас** , которая отобразилась после сохранения потока данных.
 
 ![Снимок экрана: кнопка "Сохранить".](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_08.png)
 
@@ -86,7 +86,7 @@ Power BI предоставляет доступ к набору функций
 
 Откройте Power BI Desktop. На вкладке ленты "Главная" выберите **Получить данные**.
 
-Перейдите к пункту **Потоки данных Power BI (бета-версия**) в разделе Power BI и выберите **Подключить**.
+Перейдите к пункту **Потоки данных Power BI (бета-версия** ) в разделе Power BI и выберите **Подключить**.
 
 ![Снимок экрана: панель "Получение данных" с выбранным элементом "Потоки данных Power BI".](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_09.png)
 
@@ -175,11 +175,11 @@ in
 В этом руководстве вы применили функции оценки тональности и добавления тегов к изображениям для потока данных Power BI. Подробнее о Cognitive Services в Power BI можно узнать в следующих статьях:
 
 * [Документация по службам Azure Cognitive Services](/azure/cognitive-services/).
-* Начало работы [с самостоятельной подготовкой данных для потоков данных](../transform-model/service-dataflows-overview.md).
+* Начало работы [с самостоятельной подготовкой данных для потоков данных](../transform-model/dataflows/dataflows-introduction-self-service.md).
 * Дополнительные сведения о [Power BI Premium](https://powerbi.microsoft.com/power-bi-premium/).
 
 Также рекомендуем ознакомиться со следующими статьями.
 
 * [Руководство. Вызов модели Студии машинного обучения (классической) в Power BI (предварительная версия)](service-tutorial-invoke-machine-learning-model.md)
-* [Интеграция Машинного обучения Azure в Power BI (предварительная версия)](../transform-model/service-machine-learning-integration.md)
-* [Использование Cognitive Services в Power BI (предварительная версия)](../transform-model/service-cognitive-services.md)
+* [Интеграция Машинного обучения Azure в Power BI (предварительная версия)](../transform-model/dataflows/dataflows-machine-learning-integration.md)
+* [Использование Cognitive Services в Power BI (предварительная версия)](../transform-model/dataflows/dataflows-machine-learning-integration.md)

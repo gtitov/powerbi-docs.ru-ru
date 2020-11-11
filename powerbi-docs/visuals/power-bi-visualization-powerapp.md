@@ -8,20 +8,20 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 06/01/2020
-ms.author: rien
+ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 78d9d59455a86c5499bc8b01deeacb331bbe7a8b
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: c46410caff373eb8474a4b687e834b822f2da8ac
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90858929"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397537"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>Руководство. Внедрение визуального элемента Power Apps в отчет Power BI
 
 В этом учебнике вы используете визуальный элемент Power Apps для создания приложения, внедряемого в пример отчета Power BI. Это приложение взаимодействует с другими визуальными элементами отчета.
 
-Если у вас нет подписки на Power Apps, перед началом работы [создайте бесплатную учетную запись](https://web.powerapps.com/signup?redirect=marketing&email=).
+Если у вас нет подписки на Power Apps, перед началом работы [создайте бесплатную учетную запись](https://make.powerapps.com/signup?redirect=marketing&email=).
 
 Из этого руководства вы узнаете, как выполнять следующие задачи:
 > [!div class="checklist"]
@@ -59,13 +59,13 @@ ms.locfileid: "90858929"
 
     ![Создание приложения](media/power-bi-visualization-powerapp/power-bi-create-new-powerapp.png)
 
-    В Power Apps Studio вы увидите созданное базовое приложение с *коллекцией*, в которой отображается одно из полей, выбранных в Power BI.
+    В Power Apps Studio вы увидите созданное базовое приложение с *коллекцией* , в которой отображается одно из полей, выбранных в Power BI.
 
     ![Открытие Power Apps](media/power-bi-visualization-powerapp/power-bi-power-app.png)
 
 5.  Измените размер коллекции так, чтобы она занимала только половину экрана. 
 
-6. В левой области выберите элемент **Screen1**, а затем задайте для свойства **Fill** окна значение LightBlue (чтобы окно было лучше видно в отчете).
+6. В левой области выберите элемент **Screen1** , а затем задайте для свойства **Fill** окна значение LightBlue (чтобы окно было лучше видно в отчете).
 
     ![цветовая палитра](media/power-bi-visualization-powerapp/power-bi-powerapps-fill.png)
 

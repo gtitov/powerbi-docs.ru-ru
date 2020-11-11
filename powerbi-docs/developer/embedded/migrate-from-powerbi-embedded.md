@@ -7,12 +7,12 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 06/30/2018
-ms.openlocfilehash: f3f76bd7c422d07cb2b390c2aebd92a2d7fe4ef3
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 7d4a548ab24e8493cef340026642021a2f923ee1
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749053"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397422"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Как перенести содержимое коллекции рабочих областей Power BI в Power BI Embedded
 
@@ -32,9 +32,9 @@ ms.locfileid: "91749053"
 Перед началом миграции в новую службу Power BI Embedded можно быстро ознакомиться с пошаговым руководством, которое поможет вам настроить новую среду Power BI Embedded с помощью [средства настройки внедрения](https://aka.ms/embedsetup).
 
 Выберите подходящее решение:
-* **Внедрение для клиентов**, если [данные должны принадлежать приложению](https://aka.ms/embedsetup/AppOwnsData). [Внедрение для клиентов](embedding.md#embedding-for-your-customers) позволяет внедрять панели мониторинга и отчеты для пользователей, у которых нет учетной записи Power BI. 
+* **Внедрение для клиентов** , если *данные должны принадлежать приложению*. [Внедрение для клиентов](embedding.md#embedding-for-your-customers) позволяет внедрять панели мониторинга и отчеты для пользователей, у которых нет учетной записи Power BI. 
 
-* **Внедрение для организации**, если [данные должны принадлежать пользователям](https://aka.ms/embedsetup/UserOwnsData). [Внедрение для организации](embedding.md#embedding-for-your-organization) позволяет расширить возможности службы Power BI.
+* **Внедрение для организации** , если *данные должны принадлежать пользователям*. [Внедрение для организации](embedding.md#embedding-for-your-organization) позволяет расширить возможности службы Power BI.
 
 ## <a name="prepare-for-the-migration"></a>Подготовка к переносу
 
@@ -99,7 +99,7 @@ ms.locfileid: "91749053"
 
 Перенос содержимого из коллекций рабочих областей в Power BI Embedded может выполняться во время работы с текущим решением, не вызывая простоев.
 
-Вы можете использовать **средство миграции**, чтобы скопировать содержимое из коллекции рабочих областей Power BI в Power BI Embedded. Особенно если содержимого у вас много. Дополнительные сведения см. в статье [Инструмент переноса Power BI Embedded](migrate-tool.md).
+Вы можете использовать **средство миграции** , чтобы скопировать содержимое из коллекции рабочих областей Power BI в Power BI Embedded. Особенно если содержимого у вас много. Дополнительные сведения см. в статье [Инструмент переноса Power BI Embedded](migrate-tool.md).
 
 Для переноса содержимого в основном используются два API.
 

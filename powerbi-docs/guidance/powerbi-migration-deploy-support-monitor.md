@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: f9268409977b3aa78e1ebda6f1f6b2e732451455
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: 3e0bb00042b869061b7cb7cebf624e324db7e916
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92681013"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396134"
 ---
 # <a name="deploy-to-power-bi"></a>Развертывание в Power BI
 
@@ -76,7 +76,7 @@ ms.locfileid: "92681013"
 - **Обслуживание шлюза.** Может потребоваться зарегистрировать [новый источник данных](../connect-data/service-gateway-data-sources.md) в шлюзе данных.
 - **Драйверы и соединители шлюза.** Для нового собственного источника данных может потребоваться установить новый драйвер или пользовательский соединитель на каждом сервере в кластере шлюза.
 - **Создание емкости Premium.** Вы можете использовать существующую [емкость Premium](../admin/service-premium-capacity-manage.md). Но возможны ситуации, когда требуется новая емкость Premium. Например, если вы намеренно хотите отделить рабочую нагрузку отдела.
-- **Настройка потока данных Power BI.** Действия по подготовке данных можно настроить один раз в [потоке данных Power BI](../transform-model/service-dataflows-overview.md) с помощью Power Query Online. Это позволит избежать выполнения повторяющихся действий по подготовке данных во многих разных файлах Power BI Desktop.
+- **Настройка потока данных Power BI.** Действия по подготовке данных можно настроить один раз в [потоке данных Power BI](../transform-model/dataflows/dataflows-introduction-self-service.md) с помощью Power Query Online. Это позволит избежать выполнения повторяющихся действий по подготовке данных во многих разных файлах Power BI Desktop.
 - **Регистрация нового визуального элемента организации.** На портале администрирования можно зарегистрировать [визуальный элемент организации](../developer/visuals/power-bi-custom-visuals-organization.md) и другие пользовательские визуальные элементы, созданные в источнике, отличном от AppSource.
 - **Задание рекомендуемого содержимого.** Существует параметр клиента, который определяет, кто может [рекомендовать содержимое](https://powerbi.microsoft.com/blog/promote-your-reports-dashboards-and-apps-on-power-bi-home/) на домашней странице службы Power BI.
 - **Задание меток конфиденциальности.** Все [метки конфиденциальности](../admin/service-security-data-protection-overview.md) интегрированы в Microsoft Information Protection

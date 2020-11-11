@@ -10,12 +10,12 @@ ms.date: 10/30/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: fe4f9c54b45035cc22f2e582a75ba98d648c549d
-ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
+ms.openlocfilehash: c90d15c20b54a25ccea5865302753e0189359be2
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "93132374"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396111"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI для клиентов из государственных организаций США
 
@@ -124,8 +124,8 @@ Azure распределяется между несколькими облак�
 |[Подключение к Power Automate для оповещений на основе данных](../connect-data/power-bi-data-sources.md)|![доступен](../media/yes.png)|![доступен](../media/yes.png)|![недоступно](../media/no.png)|
 |[Вкладка Power BI в Teams](../collaborate-share/service-collaborate-microsoft-teams.md)<sup>2</sup>|![доступен](../media/yes.png)|![недоступно](../media/no.png)|![недоступно](../media/no.png)|
 |[Крупные модели](service-premium-large-models.md) | 4-й квартал 2020 г. |4-й квартал 2020 г.| ![недоступно](../media/no.png) |
-|[Потоки данных — оптимизация ядра вычислений SQL](../transform-model/service-dataflows-enhanced-compute-engine.md) | 4-й квартал 2020 г. |4-й квартал 2020 г.| ![недоступно](../media/no.png) |
-|[Потоки данных — прямой запрос](../transform-model/service-dataflows-directquery.md) | 4-й квартал 2020 г. |4-й квартал 2020 г.|![недоступно](../media/no.png)|
+|[Потоки данных — оптимизация ядра вычислений SQL](../transform-model/dataflows/dataflows-premium-features.md) | 4-й квартал 2020 г. |4-й квартал 2020 г.| ![недоступно](../media/no.png) |
+|[Потоки данных — прямой запрос](../transform-model/dataflows/dataflows-configure-consume.md) | 4-й квартал 2020 г. |4-й квартал 2020 г.|![недоступно](../media/no.png)|
 |[Защита данных (метки MIP)](service-security-sensitivity-label-overview.md)|4-й квартал 2020 г.|4-й квартал 2020 г. |4-й квартал 2020 г.|
 |[Приложения-шаблоны](../connect-data/service-template-apps-overview.md)<sup>3</sup>|4-й квартал 2020 г. |4-й квартал 2020 г.| 4-й квартал 2020 г.|
 |[Пользовательские визуальные элементы](../developer/visuals/power-bi-custom-visuals.md)<sup>3</sup>|4-й квартал 2020 г. |4-й квартал 2020 г.| 4-й квартал 2020 г.|

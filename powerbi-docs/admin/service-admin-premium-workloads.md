@@ -9,16 +9,16 @@ ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 05/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: c4cf0c4fbdde52181dbc5307a9d97d17344c7c26
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 3454a10269937d6e03151a64bba6695cc37fcd66
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91632855"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396341"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Настройка рабочих нагрузок в емкости Premium
 
-Эта статья описывает включение и настройку рабочих нагрузок для емкостей Power BI Premium. По умолчанию емкости поддерживают только рабочие нагрузки, связанные с выполнением запросов Power BI. Вы можете включить и настроить дополнительные рабочие нагрузки для **[искусственного интеллекта (Cognitive Services)](../transform-model/service-cognitive-services.md)** , **[потоков данных](../transform-model/service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium)** и **[отчетов с разбивкой на страницы](../paginated-reports/paginated-reports-save-to-power-bi-service.md)** .
+Эта статья описывает включение и настройку рабочих нагрузок для емкостей Power BI Premium. По умолчанию емкости поддерживают только рабочие нагрузки, связанные с выполнением запросов Power BI. Вы можете включить и настроить дополнительные рабочие нагрузки для **[искусственного интеллекта (Cognitive Services)](../transform-model/dataflows/dataflows-machine-learning-integration.md)** , **[потоков данных](../transform-model/dataflows/dataflows-introduction-self-service.md)** и **[отчетов с разбивкой на страницы](../paginated-reports/paginated-reports-save-to-power-bi-service.md)** .
 
 ## <a name="default-memory-settings"></a>Параметры памяти по умолчанию
 
@@ -41,7 +41,7 @@ ms.locfileid: "91632855"
 |---------------------------------|----------------------------------------|
 | **Максимальный объем памяти (%)** | Максимальный процент доступной памяти, которую процессы ИИ могут использовать в емкости. |
 | **Разрешить использование из Power BI Desktop** | Этот параметр зарезервирован для использования в будущем и может отображаться не во всех клиентах. |
-| **Разрешить создание моделей машинного обучения** | Указывает, могут ли бизнес-аналитики обучать, проверять и вызывать модели машинного обучения непосредственно в Power BI. Для получения дополнительных сведений см. раздел [Автоматизированное машинное обучение в Power BI (предварительная версия)](../transform-model/service-machine-learning-automated.md). |
+| **Разрешить создание моделей машинного обучения** | Указывает, могут ли бизнес-аналитики обучать, проверять и вызывать модели машинного обучения непосредственно в Power BI. Для получения дополнительных сведений см. раздел [Автоматизированное машинное обучение в Power BI (предварительная версия)](../transform-model/dataflows/dataflows-machine-learning-integration.md). |
 | **Включить параллелизм для запросов ИИ** | Указывает, могут ли запросы ИИ выполняться параллельно. |
 |  |  |
 
@@ -209,7 +209,7 @@ ms.locfileid: "91632855"
 ## <a name="next-steps"></a>Дальнейшие действия
 
 [Оптимизация емкостей Power BI Premium](service-premium-capacity-optimize.md)
-[Самостоятельная подготовка данных в Power BI с использованием потоков данных](../transform-model/service-dataflows-overview.md)
+[Самостоятельная подготовка данных в Power BI с использованием потоков данных](../transform-model/dataflows/dataflows-introduction-self-service.md)
 [Сведения об отчетах с разбивкой на страницы в Power BI Premium](../paginated-reports/paginated-reports-report-builder-power-bi.md)
 [Автоматическое обновление страниц в Power BI Desktop (предварительная версия)](../create-reports/desktop-automatic-page-refresh.md)
 

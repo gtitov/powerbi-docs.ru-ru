@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/28/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: 6ff1f445172c553116148ffb212129b96f34b1da
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: cb8ac0ad558f15219829e9f32111cacf9f27eb25
+ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916022"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94483749"
 ---
 # <a name="what-is-power-bi-premium"></a>Что такое Power BI Premium?
 
@@ -96,7 +96,7 @@ Power BI Premium — это подписка Microsoft 365 уровня кли
 
 ### <a name="capacity-workloads"></a>Рабочие нагрузки емкости
 
-Рабочие нагрузки емкости — это службы, предоставляемые пользователям. По умолчанию емкости Premium и Azure поддерживают только рабочие нагрузки набора данных, связанные с выполнением запросов Power BI. Эту рабочую нагрузку набора данных невозможно отключить. Дополнительные рабочие нагрузки можно включить для [ИИ (Cognitive Services)](https://powerbi.microsoft.com/blog/easy-access-to-ai-in-power-bi-preview/), [потоков данных](../transform-model/service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium) и [отчетов с разбивкой на страницы](../paginated-reports/paginated-reports-save-to-power-bi-service.md). Эти рабочие нагрузки поддерживаются только в подписках Premium. 
+Рабочие нагрузки емкости — это службы, предоставляемые пользователям. По умолчанию емкости Premium и Azure поддерживают только рабочие нагрузки набора данных, связанные с выполнением запросов Power BI. Эту рабочую нагрузку набора данных невозможно отключить. Дополнительные рабочие нагрузки можно включить для [ИИ (Cognitive Services)](https://powerbi.microsoft.com/blog/easy-access-to-ai-in-power-bi-preview/), [потоков данных](../transform-model/dataflows/dataflows-introduction-self-service.md) и [отчетов с разбивкой на страницы](../paginated-reports/paginated-reports-save-to-power-bi-service.md). Эти рабочие нагрузки поддерживаются только в подписках Premium. 
 
 Каждая дополнительная рабочая нагрузка позволяет настроить максимальный объем памяти (процент от общего объема доступной памяти), который может использоваться рабочей нагрузкой. Значения по умолчанию для максимального объема памяти определяются номером SKU. Вы можете максимально увеличить доступные ресурсы емкости, включая дополнительные рабочие нагрузки, только когда они используются. Кроме того, вы можете изменять параметры памяти, только если параметры по умолчанию не соответствуют требованиям к ресурсам емкости. Администраторы емкости могут включить и настроить рабочие нагрузки для емкости, используя **Параметры емкости** на [портале администрирования](service-admin-portal.md) либо [REST API емкостей](/rest/api/power-bi/capacities).  
 
@@ -235,7 +235,7 @@ REST API Power BI включают коллекцию [API емкостей](/re
 
 Дополнительные сведения см. в разделе [Лицензирование Power BI](service-admin-licensing-organization.md).
 
-## <a name="analysis-services-in-power-bi-premium-preview"></a>Analysis Services в Power BI Premium (предварительная версия)
+## <a name="analysis-services-in-power-bi-premium"></a>Analysis Services в Power BI Premium
 
 За работу с наборами данных и рабочими областями Power BI Premium отвечает хорошо зарекомендовавшая себя корпоративная подсистема Microsoft **Analysis Services Vertipaq**. Analysis Services обеспечивает программируемость и поддержку клиентских приложений и средств посредством клиентских библиотек и API, поддерживающих основанный на открытых стандартах протокол XMLA. По умолчанию рабочие нагрузки наборов данных емкости Power BI Premium поддерживают операции *только для чтения* со стороны клиентских приложений и средств Майкрософт и других производителей через **конечные точки XMLA**. Администраторы емкости также могут отключить или разрешить операции *чтения и записи* через конечную точку.
 

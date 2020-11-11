@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7e2019d3b554bc4e033c7aee36c41216ba910a9f
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 4124799f15bbccd7c82428d1290ae2ae6420311f
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916850"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397123"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-classic-model-in-power-bi-preview"></a>Руководство. Вызов модели Студии машинного обучения (классической) в Power BI (предварительная версия)
 
@@ -180,4 +180,4 @@ ms.locfileid: "92916850"
 - создание потока данных;
 - применение аналитических сведений из модели Azure ML к потоку данных.
 
-Дополнительные сведения об интеграции машинного обучения Azure в Power BI см. в статье [Интеграция Машинного обучения Azure в Power BI (предварительная версия)](../transform-model/service-machine-learning-integration.md).
+Дополнительные сведения об интеграции машинного обучения Azure в Power BI см. в статье [Интеграция Машинного обучения Azure в Power BI (предварительная версия)](../transform-model/dataflows/dataflows-machine-learning-integration.md).

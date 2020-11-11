@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b603c0a2ad300145db6342acac3473a2f4a567c6
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 23ead6afd508cc0e61ae29d65926372561a6375a
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91638518"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396295"
 ---
 # <a name="introduction-to-dataflows-and-self-service-data-prep"></a>Вводные сведения о потоках данных и самостоятельной подготовке данных
 
@@ -52,4 +52,4 @@ ms.locfileid: "91638518"
 
 
 Дополнительные сведения о модели общих данных вы найдете в этой обзорной статье:
-* [Обзор Common Data Model](https://docs.microsoft.com/powerapps/common-data-model/overview)
+* [Обзор Common Data Model](/powerapps/common-data-model/overview)
