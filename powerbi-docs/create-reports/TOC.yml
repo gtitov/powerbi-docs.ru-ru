@@ -277,6 +277,8 @@
               href: ../visuals/power-bi-visualization-decomposition-tree.md
             - name: Визуальные элементы с автоописанием
               href: ../visuals/power-bi-visualization-smart-narrative.md
+            - name: Обнаружение аномалий
+              href: ../visuals/power-bi-visualization-anomaly-detection.md
             - name: Кольцевые диаграммы
               href: ../visuals/power-bi-visualization-doughnut-charts.md
             - name: Картограммы (хороплеты)
