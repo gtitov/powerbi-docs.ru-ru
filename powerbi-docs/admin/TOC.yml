@@ -44,6 +44,8 @@
               href: service-premium-capacity-scenarios.md
             - name: Вопросы и ответы по Power BI Premium
               href: service-premium-faq.md
+            - name: "Вопросы и ответы по Power\_BI\_Premium на пользователя"
+              href: service-premium-per-user-faq.md
     - name: Практическое руководство
       items:
         - name: Лицензирования и регистрация
@@ -106,6 +108,8 @@
               href: service-admin-premium-manage.md
             - name: Настройка рабочих нагрузок
               href: service-admin-premium-workloads.md
+            - name: "Покупка Power\_BI\_Premium для тестирования"
+              href: service-admin-premium-testing.md
             - name: Мониторинг емкостей в приложении
               href: service-admin-premium-monitor-capacity.md
             - name: Мониторинг метрик рабочих нагрузок категории "Премиум"
