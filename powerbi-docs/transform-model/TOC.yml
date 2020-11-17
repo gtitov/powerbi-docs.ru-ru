@@ -133,5 +133,7 @@
               href: ./dataflows/dataflows-machine-learning-integration.md
     - name: Справка
       items:
+        - name: "Использование списка полей в Power\_BI Desktop (предварительная версия)"
+          href: desktop-field-list.md
         - name: Ярлыки редактора формул
           href: desktop-formula-editor.md

@@ -1,5 +1,5 @@
 ---
-title: Устранение неполадок с подключением конечных точек XMLA в Power BI Premium (предварительная версия)
+title: Устранение неполадок с подключением конечных точек XMLA в Power BI
 description: Эта статья содержит сведения об устранении неполадок с подключением конечных точек XMLA в Power BI Premium.
 author: minewiskan
 ms.author: owend
@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: troubleshooting
-ms.date: 10/14/2020
+ms.date: 10/20/2020
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: c8f0683e0789ec29577322424a4187a42ff5679f
-ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
+ms.openlocfilehash: 5426c91f2ab0c4de1f9f2bc335ac21ea3a90c0e2
+ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "92116576"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94483680"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>Устранение неполадок с подключением конечных точек XMLA
 
@@ -79,7 +79,7 @@ We cannot connect to the dataset due to incomplete account information. For serv
 
 Чтобы избежать сбоя обработки, задайте для раздела **Параметры развертывания** > **Параметры обработки** значение **Не обрабатывать**, как показано на следующем рисунке. Затем Visual Studio развертывает только метаданные. Далее можно настроить учетные данные источника данных и щелкнуть **Обновить** для набора данных в пользовательском интерфейсе Power BI. Сведения об устранении неполадок, связанных с обработкой, см. в разделе [Обновление набора данных](#refreshing-a-dataset) далее в этой статье.
 
-:::image type="content" source="media/troubleshoot-xmla-endpoint/do-not-process.png" alt-text="Ошибка развертывания модели":::
+:::image type="content" source="media/troubleshoot-xmla-endpoint/do-not-process.png" alt-text="Параметр Не обрабатывать":::
 
 ### <a name="new-project-from-an-existing-dataset"></a>Создание проекта с помощью существующего набора данных
 
@@ -128,13 +128,13 @@ Power BI возвращает указанную ниже ошибку, если
 
 Параметры олицетворения, которые можно определить для источников данных поставщика, не относятся к Power BI. Power BI использует другой механизм на основе параметров набора данных для управления учетными данными источника данных. По этой причине убедитесь, что при создании источника данных поставщика выбрана **Учетная запись службы**.
 
-:::image type="content" source="media/troubleshoot-xmla-endpoint/impersonate-services-account.png" alt-text="Ошибка развертывания модели":::
+:::image type="content" source="media/troubleshoot-xmla-endpoint/impersonate-services-account.png" alt-text="Олицетворение учетной записи службы":::
 
 ### <a name="fine-grained-processing"></a>Детализированная обработка
 
 В Power BI при запуске запланированного обновления или обновления по запросу обычно обновляется весь набор данных. Во многих случаях более эффективно выполнять обновление выборочно. Вы можете выполнять задачи детализированной обработки в SQL Server Management Studio (SSMS), как показано ниже, или с помощью средств или сценариев сторонних разработчиков.
 
-:::image type="content" source="media/troubleshoot-xmla-endpoint/process-tables.png" alt-text="Ошибка развертывания модели":::
+:::image type="content" source="media/troubleshoot-xmla-endpoint/process-tables.png" alt-text="Обработка таблиц в SSMS":::
 
 ### <a name="overrides-in-refresh-tmsl-command"></a>Переопределения в команде Refresh TMSL
 
@@ -142,7 +142,7 @@ Power BI возвращает указанную ниже ошибку, если
 
 ## <a name="see-also"></a>См. также раздел
 
-[Возможность подключения к набору данных с помощью конечной точки XMLA](service-premium-connect-tools.md)   
-[Автоматизация задач по управлению рабочими областями Premium и наборами данных с помощью субъектов-служб](service-premium-service-principal.md)   
-[Устранение неполадок с анализом в Excel](../collaborate-share/desktop-troubleshooting-analyze-in-excel.md)   
-[Развертывание решений табличной модели](/analysis-services/deployment/tabular-model-solution-deployment?view=power-bi-premium-current)
+[Возможность подключения к набору данных с помощью конечной точки XMLA](service-premium-connect-tools.md)  
+[Автоматизация задач по управлению рабочими областями Premium и наборами данных с помощью субъектов-служб](service-premium-service-principal.md)  
+[Устранение неполадок с анализом в Excel](../collaborate-share/desktop-troubleshooting-analyze-in-excel.md)  
+[Развертывание решений табличной модели](/analysis-services/deployment/tabular-model-solution-deployment?view=power-bi-premium-current&preserve-view=true)

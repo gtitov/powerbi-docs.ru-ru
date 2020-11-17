@@ -7,13 +7,13 @@ ms.reviewer: swgupt
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 11/01/2020
-ms.openlocfilehash: cf0e6a6e7cd40a5b8bb97560caf94b71c1b48e7a
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.date: 11/10/2020
+ms.openlocfilehash: cfa4b46e521079802ec87b63d6323e01213625c3
+ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93324058"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94483926"
 ---
 # <a name="sample-power-bi-paginated-reports"></a>Примеры отчетов Power BI с разбивкой на страницы
 
@@ -27,8 +27,25 @@ ms.locfileid: "93324058"
 - Эти отчеты можно совместно использовать в сети в исходном виде — без редактирования. Для этого необходима лицензия Power BI Pro. Вы можете зарегистрироваться для получения [бесплатной пробной лицензии на Power BI Pro](../fundamentals/service-self-service-signup-for-power-bi.md#sign-up-for-an-individual-trial-of-power-bi-pro).
 - Также необходим доступ к рабочей области Power BI в емкости [Premium](../admin/service-premium-what-is.md).
 - Чтобы изменить эти отчеты, необходимо [установить Power BI Report Builder](https://aka.ms/pbireportbuilder) из Центра загрузки Майкрософт.
-- Итак, вы готовы [скачать эти примеры отчетов с разбивкой на страницы](https://github.com/microsoft/Reporting-Services/tree/master/PaginatedReportSamples) из GitHub. Учетная запись GitHub не требуется. 
+- Итак, вы готовы скачать эти примеры отчетов с разбивкой на страницы из GitHub. Учетная запись GitHub не требуется. 
 
+## <a name="download-the-reports"></a>Загрузка отчетов
+
+Для успешного скачивания отчетов необходимо скачать репозиторий в виде ZIP-файла, а затем извлечь его. Отчеты с разбивкой на страницы это RDL-файлы.
+
+1. Откройте [репозиторий GitHub Reporting Services](https://github.com/microsoft/Reporting-Services).
+1. Щелкните стрелку на зеленой кнопке **Код**, затем выберите **Скачать ZIP-файл**.
+
+    :::image type="content" source="media/paginated-reports-samples/paginated-report-download-zip.png" alt-text="Снимок экрана репозитория GitHub, содержащего пример отчетов Power BI с разбивкой на страницы.":::
+    
+1. Откройте файл, выберите **Извлечь все** и выберите расположение для файлов. По умолчанию используется имя папки **Reporting-Services-master**.
+1. Откройте папку **Reporting-Services-master**, а затем — папку **PaginatedReportSamples**.
+
+    >[!NOTE]
+    >Вы можете удалить все остальные папки в папке **Reporting-Services-master**. Они содержат другие примеры, которые вам не нужны.
+
+1. Выберите один из RDL-файлов, чтобы открыть его в Power BI Report Builder.
+1. Теперь вы можете [опубликовать отчет с разбивкой на страницы в службу Power BI](paginated-reports-save-to-power-bi-service.md).
 
 ## <a name="invoice"></a>Счет
 
@@ -109,4 +126,4 @@ ms.locfileid: "93324058"
 
 [Просмотр отчета с разбивкой на страницы в службе Power BI](../consumer/paginated-reports-view-power-bi-service.md)
 
-Остались вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)

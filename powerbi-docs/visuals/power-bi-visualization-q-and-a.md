@@ -1,19 +1,19 @@
 ---
 title: Использование визуального элемента "Вопросы и ответы" Power BI
 description: Сведения о настройке визуального элемента "Вопросы и ответы" Power BI
-author: rien
+author: msftrien
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 11/19/2019
 ms.author: mohaali
-ms.openlocfilehash: 22ce23b408f87c8c792f75a543fd0c29a9d13281
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 96773bc256ba8563147c7dc7c19e2558125b48fc
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232303"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412356"
 ---
 # <a name="introduction-to-power-bi-qa-visualizations"></a>Общие сведения о визуальных элементах "Вопросы и ответы" в Power BI
 
@@ -133,7 +133,7 @@ ms.locfileid: "85232303"
 
 Элемент "Вопросы и ответы" преобразуется в стандартную гистограмму. Закрепить его на панели мониторинга нельзя. В отчете этот элемент будет вести себя так же, как и любой другой стандартный визуальный элемент. Обратите внимание, что в области "Визуализации" будет выделен значок гистограммы вместо значка визуального элемента "Вопросы и ответы".
 
-Если вы используете ***службу Power BI***, на этом этапе можно закрепить визуальный элемент на панели мониторинга с помощью значка булавки. 
+Если вы используете **_службу Power BI_* _, на этом этапе можно закрепить визуальный элемент на панели мониторинга с помощью значка булавки. 
 
 
 ![Служба Power BI с выделенным значком булавки](media/power-bi-visualization-q-and-a/power-bi-pin.png)
@@ -155,5 +155,5 @@ ms.locfileid: "85232303"
 
 Поддержку естественного языка можно интегрировать в отчеты самыми разными способами. Дополнительные сведения см. в следующих статьях:
 
-* [Средства функции "Вопросы и ответы"](../natural-language/q-and-a-tooling-intro.md)
+_ [Средства функции "Вопросы и ответы"](../natural-language/q-and-a-tooling-intro.md)
 * ["Вопросы и ответы": рекомендации](../natural-language/q-and-a-best-practices.md)

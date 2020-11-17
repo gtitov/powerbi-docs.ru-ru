@@ -1,26 +1,26 @@
 ---
-title: Советы и рекомендации по форматированию цветом в отчетах
-description: Советы и рекомендации по форматированию цветом в отчетах Power BI
-author: mihart
-ms.reviewer: ''
+title: Советы и рекомендации по форматированию в отчетах
+description: Советы и рекомендации по форматированию в отчетах Power BI
+author: msftrien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/18/2020
-ms.author: mihart
+ms.date: 10/29/2020
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e896b3aeabc6a22c98563d0836984cd2d8a644de
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: bce798e07a3bdac0ba52f56e9ddf7eac72087924
+ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91633844"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94483972"
 ---
-# <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Советы и рекомендации по форматированию цветом в Power BI
+# <a name="tips-and-tricks-for-formatting-in-reports"></a>Советы и рекомендации по форматированию в отчетах
 
 [!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
-В Power BI предусмотрено много разных способов настройки панелей мониторинга и отчетов. В этой статье приводятся советы о том, как сделать визуализации в Power BI более привлекательными и интересными и настроить их в соответствии с потребностями.
+В Power BI предусмотрено много разных способов настройки отчетов. В этой статье приводятся советы о том, как сделать визуализации в Power BI более привлекательными и интересными и настроить их в соответствии с потребностями.
 
 Предлагаются следующие советы. Есть еще один хороший совет? Отлично! Отправьте его нам, и мы добавим его в этот список.
 
@@ -36,7 +36,7 @@ ms.locfileid: "91633844"
 
 Для внесения изменений необходимо иметь разрешения на внесение изменений в отчет. В Power BI Desktop откройте отчет в представлении **Отчет**. В службе Power BI это означает открытие отчета и выбор команды **Изменить** в строке меню, как показано на рисунке ниже.
 
-![где найти меню "Правка"](media/service-tips-and-tricks-for-color-formatting/power-bi-edit-report.png)
+![где найти меню "Правка"](media/service-tips-and-tricks-for-color-formatting/power-bi-editing-view.png)
 
 Когда в правой части холста отчета появляются области **Фильтры** и **Визуализации**, можно приступать к настройке. Если области не отображаются, щелкните стрелку в правом верхнем углу, чтобы открыть их.
 
