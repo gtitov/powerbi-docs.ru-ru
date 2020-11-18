@@ -99,6 +99,8 @@
           items:
             - name: Создание и использование потоков данных
               href: ./dataflows/dataflows-create.md
+            - name: Рекомендации по потокам данных
+              href: ./dataflows/dataflows-best-practices.md
             - name: Использование DirectQuery с потоками данных в Power BI (предварительная версия)
               href: ./dataflows/dataflows-configure-consume.md
             - name: Использование расширенного ядра вычислений для потоков данных
