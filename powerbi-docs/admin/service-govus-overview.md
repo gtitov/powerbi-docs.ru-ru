@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/30/2020
+ms.date: 11/17/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: c90d15c20b54a25ccea5865302753e0189359be2
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 8fa83bfc0dc19e4c60094b0ee3c26eb8f7bab12d
+ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396111"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94718898"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI для клиентов из государственных организаций США
 
@@ -74,25 +74,25 @@ URL-адрес для подключения к Power BI отличается �
 
 |  Назначение | Назначение |
 | ---- | ----- |
-| cерверные API | **GCC** : api.powerbigov.us |
-| | **GCC-High** : api.high.powerbigov.us |
-| | **DoD** : api.mil.powerbi.gov.us |
-| cерверные API | **GCC** : *analysis.usgovcloudapi.net |
-| | **GCC High** : *.high.analysis.usgovcloudapi.net |
-| | **DoD** : *.mil.analysis.usgovcloudapi.net |
-| cерверные API | **Все** : *.pbidedicated.usgovcloudapi.net |
-| Сеть доставки содержимого (CDN) | **GCC** : gov.content.powerapps.us |
-| | **GCC High** : high.content.powerapps.us |
-| | **DoD** : mil.content.powerapps.us |
-| Интеграция Microsoft 365 | **GCC** : [Конечные точки по всему миру](/microsoft-365/enterprise/urls-and-ip-address-ranges) |
-| | **GCC High** : [Конечные точки US Government GCC High](/microsoft-365/enterprise/microsoft-365-u-s-government-gcc-high-endpoints) |
-| | **DoD** : [Конечные точки US Government DOD](/microsoft-365/enterprise/microsoft-365-u-s-government-dod-endpoints) |
-| Портал |**GCC** : *.powerbigov.us |
-| | **GCC-High** : *.high.powerbigov.us |
-| | **DoD** : *.mil.powerbigov.us |
-| телеметрия службы | **Все** : dc.services.visualstudio.us |
-| Информационные сообщения (необязательно) | **Все** : dynmsg.modpim.com |
-| Опросы сервера политики сети (необязательно) | **Все** : nps.onyx.azure.net |
+| cерверные API | **GCC**: api.powerbigov.us |
+| | **GCC-High**: api.high.powerbigov.us |
+| | **DoD**: api.mil.powerbi.gov.us |
+| cерверные API | **GCC**: *analysis.usgovcloudapi.net |
+| | **GCC High**: *.high.analysis.usgovcloudapi.net |
+| | **DoD**: *.mil.analysis.usgovcloudapi.net |
+| cерверные API | **Все**: *.pbidedicated.usgovcloudapi.net |
+| Сеть доставки содержимого (CDN) | **GCC**: gov.content.powerapps.us |
+| | **GCC High**: high.content.powerapps.us |
+| | **DoD**: mil.content.powerapps.us |
+| Интеграция Microsoft 365 | **GCC**: [Конечные точки по всему миру](/microsoft-365/enterprise/urls-and-ip-address-ranges) |
+| | **GCC High**: [Конечные точки US Government GCC High](/microsoft-365/enterprise/microsoft-365-u-s-government-gcc-high-endpoints) |
+| | **DoD**: [Конечные точки US Government DOD](/microsoft-365/enterprise/microsoft-365-u-s-government-dod-endpoints) |
+| Портал |**GCC**: *.powerbigov.us |
+| | **GCC-High**: *.high.powerbigov.us |
+| | **DoD**: *.mil.powerbigov.us |
+| телеметрия службы | **Все**: dc.services.visualstudio.us |
+| Информационные сообщения (необязательно) | **Все**: dynmsg.modpim.com |
+| Опросы сервера политики сети (необязательно) | **Все**: nps.onyx.azure.net |
 
 ## <a name="connect-government-and-global-azure-cloud-services"></a>Подключение государственных и глобальных облачных служб Azure
 
@@ -129,6 +129,7 @@ Azure распределяется между несколькими облак�
 |[Защита данных (метки MIP)](service-security-sensitivity-label-overview.md)|4-й квартал 2020 г.|4-й квартал 2020 г. |4-й квартал 2020 г.|
 |[Приложения-шаблоны](../connect-data/service-template-apps-overview.md)<sup>3</sup>|4-й квартал 2020 г. |4-й квартал 2020 г.| 4-й квартал 2020 г.|
 |[Пользовательские визуальные элементы](../developer/visuals/power-bi-custom-visuals.md)<sup>3</sup>|4-й квартал 2020 г. |4-й квартал 2020 г.| 4-й квартал 2020 г.|
+|[Azure Stream Analytics](/azure/stream-analytics/stream-analytics-power-bi-dashboard)| 4-й квартал 2020 г.|4-й квартал 2020 г.|4-й квартал 2020 г.|
 |[Соединитель для получения данных о качестве звонка](/microsoftteams/cqd-power-bi-connector)|![недоступно](../media/no.png)|![недоступно](../media/no.png)|![недоступно](../media/no.png)|
 |[Использование собственного хранилища (Azure Data Lake 2-го поколения)](../transform-model/dataflows/dataflows-azure-data-lake-storage-integration.md)|![недоступно](../media/no.png)|![недоступно](../media/no.png)|![недоступно](../media/no.png)|
 |[Создание QR-кода](../create-reports/service-create-qr-code-for-tile.md)|![недоступно](../media/no.png)|![недоступно](../media/no.png)|![недоступно](../media/no.png)|

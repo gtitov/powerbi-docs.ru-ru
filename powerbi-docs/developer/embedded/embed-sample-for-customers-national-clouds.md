@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18, devx-track-js
 ms.date: 02/05/2019
-ms.openlocfilehash: c831118a14c1dc453acb81b866013dcb085d9f6d
-ms.sourcegitcommit: 1b3a626c5ca612a7f23058f8e5cc0147a94db51c
+ms.openlocfilehash: 0ef66f847485e066d6596c65b277f2d74699614d
+ms.sourcegitcommit: 029aacd09061a8aa45b57f05d0dc95c93dd16a74
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "94348204"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "94559788"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>Руководство. Внедрение содержимого Power BI в приложение для национальных облаков
 
@@ -78,7 +78,7 @@ Power BI также поддерживает [национальные обла�
 3. Добавьте параметры DoDCON в файл web.config следующим образом.
 
 ```xml
-<add key="authorityUrl" value="https://login.microsoftonlineS.us/common/" />
+<add key="authorityUrl" value="https://login.microsoftonline.us/common/" />
 <add key="resourceUrl" value="https://high.analysis.usgovcloudapi.net/powerbi/api" />
 <add key="apiUrl" value="https://api.high.powerbigov.us/" />
 <add key="embedUrlBase" value="https://app.high.powerbigov.us" />
@@ -143,7 +143,7 @@ Power BI также поддерживает [национальные обла�
 
 * Power BI для облачных служб в Китае — ```https://app.powerbi.cn/apps```
 
-Если вы скачали [пример внедрения для клиента](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Core/Embed%20for%20your%20customers/AppOwnsData), используйте полученный идентификатор приложения ( **applicationId** ) для аутентификации этого примера приложения в Azure AD. Для настройки примера измените значение **applicationId** в файле *web.config*.
+Если вы скачали [пример внедрения для клиента](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Core/Embed%20for%20your%20customers/AppOwnsData), используйте полученный идентификатор приложения (**applicationId**) для аутентификации этого примера приложения в Azure AD. Для настройки примера измените значение **applicationId** в файле *web.config*.
 
 ## <a name="step-2---get-an-access-token-from-azure-ad"></a>Шаг 2. Получение маркера доступа из Azure AD
 

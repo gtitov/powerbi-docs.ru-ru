@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 89de77e65d8eb675d9e80c3b2497f39af7c32d33
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 2d58fe71b7ceb27afe5d52a55ed57ae162622b06
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396594"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668173"
 ---
 # <a name="dataflows-limitations-and-considerations"></a>Рекомендации и ограничения, касающиеся потоков данных
 
@@ -75,7 +75,7 @@ ms.locfileid: "94396594"
 
 * Связанная сущность не может объединяться с обычной сущностью, получающей данные из локального источника.
 
-* Когда запрос (например, запрос *A* ) используется в вычислении другого запроса (запрос *B* ) в потоках данных, запрос *B* становится вычисляемой сущностью. Вычисляемые сущности не могут ссылаться на локальные источники.
+* Когда запрос (например, запрос *A*) используется в вычислении другого запроса (запрос *B*) в потоках данных, запрос *B* становится вычисляемой сущностью. Вычисляемые сущности не могут ссылаться на локальные источники.
 
 
 **Ядро вычислений.**
@@ -111,3 +111,4 @@ ms.locfileid: "94396594"
 * [Настройка хранилища потоков данных для использования Azure Data Lake 2-го поколения](dataflows-azure-data-lake-storage-integration.md)
 * [Функции потоков данных уровня "Премиум"](dataflows-premium-features.md)
 * [ИИ с потоками данных](dataflows-machine-learning-integration.md)
+* [Рекомендации по потокам данных](dataflows-best-practices.md)
