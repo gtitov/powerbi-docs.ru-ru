@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 03/30/2020
-ms.openlocfilehash: 653724c6028b5be950c09c9361cdb43edc930e3a
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: d8e7b5dca207aef1a4f119bf324662dbcaa1bbab
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92049069"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94513328"
 ---
 # <a name="tutorial-create-a-react-based-visual"></a>Руководство. Создание визуального элемента на основе React
 
@@ -34,7 +34,7 @@ ms.locfileid: "92049069"
 
 ## <a name="prerequisites"></a>Предварительные требования
 
-* Учетная запись **Power BI Pro** . [Зарегистрируйтесь для получения бесплатной пробной версии](https://powerbi.microsoft.com/pricing/) перед началом работы.
+* Учетная запись **Power BI Pro**. [Зарегистрируйтесь для получения бесплатной пробной версии](https://powerbi.microsoft.com/pricing/) перед началом работы.
 * [Visual Studio Code](https://www.visualstudio.com/).
 * [Windows PowerShell](/powershell/scripting/install/installing-windows-powershell) версии 4 или более поздней для пользователей Windows ИЛИ [терминал](https://macpaw.com/how-to/use-terminal-on-mac) для пользователей OSX.
 * Среда, настроенная по инструкциями из статьи [Настройка среды для разработки визуального элемента Power BI](environment-setup.md).
@@ -51,7 +51,7 @@ ms.locfileid: "92049069"
    pbiviz new ReactCircleCard
    ```
 
-   Команда создает папку с именем *ReactCircleCard* .
+   Команда создает папку с именем *ReactCircleCard*.
 
 1. Перейдите в эту папку и откройте Visual Studio Code.
 
@@ -86,7 +86,7 @@ ms.locfileid: "92049069"
    npm i @types/react @types/react-dom
    ```
 
-1. Создайте класс компонентов React. В Visual Studio Code выберите **Файл** > **Создать файл** . Скопируйте в файл приведенный ниже код.
+1. Создайте класс компонентов React. В Visual Studio Code выберите **Файл** > **Создать файл**. Скопируйте в файл приведенный ниже код.
 
     ```typescript
     import * as React from "react";
@@ -104,9 +104,9 @@ ms.locfileid: "92049069"
     export default ReactCircleCard;
     ```
 
-1. Выберите **Сохранить как** . Перейдите в каталог *src* . Введите имя *component* . Для параметра **Тип файла** выберите **TypeScript React** .
+1. Выберите **Сохранить как**. Перейдите в каталог *src*. Введите имя *component*. Для параметра **Тип файла** выберите **TypeScript React**.
 
-1. Откройте *src/visual.ts* . Замените текущий код следующим кодом:
+1. Откройте *src/visual.ts*. Замените текущий код следующим кодом:
 
     ```typescript
     "use strict";
@@ -140,7 +140,7 @@ ms.locfileid: "92049069"
     import ReactCircleCard from "./component";
     ```
 
-   Параметры TypeScript Power BI по умолчанию не принимают *TSX* -файлы. Visual Studio Code выделяет `component` как ошибку.
+   Параметры TypeScript Power BI по умолчанию не принимают *TSX*-файлы. Visual Studio Code выделяет `component` как ошибку.
 
 1. Откройте файл *tsconfig.json* и добавьте две строки в начале элемента `compilerOptions`.
 
@@ -179,7 +179,7 @@ ms.locfileid: "92049069"
     ```
 
    > [!NOTE]
-   > Если вы ранее запускали `pbiviz`, необходимо выполнить перезапуск, чтобы применить изменения в *tsconfig.json* .
+   > Если вы ранее запускали `pbiviz`, необходимо выполнить перезапуск, чтобы применить изменения в *tsconfig.json*.
 
   ![Сообщение hello React в визуальном элементе](./media/create-react-visual/hello-react-message-visual.png)
 
@@ -232,7 +232,7 @@ ms.locfileid: "92049069"
 
 Данные можно преобразовать для просмотра с помощью React. Компонент может отображать данные своего собственного состояния.
 
-1. Измените *src/component.tsx* .
+1. Измените *src/component.tsx*.
 
     ```javascript
     export interface State {
@@ -267,7 +267,7 @@ ms.locfileid: "92049069"
     }
     ```
 
-1. Добавьте стили для новой разметки, изменив *styles/visual.less* .
+1. Добавьте стили для новой разметки, изменив *styles/visual.less*.
 
     ```css
     .circleCard {
@@ -309,7 +309,6 @@ ms.locfileid: "92049069"
                     textLabel: dataView.metadata.columns[0].displayName,
                     textValue: dataView.single.value.toString()
                 });
-            }
             } else {
                 this.clear();
             }
@@ -355,7 +354,7 @@ ms.locfileid: "92049069"
 
 Получите текущий размер окна просмотра визуального элемента из объекта `options`.
 
-1. Откройте *src/visual.ts* . Импортируйте интерфейс `IViewport` и добавьте свойство `viewport` в класс `visual`.
+1. Откройте *src/visual.ts*. Импортируйте интерфейс `IViewport` и добавьте свойство `viewport` в класс `visual`.
 
     ```typescript
     import IViewport = powerbi.IViewport;
@@ -385,7 +384,7 @@ ms.locfileid: "92049069"
       }
     ```
 
-1. Добавьте свойства в интерфейс `State` в *src/component.tsx* .
+1. Добавьте свойства в интерфейс `State` в *src/component.tsx*.
 
     ```typescript
     export interface State {
@@ -399,7 +398,7 @@ ms.locfileid: "92049069"
     }
     ```
 
-1. Внесите следующие изменения в метод `render` в *src/component.tsx* :
+1. Внесите следующие изменения в метод `render` в *src/component.tsx*:
 
     ```typescript
         render() {
@@ -428,7 +427,7 @@ ms.locfileid: "92049069"
 
 В этом разделе вы создадите настраиваемый визуальный элемент.
 
-1. Откройте *capabilities.json* . Добавьте следующие параметры в свойство `objects`.
+1. Откройте *capabilities.json*. Добавьте следующие параметры в свойство `objects`.
 
     ```json
     //...
@@ -478,7 +477,7 @@ ms.locfileid: "92049069"
     }
     ```
 
-1. Добавьте следующие операторы `import` в начало *src/visual.ts* :
+1. Добавьте следующие операторы `import` в начало *src/visual.ts*:
 
     ```typescript
     import VisualObjectInstance = powerbi.VisualObjectInstance;
@@ -489,7 +488,7 @@ ms.locfileid: "92049069"
 
     ```
 
-1. Добавьте метод `enumerateObjectInstances` в *src/visual.ts* . Этот метод используется для применения параметров визуального элемента.
+1. Добавьте метод `enumerateObjectInstances` в *src/visual.ts*. Этот метод используется для применения параметров визуального элемента.
 
     ```typescript
     export class Visual implements IVisual {
@@ -526,7 +525,7 @@ ms.locfileid: "92049069"
     }
     ```
 
-1. Примените соответствующие изменения в *src/component.tsx* , добавив сначала эти значения в `State`:
+1. Примените соответствующие изменения в *src/component.tsx*, добавив сначала эти значения в `State`:
 
     ```typescript
     export interface State {

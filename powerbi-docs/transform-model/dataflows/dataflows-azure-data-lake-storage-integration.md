@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 10/01/2020
+ms.date: 11/13/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: eb67336868bb3eb3cf4527660330219573b1553d
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: f38908645cdf7846d43f97485c7a2d3e9e2e9b7b
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91638493"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668104"
 ---
 # <a name="configuring-dataflow-storage-to-use-azure-data-lake-gen-2"></a>Настройка хранилища потоков данных для использования Azure Data Lake 2-го поколения 
 
@@ -61,3 +61,4 @@ ms.locfileid: "91638493"
 * [Функции потоков данных уровня "Премиум"](dataflows-premium-features.md)
 * [ИИ с потоками данных](dataflows-machine-learning-integration.md)
 * [Рекомендации и ограничения, касающиеся потоков данных](dataflows-features-limitations.md)
+* [Рекомендации по потокам данных](dataflows-best-practices.md)

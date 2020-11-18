@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 10b395cc14bf0aac97ead4b86c010109cfbc3703
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 5a75965bb236a1515274343e58668809f91cef7b
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91638842"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94669208"
 ---
 # <a name="creating-a-dataflow"></a>Создание потока данных
 **Поток данных** — это коллекция сущностей (сущности здесь аналогичны таблицам), которые создаются и администрируются в рабочих областях в службе Power BI. **Сущность или таблица** — это набор полей, используемых для хранения данных, аналогично таблице в базе данных. Можно добавлять и изменять сущности или таблицы в потоке данных, а также управлять расписаниями обновления данных непосредственно из рабочей области, в которой был создан поток данных.
@@ -133,3 +133,4 @@ ms.locfileid: "91638842"
 * [Функции потоков данных уровня "Премиум"](dataflows-premium-features.md)
 * [ИИ с потоками данных](dataflows-machine-learning-integration.md)
 * [Рекомендации и ограничения, касающиеся потоков данных](dataflows-features-limitations.md)
+* [Рекомендации по потокам данных](dataflows-best-practices.md)

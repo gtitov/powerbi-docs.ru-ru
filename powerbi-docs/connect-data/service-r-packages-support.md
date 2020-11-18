@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: dfb9a263b0e8fa1555cab9f0d2a0915c367fbd4c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 2cd345baff9b03573773599f6026f0be48fdcab2
+ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235732"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94718875"
 ---
 # <a name="create-visuals-by-using-r-packages-in-the-power-bi-service"></a>Создание визуальных элементов с помощью пакетов R в службе Power BI
 Вы можете использовать эффективный [язык программирования R](https://www.r-project.org/) для создания визуальных элементов в службе Power BI. Большинство пакетов R поддерживаются в службе Power BI (кроме того, они поддерживаются постоянно), а некоторые из них не поддерживаются.
@@ -192,7 +192,6 @@ ms.locfileid: "85235732"
 |curl|3.2|https://cran.r-project.org/web/packages/curl/index.html|
 |CVST|0.2-1|https://cran.r-project.org/web/packages/CVST/index.html|
 |cvTools|0.3.2|https://cran.r-project.org/web/packages/cvTools/index.html|
-|d3heatmap|0.6.1.2|https://cran.r-project.org/web/packages/d3heatmap/index.html|
 |d3Network|0.5.2.1|https://cran.r-project.org/web/packages/d3Network/index.html|
 |d3r|0.8.0|https://cran.r-project.org/web/packages/d3r/index.html|
 |data.table|1.10.4-3|https://cran.r-project.org/web/packages/data.table/index.html|
