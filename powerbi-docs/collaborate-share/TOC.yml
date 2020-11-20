@@ -99,8 +99,16 @@
               href: desktop-troubleshooting-analyze-in-excel.md
             - name: Ошибка. Нам не удалось найти данные в книге Excel
               href: ../connect-data/service-admin-troubleshoot-excel-workbook-data.md
-        - name: "Power Automate и Power\_BI"
-          href: service-flow-integration.md
+        - name: Power BI и Power Automate
+          items:
+            - name: Интеграция оповещений о данных с Power Automate
+              href: service-flow-integration.md
+            - name: Экспорт отчетов с разбивкой на страницы с помощью Power Automate
+              href: service-automate-paginated-integration.md
+            - name: Сохранение отчетов с разбивкой на страницы в OneDrive или SharePoint Online
+              href: service-automate-paginated-onedrive-sharepoint.md
+            - name: Экспорт отчетов с разбивкой на страницы из Excel Online или списка SharePoint
+              href: service-automate-paginated-excel-sharepoint-list.md
         - name: Использование сторонних приложений
           href: service-power-bi-get-started-third-party-apps.md
         - name: Пакеты содержимого организации
