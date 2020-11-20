@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 09/25/2020
+ms.date: 11/13/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 4eae96dbdddae82a7f74f27c835874a19b04a69f
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.openlocfilehash: 624da63259dcb09d0ebbb35079ef0d8e1340b04c
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92256850"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668518"
 ---
 # <a name="let-users-personalize-visuals-in-a-report"></a>Разрешите пользователям персонализировать визуальные элементы в отчете
 
@@ -44,7 +44,7 @@ ms.locfileid: "92256850"
 
 ## <a name="use-perspectives-for-a-more-focused-view"></a>Использование перспектив для более узкого представления
 
-Для персонализации визуальных элементов можно использовать **Перспективы** , чтобы выбрать подмножество модели, предоставляющее более узкое представление. Выбор подмножества может быть удобен при работе с большой моделью данных, позволяя сосредоточиться на комфортном подмножестве полей и не перегружать читателей отчетов полным набором полей в этой большой модели. 
+Для персонализации визуальных элементов можно использовать **Перспективы**, чтобы выбрать подмножество модели, предоставляющее более узкое представление. Выбор подмножества может быть удобен при работе с большой моделью данных, позволяя сосредоточиться на комфортном подмножестве полей и не перегружать читателей отчетов полным набором полей в этой большой модели. 
 
 ![Персонализация визуальных элементов](media/power-bi-personalize-visuals/power-bi-personalize-perspective-01.png)
 
@@ -64,7 +64,7 @@ ms.locfileid: "92256850"
 
 ![Табличный редактор на ленте "Внешние инструменты"](media/power-bi-personalize-visuals/power-bi-personalize-perspective-02.png)
 
-В табличном редакторе щелкните правой кнопкой мыши папку **Перспективы** , чтобы создать перспективу.
+В табличном редакторе щелкните правой кнопкой мыши папку **Перспективы**, чтобы создать перспективу.
 
 ![Создание папки перспектив в табличном редакторе](media/power-bi-personalize-visuals/power-bi-personalize-perspective-03.png)
 
@@ -96,7 +96,7 @@ ms.locfileid: "92256850"
 
 ## <a name="enable-personalization-in-a-report"></a>Включение персонализации в отчете
 
-Такую возможность можно включить в приложении Power BI Desktop и службе Power BI.
+Такую возможность можно включить в приложении Power BI Desktop и службе Power BI. Ее также можно включить во внедренных отчетах.
 
 ### <a name="in-power-bi-desktop"></a>Power BI Desktop
 
@@ -128,7 +128,7 @@ ms.locfileid: "92256850"
 
 ### <a name="per-visual"></a>Для визуального элемента
 
-Выберите визуальный элемент > выберите **Формат** в области **Визуализации** > раскройте **Заголовок визуального элемента**.
+Выберите визуальный элемент > выберите **Формат** в области **Визуализации**> раскройте **Заголовок визуального элемента**.
 
 :::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-header-personalize.png" alt-text="Выберите заголовок визуального элемента":::
  
