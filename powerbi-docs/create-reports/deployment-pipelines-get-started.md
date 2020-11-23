@@ -7,13 +7,13 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.custom: contperfq1
-ms.date: 09/15/2020
-ms.openlocfilehash: 8f486d1f872aec8eaec096bf01d5d36a314c5cef
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.date: 11/11/2020
+ms.openlocfilehash: ca588c50052ed4950b2f283ee8294098dd36a8ef
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855789"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94669139"
 ---
 # <a name="get-started-with-deployment-pipelines"></a>Начало работы с конвейерами развертывания
 
@@ -23,9 +23,11 @@ ms.locfileid: "90855789"
 
 Вы сможете получить доступ к компоненту конвейеров развертывания, если выполняются условия, перечисленные ниже.
 
-* Вы являетесь пользователем [Power BI Pro](../admin/service-admin-purchasing-power-bi-pro.md).
+* У вас есть одна из следующих лицензий Premium:
 
-* Вы принадлежите к организации, использующей емкость Premium.
+    * Вы [пользователь Power BI с лицензией Pro](../admin/service-admin-purchasing-power-bi-pro.md) и принадлежите к организации, использующей емкость Premium.
+
+    * [Premium на пользователя (PPU)](../admin/service-premium-per-user-faq.md).
 
 * Вы являетесь администратором [новых возможностей рабочей области](../collaborate-share/service-create-the-new-workspaces.md).
 
@@ -60,7 +62,7 @@ ms.locfileid: "90855789"
 2. В диалоговом окне *Создание конвейера развертывания* введите имя и описание конвейера, а затем выберите **Создать**.
 
 >[!NOTE]
->Если рабочая область не назначена емкости Premium вашей организации, вы получите уведомление с предложением [назначить ее для емкости](../admin/service-admin-premium-manage.md#assign-a-workspace-to-a-capacity).  
+>Если рабочая область не назначена емкости Premium или PPU вашей организации, вы получите уведомление с предложением [назначить ее для емкости](../admin/service-admin-premium-manage.md#assign-a-workspace-to-a-capacity).  
 
 ## <a name="step-2---assign-a-workspace-to-a-deployment-pipeline"></a>Шаг 2. Назначение рабочей области для конвейера развертывания
 
@@ -124,7 +126,7 @@ ms.locfileid: "90855789"
 
 Вы также можете выполнить развертывание на предыдущий этап, например в сценарии, когда вы назначаете существующую рабочую область на рабочем этапе, а затем развертываете ее обратно, сначала на этапе тестирования, а затем — на этапе разработки.
 
-Развертывание на предыдущем этапе работает только в том случае, если на предыдущем этапе нет содержимого. При развертывании на предыдущем этапе нельзя выбрать лишь некоторые элементы. Развернуто будет все содержимое на этом этапе.
+Развертывание на предыдущем этапе работает только в том случае, если на предыдущем этапе нет содержимого. При развертывании на предыдущем этапе нельзя выбрать некоторые элементы. Развернуто будет все содержимое на этом этапе.
 
 [![Снимок экрана с кнопкой развертывания на предыдущем этапе, которая доступна в меню этапов тестового или рабочего развертывания.](media/deployment-pipelines-get-started/deploy-back.png)](media/deployment-pipelines-get-started/deploy-back.png#lightbox)
 
@@ -178,7 +180,7 @@ ms.locfileid: "90855789"
 * Правила параметров нельзя определить для параметров типа *Любой* или *Двоичный*. Дополнительные сведения см. в статье об [ограничениях параметров обновления наборов данных](/rest/api/power-bi/datasets/updateparameters).
 
 * Правила источников данных могут быть определены только для следующих источников данных:
-    * Azure Analysis Services
+    * Службы Azure Analysis Services
     * Службы SQL Server Analysis Services (SSAS)
     * Azure SQL Server;
     * SQL Server

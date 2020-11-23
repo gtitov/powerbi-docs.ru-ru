@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 07/27/2020
-ms.openlocfilehash: d6f436477a8226dec870d039c8fe10491456a325
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.date: 11/12/2020
+ms.openlocfilehash: 263992e760afe01eb44f41b80c2297cbd4b34163
+ms.sourcegitcommit: 7ee9398b30ab4ba40459cbb97e129e7dc853c93c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93298204"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "94575314"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Поддерживаемые источники данных для отчетов с разбивкой на страницы Power BI
 
@@ -27,7 +27,7 @@ ms.locfileid: "93298204"
 
 | Источник данных | Authentication | Примечания |
 | --- | --- | --- |
-| База данных SQL Azure <br>Хранилище данных SQL Azure | Базовый, единый вход, OAuth2 | Вы можете использовать корпоративный шлюз с базой данных SQL Azure. Однако вы не можете использовать SSO или oAuth2 для проверки подлинности в этих сценариях.   |
+| База данных SQL Azure <br>Хранилище данных SQL Azure | Базовый, единый вход, OAuth2 | Вы можете использовать корпоративный шлюз с Базой данных SQL Azure. Однако вы не можете использовать SSO или oAuth2 для проверки подлинности в этих сценариях.   |
 | Управляемый экземпляр базы данных SQL Azure | Базовый | через общедоступную или частную конечную точку (частная конечная точка должна маршрутизироваться через корпоративный шлюз)  |
 | Azure Analysis Services | SSO, OAuth2 | Брандмауэр AAS должен быть отключен или настроен для разрешения всех диапазонов IP-адресов в регионе BlackForest. Это относится только к региону BlackForest.  Единый вход из внешнего клиента не поддерживается. |
 | Набор данных Power BI | Единый вход | Наборы данных Power BI Premium и отличные от них. Требуется разрешение на чтение |
@@ -40,14 +40,14 @@ ms.locfileid: "93298204"
 
 ## <a name="other-data-sources"></a>Другие источники данных
 
-Кроме указанных выше изначально поддерживаемых источников данных, можно получить доступ к следующим источникам данных с помощью [шлюза данных Power BI](../connect-data/service-gateway-onprem.md):
+Кроме указанных выше изначально поддерживаемых источников данных, можно получить доступ к следующим источникам данных с помощью [шлюза предприятия Power BI](../connect-data/service-gateway-onprem.md):
 
 - SQL Server
 - Службы SQL Server Analysis Services
 - Oracle;
 - Teradata
 
-Для отчетов с разбивкой на страницы доступ к базе данных SQL Azure и Azure Analysis Services через шлюз данных Power BI сейчас невозможен.
+Для отчетов с разбивкой на страницы доступ к Azure Analysis Services через шлюз предприятия Power BI сейчас невозможен.
 
 ## <a name="azure-sql-database-authentication"></a>Проверка подлинности для базы данных SQL Azure
 
@@ -55,11 +55,11 @@ ms.locfileid: "93298204"
 
 ![Идет публикация в Power BI](media/paginated-reports-data-sources/power-bi-paginated-publishing.png)
 
-Если не указать учетные данные, при запуске отчета возникает ошибка. Нажмите кнопку **Продолжить** , чтобы перейти на страницу **Учетные данные источника данных** для только что отправленного отчета:
+Если не указать учетные данные, при запуске отчета возникает ошибка. Нажмите кнопку **Продолжить**, чтобы перейти на страницу **Учетные данные источника данных** для только что отправленного отчета:
 
 ![Параметры для базы данных SQL Azure](media/paginated-reports-data-sources/power-bi-paginated-settings-azure-sql.png)
 
-Щелкните ссылку **Изменить учетные данные** для заданного источника данных, чтобы открыть диалоговое окно **Настройка** :
+Щелкните ссылку **Изменить учетные данные** для заданного источника данных, чтобы открыть диалоговое окно **Настройка**:
 
 ![Настройка базы данных SQL Azure](media/paginated-reports-data-sources/power-bi-paginated-configure-azure-sql.png)
 

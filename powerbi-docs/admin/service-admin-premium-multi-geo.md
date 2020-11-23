@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 10/29/2020
+ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 93d982c684014430009a80112da841820e7b0fc9
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: b0132996be1ed70f228ce96d413c4925dc1a3e48
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396404"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512776"
 ---
 # <a name="configure-multi-geo-support-for-power-bi-premium"></a>Настройка поддержки нескольких регионов для Power BI Premium
 
@@ -34,6 +34,9 @@ ms.locfileid: "94396404"
 Поддержка нескольких регионов недоступна в Power BI для Германии, Power BI для Китая через оператора 21Vianet и в Power BI для государственных организаций США.
 
 Поддержка нескольких регионов теперь также доступна в Power BI Embedded. Дополнительные сведения см. в статье [Поддержка нескольких регионов Power BI Embedded](../developer/embedded/embedded-multi-geo.md).
+
+> [!NOTE]
+> Power BI Premium недавно выпустили новую версию Premium — **Premium 2-го поколения**. В настоящее время она доступна в предварительной версии. Premium 2-го поколения упрощает управление емкостью уровня Premium и сокращает расходы на управление. Дополнительные сведения см. в разделе о [емкости Power BI Premium 2-го поколения (предварительная версия)](service-premium-what-is.md#power-bi-premium-generation-2-preview).
 
 ## <a name="enable-and-configure"></a>Включение и настройка
 
@@ -107,3 +110,13 @@ ms.locfileid: "94396404"
 - [Поддержка нескольких регионов Power BI Embedded (предварительная версия)](../developer/embedded/embedded-multi-geo.md)
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
+
+Power BI предоставили Power BI Premium 2-го поколения в предварительной версии, чтобы улучшить работу с Power BI Premium, включая следующие возможности:
+* Производительность
+* Пользовательские лицензии
+* Больший масштаб
+* Улучшенные метрики
+* Автомасштабирование
+* Снижение издержек на управление
+
+Дополнительные сведения см. в разделе о [емкости Power BI Premium 2-го поколения (предварительная версия)](service-premium-what-is.md#power-bi-premium-generation-2-preview).

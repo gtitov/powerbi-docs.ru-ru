@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 09/22/2020
 ms.author: painbar
-ms.openlocfilehash: 22f70e393987552276cc19b90c8b360b1a1a1d80
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: 8e9205ca12efebbfa5c0338e2f501e59aed779e8
+ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92049224"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94718622"
 ---
 # <a name="power-bi-for-hololens-2-preview"></a>Power BI для HoloLens 2 (предварительная версия)
 Приложение Power BI для HoloLens 2 объединяет отчеты и панели мониторинга Power BI с физической средой, чтобы создать трехмерный иммерсивный интерфейс, с помощью которого можно перемещаться по физическому миру и получать нужные данные, когда и где они вам нужны.
@@ -23,6 +23,8 @@ ms.locfileid: "92049224"
 ## <a name="get-the-power-bi-app-for-hololens-2"></a>Скачайте приложение Power BI для HoloLens 2 
 
 Приложение Power BI для HoloLens 2 доступно в [Microsoft Store](https://go.microsoft.com/fwlink/?linkid=526478).
+
+Приложение работает с единым входом. Это означает, что приложение использует удостоверение пользователя, вошедшего в систему на устройстве HoloLens 2, для проверки подлинности в службе Power BI.
 
 Дополнительные сведения об установке приложений на устройстве HoloLens 2 см. [здесь](/hololens/holographic-store-apps).
 

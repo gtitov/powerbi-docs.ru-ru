@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 07/15/2019
+ms.date: 11/17/2020
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: b3f3dd39953ad382ab934bf87021123b949733fd
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: bb61f752891205a0e8997592d522efb2022a562b
+ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237066"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94719036"
 ---
 # <a name="manage-your-data-source---importscheduled-refresh"></a>Управление источником данных — импорт или запланированное обновление
 
@@ -62,12 +62,11 @@ ms.locfileid: "85237066"
 
 ![Отображение пользователей](media/service-gateway-enterprise-manage-scheduled-refresh/powerbi-gateway-enterprise-schedule-refresh.png)
 
+> [!IMPORTANT]
+> После повторной публикации владелец набора данных должен снова связать набор данных со шлюзом и соответствующим источником данных. Предыдущая связь не сохраняется после повторной публикации. 
+
 > [!WARNING]
 > Если набор данных содержит несколько источников данных, необходимо добавить каждый из них в пределах шлюза. Если в шлюз не добавлен один или несколько источников данных, при запланированном обновлении он не будет отображаться как доступный.
-
-## <a name="limitations"></a>Ограничения
-
-Локальный шлюз данных не поддерживает схему аутентификации OAuth. Невозможно добавить источники данных, требующие OAuth. Если в наборе данных есть источник данных, требующий OAuth, шлюз невозможно будет использовать для запланированного обновления.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

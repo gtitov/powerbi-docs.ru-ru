@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 04/05/2020
-ms.openlocfilehash: d0d9472ef767a67b3b75be4c9eb5d6922d9cdf81
-ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
+ms.openlocfilehash: 908aa715c31396485bcebfaa7227f3241cb02fb8
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93045144"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668564"
 ---
 # <a name="export-paginated-report-to-file-preview"></a>Экспорт отчета с разбивкой на страницы в файл (предварительная версия)
 
@@ -122,6 +122,8 @@ API `exportToFile` можно использовать для программн
       }
 }
 ```
+## <a name="ppu-concurrent-requests"></a>Количество одновременных запросов в PPU
+API `exportToFile` позволяет использовать один запрос в течение пяти минут при использовании [Premium на пользователя (PPU)](../../admin/service-premium-per-user-faq.md). Несколько запросов (более одного) в течение пяти минут приведет к ошибке 429: *Слишком много запросов*.
 
 ## <a name="code-examples"></a>Примеры кода
 

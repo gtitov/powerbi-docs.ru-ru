@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 06/25/2020
-ms.openlocfilehash: 41c7ba43d16b6d77ecf6324d3cd175dbbabc51a1
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 447fad076d9d171a2bdcb8e9f5aafe9c63555d79
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91983414"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668679"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-organization"></a>Руководство по Внедрение отчетов Power BI с разбивкой на страницы в приложение для организации
 
-В **Power BI** в приложение для вашей организации можно внедрить отчеты с разбивкой на страницы, используя сценарий *данных, принадлежащих пользователю* .
+В **Power BI** в приложение для вашей организации можно внедрить отчеты с разбивкой на страницы, используя сценарий *данных, принадлежащих пользователю*.
 
 Отчеты с разбивкой на страницы — это отчеты, предназначенные для высококачественной печати. Обычно эти отчеты содержат большой объем данных, отображаемых таким образом, чтобы они соответствовали печатным страницам.
 Дополнительные сведения о том, как Power BI поддерживает отчеты с разбивкой на страницы, см. в разделе [Сведения об отчетах с разбивкой на страницы в Power BI Premium](../../paginated-reports/paginated-reports-report-builder-power-bi.md)
@@ -43,7 +43,10 @@ ms.locfileid: "91983414"
 
 * Емкость, как минимум, P1. См. раздел [Какой размер емкости "Премиум" требуется для отчетов с разбивкой на страницы?](../../paginated-reports/paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports)
 
-Если вы не зарегистрированы в **Power BI** , перед началом работы [пройдите бесплатную регистрацию](https://powerbi.microsoft.com/pricing/).
+Если вы не зарегистрированы в **Power BI**, перед началом работы [пройдите бесплатную регистрацию](https://powerbi.microsoft.com/pricing/).
+
+>[!NOTE]
+>[Premium на пользователя (PPU)](../../admin/service-premium-per-user-faq.md) поддерживается. Однако если вы используете PPU, доступ к решению смогут получить только пользователи PPU в вашей организации.
 
 ## <a name="set-up-your-power-bi-environment"></a>Настройка рабочей среды Power BI
 
@@ -83,7 +86,7 @@ ms.locfileid: "91983414"
 
     ![Выберите емкость](media/embed-paginated-reports-organization/select-capacity.png)
 
-3. Разверните **Рабочие нагрузки** .
+3. Разверните **Рабочие нагрузки**.
 
     ![Разверните рабочие нагрузки](media/embed-paginated-reports-organization/expand-workloads.png)
 
@@ -95,11 +98,11 @@ ms.locfileid: "91983414"
 
 Созданной емкости можно назначить рабочую область приложения. Для этого сделайте следующее:
 
-1. В службе Power BI разверните рабочие области и щелкните **Дополнительно** возле рабочей области, которую вы используете для внедрения содержимого. Затем выберите **Параметры рабочей области** .
+1. В службе Power BI разверните рабочие области и щелкните **Дополнительно** возле рабочей области, которую вы используете для внедрения содержимого. Затем выберите **Параметры рабочей области**.
 
     ![Изменение рабочей области](media/embed-paginated-reports-organization/workspace-settings.png)
 
-2. Выберите **Premium** и включите параметр **Емкость** . Выберите созданную емкость. Затем нажмите кнопку **Save** (Сохранить).
+2. Выберите **Premium** и включите параметр **Емкость**. Выберите созданную емкость. Затем нажмите кнопку **Save** (Сохранить).
 
     ![Назначение емкости](media/embed-paginated-reports-organization/capacity.png)
 
@@ -131,17 +134,17 @@ ms.locfileid: "91983414"
 
     ![Файл Cloud.config](media/embed-sample-for-your-organization/embed-sample-for-your-organization-030.png)
 
-### <a name="application-id"></a>Идентификатор приложения
+### <a name="application-id"></a>Идентификатор приложения
 
-Укажите в поле **applicationId** значение **идентификатора приложения** из **Azure** . Поле **applicationId** используется приложением для его идентификации для пользователей, у которых запрашиваются разрешения.
+Укажите в поле **applicationId** значение **идентификатора приложения** из **Azure**. Поле **applicationId** используется приложением для его идентификации для пользователей, у которых запрашиваются разрешения.
 
-Чтобы получить значение **applicationId** , сделайте следующее.
+Чтобы получить значение **applicationId**, сделайте следующее.
 
 1. Войдите на [портал Azure](https://portal.azure.com).
 
-2. На панели навигации слева выберите **Все службы** и щелкните **Регистрация приложений** .
+2. На панели навигации слева выберите **Все службы** и щелкните **Регистрация приложений**.
 
-3. Выберите приложение, для которого требуется **applicationId** .
+3. Выберите приложение, для которого требуется **applicationId**.
 
     ![Выбор приложения](media/embed-sample-for-your-organization/embed-sample-for-your-organization-042.png)
 
@@ -185,15 +188,15 @@ Get-PowerBIworkspace -name "User Owns Embed Test" | Get-PowerBIReport -Name "Sal
 
 Для внедрения с помощью клиента организации используйте URL-адрес *https://login.microsoftonline.com/common/oauth2/authorize* .
 
-Для внедрения с помощью гостя используйте URL-адрес *`https://login.microsoftonline.com/report-owner-tenant-id`* , где нужно добавить идентификатор клиента владельца отчета вместо *report-owner-tenant-id* .
+Для внедрения с помощью гостя используйте URL-адрес *`https://login.microsoftonline.com/report-owner-tenant-id`* , где нужно добавить идентификатор клиента владельца отчета вместо *report-owner-tenant-id*.
 
 ### <a name="run-the-application"></a>Выполнение приложения
 
-1. Выберите **Запуск** в **Visual Studio** .
+1. Выберите **Запуск** в **Visual Studio**.
 
     ![Выполнение приложения](media/embed-sample-for-your-organization/embed-sample-for-your-organization-033.png)
 
-2. Теперь выберите **Внедрить отчет** . В зависимости от того, какое содержимое вы хотите проверить (отчеты, панели мониторинга или плитки), выберите нужный вариант в приложении.
+2. Теперь выберите **Внедрить отчет**. В зависимости от того, какое содержимое вы хотите проверить (отчеты, панели мониторинга или плитки), выберите нужный вариант в приложении.
 
     ![Выбор содержимого](media/embed-sample-for-your-organization/embed-sample-for-your-organization-034.png)
 

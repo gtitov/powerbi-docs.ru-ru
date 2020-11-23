@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/07/2020
+ms.date: 11/17/2020
 ms.author: davidi
-ms.openlocfilehash: 3cce51ad577c700a0f9595a2b92694e5e1b61cc5
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 11f9db0282cd0b302c5293ca59dd44c87dcdb955
+ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397399"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94719059"
 ---
 # <a name="power-bi-data-sources"></a>Источники данных Power BI
 
@@ -62,7 +62,7 @@ ms.locfileid: "94397399"
 | Папка | Да | Да | Нет | Да | Да | Да |
 | GitHub | Да | Да | Нет | Нет | Нет | Нет |
 | Google Analytics | Да | Да | Нет | Нет | Нет | Нет |
-| Google BigQuery | Да | Да | Да | Нет | Нет | Да |
+| Google BigQuery | Да | Да | Да | Да | Нет | Да |
 | Файл Hadoop (HDFS) | Да | нет | Нет | Нет | Нет | Нет |
 | Hive LLAP | Да | Да | Да | Да | Нет | Нет |
 | HDInsight Interactive Query | Да | Да | Да | Нет | Нет | Нет |
@@ -148,7 +148,7 @@ ms.locfileid: "94397399"
 
 <sup>6</sup> Требуется для HTML-, XLS-файлов и баз данных Access.
 
-<sup>7</sup> Служба Power BI не поддерживает каналы OData, требующие проверки подлинности.
+<sup>7</sup> Служба Power BI не поддерживает универсальный OAuth2.
 
 <sup>8</sup> Paxata поддерживается в версии Power BI Desktop, оптимизированной для сервера отчетов Power BI. Это решение не поддерживается в отчетах Power BI, опубликованных на сервере отчетов Power BI. Список поддерживаемых источников данных см. в статье [Источники данных отчетов Power BI в решении "Сервер отчетов Power BI"](../report-server/data-sources.md).
 

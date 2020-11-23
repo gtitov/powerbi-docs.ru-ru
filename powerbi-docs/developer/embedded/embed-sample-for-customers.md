@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 06/02/2020
-ms.openlocfilehash: 21f497a7c88134232a86afb9d16142719a6b711e
-ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
+ms.openlocfilehash: dab16218406a4b97c9e2aa01974380ba09dde003
+ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94483795"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94719013"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Руководство. Внедрение содержимого Power BI в приложение для клиентов
 
@@ -35,6 +35,9 @@ ms.locfileid: "94483795"
 * собственная установка [клиента Azure Active Directory](create-an-azure-active-directory-tenant.md).
 
 Если вы не зарегистрированы в **Power BI**, перед началом работы [пройдите бесплатную регистрацию](https://powerbi.microsoft.com/pricing/).
+
+>[!NOTE]
+>[Premium на пользователя (PPU)](../../admin/service-premium-per-user-faq.md) не поддерживается. Вы можете использовать PPU, чтобы поэкспериментировать с решением *внедрения для клиентов*, но вы не сможете [перенести его в рабочую среду](embed-sample-for-customers.md#move-to-production).
 
 ## <a name="set-up-your-embedded-analytics-development-environment"></a>Настройка среды разработки для встроенной аналитики
 
@@ -212,7 +215,7 @@ Get-PowerBIworkspace -name "App Owns Embed Test" | Get-PowerBIReport
 
 1. Выберите **Запуск** в **Visual Studio**.
 
-    ![Запуск приложения](media/embed-sample-for-customers/embed-sample-for-customers-033.png)
+    ![Выполнение приложения](media/embed-sample-for-customers/embed-sample-for-customers-033.png)
 
 2. Теперь выберите **Внедрить отчет**. В зависимости от того, какое содержимое вы хотите проверить (отчеты, панели мониторинга или плитки), выберите нужный вариант в приложении.
 
@@ -340,9 +343,9 @@ var targetWorkspaces = new List<GenerateTokenRequestV2TargetWorkspace>()
 
 var request = new GenerateTokenRequestV2()
 {
-    Datasets = datasetsRequestDetails ?? null,
-    Reports = reportsRequestDetails,
-    TargetWorkspaces = targetWSRequestdetials ?? null,
+    Datasets = datasets,
+    Reports = reports,
+    TargetWorkspaces = targetWorkspaces,
 };
 
 var token = client.GetClient().EmbedToken.GenerateToken(request);

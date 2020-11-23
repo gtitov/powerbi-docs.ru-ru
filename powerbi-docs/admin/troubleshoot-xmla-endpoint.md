@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: troubleshooting
-ms.date: 10/20/2020
+ms.date: 11/16/2020
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: 5426c91f2ab0c4de1f9f2bc335ac21ea3a90c0e2
-ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
+ms.openlocfilehash: 5100a2a693bbabacd5659c6e805031339d188555
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94483680"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668127"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>Устранение неполадок с подключением конечных точек XMLA
 
@@ -139,6 +139,36 @@ Power BI возвращает указанную ниже ошибку, если
 ### <a name="overrides-in-refresh-tmsl-command"></a>Переопределения в команде Refresh TMSL
 
 Переопределения в [команде Refresh (TMSL)](/analysis-services/tmsl/refresh-command-tmsl) позволяют пользователям выбрать другое определение запроса секции или определение источника данных для операции обновления. В настоящее время **переопределения не поддерживаются** в Power BI Premium. Отображается ошибка: "В Power BI Premium не допускается использование внешней привязки. Дополнительные сведения см. в разделе «Поддержка чтения/записи XMLA» в документации по продукту". .
+
+## <a name="errors-in-ssms---premium-gen-2"></a>Ошибки в среде SSMS — Premium 2-го поколения
+
+### <a name="query-execution"></a>выполнение запроса.
+
+При подключении к рабочей области в емкости [Premium 2-го поколения](service-premium-what-is.md#power-bi-premium-generation-2-preview) в SQL Server Management Studio может отображаться следующая ошибка:
+
+```
+Executing the query ...
+Error -1052311437:
+```
+
+Это происходит из-за того, что клиентские библиотеки, установленные с помощью SSMS v18.7.1, не поддерживают трассировку сеанса. Эта проблема будет решена в предстоящем выпуске SSMS.
+
+### <a name="refresh-operations"></a>Операции обновления
+
+При использовании SSMS v18.7.1 или более ранней версии для выполнения длительной операции обновления (> 1 минуты) на набор данных в емкости Premium 2-го поколения среда SSMS может вывести сообщение об ошибке следующего вида, даже если операция обновления выполнена успешно:
+
+```
+Executing the query ...
+Error -1052311437:
+The remote server returned an error: (400) Bad Request.
+
+Technical Details:
+RootActivityId: 3716c0f7-3d01-4595-8061-e6b2bd9f3428
+Date (UTC): 11/13/2020 7:57:16 PM
+Run complete
+```
+
+Это вызвано известной проблемой в клиентских библиотеках, при которой состояние запроса на обновление неверно отслеживается. Эта проблема будет решена в предстоящем выпуске SSMS.
 
 ## <a name="see-also"></a>См. также раздел
 

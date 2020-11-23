@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 05/11/2020
+ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 3948cca3a7e274c22ac1ea5cc80773edd0d5e451
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: b6f6b819b5c31f655d0c0dc43d8852cb34b5a7a2
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599788"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512063"
 ---
 # <a name="monitor-capacities-in-the-admin-portal"></a>Мониторинг емкостей на портале администрирования
 
@@ -27,6 +27,8 @@ ms.locfileid: "91599788"
 > [!IMPORTANT]
 > Если емкость Power BI Premium подвергается большой нагрузке, из-за которой могут возникать проблемы с производительностью или надежностью, вы можете получать по электронной почте уведомления, чтобы устранять эти проблемы. Это может упростить устранение неполадок, связанных с перегрузкой емкостей. Дополнительные сведения см. в статье [Уведомления о емкости и надежности](service-interruption-notifications.md#capacity-and-reliability-notifications).
 
+> [!NOTE]
+> Power BI Premium недавно выпустили новую версию Premium — **Premium 2-го поколения**. В настоящее время она доступна в предварительной версии. Premium 2-го поколения упрощает управление емкостью уровня Premium и сокращает расходы на управление. Дополнительные сведения см. в разделе о [емкости Power BI Premium 2-го поколения (предварительная версия)](service-premium-what-is.md#power-bi-premium-generation-2-preview).
 
 ## <a name="system-metrics"></a>Метрики системы
 
@@ -124,3 +126,14 @@ ms.locfileid: "91599788"
 
 > [!div class="nextstepaction"]
 > [Оптимизация емкостей Power BI Premium](service-premium-capacity-optimize.md)
+
+
+Power BI предоставили Power BI Premium 2-го поколения в предварительной версии, чтобы улучшить работу с Power BI Premium, включая следующие возможности:
+* Производительность
+* Пользовательские лицензии
+* Больший масштаб
+* Улучшенные метрики
+* Автомасштабирование
+* Снижение издержек на управление
+
+Дополнительные сведения см. в разделе о [емкости Power BI Premium 2-го поколения (предварительная версия)](service-premium-what-is.md#power-bi-premium-generation-2-preview).

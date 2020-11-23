@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
-ms.openlocfilehash: e4d1c625d86234c97305c705b2feeead8efacb61
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: f84270d76265da2877ae5d2e16289373235271b6
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397284"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668702"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Руководство. Внедрение содержимого Power BI в приложение для организации
 
@@ -39,6 +39,9 @@ ms.locfileid: "94397284"
 Если вы не зарегистрированы в **Power BI**, перед началом работы [пройдите бесплатную регистрацию](https://powerbi.microsoft.com/pricing/).
 
 Если у вас нет подписки Azure, перед началом работы [создайте бесплатную учетную запись](https://azure.microsoft.com/free/?WT.mc_id=A261C142F).
+
+>[!NOTE]
+>[Premium на пользователя (PPU)](../../admin/service-premium-per-user-faq.md) поддерживается. Однако если вы используете PPU, доступ к решению смогут получить только пользователи PPU в вашей организации.
 
 ## <a name="set-up-your-embedded-analytics-development-environment"></a>Настройка среды разработки для встроенной аналитики
 
@@ -174,7 +177,7 @@ Get-PowerBIworkspace -name "User Owns Embed Test" | Get-PowerBIReport
 
 Для внедрения с помощью гостя используйте URL-адрес `https://login.microsoftonline.com/report-owner-tenant-id`, где нужно добавить идентификатор клиента владельца отчета вместо *report-owner-tenant-id*.
 
-### <a name="run-the-application"></a>Запуск приложения
+### <a name="run-the-application"></a>Выполнение приложения
 
 1. Выберите **Запуск** в **Visual Studio**.
 
@@ -408,7 +411,7 @@ function updateEmbedReport() {
 
     ![Изменение рабочей области](media/embed-sample-for-your-organization/embed-sample-for-your-organization-036.png)
 
-2. Разверните раздел **Дополнительно** и установите переключатель **Выделенная емкость** в положение "Вкл.". Выберите созданную емкость. Затем выберите **Сохранить**.
+2. Разверните раздел **Дополнительно** и установите переключатель **Выделенная емкость** в положение "Вкл.". Выберите созданную емкость. Затем нажмите кнопку **Save** (Сохранить).
 
     ![Назначение емкости](media/embed-sample-for-your-organization/embed-sample-for-your-organization-024.png)
 

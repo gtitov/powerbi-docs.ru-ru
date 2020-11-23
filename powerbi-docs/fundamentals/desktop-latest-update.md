@@ -6,21 +6,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/13/2020
+ms.date: 11/11/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 8670659ff44a0f0e14688a8a898704823f272891
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.openlocfilehash: 34882258e9a3f05f08dd1340941b216f8679fc39
+ms.sourcegitcommit: 029aacd09061a8aa45b57f05d0dc95c93dd16a74
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92256002"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "94560064"
 ---
 # <a name="whats-new-in-power-bi-desktop"></a>Новые возможности Power BI Desktop
 
-## <a name="october-2020-update-2863210"></a>Обновление за октябрь 2020 года (2.86.321.0)
+## <a name="november-2020-update-2872610"></a>Обновление за ноябрь 2020 г. (2.87.261.0)
 
-Наши обновления Power BI Desktop за октябрь полны приятных сюрпризов, которые будут радовать вас новизной еще не одну неделю. 
+Наши обновления за ноябрь для Power BI Desktop включают целый ряд новых и улучшенных функций. Вам понравится. 
 
 В ежемесячных обновлениях блога и видео для Power BI Desktop теперь также содержатся сведения об обновленных функциях для Power BI Mobile и службы Power BI. В этой статье рассматриваются обновления для Power BI Desktop. Чтобы получить дополнительные сведения об обновлениях для Power BI Mobile и службы Power BI, ознакомьтесь с соответствующими статьями о новых возможностях.
 
@@ -47,48 +47,29 @@ ms.locfileid: "92256002"
 Ниже перечислены обновления, добавленные в приложение Power BI Desktop в этом месяце.
 
 
-
 ### <a name="reporting"></a>Отчеты
-* Водяные знаки на холсте [[видео]](https://youtu.be/LveNuQqV5xk?t=17)[[блог]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195557) 
-* Персонализация визуальных элементов теперь в общедоступной версии [[видео]](https://youtu.be/LveNuQqV5xk?t=115)[[блог]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195558) [[статья]](../create-reports/power-bi-personalize-visuals.md)
-* Выбор прямоугольника точки данных для диаграммы "дерево" (предварительная версия) [[видео]](https://youtu.be/LveNuQqV5xk?t=292) [[блог]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195559) [[статья]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
+* Новый список полей (предварительная версия) [[видео]](https://youtu.be/DT_tOas5YIo?t=15)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467053) 
+* Новое представление модели (предварительная версия) [[видео]](https://youtu.be/DT_tOas5YIo?t=61)   [[блог]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467054) [[статья]](../create-reports/power-bi-personalize-visuals.md)
+* Применение всех фильтров теперь в общедоступной версии [[видео]](https://youtu.be/DT_tOas5YIo?t=98)   [[блог]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467055)  [[статья]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
+* Ползунок визуального масштабирования [[видео]](https://youtu.be/DT_tOas5YIo?t=160)   [[блог]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467056)  [[статья]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
+* Выбор прямоугольника точки данных для визуального элемента "Карта" (предварительная версия) [[видео]](https://youtu.be/DT_tOas5YIo?t=185)   [[блог]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467057)  [[статья]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
+* Проверка отзыва сертификата для веб-соединений [[видео]](https://youtu.be/DT_tOas5YIo?t=292)   [[блог]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467058)  [[статья]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
+* Обновления отчетов с разбивкой на страницы [[видео]](https://youtu.be/DT_tOas5YIo?t=292)   [[блог]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467059)  [[статья]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
 
 ### <a name="analytics"></a>Аналитика
-* Экспорт данных из визуального элемента для вопросов и ответов [[видео]](https://youtu.be/LveNuQqV5xk?t=308) [[блог]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52270582) 
-
-
-### <a name="modeling"></a>Моделирование
-* Улучшения производительности функций IF и SWITCH [[блог]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52270584)
-
-
-### <a name="data-preparation"></a>Подготовка данных
-* Динамические параметры запроса M (предварительная версия) [[видео]](https://youtu.be/LveNuQqV5xk?t=329) [[блог]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc51665421) [[статья]](../connect-data/desktop-dynamic-m-query-parameters.md)
-* Автоматическое обнаружение таблиц из файлов Excel [[видео]](https://youtu.be/LveNuQqV5xk?t=615) [[блог]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195566)
-* Автоматическое обнаружение таблиц из файлов JSON [[видео]](https://youtu.be/LveNuQqV5xk?t=650) [[блог]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc51665423)
+* Обнаружение аномалий (предварительная версия) [[видео]](https://youtu.be/DT_tOas5YIo?t=199)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467061) 
+* Функция вопросов и ответов теперь поддерживает частично совпадающие значения данных [[видео]](https://youtu.be/DT_tOas5YIo?t=438)   [[блог]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467062)  [[статья]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
 
 ### <a name="data-connectivity"></a>Подключение к данным
-* Более широкая географическая поддержка для соединителей потоков данных Power Platform [[видео]](https://youtu.be/LveNuQqV5xk?t=675) [[блог]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52270590)
-* Теперь MariaDB поддерживает DirectQuery [[видео]](https://youtu.be/LveNuQqV5xk?t=694) [[блог]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195570)
-* Обновлен соединитель "Список SharePoint Online" [[видео]](https://youtu.be/LveNuQqV5xk?t=707) [[блог]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52270592)
-* Новые соединители данных: Spigit и eWay-CRM [[видео]](https://youtu.be/LveNuQqV5xk?t=736) [[блог]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195572)
+* Общедоступная версия соединителя Hive LLAP [[видео]](https://youtu.be/DT_tOas5YIo?t=461)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467064)
+* Новые соединители данных — Actian, Anaplan, Starburst Presto [[видео]](https://youtu.be/DT_tOas5YIo?t=487)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467065)
 
 
 ### <a name="visuals"></a>Визуальные элементы
-* Расширенные возможности администратора теперь в общедоступной версии [[видео]](https://youtu.be/LveNuQqV5xk?t=997) [[блог]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52270604)
-* Новые визуальные элементы из различных поставщиков [[видео]](https://youtu.be/LveNuQqV5xk?t=1039)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195582)
+* Новые визуальные элементы из различных поставщиков [[видео]](https://youtu.be/DT_tOas5YIo?t=688)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467072)
 
 
-### <a name="template-apps"></a>Приложения-шаблоны
-* Упрощенная установка для приложений шаблонов [[видео]](https://youtu.be/LveNuQqV5xk?t=1127) [[блог]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52270613) 
-* Поиск приложений-шаблонов в Power BI Desktop [[видео]](https://youtu.be/LveNuQqV5xk?t=1164) [[блог]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195591) 
-
-### <a name="other"></a>Другие
-* Экспорт источника данных в PBIDS в Power BI Desktop [[видео]](https://youtu.be/LveNuQqV5xk?t=1255) [[блог]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195594) [[статья]](../connect-data/desktop-data-sources.md#how-to-create-a-pbids-connection-file)
-* Обновление значка для Power BI [[видео]](https://youtu.be/LveNuQqV5xk?t=1295) [[блог]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52270618) 
-* Отклонение экрана-заставки Power BI Desktop [[видео]](https://youtu.be/LveNuQqV5xk?t=1313) [[блог]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195596)
-
-
-Дополнительные сведения о каждой из этих новых функций см. в записи блога [Обзор возможностей Power BI Desktop](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/).
+Дополнительные сведения о каждой из этих новых функций см. в записи блога [Обзор возможностей Power BI Desktop](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/).
 
 
 > [!NOTE]
@@ -98,7 +79,7 @@ ms.locfileid: "92256002"
 ### <a name="power-bi-desktop-monthly-update-video"></a>Видео, посвященное ежемесячному обновлению Power BI Desktop
 Все эти обновления описываются в следующем видео. Это видео можно также посмотреть в записи блога:
 
-> [!VIDEO https://www.youtube.com/embed/LveNuQqV5xk]
+> [!VIDEO https://www.youtube.com/embed/DT_tOas5YIo]
 
 ## <a name="more-videos"></a>Другие видео
 

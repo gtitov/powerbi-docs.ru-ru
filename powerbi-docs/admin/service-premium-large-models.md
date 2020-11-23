@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 03/03/2020
+ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 3095cfbfd4ed1a965e0a54f1cee0907cb468170d
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 57b1de80112e68849d21e7c34570d9754eaf0058
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91598808"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512822"
 ---
 # <a name="large-models-in-power-bi-premium-preview"></a>Большие модели в Power BI Premium (Предварительная версия)
 
@@ -160,3 +160,14 @@ SELECT * FROM SYSTEMRESTRICTSCHEMA
 * [Использование собственных ключей шифрования для Power BI](service-encryption-byok.md)
 * [Принцип функционирования емкостей](service-premium-what-is.md#how-capacities-function)
 * [Добавочное обновление](service-premium-incremental-refresh.md)
+
+
+Power BI предоставили Power BI Premium 2-го поколения в предварительной версии, чтобы улучшить работу с Power BI Premium, включая следующие возможности:
+* Производительность
+* Пользовательские лицензии
+* Больший масштаб
+* Улучшенные метрики
+* Автомасштабирование
+* Снижение издержек на управление
+
+Дополнительные сведения см. в разделе о [емкости Power BI Premium 2-го поколения (предварительная версия)](service-premium-what-is.md#power-bi-premium-generation-2-preview).

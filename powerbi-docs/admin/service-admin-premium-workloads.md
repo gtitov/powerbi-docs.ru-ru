@@ -7,18 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 05/11/2020
+ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 3454a10269937d6e03151a64bba6695cc37fcd66
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 36bbf9fcc8bcd74c46f15ebcf9bd04e86cc4a2c9
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396341"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512339"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Настройка рабочих нагрузок в емкости Premium
 
 Эта статья описывает включение и настройку рабочих нагрузок для емкостей Power BI Premium. По умолчанию емкости поддерживают только рабочие нагрузки, связанные с выполнением запросов Power BI. Вы можете включить и настроить дополнительные рабочие нагрузки для **[искусственного интеллекта (Cognitive Services)](../transform-model/dataflows/dataflows-machine-learning-integration.md)** , **[потоков данных](../transform-model/dataflows/dataflows-introduction-self-service.md)** и **[отчетов с разбивкой на страницы](../paginated-reports/paginated-reports-save-to-power-bi-service.md)** .
+
+> [!NOTE]
+> Power BI Premium недавно выпустили новую версию Premium — **Premium 2-го поколения**. В настоящее время она доступна в предварительной версии. Premium 2-го поколения упрощает управление емкостью уровня Premium и сокращает расходы на управление. Дополнительные сведения см. в разделе о [емкости Power BI Premium 2-го поколения (предварительная версия)](service-premium-what-is.md#power-bi-premium-generation-2-preview).
 
 ## <a name="default-memory-settings"></a>Параметры памяти по умолчанию
 
@@ -31,7 +34,13 @@ ms.locfileid: "94396341"
 | **Потоки данных**         | По умолчанию 40 %; не менее 40 %  | По умолчанию 24 %; не менее 24 %  | По умолчанию 20 %; не менее 12 %  | По умолчанию 20 %; не менее 5 %  | По умолчанию 20 %; не менее 3 %  | По умолчанию 20 %; не менее 2 %   |
 | **Отчеты с разбивкой на страницы** | Не поддерживается               | Не поддерживается               | Не поддерживается               | По умолчанию 20 %; не менее 10 % | По умолчанию 20 %; не менее 5 %  | По умолчанию 20 %; не менее 2,5 % |
 
+> [!NOTE]
+> **Premium 2-го поколения**, в настоящее время на этапе предварительной версии, не требует изменения параметров памяти. Память в Premium 2-го поколения автоматически управляется базовой системой. 
+
+
 ## <a name="workload-settings"></a>Параметры рабочей нагрузки
+
+В следующих разделах приводятся подробные сведения о параметрах рабочей нагрузки, описанных в предыдущей таблице. 
 
 ### <a name="ai-preview"></a>Искусственный интеллект (предварительная версия)
 
@@ -214,3 +223,13 @@ ms.locfileid: "94396341"
 [Автоматическое обновление страниц в Power BI Desktop (предварительная версия)](../create-reports/desktop-automatic-page-refresh.md)
 
 Появились дополнительные вопросы? [Спросить в сообществе Power BI](https://community.powerbi.com/)
+
+Power BI предоставили Power BI Premium 2-го поколения в предварительной версии, чтобы улучшить работу с Power BI Premium, включая следующие возможности:
+* Производительность
+* Пользовательские лицензии
+* Больший масштаб
+* Улучшенные метрики
+* Автомасштабирование
+* Снижение издержек на управление
+
+Дополнительные сведения см. в разделе о [емкости Power BI Premium 2-го поколения (предварительная версия)](service-premium-what-is.md#power-bi-premium-generation-2-preview).
