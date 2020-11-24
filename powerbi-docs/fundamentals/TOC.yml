@@ -39,6 +39,10 @@
               href: service-self-service-purchase-help.md
             - name: Получение помощи по регистрации в Power BI
               href: service-self-service-sign-up-help.md
+        - name: Безопасность
+          items:
+            - name: Базовые средства безопасности
+              href: security-baseline.md
     - name: Практические руководства
       items:
         - name: Получение Power BI Desktop
