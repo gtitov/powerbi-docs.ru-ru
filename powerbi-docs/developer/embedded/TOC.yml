@@ -44,10 +44,10 @@
           href: embedded-faq.md
     - name: Практическое руководство
       items:
-        - name: Внедрение с использованием субъекта-службы с сертификатом
-          href: embed-service-principal-certificate.md
-        - name: Внедрение с использованием субъекта-службы с секретом приложения
+        - name: Внедрение с использованием субъекта-службы
           href: embed-service-principal.md
+        - name: Внедрение с использованием субъекта-службы и сертификата
+          href: embed-service-principal-certificate.md
         - name: Внедрение содержимого из приложения
           href: embed-from-apps.md
         - name: Экспорт отчета в файл

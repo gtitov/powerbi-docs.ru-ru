@@ -20,6 +20,8 @@
           href: walkthrough-push-data-get-datasets.md
         - name: Добавление строк в таблицу
           href: walkthrough-push-data-add-rows.md
+        - name: Автоматизация настройки приложения-шаблона
+          href: ../template-apps/template-apps-auto-install-tutorial.md
     - name: Основные понятия
       items:
         - name: Политика автоматического хранения данных в режиме реального времени
@@ -32,10 +34,14 @@
               href: api-dataset-properties.md
             - name: Управление версиями в модели данных
               href: api-data-model-versioning.md
+        - name: Автоматизированная настройка приложения-шаблона
+          href: ../template-apps/template-apps-auto-install.md
     - name: Практическое руководство
       items:
         - name: Настройка учетных данных
           href: configure-credentials.md
+        - name: Автоматизация настройки приложения-шаблона
+          href: ../template-apps/template-apps-auto-install.md
     - name: Справочник
       items:
         - name: Интерфейсы REST API
