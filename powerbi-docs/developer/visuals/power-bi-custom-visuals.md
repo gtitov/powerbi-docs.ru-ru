@@ -10,18 +10,18 @@ ms.subservice: powerbi-desktop
 ms.topic: overview
 ms.date: 07/14/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 62a88a8267ae38b1dbfc0bbb0ee1d9020e7f9408
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: 8ea72198ded59f3ce5dce1362ab9320fc119fac6
+ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92049253"
+ms.lasthandoff: 11/24/2020
+ms.locfileid: "95514406"
 ---
 # <a name="visuals-in-power-bi"></a>Визуальные элементы в Power BI
 
 В состав Power BI входит множеством готовых визуальных элементов Power BI. Эти визуальные элементы доступны на панели визуализации как в [Power BI Desktop](https://powerbi.microsoft.com/desktop/), так и в [службе Power BI](https://app.powerbi.com). Их можно использовать для создания и редактирования содержимого Power BI.
 
-![Снимок экрана области визуализации Power BI, отображаемой в Power BI Desktop и службе Power BI.](media/power-bi-custom-visuals/power-bi-visualizations.png)
+:::image type="content" source="media/power-bi-custom-visuals/power-bi-visualizations.png" alt-text="Снимок экрана области визуализации Power BI, отображаемой в Power BI Desktop и службе Power BI.":::
 
 В Microsoft [AppSource](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fappsource.microsoft.com%2Fen-us%2Fmarketplace%2Fapps%3Fpage%3D1%26product%3Dpower-bi-visuals&data=02%7C01%7CKesem.Sharabi%40microsoft.com%7C6d9286afacb3468d4cde08d740b76694%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637049028749147718&sdata=igWm0e1vXdgGcbyvngQBrHQVAkahPnxPC1ZhUPntGI8%3D&reserved=0) и в Power BI также доступно множество других визуальных элементов Power BI. Эти визуальные элементы создаются корпорацией Майкрософт и ее партнерами, а затем тестируются и проверяются командой проверки AppSource.
 
@@ -29,11 +29,11 @@ ms.locfileid: "92049253"
 
 ## <a name="default-power-bi-visuals"></a>Визуальные элементы Power BI по умолчанию
 
-Это готовые визуальные элементы Power BI, доступные на панели "Визуализация" в *Power BI Desktop* и *службе Power BI* .
+Это готовые визуальные элементы Power BI, доступные на панели "Визуализация" в *Power BI Desktop* и *службе Power BI*.
 
-Чтобы открепить визуальный элемент Power BI на панели "Визуализация", щелкните его правой кнопкой мыши и выберите **открепить** .
+Чтобы открепить визуальный элемент Power BI на панели "Визуализация", щелкните его правой кнопкой мыши и выберите **открепить**.
 
-Чтобы восстановить визуальные элементы Power BI по умолчанию, имеющиеся на панели "Визуализация", щелкните **Импортировать настраиваемый визуальный элемент** и выберите **Восстановить визуальные элементы по умолчанию** . 
+Чтобы восстановить визуальные элементы Power BI по умолчанию, имеющиеся на панели "Визуализация", щелкните **Импортировать настраиваемый визуальный элемент** и выберите **Восстановить визуальные элементы по умолчанию**. 
 
 ## <a name="appsource-power-bi-visuals"></a>Визуальные элементы Power BI из магазина AppSource
 
@@ -56,13 +56,13 @@ ms.locfileid: "92049253"
 
 ### <a name="samples-for-power-bi-visuals"></a>Образцы визуальных элементов Power BI
 
-Для каждого визуального элемента Power BI в AppSource имеется соответствующий образец, демонстрирующий работу визуального элемента. Чтобы скачать образец, в [AppSource](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fappsource.microsoft.com%2Fen-us%2Fmarketplace%2Fapps%3Fpage%3D1%26product%3Dpower-bi-visuals&data=02%7C01%7CKesem.Sharabi%40microsoft.com%7C6d9286afacb3468d4cde08d740b76694%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637049028749147718&sdata=igWm0e1vXdgGcbyvngQBrHQVAkahPnxPC1ZhUPntGI8%3D&reserved=0) выберите визуальный элемент Power BI и в разделе *Попробуйте образец* щелкните ссылку **Образец отчета** .
+Для каждого визуального элемента Power BI в AppSource имеется соответствующий образец, демонстрирующий работу визуального элемента. Чтобы скачать образец, в [AppSource](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fappsource.microsoft.com%2Fen-us%2Fmarketplace%2Fapps%3Fpage%3D1%26product%3Dpower-bi-visuals&data=02%7C01%7CKesem.Sharabi%40microsoft.com%7C6d9286afacb3468d4cde08d740b76694%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637049028749147718&sdata=igWm0e1vXdgGcbyvngQBrHQVAkahPnxPC1ZhUPntGI8%3D&reserved=0) выберите визуальный элемент Power BI и в разделе *Попробуйте образец* щелкните ссылку **Образец отчета**.
 
 ## <a name="organizational-store"></a>Хранилище организации
 
 Администраторы Power BI утверждают и развертывают визуальные элементы Power BI в своей организации. Благодаря этому авторы отчетов могут с легкостью находить, обновлять и использовать эти визуальные элементы Power BI. Администраторы могут с легкостью управлять этими визуальными элементами с помощью таких действий, как обновление версий, отключение и включение визуальных элементов Power BI.
 
-Чтобы получить доступ к хранилищу организации, в области *Визуализация* щелкните **Импортировать настраиваемый визуальный элемент** , выберите **Импорт из магазина** и в верхней части окна *Визуальные элементы Power BI* выберите вкладку **Моя организация** .
+Чтобы получить доступ к хранилищу организации, в области *Визуализация* щелкните **Импортировать настраиваемый визуальный элемент**, выберите **Импорт из магазина** и в верхней части окна *Визуальные элементы Power BI* выберите вкладку **Моя организация**.
 
 [Подробнее о визуальных элементах организации](power-bi-custom-visuals-organization.md).
 
@@ -70,7 +70,7 @@ ms.locfileid: "92049253"
 
 Визуальные элементы Power BI представляют собой пакеты с кодом для отображения данных, предназначенных для этих элементов. Любой пользователь может создать пользовательский визуальный элемент и упаковать его в один `.pbiviz`-файл, который можно импортировать в отчет Power BI.
 
-Чтобы импортировать визуальный элемент Power BI, в области *Визуализация* щелкните **Импортировать настраиваемый визуальный элемент** и выберите **Импорт из файла** .
+Чтобы импортировать визуальный элемент Power BI, в области *Визуализация* щелкните **Импортировать настраиваемый визуальный элемент** и выберите **Импорт из файла**.
 
 Если вы как веб-разработчик заинтересованы в создании собственных визуальных элементов и их добавлении в магазин AppSource, узнайте подробнее о том, как [разработать визуальный элемент "Круговая карточка" в Power BI](develop-circle-card.md) и [опубликовать его в магазине AppSource](office-store.md).
 

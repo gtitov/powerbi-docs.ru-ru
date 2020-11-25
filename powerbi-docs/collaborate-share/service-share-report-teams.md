@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 LocalizationGroup: Share your work
 ms.date: 07/31/2020
-ms.openlocfilehash: ae3f6b5f3026adf127b53dd07118fe05e4c06a00
-ms.sourcegitcommit: 1b3a626c5ca612a7f23058f8e5cc0147a94db51c
+ms.openlocfilehash: db9084e7f7e78ecf17abe38ade732ab7ad2df754
+ms.sourcegitcommit: 5bbe7725918a72919ba069c5f8a59e95453ec14c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "94348089"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94946778"
 ---
 # <a name="share-directly-to-microsoft-teams-from-the-power-bi-service"></a>Представление общего доступа непосредственно в Microsoft Teams из службы Power BI
 
@@ -25,7 +25,7 @@ ms.locfileid: "94348089"
 
 Чтобы воспользоваться функцией **Поделиться в Teams** в Power BI, убедитесь в следующем:
 
-- Администраторы Power BI не отключили для клиента параметр **Поделиться в Teams** на портале администрирования Power BI. Этот параметр позволяет организациям скрывать кнопку **Поделиться в Teams**. Дополнительные сведения см. в статье [Портал администрирования Power BI](../admin/service-admin-portal.md#share-to-teams-tenant-setting).
+- Администраторы Power BI не отключили для клиента параметр **Поделиться в Teams** на портале администрирования Power BI. Этот параметр позволяет организациям скрывать кнопку **Поделиться в Teams**. Дополнительные сведения см. в статье [Портал администрирования Power BI](../admin/service-admin-portal.md#share-to-teams).
 
 Ознакомьтесь со статьей [Совместная работа в Microsoft Teams с использованием Power BI](service-collaborate-microsoft-teams.md), чтобы получить базовое понимание того, как Power BI и Microsoft Teams работают вместе, включая прочие требования.
 
