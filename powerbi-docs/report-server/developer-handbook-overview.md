@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
-ms.openlocfilehash: 1f7a04ca8920ef56e0e7de4efad47afa894e76d7
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: d485c7ab7583d2604cd9da9e4c122c6cceeeb4fe
+ms.sourcegitcommit: 8afdd3601209636c9ab92d75f967d4ee0a2cab26
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861183"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "95012006"
 ---
 # <a name="developer-handbook-overview-power-bi-report-server"></a>Общие сведения о руководстве для разработчика сервера отчетов Power BI
 
@@ -42,7 +42,13 @@ ms.locfileid: "90861183"
 Для управления сервером отчетов можно также использовать [служебные программы PowerShell](https://github.com/Microsoft/ReportingServicesTools) с открытым исходным кодом.
 
 > [!NOTE]
-> Служебные программы PowerShell в настоящее время не поддерживают файлы Power BI Desktop (PBIX).
+> Служебные программы PowerShell поддерживают файлы Power BI Desktop (PBIX) с помощью команд -RsRest*.
+
+Выполните следующую команду, чтобы найти команды в модуле PowerShell ReportingServicesTools, поддерживающие файлы Power BI Desktop (PBIX).
+
+```powershell
+Get-Command -Module ReportingServicesTools -Noun RsRest*
+```
 
 ## <a name="custom-extensions"></a>Пользовательские расширения
 
@@ -50,19 +56,19 @@ ms.locfileid: "90861183"
 
 Вы можете создавать расширения нескольких типов.
 
-* Расширения обработки данных
+* модули обработки данных;
 * модули доставки;
 * Расширения подготовки отчетов для отчетов с разбивкой на страницы
-* Расширения безопасности
+* модули безопасности;
 
 См. дополнительные сведения о [библиотеке расширений](/sql/reporting-services/extensions/reporting-services-extension-library).
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 [Приступая к работе с элементом управления средства просмотра отчетов](/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started)  
 [Создание приложений с помощью веб-службы и .NET Framework](/sql/reporting-services/report-server-web-service/net-framework/building-applications-using-the-web-service-and-the-net-framework)  
-[Доступ к URL-адресу](/sql/reporting-services/url-access-ssrs)  
+[Доступ по URL-адресу](/sql/reporting-services/url-access-ssrs)  
 [Библиотека расширений](/sql/reporting-services/extensions/reporting-services-extension-library)  
 [Поставщик WMI](/sql/reporting-services/wmi-provider-library-reference/reporting-services-wmi-provider-library-reference-ssrs)
 
-У вас имеются и другие вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
+Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

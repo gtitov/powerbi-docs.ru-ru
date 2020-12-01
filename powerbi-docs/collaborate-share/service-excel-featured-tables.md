@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/04/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 099e3aa11662232c5362895e93f0433620ce2ba9
-ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
+ms.openlocfilehash: 42d7cae62084cf2cfbf6f10e49489d35e4557c85
+ms.sourcegitcommit: 5bbe7725918a72919ba069c5f8a59e95453ec14c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87768899"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94947054"
 ---
 # <a name="access-power-bi-featured-tables-in-excel-preview"></a>Доступ к рекомендуемым таблицам Power BI в Excel (предварительная версия)
 
@@ -132,7 +132,7 @@ Excel кэширует данные, возвращаемые для всей с
 
 ## <a name="administrative-control"></a>Администрирование
 
-Администраторы Power BI могут контролировать использование рекомендуемых таблиц в коллекции "Типы данных" Excel пользователями организации. Дополнительные сведения см. в разделе [Параметры рекомендуемых таблиц](../admin/service-admin-portal.md#featured-tables-settings) на портале администрирования. 
+Администраторы Power BI могут контролировать использование рекомендуемых таблиц в коллекции "Типы данных" Excel пользователями организации. Дополнительные сведения см. в статье [Разрешение подключений к избранным таблицам](../admin/service-admin-portal.md#allow-connections-to-featured-tables) на портале администрирования. 
  
 ### <a name="auditing"></a>Аудит
 

@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 03/25/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: d218a0cfb66e57e6f52301f8c10bef5cfb137b4b
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 340a4739065716e67f9fd1a7d7b78f875805f12b
+ms.sourcegitcommit: 5bbe7725918a72919ba069c5f8a59e95453ec14c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83361872"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94946916"
 ---
 # <a name="supported-browsers-for-power-bi"></a>Поддерживаемые браузеры для Power BI
 
-Power BI предназначен для работы с любым из этих поддерживаемых браузеров, но производительность зависит от выбранного браузера. В частности, производительность может снижаться в Internet Explorer. Мы настоятельно рекомендуем перейти с Internet Explorer на современный браузер, например Microsoft Edge. В Microsoft Edge на базе Chromium производительность должна стать еще выше. Если производительность все равно недостаточная, попробуйте использовать другие поддерживаемые современные браузеры. Возможно, они лучше подойдут для вашего решения Power BI.
+Power BI предназначен для работы с любым из этих поддерживаемых браузеров, но производительность зависит от выбранного браузера. В частности, производительность может снижаться в Internet Explorer. Мы настоятельно рекомендуем перейти с Internet Explorer на современный браузер, например Microsoft Edge. Если производительность все равно недостаточная, попробуйте использовать другие поддерживаемые современные браузеры. Возможно, они лучше подойдут для вашего решения Power BI.
 
 Power BI поддерживает эти браузеры на всех платформах, на которых они доступны:
 

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.custom: contperfq1
 ms.date: 10/21/2020
-ms.openlocfilehash: 6c1e4212cb991ff7eb3d0f8a5e336010499bcd1c
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: 5799b0367c903eea55357969a2d4383a5f4c0c7b
+ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94668610"
+ms.lasthandoff: 11/24/2020
+ms.locfileid: "95514339"
 ---
 # <a name="understand-the-deployment-process"></a>ознакомление с процессом развертывания
 
@@ -286,6 +286,8 @@ ms.locfileid: "94668610"
 * Элементы Power BI, такие как [метки чувствительности](../admin/service-security-sensitivity-label-overview.md) отчетов и панели мониторинга Power BI, не могут быть развернуты.
 
 * Максимальное число элементов Power BI в одном развертывании равно 300.
+
+* Скачивание PBIX-файла после развертывания не поддерживается.
 
 * Список ограничений рабочей области см. в разделе [Ограничения для назначений рабочей области](deployment-pipelines-get-started.md#workspace-assignment-limitations).
 
