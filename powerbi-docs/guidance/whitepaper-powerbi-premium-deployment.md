@@ -9,12 +9,12 @@ ms.subservice: powerbi-premium
 ms.topic: conceptual
 ms.date: 03/06/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 8d28146f5f4ee47697ada1d4663ae9899b660a9b
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 70584413a63f8566137b5e71cdd86011ac6c1acc
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916643"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416469"
 ---
 # <a name="deploying-and-managing-power-bi-premium-capacities"></a>Развертывание емкостей Power BI Premium и управление ими
 
@@ -29,5 +29,5 @@ ms.locfileid: "92916643"
 | [Оптимизация емкостей Premium](../admin/service-premium-capacity-optimize.md) | Рекомендации по оптимизации производительности, оптимизации моделей, планированию емкости и тестированию. |
 | [Сценарии использования емкостей Premium](../admin/service-premium-capacity-scenarios.md) | Распространенные проблемы в реальных сценариях, в которых основное внимание уделяется выявлению и устранению этих проблем. |
 | [Мониторинг емкостей на портале администрирования](../admin/service-admin-premium-monitor-portal.md) | Наблюдение с помощью приложения метрик емкости Power BI Premium и анализ метрик, отображаемых в приложении. |
-| [Вопросы и ответы по Power BI Premium](../admin/service-premium-faq.md) | Ответы на вопросы по приобретению и лицензированию, функциям и распространенным сценариям. |
+| [Вопросы и ответы по Power BI Premium](../admin/service-premium-faq.md) | Ответы на вопросы по приобретению и лицензированию, функциям и распространенным сценариям. |
 | | |

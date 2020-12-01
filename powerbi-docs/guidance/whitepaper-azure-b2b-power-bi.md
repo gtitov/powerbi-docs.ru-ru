@@ -2,19 +2,19 @@
 title: Распространение содержимого Power BI для сторонних гостевых пользователей с помощью Azure Active Directory B2B
 description: Технический документ, в котором описывается использование Azure Active Directory B2B для распространения Power BI для сторонних гостевых пользователей
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 03/07/2019
-ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: cc4387c3c1c0f83347823bbc6b95beb437b235e9
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 9bf2d1ab3b782d0fbb201e203aa9bb2f2df4079d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916896"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417101"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>Распространение содержимого Power BI для сторонних гостевых пользователей с помощью Azure Active Directory B2B
 
@@ -25,7 +25,7 @@ ms.locfileid: "92916896"
 **Технические рецензенты:** Адам Уилсон (, Шенг Лю, Киан Лианг, Сергеем Гундоров, Джейкоб Гримм, Адам Сакстон, Maya Шенхав, Нимрод Шалит, Элизабет Олсон
 
 > [!NOTE]
-> Вы можете сохранить или распечатать этот технический документ, выбрав **Печать** в браузере, а затем выбрав **Сохранить как PDF** .
+> Вы можете сохранить или распечатать этот технический документ, выбрав **Печать** в браузере, а затем выбрав **Сохранить как PDF**.
 
 ## <a name="introduction"></a>Введение
 
@@ -391,7 +391,7 @@ Power BI содержит параметр **External guest users can edit and m
 
 ![Управление ролями](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_28.png)
 
-При определении ролей в отчете, им должен быть назначен пользователь. Это позволит ему получить доступ к любым данным. Назначение ролей выполняется в служба Power BI ( **Наборы данных > Безопасность** ).
+При определении ролей в отчете, им должен быть назначен пользователь. Это позволит ему получить доступ к любым данным. Назначение ролей выполняется в служба Power BI (**Наборы данных > Безопасность**).
 
 ![Настройка безопасности](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_29.png)
 
@@ -490,8 +490,8 @@ Contoso может разрешить внешним пользователям 
 
 Чтобы помочь этим пользователям войти в Power BI, предоставьте им URL-адрес клиента. Чтобы найти URL-адрес клиента, выполните указанные ниже действия.
 
-1. В службе Power BI в верхнем меню выберите справку ( **?** ), а затем **О Power BI** .
-2. Найдите значение в поле  **URL-адрес клиента** . Это URL-адрес клиента, которым вы можете поделиться с гостевыми пользователями.
+1. В службе Power BI в верхнем меню выберите справку (**?** ), а затем **О Power BI**.
+2. Найдите значение в поле  **URL-адрес клиента**. Это URL-адрес клиента, которым вы можете поделиться с гостевыми пользователями.
 
     ![URL-адрес клиента](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_42.png)
 
