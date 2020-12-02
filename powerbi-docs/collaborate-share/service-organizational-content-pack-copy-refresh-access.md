@@ -2,19 +2,19 @@
 title: 'Пакеты содержимого организации: доступ и копирование'
 description: Узнайте о создании копий пакетов содержимого организации и устранении неполадок в них в Power BI
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp, kayu
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 08/02/2018
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f89459b9d1e930fe429467b566d0813030fb43ab
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: eccc60c4f26502ea2249c378efbdb910bd7c8a30
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034527"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96406740"
 ---
 # <a name="organizational-content-packs-copy-refresh-and-get-access"></a>Пакеты содержимого организации: Копирование, обновления и получение доступа
 

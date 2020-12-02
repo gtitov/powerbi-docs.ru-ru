@@ -2,18 +2,18 @@
 title: Уведомления о перебое в работе служб
 description: Сведения о том, как получать уведомления по электронной почте при нарушении работы или сбое службы Power BI.
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/25/2020
-ms.author: kfollis
-ms.openlocfilehash: 8b9c10c8b3faa87cfc19c3c1d8f87a36de0307dd
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: e5d8f43a8edb6dc05b58cb62836e98cf209c8b5c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916137"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96407821"
 ---
 # <a name="service-interruption-notifications"></a>Уведомления о перебое в работе служб
 
@@ -21,7 +21,7 @@ ms.locfileid: "92916137"
 
 ![Уведомление по электронной почте об обновлении](media/service-interruption-notifications/refresh-notification-email.png)
 
-Сейчас мы отправляем сообщения электронной почты для следующих _сценариев надежности_ :
+Сейчас мы отправляем сообщения электронной почты для следующих _сценариев надежности_:
 
 - Надежность открытия отчетов
 - Надежность обновления моделей

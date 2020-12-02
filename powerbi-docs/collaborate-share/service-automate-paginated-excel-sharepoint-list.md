@@ -2,19 +2,19 @@
 title: Экспорт отчета с разбивкой на страницы для каждой строки в таблице Excel Online или в списке SharePoint
 description: В этой статье описано, как автоматизировать экспорт отчета с разбивкой на страницы для каждой строки в таблице Excel Online или в списке SharePoint Online с помощью Power Automate.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 11/17/2020
-ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: acb90e65d63871925fe39c38d2141b85652fd68a
-ms.sourcegitcommit: b2693047fce6a4e0c3ea07013404e99fc9cc1901
+ms.openlocfilehash: 74d61d40c4447f2649f5cce5fbcdcba68cd31afe
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "94905086"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96408005"
 ---
 # <a name="export-a-paginated-report-for-each-row-in-an-excel-online-table-or-sharepoint-list"></a>Экспорт отчета с разбивкой на страницы для каждой строки в таблице Excel Online или в списке SharePoint
 

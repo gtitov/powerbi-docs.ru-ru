@@ -2,20 +2,20 @@
 title: Получение подписки на службу Power BI для организации
 description: Сведения о том, как администратор может оформить подписку на службу Power BI и приобрести лицензии для группы пользователей.
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 05/13/2020
-ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 99d1f9543625ab564db305b50b196b1e6fcdebef
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 7db1b6c2df9a8ad32b76ae452ee76828df5823c0
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857250"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96408511"
 ---
 # <a name="get-a-power-bi-service-subscription-for-your-organization"></a>Получение подписки на службу Power BI для организации
 

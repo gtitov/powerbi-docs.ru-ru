@@ -5,16 +5,16 @@ author: kfollis
 ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 06/25/2020
 ms.custom: seodec18
-ms.openlocfilehash: e4aec179b298c5a8ca52cf73ac5fdceed7e8602a
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 433b3d53ccb653e1a945a83176ab9ebc19ccac5d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857687"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96409247"
 ---
 # <a name="add-power-bi-urls-to-your-allow-list"></a>Добавление URL-адресов Power BI в свой список разрешенных адресов
 [//]: # "suparnap, miwehnia, natham — это контакты людей, которые работают с этим списком"

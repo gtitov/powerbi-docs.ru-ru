@@ -2,19 +2,19 @@
 title: Основные сведения о ролях администратора службы Power BI
 description: В этой статьи описываются задачи администратора службы Power BI, а также роли, в которых предоставляются необходимые права администратора.
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 01/02/2020
-ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: a5a956f65943f557d21a942bde4be1de40a84692
-ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
+ms.openlocfilehash: 8ba05d9a7dd39df91cd7313038129f69e9b8d70b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "83438207"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96408051"
 ---
 # <a name="understanding-power-bi-service-administrator-roles"></a>Основные сведения о ролях администратора службы Power BI
 

@@ -2,19 +2,19 @@
 title: Сохранение отчета с разбивкой на страницы в OneDrive для бизнеса или SharePoint Online
 description: В этой статье описано, как автоматизировать сохранение отчета Power BI с разбивкой на страницы в OneDrive для бизнеса или в папке SharePoint Online с помощью Power Automate.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 11/17/2020
-ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 67f49d19e3488b80a980719220fcc4715a6952e7
-ms.sourcegitcommit: b2693047fce6a4e0c3ea07013404e99fc9cc1901
+ms.openlocfilehash: 4a0a504db15d78bec112aaafd2a972f066e88193
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "94905105"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96407683"
 ---
 # <a name="save-a-paginated-report-to-onedrive-for-business-or-sharepoint-online"></a>Сохранение отчета с разбивкой на страницы в OneDrive для бизнеса или SharePoint Online
 

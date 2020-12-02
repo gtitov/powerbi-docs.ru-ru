@@ -1,20 +1,20 @@
 ---
 title: Использование запасного адреса электронной почты
 description: Использование запасного адреса электронной почты
-author: kfollis
+author: mihart
+ms.author: mihart
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 04/23/2019
-ms.author: kfollis
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 0cc691e8987bf45f6c3028a5006955db1da72b0b
-ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
+ms.openlocfilehash: b03ecff1bcb74789adfea640c0279b568a09ffc7
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "88638803"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96409086"
 ---
 # <a name="use-an-alternate-email-address"></a>Использование запасного адреса электронной почты
 
