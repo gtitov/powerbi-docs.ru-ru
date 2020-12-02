@@ -1,20 +1,20 @@
 ---
 title: Подключение к службе "Поиск Azure" с помощью Power BI
 description: Поиск Azure для Power BI
-author: SarinaJoan
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 08/29/2019
-ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 11389b5986d0dd627b0077808a74db5ab2769a65
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 5c2c5d3b6382fdb85125a71829d62624dab31e83
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216300"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96403382"
 ---
 # <a name="connect-to-azure-search-with-power-bi"></a>Подключение к службе "Поиск Azure" с помощью Power BI
 Аналитика трафика службы поиска Azure позволяет отслеживать трафик и получать по нему подробные сведения в службе поиска Azure. Пакет содержимого службы поиска Azure для Power BI предоставляет подробные сведения по данным службы поиска, включая поиск, индексацию, статистику служб и задержки за последние 30 дней. Дополнительные сведения см. в [записи блога Azure](https://azure.microsoft.com/blog/analyzing-your-azure-search-traffic/).

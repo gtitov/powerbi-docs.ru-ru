@@ -2,19 +2,19 @@
 title: Подключение к Office365Mon с помощью Power BI
 description: Office365Mon для Power BI
 author: paulinbar
+ms.author: painbar
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 11/26/2019
-ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 422782c3036f94c1ea764f46135200116092d70c
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: c7433bcc75da316e2e705a63dbcc2f17745ad573
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216231"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96403060"
 ---
 # <a name="connect-to-office365mon-with-power-bi"></a>Подключение к Office365Mon с помощью Power BI
 С функциями Power BI и приложения-шаблона Office365Mon вам будет легко анализировать данные о перебоях в работе и состоянии служб Office 365. Power BI извлекает данные, в том числе сведения о сбоях в работе и проверках работоспособности, затем создает стандартную панель мониторинга и формирует на основе этой информации отчеты.

@@ -1,20 +1,20 @@
 ---
 title: Подключение к Project Online с помощью Power BI
 description: Project Online для Power BI
-author: SarinaJoan
+author: paulinbar
+ms.author: painbar
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 07/25/2019
-ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 99a8cf5081274f922d210a140d333814b80fd01f
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: e5d97da4d643512396a17e95fb7cae2e841d7521
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91527753"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96403290"
 ---
 # <a name="connect-to-project-web-app-with-power-bi"></a>Подключение к Project Web App с помощью Power BI
 Microsoft Project Web App — это гибкое решение для управления портфелями проектов (PPM) и повседневной работы. Project Web App позволяет организациям приступить к работе, расставить приоритеты по инвестициям в портфель проектов, а также добиться запланированного уровня ценности для бизнеса. Приложение-шаблон Project Web App для Power BI позволяет использовать функции аналитики Project Web App для управления проектами, портфелями и ресурсами.

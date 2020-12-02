@@ -2,18 +2,18 @@
 title: Подключение к панели поддержки принятия решений по неотложной медицинской помощи
 description: Узнайте, как получить и установить шаблон приложения "Панель поддержки принятия решений по неотложной медицинской помощи в связи с COVID-19" и как подключиться к данным.
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/13/2020
-ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4455a8da0af7ff928b81baf83245e66cdee578ea
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 823c8429c95a0b4d858540b2cf1183ca1c7caac7
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90854237"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96403152"
 ---
 # <a name="connect-to-the-hospital-emergency-response-decision-support-dashboard"></a>Подключение к панели поддержки принятия решений по неотложной медицинской помощи
 Шаблон приложения "Панель поддержки принятия решений по неотложной медицинской помощи" — это компонент для создания отчетов в составе [решения Microsoft Power Platform для реагирования на чрезвычайные медицинские ситуации](https://powerapps.microsoft.com/blog/emergency-response-solution-a-microsoft-power-platform-solution-for-healthcare-emergency-response/). На панели мониторинга приводятся сводные данные по системе здравоохранения, которые помогают специалистам по управлению в чрезвычайных ситуациях своевременно принимать правильные решения.

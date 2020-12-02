@@ -2,19 +2,19 @@
 title: Источники данных для Power BI
 description: Источники данных для Power BI
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: conceptual
 ms.date: 08/29/2019
-ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: bd3ab4a1c6f702ad866211339a3d3a386c4981fa
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 427fb322a9f9226bd85da2ae1fc0657c77ca1cf5
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264419"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96402232"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Источники данных для службы Power BI
 Данные находятся в основе Power BI. Предположим, что вы изучаете данные. Для этого вы можете создавать диаграммы и панели мониторинга или задавать вопросы в функции **Вопросы и ответы**. Отображаемые визуализации и ответы основаны на наборе данных. Этот набор извлекается из источника данных.
