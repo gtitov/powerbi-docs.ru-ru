@@ -2,20 +2,20 @@
 title: Включение предварительных версий функций
 description: Информация о включении (и отключении) предварительных версий функций Power BI.
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 09/17/2020
-ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: a19be2d22802734964d96a93857f77e13c6c05c4
-ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
+ms.openlocfilehash: c650b7ea282d928af512ce7948902bc4fd72613f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90764259"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96389973"
 ---
 # <a name="opt-in-for-power-bi-service-preview-features"></a>Включение предварительных версий функций Power BI
 

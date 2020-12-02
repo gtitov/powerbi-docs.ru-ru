@@ -2,19 +2,19 @@
 title: Использование вопросов и ответов для активных подключений в Power BI
 description: Документация по использованию функции вопросов и ответов Power BI в виде запросов на естественном языке для активных подключений к данным Analysis Services и локальному шлюзу данных.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/29/2020
-ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 8137fa6bb10e20992547746bc6e91e001767c679
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4e64121fdac63abe22d77818a0f91a860cac316f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85218868"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96388156"
 ---
 # <a name="enable-qa-for-live-connections-in-power-bi"></a>Включение вопросов и ответов для активных подключений в Power BI
 

@@ -2,19 +2,19 @@
 title: Руководство. Превращение книги Excel в отчет в службе Power BI для Teams
 description: В этой статье показано, как быстро создать привлекательный отчет из книги Excel в службе Power BI и поделиться ей в Teams.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: tutorial
 ms.date: 07/30/2020
-ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: ccf8b5fa8f1c4d18a25767ff11f035304b339de0
-ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
+ms.openlocfilehash: 99f562ee315a74c9de6765308272e5e33153c4f0
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "87478137"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96388869"
 ---
 # <a name="tutorial-from-excel-workbook-to-a-report-in-the-power-bi-service-to-microsoft-teams"></a>Руководство. Превращение книги Excel в отчет службе Power BI для Microsoft Teams
 Ваш руководитель требует отчет по последним показателям продаж и прибыли к концу дня. При этом последние данные хранятся в различных сторонних системах и в файлах на вашем ноутбуке. Раньше создание визуальных элементов и форматирование отчета занимало несколько часов и заставляло понервничать.
@@ -82,7 +82,7 @@ ms.locfileid: "87478137"
 
 ![Снимок экрана: как выглядят данные Excel на панели "Поля".](media/service-from-excel-to-stunning-report/power-bi-fields-list-financial.png)
 
-1. Чтобы освободить место для холста отчета, выберите **Свернуть панель навигации**и сверните панель **Фильтры**.
+1. Чтобы освободить место для холста отчета, выберите **Свернуть панель навигации** и сверните панель **Фильтры**.
 
     :::image type="content" source="media/service-from-excel-to-stunning-report/power-bi-hide-nav-pane.png" alt-text="Снимок экрана: свертывание панели навигации."::: 
 
@@ -174,7 +174,7 @@ ms.locfileid: "87478137"
 
    ![Снимок экрана: значок общего доступа.](media/service-from-excel-to-stunning-report/power-bi-share-dashboard.png)
 
-2. На странице **Общий доступ к панели мониторинга** введите адреса электронной почты получателей в поле **Введите адреса электронной почты**и добавьте сообщение в поле ниже. 
+2. На странице **Общий доступ к панели мониторинга** введите адреса электронной почты получателей в поле **Введите адреса электронной почты** и добавьте сообщение в поле ниже. 
 
 3. Выберите нужные параметры, если таковые имеются:
 

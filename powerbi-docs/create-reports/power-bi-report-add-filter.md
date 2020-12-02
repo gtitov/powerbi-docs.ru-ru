@@ -2,19 +2,19 @@
 title: Добавление фильтра в отчет в Power BI
 description: Добавление фильтра страницы, визуализации или отчета в отчет в Power BI
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 10/20/2019
-ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: bf81ec873b822fbb1604378aa508b3ffeb408511
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 113370dd6b3aa19546f1facada6abc07c12b9d1a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635845"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96389122"
 ---
 # <a name="add-a-filter-to-a-report-in-power-bi"></a>Добавление фильтра в отчет в Power BI
 

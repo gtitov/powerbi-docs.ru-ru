@@ -2,19 +2,19 @@
 title: Переименование информационных панелей, отчетов, рабочих областей, страниц отчета, наборов данных
 description: Переименование содержимого в службе Power BI.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 03/01/2018
-ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: d37dfece5c7f181ddf55b58ea461e48fdd090d11
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: fc120b832fda05d822e57ace56b15fbd773a53ad
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85218753"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96388041"
 ---
 # <a name="rename-almost-anything-in-power-bi-service"></a>Переименование содержимого в службе Power BI
 В этой статье показано, как изменить имя информационной панели, отчета, страницы отчета, книги, набора данных, приложения и рабочей области в службе Power BI.

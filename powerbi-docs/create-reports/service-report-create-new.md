@@ -2,19 +2,19 @@
 title: 'Создание отчета из файла Excel в службе Power BI '
 description: Создание отчета Power BI из файла Excel в службе Power BI.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 10/14/2020
-ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: d6a52fd72ab96541eee621d6be6cb50005f293e2
-ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
+ms.openlocfilehash: 806198b783785a06562411b53f7bd6f644b16918
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "92462753"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96388202"
 ---
 # <a name="create-a-report-from-an-excel-file-in-the-power-bi-service"></a>Создание отчета из файла Excel в службе Power BI
 Вы ознакомились со статьей [Отчеты в Power BI](../consumer/end-user-reports.md) и хотите создать свои собственные отчеты. Существуют различные способы создания отчета. В этой статье мы создадим в службе Power BI простой отчет из файла Excel. Поняв принцип создания отчета, вы можете ознакомиться с более подробными темами, перечисленными в разделе [Дальнейшие действия](#next-steps) в конце статьи.  
@@ -42,7 +42,7 @@ ms.locfileid: "92462753"
 
    После импорта файла Excel он отображается в виде *набора данных* в списке рабочей области.
 
-1. Щелкните **Дополнительные параметры**  (…) рядом с набором данных и выберите пункт **Создать отчет**.
+1. Щелкните **Дополнительные параметры** (…) рядом с набором данных и выберите пункт **Создать отчет**.
    
    :::image type="content" source="media/service-report-create-new/power-bi-dataset-create-report.png" alt-text="Снимок экрана: выбор пункта &quot;Создать отчет&quot;.":::
 6. Откроется редактор отчетов. 
@@ -79,7 +79,7 @@ ms.locfileid: "92462753"
    
     ![редактор отчетов с датчиком и линейчатой диаграммой](media/service-report-create-new/power-bi-report-step4.png)
 3. Преобразуйте визуальный элемент в диаграмму с областями, выбрав соответствующий шаблон ![значок диаграммы](media/service-report-create-new/power-bi-areachart-icon.png) в области **Визуализации**.
-4. Выберите **Время** > **Период** , чтобы добавить время в качестве **оси**.
+4. Выберите **Время** > **Период**, чтобы добавить время в качестве **оси**.
    
     ![редактор отчетов с активной диаграммой с областями](media/service-report-create-new/power-bi-report-step5.png)
 5. Чтобы отсортировать визуальные элементы по времени, нажмите кнопку с многоточием и выберите **Sort by Period** (Сортировать по периоду).

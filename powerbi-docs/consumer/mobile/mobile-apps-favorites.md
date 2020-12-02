@@ -2,18 +2,18 @@
 title: Избранное в мобильных приложениях Power BI
 description: Узнайте о том, как добавлять в избранное и просматривать приложения, отчеты и панели мониторинга Power BI, а также ключевые показатели эффективности и отчеты решения "Сервер отчетов Power BI" и служб Reporting Services в мобильных приложениях.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/02/2019
-ms.author: painbar
-ms.openlocfilehash: 3a89f6e050684e193ea915b2d6bd26acb7fd85ab
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: e86a4cd8298feaa045ed363ecf8b4da47f051d8b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635914"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96389237"
 ---
 # <a name="make-and-view-favorites-in-the-power-bi-mobile-apps"></a>Добавление элементов в избранное и их просмотр в мобильных приложениях Power BI
 Область применения:
