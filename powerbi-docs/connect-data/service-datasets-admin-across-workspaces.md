@@ -1,20 +1,20 @@
 ---
 title: Управление использованием наборов данных в рабочих областях — Power BI
 description: Сведения о том, как ограничить поток информации в клиенте Power BI.
-author: maggiesMSFT
+author: paulinbar
+ms.author: painbar
 ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 04/30/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 6cc602b96207b1662f0738c0936ca816bbfd0a03
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: d94be70bd61988f009900432e3bc77756a3821df
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92681045"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96392572"
 ---
 # <a name="control-the-use-of-datasets-across-workspaces"></a>Управление использованием наборов данных в рабочих областях
 
@@ -32,7 +32,7 @@ ms.locfileid: "92681045"
 
 ## <a name="provide-a-link-for-the-certification-process"></a>Указание ссылки для процесса сертификации
 
-Администратор Power BI может предоставить URL-адрес для ссылки **Подробнее** на странице параметров **Подтверждение** .  Дополнительные сведения см. в разделе [Реализация сертификации содержимого](../admin/service-admin-setup-certification.md). Эта ссылка может указывать на документацию о процессе сертификации. Если не задать назначение для ссылки **Подробнее** , по умолчанию она указывает на статью [Поддержка содержимого](../collaborate-share/service-endorse-content.md).
+Администратор Power BI может предоставить URL-адрес для ссылки **Подробнее** на странице параметров **Подтверждение**.  Дополнительные сведения см. в разделе [Реализация сертификации содержимого](../admin/service-admin-setup-certification.md). Эта ссылка может указывать на документацию о процессе сертификации. Если не задать назначение для ссылки **Подробнее**, по умолчанию она указывает на статью [Поддержка содержимого](../collaborate-share/service-endorse-content.md).
 
 ![Дополнительные сведения о сертификации набора данных](media/service-datasets-admin-across-workspaces/service-admin-certification-setup-dialog.png)
 

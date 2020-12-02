@@ -2,18 +2,18 @@
 title: Обновление, удаление и извлечение приложения-шаблона Power BI
 description: Как обновить, удалить и извлечь приложение-шаблон.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
-ms.author: painbar
-ms.openlocfilehash: c5bed13799824a0222b2961595108536f66133ee
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 2eb4df96db51ccbf3308315130fdaa2de85df240
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91634948"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96392135"
 ---
 # <a name="update-delete-and-extract-template-app"></a>Обновление, удаление и извлечение приложения-шаблона
 

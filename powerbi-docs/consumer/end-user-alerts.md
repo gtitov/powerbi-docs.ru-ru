@@ -2,20 +2,20 @@
 title: Руководство. Настройка оповещений о данных на панелях мониторинга службы Power BI
 description: Из этого руководства вы узнаете, как настроить оповещения, уведомляющие вас о том, что данные в панелях мониторинга выходят за пределы заданного порога, в службе Microsoft Power BI.
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: removed
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 08/05/2020
-ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 22d9baaf50ce32c4a9d3644cff455b474bdd1549
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: be3ed6d8a836b626ba26e5e9acce7f0f2df3c6ea
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91525342"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96391997"
 ---
 # <a name="tutorial-set-alerts-on-power-bi-dashboards"></a>Руководство. Настройка оповещений на панелях мониторинга Power BI
 
