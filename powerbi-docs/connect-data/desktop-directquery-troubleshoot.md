@@ -1,19 +1,19 @@
 ---
 title: Устранение неполадок с моделью DirectQuery в Power BI Desktop
 description: Устранение неполадок с моделью DirectQuery.
-author: peter-myers
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: troubleshooting
 ms.date: 10/24/2019
-ms.author: v-pemyer
-ms.openlocfilehash: 54091175b49a0465a56a689190965429715a4754
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 943c8283d48b4281d2ddb5d7eeed0e69db4ee6fc
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485560"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96405314"
 ---
 # <a name="troubleshoot-developing-directquery-models-in-power-bi-desktop"></a>Устранение неполадок с разработкой моделей DirectQuery в Power BI Desktop
 

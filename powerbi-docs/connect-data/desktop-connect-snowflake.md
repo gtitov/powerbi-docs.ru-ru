@@ -2,19 +2,19 @@
 title: Подключение к хранилищу Snowflake Computing в Power BI Desktop
 description: 'Хранилище вычислительных ресурсов Snowflake в Power BI Desktop: простое подключение и использование'
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 05/08/2019
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d6de937f4be3c503c146c31a32c56b67ee97a8c4
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 115fba44c69fceb3a4f309cd92358ef5bc2eff42
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214795"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96405751"
 ---
 # <a name="connect-to-a-snowflake-computing-warehouse-in-power-bi-desktop"></a>Подключение к хранилищу данных Snowflake Computing из Power BI Desktop
 В Power BI Desktop вы можете подключиться к хранилищу вычислительных ресурсов **Snowflake**, чтобы использовать его так же, как и любой другой источник данных в Power BI Desktop. 

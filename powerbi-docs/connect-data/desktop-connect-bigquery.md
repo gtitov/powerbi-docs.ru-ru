@@ -2,29 +2,29 @@
 title: Подключение к базе данных Google BigQuery в Power BI Desktop
 description: Простое и удобное подключение к Google BigQuery и работа с ней в Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 05/08/2019
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 68698d51b074102a8d8e556101fcfaf6a39c2c62
-ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
+ms.openlocfilehash: 7cffba9178d4eec0bfd468040b7551768aab7f1d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "92349421"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96405889"
 ---
 # <a name="connect-to-a-google-bigquery-database-in-power-bi-desktop"></a>Подключение к базе данных Google BigQuery в Power BI Desktop
 В Power BI Desktop вы можете подключиться к базе данных **Google BigQuery** и использовать ее так же, как и любой другой источник данных в Power BI Desktop.
 
 ## <a name="connect-to-google-bigquery"></a>Подключение к Google BigQuery
-Для подключения к базе данных Google **BigQuery** на вкладке **Главная** на ленте в Power BI Desktop выберите **Получение данных** . В области слева выберите категорию **База данных** . Отобразится пункт **Google BigQuery** .
+Для подключения к базе данных Google **BigQuery** на вкладке **Главная** на ленте в Power BI Desktop выберите **Получение данных**. В области слева выберите категорию **База данных**. Отобразится пункт **Google BigQuery**.
 
 ![Диалоговое окно "Получение данных" для Google BigQuery](media/desktop-connect-bigquery/connect_bigquery_01.png)
 
-В появившемся окне **Google BigQuery** войдите в свою учетную запись Google BigQuery и выберите команду **Подключиться** .
+В появившемся окне **Google BigQuery** войдите в свою учетную запись Google BigQuery и выберите команду **Подключиться**.
 
 ![Вход на Google BigQuery](media/desktop-connect-bigquery/connect_bigquery_02.png)
 
@@ -32,12 +32,12 @@ ms.locfileid: "92349421"
 
 ![Вход в Google выполнен](media/desktop-connect-bigquery/connect_bigquery_02b.png)
 
-После успешного подключения откроется окно **Навигатор** , содержащее данные, доступные на сервере. Из них вы можете выбрать один или несколько элементов для импорта и использования в **Power BI Desktop** .
+После успешного подключения откроется окно **Навигатор**, содержащее данные, доступные на сервере. Из них вы можете выбрать один или несколько элементов для импорта и использования в **Power BI Desktop**.
 
 ![Данные из Google BigQuery](media/desktop-connect-bigquery/connect_bigquery_03.png)
 
 ## <a name="considerations-and-limitations"></a>Рекомендации и ограничения
-Существуют определенные ограничения и рекомендации, которые следует учитывать в соединителе Google **BigQuery** .
+Существуют определенные ограничения и рекомендации, которые следует учитывать в соединителе Google **BigQuery**.
 
 * Соединитель Google BigQuery доступен в Power BI Desktop и в службе Power BI. В службе Power BI доступ к соединителю может осуществляться с помощью подключения типа "облако к облаку" из Power BI в Google BigQuery.
 

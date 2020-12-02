@@ -2,19 +2,19 @@
 title: Использование языка Python в редакторе запросов Power BI
 description: Используйте язык Python в редакторе запросов Power BI Desktop для расширенной аналитики
 author: otarb
+ms.author: otarb
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 06/18/2018
-ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6e1c18f61cc822cd9656a49a65c98b225709c540
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: fac0b396abd6cde87e7e3b738e53480ce34eba88
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215501"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96405176"
 ---
 # <a name="use-python-in-query-editor"></a>Использование Python в редакторе запросов
 В **редакторе запросов** Power BI Desktop можно использовать язык программирования **Python**, который широко применяют специалисты по статистике, аналитики и специалисты по обработке данных. Интеграция языка Python в **редактор запросов** позволяет выполнять очистку данных с помощью Python, а также формирование и анализ данных в наборах данных, в частности заполнение отсутствующих данных, прогнозирование и кластеризацию. **Python** — эффективный язык, который можно использовать в **редакторе запросов** для подготовки модели данных и создания отчетов.

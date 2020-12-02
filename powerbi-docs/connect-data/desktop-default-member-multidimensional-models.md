@@ -2,19 +2,19 @@
 title: Элемент по умолчанию в многомерных моделях в Power BI
 description: Дополнительные сведения о поведении Power BI при использовании элементов по умолчанию в многомерных моделях
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: conceptual
 ms.date: 01/10/2019
-ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 75753886930a4b9c2e109f36b5cc01ccbaec49e6
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 333651ad89e50a3debe73dfdafc0dced865553a5
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90858331"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96405452"
 ---
 # <a name="work-with-multidimensional-models-in-power-bi"></a>Работа с многомерными моделями в Power BI
 

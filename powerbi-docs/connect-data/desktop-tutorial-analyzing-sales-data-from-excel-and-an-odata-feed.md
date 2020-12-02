@@ -2,19 +2,19 @@
 title: Руководство. Объединение данных из Excel и веб-канала OData в Power BI Desktop
 description: Руководство. Объединение данных из Excel и веб-канала OData
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: tutorial
 ms.date: 01/17/2020
-ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 0401fecc91aef03c0b9e0767bfb241cd701ff50b
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 391c8fef1e95aa39ff6dfcd8aab8088f692504e7
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90853754"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96404923"
 ---
 # <a name="tutorial-analyze-sales-data-from-excel-and-an-odata-feed"></a>Руководство. Анализ данных о продажах из Excel и канала OData
 

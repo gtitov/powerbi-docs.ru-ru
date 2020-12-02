@@ -2,20 +2,20 @@
 title: Использование SAP HANA в Power BI
 description: Использование SAP HANA в Power BI
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 01/15/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 69019abf60f2633bcb764b11c0ac3310911fab62
-ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
+ms.openlocfilehash: 708a4439262111954012c944a464dd8e59db8068
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89401940"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96404463"
 ---
 # <a name="connect-to-sap-hana-databases-in-power-bi"></a>Подключение к базам данных SAP HANA в Power BI
 

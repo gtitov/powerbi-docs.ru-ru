@@ -2,19 +2,19 @@
 title: Использование DirectQuery в Power BI Desktop
 description: Использование функции DirectQuery, также называемой активным подключением, в Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 08/28/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b31ddb3e3881f9002affcae9106b9e14bf85a964
-ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
+ms.openlocfilehash: 4619219705a80b53883a9b0578791a60a853125e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "89092321"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96404233"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Использование DirectQuery в Power BI Desktop
 При подключении к источнику данных в *Power BI Desktop* всегда можно импортировать копию данных в Power BI Desktop. Для некоторых источников данных доступен альтернативный подход: прямое подключение к источнику данных с помощью DirectQuery.
