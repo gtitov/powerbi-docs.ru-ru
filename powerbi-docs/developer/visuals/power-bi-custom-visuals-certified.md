@@ -6,15 +6,15 @@ ms.author: kesharab
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
+ms.topic: how-to
 ms.date: 03/08/2020
-ms.openlocfilehash: 8dd6a33ab19e692d9dc04138d53b04e8e49da2bf
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: bbca1802b1136c4e9e16e70ab87ab7554612c037
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92049184"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96386716"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Получите сертификацию для визуального элемента Power BI
 
@@ -56,10 +56,10 @@ ms.locfileid: "92049184"
 Используйте последнюю версию API для создания визуального элемента Power BI.
 
 Репозиторий должен содержать следующие файлы:
-* **GITIGNORE** -файл — добавьте в него `node_modules`, `.tmp` и `dist`. Код не может содержать папки *node_modules* , *.tmp* или *dist* .
-* **capabilities.json**  — если вы отправляете новую версию визуального элемента Power BI с изменениями в свойствах этого файла, убедитесь, что они не нарушают отчеты для существующих пользователей.
+* **GITIGNORE**-файл — добавьте в него `node_modules`, `.tmp` и `dist`. Код не может содержать папки *node_modules*, *.tmp* или *dist*.
+* **capabilities.json** — если вы отправляете новую версию визуального элемента Power BI с изменениями в свойствах этого файла, убедитесь, что они не нарушают отчеты для существующих пользователей.
 * **pbiviz.json** 
-* **package.json** . Для визуального элемента должны быть установлены следующие пакеты:
+* **package.json**. Для визуального элемента должны быть установлены следующие пакеты:
    * [tslint](https://www.npmjs.com/package/tslint) версии 5.18.0 или выше;
    * [typescript](https://www.npmjs.com/package/typescript) версии 3.0.0 или выше;
    * [tslint-microsoftcontrib](https://www.npmjs.com/package/tslint-microsoft-contrib) версии 6.2.0 или выше.
@@ -111,8 +111,8 @@ ms.locfileid: "92049184"
 Чтобы подать заявку на сертификацию визуализацию Power BI, сделайте следующее:
 
 1. Войдите в Центр партнеров.
-2. На странице **Обзор** выберите визуализацию Power BI и перейдите на страницу **настройки продукта** .
-3. Установите флажок **Запросите сертификацию Power BI** .
+2. На странице **Обзор** выберите визуализацию Power BI и перейдите на страницу **настройки продукта**.
+3. Установите флажок **Запросите сертификацию Power BI**.
 4. На странице **Проверка и публикация** в текстовом поле **Примечания о сертификации** укажите ссылку на исходный код и учетные данные, требуемые для получения доступа.
 
 ### <a name="private-repository-submission-process"></a>Процесс отправки частного репозитория
@@ -147,7 +147,7 @@ ms.locfileid: "92049184"
 
     ![Сертифицированный визуальный элемент Power BI в интерфейсе Power BI](media/power-bi-custom-visuals-certified/certified-visual-blue.png)
 
-* Можно отобразить только сертифицированные визуальные элементы Power BI, выбрав параметр фильтра *Сертифицированные Power BI* .
+* Можно отобразить только сертифицированные визуальные элементы Power BI, выбрав параметр фильтра *Сертифицированные Power BI*.
 
 ## <a name="publication-timeline"></a>Временная шкала приложения
 
