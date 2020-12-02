@@ -2,20 +2,20 @@
 title: Подключение к данным Azure Consumption Insights в Power BI Desktop
 description: Легко подключайтесь к Azure и получайте сведения о потреблении и использовании с помощью Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 10/14/2019
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7d036af591ae9c5fc44370085480c9266e328745
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: d400684358e5992d9c29e2c5838ca777e3695cf5
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91632602"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96406096"
 ---
 # <a name="connect-to-azure-consumption-insights-data-in-power-bi-desktop"></a>Подключение к данным Azure Consumption Insights в Power BI Desktop
 
@@ -175,7 +175,7 @@ in
 На этом этапе большая часть исходных визуальных элементов, таблиц и детализаций должна работать правильно. Однако может потребоваться внести небольшие изменения, чтобы настроить внешний вид. Просмотрите все свои панели мониторинга и визуальные элементы, чтобы убедиться в том, что они выглядят, как вы хотите.
 
 ## <a name="using-the-azure-consumption-and-insights-aci-api-to-get-consumption-data"></a>Использование API Azure Consumption Insights (ACI) для получения данных потребления
-В Azure также доступен [**API Azure Consumption Insights (ACI)** ](https://azure.microsoft.com/blog/announcing-general-availability-of-consumption-and-charge-apis-for-enterprise-azure-customers/). Вы можете создавать собственные пользовательские решения для сбора, создания отчетов и визуализации сведений об использовании служб Azure с помощью ACI.
+В Azure также доступен [**API Azure Consumption Insights (ACI)**](https://azure.microsoft.com/blog/announcing-general-availability-of-consumption-and-charge-apis-for-enterprise-azure-customers/). Вы можете создавать собственные пользовательские решения для сбора, создания отчетов и визуализации сведений об использовании служб Azure с помощью ACI.
 
 ### <a name="mapping-names-and-usage-details-between-the-portal-the-connector-and-the-api"></a>Сопоставление имен и сведений об использовании между порталом, соединителем и API
 Столбцы и имена сведений на портале Azure похожи на столбцы и имена в API и соединителе, но не всегда совпадают. Чтобы вы могли увидеть разницу, см. сопоставление в следующей таблице. Также в таблице указано, является ли столбец устаревшим. Дополнительные сведения и определения терминов см. в статье [Словарь данных по выставлению счетов в Azure](/azure/billing/billing-enterprise-api-usage-detail).

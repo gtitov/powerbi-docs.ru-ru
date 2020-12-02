@@ -2,19 +2,19 @@
 title: Согласие на новый интерфейс рабочих областей (предварительная версия)
 description: Рабочие области имеют новый интерфейс, который согласуется с новым интерфейсом службы Power BI.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: nikhilga
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 04/15/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 44644c23cbfd61aeb07f7688352ac905bde75a0f
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: bdc1de71a7d3b880cbdf198591e2270bcaf75587
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225188"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96406234"
 ---
 # <a name="opt-in-to-the-workspace-new-look-preview"></a>Согласие на новый интерфейс рабочих областей (предварительная версия)
 
