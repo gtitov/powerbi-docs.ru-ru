@@ -2,20 +2,20 @@
 title: 'Как закрепить целую страницу отчета на панель мониторинга Power BI '
 description: Документация по закреплению целой страницы отчета на информационной панели Power BI из отчета.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 03/02/2018
-ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 157fc47050d7210e1424bb922782c8a3af6e61fb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 29a0521620b335add8256c87e1e354c58f58584d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219259"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96395194"
 ---
 # <a name="pin-an-entire-report-page-as-a-live-tile-to-a-power-bi-dashboard"></a>Закрепление целой страницы отчета в качестве живой плитки на информационной панели Power BI
 Другим способом добавления новой [плитки информационной панели](../consumer/end-user-tiles.md) является закрепление всей страницы отчета. Это простой способ закрепить несколько визуализаций за раз.  Кроме того, при закреплении целой страницы используются *живые* плитки. Вы можете взаимодействовать с ними прямо на информационной панели. А изменения, вносимые в любую из визуализаций в редакторе отчетов, например добавление фильтра или изменение полей, используемых в диаграмме, также отражаются на плитке панели мониторинга.  

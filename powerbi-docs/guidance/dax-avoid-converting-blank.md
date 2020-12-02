@@ -2,18 +2,18 @@
 title: 'DAX: Не рекомендуется: преобразование BLANK в значения'
 description: Руководство по преобразованию пустых значений.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 11/24/2019
-ms.author: v-pemyer
-ms.openlocfilehash: 0717ad71d3065043a3bff8305c051cdce40e7329
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: 20686615c58015040349138ffd49b544c5dac70a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965080"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96394274"
 ---
 # <a name="dax-avoid-converting-blanks-to-values"></a>DAX: Не рекомендуется: преобразование BLANK в значения
 

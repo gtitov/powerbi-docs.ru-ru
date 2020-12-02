@@ -2,19 +2,19 @@
 title: Видео о службе Power BI
 description: Видео о службе Power BI и ссылка на канал YouTube.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-fundamentals
 ms.topic: conceptual
 ms.date: 03/03/2020
-ms.author: davidi
-ms.openlocfilehash: 7848ac9539b324dd4b572445877297294dbe8236
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 2ea3d234f9d0cc630200872baa242a4f7a3b4de7
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860056"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96394803"
 ---
 # <a name="power-bi-videos"></a>Видео о службе Power BI
 У нас есть канал YouTube для Power BI! Вы можете заглянуть на [наш канал](https://www.youtube.com/user/mspowerbi/videos), а если вы еще не знакомы с Power BI, рекомендуем вам начать со [списка видео, посвященного анализу и визуализации данных с помощью Power BI](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP).

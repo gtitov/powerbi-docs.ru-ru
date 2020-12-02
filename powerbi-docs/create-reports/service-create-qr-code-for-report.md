@@ -1,20 +1,20 @@
 ---
 title: Создание QR-кода для отчета для использования в мобильных приложениях Power BI
 description: QR-коды в Power BI могут связывать любой физический предмет с соответствующей информацией BI в мобильном приложении; навигация или поиск не требуются.
-author: maggiesMSFT
+author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 03/13/2018
-ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: b13ad1c50e62351c693adee1026a0d78aafd2daa
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 7d163519162c6e7ab2cd1a13b10320d5c66796a8
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264687"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96395286"
 ---
 # <a name="create-a-qr-code-for-a-report-in-power-bi-to-use-in-the-mobile-apps"></a>Создание QR-кода для отчета в Power BI для использования в мобильных приложениях
 QR-коды в Power BI могут связывать любой физический предмет с соответствующей информацией BI &#151; навигация или поиск не требуются.
