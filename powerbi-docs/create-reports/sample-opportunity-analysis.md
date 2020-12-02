@@ -2,19 +2,19 @@
 title: 'Пример "Анализ возможностей" для Power BI: Узнайте о возможностях'
 description: 'Пример "Анализ возможностей" для Power BI: Узнайте о возможностях'
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: amac
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 07/02/2019
-ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 93ad6136362f81c7dedf25cbe23e251fbb8ac92f
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 63bbbedd24facfdd485f14b96eb608efc001dd55
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348972"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96395815"
 ---
 # <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>Пример "Анализ возможностей" для Power BI: Узнайте о возможностях
 

@@ -2,20 +2,20 @@
 title: Получить примеры для Power BI
 description: Примеры пакетов содержимого, приложения, PBIX-файлы и наборы данных Excel для Power BI
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.custom: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 03/27/2020
-ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: a268247d13fdfe71e17e5c0a6fafeeb635b96984
-ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
+ms.openlocfilehash: 2e14a81c6ae04048f85fae417b354a110436fc50
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86953060"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96396207"
 ---
 # <a name="get-samples-for-power-bi"></a>Получить примеры для Power BI
 Предположим, что вы не знакомы с Power BI и хотите оценить эту службу, но у вас нет данных.  Или, возможно, вам хотелось бы просмотреть отчеты, иллюстрирующие некоторые возможности Power BI. Мы их предоставим.

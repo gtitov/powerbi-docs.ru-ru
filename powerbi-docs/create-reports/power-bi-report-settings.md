@@ -2,19 +2,19 @@
 title: Изменение параметров для отчетов Power BI
 description: Изменение параметров для отчетов в службе Power BI
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 10/14/2020
-ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: dd87501a6865b9ea450e3154ee2ac56e0710a067
-ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
+ms.openlocfilehash: dbb173c65ecfc5d1ca464387ed43ae615cdcbca1
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "92463088"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96396183"
 ---
 # <a name="change-settings-for-power-bi-reports"></a>Изменение параметров для отчетов Power BI
 

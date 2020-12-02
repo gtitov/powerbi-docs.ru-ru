@@ -2,18 +2,18 @@
 title: Поддерживаемые языки в мобильных приложениях Power BI
 description: См. список поддерживаемых языков в мобильных приложениях Power BI.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
-ms.author: painbar
-ms.openlocfilehash: 6c8957526f3aaf63d6dda80d5e5d84db1eb22df4
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: f3fd138185693a561155b802219abfc61f28c1e2
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349386"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96396827"
 ---
 # <a name="supported-languages-in-the-power-bi-mobile-apps"></a>Поддерживаемые языки в мобильных приложениях Power BI
 Сейчас в мобильных приложениях Power BI реализована поддержка следующих языков:

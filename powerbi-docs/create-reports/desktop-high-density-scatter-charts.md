@@ -2,19 +2,19 @@
 title: Точечные диаграммы с высокой плотностью в Power BI
 description: Точечные диаграммы с высокой плотностью в Power BI
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 05/08/2019
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c744b7b9b0ec15258214c9c7e27332eb4a49ead4
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: a3322a184d00c69e96878ccea6d59d0cb15b7e60
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86262920"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96396873"
 ---
 # <a name="high-density-sampling-in-power-bi-scatter-charts"></a>Точечные диаграммы с выборкой с высокой плотностью в Power BI
 Начиная с выпуска **Power BI Desktop** за сентябрь 2017 года и обновлений **службы Power BI** доступен новый алгоритм выборки. Он улучшает презентацию данных с высокой плотностью в точечных диаграммах.

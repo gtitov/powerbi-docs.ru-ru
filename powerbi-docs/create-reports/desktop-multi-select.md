@@ -2,19 +2,19 @@
 title: Множественный выбор элементов данных в визуальных элементах или выбор нескольких визуальных элементов с помощью Power BI Desktop
 description: Вы можете выбрать несколько точек данных в визуальных элементах Power BI Desktop с помощью простой комбинации CTRL+щелчок
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 11/11/2020
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 7fcda945c374ba5384bd936b94db67a3ccd3ace1
-ms.sourcegitcommit: 029aacd09061a8aa45b57f05d0dc95c93dd16a74
+ms.openlocfilehash: d373aab740d7c0431ef89361c767f027cb1dd351
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "94559811"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96396413"
 ---
 # <a name="multi-select-data-elements-data-points-and-visuals-in-power-bi-desktop"></a>Множественный выбор элементов данных, точек данных и визуальных элементов в Power BI Desktop
 

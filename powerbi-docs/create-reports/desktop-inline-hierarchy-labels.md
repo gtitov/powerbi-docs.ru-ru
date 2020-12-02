@@ -2,19 +2,19 @@
 title: Использование встроенных меток иерархии в Power BI Desktop
 description: Использование встроенных меток иерархии в Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/08/2019
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c840565e39e344011588f8d47925e435eb019b37
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8e9938c1c65e8e5a69f59365b89a10a449c3cf39
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85233717"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96396804"
 ---
 # <a name="use-inline-hierarchy-labels-in-power-bi-desktop"></a>Использование встроенных меток иерархии в Power BI Desktop
 **Power BI Desktop** поддерживает использование **встроенных меток иерархии** — первую из двух функций, которые предназначены для повышения эффективности детализации иерархии. Второй функцией, которая сейчас находится в разработке, является возможность использования меток вложенной иерархии (следите за новостями, мы часто публикуем обновления).   
