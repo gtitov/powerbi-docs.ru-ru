@@ -2,20 +2,20 @@
 title: Отображение недавно просмотренного содержимого в службе Power BI
 description: Документация по недавно просмотренному содержимому в Power BI
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 09/24/2020
-ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 39904a0fc577ca11ae73c5bb9840232b4345e47b
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: e11b1823c45e681d6a555bd5a4a9a751704419b2
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91527360"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96399242"
 ---
 # <a name="recent-content-in-the-power-bi-service"></a>**Недавнее** содержимое в службе Power BI
 
@@ -36,7 +36,7 @@ ms.locfileid: "91527360"
 
 ## <a name="see-all-of-your-recent-content"></a>Отображение всего недавнего содержимого
 
-Если у вас более пяти недавно просмотренных элементов, выберите **Просмотреть все**, чтобы открыть экран **Последние**. Как это было сделано в начале статьи, вы можете пропустить всплывающий элемент и открыть окно **Последние**, выбрав в области навигации слово **Последние**или значок ![Последние](./media/end-user-recent/power-bi-icon.png).
+Если у вас более пяти недавно просмотренных элементов, выберите **Просмотреть все**, чтобы открыть экран **Последние**. Как это было сделано в начале статьи, вы можете пропустить всплывающий элемент и открыть окно **Последние**, выбрав в области навигации слово **Последние** или значок ![Последние](./media/end-user-recent/power-bi-icon.png).
 
 ![отображение всего недавно просмотренного содержимого](./media/end-user-recent/power-bi-admin-recent.png)
 

@@ -2,17 +2,17 @@
 title: Рекомендации по оптимизации функции "Вопросы и ответы"
 description: Сведения об оптимизации и улучшении функции "Вопросы и ответы" в Power BI
 author: mohaali
+ms.author: mohaali
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 10/23/2019
-ms.author: mohaali
-ms.openlocfilehash: 249e3cd56359a54c358341f463d049435f407515
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: c9588aab87bda0755e5de931cd9bdfcde808d49c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635799"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96398759"
 ---
 # <a name="best-practices-to-optimize-qa-in-power-bi"></a>Рекомендации по оптимизации функции "Вопросы и ответы" в Power BI
 Эффективный обработчик позволяет задавать вопросы о данных с помощью обычных фраз и естественного языка. Еще больше впечатляет, когда от данных поступает ответ. Именно эту возможность предоставляет функция "Вопросы и ответы" в Power BI.

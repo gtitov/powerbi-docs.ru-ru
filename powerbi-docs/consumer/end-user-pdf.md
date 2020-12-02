@@ -2,20 +2,20 @@
 title: Экспорт отчетов в формат PDF
 description: Узнайте, как экспортировать отчет из Power BI в формат PDF.
 author: mihart
+ms.author: mihart
 ms.custom: ''
 ms.reviewer: cmfinlan
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 09/17/2020
-ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7eb55555efa6fe3eb9acad5c67e05288f0e55f21
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: de9265112d587418345c2eadb8d33acdddf900d4
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91527447"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96399702"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Экспорт отчетов из Power BI в формат PDF
 

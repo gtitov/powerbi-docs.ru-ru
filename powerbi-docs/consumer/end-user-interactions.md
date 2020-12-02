@@ -2,19 +2,19 @@
 title: Общие сведения о взаимодействии визуальных элементов в отчете
 description: Документация для пользователей Power BI с описанием механизма взаимодействия визуальных элементов на странице отчета.
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 09/11/2020
-ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 9124322dbf7656b05c4cd174207e074cd4f807fe
-ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
+ms.openlocfilehash: bfb96a6c4d078744bdd285f07ea5cf88a55aab25
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90763972"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96399886"
 ---
 # <a name="how-visuals-cross-filter-each-other-in-a-power-bi-report"></a>Перекрестная фильтрация визуальных элементов в отчете Power BI
 

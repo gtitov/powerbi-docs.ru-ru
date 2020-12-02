@@ -1,19 +1,19 @@
 ---
 title: Поддерживаемые источники данных для отчетов с разбивкой на страницы Power BI
 description: В этой статье вы узнаете о поддерживаемых источниках данных для отчетов с разбивкой на страницы в службе Power BI и о подключении к источникам данных базы данных SQL Azure.
-author: onegoodsausage
-ms.author: andremi
+author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/12/2020
-ms.openlocfilehash: 263992e760afe01eb44f41b80c2297cbd4b34163
-ms.sourcegitcommit: 7ee9398b30ab4ba40459cbb97e129e7dc853c93c
+ms.openlocfilehash: e26e273ff16d67defb9299c226a8435a75b93661
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "94575314"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96398391"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Поддерживаемые источники данных для отчетов с разбивкой на страницы Power BI
 
