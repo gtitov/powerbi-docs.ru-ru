@@ -2,19 +2,19 @@
 title: Мониторинг производительности отчетов в Power BI
 description: Рекомендации по мониторингу производительности отчетов в Power BI.
 author: peter-myers
+ms.author: v-pemyer
 manager: asaxton
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 02/16/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 3c76fed8f5533ad339904c4f8251a7404270a0ae
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: bd700ae7c6c175f4e9cf7841ce308a275ba9babb
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216604"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96393050"
 ---
 # <a name="monitor-report-performance-in-power-bi"></a>Мониторинг производительности отчетов в Power BI
 
@@ -33,7 +33,7 @@ ms.locfileid: "86216604"
 [Диагностика запросов](/power-query/QueryDiagnostics) в Power BI Desktop позволяет определить, что делает Power Query при предварительном просмотре и (или) применении запросов. Кроме того, функция _Диагностика шага_ позволяет записать подробную оценочную информацию по каждому шагу запроса. Результаты становятся доступными в Power Query, и к ним можно применять преобразования, чтобы лучше разобраться в выполнения запросов.
 
 > [!NOTE]
-> Диагностика запросов в настоящее время предоставляется в режиме предварительной версии, поэтому ее необходимо отдельно включить в _разделе параметров_. После включения соответствующие команды становятся доступными в окне Редактора Power Query на вкладке ленты**Средства**.
+> Диагностика запросов в настоящее время предоставляется в режиме предварительной версии, поэтому ее необходимо отдельно включить в _разделе параметров_. После включения соответствующие команды становятся доступными в окне Редактора Power Query на вкладке ленты **Средства**.
 
 ![Снимок экрана: вкладка ленты инструментов Редактора Power Query с командами "Диагностика шага", "Начать диагностику" и "Остановить диагностику"](media/monitor-report-performance/power-query-diagnotics.png)
 

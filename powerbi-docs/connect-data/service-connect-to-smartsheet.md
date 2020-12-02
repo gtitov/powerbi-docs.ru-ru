@@ -2,19 +2,19 @@
 title: Подключение к Smartsheet с помощью Power BI
 description: Smartsheet для Power BI
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
-ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: a1cf9c96b976acbfd9a5cefe4d413b4aa0fac9bf
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 446c9dd1af2322cca164762ae212ba247b8916ba
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236279"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96392917"
 ---
 # <a name="connect-to-smartsheet-with-power-bi"></a>Подключение к Smartsheet с помощью Power BI
 Эта статья описывает извлечение данных из учетной записи Smartsheet с помощью приложения-шаблона Power BI. Smartsheet — это удобная платформа для совместной работы и обмена файлами. Приложение-шаблон Smartsheet для Power BI включает панель мониторинга, отчеты и набор данных с обзором вашей учетной записи Smartsheet. Вы можете также использовать [Power BI Desktop](desktop-connect-to-data.md) для подключения напрямую к отдельным листам в учетной записи. 

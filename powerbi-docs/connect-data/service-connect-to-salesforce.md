@@ -1,20 +1,20 @@
 ---
 title: Подключение к Salesforce с помощью Power BI
 description: SalesForce для Power BI
-author: SarinaJoan
+author: paulinbar
+ms.author: painbar
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/30/2019
-ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 9fcf67a52bde69e62816af09a8fed69c8383927d
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: f43d60a22d436cc0be5aa57bc9b383d535dbfc0d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216195"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96392894"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Подключение к Salesforce с помощью Power BI
 С помощью Power BI вы легко можете подключаться к учетной записи Salesforce.com. Это подключение позволяет извлечь данные Salesforce и обеспечить автоматическое предоставление панели мониторинга и отчетов.
