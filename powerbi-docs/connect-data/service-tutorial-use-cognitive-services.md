@@ -2,20 +2,20 @@
 title: Руководство. Использование Cognitive Services в Power BI (предварительная версия)
 description: В этом руководстве описано, как использовать Cognitive Services и потоки данных в Power BI.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: SarinaJoan
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.custom: connect-to-services
 ms.topic: tutorial
 ms.date: 02/20/2020
-ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 406a2aebbf5d043ce74ca189c18b384f6c70e716
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: f647bcafe035515a1d5d1438ed580cabea579134
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397192"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96401496"
 ---
 # <a name="tutorial-use-cognitive-services-in-power-bi"></a>Руководство. Использование Cognitive Services в Power BI
 
@@ -70,13 +70,13 @@ Power BI предоставляет доступ к набору функций
 
 ![Снимок экрана: диалоговое окно "Вызов функции" с раскрывающимся меню "текст".](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_06.png)
 
-Теперь нажмите **Вызвать** , чтобы выполнить функцию. В таблицу будет добавлен новый столбец с оценкой тональности для каждой строки. Вы можете вернуться к **Аналитике ИИ** , чтобы аналогичным способом извлечь ключевые фразы из текста отзывов.
+Теперь нажмите **Вызвать**, чтобы выполнить функцию. В таблицу будет добавлен новый столбец с оценкой тональности для каждой строки. Вы можете вернуться к **Аналитике ИИ**, чтобы аналогичным способом извлечь ключевые фразы из текста отзывов.
 
 После завершения преобразований измените имя запроса на "Комментарии клиентов" и нажмите **Готово**.
 
 ![Снимок экрана: страница "Изменение запросов" с выделенным элементом "Имя".](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_07.png)
 
-Затем нажмите **Сохранить** , чтобы сохранить поток данных, и присвойте ему имя Fabrikam. Нажмите кнопку **Обновить сейчас** , которая отобразилась после сохранения потока данных.
+Затем нажмите **Сохранить**, чтобы сохранить поток данных, и присвойте ему имя Fabrikam. Нажмите кнопку **Обновить сейчас**, которая отобразилась после сохранения потока данных.
 
 ![Снимок экрана: кнопка "Сохранить".](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_08.png)
 
@@ -86,7 +86,7 @@ Power BI предоставляет доступ к набору функций
 
 Откройте Power BI Desktop. На вкладке ленты "Главная" выберите **Получить данные**.
 
-Перейдите к пункту **Потоки данных Power BI (бета-версия** ) в разделе Power BI и выберите **Подключить**.
+Перейдите к пункту **Потоки данных Power BI (бета-версия**) в разделе Power BI и выберите **Подключить**.
 
 ![Снимок экрана: панель "Получение данных" с выбранным элементом "Потоки данных Power BI".](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_09.png)
 
