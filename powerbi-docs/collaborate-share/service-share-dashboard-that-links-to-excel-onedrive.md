@@ -2,19 +2,19 @@
 title: Совместное использование панели мониторинга, связанной с файлом Excel в OneDrive, в Power BI
 description: Прочитайте о предоставлении общего доступа к информационной панели, подключенной к книге Excel в OneDrive для бизнеса, с плитками, закрепленными из этой книги.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 08/02/2018
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 997a96346a82d9f8c0edf0f19f45e5dc0a030d15
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ee70a90ee104f1144595bd346b85d858f0aed49f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225207"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411593"
 ---
 # <a name="share-a-power-bi-dashboard-that-links-to-an-excel-file-in-onedrive"></a>Общий доступ к панели мониторинга Power BI, содержащей ссылки на файл Excel в OneDrive
 Power BI позволяет [подключаться к книгам Excel в OneDrive для бизнеса](../connect-data/service-excel-workbook-files.md) и закреплять плитки из таких книг на панелях мониторинга. При предоставлении совместного доступа к этой панели мониторинга или создании пакета содержимого, в состав которого входит эта панель, будут доступны приведенные ниже действия.

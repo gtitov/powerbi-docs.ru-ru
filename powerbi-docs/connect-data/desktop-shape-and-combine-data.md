@@ -2,19 +2,19 @@
 title: Руководство. Формирование и объединение данных в Power BI Desktop
 description: В этом руководстве описано, как формировать и объединять данные в Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: tutorial
 ms.date: 10/18/2019
-ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: b2cb9c9f9e7e168f0d095824aa42dd78eba5ba39
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: d45306776cb8f26af17208c3c57b44ffc65e20ac
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347546"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411133"
 ---
 # <a name="tutorial-shape-and-combine-data-in-power-bi-desktop"></a>Руководство. Формирование и объединение данных в Power BI Desktop
 
@@ -43,7 +43,7 @@ ms.locfileid: "83347546"
 
     ![Выберите пользовательский столбец](media/desktop-shape-and-combine-data/shapecombine_customcolumn.png)
 
-1. В окне **Настраиваемый столбец** в поле **Имя нового столбца**введите _Новый ранг_. В поле **Настраиваемая формула столбца** введите следующие данные:
+1. В окне **Настраиваемый столбец** в поле **Имя нового столбца** введите _Новый ранг_. В поле **Настраиваемая формула столбца** введите следующие данные:
 
     ```
     ([Cost of living] + [Weather] + [Health care quality] + [Crime] + [Tax] + [Culture] + [Senior] + [#"Well-being"]) / 8
@@ -133,7 +133,7 @@ ms.locfileid: "83347546"
 
    ![Выберите строку формул](media/desktop-shape-and-combine-data/shapecombine_formulabar.png)
 
-1. Теперь можно удалить параметр_Стоимость жизни_ и уменьшить делитель, изменив формулу: 
+1. Теперь можно удалить параметр _Стоимость жизни_ и уменьшить делитель, изменив формулу: 
    ```
     Table.AddColumn(#"Removed Columns", "New Rank", each ([Weather] + [Health care quality] + [Crime] + [Tax] + [Culture] + [Senior] + [#"Well-being"]) / 7)
    ```

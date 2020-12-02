@@ -2,20 +2,20 @@
 title: Включение шифрования для SAP HANA
 description: Сведения о том, как зашифровать подключение к серверу HANA из Power BI с помощью единого входа SAML.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 10/22/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9aaa89db53e22fcefe55a53ec7a5414a8835255b
-ms.sourcegitcommit: 54e571a10b0fdde5cd6036017eac9ef228de5116
+ms.openlocfilehash: b6d3362f75a0267dc680e3e54d2f92e44a98598a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92501910"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410949"
 ---
 # <a name="enable-encryption-for-sap-hana"></a>Включение шифрования для SAP HANA
 
@@ -43,7 +43,7 @@ ms.locfileid: "92501910"
 
 1. С помощью SSH подключитесь к компьютеру Linux, на котором выполняется сервер HANA, с правами \<sid\>adm.
 
-1. Перейдите в корневой каталог _/_ _usr/sap/\<sid\>/home_ .
+1. Перейдите в корневой каталог _/_ _usr/sap/\<sid\>/home_.
 
 1. Создайте скрытый каталог с именем _.__ssl_, если он еще не существует.
 
@@ -101,7 +101,7 @@ ms.locfileid: "92501910"
 
 Проверьте подключение в Power BI Desktop или службе Power BI.
 
-1. Прежде чем пытаться установить подключение к серверу SAP HANA, убедитесь, что в Power BI Desktop или на странице **Управление шлюзами** службы Power BI включен параметр **Проверять сертификат сервера** . Для параметра **Поставщик шифрования SSL** выберите mscrypto, если вы использовали шаги настройки OpenSSL, и commoncrypto, если вы настроили эту библиотеку в качестве поставщика услуг шифрования. Оставьте поля "Хранилище ключей SSL" и "Хранилище доверия SSL" пустыми.
+1. Прежде чем пытаться установить подключение к серверу SAP HANA, убедитесь, что в Power BI Desktop или на странице **Управление шлюзами** службы Power BI включен параметр **Проверять сертификат сервера**. Для параметра **Поставщик шифрования SSL** выберите mscrypto, если вы использовали шаги настройки OpenSSL, и commoncrypto, если вы настроили эту библиотеку в качестве поставщика услуг шифрования. Оставьте поля "Хранилище ключей SSL" и "Хранилище доверия SSL" пустыми.
 
     - Power BI Desktop
 
@@ -111,4 +111,4 @@ ms.locfileid: "92501910"
 
         ![Проверка сертификата сервера — классическое приложение](media/desktop-sap-hana-encryption/validate-server-certificate-desktop.png)
 
-1. Убедитесь, что вы можете установить зашифрованное соединение с сервером с включенным параметром **Проверить сертификат сервера** , загрузив данные в Power BI Desktop или обновив опубликованный отчет в службе Power BI.
+1. Убедитесь, что вы можете установить зашифрованное соединение с сервером с включенным параметром **Проверить сертификат сервера**, загрузив данные в Power BI Desktop или обновив опубликованный отчет в службе Power BI.

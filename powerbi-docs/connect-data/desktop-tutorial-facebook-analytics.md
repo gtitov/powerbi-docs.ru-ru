@@ -2,19 +2,19 @@
 title: Руководство. Анализ данных Facebook с помощью Power BI Desktop
 description: Как импортировать данные из Facebook и использовать их в Power BI Desktop.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: tutorial
 ms.date: 05/06/2020
-ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: e8c6ed4476a1bd5236d838610da624f5dde4fb4c
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: c138b5d3b03b360ee1f83c57a98906b5fec25d6e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91600471"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410972"
 ---
 # <a name="tutorial-analyze-facebook-data-by-using-power-bi-desktop"></a>Руководство. Анализ данных Facebook с помощью Power BI Desktop
 
@@ -93,7 +93,7 @@ ms.locfileid: "91600471"
    Заголовок столбца изменится на **object_link.connections**.
 2. Выберите значок ![значок "Развернуть"](media/desktop-tutorial-facebook-analytics/14.png) в верхней части столбца **object_link.connections**, выберите **comments** и нажмите кнопку **ОК**. Заголовок столбца изменится на **object_link.connections.comments**.
    
-3. Выберите значок ![значок "Развернуть"](media/desktop-tutorial-facebook-analytics/14.png) в верхней части столбца **object_link.connections.comments**. В этот раз выберите в диалоговом окне команду **Агрегировать** вместо **Развернуть**. Выберите **# Count of id** и нажмите кнопку**ОК**. 
+3. Выберите значок ![значок "Развернуть"](media/desktop-tutorial-facebook-analytics/14.png) в верхней части столбца **object_link.connections.comments**. В этот раз выберите в диалоговом окне команду **Агрегировать** вместо **Развернуть**. Выберите **# Count of id** и нажмите кнопку **ОК**. 
    
    ![Агрегирование комментариев](media/desktop-tutorial-facebook-analytics/expand2.png)
    

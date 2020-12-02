@@ -2,19 +2,19 @@
 title: Настройка рекомендуемых таблиц в Power BI Desktop (предварительная версия)
 description: Создавайте рекомендуемые таблицы в Power BI Desktop, чтобы они отображались в коллекции типов данных в Excel.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 09/17/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 20a81ed4675f6392f28a20f7b741d0c0ad1076eb
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: d2d87f16b8100424b47277360354d79ee834d467
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92680769"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411938"
 ---
 # <a name="set-featured-tables-in-power-bi-desktop-preview"></a>Настройка рекомендуемых таблиц в Power BI Desktop (предварительная версия)
 
@@ -25,11 +25,11 @@ ms.locfileid: "92680769"
 1. Остальные пользователи организации могут подключаться к этим рекомендуемым таблицам, называемым *типами данных* в Excel, для получения актуальных и обновляемых данных. В статье [Доступ к рекомендуемым таблицам Power BI в Excel (предварительная версия)](service-excel-featured-tables.md) описывается использование этих рекомендуемых таблиц в Excel.
 
 > [!NOTE]
-> Вы можете [повышать уровень наборов данных в Power BI или сертифицировать их](../collaborate-share/service-endorse-content.md). Это называется *подтверждением* . Таблицы из подтвержденных наборов данных приводятся в коллекции "Типы данных" в первую очередь. В Excel сначала приводятся рекомендованные таблицы из сертифицированных наборов данных, а затем таблицы из наборов данных с повышенным уровнем. После этого в Excel приводятся рекомендованные таблицы из неподтвержденных наборов данных. 
+> Вы можете [повышать уровень наборов данных в Power BI или сертифицировать их](../collaborate-share/service-endorse-content.md). Это называется *подтверждением*. Таблицы из подтвержденных наборов данных приводятся в коллекции "Типы данных" в первую очередь. В Excel сначала приводятся рекомендованные таблицы из сертифицированных наборов данных, а затем таблицы из наборов данных с повышенным уровнем. После этого в Excel приводятся рекомендованные таблицы из неподтвержденных наборов данных. 
 
 ## <a name="turn-on-the-featured-table-preview"></a>Включение предварительной версии рекомендуемых таблиц
 
-1. В Power BI Desktop последовательно выберите **Файл** > **Параметры и настройки** > **Параметры** > **Функции на этапе предварительного просмотра** .
+1. В Power BI Desktop последовательно выберите **Файл** > **Параметры и настройки** > **Параметры** > **Функции на этапе предварительного просмотра**.
 2. Установите флажок **Featured tables** (Рекомендуемые таблицы).
 
     :::image type="content" source="media/service-excel-featured-tables/power-bi-preview-featured-tables.png" alt-text="Параметр предварительной версии рекомендуемых таблиц":::
@@ -40,21 +40,21 @@ ms.locfileid: "92680769"
 
 1. В Power BI Desktop перейдите в представление модели.
 
-    :::image type="content" source="media/service-excel-featured-tables/power-bi-model-view.png" alt-text="Параметр предварительной версии рекомендуемых таблиц":::
+    :::image type="content" source="media/service-excel-featured-tables/power-bi-model-view.png" alt-text="Представление модели":::
  
-2. Выберите таблицу и задайте для параметра **Is featured table** (Рекомендуемая таблица) значение **Да** .
+2. Выберите таблицу и задайте для параметра **Is featured table** (Рекомендуемая таблица) значение **Да**.
 
-    :::image type="content" source="media/service-excel-featured-tables/power-bi-featured-table-yes.png" alt-text="Параметр предварительной версии рекомендуемых таблиц":::
+    :::image type="content" source="media/service-excel-featured-tables/power-bi-featured-table-yes.png" alt-text="Для параметра Is featured table (Рекомендуемая таблица) задано значение Да":::
 
 4. В окне **Set up this featured table** (Настройка этой рекомендуемой таблицы) заполните обязательные поля:
 
-    - **Описание** . 
+    - **Описание**. 
         > [!TIP]
         > Начните описание с "Рекомендуемая таблица", чтобы помочь создателям отчетов Power BI определить их.
-    - Значение поля **Метка строки** используется в Excel, чтобы пользователи могли легко опознать эту строку. Он отображается как значение связанной ячейки, в области **Выбор данных** и на карточке **Информация** . 
+    - Значение поля **Метка строки** используется в Excel, чтобы пользователи могли легко опознать эту строку. Он отображается как значение связанной ячейки, в области **Выбор данных** и на карточке **Информация**. 
     - Значение поля **Ключевой столбец** содержит уникальный идентификатор строки. Это значение позволяет Excel связать ячейку с определенной строкой в таблице.
 
-    :::image type="content" source="media/service-excel-featured-tables/power-bi-set-up-featured-table.png" alt-text="Параметр предварительной версии рекомендуемых таблиц":::
+    :::image type="content" source="media/service-excel-featured-tables/power-bi-set-up-featured-table.png" alt-text="Настройка рекомендуемой таблицы":::
 
 1. После публикации или импорта набора данных в службе Power BI рекомендуемая таблица отображается в Excel в коллекции "Типы данных". Вы и другие создатели отчетов также могут создавать отчеты, основанные на этом наборе данных.
 

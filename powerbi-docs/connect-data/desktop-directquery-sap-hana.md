@@ -2,19 +2,19 @@
 title: DirectQuery для SAP HANA в Power BI
 description: Аспекты использования DirectQuery с SAP HANA
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 04/10/2019
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4d2c48f39fff9cd55243848b2ee62d05f9d5db00
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: f6cb4fa1ee35754d8ffe468ddb845089f26045a9
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216385"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411179"
 ---
 # <a name="connect-to-sap-hana-data-sources-by-using-directquery-in-power-bi"></a>Подключение к источникам данных SAP HANA напрямую с помощью DirectQuery в Power BI
 Вы можете подключиться к источникам данных **SAP HANA** напрямую с помощью **DirectQuery**. К SAP HANA можно подключиться двумя способами:

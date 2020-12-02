@@ -2,19 +2,19 @@
 title: Источники данных в Power BI Desktop
 description: Источники данных в Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 11/11/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 143d4a51a403563b337c753055fa56e9c25edc26
-ms.sourcegitcommit: 029aacd09061a8aa45b57f05d0dc95c93dd16a74
+ms.openlocfilehash: e9c64a3da7d5026045a64f58c814004df6d327b6
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "94560041"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411340"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Источники данных в Power BI Desktop
 

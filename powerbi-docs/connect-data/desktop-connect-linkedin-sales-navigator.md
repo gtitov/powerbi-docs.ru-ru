@@ -2,19 +2,19 @@
 title: Подключение к LinkedIn Sales Navigator в Power BI Desktop
 description: Простое и удобное подключение к данным из LinkedIn и их использование с помощью приложения Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 11/11/2019
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: dd8e453a0cec6c404cad077a85f68044fa57ba1f
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 9baa0d6f05f62efcc453983d53f50335db2bc4b9
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91600249"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411455"
 ---
 # <a name="connect-to-linkedin-sales-navigator-in-power-bi-desktop"></a>Подключение к LinkedIn Sales Navigator в Power BI Desktop
 

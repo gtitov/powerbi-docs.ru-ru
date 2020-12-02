@@ -2,20 +2,20 @@
 title: Динамическая безопасность на уровне строк при использовании табличной модели служб Analysis Services
 description: Динамическая безопасность на уровне строк при использовании локальной табличной модели служб Analysis Services
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: davidi
 editor: davidi
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: tutorial
 ms.date: 01/17/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 047c4e7d71cbbae95f4b1f8067548d807421385d
-ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
+ms.openlocfilehash: b1e95bc7494e1de9a8eae82578e73382081037dc
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "92349605"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410926"
 ---
 # <a name="implement-row-level-security-in-an-on-premises-analysis-services-tabular-model"></a>Реализация безопасности на уровне строк при использовании локальной табличной модели служб Analysis Services
 
@@ -44,11 +44,11 @@ ms.locfileid: "92349605"
 
 1. После создания и сохранения таблицы необходимо установить связь между столбцом `SalesTerritoryID` таблицы `DimUserSecurity` и столбцом `SalesTerritoryKey` таблицы `DimSalesTerritory`, как показано ниже.
 
-   В SSMS щелкните таблицу **DimUserSecurity** правой кнопкой мыши и выберите пункт **Конструктор** . Выберите **Конструктор таблиц** > **Связи...** . После этого сохраните таблицу.
+   В SSMS щелкните таблицу **DimUserSecurity** правой кнопкой мыши и выберите пункт **Конструктор**. Выберите **Конструктор таблиц** > **Связи...** . После этого сохраните таблицу.
 
    ![Связи по внешнему ключу](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable_keys.png)
 
-1. Добавьте пользователей в таблицу. Щелкните таблицу **DimUserSecurity** правой кнопкой мыши и выберите пункт **Изменить 200 верхних строк** . После добавления пользователей таблица `DimUserSecurity` должна выглядеть так, как показано в следующем примере.
+1. Добавьте пользователей в таблицу. Щелкните таблицу **DimUserSecurity** правой кнопкой мыши и выберите пункт **Изменить 200 верхних строк**. После добавления пользователей таблица `DimUserSecurity` должна выглядеть так, как показано в следующем примере.
 
    ![Таблица DimUserSecurity с примерами пользователей](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable_users.png)
 
@@ -60,7 +60,7 @@ ms.locfileid: "92349605"
     select b.SalesTerritoryCountry, b.SalesTerritoryRegion, a.EmployeeID, a.FirstName, a.LastName, a.UserName from [dbo].[DimUserSecurity] as a join [dbo].[DimSalesTerritory] as b on a.[SalesTerritoryID] = b.[SalesTerritoryKey]
     ```
 
-   В объединенной таблице показано, кто отвечает за каждый регион продаж, в соответствии со связью, созданной в шаге 2. Например, можно видеть, что *Рита Сантос* отвечает за *Австралию* .
+   В объединенной таблице показано, кто отвечает за каждый регион продаж, в соответствии со связью, созданной в шаге 2. Например, можно видеть, что *Рита Сантос* отвечает за *Австралию*.
 
 ## <a name="task-2-create-the-tabular-model-with-facts-and-dimension-tables"></a>Задача 2. Создание табличной модели с таблицами фактов и измерений
 
@@ -70,13 +70,13 @@ ms.locfileid: "92349605"
 
     ![Импортированный SQL Server для использования со средствами работы с данными](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/ssdt_model.png)
 
-1. После импорта таблиц нужно определить роль под названием *SalesTerritoryUsers* с разрешениями на чтение. Откройте меню **Модель** в инструментарии SQL Server Data Tools и выберите пункт **Роли** . В **диспетчере ролей** нажмите кнопку **Создать** .
+1. После импорта таблиц нужно определить роль под названием *SalesTerritoryUsers* с разрешениями на чтение. Откройте меню **Модель** в инструментарии SQL Server Data Tools и выберите пункт **Роли**. В **диспетчере ролей** нажмите кнопку **Создать**.
 
 1. На вкладке **Участники** в **диспетчере ролей** добавьте пользователей, определенных в таблице `DimUserSecurity` при выполнении [задачи 1](#task-1-create-the-user-security-table-and-define-data-relationship).
 
     ![Добавление пользователей в диспетчере ролей](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/rolemanager.png)
 
-1. Теперь добавим необходимые функции для таблиц `DimSalesTerritory` и `DimUserSecurity`, как показано ниже на вкладке **Фильтры строк** .
+1. Теперь добавим необходимые функции для таблиц `DimSalesTerritory` и `DimUserSecurity`, как показано ниже на вкладке **Фильтры строк**.
 
     ![Добавление функций к фильтрам строк](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/rolemanager_complete.png)
 
@@ -109,7 +109,7 @@ ms.locfileid: "92349605"
 
 1. Чтобы служба Power BI могла обращаться к локальной службе аналитики, в вашей среде должен быть установлен и настроен [локальный шлюз данных](service-gateway-onprem.md).
 
-1. Настроив шлюз должным образом, необходимо создать подключение к источнику данных для экземпляра табличной модели *Analysis Services* . Дополнительные сведения см. в статье [Управление своим источником данных — службы Analysis Services](service-gateway-enterprise-manage-ssas.md).
+1. Настроив шлюз должным образом, необходимо создать подключение к источнику данных для экземпляра табличной модели *Analysis Services*. Дополнительные сведения см. в статье [Управление своим источником данных — службы Analysis Services](service-gateway-enterprise-manage-ssas.md).
 
    ![Создание соединения с источником данных](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/pbi_gateway.png)
 
@@ -117,37 +117,37 @@ ms.locfileid: "92349605"
 
 ## <a name="task-4-create-report-based-on-analysis-services-tabular-model-using-power-bi-desktop"></a>Задача 4. Создание отчета на основе табличной модели Analysis Services с помощью Power BI Desktop
 
-1. Запустите Power BI Desktop и выберите **Получение данных** > **База данных** .
+1. Запустите Power BI Desktop и выберите **Получение данных** > **База данных**.
 
-1. В списке источников данных выберите пункт **База данных SQL Server Analysis Services** и щелкните **Подключиться** .
+1. В списке источников данных выберите пункт **База данных SQL Server Analysis Services** и щелкните **Подключиться**.
 
    ![Подключение к базе данных SQL Server Analysis Services](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/getdata.png)
 
-1. Введите данные своего экземпляра табличной модели Analysis Services и щелкните **Подключение в реальном времени** . Нажмите кнопку **ОК** .
+1. Введите данные своего экземпляра табличной модели Analysis Services и щелкните **Подключение в реальном времени**. Нажмите кнопку **ОК**.
   
    ![Сведения о Analysis Services](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/getdata_connectlive.png)
 
    В Power BI динамическая безопасность работает только при динамических подключениях.
 
-1. Вы увидите, что развернутая модель находится в экземпляре Analysis Services. Выберите нужную модель и нажмите кнопку **ОК** .
+1. Вы увидите, что развернутая модель находится в экземпляре Analysis Services. Выберите нужную модель и нажмите кнопку **ОК**.
 
-   Power BI Desktop выведет все доступные поля справа от холста в области **Поля** .
+   Power BI Desktop выведет все доступные поля справа от холста в области **Поля**.
 
-1. В области **Поля** выберите меру **SalesAmount** в таблице **FactInternetSales** и измерение **SalesTerritoryRegion** в таблице **SalesTerritory** .
+1. В области **Поля** выберите меру **SalesAmount** в таблице **FactInternetSales** и измерение **SalesTerritoryRegion** в таблице **SalesTerritory**.
 
-1. Чтобы не усложнять этот отчет, мы не станем добавлять в него другие столбцы. Чтобы сделать данные более осмысленными, выберите режим визуализации **Кольцевой график** .
+1. Чтобы не усложнять этот отчет, мы не станем добавлять в него другие столбцы. Чтобы сделать данные более осмысленными, выберите режим визуализации **Кольцевой график**.
 
    ![Визуализация в виде кольцевого графика](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/donut_chart.png)
 
-1. Создав отчет, мы можем опубликовать его непосредственно на портале Power BI. На ленте **Главная** в Power BI Desktop выберите **Опубликовать** .
+1. Создав отчет, мы можем опубликовать его непосредственно на портале Power BI. На ленте **Главная** в Power BI Desktop выберите **Опубликовать**.
 
 ## <a name="task-5-create-and-share-a-dashboard"></a>Задача 5. Создание и совместное использование панели мониторинга
 
-Вы создали отчет и опубликовали его в службе **Power BI** . Теперь вы можете использовать пример, созданный на предыдущих этапах, для демонстрации сценария безопасности модели.
+Вы создали отчет и опубликовали его в службе **Power BI**. Теперь вы можете использовать пример, созданный на предыдущих этапах, для демонстрации сценария безопасности модели.
 
 Как *руководитель продаж* пользователь Грейс видит данные из всех регионов продаж. Грейс создает отчет и публикует его в службе Power BI. Этот отчет был создан в предыдущих задачах.
 
-После публикации Грейс создает на основе отчета панель мониторинга в службе Power BI и называет ее *TabularDynamicSec* . На изображении ниже показано, что Грейс видит все данные для всех регионов продаж.
+После публикации Грейс создает на основе отчета панель мониторинга в службе Power BI и называет ее *TabularDynamicSec*. На изображении ниже показано, что Грейс видит все данные для всех регионов продаж.
 
    ![Панель мониторинга службы Power BI](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/donut_chart_1.png)
 

@@ -2,19 +2,19 @@
 title: Экспорт отчетов с разбивкой на страницы с помощью Power Automate
 description: Сведения о том, как создавать потоки Power Automate для экспорта отчетов Power BI с разбивкой на страницы.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 11/17/2020
-ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 7cc3969b735c64de39ac41fdc6acf2152c4cda35
-ms.sourcegitcommit: 8afdd3601209636c9ab92d75f967d4ee0a2cab26
+ms.openlocfilehash: 2689597e35801d6829b29790309ea53ad410ff47
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "95011932"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412030"
 ---
 # <a name="export-power-bi-paginated-reports-with-power-automate"></a>Экспорт отчетов с разбивкой на страницы с помощью Power Automate
 

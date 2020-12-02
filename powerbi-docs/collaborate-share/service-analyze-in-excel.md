@@ -1,21 +1,21 @@
 ---
 title: Анализ в Excel данных Power BI
 description: Анализ наборов данных Power BI в Microsoft Excel
-author: davidiseminger
+author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.custom: contperfq4
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 09/22/2020
-ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 845fb523e9045e7a1062d11eebbb5e34bcc29ce3
-ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
+ms.openlocfilehash: 2f0d9dbec6c40b43a3b47f9cd698efed4a2899f0
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "91020074"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412099"
 ---
 # <a name="analyze-in-excel"></a>Анализ в Excel
 С помощью компонента **Анализ в Excel** можно перенести наборы данных Power BI в Excel, а затем просматривать их и взаимодействовать с ними с помощью сводных таблиц, диаграмм, срезов и других функций Excel. Чтобы использовать **Анализ в Excel**, необходимо сначала скачать соответствующий компонент из Power BI, установить его, а затем выбрать один или несколько наборов данных для использования в Excel. 

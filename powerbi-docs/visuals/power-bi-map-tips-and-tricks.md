@@ -1,21 +1,21 @@
 ---
 title: Советы и рекомендации для карт (включая интеграцию Карт Bing)
 description: 'Советы и рекомендации по визуализациям карт Power BI, визуальным элементам, данным расположения, долготы и широты, а также по их использованию с Картами Bing. '
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: ajTPGNpthcg
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 05/05/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ec2e097dd829760c331ff8f045af00176b0c302b
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 8bbcd6eafc2a0b8eaac7424700bbbb68314730d2
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93411873"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412513"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Советы и рекомендации для визуализаций карт Power BI
 

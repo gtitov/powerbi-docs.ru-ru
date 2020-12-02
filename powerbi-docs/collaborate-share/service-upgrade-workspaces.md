@@ -2,19 +2,19 @@
 title: Обновление классических рабочих областей до новых рабочих областей
 description: Сведения об обновлении классической рабочей области до нового интерфейса рабочей области. Вы можете обновить любую рабочую область, но вам может потребоваться ознакомиться с некоторыми изменениями и спланировать переход на них.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 09/30/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8e2b6c8d916cc3c180ab9adb9b6ea6af8eaefea4
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: d8e53e997aeef24d531cb733adc0b276a8395e57
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91633062"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411616"
 ---
 # <a name="upgrade-classic-workspaces-to-the-new-workspaces-in-power-bi"></a>Обновление классических рабочих областей до новых рабочих областей в Power BI
 

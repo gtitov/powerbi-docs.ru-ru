@@ -1,20 +1,20 @@
 ---
 title: Устранение неполадок с анализом в Excel в Power BI Desktop
 description: Решения распространенных проблем анализа в Excel
-author: davidiseminger
+author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: troubleshooting
 ms.date: 05/27/2020
-ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 3c36a2725748e2c701c65f1737c39f4d56128962
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: ae152a99557f86ef82718efdbe3ee767893d15b8
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034389"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412076"
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>Устранение неполадок с анализом в Excel
 

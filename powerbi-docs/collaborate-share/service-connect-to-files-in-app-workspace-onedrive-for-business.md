@@ -2,18 +2,19 @@
 title: Подключение к файлам в OneDrive для рабочей области Power BI
 description: Узнайте о хранении файлов Excel, CSV и Power BI Desktop в хранилище OneDrive для рабочей области Power BI, а также о подключении к ним.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukasz
 ms.service: powerbi
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 10/15/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 738ef62811ff510b20be60851cb6bd8225b1ad34
-ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
+ms.openlocfilehash: 6c3c43d8aad26249ac1b8afab09bdcbf1414f0cf
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "92117008"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411984"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-workspace"></a>Подключение к файлам, хранящимся в OneDrive, для рабочей области Power BI
 При [создании рабочей области в Power BI](service-create-workspaces.md) также создается группа Microsoft 365 со связанным хранилищем OneDrive для бизнеса. В этой статье объясняется, как хранить и обновлять файлы Excel, CSV и Power BI Desktop в OneDrive для бизнеса. Эти обновления будут автоматически отражаться в отчетах и на панелях мониторинга Power BI на основе этих файлов.
@@ -34,10 +35,10 @@ ms.locfileid: "92117008"
 1. В службе Power BI щелкните стрелку рядом с элементом "Рабочие области" и выберите кнопку с многоточием ( **…** ) рядом с именем рабочей области. 
    
    ![Снимок экрана: рабочая область Power BI с выбранным именем рабочей области](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-ellipsis.png)
-2. Выберите **Файлы** , чтобы открыть OneDrive для бизнеса для рабочей области в Microsoft 365.
+2. Выберите **Файлы**, чтобы открыть OneDrive для бизнеса для рабочей области в Microsoft 365.
    
    > [!NOTE]
-   > Если в меню рабочей области не отображается параметр **Файлы** , выберите **участников** , чтобы открыть хранилище OneDrive для бизнеса для рабочей области. Затем выберите **Файлы** . Microsoft 365 задает расположение хранилища OneDrive для файлов рабочей области группы приложения. Этот процесс может занять некоторое время.
+   > Если в меню рабочей области не отображается параметр **Файлы**, выберите **участников**, чтобы открыть хранилище OneDrive для бизнеса для рабочей области. Затем выберите **Файлы**. Microsoft 365 задает расположение хранилища OneDrive для файлов рабочей области группы приложения. Этот процесс может занять некоторое время.
    > 
    > 
 3. Теперь вы можете отправить файлы в хранилище OneDrive для бизнеса для рабочей области. Выберите команду **Отправить** и перейдите к своим файлам.
@@ -52,26 +53,26 @@ ms.locfileid: "92117008"
 
 ### <a name="import-or-connect-to-the-files-in-your-workspace"></a>Импорт файлов в рабочей области или подключение к ним
 1. В Power BI перейдите в рабочую область, чтобы ее имя отобразилось в левом верхнем углу. 
-2. В нижней части области навигации выберите **Получить данные** . 
+2. В нижней части области навигации выберите **Получить данные**. 
    
    ![Снимок экрана: кнопка "Получить данные" в области навигации](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-get-data-button.png)
-3. В поле **Файлы** выберите **Получить** .
+3. В поле **Файлы** выберите **Получить**.
    
    ![Снимок экрана: диалоговое окно "Файлы" с кнопкой "Получить"](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_getfiles.png)
-4. Выберите **OneDrive** - *имя вашей рабочей области* .
+4. Выберите **OneDrive** - *имя вашей рабочей области*.
    
     ![Снимок экрана: три плитки для выбора рабочей области — "Локальный файл", "OneDrive" и "SharePoint"](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_grp_one_drive_shrpt.png)
-5. Щелкните нужный файл, затем — **Подключиться** .
+5. Щелкните нужный файл, затем — **Подключиться**.
    
     На этом этапе вы решаете, что следует делать: [импортировать данные из книги Excel](../connect-data/service-get-data-from-files.md) или [подключиться к книгам Excel целиком](../connect-data/service-excel-workbook-files.md).
-6. Выберите команду **Импортировать** или **Подключиться** .
+6. Выберите команду **Импортировать** или **Подключиться**.
    
     ![Снимок экрана: диалоговое окно OneDrive для бизнеса с параметрами для импорта из Excel или подключения к Excel](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_importexceldataorwholecrop.png)
-7. Если выбрать **Импортировать** , книга отобразится на вкладке **Наборы данных** . 
+7. Если выбрать **Импортировать**, книга отобразится на вкладке **Наборы данных**. 
    
     ![Снимок экрана: рабочие области в Power BI с вкладкой "Наборы данных"](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-excel-file-import.png)
    
-    Если выбрать **Подключиться** , книга отобразится на вкладке **Книги** .
+    Если выбрать **Подключиться**, книга отобразится на вкладке **Книги**.
    
     ![Снимок экрана: рабочие области в Power BI с вкладкой "Книги"](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-excel-file-connect.png)
 

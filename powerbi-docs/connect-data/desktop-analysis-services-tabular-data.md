@@ -2,19 +2,19 @@
 title: Подключение к табличным данным служб Analysis Services в Power BI Desktop
 description: 'В Power BI Desktop есть два способа подключения и получения данных из табличных моделей служб SQL Server Analysis Services: просмотр в режиме интерактивного подключения и выбор элементов и их импорт в Power BI Desktop.'
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 01/28/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: bb55342974bcd64e7d5871b7b84977105b7467fa
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 6c31079bc0ad517a1b2bb37f8da0c0ed5240595f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90858699"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411524"
 ---
 # <a name="connect-to-analysis-services-tabular-data-in-power-bi-desktop"></a>Подключение к табличным данным служб Analysis Services в Power BI Desktop
 С помощью Power BI Desktop можно подключиться к табличным моделям служб SQL Server Analysis Services и получить данные из этих моделей двумя способами. Вы можете просмотреть данные в режиме интерактивного подключения или выбрать элементы и импортировать их в Power BI Desktop.

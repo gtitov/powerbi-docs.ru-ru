@@ -2,19 +2,19 @@
 title: Подключение к базе данных Oracle с помощью Power BI Desktop
 description: Процедура и загружаемые файлы, необходимые для подключения Oracle к Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 08/11/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b77543a7601cf4f8522c333137802e71ce41a41c
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 2e25ab87d042fdc2f0e88ee00a0b0f8f9dbd83a0
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90858377"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411409"
 ---
 # <a name="connect-to-an-oracle-database-with-power-bi-desktop"></a>Подключение к базе данных Oracle с помощью Power BI Desktop
 Для подключения к базе данных Oracle с помощью Power BI Desktop необходимо установить правильное программное обеспечение клиента Oracle на компьютере, где выполняется Power BI Desktop. Используемое клиентское программное обеспечение Oracle зависит от того, какую версию Power BI Desktop вы установили: 32-разрядную или 64-разрядную. Это также зависит от версии сервера Oracle.

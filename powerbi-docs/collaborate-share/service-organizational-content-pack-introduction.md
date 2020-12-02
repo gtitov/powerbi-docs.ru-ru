@@ -2,19 +2,19 @@
 title: Знакомство с пакетами содержимого организации в Power BI
 description: Узнайте об упаковке информационных панелей, отчетов, книг Excel и наборов данных в пакетах содержимого организации, а также о предоставлении общего доступа к ним своим коллегам.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 10/23/2019
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 84ecbb51663629b663373b884af86329f49e974f
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: bd7fdea827d0fbaf4c56f373ea028a8fffdc3123
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034481"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411708"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Знакомство с пакетами содержимого организации в Power BI
 > [!NOTE]

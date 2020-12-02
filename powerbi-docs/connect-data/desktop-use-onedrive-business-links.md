@@ -2,19 +2,19 @@
 title: Использование ссылок OneDrive для бизнеса в Power BI Desktop
 description: Использование ссылок OneDrive для бизнеса в Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 05/27/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 20271b1e165fea894404a77bf19bbcc735703907
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 70607632dd4e93d1b0d5e53f19ef697c6599128d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214563"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410857"
 ---
 # <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>Использование ссылок OneDrive для бизнеса в Power BI Desktop
 Многие пользователи хранят книги Excel на диске OneDrive для бизнеса, который отлично подходит для использования с Power BI Desktop. Благодаря Power BI Desktop вы можете использовать веб-ссылки на файлы Excel, хранящиеся в OneDrive для бизнеса, для создания отчетов и визуальных элементов. Можно использовать учетную запись группы OneDrive для бизнеса или индивидуальную учетную запись OneDrive для бизнеса.
