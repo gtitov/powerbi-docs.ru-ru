@@ -1,20 +1,20 @@
 ---
 title: Визуализации в виде карточек (плитки с большими числами)
 description: Создание визуализации в виде карточек в Power BI
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 05/05/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c8d9691ce515bc7c216c7d3f1bb764ca8b511971
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: f1d4a5b2d69c6d0b2d8cbec8d48e2be00b5a0f78
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93411045"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96409983"
 ---
 # <a name="create-card-visualizations"></a>Визуализации в виде карточек
 

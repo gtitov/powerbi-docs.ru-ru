@@ -1,19 +1,19 @@
 ---
 title: Подключение к Microsoft Sustainability Calculator
 description: Microsoft Sustainability Calculator для Power BI
-author: joshthor3222
+author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 01/06/2020
-ms.author: v-tikid
 LocalizationGroup: Connect to services
-ms.openlocfilehash: cffb7ecc195f5ce803ec2dfc81c794bac75c9448
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 00c8ee0ff77d2253b1240c943261ab053f29765a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85230016"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410535"
 ---
 # <a name="connect-the-microsoft-sustainability-calculator"></a>Подключение к Microsoft Sustainability Calculator
 Получите представление о выбросах углерода в вашей ИТ-инфраструктуре, чтобы принять более рациональные решения для вычислительных ресурсов
@@ -38,8 +38,8 @@ Microsoft Sustainability Calculator предоставляет новые ана
 
     ![Регистрация компании](media/service-connect-to-microsoft-sustainability-calculator/company-enrollment.png)
 
-1. Для параметра **Метод проверки подлинности**установите значение**Ключ**, а для **Уровень конфиденциальности** — **Организационный**.
-1. В пункте **Ключ**введите **ключ доступа \> и выполните вход**.
+1. Для параметра **Метод проверки подлинности** установите значение **Ключ**, а для **Уровень конфиденциальности** — **Организационный**.
+1. В пункте **Ключ** введите **ключ доступа \> и выполните вход**.
 
     ![Вход с ключом доступа](media/service-connect-to-microsoft-sustainability-calculator/access-key-entry.png)
 

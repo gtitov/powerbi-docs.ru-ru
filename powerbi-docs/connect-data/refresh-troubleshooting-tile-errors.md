@@ -1,21 +1,21 @@
 ---
 title: Устранение неполадок с плитками
 description: Распространенные ошибки, которые могут возникнуть при попытке обновления плитки в Power BI
-author: maggiesMSFT
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: kayu
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: troubleshooting
 ms.date: 12/06/2018
-ms.author: maggies
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 463275d98c72441264e5bae699d983eb34bb1058
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: f82c6c97b954745e264fe213b5070a9a498de939
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83320499"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410719"
 ---
 # <a name="troubleshooting-tile-errors"></a>Устранение неполадок с плитками
 Ниже приведены распространенные ошибки, с которыми вы можете столкнуться при работе с плитками, а также дано их пояснение.

@@ -2,18 +2,18 @@
 title: Подключение к Xero с помощью Power BI
 description: Xero для Power BI
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 03/06/2020
-ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 8ac9081e1cf7d6ec4ca53863c8111e56ae3ad68e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c942e399eb32fd7118d515f0d072972e3a820578
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231727"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410489"
 ---
 # <a name="connect-to-xero-with-power-bi"></a>Подключение к Xero с помощью Power BI
 Xero — простое и удобное программное обеспечение для онлайн-бухгалтерии, предназначенное специально для небольших предприятий. Шаблон приложение Xero для Power BI позволит вам создавать интересные визуализации на основе своих финансовых данных. Панель мониторинга по умолчанию содержит множество метрик, характерных для малого бизнеса. Они предназначены для отслеживания таких показателей, как состояние денежной наличности, доходы и расходы, динамика доходов и расходов, срок покрытия дебиторской задолженности и рентабельность инвестиций.
@@ -41,7 +41,7 @@ Xero — простое и удобное программное обеспеч
 
     ![Псевдоним организации](media/service-connect-to-xero/params.png)
 
-5. Для **метода проверки подлинности**выберите **OAuth**. При появлении запроса войдите и выберите организацию, к данным которой хотите подключиться. После завершения входа выберите **Войти**, чтобы начать загрузку.
+5. Для **метода проверки подлинности** выберите **OAuth**. При появлении запроса войдите и выберите организацию, к данным которой хотите подключиться. После завершения входа выберите **Войти**, чтобы начать загрузку.
    
     ![Метод проверки подлинности](media/service-connect-to-xero/creds.png)
    

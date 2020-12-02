@@ -1,20 +1,20 @@
 ---
 title: Копирование и вставка визуализации в Power BI
 description: Копирование и вставка визуализации в Power BI
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: maggie tsang
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 09/18/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fd5fc361431268c37639a336923a4067176f1761
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: fda66910ac073421d4b17706dec70d6aa6e86499
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93411068"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96409891"
 ---
 # <a name="copy-and-paste-a-report-visualization"></a>Копирование и вставка визуализации отчета
 
@@ -58,7 +58,7 @@ ms.locfileid: "93411068"
 
     ![Значок "Копировать визуализацию как изображение"](media/power-bi-visualization-copy-paste/power-bi-copy-dashboard.png)
 
-3. Когда откроется диалоговое окно **Визуальный элемент готов к копированию** , выберите команду **Копировать в буфер обмена**.
+3. Когда откроется диалоговое окно **Визуальный элемент готов к копированию**, выберите команду **Копировать в буфер обмена**.
 
     ![диалоговое окно с командой "Копировать в буфер обмена"](media/power-bi-visualization-copy-paste/power-bi-copied.png)
 
@@ -74,7 +74,7 @@ ms.locfileid: "93411068"
 
     ![Снимок экрана: значок "Скопировать визуальный элемент как изображение"](media/power-bi-visualization-copy-paste/power-bi-copy-icon.png)
 
-3. Когда откроется диалоговое окно **Визуальный элемент готов к копированию** , выберите команду **Копировать в буфер обмена**.
+3. Когда откроется диалоговое окно **Визуальный элемент готов к копированию**, выберите команду **Копировать в буфер обмена**.
 
     ![диалоговое окно с командой "Копировать в буфер обмена"](media/power-bi-visualization-copy-paste/power-bi-copied.png)
 
@@ -99,11 +99,11 @@ ms.locfileid: "93411068"
 1. Откройте панель форматирования, щелкнув значок валика. 
 
 1. Откройте карточку **визуального форматирования**.
-1. Прокрутите содержимое вниз до карточки **Заголовок визуального элемента** , разверните ее и отключите параметр **Значок копирования**.
+1. Прокрутите содержимое вниз до карточки **Заголовок визуального элемента**, разверните ее и отключите параметр **Значок копирования**.
 
     ![выделенный параметр "Значок копирования" на карточке форматирования](media/power-bi-visualization-copy-paste/power-bi-visual-header.png)
 
-1. Если вы не можете найти параметр **Заголовок визуального элемента** , включите современный визуальный заголовок в разделе **Параметры отчета**. 
+1. Если вы не можете найти параметр **Заголовок визуального элемента**, включите современный визуальный заголовок в разделе **Параметры отчета**. 
 
     ![выбранный параметр современного визуального заголовка](media/power-bi-visualization-copy-paste/power-bi-use-modern.png)
 

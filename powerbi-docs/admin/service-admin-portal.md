@@ -1,21 +1,21 @@
 ---
 title: Портал администрирования Power BI
 description: На портале администрирования можно настроить параметры Power BI для всей организации. Вы можете просматривать метрики использования, настраивать параметры арендатора, работать с емкостью, а также просматривать рабочие области, визуализации организации и рекомендуемое содержимое.
-author: kfollis
+author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 10/22/2020
-ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 0abdaab48516b91624a0945d32c4f81ed024a468
-ms.sourcegitcommit: 5bbe7725918a72919ba069c5f8a59e95453ec14c
+ms.openlocfilehash: c83efa55cc1c35bb7e6fa8e62de3bca228553fe3
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "94947352"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96409408"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Администрирование Power BI на портале администрирования
 

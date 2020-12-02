@@ -2,18 +2,18 @@
 title: Подключение к GitHub с помощью Power BI
 description: GitHub для Power BI
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/19/2020
-ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2e482c6efd60352721e1788a7929128af1b8cf89
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: e92afdbad41f212ac93245583430ae44fe0abaf9
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91633637"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410650"
 ---
 # <a name="connect-to-github-with-power-bi"></a>Подключение к GitHub с помощью Power BI
 Эта статья описывает извлечение данных из учетной записи GitHub с помощью приложения-шаблона Power BI. Приложение-шаблон создает рабочую область с панелью мониторинга, набор отчетов и набор данных, которые позволяют анализировать ваши данные GitHub. Приложение GitHub для Power BI позволяет анализировать данные в репозитории GitHub, используя информацию о вкладах пользователей, проблемах, запросах на вытягивание и активных пользователях.

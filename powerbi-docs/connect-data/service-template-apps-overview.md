@@ -2,18 +2,18 @@
 title: Что такое приложения-шаблоны Power BI?
 description: В этой статье приводится обзор программы приложений-шаблонов Power BI. Узнайте, как создавать приложения Power BI с минимальным количеством кода или вообще без него и развертывать их для любых клиентов Power BI.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
-ms.author: painbar
-ms.openlocfilehash: 773f812ebaeabf02e9a21f09ac5a143d431fbeb0
-ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
+ms.openlocfilehash: 5c897909d9fe31e4b22743a77058caba4767a579
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "94718921"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410144"
 ---
 # <a name="what-are-power-bi-template-apps"></a>Что такое приложения-шаблоны Power BI?
 

@@ -1,27 +1,27 @@
 ---
 title: Отображение данных, использованных для создания визуализации Power BI
 description: Из этого документа вы узнаете, как отображать данные, которые используются для создания визуализации в Power BI, и как экспортировать эти данные в CSV-файл.
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 12/4/2019
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c3e996da62b71c008f4f7a5929cc8b91d38cc26e
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 960a3dec2276acba994190e73de671f2b071bc50
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412793"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96409730"
 ---
 # <a name="display-a-visualizations-underlying-data"></a>Отображение базовых данных визуального элемента
 
 [!INCLUDE[consumer-appliesto-yyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 ## <a name="show-data"></a>Показать данные
-Визуализация Power BI создается на основе данных из наборов данных. Если вы хотите копнуть поглубже, Power BI дает возможность *просмотреть* данные, лежащие в основе визуального элемента. Если выбрать функцию **Показать данные** , Power BI отобразит рядом с визуализацией или под ней связанную информацию.
+Визуализация Power BI создается на основе данных из наборов данных. Если вы хотите копнуть поглубже, Power BI дает возможность *просмотреть* данные, лежащие в основе визуального элемента. Если выбрать функцию **Показать данные**, Power BI отобразит рядом с визуализацией или под ней связанную информацию.
 
 Данные, используемые для создания визуализации, можно экспортировать в файл XLSX или CSV и просмотреть его в Excel. Дополнительные сведения см. в статье [Экспорт данных из визуализаций Power BI](power-bi-visualization-export-data.md).
 
@@ -64,7 +64,7 @@ ms.locfileid: "93412793"
 
     ![Снимок экрана отдельной записи из набора данных.](media/service-reports-show-data/power-bi-row.png)
 
-4. Выберите **Назад к отчету** , чтобы вернуться на холст отчетов в Power BI Desktop. 
+4. Выберите **Назад к отчету**, чтобы вернуться на холст отчетов в Power BI Desktop. 
 
 ## <a name="considerations-and-troubleshooting"></a>Рекомендации и устранение неполадок
 

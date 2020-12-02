@@ -1,20 +1,20 @@
 ---
 title: Простые диаграммы с областями
 description: Простые диаграммы с областями
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: conceptual
 ms.date: 06/16/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4cc08398821d019d55475e0d4ed66a7633c49ca1
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 087aa281890d4b2702e6637bf3f1526ac331ea40
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93411436"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96409914"
 ---
 # <a name="create-and-use-basic-area-charts"></a>Создание и использование простых диаграмм с областями
 

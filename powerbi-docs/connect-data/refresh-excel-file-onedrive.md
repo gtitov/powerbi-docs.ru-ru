@@ -2,19 +2,19 @@
 title: Обновление набора данных, созданного из книги Excel (в облаке)
 description: Обновление набора данных, созданного из книги Excel в OneDrive или SharePoint Online
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 06/06/2019
-ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: c550cace73cff4b37da4e68693c0b46175156890
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ed4ba65da4c4b027d5e789844a86e57c2a9c478c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222367"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410811"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-onedrive-or-sharepoint-online"></a>Обновление набора данных, созданного из книги Excel в OneDrive или SharePoint Online
 
@@ -104,7 +104,7 @@ ms.locfileid: "85222367"
 
 Возникающие проблемы обычно вызваны тем, что Power BI не удается выполнить вход в источники данных либо набор данных подключается к локальному источнику данных, а шлюз находится вне сети. Убедитесь, что служба Power BI может выполнить вход в источники данных. Если изменяется пароль, который вы используете для входа в источник данных или Power BI выполняет выход из источника данных, не забудьте повторно войти в источники данных в разделе «Учетные данные источника данных».
 
-Не забудьте оставить флажок **Отправлять мне уведомления по электронной почте об ошибке обновления**установленным. Вам необходимо оперативно получать информацию о сбое запланированного обновления.
+Не забудьте оставить флажок **Отправлять мне уведомления по электронной почте об ошибке обновления** установленным. Вам необходимо оперативно получать информацию о сбое запланированного обновления.
 
 ## <a name="important-notes"></a>Важные примечания
 

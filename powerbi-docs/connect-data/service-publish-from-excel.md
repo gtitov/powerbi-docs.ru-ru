@@ -2,19 +2,19 @@
 title: Публикация в Power BI из Microsoft Excel
 description: Узнайте, как опубликовать книгу Excel на сайте Power BI.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 05/05/2020
-ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 108c7cea815475c98a7529a53b9a177ff5fbf405
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 1473cdace4a1c6435ea7c2cf405785f144616d87
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91600148"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410190"
 ---
 # <a name="publish-to-power-bi-from-microsoft-excel"></a>Публикация в Power BI из Microsoft Excel
 Microsoft Excel 2016 и более новых версий позволяет публиковать книги Excel непосредственно в рабочей области [Power BI](https://powerbi.microsoft.com), где вы можете создавать предельно наглядные отчеты и информационные панели на основе данных книги. Затем вы можете предоставить свои данные для общего доступа другим сотрудникам организации.

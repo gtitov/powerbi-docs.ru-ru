@@ -2,19 +2,19 @@
 title: Учебник по обнаружению аномалий
 description: Руководство. Обнаружение аномалий в Power BI
 author: aphilip94
+ms.author: anphil
 ms.reviewer: aphilip94
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 11/10/2020
-ms.author: anphil
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5431590e428351e81da98625294df70f617a608a
-ms.sourcegitcommit: 029aacd09061a8aa45b57f05d0dc95c93dd16a74
+ms.openlocfilehash: cd08d5e6196c1cd321efbe89ec0727d314eff4ce
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "94572058"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96409868"
 ---
 # <a name="anomaly-detection-preview"></a>Обнаружение аномалий (предварительная версия)
 

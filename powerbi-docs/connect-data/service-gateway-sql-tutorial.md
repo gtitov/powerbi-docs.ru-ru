@@ -2,19 +2,19 @@
 title: Руководство. Подключение к локальным данным в SQL Server
 description: Сведения об использовании SQL Server в качестве источника данных шлюза, в том числе о способах обновления данных.
 author: arthiriyer
+ms.author: arthii
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: tutorial
 ms.date: 07/15/2019
-ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 100417202fca148be0e2e976ce0cd84167c803d9
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: ba518991145b727e141e1441f30ea73819bddb31
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83283515"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410282"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>Обновление данных из локальной базы данных SQL Server
 
@@ -141,7 +141,7 @@ ms.locfileid: "83283515"
 
 2. В разделе **Запланированное обновление** в пункте **Поддерживать актуальность данных** включите обновление: **Включено**.
 
-3. Выберите соответствующую **частоту обновления** (**Ежедневно** в этом примере) и затем в разделе **Время**выберите **Добавить другое время** для указания нужного времени обновления (06:30 и 18:30 в этом примере).
+3. Выберите соответствующую **частоту обновления** (**Ежедневно** в этом примере) и затем в разделе **Время** выберите **Добавить другое время** для указания нужного времени обновления (06:30 и 18:30 в этом примере).
 
     ![Настройка запланированного обновления](./media/service-gateway-sql-tutorial/configure-scheduled-refresh.png)
 

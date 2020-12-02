@@ -1,20 +1,20 @@
 ---
 title: Общий доступ к набору данных
 description: Как владелец набора данных, вы можете создавать наборы данных и делиться ими, чтобы другие пользователи могли работать с ними. Узнайте, как поделиться ими.
-author: maggiesMSFT
+author: paulinbar
+ms.author: painbar
 ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 04/30/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: fd31c3b97eef80b0e4457fe6e61c1a8bf101db7b
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: c73c5b1b803b73742f6f13456b07a2060f5757e4
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252666"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410420"
 ---
 # <a name="share-a-dataset"></a>Общий доступ к набору данных
 
