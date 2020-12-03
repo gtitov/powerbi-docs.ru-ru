@@ -1,20 +1,20 @@
 ---
 title: Типы визуализаций в Power BI
 description: Типы визуализаций в Power BI
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: conceptual
 ms.date: 01/14/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 24dce044cdd1c4eaef21f4d744ed672119241970
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 9f97db83f8793f251dc1d0d5c5b4133d7228022b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412747"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418792"
 ---
 # <a name="visualization-types-in-power-bi"></a>Типы визуализаций в Power BI
 ## <a name="power-bi-visualizations"></a>Визуализации Power BI
@@ -165,7 +165,7 @@ ms.locfileid: "93412747"
 ![Визуальные элементы R](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-r-visuals.png)
 
 >[!TIP]
->Такие элементы, часто называются *визуальными элементами R* , могут использоваться для расширенного форматирования и анализа данных, например прогнозирования, с помощью передовых средств аналитики и визуализации языка R. Визуальные элементы R можно создать в Power BI Desktop и опубликовать в службе Power BI.   
+>Такие элементы, часто называются *визуальными элементами R*, могут использоваться для расширенного форматирования и анализа данных, например прогнозирования, с помощью передовых средств аналитики и визуализации языка R. Визуальные элементы R можно создать в Power BI Desktop и опубликовать в службе Power BI.   
 
 Дополнительные сведения см. в статье [Визуальные элементы R в Power BI](service-r-visuals.md).
 
@@ -230,7 +230,7 @@ ms.locfileid: "93412747"
 ## <a name="tell-qa-which-visualization-to-use"></a>Назначение используемой визуализации для вопросов и ответов
 При вводе запросов на естественном языке с помощью вопросов и ответов Power BI можно указать тип визуализации в запросе.  Например:
 
-" ***продажи по штатам в виде плоского дерева*** "
+"***продажи по штатам в виде плоского дерева***"
 
 Если на панели мониторинга нет поля "Вопросы и ответы", возможно, его отключил администратор Power BI. 
 

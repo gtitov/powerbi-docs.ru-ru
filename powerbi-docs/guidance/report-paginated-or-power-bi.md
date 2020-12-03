@@ -2,18 +2,18 @@
 title: В каких случаях использовать отчеты с разбивкой на страницы в Power BI
 description: Рекомендации по использованию отчетов с разбивкой на страницы Power BI.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: report-builder
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 01/04/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 169a94beab8cb5b4c44105aba4c1cdf02e902c06
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 2a13e5d697d4e0bda32068a3b6eb908959ce0643
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916873"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418999"
 ---
 # <a name="when-to-use-paginated-reports-in-power-bi"></a>В каких случаях использовать отчеты с разбивкой на страницы в Power BI
 

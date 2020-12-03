@@ -2,18 +2,18 @@
 title: Руководство по использованию изображений в отчетах с разбивкой на страницы
 description: Указания по использованию изображений в отчетах Power BI с разбивкой на страницы.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: report-builder
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 02/16/2020
-ms.author: v-pemyer
-ms.openlocfilehash: d2f3f36911c72df1b95ceb5bd90043870559cc62
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ccb61899337e5585d03d9297fbe8f8a5decc612e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78920707"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418401"
 ---
 # <a name="image-use-guidance-for-paginated-reports"></a>Руководство по использованию изображений в отчетах с разбивкой на страницы
 

@@ -1,19 +1,19 @@
 ---
 title: Журнал изменений для сервера отчетов Power BI
 description: Этот журнал изменений предназначен для сервера отчетов Power BI и содержит новые элементы, а также исправления ошибок для каждой выпущенной сборки.
-ms.author: jaimeta
 author: jtarquino
+ms.author: jaimeta
 ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/18/2020
-ms.openlocfilehash: 2989436c2a501447cab2d95e0ac1d3fad1fd99b6
-ms.sourcegitcommit: 5bbe7725918a72919ba069c5f8a59e95453ec14c
+ms.openlocfilehash: 2331785b14cd8cbcf9aec1232293cb601b1e2dc6
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "94947031"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418125"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Журнал изменений для сервера отчетов Power BI
 

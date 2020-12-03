@@ -2,20 +2,20 @@
 title: Создание содержимого для миграции в Power BI
 description: Руководство по созданию и проверке содержимого при миграции в Power BI.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/20/2020
-ms.author: v-pemyer
-ms.openlocfilehash: a12a320b061967e9201e3513e504277a9df586b4
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: 03a55f2f414ca8af7ca86f51dcafb0258efc88b7
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803508"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418608"
 ---
-# <a name="createcontenttomigratetopowerbi"></a>Создание содержимого для миграции в Power BI
+# <a name="create-content-to-migrate-to-power-bi"></a>Создание содержимого для миграции в Power BI
 
 В этой статье описывается **стадия 4**, на которой происходит создание и проверка содержимого при миграции в Power BI.
 

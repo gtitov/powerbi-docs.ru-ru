@@ -5,15 +5,15 @@ author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
-ms.topic: tutorial
 ms.subservice: powerbi-custom-visuals
+ms.topic: tutorial
 ms.date: 09/02/2020
-ms.openlocfilehash: 6c4b39fff9513143c946cc2e92294ae4cbe81427
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: ff73c07fb08e80938fae34c19205885722c33672
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397468"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418723"
 ---
 # <a name="tutorial-develop-a-power-bi-circle-card-visual"></a>Руководство. Разработка визуализации "Круговая карточка" в Power BI
 
@@ -107,7 +107,7 @@ ms.locfileid: "94397468"
     >
     >![Снимок экрана: новая визуализация, отображающая ошибку подключения.](media/develop-circle-card/connection-error.png)
 
-6. Выбрав новую визуализацию, перейдите в область **Поля** , разверните узел **Продажи** и выберите **Количество**.
+6. Выбрав новую визуализацию, перейдите в область **Поля**, разверните узел **Продажи** и выберите **Количество**.
 
     >[!div class="mx-imgBorder"]
     >![Снимок экрана с полем количества службы Power BI в таблице "Продажи" в отчете US Sales Analysis.](media/develop-circle-card/fields-sales-quantity.png)
@@ -126,9 +126,9 @@ ms.locfileid: "94397468"
 
 ### <a name="modify-the-visuals-file"></a>Изменение файла визуальных элементов
 
-Настройте файл **visual.ts** , удалив и добавив несколько строк кода.
+Настройте файл **visual.ts**, удалив и добавив несколько строк кода.
 
-1. Откройте проект в VS Code ( **Файл** > **Открыть папку** ).
+1. Откройте проект в VS Code (**Файл** > **Открыть папку**).
 
 2. В **области обозревателя** разверните папку **src** и выберите файл **settings.ts**.
 
@@ -140,7 +140,7 @@ ms.locfileid: "94397468"
 
 3. Удалите следующие строки кода из файла *visual.ts*.
 
-    * Импорт *VisualSettings* :
+    * Импорт *VisualSettings*:
         ```typescript
         import { VisualSettings } from "./settings";
         ```
@@ -151,11 +151,11 @@ ms.locfileid: "94397468"
 
     * Все строки кода в методе *update*.
 
-    * Все остальные строки кода, следующие за методом *update* , включая методы *parseSettings* и *enumerateObjectInstances*.
+    * Все остальные строки кода, следующие за методом *update*, включая методы *parseSettings* и *enumerateObjectInstances*.
 
 4. Добавьте в конце раздела импорта следующие строки кода:
 
-    * *IVisualHost*  — коллекция свойств и служб, которые можно использовать для взаимодействия с узлом визуализаций (Power BI).
+    * *IVisualHost* — коллекция свойств и служб, которые можно использовать для взаимодействия с узлом визуализаций (Power BI).
 
          ```typescript
         import IVisualHost = powerbi.extensibility.IVisualHost;
@@ -363,7 +363,7 @@ export class Visual implements IVisual {
 
 Удалите ненужные строки кода из файла возможностей.
 
-1. Откройте проект в VS Code ( **Файл** > **Открыть папку** ).
+1. Откройте проект в VS Code (**Файл** > **Открыть папку**).
 
 2. Выберите файл **capabilities.json**.
 
@@ -470,7 +470,7 @@ export class Visual implements IVisual {
 
 ### <a name="optional-review-the-capabilities-file-code-changes"></a>Просмотр изменений кода файла возможностей (необязательно)
 
-Убедитесь, что визуальный элемент круговой карточки отображает поле *measure* , и проверьте изменения, внесенные с помощью параметра *Показать представление данных*. 
+Убедитесь, что визуальный элемент круговой карточки отображает поле *measure*, и проверьте изменения, внесенные с помощью параметра *Показать представление данных*. 
 
 1. В службе Power BI откройте отчет *Power BI US Sales Analysis*. Если вы используете другой отчет для разработки визуального элемента круговой карточки, перейдите к этому отчету.
 
@@ -492,7 +492,7 @@ export class Visual implements IVisual {
     >[!div class="mx-imgBorder"]
     >![Снимок экрана значения в том виде, в котором оно отображается в параметре представления данных.](media/develop-circle-card/value.png)
 
-5. Разверните **metadata** , затем массив **columns** и просмотрите значения **format** и **displayName**.
+5. Разверните **metadata**, затем массив **columns** и просмотрите значения **format** и **displayName**.
 
     >[!div class="mx-imgBorder"]
     >![Снимок экрана со значениями формата и имени, отображаемыми в параметре представления данных.](media/develop-circle-card/colunms.png)
@@ -501,7 +501,7 @@ export class Visual implements IVisual {
 
 ### <a name="configure-the-visual-to-consume-data"></a>Настройка визуального элемента для использования данных
 
-Внесите изменения в файл **visual.ts** , чтобы визуальный элемент круговой карточки мог использовать данные.
+Внесите изменения в файл **visual.ts**, чтобы визуальный элемент круговой карточки мог использовать данные.
 
 1. Откройте файл **visual.ts** в VS Code.
 

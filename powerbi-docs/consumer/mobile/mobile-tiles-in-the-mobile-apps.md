@@ -2,18 +2,18 @@
 title: Просмотр плиток в мобильном приложении Power BI
 description: Плитки представляют собой динамические моментальные снимки данных, закрепленные на информационной панели. Узнайте, как работать с плитками в мобильных приложениях Power BI.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
-ms.author: painbar
-ms.openlocfilehash: 1afde236dd4fc9698efe4391cb2d9e095ade37a4
-ms.sourcegitcommit: 5fdb45736ca0c8070124279fed4dab1ced8b7b27
+ms.openlocfilehash: 74823845c73f02468d012c4518cdf111e84824c9
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92683379"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417941"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Просмотр плиток в мобильном приложении Power BI
 Применяется к:
@@ -35,7 +35,7 @@ ms.locfileid: "92683379"
    
     ![Снимок экрана: график, показывающий выбранные значения для показателей продаж за текущий и прошлый годы](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-line-tile-values.png)
    
-   *Например, на этом графике выбранные значения соответствуют показателям **продаж за текущий** и **прошлый годы** в **августе** .*  
+   *Например, на этом графике выбранные значения соответствуют показателям **продаж за текущий** и **прошлый годы** в **августе**.*  
    
    Коснитесь сегмента круговой диаграммы, чтобы отобразить его значения над диаграммой.  
    
@@ -58,7 +58,7 @@ ms.locfileid: "92683379"
    
     Открыв ссылку в приложении Power BI, вы можете скопировать ее и открыть в браузере.
 7. [Откройте отчет](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png) ](mobile-reports-in-the-mobile-apps.md)значок "Открыть отчет" в iOS![, на котором основана плитка.
-8. Чтобы выйти из режима фокусировки плитки, коснитесь имени плитки, а затем выберите имя панели мониторинга или **Моя рабочая область** .
+8. Чтобы выйти из режима фокусировки плитки, коснитесь имени плитки, а затем выберите имя панели мониторинга или **Моя рабочая область**.
    
     ![Снимок экрана: панель мониторинга со стрелками, указывающими элементы "Моя рабочая область" и "Анализ возможностей — пример"](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-tile-breadcrumb.png)
 

@@ -2,19 +2,19 @@
 title: Оптимизация цвета визуальных элементов в отчетах Power BI
 description: Восемь советов по оптимизации цвета визуальных элементов отчетов Power BI в Power BI Desktop или службе Power BI.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 featuredvideoid: RhYcEsdPqJg
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 02/15/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 7e8526e5e8acf45afe125495cf8eca4628b70a06
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 1bd49ef488e8daa8f78faca71a7a195707cd833e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83278889"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417757"
 ---
 # <a name="tips-to-optimize-visual-colors-in-power-bi-reports"></a>Советы по оптимизации цвета визуальных элементов в отчетах Power BI
 

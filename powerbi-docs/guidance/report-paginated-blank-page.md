@@ -2,18 +2,18 @@
 title: Избегайте пустых страниц при печати отчетов с разбивкой на страницы
 description: Руководство по разработке отчетов с разбивкой на страницы, чтобы избежать вывода пустых страниц при печати.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: report-builder
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 01/14/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 349459b95a815a52665e50687554f81f90a9c81b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 0fa886973105bdb4bc8a35f145168c1775ca12cb
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78920846"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418470"
 ---
 # <a name="avoid-blank-pages-when-printing-paginated-reports"></a>Избегайте пустых страниц при печати отчетов с разбивкой на страницы
 

@@ -1,19 +1,19 @@
 ---
 title: Использование визуального элемента "Вопросы и ответы" Power BI
 description: Сведения о настройке визуального элемента "Вопросы и ответы" Power BI
-author: msftrien
+author: rien
+ms.author: rien
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 11/19/2019
-ms.author: mohaali
-ms.openlocfilehash: 96773bc256ba8563147c7dc7c19e2558125b48fc
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 43da67114808538d64aa2ceb7f59af590ee23857
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412356"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418953"
 ---
 # <a name="introduction-to-power-bi-qa-visualizations"></a>Общие сведения о визуальных элементах "Вопросы и ответы" в Power BI
 

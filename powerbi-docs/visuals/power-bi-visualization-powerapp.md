@@ -2,20 +2,20 @@
 title: Внедрение нового приложения Power App в отчет Power BI
 description: Сведения о внедрении приложения, которое использует тот же источник данных и может фильтроваться так же, как другие элементы отчета
 author: mihart
+ms.author: mihart
 manager: kvivek
 ms.reviewer: tapan maniar
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 06/01/2020
-ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c46410caff373eb8474a4b687e834b822f2da8ac
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 1c4086d6ab71bd96ba7ac6c6985161d28a4dcb8b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397537"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418884"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>Руководство. Внедрение визуального элемента Power Apps в отчет Power BI
 
@@ -59,13 +59,13 @@ ms.locfileid: "94397537"
 
     ![Создание приложения](media/power-bi-visualization-powerapp/power-bi-create-new-powerapp.png)
 
-    В Power Apps Studio вы увидите созданное базовое приложение с *коллекцией* , в которой отображается одно из полей, выбранных в Power BI.
+    В Power Apps Studio вы увидите созданное базовое приложение с *коллекцией*, в которой отображается одно из полей, выбранных в Power BI.
 
     ![Открытие Power Apps](media/power-bi-visualization-powerapp/power-bi-power-app.png)
 
 5.  Измените размер коллекции так, чтобы она занимала только половину экрана. 
 
-6. В левой области выберите элемент **Screen1** , а затем задайте для свойства **Fill** окна значение LightBlue (чтобы окно было лучше видно в отчете).
+6. В левой области выберите элемент **Screen1**, а затем задайте для свойства **Fill** окна значение LightBlue (чтобы окно было лучше видно в отчете).
 
     ![цветовая палитра](media/power-bi-visualization-powerapp/power-bi-powerapps-fill.png)
 

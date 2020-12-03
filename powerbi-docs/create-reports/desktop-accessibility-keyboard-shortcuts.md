@@ -2,19 +2,19 @@
 title: Сочетания клавиш в Power BI Desktop
 description: Управление Power BI Desktop с использованием сочетаний клавиш
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 10/28/2019
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: bf3f25adb916e158ee879cb96ab43655c72903d3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9cfd5f80ac18c05b520fc417c6336dda360b8737
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229130"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417596"
 ---
 # <a name="keyboard-shortcuts-in-power-bi-desktop"></a>Сочетания клавиш в Power BI Desktop
 

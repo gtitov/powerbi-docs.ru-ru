@@ -2,19 +2,19 @@
 title: Оптимизация панели мониторинга для мобильных телефонов — Power BI
 description: Узнайте, как создать настраиваемое представление для панели мониторинга в Power BI для ее просмотра на мобильных устройствах.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 04/18/2019
-ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: bc1c9987205e86ee9a123bf8ba9afd567c59ff52
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: b0bf14ec5229aae40ee4e3f43c65b6bef4a505ba
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264721"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417481"
 ---
 # <a name="optimize-a-dashboard-for-mobile-phones---power-bi"></a>Оптимизация панели мониторинга для мобильных телефонов — Power BI 
 Когда вы просматриваете панели мониторинга в книжной ориентации на телефоне, плитки отображаются одна за другой и имеют одинаковый размер. В службе Power BI можно создать настраиваемое представление для панели мониторинга, в частности, для ее просмотра в книжной ориентации на телефонах. Даже если вы создали представление для телефонов, при повороте телефона набок вы увидите панель мониторинга так, как она отображается в службе.
