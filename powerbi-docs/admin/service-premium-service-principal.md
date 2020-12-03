@@ -1,20 +1,20 @@
 ---
 title: Автоматизация задач по управлению рабочими областями Power BI Premium и наборами данных с помощью субъектов-служб | Документация Майкрософт
 description: Узнайте, как использовать субъекты-службы для автоматизации задач по управлению рабочими областями Power BI Premium и наборами данных.
-author: minewiskan
-ms.author: owend
+author: Minewiskan
+ms.author: davidi
 ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-admin
+ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 10/20/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 406b526f9e2dd146ee99629ed913c60b95989cb0
-ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
+ms.openlocfilehash: 7ffd2d2673a4efb827110c04e5e466e143c36022
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94483726"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413433"
 ---
 # <a name="automate-premium-workspace-and-dataset-tasks-with-service-principals"></a>Автоматизация задач по управлению рабочими областями Premium и наборами данных с помощью субъектов-служб
 
@@ -50,7 +50,7 @@ ms.locfileid: "94483726"
 
 Прежде чем использовать субъекты-службы в Power BI, администратор должен сначала включить доступ субъекта-службы на портале администрирования Power BI.
 
-В Power BI в разделе **Портал администрирования** > **Параметры клиента** разверните параметр **Разрешить субъектам-службам использовать API Power BI** , а затем щелкните **Включено**. Чтобы применить разрешения к группе безопасности, добавьте имя группы в поле **Определенные группы безопасности**.
+В Power BI в разделе **Портал администрирования** > **Параметры клиента** разверните параметр **Разрешить субъектам-службам использовать API Power BI**, а затем щелкните **Включено**. Чтобы применить разрешения к группе безопасности, добавьте имя группы в поле **Определенные группы безопасности**.
 
 ![Параметры рабочей области](media/service-premium-service-principal/admin-portal.png)
 

@@ -2,18 +2,18 @@
 title: Краткий обзор домашней страницы мобильного приложения
 description: В этой статье представлены основные компоненты домашней страницы мобильного приложения.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: quickstart
 ms.date: 12/16/2019
-ms.author: painbar
-ms.openlocfilehash: d06478acf53ead63b48afcf58cb2316ff4c5a3bc
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: ee4b4d3537fc0bdb77a451a0b32159ae3d703833
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635316"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413226"
 ---
 # <a name="a-quick-tour-of-the-mobile-app-home-page"></a>Краткий обзор домашней страницы мобильного приложения
 В этом обзоре вы ознакомитесь с домашней страницей мобильного приложения Power BI и доступными на ней элементами навигации для быстрого доступа.

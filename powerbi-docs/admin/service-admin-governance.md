@@ -2,19 +2,19 @@
 title: Power BI Governance and Deployment Approaches (Подходы к развертыванию и управлению Power BI)
 description: Технический документ, посвященный основным понятиям, возможностям и рекомендациям по управлению в экосистеме Power BI.
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/13/2019
-ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: f6dd4171d786d9272ef2ef6b876148eaf2f31cf3
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 537fb25d1b8514efdcaf17fe9f922eb11de46c3f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83139704"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413663"
 ---
 # <a name="governance-and-deployment-approaches"></a>Power BI Governance and Deployment Approaches (Подходы к развертыванию и управлению Power BI)
 

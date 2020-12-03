@@ -2,19 +2,19 @@
 title: Визуальные таблицы и записи в визуальных элементах Power BI Desktop
 description: Использование функций "Визуальная таблица" и "Таблица точек данных" в Power BI Desktop для детализации сведений
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/21/2020
-ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: f9fa3ee1c1e0f757eb3b464785c8cb3fe3ab6e78
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 05dcd5f0d7ca1681ee1e82762ea1557c79c5bc24
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264740"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412812"
 ---
 # <a name="use-visual-table-and-data-point-table-in-power-bi-desktop"></a>Использование визуальной таблицы и таблицы точек данных в Power BI Desktop
 В **Power BI Desktop** можно детализировать данные любого визуального элемента и отобразить текстовое представление данных или отдельных записей данных выбранного визуального элемента. Иногда эти возможности называют *переходами*, *детализацией* или *детализацией данных*.

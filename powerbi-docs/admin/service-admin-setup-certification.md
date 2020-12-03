@@ -2,18 +2,18 @@
 title: Включение сертификации содержимого
 description: Узнайте, как включить сертификацию для наборов данных, потоков данных, отчетов и приложений.
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
 ms.date: 10/26/2020
-ms.author: painbar
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4961f5f2b6364e06488baf32478b1f6e9338675e
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: 17fc02131f13fe7fe7d8fb17af4380f6a013b9e7
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92680839"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413525"
 ---
 # <a name="enable-content-certification"></a>Включение сертификации содержимого
 
@@ -37,12 +37,12 @@ ms.locfileid: "92680839"
 
    ![Настройка сертификации наборов и потоков данных](media/service-admin-setup-certification/service-admin-certification-setup-dialog.png)
 
-1. Установите переключатель в положение **Включено** .
+1. Установите переключатель в положение **Включено**.
 1. Если в вашей организации есть опубликованная политика сертификации, укажите ее URL-адрес. Это будет ссылка **Дополнительные сведения** в разделе сертификации [диалогового окна параметров подтверждения](../collaborate-share/service-endorse-content.md#request-content-certification). Если вы не предоставите ссылку, то пользователям, желающим запросить сертификацию своего содержимого, будет рекомендовано обратиться к администратору Power BI.
 1. Укажите одну или несколько групп безопасности, участники которых будут иметь полномочия на сертификацию содержимого. Эти полномочные пользователи смогут использовать кнопку "Сертификация" в разделе "Сертификация" [диалогового окна параметров подтверждения](../collaborate-share/service-endorse-content.md#certify-content).
     
     Если группа безопасности содержит подгруппы безопасности, для которых не требуется предоставлять права на сертификацию, поставьте флажок **Кроме отдельных групп безопасности** и введите имена этих групп в появившемся текстовом поле.
-1. Щелкните **Применить** .
+1. Щелкните **Применить**.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Повышение уровня или сертификация содержимого](../collaborate-share/service-endorse-content.md)

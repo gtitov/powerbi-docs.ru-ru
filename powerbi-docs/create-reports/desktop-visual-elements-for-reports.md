@@ -2,19 +2,19 @@
 title: Усовершенствование отчетов Power BI с помощью визуальных элементов
 description: Усовершенствование отчетов с помощью таких визуальных элементов, как фоновый рисунок и заголовки визуальных элементов
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/08/2019
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 14ba601460a5ed025e24ff34539cf2f9bff93507
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 022a56f54553b72dc07a1f105bf8712d40f59bc1
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240358"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412628"
 ---
 # <a name="use-visual-elements-to-enhance-power-bi-reports"></a>Усовершенствование отчетов Power BI с помощью визуальных элементов
 

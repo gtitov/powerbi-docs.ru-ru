@@ -2,18 +2,18 @@
 title: Сканирование штрихкода из мобильного приложения Power BI
 description: Вы можете сканировать штрихкоды в реальном мире и сразу же переходить непосредственно к отфильтрованной соответствующим образом информации в мобильном приложении Power BI.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/02/2019
-ms.author: painbar
-ms.openlocfilehash: 9265cc94aceb53b1b088f2393ca607c83f94b978
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 5d1534ec3b6ccdf730cd2b255ba1142e80a6f9f9
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264803"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413111"
 ---
 # <a name="scan-a-barcode-with-your-device-from-the-power-bi-mobile-app"></a>Сканирование штрихкода с помощью мобильного приложения Power BI
 Вы можете сканировать штрихкоды в реальном мире и сразу же переходить непосредственно к отфильтрованной соответствующим образом информации в мобильном приложении Power BI.
@@ -64,7 +64,7 @@ ms.locfileid: "86264803"
 ### <a name="looks-like-you-dont-have-any-reports-that-can-be-filtered-by-barcodes"></a>"Вероятно, у вас нет отчетов, которые можно фильтровать по штрихкодам".
 Это означает, что у вас нет отчетов, содержащих штрихкоды. Сканер штрихкодов способен фильтровать только отчеты, в которых есть столбцы, помеченные тегом **Штрихкод**.  
 
-Вы или владелец отчета должны добавить в него соответствующую пометку**Barcode** в Power BI Desktop. Узнайте больше о [пометке полей со штрихкодами в Power BI Desktop](../../transform-model/desktop-mobile-barcodes.md).
+Вы или владелец отчета должны добавить в него соответствующую пометку **Barcode** в Power BI Desktop. Узнайте больше о [пометке полей со штрихкодами в Power BI Desktop](../../transform-model/desktop-mobile-barcodes.md).
 
 ### <a name="couldnt-filter-report---looks-like-this-barcode-doesnt-exist-in-the-report-data"></a>"Не удалось отфильтровать отчет. Похоже, этот штрихкод не существует в данных отчета".
 Отчет, который вы попытались отфильтровать, основан на модели данных, в которой нет этого значения штрихкода. Например, в отчете может не быть позиции под названием "минеральная вода". Вы можете просканировать другое изделие, выбрать другой отчет (если у вас их несколько) или просмотреть отчет без фильтра. 

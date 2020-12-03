@@ -2,20 +2,20 @@
 title: Группирование данных и разделение их на ячейки в Power BI Desktop
 description: Узнайте, как группировать элементы и разделять их на ячейки в Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 12/18/2019
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0beca84bc95c2947fef500fb9e3a9e5c377a0a46
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5f1b3d226fb7b27ebb31879d2f4a5c3489660b94
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234015"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412927"
 ---
 # <a name="use-grouping-and-binning-in-power-bi-desktop"></a>Группирование данных и разделение их на ячейки в Power BI Desktop
 При создании визуальных элементов в Power BI Desktop данные объединяются в блоки (или группы) на основе значений базовых данных. Часто это устраивает пользователя. Но бывают случаи, когда требуется уточнить представление этих блоков. Например, может потребоваться объединить три категории продуктов в одну более крупную категорию (одну *группу*). Или же можно отобразить показатели продаж в ячейках по 1 000 000 долларов, а не разделять их по частям размером 923 983 доллара.

@@ -2,18 +2,18 @@
 title: Запланированное обновление отчета Power BI в решении "Сервер отчетов Power BI"
 description: Запланированное обновление для отчетов Power BI позволяет использовать актуальные данные для отчета с внедренной моделью.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/09/2020
-ms.author: maggies
-ms.openlocfilehash: 710df5f4159f49884d9eee1044b2c077c7edcb88
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 4dd8914abe1f098b66d23daa299200b90b9bda6a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749099"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412582"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Запланированное обновление отчета Power BI в решении "Сервер отчетов Power BI"
 Запланированное обновление дает возможность использовать актуальные данные для отчетов Power BI.
@@ -36,7 +36,7 @@ ms.locfileid: "91749099"
 * В конфигурации с горизонтальным масштабированием модель данных может быть реплицирована между узлами.
 * Служба Analysis Services обрабатывает данные и выполняет все необходимые вычисления.
 
-Решение "Сервер отчетов Power BI" поддерживает очередь событий для всех запланированных операций. Через регулярные интервалы времени производится опрос очереди для обнаружения новых событий. По умолчанию очередь просматривается с интервалом в 10 секунд. Можно изменить этот интервал, изменив параметры конфигурации **PollingInterval**, **IsNotificationService**и **IsEventService** в файле RSReportServer.config. Кроме того, можно использовать параметр **IsDataModelRefreshService**, чтобы указать, будет ли сервер отчетов обрабатывать запланированные события.
+Решение "Сервер отчетов Power BI" поддерживает очередь событий для всех запланированных операций. Через регулярные интервалы времени производится опрос очереди для обнаружения новых событий. По умолчанию очередь просматривается с интервалом в 10 секунд. Можно изменить этот интервал, изменив параметры конфигурации **PollingInterval**, **IsNotificationService** и **IsEventService** в файле RSReportServer.config. Кроме того, можно использовать параметр **IsDataModelRefreshService**, чтобы указать, будет ли сервер отчетов обрабатывать запланированные события.
 
 ### <a name="analysis-services"></a>Службы Analysis Services
 Для подготовки отчета Power BI и запланированного обновления нужно загрузить модель данных отчета Power BI в службе Analysis Services. Этот процесс в Analysis Services выполняется с помощью решения "Сервер отчетов Power BI".
