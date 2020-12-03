@@ -2,17 +2,17 @@
 title: Изучение данных на естественном языке с помощью модуля "Вопросы и ответы" в Power BI
 description: Как использовать функцию "Вопросы и ответы" в Power BI для изучения данных и создания визуализаций с помощью естественного языка для запросов.
 author: mohaali
+ms.author: mohaali
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 07/01/2020
-ms.author: mohaali
-ms.openlocfilehash: d9339c0005f7f2af9fedd5cc5bfcce40469afb8c
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 71a78fe6b1af909079ca0a187ddb14d643c4e576
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749168"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416423"
 ---
 # <a name="intro-to-power-bi-qa"></a>Общие сведения о модуле "Вопросы и ответы" в Power BI
 

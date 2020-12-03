@@ -2,18 +2,18 @@
 title: Добавление заметок и предоставление общего доступа в мобильных приложениях Power BI
 description: 'Узнайте, как добавлять заметки и предоставлять общий доступ к плиткам, отчетам и визуальным элементам из мобильного приложения Microsoft Power BI для iOS и Android. '
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
-ms.author: painbar
-ms.openlocfilehash: 58a282116a672f33c0e05e7a3e6532ede316b3d3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: af8cb247d2a931ac9fb7aa54fc37f9f4dcde74ae
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239338"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416630"
 ---
 # <a name="annotate-and-share-a-tile-report-or-visual-in-power-bi-mobile-apps"></a>Добавление заметок к плиткам, отчетам и визуальным элементам и их совместное использование в мобильных приложениях Power BI
 Область применения:

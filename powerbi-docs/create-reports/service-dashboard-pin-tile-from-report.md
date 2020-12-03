@@ -2,20 +2,20 @@
 title: Закрепление плитки на панели мониторинга Power BI из отчета
 description: Закрепление плитки на панели мониторинга Power BI из отчета.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: lJKgWnvl6bQ
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 07/23/2019
-ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 1e0fdf11eab5ea264e78363984ff49bbc95660d8
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 5aa34834df49d54be885d94a1a1c06e13891ead1
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354324"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417343"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>Закрепление плитки на панели мониторинга Power BI из отчета
 

@@ -2,19 +2,19 @@
 title: Использование агрегатов и управление ими в Power BI Desktop
 description: Используйте агрегаты для интерактивного анализа больших данных в Power BI Desktop.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: conceptual
 ms.date: 02/14/2020
-ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 3ffa26c0999857df1b249d2866eb5f327e600a82
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: a6adf2136cbff1df6e673de16fd1673127df0192
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91600328"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416308"
 ---
 # <a name="use-aggregations-in-power-bi-desktop"></a>Использование агрегатов в Power BI Desktop
 
@@ -186,7 +186,7 @@ ms.locfileid: "91600328"
 
 ![Запрос к агрегату DISTINCTCOUNT](media/desktop-aggregations/aggregations-code_07.jpg)
 
-Функции логики операций со временем DAX поддерживают агрегирование. Следующий запрос использует агрегирование, так как функция DATESYTD создает таблицу значений**CalendarDay**, а таблица агрегирования находится на уровне детализации столбцов группировки таблицы **Даты**. Это пример возвращающего табличное значение фильтра функции CALCULATE, который может работать с агрегатами.
+Функции логики операций со временем DAX поддерживают агрегирование. Следующий запрос использует агрегирование, так как функция DATESYTD создает таблицу значений **CalendarDay**, а таблица агрегирования находится на уровне детализации столбцов группировки таблицы **Даты**. Это пример возвращающего табличное значение фильтра функции CALCULATE, который может работать с агрегатами.
 
 ![Запрос агрегирования SUMMARIZECOLUMNS](media/desktop-aggregations/aggregations-code-07b.jpg)
 

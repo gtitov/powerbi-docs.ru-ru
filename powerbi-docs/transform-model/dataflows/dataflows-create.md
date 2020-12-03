@@ -2,19 +2,19 @@
 title: Создание потока данных
 description: Общие сведения о различных способах создания потока данных
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-dataflows
 ms.topic: how-to
 ms.date: 10/01/2020
-ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 5a75965bb236a1515274343e58668809f91cef7b
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: c98044303e46af46d36b98f0a1bdc8c7df29d94f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94669208"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416170"
 ---
 # <a name="creating-a-dataflow"></a>Создание потока данных
 **Поток данных** — это коллекция сущностей (сущности здесь аналогичны таблицам), которые создаются и администрируются в рабочих областях в службе Power BI. **Сущность или таблица** — это набор полей, используемых для хранения данных, аналогично таблице в базе данных. Можно добавлять и изменять сущности или таблицы в потоке данных, а также управлять расписаниями обновления данных непосредственно из рабочей области, в которой был создан поток данных.

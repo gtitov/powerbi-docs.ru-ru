@@ -1,20 +1,20 @@
 ---
 title: Руководство. Начало работы со службой Power BI
 description: Приступая к работе со службой Power BI в Интернете (app.powerbi.com)
-author: maggiesMSFT
+author: mihart
+ms.author: mihart
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-fundamentals
 ms.topic: tutorial
 ms.date: 07/08/2020
-ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: eeda30e5a075166af3718084c2c9f7737f876cbe
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 4e74bec243faad281c457caaa15a6edacf2b10cb
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861114"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417136"
 ---
 # <a name="tutorial-get-started-creating-in-the-power-bi-service"></a>Руководство. Начало работы со службой Power BI
 В этом руководстве содержатся вводные сведения о некоторых функциях *службы Power BI*. Здесь вы выполните такие действия, как подключение к данным, создание отчета и панели мониторинга, а также зададите вопросы к данным. Служба Power BI позволяет выполнять гораздо больше задач. Это руководство предназначено только для того, чтобы привлечь ваш интерес. Чтобы получить представление о том, как служба Power BI связана с другими предложениями Power BI, рекомендуется ознакомиться со статьей [Что такое Power BI](power-bi-overview.md).

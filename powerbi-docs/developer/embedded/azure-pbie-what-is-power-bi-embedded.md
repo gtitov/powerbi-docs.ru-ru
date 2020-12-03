@@ -4,18 +4,18 @@ description: Power BI Embedded — это средство встроенной 
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: nishalit
-ms.service: power-bi-embedded
-ms.subservice: ''
+ms.service: powerbi
+ms.subservice: powerbi-developer
 ms.devlang: csharp, javascript
 ms.topic: overview
 ms.custom: seodec18
 ms.date: 12/10/2018
-ms.openlocfilehash: f04621fdfe7e6055d84fa4d2672c874837ff5ea4
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: fb2c9046b5812ae027e60f5661c50f573bea8976
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79495281"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417251"
 ---
 # <a name="what-is-power-bi-embedded-in-azure"></a>Что собой представляет Power BI Embedded в Azure
 
@@ -39,9 +39,9 @@ Power BI Embedded упрощает использование возможнос
 
 Power BI Embedded позволяет сосредоточиться на том, что у вас получается лучше всего, — на создании отличных приложений. Вы можете осуществлять управление и разработку с Power BI Embedded с помощью средств и навыков, которые у вас уже есть.
 
-* [**Портал Azure.** ](https://portal.azure.com/) Веб-приложение для управления всеми службами Azure
-* [**Visual Studio Code.** ](https://code.visualstudio.com/docs) Бесплатный загружаемый редактор кода с открытым исходным кодом для Windows, macOS и Linux, поддерживающий расширения
-* [**Power BI Desktop.** ](https://powerbi.microsoft.com/desktop/) Бесплатный загружаемый инструмент для создания многофункциональных интерактивных отчетов с визуальной аналитикой
+* [**Портал Azure.**](https://portal.azure.com/) Веб-приложение для управления всеми службами Azure
+* [**Visual Studio Code.**](https://code.visualstudio.com/docs) Бесплатный загружаемый редактор кода с открытым исходным кодом для Windows, macOS и Linux, поддерживающий расширения
+* [**Power BI Desktop.**](https://powerbi.microsoft.com/desktop/) Бесплатный загружаемый инструмент для создания многофункциональных интерактивных отчетов с визуальной аналитикой
 
 Благодаря REST API служба Power BI Embedded позволяет вести разработку на любом языке.
 

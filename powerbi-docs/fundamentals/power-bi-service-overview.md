@@ -1,20 +1,20 @@
 ---
 title: Что такое служба Power BI?
 description: Общие сведения о службе Power BI и ее взаимодействии с другими компонентами Power BI.
-author: maggiesMSFT
+author: mihart
+ms.author: mihart
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-fundamentals
 featuredvideoid: B2vd4MQrz4M
 ms.topic: overview
 ms.date: 09/05/2019
-ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 818c101ae62c9c9a0fbd755dfa996aec10f3e3e5
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 02c274ab3e07c37797e5433aeb01a787934800fd
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83361895"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416699"
 ---
 # <a name="what-is-the-power-bi-service"></a>Что такое служба Power BI?
 **Power BI** — это коллекция программных служб, приложений и соединителей, которые взаимодействуют друг с другом, чтобы помочь вам создавать и использовать бизнес-аналитику, а также обмениваться этими сведениями наиболее эффективно в контексте личных или служебных задач. *Служба* Microsoft Power BI (App.powerbi.com), которая иногда называется Power BI Online, является компонентом SaaS (*программное обеспечение как услуга*) Power BI. *Панели мониторинга* службы Power BI позволяют оставаться в курсе событий в вашей организации. На панелях мониторинга отображаются *плитки*, которые можно выбрать для дальнейшего изучения данных в *отчетах*. Панели мониторинга и отчеты подключаются к *наборам данных*, объединяющих все необходимые сведения в одном месте. 

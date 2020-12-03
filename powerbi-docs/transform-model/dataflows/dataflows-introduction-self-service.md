@@ -2,19 +2,19 @@
 title: Вводные сведения о потоках данных и самостоятельной подготовке данных
 description: Общие сведения о потоках данных Power BI и их использовании
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-dataflows
 ms.topic: how-to
 ms.date: 10/01/2020
-ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d8315652883f644d5440c25e3203fdf004bac51c
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: 5dde70b9834d990987e42c6aa945940a7f110949
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94669116"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416078"
 ---
 # <a name="introduction-to-dataflows-and-self-service-data-prep"></a>Вводные сведения о потоках данных и самостоятельной подготовке данных
 

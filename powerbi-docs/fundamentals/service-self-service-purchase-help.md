@@ -1,18 +1,19 @@
 ---
 title: Справка по самостоятельному приобретению Power BI Pro
 description: Что делать, если самостоятельное приобретение отключено. Не удается купить Power BI Pro для службы Power BI.
-services: powerbi
 author: mihart
 ms.author: mihart
+services: powerbi
 ms.topic: conceptual
 ms.service: powerbi
+ms.subservice: pbi-fundamentals
 ms.date: 07/09/2020
-ms.openlocfilehash: e0656dae18cc62322ebc54235e08133d4cc2cafb
-ms.sourcegitcommit: 01b5fb05f723eab2557e0e420bfde23197987a96
+ms.openlocfilehash: 0c53c452ac1798656641b4cb5686c7d85213dd99
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "86301389"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416607"
 ---
 # <a name="what-to-do-if-purchasing-power-bi-pro-is-disabled"></a>Что делать, если приобретение Power BI Pro отключено
 
