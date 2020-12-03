@@ -1,22 +1,22 @@
 ---
 title: Экспорт данных из визуализации Power BI
 description: Экспортируйте данные из визуализаций отчетов и панелей мониторинга и просматривайте их в Excel.
-author: msftrien
+author: mihart
+ms.author: mihart
 manager: kvivek
 ms.reviewer: tessa
 featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 09/09/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: bbeabcd3cbdc04378ea90908703744489371b11f
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: b7aae0e05c74209e66503612d3c89bb430cb5185
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412977"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414790"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>Экспорт данных, использованных для создания визуализации
 

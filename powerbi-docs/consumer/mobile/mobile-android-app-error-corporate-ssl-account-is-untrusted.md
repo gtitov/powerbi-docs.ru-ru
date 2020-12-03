@@ -1,20 +1,20 @@
 ---
 title: Исправление ошибки "Corporate SSL certificate is untrusted" (Корпоративный SSL-сертификат не является доверенным)
 description: При входе в приложение Power BI для Android может появиться сообщение "Не удалось выполнить проверку подлинности, так как SSL-сертификат вашей организации не является доверенным".
-.": ''
 author: paulinbar
+ms.author: painbar
+.": ''
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
-ms.author: painbar
-ms.openlocfilehash: 85e295b2320f8aecca2176149ce37c0a25ad2bd2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b435d3883207099287b6c0373f13063ebb23b694
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237476"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414675"
 ---
 # <a name="fixing-corporate-ssl-certificate-is-untrusted---power-bi"></a>Исправление ошибки "Corporate SSL certificate is untrusted" (Корпоративный SSL-сертификат не является доверенным) в Power BI
 При входе в мобильное приложение Microsoft Power BI для Android может появиться сообщение "Не удалось выполнить проверку подлинности, так как SSL-сертификат вашей организации не является доверенным для этого устройства. Обратитесь к ИТ-администратору организации". 

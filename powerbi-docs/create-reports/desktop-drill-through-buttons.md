@@ -2,19 +2,19 @@
 title: Создание кнопки детализации в Power BI
 description: В отчеты Power BI можно добавлять кнопки детализации, которые позволяют настроить отчеты подобно приложениям, чтобы повысить эффективность взаимодействия с пользователями.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/26/2020
-ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: a6de32e93b79b45d700ad5de1607f580dff836cf
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0ba9b6f86c2c66b01d5002df30bb23c0de1bc889
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239262"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414376"
 ---
 # <a name="create-a-drill-through-button-in-power-bi"></a>Создание кнопки детализации в Power BI
 
@@ -32,7 +32,7 @@ ms.locfileid: "85239262"
 
 ## <a name="set-up-a-drill-through-button"></a>Настройка кнопки детализации
 
-Чтобы настроить кнопку детализации, сначала необходимо [настроить соответствующую страницу детализации](desktop-drillthrough.md) в отчете. Затем необходимо создать кнопку с типом действия **Детализация** и выбрать страницу детализации в качестве**назначения**.
+Чтобы настроить кнопку детализации, сначала необходимо [настроить соответствующую страницу детализации](desktop-drillthrough.md) в отчете. Затем необходимо создать кнопку с типом действия **Детализация** и выбрать страницу детализации в качестве **назначения**.
 
 Так как кнопка детализации имеет два состояния (активна и неактивна), отображается два варианта подсказок.
 

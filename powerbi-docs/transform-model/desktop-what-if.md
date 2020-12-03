@@ -2,20 +2,20 @@
 title: Параметры What If для визуализации переменных
 description: Создайте собственную переменную what-if, чтобы понять и визуализировать переменные в отчетах Power BI
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: how-to
 ms.date: 01/21/2020
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 649e9198e5fe88d19f001a2e601e24535132d90e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 2286edc16995e8fecc3b6ff65a53e2c4007ac470
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239245"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415434"
 ---
 # <a name="create-and-use-what-if-parameters-to-visualize-variables-in-power-bi-desktop"></a>Создание и использование параметров What if для визуализации переменных в Power BI Desktop
 

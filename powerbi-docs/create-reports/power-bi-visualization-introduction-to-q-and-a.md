@@ -2,19 +2,19 @@
 title: Создание визуального элемента, используя функцию "Вопросы и ответы" Power BI
 description: Сведения о создании визуального элемента с функцией "Вопросы и ответы" Power BI, используя пример Анализа розничной торговли
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/13/2019
-ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 6bd68f5db12367e6c98b6fe61461b89047d8eb56
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 7eae93eb2b4594a180836f43a758c6bef7b3e90e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237241"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415043"
 ---
 # <a name="create-a-visual-with-power-bi-qa"></a>Создание визуального элемента, используя функцию "Вопросы и ответы" Power BI
 

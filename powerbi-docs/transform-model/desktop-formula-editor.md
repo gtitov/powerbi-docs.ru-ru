@@ -2,19 +2,19 @@
 title: Редактор формул в Power BI Desktop
 description: Создание и изменение формул DAX в Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: conceptual
 ms.date: 05/08/2019
-ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: b813b35daea8fae546780179c9a30998621a39b6
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 78132a180035971df8a0ffb18af9ef16d276bd4d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861689"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415733"
 ---
 # <a name="formula-editor-in-power-bi-desktop"></a>Редактор формул в Power BI Desktop
 

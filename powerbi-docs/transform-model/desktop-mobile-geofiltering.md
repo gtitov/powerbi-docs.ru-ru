@@ -1,19 +1,19 @@
 ---
 title: Настройка географической фильтрации в Power BI Desktop для мобильных приложений
 description: Если в модели в Power BI Desktop настроена географическая фильтрация, вы можете автоматически фильтровать данные с учетом своего местоположения в мобильных приложениях Power BI.
-author: maggiesMSFT
+author: paulinbar
+ms.author: painbar
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: how-to
 ms.date: 01/16/2018
-ms.author: maggies
 LocalizationGroup: Model your data
-ms.openlocfilehash: 361a5c6537c3ae1a149b67851b01776c880bf257
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 2368732d5f0f5fe6b0c32ac535068725e8620215
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237114"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413991"
 ---
 # <a name="set-geographic-filters-in-power-bi-desktop-for-use-in-the-mobile-app"></a>Настройка географической фильтрации в Power BI Desktop для использования в мобильных приложениях
 В Power BI Desktop можно [задать для столбца географическую категорию данных](desktop-data-categorization.md), чтобы приложение Power BI Desktop понимало, как интерпретировать соответствующие значения в визуальных элементах отчета. Кроме того, при просмотре соответствующего отчета мобильное приложение Power BI автоматически предлагает фильтры с учетом местоположения пользователя. 

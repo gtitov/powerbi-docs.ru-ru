@@ -2,18 +2,18 @@
 title: Источники данных для отчетов с разбивкой на страницы в решении "Сервер отчетов Power BI"
 description: Сведения о том, к каким источникам данных могут подключаться отчеты с разбивкой на страницы (RDL) в решении "Сервер отчетов Power BI".
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 06/26/2020
-ms.author: maggies
-ms.openlocfilehash: fcf0a286487922fcfc217b4d293aa731ad1564a6
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 4559995baa7d3e0b5796ca6076687c26c4a0854d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861229"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415388"
 ---
 # <a name="paginated-report-data-sources--in-power-bi-report-server"></a>Источники данных для отчетов с разбивкой на страницы в решении "Сервер отчетов Power BI"
 Отчеты Reporting Services с разбивкой на страницы в решении "Сервер отчетов Power BI" поддерживают те же источники данных, которые используются в SQL Server Reporting Services. См. дополнительные сведения об [источниках данных, поддерживаемых службами Reporting Services](/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs).

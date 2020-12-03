@@ -2,16 +2,16 @@
 title: Каталог обучения для разработчиков рабочих и технических решений
 description: Найдите все варианты обучения работе с Power BI для руководителей, принимающих коммерческие и технические решения, — от самых простых до самых сложных.
 author: margoc
+ms.author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
-ms.author: margoc
-ms.openlocfilehash: d64b83c08f4b7a332d0b4b894ea136921bc57ae6
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: b5d46a7960f5164a5b351673d677e532ecff2626
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749260"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414859"
 ---
 # <a name="business-and-technical-decision-makers-learning-catalog"></a>Каталог обучения для разработчиков рабочих и технических решений
 

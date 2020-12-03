@@ -1,26 +1,26 @@
 ---
 title: "\"Новый внешний вид\" службы Power BI"
 description: Служба Power BI (app.powerbi.com) получила новый внешний вид. Эта статья описывает, как перемещаться по отчетам с использованием нового внешнего вида.
-author: maggiesMSFT
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: conceptual
 ms.date: 10/22/2020
-ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: f398b0b3331d5677419c824646108f8d04815338
-ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
+ms.openlocfilehash: ec7b24a4d8f2a94680444b4b9adf4612f1f1f474
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "92462362"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415158"
 ---
 # <a name="the-new-look-of-the-power-bi-service"></a>"Новый внешний вид" службы Power BI
 
 Служба Power BI (app.powerbi.com) имеет новый вид, который упрощает просмотр отчетов и взаимодействие с ними. Новый внешний вид стал проще и базируется на вашем знакомстве с другими продуктами Майкрософт. В рамках всей службы Power BI мы поместили содержимое отчета в центр внимания, переключившись на более светлую тему и обновив значки. 
 
-Ищете сведения о новом интерфейсе в **Power BI Desktop** ? См. статью [Использование обновленной ленты в Power BI Desktop](../create-reports/desktop-ribbon.md).
+Ищете сведения о новом интерфейсе в **Power BI Desktop**? См. статью [Использование обновленной ленты в Power BI Desktop](../create-reports/desktop-ribbon.md).
 
 Ниже приведен обзор изменений в новом внешнем виде. Дополнительные сведения см. в нумерованных разделах:
 

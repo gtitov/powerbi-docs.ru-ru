@@ -2,19 +2,19 @@
 title: Заголовки на основе выражений в Power BI Desktop
 description: Вы можете создавать динамические заголовки в Power BI Desktop, которые изменяются в зависимости от программных выражений, с использованием условного программного форматирования
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 04/10/2019
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e3b9e4fd1fea6c1fa76077b95ba6a93225753593
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b7bcf06e075fc123a05cd7c184fbd9f12e006d24
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222033"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414353"
 ---
 # <a name="expression-based-titles-in-power-bi-desktop"></a>Заголовки на основе выражений в Power BI Desktop
 

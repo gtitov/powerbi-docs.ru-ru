@@ -2,19 +2,19 @@
 title: Использование составных моделей в Power BI Desktop
 description: Создание моделей данных с несколькими подключениями к данным и связей "многие ко многим" в Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: conceptual
 ms.date: 01/15/2020
-ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 5d7e4be9e3b864e2ccfccf64ac0d4460d0821e0a
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 078596c91f86f635cb69f543ee0ea828e5cef62d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83326594"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415871"
 ---
 # <a name="use-composite-models-in-power-bi-desktop"></a>Использование составных моделей в Power BI Desktop
 
@@ -109,7 +109,7 @@ ms.locfileid: "83326594"
 
 ## <a name="set-the-storage-mode"></a>Установка режима хранения
 
-У каждой таблицы в составной модели есть режим хранения, указывающий, на чем основана таблица (на DirectQuery или импорте). Режим хранения можно просмотреть и изменить в области**Свойства**. Чтобы увидеть режим хранения, в списке **Поля** щелкните таблицу правой кнопкой мыши, а затем выберите пункт **Свойства**. На следующем рисунке показан режим хранения для таблицы **SalesTargets**.
+У каждой таблицы в составной модели есть режим хранения, указывающий, на чем основана таблица (на DirectQuery или импорте). Режим хранения можно просмотреть и изменить в области **Свойства**. Чтобы увидеть режим хранения, в списке **Поля** щелкните таблицу правой кнопкой мыши, а затем выберите пункт **Свойства**. На следующем рисунке показан режим хранения для таблицы **SalesTargets**.
 
 Режим хранения также можно увидеть в подсказке для каждой таблицы.
 

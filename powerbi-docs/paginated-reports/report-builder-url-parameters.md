@@ -1,20 +1,20 @@
 ---
 title: Параметры URL-адресов в отчетах с разбивкой на страницы (построитель отчетов Power BI)
 description: Узнайте, как отправлять команды в отчеты с разбивкой на страницы в Power BI, добавив параметр к URL-адресу, который можно включить в электронную почту или на веб-страницу.
+author: maggiesMSFT
+ms.author: maggies
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-author: maggiesMSFT
-ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
 ms.date: 09/09/2020
-ms.openlocfilehash: 0816ba6f3ff606a73c835ac71af66655fd49acfd
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.openlocfilehash: 4284ba559bff0ba0a3bde7dd34c6f26034ecf12e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93298063"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415572"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>Параметры URL-адреса в отчетах с разбивкой на страницы в Power BI
 
@@ -51,12 +51,12 @@ URL-адрес веб-службы клиента Power BI. Например:
 
 **&** Используется для разделения пар "имя-значение" в параметрах доступа к URL-адресу.
 
-**префикс**  — префикс для параметра URL-адреса (например, rp: или rdl:), указывающий действие в службе Power BI. 
+**префикс** — префикс для параметра URL-адреса (например, rp: или rdl:), указывающий действие в службе Power BI. 
 
 > [!NOTE]
 > Параметры отчета должны иметь префикс параметра и указываются с учетом регистра. 
 
-**параметр**  — имя параметра. 
+**параметр** — имя параметра. 
 
 ### <a name="value"></a>Значение 
 
@@ -70,7 +70,7 @@ URL-адрес веб-службы клиента Power BI. Например:
 
 ### <a name="report-commands-rdl"></a>Команды отчета (`rdl:`) 
 
-**Формат экспорта**  — задает формат отображения и экспорта отчета.
+**Формат экспорта** — задает формат отображения и экспорта отчета.
 
 Пример: rdl:format=PDF
 

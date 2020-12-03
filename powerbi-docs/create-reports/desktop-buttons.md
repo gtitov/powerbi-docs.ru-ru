@@ -2,19 +2,19 @@
 title: Использование кнопок в Power BI
 description: В отчеты Power BI можно добавлять кнопки, которые позволяют настроить отчеты подобно приложениям, чтобы повысить эффективность взаимодействия с пользователями.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/21/2020
-ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 7597d135bc05783d0d43bb481e24fc197abd9d4b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 77f16bedb45b0730a7007da19a427b1832bc9969
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222401"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414468"
 ---
 # <a name="use-buttons-in-power-bi"></a>Использование кнопок в Power BI
 С помощью **кнопок** в Power BI можно создавать отчеты, которые работают как приложения. С их помощью вы можете создать удобную среду, где пользователи могут эффективно взаимодействовать мышью с элементами Power BI. В **Power BI Desktop** и в **службе Power BI** можно добавлять кнопки в отчеты. При совместном использовании отчетов в службе Power BI они позволяют работать с отчетами, как с приложениями.
@@ -92,7 +92,7 @@ ms.locfileid: "85222401"
 
 Целевую страницу навигации можно задать с помощью условного форматирования на основе выведенной меры. Например, чтобы сэкономить место на холсте отчета, можно добавить одну кнопку для перехода на различные страницы в зависимости от выбора пользователя.
 
-:::image type="content" source="media/desktop-buttons/button-navigate-go.png" alt-text="Навигация с помощью кнопки "Перейти"":::
+:::image type="content" source="media/desktop-buttons/button-navigate-go.png" alt-text="Навигация с помощью кнопки &quot;Перейти&quot;":::
  
 Чтобы создать показанный выше пример, для начала создайте таблицу с одним столбцом, содержащим имена целевых страниц навигации:
 
@@ -114,7 +114,7 @@ Power BI использует точное совпадение строк дл
 
 Теперь кнопка позволяет переходить на разные страницы в зависимости от выбора пользователя.
 
-:::image type="content" source="media/desktop-buttons/button-navigate-go.png" alt-text="Навигация с помощью кнопки "Перейти"":::
+:::image type="content" source="media/desktop-buttons/button-navigate-go.png" alt-text="Навигация с помощью кнопки &quot;Перейти&quot;":::
  
 ### <a name="shapes-and-images-for-navigation"></a>Фигуры и изображения для навигации
 

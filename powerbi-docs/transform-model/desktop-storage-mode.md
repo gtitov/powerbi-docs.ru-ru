@@ -2,19 +2,19 @@
 title: Использование режима хранения в Power BI Desktop
 description: Использование режима хранения для контроля кэширования данных в памяти в отчетах Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: conceptual
 ms.date: 01/29/2020
-ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: e1b93b244a040fba1213fbb3b15bca3114e7075a
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 0a3121e31aa816139c338746635b102be2d8fd88
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91528167"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413824"
 ---
 # <a name="manage-storage-mode-in-power-bi-desktop"></a>Управление режимом хранения в Power BI Desktop
 

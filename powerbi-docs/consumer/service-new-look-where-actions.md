@@ -1,26 +1,26 @@
 ---
 title: 'Новый вид: куда переместились действия?'
 description: Служба Power BI (app.powerbi.com) получила новый внешний вид; многие действия перемещены. В этой статье приведены таблицы, которые сопоставляют старые расположения с новыми.
-author: maggiesMSFT
+author: mihart
+ms.author: mihart
 ms.reviewer: maggies
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: conceptual
 ms.date: 10/22/2020
-ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 572943a437ebf0380b254e8b659699d676e9001f
-ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
+ms.openlocfilehash: 1c16405ff211620580f739facda8556e81774935
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "92462172"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415135"
 ---
 # <a name="the-new-look-where-did-the-actions-go"></a>Новый вид: куда переместились действия?
 
 Служба Power BI (app.powerbi.com) имеет новый вид, который упрощает просмотр отчетов и взаимодействие с ними. В результате многие действия в меню были перемещены. Таблицы в этой статье сопоставляют старое расположение с новым. Общие сведения см. в разделе ["Новый внешний вид" службы Power BI](service-new-look.md).
 
-Ищете сведения о новом интерфейсе в **Power BI Desktop** ? См. статью [Использование обновленной ленты в Power BI Desktop](../create-reports/desktop-ribbon.md).
+Ищете сведения о новом интерфейсе в **Power BI Desktop**? См. статью [Использование обновленной ленты в Power BI Desktop](../create-reports/desktop-ribbon.md).
 
 ## <a name="report-actions-in-the-new-look"></a>Действия с отчетами в новом интерфейсе
 

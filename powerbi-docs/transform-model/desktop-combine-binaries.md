@@ -2,19 +2,19 @@
 title: Объединение файлов (двоичных) в Power BI Desktop
 description: В Power BI Desktop можно легко объединять файловые источники (двоичных) данных.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: how-to
 ms.date: 01/13/2020
-ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: cb287d63444b60318a717a1a1587f7755cd7f666
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: bf75a5656de956be5ddd38330d659cba06e30455
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237873"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415848"
 ---
 # <a name="combine-files-binaries-in-power-bi-desktop"></a>Объединение файлов (двоичных) в Power BI Desktop
 

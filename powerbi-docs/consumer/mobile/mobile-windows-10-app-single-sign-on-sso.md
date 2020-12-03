@@ -2,18 +2,18 @@
 title: Единый вход в Power BI для мобильных приложений, поддерживающих Windows
 description: Узнайте о едином входе (SSO) в Power BI для мобильных приложений, поддерживающих Windows. SSO — это доступ ко всем приложениям и ресурсам, которые вам нужны для ведения бизнеса при входе в систему только один раз с одной учетной записью пользователя.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
-ms.author: painbar
-ms.openlocfilehash: 41ddc6e0c9a4f4f2c9b5687194e043bb1ef80bec
-ms.sourcegitcommit: 6b436f6ed872cbc040ed6e2d3ac089c08fc78daf
+ms.openlocfilehash: b316c7b95b28ecb31561b3fbb99eeafa6ffabdb5
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "91928270"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415273"
 ---
 # <a name="single-sign-on-in-the-power-bi-mobile-windows-app"></a>Единый вход в Power BI для мобильных приложений, поддерживающих Windows
 
@@ -32,7 +32,7 @@ ms.locfileid: "91928270"
 
 При использовании Power BI для мобильных приложений с Windows обновления новой версии приложения также могут использовать SSO. Выйдите из приложения, закройте и снова откройте его. Когда приложение открывается повторно, оно автоматически использует текущие учетные данные Windows для проверки подлинности в службе Power BI. 
 
-Если для входа в Power BI вы не хотите использовать свои учетные данные текущего активного сеанса Windows, просто перейдите в **Параметры** , выйдите из системы и войдите, используя другие учетные данные. 
+Если для входа в Power BI вы не хотите использовать свои учетные данные текущего активного сеанса Windows, просто перейдите в **Параметры**, выйдите из системы и войдите, используя другие учетные данные. 
  
 ## <a name="next-steps"></a>Дальнейшие действия
 

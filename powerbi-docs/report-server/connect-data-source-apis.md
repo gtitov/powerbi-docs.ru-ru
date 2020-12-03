@@ -2,18 +2,18 @@
 title: Изменение строк подключения к источникам данных с помощью PowerShell
 description: Изменение строк подключения к источникам данных с помощью API в PowerShell — сервер отчетов Microsoft Power BI
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 10/26/2020
-ms.author: maggies
-ms.openlocfilehash: 165d38c718377ff7e47442cdf0fe67173b610bd8
-ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
+ms.openlocfilehash: 4e1947abe0fa0f17e1db92619f0aa7fba5df5575
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93044956"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415480"
 ---
 # <a name="change-data-source-connection-strings-in-power-bi-reports-with-powershell---power-bi-report-server"></a>Изменение строк подключения к источникам данных в отчетах Power BI с помощью PowerShell — сервер отчетов Microsoft Power BI
 
@@ -107,7 +107,7 @@ ms.locfileid: "93044956"
     Set-RsRestItemDataModelParameters -RsItem '/executionlogparameter' -DataModelParameters $parameters
     ```
 
-7. После обновления параметров сервер обновляет все источники данных, привязанные к этим параметрам. Вернувшись к диалоговому окну **Изменение источника данных** , вы сможете задать учетные данные для обновленного сервера и базы данных.
+7. После обновления параметров сервер обновляет все источники данных, привязанные к этим параметрам. Вернувшись к диалоговому окну **Изменение источника данных**, вы сможете задать учетные данные для обновленного сервера и базы данных.
 
     :::image type="content" source="media/connect-data-source-apis/report-server-manage-executionlogparameter-dialog.png" alt-text="Задание учетных данных для обновленного сервера и базы данных":::
 

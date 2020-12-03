@@ -2,18 +2,18 @@
 title: Начало работы с мобильным приложением Power BI для Windows 10
 description: Мобильное приложение Power BI для Windows 10 предоставляет вам доступ к самой актуальной бизнес-информации на планшете или телефоне.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
-ms.author: painbar
-ms.openlocfilehash: 5ef68bac75daf25e48cbd4d24279627d4b494764
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 7c03ea1a8b05f4f9d07cf32cc5bb1d40bf7c0e40
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91634373"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415319"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Начало работы с мобильным приложением Power BI для Windows 10
 Мобильное приложение Power BI для Windows 10 позволяет использовать Power BI на планшете или телефоне. Вы получаете доступ к самой актуальной бизнес-информации с сенсорного экрана. Просматривайте информационные панели компании и взаимодействуйте с ними откуда угодно прямо на [начальном экране Windows](mobile-pin-dashboard-start-screen-windows-10-phone-app.md).
