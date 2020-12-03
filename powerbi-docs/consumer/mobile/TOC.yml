@@ -74,6 +74,8 @@
               href: mobile-apps-scan-barcode-iphone.md
             - name: Настройка параметров взаимодействия
               href: mobile-app-interaction-settings.md
+            - name: Темный режим
+              href: mobile-apps-dark-mode.md
             - name: Настройка с помощью управления мобильными устройствами
               href: mobile-app-configuration.md
         - name: iOS
@@ -86,8 +88,6 @@
               href: mobile-apps-iOS-siri-Shortcuts.md
             - name: Интеграция со службой поиска устройств iOS
               href: mobile-apps-iOS-search-integration.md
-            - name: Темный режим
-              href: mobile-apps-dark-mode.md
             - name: Приложение Power BI для Apple Watch
               href: mobile-apple-watch.md
         - name: Устройства Android

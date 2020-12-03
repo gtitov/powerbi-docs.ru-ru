@@ -2,18 +2,18 @@
 title: Размеры для локальных шлюзов данных
 description: Руководство по работе с размерами локального шлюза данных.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 12/30/2019
-ms.author: v-pemyer
-ms.openlocfilehash: e1a24d8d15881bf8a1948d91758c7592f75ea7ac
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: c0506b492a0c28140256dc0be850358836b284b0
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214208"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96419424"
 ---
 # <a name="on-premises-data-gateway-sizing"></a>Размеры для локальных шлюзов данных
 
