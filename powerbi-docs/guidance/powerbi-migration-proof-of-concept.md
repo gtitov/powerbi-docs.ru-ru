@@ -2,20 +2,20 @@
 title: Проведение подтверждения концепции для миграции в Power BI
 description: Рекомендации по проведению подтверждения концепции при миграции в Power BI.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/20/2020
-ms.author: v-pemyer
-ms.openlocfilehash: a7b7a848aafc3a581c1a19cf34366d61ba891f86
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: 77174da7fd47470974a292ba98f6b50c268b04fd
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803362"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96419137"
 ---
-# <a name="conductproofofconcepttomigratetopowerbi"></a>Проведение подтверждения концепции для миграции в Power BI
+# <a name="conduct-proof-of-concept-to-migrate-to-power-bi"></a>Проведение подтверждения концепции для миграции в Power BI
 
 В этой статье описывается **стадия 3**, которая связана с проведением подтверждения концепции для снижения риска и устранения неизвестных как можно раньше при миграции в Power BI.
 
