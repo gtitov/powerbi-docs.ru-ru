@@ -2,18 +2,18 @@
 title: Вебинары о Power BI
 description: Вебинары о Power BI
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-fundamentals
 ms.topic: conceptual
-ms.date: 09/22/2020
-ms.author: kfollis
-ms.openlocfilehash: 76f0963da1a7cecec6f97fc7e0ab534f7d4bcb8a
-ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
+ms.date: 12/01/2020
+ms.openlocfilehash: 1c0c572072fd085feab1533eb346d745b56f66b0
+ms.sourcegitcommit: 2fd64f96b5bfbc14ff47e5c892171e5c921fb525
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "91020028"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96502025"
 ---
 # <a name="power-bi-webinars"></a>Вебинары о Power BI
 [//]: # "Татевик Татеро (Tatevik Tatero) (tatevik.teroyan@simple-concepts.com) — это поставщик, работающий с Чонси Фрилс (Chauncy Freels) и помогающий вести этот список вебинаров"
@@ -22,19 +22,30 @@ ms.locfileid: "91020028"
 
 ## <a name="upcoming-webinars"></a>Предстоящие вебинары
 
-**Быстрое начало работы с Power BI**  
-Автор: Мигель Мартинес (Miguel Martinez), Майкрософт  
-[Зарегистрироваться для просмотра 5 ноября 2020 г. с 10:00 до 11:00 (по Тихоокеанскому времени)](https://info.microsoft.com/ww-landing-get-up-and-running-quickly-with-power-bi.html?lcid=en-us)
-
 [Предстоящие вебинары сообщества Power BI](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>Популярные вебинары
 
-Начало работы с популярными вебинарами по запросу
+Начало работы с популярными вебинарами по запросу:
+
+**Быстрое начало работы с Power BI**  
+Автор: Мигель Мартинес (Miguel Martinez), Майкрософт  
+[Зарегистрироваться для просмотра 5 ноября 2020 г. с 10:00 до 11:00 (по Тихоокеанскому времени)](https://info.microsoft.com/ww-landing-get-up-and-running-quickly-with-power-bi.html?lcid=en-us)
+
+**Настройка удаленного языка и региональных параметров с помощью Power BI и Microsoft Teams**  
+Автор: Лукаш Павловски (Lukasz Pawlowski)  
+[Смотреть сейчас](https://info.microsoft.com/ww-Landing-RemoteDataCulturePowerBIandMicrosoftTeams.html?LCID=EN-US)
+
+**Лучше вместе: 5 преимуществ, которые пользователи Excel получат от использования Power BI**  
+Авторы: Мигель Мартинес (Miguel Martinez) и Карлос Отеро (Carlos Otero)  
+[Смотреть сейчас](https://info.microsoft.com/ww-Landing-FiveBenefitsExcelUsersWillGetFromUsingPowerBI-Webinar.html?LCID=EN-US)
 
 **Отслеживание данных в реальном времени с помощью Microsoft Power BI**  
 Авторы: Мигель Мартинес (Miguel Martinez) и Питер Майерс (Peter Myers)  
 [Смотреть сейчас](https://info.microsoft.com/ww-landing-Monitor-Your-Data-in-Real-time-with-Microsoft-Power-BI.html?lcid=en-us)
+
+**Ускорение Power BI в Azure Data Lake Storage с помощью Dremio**  
+Автор: Крис Вебб (Chris Webb) и Томер Ширан (Tomer Shiran) [Смотреть сейчас]( https://info.microsoft.com/ww-landing-Accelerate-Power-BI-on-Azure-Data-Lake-Storage-with-Dremio.html?lcid=en-us)
 
 **Создание масштабируемых решений бизнес-аналитики с помощью Power BI и Snowflake**  
 Авторы: Крис Уэбб (Chris Webb), Крейг Колье (Craig Collier) и Крис Холлидей (Chris Holliday)  
@@ -245,7 +256,7 @@ Scott Ball (Скотт Болл) и Enrique Plaza (Энрике Плаза), к�
 Автор: Тед Паттисон (Ted Pattison)  
 [Смотреть сейчас](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Ask-a-Partner-Developing-Custom-Visuals-for-Power-BI/m-p/150368?Is=Website)
 
-### <a name="advanced-topics"></a>Дополнительные статьи
+### <a name="advanced-topics"></a>Дополнительные разделы
 
 **Advanced Analytics with Excel and Power BI** (Углубленная аналитика с Excel и Power BI)  
 Авторы: Нагасаикиран Камбхампати (Nagasaikiran Kambhampati) и Мигель Мартинес (Miguel Martinez)  
@@ -274,4 +285,4 @@ Scott Ball (Скотт Болл) и Enrique Plaza (Энрике Плаза), к�
 
 - Подпишитесь на [наш канал в YouTube](https://www.youtube.com/mspowerbi).
 
-Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
+Остались вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

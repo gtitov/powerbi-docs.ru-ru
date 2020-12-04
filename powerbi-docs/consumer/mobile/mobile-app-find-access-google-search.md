@@ -2,17 +2,17 @@
 title: Поиск содержимого и доступ к нему с помощью Google Поиска
 description: Узнайте, как искать содержимое и получать к нему доступ с помощью Google Поиска.
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 04/06/2020
-ms.author: painbar
-ms.openlocfilehash: cb6d2d1474ffaeddc98b5019830920f3064e3df2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 2bd49b9578c8c0ba2d24bd74d77251bc663cf7fa
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235153"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414629"
 ---
 # <a name="find-and-access-your-content-with-google-search"></a>Поиск содержимого и доступ к нему с помощью Google Поиска
 
@@ -28,7 +28,7 @@ ms.locfileid: "85235153"
 
 ## <a name="search-using-google-search"></a>Поиск с помощью Google Поиска
 
-В поле поиска Google введите запрос в следующем формате: ***найти &lt;искомый элемент&gt; в power bi***. Например, введите **найти продажи в power bi**.
+В поле поиска Google введите запрос в следующем формате: ***найти &lt;искомый элемент&gt; в power bi** _. Например, введите _*найти продажи в power bi**.
 
 * Если будет найден только один результат, соответствующий элемент сразу откроется в мобильном приложении Power BI.
 * Если будет найдено несколько результатов, в Power BI откроется экран поиска, отфильтрованный в соответствии с вашим запросом.

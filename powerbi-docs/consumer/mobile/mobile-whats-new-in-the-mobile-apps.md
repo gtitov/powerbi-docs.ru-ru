@@ -2,18 +2,18 @@
 title: Новые возможности мобильных приложений для Power BI
 description: Новые возможности мобильных приложений для Power BI
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 11/01/2020
-ms.author: painbar
-ms.openlocfilehash: 83a280b94a6db937133e0d7ab1e6d7ad64af06f4
-ms.sourcegitcommit: 29cafa1602efb56cfa8dbd0010dd04ad3fcdd02c
+ms.date: 12/01/2020
+ms.openlocfilehash: 81a387d2f87e857cb56dcbc1fb22c8da72bbd27e
+ms.sourcegitcommit: 2fd64f96b5bfbc14ff47e5c892171e5c921fb525
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "93355941"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96502094"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Новые возможности мобильных приложений для Power BI
 Соответствующие сведения о новых функциях и возможностях см. в следующей статье:
@@ -25,9 +25,19 @@ ms.locfileid: "93355941"
 >[!NOTE]
 >Поддержка мобильного приложения Power BI для **телефонов под управлением Windows 10 Mobile** будет прекращена 16 марта 2021 г. [Дополнительные сведения](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
+## <a name="december-2020"></a>Декабрь 2020 г.
+### <a name="weve-added-dark-mode-to-power-bi-mobile-android"></a>Добавлен темный режим Power BI для мобильных устройств (Android)
+
+Попробуйте темный режим в мобильном приложении Power BI для Android. В темном режиме светлый текст отображается на темном фоне, что снижает яркость экрана и упрощает чтение содержимого. Режимы можно переключить в параметрах внешнего вида приложения. [Дополнительные сведения](mobile-apps-dark-mode.md)
+
+![Снимок экрана: темный режим в мобильном приложении Power BI для Android.](media/mobile-whats-new-in-the-mobile-apps/mobile-apps-dark-mode-android.png)
+
+### <a name="maximize-the-view-with-full-screen-mode-ipads"></a>Развертывание представления в полноэкранном режиме (для iPad)
+В мобильное приложение для iPad добавлена новая кнопка, позволяющая удалять верхние и нижние колонтитулы приложения и использовать максимальное пространство для просмотра содержимого. Просто коснитесь выключателя полноэкранного режима ![Снимок экрана: значок полноэкранного режима.](media/mobile-whats-new-in-the-mobile-apps/power-bi-full-screen-icon.png) в верхнем правом углу экрана, чтобы изменить режим.
+
 ## <a name="november-2020"></a>Ноябрь 2020 г.
 ### <a name="maximize-the-view-with-full-screen-mode-android-tablets"></a>Развертывание представления в полноэкранном режиме (для планшетов Android)
-В мобильное приложение для планшетов Android добавлена новая кнопка, позволяющая удалять верхние и нижние колонтитулы приложения и использовать максимальное пространство для просмотра содержимого. Просто коснитесь переключателя полноэкранного режима в правом верхнем углу экрана, чтобы переключиться между режимами.
+В мобильное приложение для планшетов Android добавлена новая кнопка, позволяющая удалять верхние и нижние колонтитулы приложения и использовать максимальное пространство для просмотра содержимого. Просто коснитесь выключателя полноэкранного режима ![Снимок экрана: значок полноэкранного режима.](media/mobile-whats-new-in-the-mobile-apps/power-bi-full-screen-icon.png) в верхнем правом углу экрана, чтобы изменить режим.
 
 ## <a name="october-2020"></a>Октябрь 2020 г.
 ### <a name="automatic-page-refresh-is-now-supported-windows"></a>Теперь поддерживается автоматическое обновление страниц (Windows)

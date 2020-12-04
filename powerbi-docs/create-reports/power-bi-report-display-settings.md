@@ -2,25 +2,25 @@
 title: Параметры отображения страницы в отчете Power BI
 description: Параметры отображения и просмотра страницы для отчета
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/29/2019
-ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: c08d4959b8e3958651282ac0fd52e6ed80a6b345
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9452a4a6340480bcb6c8b646c16125fe73f68235
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237273"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96393492"
 ---
 # <a name="apply-page-display-settings-in-a-power-bi-report"></a>Применение параметров отображения страницы в отчете Power BI
 Очень важно обеспечить точное и качественное отображение макета отчета. В некоторых случаях это может оказаться сложной задачей, так вы и ваши коллеги просматриваете эти отчеты на экранах разных размеров и с различным соотношением сторон. 
 
-По умолчанию используется представление **Вписать в страницу** , размер экрана по умолчанию — **16:9**. Если требуется заблокировать другие пропорции или по-другому расположить отчет, можно воспользоваться двумя средствами: параметрами ***Просмотр страницы*** и ***Размер страницы***.
+По умолчанию используется представление **Вписать в страницу** , размер экрана по умолчанию — **16:9**. Если требуется заблокировать другие пропорции или по-другому расположить отчет, можно воспользоваться двумя средствами: параметрами **_режима страницы_* _ и параметрами _*_размера страницы_*_.
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5tg-OXzxe2g" frameborder="0" allowfullscreen></iframe>
@@ -30,7 +30,7 @@ ms.locfileid: "85237273"
 Параметры просмотра страницы доступны как в службе Power BI, так и в Power BI Desktop. Но интерфейс немного отличается. В следующих разделах объясняется, где найти параметры просмотра в каждом средстве Power BI.
 
 ### <a name="in-power-bi-desktop"></a>Power BI Desktop
-В представлении отчетов выберите вкладку **Просмотр**, чтобы открыть параметры просмотра страницы и параметры макета для телефона.
+В представлении отчетов выберите вкладку _ *Вид**, чтобы открыть параметры просмотра страницы и параметры макета для телефона.
 
   ![Параметры просмотра страницы Power BI Desktop](media/power-bi-report-display-settings/power-bi-desktop-view-settings.png)
 

@@ -2,25 +2,28 @@
 title: Интеграция мобильного приложения Power BI с командами Siri
 description: Сведения об использовании ярлыков Siri для прямого доступа к нужному содержимому Power BI.
 author: paulinbar
+ms.author: painbar
 manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
-ms.date: 01/15/2020
-ms.author: painbar
-ms.openlocfilehash: 8a0bafb505412db8d2126ba86df3c256d1b7d1c7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.date: 12/01/2020
+ms.openlocfilehash: 0bf1fb3f921b195be430e21f6f0b0bf2b0eeb473
+ms.sourcegitcommit: 2fd64f96b5bfbc14ff47e5c892171e5c921fb525
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220248"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96501979"
 ---
 # <a name="using-siri-shortcuts-in-power-bi-mobile-ios-app"></a>Использование ярлыков Siri в приложении Power BI Mobile для iOS
 
 Использование ярлыков Siri для прямого доступа к нужному содержимому Power BI
 
-Чтобы получить простой и быстрый доступ к часто используемым отчетам или панелям мониторинга, используйте интеграцию ярлыков Siri. Вы можете создать ярлык для вашего элемента, а затем попросить Siri запускать его каждый раз, когда вам нужно просмотреть эти данные.
+Чтобы получить простой и быстрый доступ к часто используемым отчетам или панелям мониторинга, можно создать ярлык Siri для прямого доступа к нужному вам содержимому Power BI. С помощью ярлыка Siri вы можете просить Siri открывать его каждый раз, когда нужно просмотреть данные.
+
+> [!NOTE]
+> Интеграция ярлыков Siri с мобильным приложением Power BI доступна для iPhone и iPad под управлением iOS12 и более поздних версий.
 
 ## <a name="create-siri-shortcut-for-a-report-or-dashboard"></a>Создание ярлыка Siri для отчета или панели мониторинга
 
@@ -55,13 +58,11 @@ ms.locfileid: "85220248"
 ## <a name="edit-siri-shortcut-phrase"></a>Изменение фразы для ярлыка Siri 
 Чтобы изменить фразу ярлыка, нажмите кнопку **Siri shortcut** (Ярлык Siri) в меню действий **Отчет** или **Панель мониторинга** (...). Открывается страница ярлыка Siri с параметром **Re-Record phrase** (Перезаписать фразу). 
 
+## <a name="create-a-home-screen-shortcut-from-your-siri-shortcut"></a>Создание ярлыка на начальном экране из ярлыка Siri 
+Создав ярлык Siri для содержимого Power BI, вы можете добавить его на начальный экран устройства, чтобы можно было открыть это содержимое непосредственно с начального экрана одним касанием. Следуйте инструкциям на экране https://support.apple.com/guide/shortcuts/apd735880972/ios.
+
 ## <a name="delete-siri-shortcut"></a>Удаление ярлыка Siri 
 Чтобы удалить ярлык, перейдите к элементу и выберите действие **Siri shortcut** (Ярлык Siri) в меню действий (...). Открывается страница **Siri shortcut** (Ярлык Siri). Выберите **Удалить ярлык**.
-
-
-> [!NOTE]
-> Интеграция ярлыков Siri с приложением Power BI доступна для iPhone и iPad под управлением iOS12 и более поздних версий.
-> 
 
 ## <a name="next-steps"></a>Дальнейшие действия
 Дополнительные сведения о мобильном приложении Power BI можно получить, сделав следующее: 
@@ -69,4 +70,3 @@ ms.locfileid: "85220248"
 * Скачайте [мобильное приложение Power BI для iPhone](https://go.microsoft.com/fwlink/?LinkId=522062).
 * Подпишитесь на страницу [@MSPowerBI в Twitter](https://twitter.com/MSPowerBI).
 * Присоединяйтесь к обсуждению в [Сообществе Power BI](https://community.powerbi.com/).
-

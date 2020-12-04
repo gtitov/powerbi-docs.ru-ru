@@ -96,8 +96,6 @@
               href: /rest/api/power-bi/
         - name: Библиотеки Power BI
           href: 'https://go.microsoft.com/fwlink/?linkid=848274'
-        - name: Внедрение пользовательских макетов в приложение
-          href: embedded-custom-layout.md
         - name: Azure CLI
           href: /cli/azure/ext/powerbidedicated/powerbi
     - name: Ресурсы

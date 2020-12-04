@@ -2,20 +2,20 @@
 title: Работа со статистическими выражениями (сумма, среднее и т. д.) в службе Power BI
 description: Узнайте, как изменить статистическое выражение в диаграмме (сумма, среднее, максимум и т. д.) в службе Power BI.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 06/16/2020
-ms.author: maggies
 ms.custom: seodec18
 LocalizationGroup: Reports
-ms.openlocfilehash: 4addd87085eb4321253bcf34842ca135f536f981
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4ed1d6c68549e621f42b23d05a061e7fe1c9e230
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238121"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96395424"
 ---
 # <a name="work-with-aggregates-sum-average-and-so-on-in-the-power-bi-service"></a>Работа со статистическими выражениями (сумма, среднее и т. д.) в службе Power BI
 
@@ -39,7 +39,7 @@ ms.locfileid: "85238121"
 
    ![Снимок экрана: пример набора данных.](media/service-aggregates/power-bi-aggregate-chart.png)
 
-При создании визуализации в Power BI служба будет выполнять статистическое вычисление для числовых полей (по умолчанию *Сумма*) по определенному полю с категориальными данными.  Например, "Units Sold ***by Product***" (Продано единиц по продуктам), "Units Sold ***by Month***" (Продано единиц по месяцам) и "Manufacturing Price ***by Segment***" (Цена производителя по сегментам). Power BI ссылается на некоторые числовые поля как на **меры**. Меры в редакторе отчетов Power BI определить очень просто — они отображаются с символом ∑ в списке **Поля**. Дополнительные сведения см. в статье [Знакомство с редактором отчетов](service-the-report-editor-take-a-tour.md).
+При создании визуализации в Power BI служба будет выполнять статистическое вычисление для числовых полей (по умолчанию *Сумма*) по определенному полю с категориальными данными.  Например, "Units Sold ***by Product** _" (Продано единиц по продуктам), "Units Sold _*_by Month_*_" (Продано единиц по месяцам) и "Manufacturing Price _*_by Segment_*_" (Цена производителя по сегментам). Power BI ссылается на некоторые числовые поля как на _*меры**. Меры в редакторе отчетов Power BI определить очень просто — они отображаются с символом ∑ в списке **Поля**. Дополнительные сведения см. в статье [Знакомство с редактором отчетов](service-the-report-editor-take-a-tour.md).
 
 ![Снимок экрана: Power BI с вызванным списком полей.](media/service-aggregates/power-bi-aggregate-fields.png)
 
