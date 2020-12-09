@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 01/04/2019
-ms.openlocfilehash: 58d1112dfccda798a32b2a3cb95d72c37b7a16ec
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: 02d73a2eb36636091ff6059fd6543bb950082c2a
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94668403"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96907309"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers"></a>Руководство. Внедрение отчетов Power BI с разбивкой на страницы в приложение для клиентов
 
@@ -40,7 +40,7 @@ ms.locfileid: "94668403"
 
 > [!IMPORTANT]
 > * Необходимо использовать **субъект-службу**. Главный пользователь не поддерживается.
->* [Premium на пользователя (PPU)](../../admin/service-premium-per-user-faq.md) не поддерживается. Вы можете использовать PPU, чтобы поэкспериментировать с решением, но вы не сможете [перенести его в рабочую среду](embed-sample-for-customers.md#move-to-production).
+>* [Premium на пользователя (PPU)](../../admin/service-premium-per-user-faq.md) не поддерживается. Вы можете использовать PPU, чтобы поэкспериментировать с решением, но вы не сможете [перенести его в рабочую среду](move-to-production.md).
 > * Источники данных, для которых требуется единый вход, не поддерживаются. Список поддерживаемых наборов данных и способов проверки их подлинности см. в статье [Поддерживаемые источники данных для отчетов с разбивкой на страницы Power BI](../../paginated-reports/paginated-reports-data-sources.md). 
 > * Набор данных Power BI не поддерживается в качестве [источника данных](../../connect-data/service-get-data.md).
 

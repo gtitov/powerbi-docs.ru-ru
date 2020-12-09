@@ -6,12 +6,12 @@ ms.author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
-ms.openlocfilehash: 01aa3579fd837b36562dbed27f557d5efdf07c20
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: de460437225dd32c0e6db673a06006a711feb413
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96414836"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96906760"
 ---
 # <a name="developer-learning-catalog"></a>Каталог обучения для разработчиков
 
@@ -31,7 +31,7 @@ ms.locfileid: "96414836"
 | [Дополнительные сведения о Power BI Embedded за 20 минут](https://info.microsoft.com/ww-ondemand-power-bi-embedded-in-20-min.html)  | Этот вебинар содержит вводные сведения о Power BI Embedded. Пройдя его, пользователи смогут понять, что собой представляет Power BI Embedded, какие дальнейшие действия предпринять для начала работы с продуктом и где найти справку и вспомогательные ресурсы. | Вебинар       |                |
 | [Тед Паттисон (Ted Pattison): разработка с внедрением Power BI, обновление за апрель 2018 года](https://www.youtube.com/watch?v=swnGlrRy588)  | В этом вебинаре, ориентированном на разработчиков, Тед Паттисон рассказывает о последних улучшениях платформы внедрения Power BI и о том, как независимые поставщики программного обеспечения и разработчики на предприятиях могут использовать их. | Видеоролик YouTube | 59 мин 49 с  |
 | [Power BI Embedding, версия 2 — подробности](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Embedding-Version-2-The-Full-Story/td-p/229527)    | Этот вебинар был проведен 10 августа 2017 года специалистом Power BI MVP Тедом Паттисоном (Ted Pattison) из Critical Path Training. В ходе вебинара рассказывается о том, как разрабатывать новые функции внедрения Power BI, доступные в Power BI Premium.  | Вебинар       | 1 ч 7 мин 23 с |
-| [Руководство. Внедрение содержимого Power BI в приложение для клиентов](../developer/embedded/embed-sample-for-customers.md#set-up-your-embedded-analytics-development-environment) | С помощью Power BI Embedded в Azure или внедрения Power BI в Office вы можете встраивать отчеты, панели мониторинга или плитки в приложение с помощью данных, принадлежащих ему.  | Документация |                |
+| [Руководство. Внедрение содержимого Power BI в приложение для клиентов](../developer/embedded/embed-sample-for-customers.md) | С помощью Power BI Embedded в Azure или внедрения Power BI в Office вы можете встраивать отчеты, панели мониторинга или плитки в приложение с помощью данных, принадлежащих ему.  | Документация |                |
 | [Дополнительные сведения о Power BI Embedded за 20 минут](https://info.microsoft.com/ww-ondemand-power-bi-embedded-in-20-min.html)  | Этот вебинар содержит вводные сведения о Power BI Embedded. Пройдя его, пользователи смогут понять, что собой представляет Power BI Embedded, какие дальнейшие действия предпринять для начала работы с продуктом и где найти справку и вспомогательные ресурсы. | Вебинар       |                |
 ## <a name="dax"></a>DAX<a name="dax"></a>
 | Содержимое | Описание | Формат  | Длина      |

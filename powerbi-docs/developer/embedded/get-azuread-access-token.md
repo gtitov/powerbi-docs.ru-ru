@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 06/04/2019
-ms.openlocfilehash: 0743a7ac0d12cba8bbde54464a275a78f7c88eff
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: cb7c874fc68da361971c34879f2ea44006402bf4
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396709"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96906941"
 ---
 # <a name="get-an-azure-ad-access-token-for-your-power-bi-application"></a>Получение маркера доступа Azure AD для приложения Power BI
 
@@ -97,7 +97,7 @@ protected void signInButton_Click(object sender, EventArgs e)
 
 ### <a name="get-an-access-token-from-authorization-code"></a>Получение маркера доступа из кода авторизации
 
-Когда **Azure AD** выполняет перенаправление обратно в веб-приложение с помощью **кода авторизации** , можно воспользоваться им для получения маркера доступа. Ниже приведен пример C#, который вы можете использовать на странице перенаправления и в событии `Page_Load` для default.aspx.
+Когда **Azure AD** выполняет перенаправление обратно в веб-приложение с помощью **кода авторизации**, можно воспользоваться им для получения маркера доступа. Ниже приведен пример C#, который вы можете использовать на странице перенаправления и в событии `Page_Load` для default.aspx.
 
 Вы можете извлечь пространство имен **Microsoft.IdentityModel.Clients.ActiveDirectory** из пакета NuGet [Библиотеки проверки подлинности Active Directory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/).
 
@@ -206,6 +206,6 @@ m_tokenCredentials = new TokenCredentials(authenticationResult.AccessToken, "Bea
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-Теперь, когда у вас есть маркер доступа, можно вызвать REST API Power BI, чтобы внедрить содержимое. Дополнительные сведения см. в разделе [Внедрение содержимого Power BI](embed-sample-for-customers.md#embed-content-within-your-application).
+Теперь, когда у вас есть маркер доступа, можно вызвать REST API Power BI, чтобы внедрить содержимое.
 
-У вас имеются и другие вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
+Остались вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
