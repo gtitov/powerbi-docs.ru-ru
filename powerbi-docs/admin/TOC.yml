@@ -118,7 +118,7 @@
               href: service-premium-metrics-app.md
             - name: Мониторинг емкостей на портале администрирования
               href: service-admin-premium-monitor-portal.md
-            - name: Настройка больших моделей (предварительная версия)
+            - name: Настройка больших наборов данных
               href: service-premium-large-models.md
             - name: Настройка поддержки нескольких регионов
               href: service-admin-premium-multi-geo.md
