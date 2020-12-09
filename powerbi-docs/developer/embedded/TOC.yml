@@ -48,6 +48,8 @@
           href: embed-service-principal.md
         - name: Внедрение с использованием субъекта-службы и сертификата
           href: embed-service-principal-certificate.md
+        - name: Перемещение внедренного приложения в рабочую среду
+          href: move-to-production.md
         - name: Внедрение содержимого из приложения
           href: embed-from-apps.md
         - name: Экспорт отчета в файл
