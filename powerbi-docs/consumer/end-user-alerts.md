@@ -8,20 +8,19 @@ featuredvideoid: removed
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 08/05/2020
+ms.date: 12/03/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: be3ed6d8a836b626ba26e5e9acce7f0f2df3c6ea
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 369eb05795262ad628b9dd89c23ac59269e6f6c3
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96391997"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96577608"
 ---
 # <a name="tutorial-set-alerts-on-power-bi-dashboards"></a>Руководство. Настройка оповещений на панелях мониторинга Power BI
 
 [!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 Вы можете настроить оповещения в службе Power BI, уведомляющие вас о том, что данные на панелях мониторинга выходят за пределы заданного порога. Оповещения можно настроить только для закрепленных плиток на основе визуальных элементов отчетов, которые содержат только датчики, ключевые показатели эффективности и карточки. 
 

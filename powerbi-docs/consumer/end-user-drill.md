@@ -7,20 +7,19 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 10/10/2020
+ms.date: 12/03/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3456fe1b1c719d5ce085adc3eba32b32de86e883
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: c379e60e346912c6ecccc6df9671b7d527edc114
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96391353"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578229"
 ---
 # <a name="drill-mode-in-a-visual-in-power-bi"></a>Режим детализации в визуальном элементе в Power BI
 
 [!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 В этой статье демонстрируется детализация углублением в визуальном элементе в службе Microsoft Power BI. Выполняя детализацию углублением и обобщением в точках данных, вы можете просматривать подробные сведения о данных. 
 

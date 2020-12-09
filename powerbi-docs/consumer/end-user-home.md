@@ -7,14 +7,14 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: conceptual
-ms.date: 11/13/2020
+ms.date: 12/03/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: 6c2be9c2c266c489dbb93f5e3f93c3c120cae5c3
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 9df90a41143ddb6d0657aa0d61dc83f25ecbae1a
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96390617"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578079"
 ---
 # <a name="find-your-dashboards-reports-and-apps"></a>Поиск панелей мониторинга, отчетов и приложений
 
@@ -42,13 +42,13 @@ Power BI отображает холст главной страницы, как
 ## <a name="home-canvas"></a>Холст главной страницы
 На холсте главной страницы можно просмотреть все содержимое, которое вы можете использовать. На вашем холсте главной страницы также будут обновляться сведения о рекомендованном содержимом и обучающих ресурсах. Поначалу на холсте главной страницы может быть не слишком много содержимого, но все изменится, когда вы начнете использовать Power BI совместно с коллегами.
 
-![Снимок экрана: экран приветствия нового пользователя в службе Power BI.](media/end-user-home/power-bi-home-new-user.png)
+![Снимок экрана: экран приветствия нового пользователя в службе Power BI.](media/end-user-home/power-bi-home-new-users.png)
 
 
  
 При работе в службе Power BI вы будете получать панели мониторинга, отчеты и приложения от коллег, в конечном итоге главная страница Power BI будет заполнена. Со временем она может выглядеть так, как показано ниже.
 
-![Снимок экрана: экран приветствия в службе Power BI.](media/end-user-home/power-bi-experienced-user.png)
+![Снимок экрана: экран приветствия в службе Power BI.](media/end-user-home/power-bi-experienced-users.png)
 
  
 В нескольких следующих разделах более подробно рассматривается главная страница для опытного пользователя — в направлении сверху вниз.

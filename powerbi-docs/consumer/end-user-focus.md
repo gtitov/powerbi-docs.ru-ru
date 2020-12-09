@@ -8,20 +8,21 @@ featuredvideoid: dtdLul6otYE
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 09/09/2020
+ms.date: 12/03/2020
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 6385d263c47bde156a7dae941fefb101b9b30d18
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.custom: video-dtdLul6otYE
+ms.openlocfilehash: 611fe62486fbe376bdf1c44aa7ab4d18a7ae5c65
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96400461"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613640"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>Отображение содержимого с дополнительными подробностями: режим фокусировки и полноэкранный режим
 
 [!INCLUDE [consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]    
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dtdLul6otYE" frameborder="0" allowfullscreen></iframe>
 
@@ -41,7 +42,7 @@ ms.locfileid: "96400461"
 
 ## <a name="when-to-use-full-screen-mode"></a>Когда следует использовать полноэкранный режим?
 
-![полноэкранный режим отображения панели мониторинга: до и после применения](media/end-user-focus/power-bi-dashboards-focus.png)
+![полноэкранный режим отображения панели мониторинга: до и после применения](media/end-user-focus/power-bi-dashboard-focus.png)
 
 Отображайте содержимое службы Power BI (панели мониторинга, страницы отчетов и визуальные элементы) без отвлекающих внимание меню и областей навигации.  Так вы можете быстро просматривать все содержимое целиком. Иногда это также называется режимом ТВ.   
 
@@ -58,7 +59,7 @@ ms.locfileid: "96400461"
 
 Режим ***фокусировки** _ позволяет развернуть визуальный элемент или плитку, чтобы увидеть больше подробностей.  Представьте, что панель мониторинга или отчет перегружены визуальными элементами и вы хотите сосредоточиться только на одном из них.  Это идеальная ситуация для режима фокусировки.  
 
-![режим фокусировки для плитки панели мониторинга: до и после применения](media/end-user-focus/power-bi-compare-dash.png)
+![режим фокусировки для плитки панели мониторинга: до и после применения](media/end-user-focus/power-bi-compare.png)
 
 В режиме фокусировки _бизнес-пользователь* Power BI может взаимодействовать с фильтрами, которые были применены при создании этого визуального элемента.  В службе Power BI вы можете применить режим фокусировки к плитке панели мониторинга или к визуальному элементу отчета.
 

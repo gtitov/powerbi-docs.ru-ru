@@ -7,24 +7,23 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 10/06/2020
+ms.date: 12/06/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 67291ca77b161fab289ee0520287d832cce838f8
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 36b1ad58b1ee93f0876de8bf7f7ed7331671abfd
+ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96389536"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "96781909"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Плитки панели мониторинга в Power BI
 
 [!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-ynny.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 Фрагмент представляет собой моментальный снимок данных, закрепленный на панели мониторинга при помощи *конструктора*. *Разработчики* могут создавать плитки на основе отчета, набора данных, информационной панели, поля вопросов и ответов, Excel, а также служб SQL Server Reporting Services (SSRS) и многого другого.  На предыдущем снимке экрана показано множество различных плиток, закрепленных на информационной панели.
 
-![Панель мониторинга Power BI](./media/end-user-tiles/power-bi-dash.png)
+![Панель мониторинга Power BI](./media/end-user-tiles/power-bi-dashboard.png)
 
 
 Кроме плиток, закрепленных из отчетов, *конструкторы* позволяют добавить автономные плитки непосредственно на панели мониторинга с помощью команды **Добавить плитку**. Автономные плитки содержат следующие данные: текстовые поля, изображения, видео, потоковую передачу данных и веб-содержимое.

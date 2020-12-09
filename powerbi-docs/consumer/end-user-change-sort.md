@@ -7,14 +7,14 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 08/25/2020
+ms.date: 12/03/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 44bdb454bbe22082a20182002e817fead561d8da
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e211aded069675c02e59004631ea2264be1e0dcc
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96391422"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578292"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Изменение порядка сортировки диаграммы в отчете Power BI
 
@@ -80,7 +80,7 @@ ms.locfileid: "96391422"
 
 Эти изменения может вносить только пользователь, создавший отчет. Контактные данные *автора* можно найти, выбрав имя отчета в строке заголовка.
 
-![Раскрывающийся список с контактной информацией](media/end-user-change-sort/power-bi-header.png)
+![Раскрывающийся список с контактной информацией](media/end-user-change-sort/power-bi-heading.png)
 
 Если вы *создатель* и имеете разрешения на изменение содержимого, то дополнительные сведения о том, как обновить набор данных и включить этот тип сортировки см. в статье [Сортировка по столбцу в Power BI Desktop](../create-reports/desktop-sort-by-column.md).
 

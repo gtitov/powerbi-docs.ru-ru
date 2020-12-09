@@ -9,18 +9,17 @@ ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 09/27/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 82a26fe2d1679aeb725876a6e0da286ebf6162af
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: ea537e19eb7c3ab2a155f417af92e45841031f89
+ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96399265"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "96781642"
 ---
 # <a name="change-the-display-of-a-report-page"></a>Изменение отображения страницы отчета
 
 [!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 Отчеты можно просматривать на различных устройствах с различными размерами экранов и соотношениями сторон. Вы можете изменить способ отображения страницы отчета в соответствии со своими потребностями.
 

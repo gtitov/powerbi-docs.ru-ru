@@ -7,20 +7,20 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 08/27/2020
+ms.date: 12/03/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7e431b6a94b7cd881adba27597aa9cbfa6a54425
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.custom: video
+ms.openlocfilehash: 9a78ac3aa63ee65ea0e60a384a41ac4a6544c610
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96391215"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578206"
 ---
 # <a name="view-a-dashboard"></a>Просмотр панели мониторинга
 
 [!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 *Бизнес-пользователи* Power BI тратят много времени на просмотр панелей мониторинга. Панели мониторинга разработаны так, чтобы обращать внимание на определенные сведения из исходных отчетов и наборов данных. Бизнес-пользователи Power BI применяют эти сведения для отслеживания, мониторинга, тестирования, получения ответов и т. д., а затем на этой основе принимают бизнес-решения.
 

@@ -8,20 +8,19 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 08/28/2020
+ms.date: 12/03/2020
 LocalizationGroup: Consumers
-ms.openlocfilehash: 13d8eda142896b406269f940823e702b2ca7cb3e
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: d8b9f11abe639d2892bc199a9f65400e5488dedc
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96391031"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578131"
 ---
 # <a name="export-data-from-a-visual"></a>Экспорт данных из визуального элемента
 
 [!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 Чтобы просмотреть данные, которые используются для создания визуального элемента, [откройте их в Power BI](end-user-show-data.md) или экспортируйте в Excel. Для экспорта данных требуется конкретный тип или лицензия и права на редактирование содержимого. Если не получается экспортировать, обратитесь за помощью к администратору Power BI или в службу технической поддержки. 
 
@@ -33,7 +32,7 @@ ms.locfileid: "96391031"
 1. Начните с панели мониторинга Power BI. Здесь мы используем панель мониторинга из примера приложения ***для маркетинга и продаж** _. Это приложение [можно скачать на сайте AppSource.com.](https://appsource.microsoft.com/en-us/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample
 )
 
-    ![Панель мониторинга приложения](media/end-user-export/power-bi-dashboards.png)
+    ![Панель мониторинга приложения](media/end-user-export/power-bi-dashboard.png)
 
 2. Наведите указатель мыши на визуальный элемент, чтобы отобразилась кнопка _ *Дополнительные параметры** (...), и щелкните ее, чтобы открыть меню действий.
 

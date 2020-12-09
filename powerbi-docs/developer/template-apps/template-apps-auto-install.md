@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/23/2020
-ms.openlocfilehash: ca5db6ed7a07d5a6fb10133285378e8318527464
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 671fcbabf10666c03f39bc4582e00fa0adbdbd5e
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96386099"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578367"
 ---
 # <a name="automated-configuration-of-a-template-app-installation"></a>Автоматическая настройка установки приложения-шаблона
 
@@ -55,7 +55,7 @@ ms.locfileid: "96386099"
 
 * **Субъект-служба (маркер только для приложения)** , зарегистрированная в указанном выше клиенте. Подробнее см. в статье [Внедрение содержимого Power BI с помощью субъект-службы и секрета приложения](https://docs.microsoft.com/power-bi/developer/embedded/embed-service-principal). Обязательно зарегистрируйте приложение в качестве **серверного веб-приложения**. чтобы создать секрет приложения. В этом процессе необходимо сохранить *идентификатор приложения* (идентификатор клиента) и *секрет приложения* (секрет клиента) для последующих шагов.
 
-* **Параметризованное приложение-шаблон**, готовое к установке. Приложение-шаблон должно быть создано в том же клиенте, в котором вы регистрируете приложение в Azure Active Directory (Azure AD). Дополнительные сведения см. в [советах по работе с приложениями-шаблонами](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-tips.md) или в статье [Создание приложений-шаблонов в Power BI](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-create). В приложении-шаблоне необходимо отметить следующие сведения для следующих шагов:
+* **Параметризованное приложение-шаблон**, готовое к установке. Приложение-шаблон должно быть создано в том же клиенте, в котором вы регистрируете приложение в Azure Active Directory (Azure AD). Дополнительные сведения см. в [советах по работе с приложениями-шаблонами](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-tips) или в статье [Создание приложений-шаблонов в Power BI](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-create). В приложении-шаблоне необходимо отметить следующие сведения для следующих шагов:
      * *Идентификатор приложения*, *ключ пакета* и *идентификатор владельца*, поскольку они отображаются в URL-адресе установки в конце процесса [Определение свойств приложения-шаблона](../../connect-data/service-template-apps-create.md#define-the-properties-of-the-template-app) при создании приложения. Вы также можете получить эту же ссылку, щелкнув **Получить ссылку** в разделе [Управление выпусками](../../connect-data/service-template-apps-create.md#manage-the-template-app-release) приложения-шаблона.
 
     * *Имена параметров*, как они определены в наборе данных приложения-шаблона. В именах параметров используются строки, учитывающие регистр. Их также можно получить на вкладке **Настройки параметров** при [определении свойств приложения-шаблона](../../connect-data/service-template-apps-create.md#define-the-properties-of-the-template-app) или из параметров набора данных в Power BI.

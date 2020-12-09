@@ -7,12 +7,12 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/23/2020
-ms.openlocfilehash: 0bb2e0c249df668378d62f62184dc044d174ce81
-ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
+ms.openlocfilehash: 0ddcf3c54a5bb3cf9259f6c0d18d0001b838df60
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "95550684"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96577861"
 ---
 # <a name="tutorial-automate-configuration-of-template-app-installation-using-an-azure-function"></a>Руководство. Автоматизация настройки установки приложения-шаблона с помощью функции Azure
 
@@ -57,7 +57,7 @@ ms.locfileid: "95550684"
 
 * [Субъект-служба (маркер только для приложения)](https://docs.microsoft.com/power-bi/developer/embedded/embed-service-principal), зарегистрированная в указанном выше клиенте.
 
-* Параметризованное [приложение-шаблон](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-overview), готовое к установке. Приложение-шаблон должно быть создано в том же клиенте, в котором вы регистрируете приложение в Azure Active Directory (Azure AD). Дополнительные сведения см. в [советах по работе с приложениями-шаблонами](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-tips.md) или в статье [Создание приложений-шаблонов в Power BI](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-create).
+* Параметризованное [приложение-шаблон](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-overview), готовое к установке. Приложение-шаблон должно быть создано в том же клиенте, в котором вы регистрируете приложение в Azure Active Directory (Azure AD). Дополнительные сведения см. в [советах по работе с приложениями-шаблонами](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-tips) или в статье [Создание приложений-шаблонов в Power BI](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-create).
 
 * **Лицензия Power BI Pro**. Если вы не зарегистрированы в Power BI Pro, [зарегистрируйтесь для получения бесплатной пробной версии](https://powerbi.microsoft.com/pricing/), прежде чем начать.
 

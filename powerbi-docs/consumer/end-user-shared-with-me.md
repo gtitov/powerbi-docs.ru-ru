@@ -7,20 +7,20 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 10/09/2020
+ms.date: 12/07/2020
+ms.custom: video-G26dr2PsEpk
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 44f9d26e5f6ebe8723d5f5269bc66a38590a9b36
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 3461fc3cc310e8f714cee48e7c528bda99f3e6f6
+ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96389605"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "96781619"
 ---
 # <a name="display-the-dashboards-and-reports-that-have-been-shared-with-me"></a>Отображение панелей мониторинга и отчетов, к которым мне предоставлен доступ
 
 [!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 Когда коллеги делятся с вами панелью мониторинга или отчетом, это содержимое отображается в вашем контейнере **Мне предоставлен доступ**. Когда коллега предоставляет вам общий доступ к приложению, оно появляется в контейнере **Приложения**, а отчеты и панели мониторинга этого приложения отображаются в контейнере **Мне предоставлен доступ**.   
 
