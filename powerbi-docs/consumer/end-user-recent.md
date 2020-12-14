@@ -2,26 +2,26 @@
 title: Отображение недавно просмотренного содержимого в службе Power BI
 description: Документация по недавно просмотренному содержимому в Power BI
 author: mihart
-ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
-ms.subservice: pbi-explore
+ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 09/24/2020
+ms.date: 11/24/2020
+ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: e11b1823c45e681d6a555bd5a4a9a751704419b2
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: ca3ae0974c0ece1f20a104dbeef1be0d89d1b523
+ms.sourcegitcommit: 8993400b32a44f4e7ce9a2db998ddebda18c7698
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96399242"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96536399"
 ---
 # <a name="recent-content-in-the-power-bi-service"></a>**Недавнее** содержимое в службе Power BI
 
 [!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
-**Недавнее** содержимое — это последние элементы, которые вы просматривали в службе Power BI. Это панели мониторинга, отчеты, приложения и книги. При выборе элемента **Последние** на панели навигации Power BI отображает это содержимое в порядке убывания даты.  Чтобы изменить порядок сортировки, выберите один из заголовков и выберите сортировку по возрастанию или по убыванию.
+**Недавнее** содержимое — это последние элементы, которые вы просматривали в службе Power BI. Это панели мониторинга, отчеты, приложения, рабочие области и книги. При выборе элемента **Последние** на панели навигации Power BI отображает это содержимое в порядке убывания даты.  Чтобы изменить порядок сортировки, выберите один из заголовков и выберите сортировку по возрастанию или по убыванию.
 
 
 ![Окно недавнего содержимого](./media/end-user-recent/power-bi-recents.png)

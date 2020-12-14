@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 11/02/2020
+ms.date: 12/03/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 004546a941426f602bfb5cacaf938bd55cec452d
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 76f45ac7aee01cb907e727bc8cb12a69bd234d72
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96406786"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613884"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Публикация в Интернете из Power BI
 
@@ -198,6 +198,7 @@ ms.locfileid: "96406786"
 - Модели запросов данных единого входа.
 - Безопасность конфиденциальной или защищаемой информации.
 - Возможность автоматической аутентификации, предоставляемая параметром **Внедрение**, не работает с API JavaScript для Power BI. При работе с API JavaScript для Power BI следует использовать подход к внедрению, основанный на концепции [данные принадлежат пользователю](../developer/embedded/embed-sample-for-your-organization.md).
+- Администраторы могут блокировать доступ к общедоступному Интернету, как описано в разделе [Приватные каналы для доступа к Power BI](../admin/service-security-private-links.md). В этом случае параметр **Опубликовать в Интернете** будет неактивен для вашего клиента на портале администрирования Power BI. 
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

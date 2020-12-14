@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/29/2020
-ms.openlocfilehash: 30e8f1cb1ef8f12d9573d77a70771eef915a2704
-ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
+ms.date: 12/07/2020
+ms.openlocfilehash: 10fb104d1c03ae5d08836b8e865178c347d848ce
+ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93044797"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "96781780"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Требования к оборудованию и программному обеспечению для установки сервера отчетов Power BI
 
@@ -23,10 +23,10 @@ ms.locfileid: "93044797"
 
 | Компонент | Требование |
 | --- | --- |
-| .NET Framework |4.8<br><br>Можно вручную установить платформу .NET Framework со страницы [Платформа Microsoft .NET Framework 4.8 (веб-установщик) для Windows](https://support.microsoft.com/en-us/help/4503548/).<br/><br/> Дополнительные сведения, рекомендации и инструкции по .NET Framework 4.8 см. в [руководстве по развертыванию .NET Framework для разработчиков](/dotnet/framework/deployment/deployment-guide-for-developers).<br/><br/>Перед установкой .NET Framework 4.8 для Windows 8.1 и Windows Server 2012 R2 требуется установить обновление [KB2919355](https://support.microsoft.com/kb/2919355). |
+| .NET Framework |4.8<br><br>Если у сервера нет доступа к Интернету, можно вручную установить .NET Framework со страницы [Microsoft .NET Framework 4.8 (автономный установщик) для Windows](https://support.microsoft.com/en-us/help/4503548/).<br/><br/> Дополнительные сведения, рекомендации и инструкции по .NET Framework 4.8 см. в [руководстве по развертыванию .NET Framework для разработчиков](/dotnet/framework/deployment/deployment-guide-for-developers).<br/><br/>Перед установкой .NET Framework 4.8 для Windows 8.1 и Windows Server 2012 R2 требуется установить обновление [KB2919355](https://support.microsoft.com/kb/2919355). |
 | Жесткий диск |Для сервера отчетов Power BI требуется не менее 1 ГБ свободного места на жестком диске.<br><br>Дополнительное место потребуется на сервере базы данных, на котором размещена база данных сервера отчетов. |
 | Память |**Минимум:** 1 ГБ<br/><br/> **Рекомендуется:** не менее 4 ГБ |
-| Скорость процессора |**Минимум** : процессор x64 с тактовой частотой 1,4 ГГц<br/><br/> **Рекомендуется:** 2,0 ГГц и выше |
+| Скорость процессора |**Минимум**: процессор x64 с тактовой частотой 1,4 ГГц<br/><br/> **Рекомендуется:** 2,0 ГГц и выше |
 | Тип процессора |Процессор x64: AMD Opteron, AMD Athlon 64, Intel Xeon с поддержкой Intel EM64T, Intel Pentium IV с поддержкой EM64T. |
 | Операционная система |Windows Server 2019 Datacenter<br><br>Windows Server 2019 Standard<br><br>Windows Server 2016 Datacenter<br><br>Windows Server 2016 Standard.<br><br>Windows 10 Домашняя<br><br>Windows 10 Профессиональная<br><br>Windows 10 Корпоративная<br> |
 

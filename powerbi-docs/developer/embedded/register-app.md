@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 04/02/2019
-ms.openlocfilehash: c8d756a80cf6d748f3ff33298b3a243f82197734
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: 845499bc236489932bf1347c43f7a5ba71c21a6b
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94668656"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96907332"
 ---
 # <a name="register-an-azure-ad-application-to-use-with-power-bi"></a>Регистрация приложения Azure AD для использования с Power BI
 
@@ -32,7 +32,7 @@ ms.locfileid: "94668656"
 
 * Учетная запись **главного пользователя** (лицензия Power BI Pro, используемая для входа в Power BI)
 
-*  [Субъект-служба](embed-service-principal.md)
+* [Субъект-служба](embed-service-principal.md)
 
 Решение "Внедрение для клиентов" обычно используется независимыми поставщиками программного обеспечения (ISV) и разработчиками, создающими приложения для третьих сторон.
 
@@ -115,7 +115,16 @@ ms.locfileid: "94668656"
 
 # <a name="manual-registration"></a>[Регистрация вручную](#tab/manual)
 
-Используйте регистрацию приложений Azure AD вручную, только если вы создаете решение *Внедрение для организации*. Дополнительные сведения о регистрации приложений в Azure Active Directory см. в [этой статье](/azure/active-directory/develop/quickstart-v2-register-an-app).
+Используйте регистрацию приложений в Azure AD вручную, только если вы создаете одно из следующих решений:
+
+* *Внедрение приложения для организации*.
+
+* *Внедрение приложения для клиентов* с *субъектом-службой*.
+
+    >[!NOTE]
+    >Если выбрать этот параметр, после регистрации приложения Azure AD необходимо [добавить в него разрешения Power BI](#change-your-azure-ad-apps-permissions).
+
+Дополнительные сведения о регистрации приложений в Azure Active Directory см. в [этой статье](/azure/active-directory/develop/quickstart-v2-register-an-app).
 
 1. Войдите на [портал Azure](https://portal.azure.com).
 
@@ -140,6 +149,9 @@ ms.locfileid: "94668656"
 ## <a name="change-your-azure-ad-apps-permissions"></a>Изменение разрешений приложения Azure AD
 
 После регистрации приложения можно изменить его разрешения. Изменения разрешений можно вносить программным способом или на портале Azure.
+
+>[!NOTE]
+>Разрешения для приложений Azure AD применимы только к решениям *внедрения приложения для клиентов* с методом проверки подлинности с помощью *основного пользователя*.
 
 # <a name="azure"></a>[Azure](#tab/Azure)
 

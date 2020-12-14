@@ -30,10 +30,10 @@
           href: service-tutorial-connect-to-github.md
         - name: "Использование Cognitive\_Services"
           href: service-tutorial-use-cognitive-services.md
-        - name: Интеграция Машинного обучения
-          href: service-tutorial-invoke-machine-learning-model.md
         - name: Создание модели машинного обучения
           href: service-tutorial-build-machine-learning-model.md
+        - name: Создание модели машинного обучения в отчете
+          href: service-aml-integrate.md
         - name: "Обновление данных из SQL\_Server"
           href: service-gateway-sql-tutorial.md
     - name: Основные понятия

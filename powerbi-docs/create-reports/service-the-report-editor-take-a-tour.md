@@ -8,14 +8,14 @@ featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
-ms.date: 08/14/2019
+ms.date: 12/01/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 26a98609481ce45a6e432c8006d80f9becdd9f3b
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 560c03865519d1c5d2435dc333954f284ee726e6
+ms.sourcegitcommit: 8993400b32a44f4e7ce9a2db998ddebda18c7698
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96387788"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96536514"
 ---
 # <a name="tour-the-report-editor-in-power-bi"></a>Обзор редактора отчетов в Power BI
 
@@ -33,14 +33,14 @@ ms.locfileid: "96387788"
 
 Редактор отчетов Power BI состоит из нескольких основных разделов:  
 
-1. Панель навигации сверху
+1. Лента
 1. Холст отчетов
 1. Панель "Фильтры"
 1. Панель визуализаций
 1. Панель "Поля"
 
-## <a name="1-the-top-nav-pane"></a>1. Панель навигации сверху
-С помощью панели навигации сверху можно выполнять самые разные действия, и их набор постоянно расширяется. Сведения о том или ином действии см. в оглавлении к документации Power BI (кроме того, вы можете воспользоваться полем поиска).
+## <a name="1-the-ribbon"></a>1. Лента
+С помощью панели навигации на ленте можно выполнять самые разные действия, и их набор постоянно расширяется. Сведения о том или ином действии см. в оглавлении к документации Power BI (кроме того, вы можете воспользоваться полем поиска).
 
 
 ## <a name="2-the-report-canvas"></a>2. Холст отчетов
@@ -135,23 +135,7 @@ ms.locfileid: "96387788"
 
 ## <a name="the-field-icons"></a>Значки полей
 
-Power BI использует несколько различных значков для указания типов полей в отчете. Познакомившись с ними, вы сможете лучше понять, как они работают в разных визуальных элементах. Ниже приведены наиболее типичные из них.
-
-
-|Значок  |Значение  |
-|---------|---------|
-| ![Папка](media/service-the-report-editor-take-a-tour/power-bi-field-list-folder.png) | Папка в списке "Поля" |
-|![Числовое поле](media/service-the-report-editor-take-a-tour/power-bi-field-list-numeric.png) | Числовое поле. Числовые поля — это статистические выражения, которые можно, например, суммировать или усреднять. Статистические выражения импортируются вместе с данными и определяются в модели данных, на которой основан отчет. Дополнительные сведения см. в разделе [Статистические выражения в отчетах Power BI](service-aggregates.md). |
-|![Нечисловой вычисляемый столбец](media/service-the-report-editor-take-a-tour/power-bi-field-list-calculated-column.png) | Вычисляемый столбец с данными нечислового типа. Новые нечисловой столбец, создаваемый с помощью формулы на языке DAX, которая определяет значения столбца. Дополнительные сведения о [вычисляемых столбцах](../transform-model/desktop-calculated-columns.md). |
-|![Числовой вычисляемый столбец](media/service-the-report-editor-take-a-tour/power-bi-field-list-numeric-calculated-column.png)     |   Числовой вычисляемый столбец. Новый столбец, создаваемый с помощью формулы на языке DAX, которая определяет значения столбца. Дополнительные сведения о [вычисляемых столбцах](../transform-model/desktop-calculated-columns.md). |
-|![Мера](media/service-the-report-editor-take-a-tour/power-bi-field-list-measure.png) |  Мера. Мера имеет собственную жестко заданную формулу. Это вычисление нельзя изменить: например, если это сумма, то нельзя получить ничего, кроме суммы. Значения не хранятся в столбце. Они рассчитываются оперативно, в зависимости от своего расположения в визуальном элементе. Дополнительные сведения см. в разделе [Основные сведения о мерах](../transform-model/desktop-measures.md). |
-|![Группа мер](media/service-the-report-editor-take-a-tour/power-bi-field-list-measure-group.png)     | Группа мер  |
-|![Значок КПЭ](media/service-the-report-editor-take-a-tour/power-bi-field-list-kpi.png) |      КПЭ. Наглядный индикатор, который позволяет оценить достижение определенной измеримой цели. Дополнительные сведения об визуальных элементах [ключевого показателя эффективности (КПЭ)](../visuals/power-bi-visualization-kpi.md) |
-|![Значок иерархии](media/service-the-report-editor-take-a-tour/power-bi-field-list-hierarchy.png)     |  Иерархия полей. Чтобы увидеть поля, из которых состоит иерархия, щелкните стрелку.  Просмотрите на YouTube это видео по Power BI о [создании иерархий и работе с ними](https://www.youtube.com/watch?v=q8WDUAiTGeU) для получения дополнительных сведений. |
-|![Геоданные](media/service-the-report-editor-take-a-tour/power-bi-field-list-geo-data.png)     | Геоданные. Эти поля расположения можно использовать для создания визуализаций карты. |
-| ![Поле удостоверения](media/service-the-report-editor-take-a-tour/power-bi-field-list-identity.png)     | Поле удостоверения. Поля с этим значком являются *уникальными* и настроены для отображения всех значений, даже если они имеют дубликаты. Например, в ваших данных могут присутствовать записи для двух разных людей с именем "Николай Новиков", при этом каждая из них будет считаться уникальной. Суммироваться они не будут.   |
-|![Параметр](media/service-the-report-editor-take-a-tour/power-bi-field-list-parameter.png)   | Параметр. Задайте параметры, чтобы части ваших отчетов и моделей данных (такие как фильтр запроса, ссылка на источник данных, определение меры и т. п.) зависели от одного или нескольких значений параметров. Дополнительные сведения см. в записи блога Power BI о [параметрах запроса](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/). |
-| ![Календарь](media/service-the-report-editor-take-a-tour/power-bi-field-list-calendar.png) | Поле календарной даты со встроенной таблицей дат |
+Power BI использует несколько различных значков для указания типов полей в отчете. Познакомившись с ними, вы сможете лучше понять, как они работают в разных визуальных элементах. Полный список см. в разделе [Значки списка полей раздела "Использование списка полей" в Power BI Desktop](../transform-model/desktop-field-list.md#field-list-changes).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Создание отчета](service-report-create-new.md)
@@ -160,4 +144,4 @@ Power BI использует несколько различных значко
 
 [Основные понятия для разработчиков Power BI](../fundamentals/service-basic-concepts.md)
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+Остались вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)

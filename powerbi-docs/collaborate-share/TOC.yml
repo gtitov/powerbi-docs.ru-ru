@@ -103,12 +103,16 @@
           items:
             - name: Интеграция оповещений о данных с Power Automate
               href: service-flow-integration.md
+            - name: Экспорт отчетов и их отправка по электронной почте с помощью Power Automate
+              href: service-automate-power-bi-report-export.md
             - name: Экспорт отчетов с разбивкой на страницы с помощью Power Automate
               href: service-automate-paginated-integration.md
             - name: Сохранение отчетов с разбивкой на страницы в OneDrive или SharePoint Online
               href: service-automate-paginated-onedrive-sharepoint.md
             - name: Экспорт отчетов с разбивкой на страницы из Excel Online или списка SharePoint
               href: service-automate-paginated-excel-sharepoint-list.md
+            - name: Сохранение отчета с разбивкой на страницы в локальной папке
+              href: service-automate-paginated-local-file.md
         - name: Использование сторонних приложений
           href: service-power-bi-get-started-third-party-apps.md
         - name: Пакеты содержимого организации

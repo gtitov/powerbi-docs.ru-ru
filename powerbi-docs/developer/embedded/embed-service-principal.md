@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
 ms.date: 11/23/2020
-ms.openlocfilehash: 17c0a4d0809aa87f50225e0c59ca3962776bd2b1
-ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
+ms.openlocfilehash: 41b8cfe8515efbf3cc42794afcb2562f7d0c171a
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "95514515"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96907102"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-an-application-secret"></a>Внедрение содержимого Power BI с помощью субъект-службы и секрета приложения
 
@@ -170,7 +170,7 @@ Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
 >Чтобы ограничить доступ субъекта-службы к параметрам определенного клиента, разрешите доступ только к определенным группам безопасности. Кроме того, можно создать выделенную группу безопасности для субъектов-служб и исключить ее из параметров нужного клиента.
 
 >[!div class="mx-imgBorder"]
->:::image type="content" source="media/embed-service-principal/admin-portal.png" alt-text="Снимок экрана: страница &quot;Параметры разработчика&quot; в области параметров администратора на портале Power BI.":::
+>:::image type="content" source="media/embed-service-principal/admin-portal.png" alt-text="Снимок экрана: страница &quot;Параметры разработчика&quot; в области параметров администратора в службе Power BI.":::
 
 ## <a name="step-4---add-the-service-principal-to-your-workspace"></a>Шаг 4. Добавление субъект-службы в рабочую область
 
@@ -195,12 +195,9 @@ Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
 
 ## <a name="step-5---embed-your-content"></a>Шаг 5. Внедрение содержимого
 
-Вы можете внедрить содержимое в пример приложения или в собственное приложение.
+Вы можете [внедрить содержимое в пример приложения](embed-sample-for-customers.md) или в собственное приложение.
 
-* [Внедрение содержимого с помощью примера приложения](embed-sample-for-customers.md#embed-content-using-the-sample-application)
-* [Внедрение содержимого в приложении](embed-sample-for-customers.md#embed-content-within-your-application)
-
-После того, как содержимое будет внедрено, вы можете [переносить его в производственную среду](embed-sample-for-customers.md#move-to-production).
+После того, как содержимое будет внедрено, вы можете [переносить его в производственную среду](move-to-production.md).
 
 >[!NOTE]
 >Чтобы защитить содержимое с помощью сертификата, выполните действия, описанные в разделе [Внедрение содержимого Power BI с помощью субъекта-службы и сертификата](embed-service-principal-certificate.md).

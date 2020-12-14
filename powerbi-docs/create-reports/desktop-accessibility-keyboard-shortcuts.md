@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.date: 10/28/2019
+ms.date: 12/04/2020
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9cfd5f80ac18c05b520fc417c6336dda360b8737
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 5b2439af22e32f1e0a8cbd3ce326252d6b28fab1
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417596"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613930"
 ---
 # <a name="keyboard-shortcuts-in-power-bi-desktop"></a>Сочетания клавиш в Power BI Desktop
 
@@ -92,7 +92,7 @@ ms.locfileid: "96417596"
 | :------------------- | :------------------- |
 | Переместить строку вверх или вниз | **ALT+СТРЕЛКА ВВЕРХ** / **СТРЕЛКА ВНИЗ** |
 | Копировать строку вверх или вниз | **SHIFT+ALT+СТРЕЛКА ВВЕРХ** / **СТРЕЛКА ВНИЗ** |
-| Добавление строки ниже курсора | **CTRL+ВВОД** |
+| Добавление строки ниже курсора | **SHIFT + ВВОД** |
 | Добавление строки выше курсора | **CTRL+SHIFT+ВВОД** |
 | Переход к парной скобке | **CTRL+SHIFT+**  \ |
 | Отступ строки или расширение строки на поле | **CTRL+]**  /  **[** |
@@ -100,11 +100,15 @@ ms.locfileid: "96417596"
 | Выделение текущей строки | **CTRL+I** |
 | Выбор всех вхождений текущего выделения | **CTRL+SHIFT+L** |
 | Выбор всех вхождений текущего слова | **CTRL+F2** |
+| Комментирование строки | **CTRL+/** или **CTRL+K+C** |
+| Раскомментирование строки | **CTRL+/** или **CTRL+K+U** |
+| Увеличение размера шрифта | **CTRL++** или **прокрутка вверх** |
+| Уменьшение размера шрифта | **CTRL+-** или **прокрутка вниз** |
 
-## <a name="enter-data"></a>Ввод данных
-| Требуемое действие           | Нажать                |
+## <a name="enter-data"></a>Введите данные
+| Операция           | Сочетание клавиш                |
 | :------------------- | :------------------- |
-| Выход из редактируемой сетки: | **CTRL+TAB** |
+| Выход из редактируемой сетки: | **CTRL + TAB** |
 
 
 

@@ -10,14 +10,14 @@ ms.topic: reference
 ms.date: 11/16/2020
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: 8e3a32402b3eff202a8e35a2e34fa52271650a64
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e2bd6a752d94bd2a549d0149512707fbd7832319
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96390732"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613792"
 ---
-# <a name="power-bi-feature-list-for-consumers-and-others-with-free-licenses"></a>Список функций Power BI для *потребителей* и других пользователей с бесплатными лицензиями
+# <a name="power-bi-feature-list-for-business-users-and-others-with-free-licenses"></a>Список функций Power BI для *бизнес-пользователей* и других пользователей с бесплатными лицензиями
 
 [!INCLUDE[consumer-appliesto-ynnn](../includes/consumer-appliesto-ynnn.md)]
 
@@ -58,7 +58,7 @@ ms.locfileid: "96390732"
 
    
 
-## <a name="power-bi-feature-list-for-consumers-and-free-users"></a>Список функций Power BI для *потребителей* и бесплатных пользователей
+## <a name="power-bi-feature-list-for-business-users-and-free-users"></a>Список функций Power BI для *бизнес-пользователей* и бесплатных пользователей
 На приведенной ниже диаграмме показано, какие задачи может выполнять *бизнес-пользователь*, взаимодействующий с содержимым в емкости Premium.    
 
 Первый столбец представляет собой бесплатного пользователя, работающего с содержимым в разделе **Моя рабочая область**. Этот пользователь не может сотрудничать с коллегами в службе Power BI. Коллеги не могут напрямую обмениваться содержимым с этим пользователем, и этот пользователь не может предоставить общий доступ из раздела **Моя рабочая область**. 
