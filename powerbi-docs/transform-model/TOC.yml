@@ -7,8 +7,6 @@
       items:
         - name: Обзор редактора запросов
           href: desktop-query-overview.md
-        - name: Самостоятельная подготовка данных с помощью потоков данных
-          href: ./dataflows/dataflows-introduction-self-service.md
     - name: Учебники
       expanded: true
       items:
