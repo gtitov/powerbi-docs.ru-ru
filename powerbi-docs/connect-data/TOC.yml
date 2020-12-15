@@ -9,6 +9,8 @@
           href: service-get-data.md
         - name: Общие сведения о локальном шлюзе данных
           href: service-gateway-onprem.md
+        - name: "Обнаружение данных в службе Power\_BI"
+          href: service-datasets-hub.md
     - name: Краткие руководства
       expanded: true
       items:

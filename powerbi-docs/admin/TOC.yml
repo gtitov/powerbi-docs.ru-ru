@@ -74,7 +74,7 @@
           href: service-admin-auditing.md
         - name: Отслеживание состояния службы
           href: service-admin-health.md
-        - name: Включение аутентификации субъекта-службы для интерфейсов API администрирования с доступом только на чтение
+        - name: Включение проверки подлинности субъекта-службы для интерфейсов API администрирования с доступом только на чтение
           href: read-only-apis-service-principal-authentication.md
         - name: Закрытие учетной записи
           href: service-admin-closing-your-account.md
@@ -134,7 +134,7 @@
               href: service-premium-service-principal.md
             - name: "Устранение неполадок с подключением конечных точек\_XMLA"
               href: troubleshoot-xmla-endpoint.md
-    - name: Справка
+    - name: Справочник
       items:
         - name: 'PowerShell, REST API и пакет SDK для .NET'
           href: service-admin-reference.md
