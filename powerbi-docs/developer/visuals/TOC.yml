@@ -82,6 +82,8 @@
           href: drill-down-support.md
         - name: Добавление цвета в визуальный элемент
           href: add-colors-power-bi-visual.md
+        - name: Условное форматирование
+          href: conditional-format.md
         - name: Выделение данных в визуальных элементах
           href: highlight.md
         - name: Добавление поддержки режима высокой контрастности
