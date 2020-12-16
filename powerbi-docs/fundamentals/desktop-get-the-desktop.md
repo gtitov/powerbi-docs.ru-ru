@@ -9,12 +9,12 @@ ms.subservice: pbi-fundamentals
 ms.topic: how-to
 ms.date: 10/12/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: 9c46188318ca5659f109ba8483c552d9ab43f932
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 3d233736c55ea736da1ecc561c2936a0a9f42a09
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418677"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97492180"
 ---
 # <a name="get-power-bi-desktop"></a>Получение Power BI Desktop
 Power BI Desktop дает возможность создавать расширенные запросы, модели и отчеты, визуализирующие данные. С помощью Power BI Desktop можно создавать модели данных, отчеты и совместно использовать данные, публикуя их в службе Power BI. Power BI Desktop можно скачать бесплатно.
@@ -102,7 +102,7 @@ Power BI Desktop дает возможность создавать расшир
 > Power BI Desktop больше не будет поддерживаться в Windows 7 после 31 января 2021 г. После этой даты Power BI Desktop будет поддерживаться в Windows 8 или более поздних версиях Windows, (только для последнего выпуска Power BI Desktop). 
 
 * Windows 7, Windows Server 2008 R2 или более поздние версии
-* .NET 4.5
+* .NET 4.6.2
 * Internet Explorer 10 или более поздней версии
 * Память (ОЗУ): не менее 1 ГБ (рекомендуется 1,5 ГБ или больше).
 * Отображение. Необходимое разрешение — не меньше 1440 x 900 или 1600 x 900 (16:9). Более низкие разрешения, например 1024 x 768 или 1280 x 800, не поддерживаются, так как некоторые элементы управления (такие как кнопка для закрытия экрана запуска) могут выходить за границы видимой области.
