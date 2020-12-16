@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: how-to
-ms.date: 11/11/2020
+ms.date: 12/10/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e9c64a3da7d5026045a64f58c814004df6d327b6
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 038d0fc4b136f89db290010289d24ee41454c9ea
+ms.sourcegitcommit: 772c65b7b440ab082510bf3f64b871d19139d451
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411340"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "97353342"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Источники данных в Power BI Desktop
 
@@ -117,7 +117,7 @@ Power BI Desktop позволяет подключаться к данным и�
 
 * Наборы данных Power BI
 * Потоки данных Power BI
-* Common Data Service
+* Microsoft Dataverse
 * Потоки данных Power Platform (бета-версия)
 
 На следующем рисунке показано окно **Получение данных** для **Power Platform**.

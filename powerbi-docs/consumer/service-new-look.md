@@ -7,14 +7,14 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: conceptual
-ms.date: 10/22/2020
+ms.date: 12/09/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: ec7b24a4d8f2a94680444b4b9adf4612f1f1f474
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 5e357b275cd6648721b021f68a9b8496e266e003
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96415158"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96999101"
 ---
 # <a name="the-new-look-of-the-power-bi-service"></a>"Новый внешний вид" службы Power BI
 
@@ -65,7 +65,7 @@ ms.locfileid: "96415158"
 
 Для панелей мониторинга упрощена панель действий. Это изменение аналогично тому, что было сделано для отчетов и приложений, но имеются функциональные различия. Ниже приведено пошаговое руководство по действиям на панели мониторинга.
  
-![Снимок экрана: панель действий панели мониторинга в новом внешнем виде.](media/service-new-look/power-bi-dashboard-action-bar-new-look.png)
+![Снимок экрана: панель действий панели мониторинга в новом внешнем виде.](media/service-new-look/power-bi-dashboard-action-bar-new.png)
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
