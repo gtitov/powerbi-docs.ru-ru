@@ -120,6 +120,7 @@
             - name: Советы и рекомендации
               href: deployment-pipelines-best-practices.md
     - name: Практические руководства
+      expanded: true
       items:
         - name: Отчеты Power BI
           items:
