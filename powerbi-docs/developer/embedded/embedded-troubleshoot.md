@@ -1,5 +1,5 @@
 ---
-title: Устранение неполадок внедренного приложения
+title: Устранение неполадок приложения встроенной аналитики Power BI
 description: В этой статье описаны распространенные проблемы, которые могут возникнуть при внедрении содержимого из Power BI.
 author: KesemSharabi
 ms.author: kesharab
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: troubleshooting
 ms.date: 02/05/2019
-ms.openlocfilehash: 3016cce1e4dd8fb1be5b5ab95ebcc73bdcb56ac1
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: f46bdf5aec254763257fa4b121b4b8c135a0d58a
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749076"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97098083"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Устранение неполадок внедренного приложения
 
@@ -101,7 +101,7 @@ HTTP/1.1 403 Forbidden
 
 ### <a name="authentication-failed-with-aadsts90002-tenant-authorize-not-found"></a>Сбой проверки подлинности с ошибкой AADSTS90002: Tenant 'authorize' not found (Клиент "авторизовать" не найден)
 
- Если при входе вы получаете сообщения, такие как ***error: invalid_request, error_description: AADSTS90002: Клиент "авторизовать" не найден***, это происходит из-за того, что ADAL 4.x не поддерживает "https://login.microsoftonline.com/{Tenant}/oauth2/authorize/" как URL-адрес центра.
+ Если при входе вы получаете сообщения, такие как ***error: invalid_request, error_description: AADSTS90002: Клиент "авторизовать" не найден** _, это происходит из-за того, что ADAL 4.x не поддерживает "https://login.microsoftonline.com/{Tenant}/oauth2/authorize/" в качестве URL-адреса центра.
  
 Чтобы устранить эту проблему, следует удалить часть "oauth2/authorize/" в конце URL-адреса центра (дополнительные сведения см. в [примерах для разработчиков Power BI](https://github.com/Microsoft/PowerBI-Developer-Samples)).
 
@@ -109,15 +109,15 @@ HTTP/1.1 403 Forbidden
 
 ### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>Сбой проверки подлинности с ошибкой AADSTS70002 или AADSTS50053
 
-**_(AADSTS70002: ошибка проверки учетных данных. AADSTS50053: слишком много попыток входа с неправильным идентификатором пользователя или паролем)_**
+_*_ (AADSTS70002: ошибка проверки учетных данных. AADSTS50053: слишком много попыток входа с неправильным идентификатором пользователя или паролем)_**
 
-Работая с Power BI Embedded и используя проверку подлинности Azure AD Direct, при входе будете получать такие сообщения, как ***error:unauthorized_client, error_description:AADSTS70002: ошибка проверки учетных данных. AADSTS50053: слишком много попыток входа с неправильным идентификатором пользователя или паролем***, это потому, что прямая проверка подлинности больше не используется с 14 июня 2018 года по умолчанию.
+Работая с Power BI Embedded и используя проверку подлинности Azure AD Direct, при входе будете получать такие сообщения, как **_error:unauthorized_client, error_description:AADSTS70002: ошибка проверки учетных данных. AADSTS50053: слишком много попыток входа с неправильным идентификатором пользователя или паролем_* _, это потому, что прямая проверка подлинности больше не используется с 14 июня 2018 года по умолчанию.
 
 Эту функцию можно включить снова с помощью [Политики Azure AD](/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications), которая применяется к организации или [субъект-службе](/azure/active-directory/develop/active-directory-application-objects#service-principal-object).
 
 Рекомендуется включать эту политику только для отдельных приложений.
 
-Чтобы создать эту политику, вы должны быть **глобальным администратором** для каталога, в котором создается и назначается политика. Ниже приведен пример сценария для создания политики и ее назначения пакету обновления для этого приложения:
+Чтобы создать эту политику, вы должны быть _ *глобальным администратором** для каталога, в котором создается и назначается политика. Ниже приведен пример сценария для создания политики и ее назначения пакету обновления для этого приложения:
 
 1. Установите [модуль PowerShell предварительной версии Azure AD](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0).
 

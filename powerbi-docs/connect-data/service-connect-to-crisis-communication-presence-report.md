@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 04/06/2020
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7cce4f9e78fce27fedf795a4a0016593580f061a
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e9fd1179dc15776cef701476d38b18823f3a8deb
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96403175"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96998806"
 ---
 # <a name="connect-to-the-crisis-communication-presence-report"></a>Подключение к отчету о присутствии для антикризисных коммуникаций
 
@@ -57,9 +57,6 @@ ms.locfileid: "96403175"
 
 1. Чтобы открыть приложение, щелкните его значок на странице "Приложения".
 
-1. На экране-заставке нажмите кнопку **Исследовать**.
-
-   ![Экран-заставка шаблона приложения](media/service-connect-to-crisis-communication-presence-report/service-crisis-communication-presence-report-app-splash-screen.png)
 
    Приложение откроется с образцом данных.
 
@@ -69,7 +66,7 @@ ms.locfileid: "96403175"
 
 1. В диалоговом окне выполните указанные ниже действия.
    1. В поле SharePoint_Folder введите [путь к списку SharePoint "CI_Employee Status"](/powerapps/maker/canvas-apps/sample-crisis-communication-app#monitor-office-absences-with-power-bi).
-   1. В поле List_ID введите идентификатор списка, полученный в параметрах списка. По завершении нажмите кнопку **Далее**.
+   1. В поле List_ID введите идентификатор списка, полученный в параметрах списка. По завершении нажмите кнопку **Далее**.
 
    ![Диалоговое окно для ввода URL-адреса в приложении "Отчет о присутствии для антикризисных коммуникаций"](media/service-connect-to-crisis-communication-presence-report/service-crisis-communication-presence-report-app-url-dialog.png)
 

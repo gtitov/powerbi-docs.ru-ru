@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 11/17/2020
+ms.date: 12/14/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: 2689597e35801d6829b29790309ea53ad410ff47
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 5c69abe925751e8b065f262e151bfee65c487238
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412030"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97492065"
 ---
 # <a name="export-power-bi-paginated-reports-with-power-automate"></a>Экспорт отчетов с разбивкой на страницы с помощью Power Automate
 
@@ -40,7 +40,7 @@ ms.locfileid: "96412030"
 
 - [Сохранение отчета с разбивкой на страницы в OneDrive для бизнеса или в папке SharePoint Online.](service-automate-paginated-onedrive-sharepoint.md)  
 - [Экспорт отчета Power BI с разбивкой на страницы для элементов в списке SharePoint Online или для каждой строки в таблице Excel Online.](service-automate-paginated-excel-sharepoint-list.md)
-- Сохранение отчета Power BI с разбивкой на страницы в локальной системной папке.
+- [Сохранение отчета Power BI с разбивкой на страницы в локальной системной папке](service-automate-paginated-local-file.md).
 
 ## <a name="next-steps"></a>Следующие шаги
 

@@ -9,12 +9,12 @@ ms.subservice: pbi-transform-model
 ms.topic: how-to
 ms.date: 06/10/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a3654bc77ebdbd41ef608378157bf0d24bb94c88
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: f4128939bd90f0b6514a792a60d583b830bea0d2
+ms.sourcegitcommit: 772c65b7b440ab082510bf3f64b871d19139d451
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96416124"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "97353457"
 ---
 # <a name="use-ai-insights-in-power-bi-desktop"></a>Использование Аналитики ИИ в Power BI Desktop
 
@@ -223,7 +223,7 @@ Power BI выбирает емкость Premium для запуска функ�
 
 В этой статье кратко описывается интеграция Машинного обучения в Power BI Desktop. Следующие статьи могут оказаться не менее интересными и полезными.
 
-- [Руководство. Вызов модели Студии машинного обучения (классической) в Power BI](../connect-data/service-tutorial-invoke-machine-learning-model.md)
+- [Руководство. Использование моделей Машинного обучения Azure в Power BI](../connect-data/service-aml-integrate.md)
 - [Руководство. Использование служб Cognitive Services в Power BI](../connect-data/service-tutorial-use-cognitive-services.md)
 - [Использование Cognitive Services в Power BI](./dataflows/dataflows-machine-learning-integration.md)
 - [Интеграция Машинного обучения Azure в Power BI](./dataflows/dataflows-machine-learning-integration.md)

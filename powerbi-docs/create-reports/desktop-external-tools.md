@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
-ms.date: 07/29/2020
+ms.date: 12/10/2020
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8742a65f662433eb4330a9dedbca54f4445e992b
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 98e27491147fa0e7ed7028925671d40a84fd9e6e
+ms.sourcegitcommit: 772c65b7b440ab082510bf3f64b871d19139d451
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412973"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "97353388"
 ---
 # <a name="using-external-tools-in-power-bi-desktop-preview"></a>Использование внешних инструментов в Power BI Desktop (предварительная версия)
 
@@ -32,6 +32,9 @@ ms.locfileid: "96412973"
 
 
 В следующих разделах описаны операции, поддерживаемые внешними инструментами, а также приведен список избранных инструментов, которые входят в состав Power BI Desktop, и инструкции по регистрации дополнительных инструментов.
+
+> [!NOTE]
+> Внешние средства недоступны для использования с Power BI Desktop версии "Сервер отчетов Power BI".
 
 ## <a name="supported-write-operations"></a>Поддерживаемые операции записи
 

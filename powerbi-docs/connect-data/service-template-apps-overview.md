@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
-ms.date: 05/04/2020
-ms.openlocfilehash: 5c897909d9fe31e4b22743a77058caba4767a579
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 12/14/2020
+ms.openlocfilehash: a11ac8edb9abab29f58c3e4eda15ae204d105b26
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96410144"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97491743"
 ---
 # <a name="what-are-power-bi-template-apps"></a>Что такое приложения-шаблоны Power BI?
 
@@ -98,6 +98,7 @@ ms.locfileid: "96410144"
 - Используйте AppSource в качестве интернет-магазина для размещения приложения. В этом случае приложение сможет найти любой пользователь Power BI. 
 - Рассмотрите возможность создания нескольких приложений-шаблонов для уникальных сценариев. 
 - Активируйте возможности настройки данных, например поддержку пользовательских подключений и конфигураций параметров в установщике.
+- Если вы являетесь независимым поставщиком программного обеспечения и распространяете приложение через веб-службу, рассмотрите возможность автоматизации настройки параметров во время установки, чтобы упростить работу клиентам и повысить вероятность успешной установки. Дополнительные сведения см. в разделе [Автоматическая настройка установки приложения-шаблона](../developer/template-apps/template-apps-auto-install.md).
 
 Дополнительные рекомендации см. в статье [Советы по созданию приложений-шаблонов в Power BI](service-template-apps-tips.md).
 

@@ -1,5 +1,5 @@
 ---
-title: Регистрация приложения для внедрения содержимого Power BI
+title: Регистрация приложения для внедрения содержимого Power BI приложение встроенной аналитики
 description: Узнайте, как зарегистрировать приложение в Azure Active Directory для использования внедренного содержимого Power BI.
 author: KesemSharabi
 ms.author: kesharab
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 04/02/2019
-ms.openlocfilehash: 845499bc236489932bf1347c43f7a5ba71c21a6b
-ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
+ms.openlocfilehash: 98956beb3e5a106b885ecbca187521f85917f25e
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "96907332"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97098221"
 ---
 # <a name="register-an-azure-ad-application-to-use-with-power-bi"></a>Регистрация приложения Azure AD для использования с Power BI
 

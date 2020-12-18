@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
-ms.openlocfilehash: bb48b92df81a49ee687376ee9f53428c10171b80
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: b20bb007c55f7d7d618b70690475d34d9f53fc06
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96410121"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97491720"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Советы по созданию приложений-шаблонов в Power BI
 
@@ -144,6 +144,10 @@ ms.locfileid: "96410121"
 Пример перенаправления пользователя на ссылку для скачивания приложения в Power BI: [репозиторий GitHub](https://github.com/microsoft/Template-apps-examples).
 
 [![Ссылка для скачивания приложения](media/service-template-apps-tips/service-template-apps-tips-download.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.pbiapps-github)
+
+## <a name="automate-parameter-configuration-during-installation"></a>Автоматизация настройки параметров во время установки
+
+Если вы являетесь независимым поставщиком программного обеспечения и распространяете приложение-шаблон через веб-службу, можно создать автоматизацию, которая автоматически настраивает параметры приложения-шаблона, когда клиенты устанавливают приложение в учетной записи Power BI. Это упрощает работу для клиентов и повышает вероятность успешной установки, поскольку им не нужно предоставлять сведения, которые им могут быть не известны. Дополнительные сведения см. в разделе [Автоматическая настройка установки приложения-шаблона](../developer/template-apps/template-apps-auto-install.md).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

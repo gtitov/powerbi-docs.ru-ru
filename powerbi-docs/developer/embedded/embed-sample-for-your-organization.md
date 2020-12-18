@@ -1,5 +1,5 @@
 ---
-title: Внедрение содержимого в приложение для организации
+title: Внедрение содержимого в приложение встроенной аналитики Power BI для организации
 description: Узнайте, как внедрять в приложение необходимые организации отчеты (Power BI или отчеты с разбивкой на страницы), панели мониторинга или плитки, используя программные интерфейсы API Power BI для встроенной аналитики. Узнайте, как выполнять интеграцию Power BI в приложение с помощью программного обеспечения и средств встроенной аналитики, а также средств встроенной бизнес-аналитики.
 author: KesemSharabi
 ms.author: kesharab
@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
-ms.openlocfilehash: f84270d76265da2877ae5d2e16289373235271b6
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: 223495b68f160b637f5bcf40b37f1f1a1365fffd
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94668702"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97098175"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Руководство. Внедрение содержимого Power BI в приложение для организации
 
@@ -114,7 +114,7 @@ ms.locfileid: "94668702"
 
     ![Файл Cloud.config](media/embed-sample-for-your-organization/embed-sample-for-your-organization-030.png)
 
-### <a name="application-id"></a>Идентификатор приложения
+### <a name="application-id"></a>Идентификатор приложения
 
 Укажите в поле **applicationId** значение **идентификатора приложения** из **Azure**. Поле **applicationId** используется приложением для его идентификации для пользователей, у которых запрашиваются разрешения.
 

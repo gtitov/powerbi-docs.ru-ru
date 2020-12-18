@@ -9,16 +9,17 @@ ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 11/17/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: 4a0a504db15d78bec112aaafd2a972f066e88193
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 6aaad48fb3e97aa6c1b4fc51834ee593a49a8192
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96407683"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97097738"
 ---
 # <a name="save-a-paginated-report-to-onedrive-for-business-or-sharepoint-online"></a>Сохранение отчета с разбивкой на страницы в OneDrive для бизнеса или SharePoint Online
 
 С помощью [Power Automate](/power-automate/getting-started) можно автоматизировать экспорт и распространение отчетов Power BI с разбивкой на страницы в разнообразные поддерживаемые форматы и сценарии. В этой статье описано, как автоматизировать сохранение отчета Power BI с разбивкой на страницы в OneDrive для бизнеса или в папке SharePoint Online с помощью Power Automate.
+
 
 :::image type="content" source="media/service-automate-paginated-onedrive-sharepoint/paginated-onedrive-flow.png" alt-text="Снимок экрана: поток Power Automate для сохранения отчета с разбивкой на страницы в OneDrive или SharePoint Online":::
 
@@ -28,7 +29,7 @@ ms.locfileid: "96407683"
 
 Для продолжения убедитесь, что у вас есть:
 
-- По крайней мере одна рабочая область в клиенте Power BI, поддерживаемая зарезервированной емкостью. Это может быть любой из номеров SKU A4/P1–A6/P3. Узнайте подробнее о [зарезервированных емкостях в Power BI Premium](../admin/service-premium-what-is.md).
+- По крайней мере одна рабочая область в клиенте Power BI, поддерживаемая зарезервированной емкостью. Это может быть любой из номеров SKU A4/P1–A6/P3. Узнайте подробнее о [зарезервированных емкостях для отчетов с разбивкой на страницы в Power BI Premium](../admin/service-premium-what-is.md#paginated-reports)
 - Доступ к стандартным соединителям в Power Automate, которые входят в состав любой подписки Office 365.
 
 ## <a name="save-a-paginated-report-to-onedrive-for-business-or-a-sharepoint-online-folder"></a>Сохранение отчета с разбивкой на страницы в OneDrive для бизнеса или в папке SharePoint Online 
@@ -69,7 +70,7 @@ ms.locfileid: "96407683"
 
 1. Когда все будет готово, выберите  **Следующий шаг** или **Сохранить**. Power Automate создает и оценивает последовательность, а также позволяет определить, обнаруживаются ли ошибки. 
 
-1. При возникновении ошибок выберите  **Изменить поток** , чтобы устранить их. В противном случае нажмите стрелку **Назад**, чтобы просмотреть сведения о потоке и запустить новый поток. 
+1. При возникновении ошибок выберите  **Изменить поток** , чтобы устранить их. В противном случае нажмите стрелку **Назад**, чтобы просмотреть сведения о потоке и запустить новый поток. 
 
     При запуске потока Power Automate экспортирует отчет с разбивкой на страницы в указанном формате в OneDrive для бизнеса или SharePoint Online.  
 

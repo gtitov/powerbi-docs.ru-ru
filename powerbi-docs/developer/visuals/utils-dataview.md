@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: 80c53b183f37dc09ee83ff20bd97f944bdcbc9b4
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: fc0ebf3d315b10bc14190a5ae01e8d389e2be0cc
+ms.sourcegitcommit: b5365df7fc32b7c49f8a2bf2cf75b5edd6bda9b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79379336"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97513742"
 ---
 # <a name="dataviewutils"></a>DataViewUtils
 
@@ -25,6 +25,22 @@ ms.locfileid: "79379336"
 Чтобы установить пакет, выполните следующую команду в каталоге с текущим пользовательским визуальным элементом:
 
 npm install powerbi-visuals-utils-dataviewutils --save Эта команда устанавливает пакет и добавляет его в качестве зависимости в файл package.json.
+
+## <a name="dataviewwildcard"></a>DataViewWildcard
+
+`DataViewWildcard` предоставляет функцию `createDataViewWildcardSelector` для поддержки [условного форматирования](conditional-format.md#define-how-conditional-formatting-behaves) свойства.
+
+`createDataViewWildcardSelector` возвращает селектор, необходимый для определения того, как будет применена запись условного форматирования на панели формата на основе `dataviewWildcardMatchingOption (InstancesAndTotals (default), InstancesOnly, TotalsOnly)`.
+
+Пример
+
+ ```typescript
+import { dataViewWildcard } from "powerbi-visuals-utils-dataviewutils";
+
+let selector = dataViewWildcard.createDataViewWildcardSelector(dataViewWildcard.DataViewWildcardMatchingOption.InstancesAndTotals);
+// returns {data: [{dataViewWildcard:{matchingOption: 0}}]};
+
+```
 
 ## <a name="datarolehelper"></a>DataRoleHelper
 
@@ -40,7 +56,7 @@ npm install powerbi-visuals-utils-dataviewutils --save Эта команда у�
 function getMeasureIndexOfRole(grouped: DataViewValueColumnGroup[], roleName: string): number;
 ```
 
-Пример.
+Пример
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -85,7 +101,7 @@ dataRoleHelper.getMeasureIndexOfRole(columnGroup, "product");
 function getCategoryIndexOfRole(categories: DataViewCategoryColumn[], roleName: string): number;
 ```
 
-Пример.
+Пример
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -128,7 +144,7 @@ dataRoleHelper.getCategoryIndexOfRole(categoryGroup, "product");
 function hasRole(column: DataViewMetadataColumn, name: string): boolean;
 ```
 
-Пример.
+Пример
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -156,7 +172,7 @@ DataRoleHelper.hasRole(metadata, "company");
 function hasRoleInDataView(dataView: DataView, name: string): boolean;
 ```
 
-Пример.
+Пример
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -196,7 +212,7 @@ DataRoleHelper.hasRoleInDataView(dataView, "product");
 function hasRoleInValueColumn(valueColumn: DataViewValueColumn, name: string): boolean;
 ```
 
-Пример.
+Пример
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -233,7 +249,7 @@ dataRoleHelper.hasRoleInValueColumn(valueColumn, "company");
 function getValue<T>(objects: DataViewObjects, propertyId: DataViewObjectPropertyIdentifier, defaultValue?: T): T;
 ```
 
-Пример.
+Пример
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -266,7 +282,7 @@ dataViewObjects.getValue(objects, property);
 function getObject(objects: DataViewObjects, objectName: string, defaultValue?: IDataViewObject): IDataViewObject;
 ```
 
-Пример.
+Пример
 
 ```typescript
 import { dataViewObjects } from "powerbi-visuals-utils-dataviewutils";
@@ -296,7 +312,7 @@ dataViewObjects.getObject(objects, "microsoft");
 function getFillColor(objects: DataViewObjects, propertyId: DataViewObjectPropertyIdentifier, defaultColor?: string): string;
 ```
 
-Пример.
+Пример
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -333,7 +349,7 @@ dataViewObjects.getFillColor(objects, property);
 function getCommonValue(objects: DataViewObjects, propertyId: DataViewObjectPropertyIdentifier, defaultValue?: any): any;
 ```
 
-Пример.
+Пример
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -380,7 +396,7 @@ dataViewObjects.getCommonValue(objects, biProperty); // returns: Power
 function getValue<T>(object: IDataViewObject, propertyName: string, defaultValue?: T): T;
 ```
 
-Пример.
+Пример
 
 ```typescript
 import { dataViewObject } from "powerbi-visuals-utils-dataviewutils";
@@ -404,7 +420,7 @@ dataViewObject.getValue(object, "microsoft");
 function getFillColorByPropertyName(object: IDataViewObject, propertyName: string, defaultColor?: string): string;
 ```
 
-Пример.
+Пример
 
 ```typescript
 import { dataViewObject } from "powerbi-visuals-utils-dataviewutils";
@@ -438,7 +454,7 @@ dataViewObject.getFillColorByPropertyName(object, "fillColor");
 function categoryIsAlsoSeriesRole(dataView: DataViewCategorical, seriesRoleName: string, categoryRoleName: string): boolean;
 ```
 
-Пример.
+Пример
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -474,7 +490,7 @@ converterHelper.categoryIsAlsoSeriesRole(categorical, "power", "bi");
 function getSeriesName(source: DataViewMetadataColumn): PrimitiveValue;
 ```
 
-Пример.
+Пример
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -504,7 +520,7 @@ converterHelper.getSeriesName(metadata);
 function isImageUrlColumn(column: DataViewMetadataColumn): boolean;
 ```
 
-Пример.
+Пример
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -534,7 +550,7 @@ converterHelper.isImageUrlColumn(metadata);
 function isWebUrlColumn(column: DataViewMetadataColumn): boolean;
 ```
 
-Пример.
+Пример
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -564,7 +580,7 @@ converterHelper.isWebUrlColumn(metadata);
 function hasImageUrlColumn(dataView: DataView): boolean;
 ```
 
-Пример.
+Пример
 
 ```typescript
 import DataView = powerbi.DataView;
@@ -608,7 +624,7 @@ converterHelper.hasImageUrlColumn(dataView);
 static getDefault(): DataViewObjectsParser;
 ```
 
-Пример.
+Пример
 
 ```typescript
 import { dataViewObjectsParser } from "powerbi-visuals-utils-dataviewutils";
@@ -675,7 +691,7 @@ export class YourVisual extends IVisual {
 static enumerateObjectInstances(dataViewObjectParser: dataViewObjectsParser.DataViewObjectsParser, options: EnumerateVisualObjectInstancesOptions): VisualObjectInstanceEnumeration;
 ```
 
-Пример.
+Пример
 
 ```typescript
 import powerbi from "powerbi-visuals-api";

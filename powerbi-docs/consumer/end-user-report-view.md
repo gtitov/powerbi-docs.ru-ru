@@ -9,12 +9,12 @@ ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 09/27/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: ea537e19eb7c3ab2a155f417af92e45841031f89
-ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
+ms.openlocfilehash: 79658c2296ac2ae189680c9d8c778046778a882e
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "96781642"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96998560"
 ---
 # <a name="change-the-display-of-a-report-page"></a>Изменение отображения страницы отчета
 
@@ -58,7 +58,7 @@ ms.locfileid: "96781642"
 
 С помощью элементов управления масштабированием в браузере можно уменьшать и увеличивать доступную область холста. Уменьшение масштаба приводит к увеличению доступной области холста, и наоборот. 
 
-![короткое видео, демонстрирующее использование элементов управления масштабированием в браузере](media/end-user-report-view/power-bi-zoom.png)
+![элементы управления масштабом браузера](media/end-user-report-view/power-bi-zoom.png)
 
 Чтобы изменить отображаемый размер отчета, можно также изменить размер всего окна браузера. 
 

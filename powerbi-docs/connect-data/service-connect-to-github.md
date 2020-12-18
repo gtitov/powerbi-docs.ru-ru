@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/19/2020
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e92afdbad41f212ac93245583430ae44fe0abaf9
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: f0d756b7909043a644ab8220cd71a9fca9b1c0e0
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96410650"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96998714"
 ---
 # <a name="connect-to-github-with-power-bi"></a>Подключение к GitHub с помощью Power BI
 Эта статья описывает извлечение данных из учетной записи GitHub с помощью приложения-шаблона Power BI. Приложение-шаблон создает рабочую область с панелью мониторинга, набор отчетов и набор данных, которые позволяют анализировать ваши данные GitHub. Приложение GitHub для Power BI позволяет анализировать данные в репозитории GitHub, используя информацию о вкладах пользователей, проблемах, запросах на вытягивание и активных пользователях.
@@ -41,7 +41,7 @@ ms.locfileid: "96410650"
 
 1. Выберите пункт **Установить**. 
 
-    ![Установка приложения-шаблона GitHub](media/service-connect-to-github/service-regional-emergency-response-select-install.png)
+    ![Установка приложения-шаблона GitHub](media/service-connect-to-github/power-bi-github-install-dialog.png)
 
     После установки приложения оно появится на странице "Приложения".
 
@@ -51,30 +51,23 @@ ms.locfileid: "96410650"
 
 1. Чтобы открыть приложение, щелкните его значок на странице "Приложения".
 
-1. На экране-заставке нажмите кнопку **Исследовать приложение**.
-
-   ![Экран-заставка шаблона приложения](media/service-connect-to-github/service-github-app-splash-screen.png)
-
    Приложение откроется с образцом данных.
 
 1. Щелкните ссылку **Подключите свои данные** в баннере в верхней части страницы.
 
    ![Ссылка "Подключите свои данные" в приложении GitHub](media/service-connect-to-github/service-github-app-connect-data.png)
 
-1. В появившемся диалоговом окне введите имя репозитория и владельца репозитория. Сведения о том, как найти необходимые параметры, см. [ниже](#FindingParams). По завершении нажмите кнопку **Далее**.
+1. Она открывает диалоговое окно параметров, в котором вы можете изменить источник данных на свой собственный (см. сведения об [известных ограничениях](service-template-apps-overview.md#known-limitations)), а после — диалоговое окно способа проверки подлинности. Возможно, вам потребуется переопределить значения в этих диалоговых окнах.
 
-   ![Имя репозитория Power BI в GitHub](media/service-connect-to-github/power-bi-github-app-tutorial-connect.png)
+   ![Снимок экрана: диалоговые окна подключения к данным.](media/service-connect-to-github/power-bi-template-app-connect-to-data-dialogs.png)
 
-1. В следующем диалоговом окне выберите метод проверки подлинности **OAuth2**. Параметры конфиденциальности изменять не нужно. Когда все будет готово, нажмите **Войти**.
-
-   ![Метод проверки подлинности Power BI GitHub](media/service-connect-to-github/power-bi-github-authentication.png)
 
 1. Введите учетные данные GitHub и пройдите проверку подлинности GitHub (этот шаг можно пропустить, если вы уже выполнили вход в браузере).
 
    ![Процесс проверки подлинности Power BI GitHub](media/service-connect-to-github/power-bi-github-authenticate-process.png)
 
 
-После входа отчет подключится к источникам данных и заполнится актуальными данными. В течение этого времени вращается индикатор активности.
+По завершении ввода данных в диалоговых окнах подключения и входа в GitHub начинается процесс подключения. Баннер информирует о том, что данные обновляются и в это время вы просматриваете демонстрационные данные.
 
 ![Обновление приложения Power BI GitHub](media/service-connect-to-github/service-github-app-refresh-monitor.png)
 
@@ -142,4 +135,4 @@ ms.locfileid: "96410650"
 * [Create the new workspaces in Power BI](../collaborate-share/service-create-the-new-workspaces.md) (Создание рабочих областей новой версии в Power BI)
 * [Установка и использование приложений с информационными панелями и отчетами в Power BI](../consumer/end-user-apps.md)
 * [Подключение к приложениям Power BI для внешних служб](service-connect-to-services.md)
-* Вопросы? [Задайте их в сообществе Power BI](https://community.powerbi.com/).
+* У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

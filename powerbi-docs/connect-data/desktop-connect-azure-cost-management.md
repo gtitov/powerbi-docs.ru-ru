@@ -8,14 +8,14 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: how-to
-ms.date: 09/30/2020
+ms.date: 12/10/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fa06b1d561c770c3b9e0535e94789931a74bd9df
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 6d99e91657d0c5f0bbd1e9c665f00d16c34ba24f
+ms.sourcegitcommit: 772c65b7b440ab082510bf3f64b871d19139d451
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411478"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "97353250"
 ---
 # <a name="create-visuals-and-reports-with-the-azure-cost-management-connector-in-power-bi-desktop"></a>Создание визуальных элементов и отчетов с помощью соединителя "Управление затратами Azure" в Power BI Desktop
 
@@ -56,7 +56,7 @@ ms.locfileid: "96411478"
 
     ![Снимок экрана: свойства службы "Управление затратами Azure" с областью "Идентификатор профиля выставления счетов".](media/desktop-connect-azure-cost-management/azure-cost-management-01a.png)
 
-7.  При появлении запроса войдите в систему с помощью учетной записи пользователя Azure и пароля. 
+7.  При появлении запроса войдите в систему с помощью учетной записи пользователя Azure и пароля. Для доступа необходимо указать владельца учетной записи выставления счетов. 
 
 
 ## <a name="connect-to-an-enterprise-agreement-account"></a>Подключение к учетной записи Соглашения Enterprise
@@ -71,13 +71,11 @@ ms.locfileid: "96411478"
 
     ![Снимок экрана: свойства службы "Управление затратами Azure" с областью "Номер соглашения о регистрации".](media/desktop-connect-azure-cost-management/azure-cost-management-01b.png)
 
-6.  При появлении запроса войдите в систему с помощью учетной записи пользователя Azure и пароля. 
+6.  При появлении запроса войдите в систему с помощью учетной записи пользователя Azure и пароля. Для корпоративных соглашений необходимо использовать учетную запись администратора предприятия.
 
 ## <a name="data-available-through-the-connector"></a>Данные, доступные через соединитель
 
 После успешного прохождения проверки подлинности появится окно **Навигатор** со следующими таблицами данных:
-
-
 
 | **Таблица** | **Описание** |
 | --- | --- |

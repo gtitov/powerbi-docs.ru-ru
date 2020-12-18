@@ -1,5 +1,5 @@
 ---
-title: API экспорта отчетов Power BI с разбивкой на страницы
+title: Экспорт API отчетов встроенной аналитики Power BI с разбивкой на страницы
 description: Узнайте, как экспортировать внедренный отчет с разбивкой на страницы из Power BI
 author: KesemSharabi
 ms.author: kesharab
@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 04/05/2020
-ms.openlocfilehash: 908aa715c31396485bcebfaa7227f3241cb02fb8
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: 590d7e8dfe2739996a40a87ebffd2d236ea6a371
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94668564"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97098060"
 ---
 # <a name="export-paginated-report-to-file-preview"></a>Экспорт отчета с разбивкой на страницы в файл (предварительная версия)
 

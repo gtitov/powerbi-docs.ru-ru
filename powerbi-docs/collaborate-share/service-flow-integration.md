@@ -1,5 +1,5 @@
 ---
-title: Интеграция оповещений о данных с Power Automate
+title: Интеграция оповещений о данных Power BI с Power Automate
 description: Сведения о том, как создавать потоки Power Automate, которые активируются оповещениями о данных Power BI.
 author: maggiesMSFT
 ms.author: maggies
@@ -7,16 +7,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 11/09/2020
+ms.date: 12/08/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: 65c7c00a705ed95c26c32a4fc5bcb9e0c18c13bf
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 8f73bd959691ea8359a8584966e0b83f439d8652
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96407177"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97097646"
 ---
-# <a name="integrate-data-alerts-with-power-automate"></a>Интеграция оповещений о данных с Power Automate
+# <a name="integrate-power-bi-data-alerts-with-power-automate"></a>Интеграция оповещений о данных Power BI с Power Automate
 
 Используйте [Power Automate](/power-automate/getting-started), чтобы интегрировать Power BI с вашими избранными приложениями и службами. С помощью Power Automate можно создавать автоматизированный рабочие процесс, чтобы получать уведомления, синхронизировать файлы, собирать данные и делать многое другое. В этой статье описывается, как автоматизировать создание сообщений электронной почты на основе оповещений о данных Power BI.
 
@@ -88,8 +88,7 @@ ms.locfileid: "96407177"
    
     ![Снимок экрана: Power Automate активирует уведомление в Outlook.](media/service-flow-integration/power-bi-flow-notice.png)
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 * [Начало работы с Power Automate](/power-automate/getting-started/)
-* [Настройка оповещений о данных в службе Power BI](../create-reports/service-set-data-alerts.md)
-* [Настройка оповещений о данных на устройстве iPhone](../consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
+* [Экспорт отчета Power BI и его отправка по электронной почте с помощью Power Automate](service-automate-power-bi-report-export.md)
 * Остались вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)

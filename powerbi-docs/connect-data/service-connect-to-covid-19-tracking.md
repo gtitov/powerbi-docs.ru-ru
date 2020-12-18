@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 04/05/2020
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 19dc9f5c5adfa5853d98cd6b0ef427c8bccebada
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: fc421f7635a3d6e3b2336d5bce081d7914c0fad5
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96410627"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96998871"
 ---
 # <a name="connect-to-the-covid-19-us-tracking-report"></a>Подключение к отчету по отслеживанию COVID-19 в США
 В этой статье рассказывается, как установить шаблон приложение для отчета по отслеживанию COVID-19 и как подключиться к источникам данных.
@@ -28,9 +28,9 @@ ms.locfileid: "96410627"
 
 1. Щелкните следующую ссылку, чтобы перейти к приложению: [шаблон приложения "Отчет по отслеживанию COVID-19 в США"](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.covid19ms)
 
-1. На странице приложения в AppSource нажмите кнопку [**Получить**](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.covid19ms).
+1. На странице приложения в AppSource нажмите кнопку [**ПОЛУЧИТЬ**](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.covid19ms).
 
-    [![Приложение "Отчет по отслеживанию COVID-19 в США" в Appsource](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-appsource-icon.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.covid19ms)
+    [![Приложение "Отчет по отслеживанию COVID-19 в США" в AppSource](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-appsource-icon.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.covid19ms)
 
 1. При появлении запроса нажмите кнопку **Установить**. После установки приложения оно появится на странице "Приложения".
 
@@ -38,11 +38,11 @@ ms.locfileid: "96410627"
 
 ## <a name="connect-to-data-sources"></a>подключение к источникам данных.
 
-1. Чтобы открыть приложение, щелкните его значок на странице "Приложения".
+1. Чтобы открыть приложение, щелкните его значок на странице "Приложения". Приложение откроется с образцом данных.
 
-1. На экране-заставке нажмите **Подключить**.
+1. Щелкните ссылку **Подключите свои данные** в баннере в верхней части страницы.
 
-   ![Экран-заставка шаблона приложения](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-splash-screen.png)
+   ![Ссылка "Подключите свои данные" в приложении GitHub](media/service-connect-to-covid-19-tracking/power-bi-covid-19-connect-data.png)
 
 1. Появится диалоговое окно "Параметры". Обязательные параметры отсутствуют. Нажмите кнопку **Далее**.
 

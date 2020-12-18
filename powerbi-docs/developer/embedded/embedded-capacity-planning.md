@@ -1,5 +1,5 @@
 ---
-title: Планирование ресурсов для аналитики Embedded
+title: Планирование ресурсов для встроенной аналитики Power BI
 description: Планирование ресурсов в аналитике Power BI Embedded.
 author: KesemSharabi
 ms.author: kesharab
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 03/03/2020
-ms.openlocfilehash: 23f58c047eeb47fce24ad38ae54d8f4d7a1c57e7
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: b172b48517ccc8c55821fa8e8217d5e2df398b2d
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91983052"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97098359"
 ---
 # <a name="capacity-planning-in-power-bi-embedded-analytics"></a>Планирование ресурсов в аналитике Power BI Embedded
 
@@ -27,7 +27,7 @@ ms.locfileid: "91983052"
 * частота обновления данных;
 * дополнительные шаблоны использования, которые трудно прогнозировать.
 
-Эта статья поможет вам облегчить планирование ресурсов для аналитики Power BI Embedded с помощью [средства оценки нагрузки для емкости Power BI](https://github.com/microsoft/PowerBI-Tools-For-Capacities/tree/master/LoadTestingPowerShellTool/), созданного для автоматизации нагрузочного тестирования ресурсов аналитики Power BI Embedded (номера SKU *A* , *EM* и *P* ).
+Эта статья поможет вам облегчить планирование ресурсов для аналитики Power BI Embedded с помощью [средства оценки нагрузки для емкости Power BI](https://github.com/microsoft/PowerBI-Tools-For-Capacities/tree/master/LoadTestingPowerShellTool/), созданного для автоматизации нагрузочного тестирования ресурсов аналитики Power BI Embedded (номера SKU *A*, *EM* и *P*).
 
 ## <a name="planning-tool"></a>Средство планирования
 
@@ -52,7 +52,7 @@ ms.locfileid: "91983052"
 Чтобы увидеть результаты нагрузочного теста в приложении метрик после выполнения этого теста, следуйте приведенным ниже инструкциям. Нагрузка начнет отображаться в метриках примерно через 15 минут после того, как тест начнет создавать нагрузку.
 
 1. Разверните вкладку **Наборы данных** на [целевой странице](../../admin/service-admin-premium-monitor-capacity.md) приложения метрик.
-2. Выполните обновление по запросу, нажав кнопку **Обновить сейчас** . Это должны делать администраторы.
+2. Выполните обновление по запросу, нажав кнопку **Обновить сейчас**. Это должны делать администраторы.
 
     ![Метрики емкости Power BI Premium](media/embedded-capacity-planning/embedded-capacity-planning.png)
 

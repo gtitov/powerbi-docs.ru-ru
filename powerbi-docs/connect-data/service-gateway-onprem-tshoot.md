@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: troubleshooting
-ms.date: 09/25/2020
+ms.date: 12/10/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: 045d7df36deefae5c323e88d0ddf3053ea56682e
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: de8d24af0dbaa0ed4b27efca140cf29acda9df76
+ms.sourcegitcommit: 772c65b7b440ab082510bf3f64b871d19139d451
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91634649"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "97353424"
 ---
 # <a name="troubleshoot-gateways---power-bi"></a>Устранение неполадок со шлюзами — Power BI
 
@@ -238,6 +238,37 @@ The username or password is incorrect.
 * Убедитесь, что вы указали сервер SAP HANA на вкладке делегирования в Active Directory для учетной записи службы шлюза.
 
    ![Вкладка делегирования](media/service-gateway-onprem-tshoot/delegation-in-AD.png)
+
+## <a name="export-logs-for-a-support-ticket"></a>Экспорт журналов для запроса в службу поддержки
+
+Журналы шлюзов необходимы для устранения неполадок и создания запроса в службу поддержки. Чтобы извлечь эти журналы, выполните следующие действия.
+
+1. Найдите кластер шлюза.
+
+    Если вы являетесь владельцем набора данных, сначала проверьте имя кластера шлюза, связанного с набором данных. На следующем рисунке кластером шлюза является *IgniteGateway*.
+
+    ![Кластер шлюза](media/service-gateway-onprem-tshoot/gateway-cluster.png)
+
+2. Проверьте свойства шлюза.
+
+    Администратор шлюза должен проверить число участников шлюза в кластере и включить балансировку нагрузки.
+
+    Если балансировка нагрузки включена, шаг 3 следует повторить для всех участников шлюза. Если он не включен, то достаточно экспортировать журналы на основном шлюзе.
+
+3. Извлеките и экспортируйте журналы шлюза.
+
+    Затем администратор шлюза, который также является администратором системы шлюза, должен выполнить следующие действия.
+
+    а. Войдите на компьютер шлюза и запустите [локальное приложение шлюза данных](https://review.docs.microsoft.com/data-integration/gateway/service-gateway-app) для входа в шлюз.
+    
+    b. Включите параметр [Дополнительное ведение журнала](https://review.docs.microsoft.com/data-integration/gateway/service-gateway-performance#slow-performing-queries).
+    
+    c. При необходимости можно [включить функции наблюдения за производительностью](https://review.docs.microsoft.com/data-integration/gateway/service-gateway-performance#enable-performance-logging) и включить журналы производительности, чтобы предоставить дополнительные сведения для устранения неполадок.
+    
+    d. Запустите сценарий, для которого вы пытаетесь записать журналы шлюза.
+    
+    д) [Экспортируйте журналы шлюза](https://review.docs.microsoft.com/data-integration/gateway/service-gateway-tshoot#collect-logs-from-the-on-premises-data-gateway-app).
+
 
 ## <a name="refresh-history"></a>Журнал обновлений
 

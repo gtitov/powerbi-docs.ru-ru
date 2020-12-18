@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 06/23/2020
-ms.openlocfilehash: df5e82af012f4d85fd81399d6e31fde3b7539ce6
-ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
+ms.openlocfilehash: 902fb0534eee307a84b24fe30496a32cccadb147
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "95513833"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97097991"
 ---
 # <a name="configure-credentials-programmatically-for-power-bi"></a>Программная настройка учетных данных для Power BI
 
@@ -80,7 +80,7 @@ ms.locfileid: "95513833"
 
     # <a name="net-sdk-v3"></a>[Пакет SDK версии 3 для .NET](#tab/sdk3)
 
-    Используйте класс AssymetricKeyEncriptor с открытым ключом, полученным в **шаге 3**.
+    Используйте класс AssymetricKeyEncryptor с открытым ключом, полученным в **шаге 3**.
 
     ```csharp
     var credentialDetails = new CredentialDetails(

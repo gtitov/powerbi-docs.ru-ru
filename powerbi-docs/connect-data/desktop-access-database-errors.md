@@ -8,14 +8,14 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: how-to
-ms.date: 10/21/2019
+ms.date: 12/09/2020
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: f8d24c672fa3e9d5cda007e061eac8c4ea9c6d4c
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: b144412ee322aa9bec0a35bb3876a949abcd3f13
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96406050"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96998905"
 ---
 # <a name="troubleshoot-importing-access-and-excel-xls-files-in-power-bi-desktop"></a>Устранение неполадок с импортом XLS-файлов Excel и Access в Power BI Desktop
 
@@ -24,6 +24,8 @@ ms.locfileid: "96406050"
 ## <a name="situation-1-no-access-database-engine-is-installed"></a>Ситуация 1. Ядро СУБД Access не установлено
 
 Когда сообщение об ошибке Power BI Desktop указывает на отсутствие установленного ядра СУБД Access, необходимо установить 32-разрядную или 64-разрядную версию ядра СУБД Access, соответствующую используемой версии Power BI Desktop. Ядро СУБД Access можно установить со [страницы загрузки](https://www.microsoft.com/download/details.aspx?id=13255).
+
+Если вы работаете с потоками данных и используете шлюз для подключения к данным, необходимо установить ядро СУБД Access на компьютере, на котором выполняется шлюз. 
 
 >[!NOTE]
 >Когда разрядность установленной версии ядра СУБД Access отличается от разрядности установки Microsoft Office, приложения Office не смогут использовать ядро СУБД Access.

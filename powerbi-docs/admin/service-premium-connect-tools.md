@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 12/01/2020
+ms.date: 12/09/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: b238daa82bc2ae039c137c259ca8f63044281e6f
-ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
+ms.openlocfilehash: 383c9bd20c86d89c5bf51c64c8027f86c1bfaab9
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "96613723"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96998974"
 ---
 # <a name="dataset-connectivity-with-the-xmla-endpoint"></a>Возможность подключения к набору данных с помощью конечной точки XMLA
 
@@ -34,9 +34,9 @@ Power BI Premium использует протокол [XML для аналит
 
 Ниже приведены некоторые из наиболее распространенных средств, которые используются для Azure Analysis Services и SQL Server Analysis Services и теперь поддерживаются наборами данных Power BI Premium.
 
-**Visual Studio с поддержкой проектов Analysis Services**  (другое название — SQL Server Data Tools, или просто **SSDT**) — это средство разработки моделей корпоративного класса для табличных моделей Analysis Services. Расширения проектов Analysis Services поддерживаются во всех выпусках Visual Studio 2017 и более поздних версий, включая бесплатный выпуск Community. Для развертывания табличных моделей в рабочей области Premium требуется расширение версии 2.9.6 или более новой. При развертывании в рабочей области Premium уровень совместимости модели должен быть не менее 1500. Для рабочей нагрузки наборов данных требуется доступ для чтения и записи по протоколу XMLA. Дополнительные сведения см. в статье [Средства для Analysis Services](/analysis-services/tools-and-applications-used-in-analysis-services?view=power-bi-premium-current&preserve-view=true).
+**Visual Studio с поддержкой проектов Analysis Services**  (другое название — SQL Server Data Tools, или просто **SSDT**) — это средство разработки моделей корпоративного класса для табличных моделей Analysis Services. Расширения проектов Analysis Services поддерживаются во всех выпусках Visual Studio 2017 и более поздних версий, включая бесплатный выпуск Community. Для развертывания табличных моделей в рабочей области Premium требуется расширение версии 2.9.14 или более поздней. При развертывании в рабочей области Premium уровень совместимости модели должен быть не менее 1500. Для рабочей нагрузки наборов данных требуется доступ для чтения и записи по протоколу XMLA. Дополнительные сведения см. в статье [Средства для Analysis Services](/analysis-services/tools-and-applications-used-in-analysis-services?view=power-bi-premium-current&preserve-view=true).
 
-**SQL Server Management Studio (SSMS)**   — поддерживает запросы DAX, многомерные выражения и XMLA. Выполнение операций точного обновления и создание скриптов для метаданных набора данных с помощью [языка сценариев табличной модели](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference) (TMSL). Для операций запроса требуется доступ только для чтения. Для создания скриптов для метаданных требуется доступ для чтения и записи. При этом требуется SSMS версии 18.4 или более новой. Загрузите это средство  [здесь](/sql/ssms/download-sql-server-management-studio-ssms).
+**SQL Server Management Studio (SSMS)**   — поддерживает запросы DAX, многомерные выражения и XMLA. Выполнение операций точного обновления и создание скриптов для метаданных набора данных с помощью [языка сценариев табличной модели](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference) (TMSL). Для операций запроса требуется доступ только для чтения. Для создания скриптов для метаданных требуется доступ для чтения и записи. При этом требуется SSMS версии 18.7.1 или более поздней. Загрузите это средство  [здесь](/sql/ssms/download-sql-server-management-studio-ssms).
 
 **SQL Server Profiler**  — это средство (устанавливается вместе с SSMS) обеспечивает трассировку и отладку событий набора данных. Хотя средство Profiler признано нерекомендуемым для SQL Server, оно по-прежнему входит в состав SSMS и поддерживается для Analysis Services и Power BI Premium. Требуется доступ только для чтения по протоколу XMLA. Дополнительные сведения см. в статье об  [SQL Server Profiler для Analysis Services](/analysis-services/instances/use-sql-server-profiler-to-monitor-analysis-services?view=power-bi-premium-current&preserve-view=true).
 

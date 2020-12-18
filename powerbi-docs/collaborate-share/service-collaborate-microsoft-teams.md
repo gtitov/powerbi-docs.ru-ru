@@ -9,13 +9,13 @@ ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 09/15/2020
-ms.openlocfilehash: bcd7d94e4fd3d50277ddd2a33c1d10407b9400de
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 12/14/2020
+ms.openlocfilehash: 80aa8097ce38a9b1bac228ea61dcc959e4aba60d
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412007"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97492019"
 ---
 # <a name="collaborate-in-microsoft-teams-with-power-bi"></a>Совместная работа в Microsoft Teams с использованием Power BI
 
@@ -23,7 +23,7 @@ ms.locfileid: "96412007"
 
 - С помощью вкладки **Power BI** для Microsoft Teams можно [внедрять интерактивные отчеты в каналы и чаты Microsoft Teams](service-embed-report-microsoft-teams.md). На вкладке Power BI ваши коллеги могут найти данные вашей команды и обсуждать данные в каналах команд. 
 - Создайте [предварительный просмотр ссылок](service-teams-link-preview.md) при вставке ссылок на отчеты, панели мониторинга и приложения в поле сообщения Microsoft Teams, в которых отображаются сведения о ссылке. 
-- Используйте кнопку [Поделиться в Microsoft Teams](service-share-report-teams.md), чтобы быстро начать беседу при просмотре отчетов и панелей мониторинга в Power BI.
+- Используйте кнопку [Чат в Microsoft Teams](service-share-report-teams.md), чтобы быстро начать беседу при просмотре отчетов и панелей мониторинга в Power BI.
 - Используйте [приложение Power BI в Microsoft Teams](service-microsoft-teams-app.md), чтобы пользоваться всеми основными возможностями службы Power BI в Microsoft Teams.
  
 :::image type="content" source="media/service-collaborate-microsoft-teams/power-bi-embed-teams-report.png" alt-text="Снимок экрана: отчет Power BI, внедренный в канал Microsoft Teams.":::
@@ -70,6 +70,6 @@ ms.locfileid: "96412007"
 
 - [Внедрение содержимого Power BI в Microsoft Teams](service-embed-report-microsoft-teams.md)
 - [Получение предварительного просмотра ссылок Power BI в Microsoft Teams](service-teams-link-preview.md)
-- [Представление общего доступа непосредственно в Microsoft Teams из службы Power BI](service-share-report-teams.md)
+- [Чат непосредственно в Microsoft Teams из службы Power BI](service-share-report-teams.md)
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в Сообществе Power BI](https://community.powerbi.com/).

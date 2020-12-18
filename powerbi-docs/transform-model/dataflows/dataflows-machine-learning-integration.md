@@ -9,12 +9,12 @@ ms.subservice: pbi-dataflows
 ms.topic: how-to
 ms.date: 10/01/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: 60214c16cbd287a30631e7ad9fbab274cb8f4cb0
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 22fa980230b01132c8cb4faa6e7e959409f19f1b
+ms.sourcegitcommit: 772c65b7b440ab082510bf3f64b871d19139d451
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96414307"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "97353135"
 ---
 # <a name="ai-with-dataflows"></a>ИИ с потоками данных
 
@@ -456,7 +456,7 @@ AutoML формирует отчет Power BI, в котором собраны 
 
 - [Руководство. Создание модели машинного обучения в Power BI](../../connect-data/service-tutorial-build-machine-learning-model.md)
 - [Руководство. Использование служб Cognitive Services в Power BI](../../connect-data/service-tutorial-use-cognitive-services.md)
-- [Руководство. Вызов модели Студии машинного обучения (классической) в Power BI (предварительная версия)](../../connect-data/service-tutorial-invoke-machine-learning-model.md)
+- [Руководство. Использование моделей Машинного обучения Azure в Power BI](../../connect-data/service-aml-integrate.md)
 
 Дополнительные сведения о потоках данных и Power BI вы можете получить в следующих статьях.
 
