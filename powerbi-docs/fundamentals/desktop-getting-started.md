@@ -4,18 +4,18 @@ description: Начало работы с Power BI Desktop.
 author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
-ms.custom: contperfq1
+ms.custom: contperf-fy21q1
 ms.service: powerbi
 ms.subservice: pbi-fundamentals
 ms.topic: tutorial
 ms.date: 12/14/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: e9bb735668290068e0503f3823fe35482437f9c0
-ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
+ms.openlocfilehash: 749b6601d4602ad2737cebb6c68bb98274d784d1
+ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97492249"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "97622000"
 ---
 # <a name="get-started-with-power-bi-desktop"></a>Начало работы с Power BI Desktop
 Добро пожаловать в руководство по началу работы с Power BI Desktop. Этот обзор знакомит вас с принципами работы и возможностями Power BI Desktop. В нем также показано, как создавать надежные модели данных и потрясающие отчеты, чтобы повысить эффективность бизнес-аналитики.

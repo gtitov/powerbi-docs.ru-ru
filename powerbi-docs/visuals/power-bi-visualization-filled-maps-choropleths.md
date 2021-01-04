@@ -10,12 +10,12 @@ ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 12/05/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 748e13a509bc3689122c8622f9ce26536f850a68
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: bfcd684e4899edb5555a784c7148a7abc9b0f29c
+ms.sourcegitcommit: 5c09d121d3205e65fb33a2eca0e60bc30e777773
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418332"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "97675311"
 ---
 # <a name="create-and-use-filled-maps-choropleth-maps-in-power-bi"></a>Создание и использование картограмм (хороплетов) в Power BI
 
@@ -125,7 +125,6 @@ Power BI позволяет контролировать внешний вид �
 
 При наличии разрешений на изменение набора данных в Power BI Desktop просмотрите это видео, чтобы понять, как устранить неоднозначность карты.
 
-> [ВИДЕО https://www.youtube.com/embed/Co2z9b-s_yM ]
 
 Если доступа к сведениям о широте и долготе нет, но есть доступ на редактирование для набора данных, [выполните эти действия для обновления набора данных](https://support.office.com/article/Maps-in-Power-View-8A9B2AF3-A055-4131-A327-85CC835271F7).
 

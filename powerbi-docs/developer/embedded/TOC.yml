@@ -28,7 +28,7 @@
           href: embedded-capacity.md
         - name: Планирование емкостей
           href: embedded-capacity-planning.md
-        - name: Что учитывать при создании токена внедрения
+        - name: Рекомендации по созданию токена внедрения
           href: generate-embed-token.md
         - name: Рекомендации по производительности
           href: embedded-performance-best-practices.md
@@ -50,8 +50,6 @@
           href: embed-service-principal-certificate.md
         - name: Перемещение внедренного приложения в рабочую среду
           href: move-to-production.md
-        - name: Внедрение содержимого из приложения
-          href: embed-from-apps.md
         - name: Экспорт отчета в файл
           href: export-to.md
         - name: Экспорт отчета с разбивкой на страницы в файл

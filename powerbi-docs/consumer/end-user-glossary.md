@@ -9,13 +9,13 @@ ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: reference
 ms.date: 11/21/2020
-ms.custom: contperfq1
-ms.openlocfilehash: 197ebcd029dbe6a6e87b1858da8f35325772237e
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.custom: contperf-fy21q1
+ms.openlocfilehash: 758d663f758a3d43f4621cb735f30e34bee4a590
+ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96400024"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "97621931"
 ---
 # <a name="glossary-for-business-users-of-the-power-bi-service"></a>Глоссарий для бизнес-пользователей службы Power BI    
 В службе Power BI может использоваться незнакомая или непонятная терминология. Глоссарий — удобное место для поиска терминов; можно даже использовать закладки. Другой полезный ресурс для изучения стандартных блоков, входящих в состав службы Power BI — [Основные концепции](end-user-basic-concepts.md). В этой статье дается общий обзор *частей* Power BI, а также показывается, как они связаны.
