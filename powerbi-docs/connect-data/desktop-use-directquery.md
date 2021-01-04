@@ -9,12 +9,12 @@ ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 12/14/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a3ab606733e47dec06837cfc1840da09732f7019
-ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
+ms.openlocfilehash: 60805ba0977b3b603ace0d50f7b080bd62d54ec7
+ms.sourcegitcommit: b472236df99b490db30f0168bd7284ae6e6095fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97491237"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "97600307"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Использование DirectQuery в Power BI Desktop
 При подключении к источнику данных в *Power BI Desktop* всегда можно импортировать копию данных в Power BI Desktop. Для некоторых источников данных доступен альтернативный подход: прямое подключение к источнику данных с помощью DirectQuery.
@@ -108,3 +108,4 @@ ms.locfileid: "97491237"
 - [Использование DirectQuery и SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md)
 - [DirectQuery и SAP HANA](desktop-directquery-sap-hana.md)
 - [Что такое локальный шлюз данных?](service-gateway-onprem.md)
+- [Использование DirectQuery для наборов данных Power BI и Azure Analysis Services (предварительная версия)](../connect-data/desktop-directquery-datasets-azure-analysis-services.md)

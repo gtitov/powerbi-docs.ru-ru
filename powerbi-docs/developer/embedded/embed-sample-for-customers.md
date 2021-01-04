@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
-ms.date: 12/02/2020
-ms.openlocfilehash: e79a73880b50a0edb5e507726cb0c995ba13cd77
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.date: 12/22/2020
+ms.openlocfilehash: 5417266658a493bc81da882761431aa3db072dbe
+ms.sourcegitcommit: 1691ce556ab5b22e6f9d06086a054d165d482809
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098428"
+ms.lasthandoff: 12/23/2020
+ms.locfileid: "97745123"
 ---
 # <a name="tutorial-embed-power-bi-content-using-a-sample-embed-for-your-customers-application"></a>Руководство. Внедрение содержимого Power BI с помощью примера *внедрения для клиентов*
 
@@ -192,7 +192,7 @@ ms.locfileid: "97098428"
 
 Чтобы скачать пример отчета и опубликовать его в рабочей области, выполните следующие действия.
 
-1. Откройте папку с примерами [Power BI Desktop](https://github.com/microsoft/PowerBI-Developer-Samples) на сайте GitHub.
+1. Откройте папку с примерами [Power BI Desktop](https://github.com/Microsoft/PowerBI-Desktop-Samples) на сайте GitHub.
 
 2. Выберите **Код**, а затем выберите **Скачать ZIP-файл**.
 

@@ -4,18 +4,18 @@ description: Сведения о том, как предоставлять до�
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: lukaszp
-ms.custom: contperfq4
+ms.custom: contperf-fy20q4
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 06/26/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 221211b06e3e9a72dd3c5ee812083b8013002405
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 7a85021ee1931b2d5f7c247d7caa4c2813f86a8c
+ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96406579"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "97621609"
 ---
 # <a name="share-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Предоставление общего доступа коллегам и другим пользователям к панелям мониторинга и отчетам Power BI
 *Общий доступ* — это самый простой способ представления пользователям доступа к панелям мониторинга и отчетам в службе Power BI. Вы можете предоставлять общий доступ пользователям в своей организации или за ее пределами.
