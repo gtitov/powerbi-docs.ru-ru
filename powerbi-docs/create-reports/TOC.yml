@@ -124,7 +124,9 @@
       items:
         - name: Отчеты Power BI
           items:
-            - name: Создание отчета в службе
+            - name: Создание быстрых отчетов в службе
+              href: service-quick-create-report.md
+            - name: Создание отчета из файла Excel в службе
               href: service-report-create-new.md
             - name: Включение автоматического обновления страниц
               href: desktop-automatic-page-refresh.md

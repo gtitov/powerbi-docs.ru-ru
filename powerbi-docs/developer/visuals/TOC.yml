@@ -26,7 +26,7 @@
       items:
         - name: "Структура проекта визуальных элементов Power\_BI"
           href: visual-project-structure.md
-        - name: ' Интеграция системы визуальных элементов Power BI'
+        - name: Интеграция системы визуальных элементов Power BI
           href: power-bi-visuals-concept.md
         - name: "Визуальные элементы для организаций в Power\_BI"
           href: power-bi-custom-visuals-organization.md
