@@ -1,6 +1,6 @@
 ### YamlMime:Landing
-title: Документация по визуальным элементам Power BI
-summary: Разработка собственных визуальных элементов Power BI, которые будут использоваться вами, вашей организацией или участниками сообщества Power BI. В нашей документации содержатся необходимые вам сведения.
+title: Документация по визуальным элементам для более эффективного использования встроенной бизнес-аналитики Power BI
+summary: Разработка собственных визуальных элементов Power BI, которые будут использоваться вами, вашей организацией или участниками сообщества Power BI. В нашей документации содержатся необходимые вам сведения. Получайте оптимальную встроенную бизнес-аналитику в Power BI.
 metadata:
   title: Документация по визуальным элементам Power BI
   description: Разработка собственных визуальных элементов Power BI, которые будут использоваться вами, вашей организацией или участниками сообщества Power BI. В нашей документации содержатся необходимые вам сведения.
@@ -12,12 +12,12 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: 92eb2ebc5eaff00c5c83cd32b0fa90b631906237
-  ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+  ms.openlocfilehash: d6673e5a44b315c3c54fca53231efe97a4342fcd
+  ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 10/14/2020
-  ms.locfileid: "92049322"
+  ms.lasthandoff: 01/05/2021
+  ms.locfileid: "97888243"
 landingContent:
 - title: Начало работы
   linkLists:
