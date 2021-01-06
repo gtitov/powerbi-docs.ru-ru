@@ -10,12 +10,12 @@ ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
 ms.date: 12/15/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: bf55abf06bf1429776e3d0fd0432e459f91de0a7
-ms.sourcegitcommit: fef29a5c5bf1e0dae663c42c9ce5ae50e29ae9be
+ms.openlocfilehash: 6ce7afedb43aa7abaffb3ad5afdb00b4749addb5
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "97558523"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885401"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience-preview"></a>Мониторинг метрик использования в интерфейсе новой рабочей области (предварительная версия)
 
@@ -119,7 +119,7 @@ ms.locfileid: "97558523"
 | Отчет о ключевых показателях эффективности | 1 | 1 | 1 |
 | Отчет по управлению персоналом | 1 | 5 | 1 | 
 | Финансовый отчет | 3 | 5 | 3 |
-| Отчет о продажах | 3 | 3 | 2 |
+| Отчет о продажах | 3 | 4 | 2 |
 
 
 
