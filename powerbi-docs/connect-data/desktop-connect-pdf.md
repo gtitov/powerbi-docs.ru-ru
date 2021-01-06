@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: how-to
-ms.date: 07/16/2020
+ms.date: 01/04/2021
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ba0c1c6babe63c02ef0cd96a7cb5695e2c916c68
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 5a6b0d47b524c4f36938878cfe48a64d47470854
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96405774"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97926319"
 ---
 # <a name="connect-to-pdf-files-in-power-bi-desktop"></a>Подключение к PDF-файлам в Power BI Desktop
 С помощью Power BI Desktop вы можете подключиться к **PDF-файлу** и использовать данные из него аналогично любому другому источнику данных в Power BI Desktop.
