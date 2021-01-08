@@ -63,8 +63,6 @@
               href: power-bi-reports-filters-and-highlighting.md
             - name: Выборка линий с высокой плотностью
               href: desktop-high-density-sampling.md
-            - name: Сведения о визуальных элементах вопросов и ответов
-              href: ../visuals/power-bi-visualization-q-and-a.md
             - name: Сведения о доступности
               href: desktop-accessibility-overview.md
             - name: Вопросы и ответы на естественном языке
@@ -320,7 +318,7 @@
               href: ../visuals/power-bi-visualization-waterfall-charts.md
         - name: Вопросы и ответы на естественном языке
           items:
-            - name: '"Вопросы и ответы": визуализация'
+            - name: Создание визуального элемента "Вопросы и ответы"
               href: ../visuals/power-bi-visualization-q-and-a.md
             - name: Обучение модуля "Вопросы и ответы"
               href: ../natural-language/q-and-a-tooling-teach-q-and-a.md
