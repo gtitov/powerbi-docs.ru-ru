@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/01/2020
-ms.openlocfilehash: 81a387d2f87e857cb56dcbc1fb22c8da72bbd27e
-ms.sourcegitcommit: 2fd64f96b5bfbc14ff47e5c892171e5c921fb525
+ms.date: 12/17/2020
+ms.openlocfilehash: 7779976e7897b31e5f3dde2c4c3306c909ecf0f0
+ms.sourcegitcommit: 5c09d121d3205e65fb33a2eca0e60bc30e777773
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "96502094"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "97675586"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Новые возможности мобильных приложений для Power BI
 Соответствующие сведения о новых функциях и возможностях см. в следующей статье:
@@ -26,8 +26,17 @@ ms.locfileid: "96502094"
 >Поддержка мобильного приложения Power BI для **телефонов под управлением Windows 10 Mobile** будет прекращена 16 марта 2021 г. [Дополнительные сведения](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 ## <a name="december-2020"></a>Декабрь 2020 г.
-### <a name="weve-added-dark-mode-to-power-bi-mobile-android"></a>Добавлен темный режим Power BI для мобильных устройств (Android)
+### <a name="weve-added-anomaly-detection-to-the-mobile-apps"></a>Обнаружение аномалий теперь и в мобильных приложениях
+Если создатель отчета настроил для визуального элемента обнаружение аномалий, вы сможете увидеть наличие в данных больших непредвиденных пиков или спадов из-за значений с выбросом (т. е. аномалий). [Дополнительные сведения](mobile-reports-in-the-mobile-apps.md#investigate-anomalies-in-time-series-data)
 
+![Снимок экрана: обнаружение аномалий.](media/mobile-whats-new-in-the-mobile-apps/mobile-anomaly-detection.png)
+
+### <a name="easily-find-your-orgs-endorsed-content"></a>Легко находите утвержденное содержимое организации
+Содержимое, которое было [рекомендовано или сертифицировано](../../collaborate-share/service-endorsement-overview.md) в службе Power BI, теперь помечается в приложении значком. Значок создателя "Рекомендуется" свидетельствует, что содержимое готово к использованию (его уровень повышен), а "Сертифицировано" — что оно утверждено вашей организацией.
+
+![Снимок экрана: сертифицированный отчет в сведениях об отчете на мобильном устройстве.](media/mobile-whats-new-in-the-mobile-apps/mobile-apps-certified-badge.png)
+
+### <a name="weve-added-dark-mode-to-power-bi-mobile-android"></a>Добавлен темный режим Power BI для мобильных устройств (Android)
 Попробуйте темный режим в мобильном приложении Power BI для Android. В темном режиме светлый текст отображается на темном фоне, что снижает яркость экрана и упрощает чтение содержимого. Режимы можно переключить в параметрах внешнего вида приложения. [Дополнительные сведения](mobile-apps-dark-mode.md)
 
 ![Снимок экрана: темный режим в мобильном приложении Power BI для Android.](media/mobile-whats-new-in-the-mobile-apps/mobile-apps-dark-mode-android.png)
@@ -206,7 +215,7 @@ ms.locfileid: "96502094"
 Добавлена поддержка пользовательской навигации по приложениям. Теперь при открытии приложения в Power BI Mobile доступен пользовательский интерфейс навигации, созданный автором приложения. Навигация по приложениям может быть организована по содержимому и включать новые элементы, такие как ссылки и сворачиваемые разделы.
 Дополнительные сведения см. в статье [Пользовательская навигация](https://powerbi.microsoft.com/blog/designing-custom-navigation-for-power-bi-apps-is-now-available/).
 
-## <a name="august-2019"></a>Август 2019 г.
+## <a name="august-2019"></a>Август 2019 г.
 
 ### <a name="introducting-power-bi-mobile-new-look-preview-ios-and-android"></a>Представляем новый дизайн Power BI Mobile (предварительная версия) (iOS и Android)
 

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 10/22/2020
+ms.date: 12/16/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: 0f971013d5f57174a26d92281cafe673f1487329
-ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
+ms.openlocfilehash: 21371e931aa123aa6a339bfbcb939bde943b3f9f
+ms.sourcegitcommit: 5c09d121d3205e65fb33a2eca0e60bc30e777773
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "96577562"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "97675518"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-sso-from-power-bi-to-on-premises-data-sources"></a>Использование SAML для единого входа из Power BI в локальные источники данных
 
@@ -29,7 +29,7 @@ ms.locfileid: "96577562"
 Для SAP HANA рекомендуется включить шифрование, прежде чем устанавливать подключение единого входа SAML. Чтобы включить шифрование, настройте на сервере HANA прием зашифрованных подключений и настройте на шлюзе шифрование для взаимодействия с сервером HANA. Так как драйвер ODBC для HANA не шифрует утверждения SAML по умолчанию, то, если не включить шифрование, подписанные утверждения SAML будут отправляться со шлюза на сервер HANA *в открытом виде* и могут быть перехвачены и повторно использованы третьими лицами.
 
 > [!IMPORTANT]
-> SAP больше не поддерживает OpenSSL, и в результате корпорация Майкрософт также прекратила поддержку этой библиотеки. Существующие и новые подключения продолжат работать должным образом до конца 2020 г., но не будут работать с 1 января 2021 г. Вместо этой библиотеки следует использовать CommonCryptoLib.
+> Так как [SAP больше не поддерживает OpenSSL](https://help.sap.com/viewer/b3ee5778bc2e4a089d3299b82ec762a7/2.0.05/en-US/de15ffb1bb5710148386ffdfd857482a.html), корпорация Майкрософт также прекратила поддержку этой библиотеки. Существующие подключения продолжат работать, но вы не сможете создавать новые подключения начиная с февраля 2021 г. В дальнейшем используйте библиотеку CommonCryptoLib.
 
 ## <a name="configuring-the-gateway-and-data-source"></a>Настройка шлюза и источника данных
 

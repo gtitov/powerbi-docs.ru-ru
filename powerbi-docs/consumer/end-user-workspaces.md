@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 10/09/2020
+ms.date: 12/14/2020
 ms.custom: licensing support
 LocalizationGroup: Consumers
-ms.openlocfilehash: 2341306672da4c1923dc5bc97f0d1537604a1a7c
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: bc8c3147efc9037fef7207f62856f3f9a0b1b5a8
+ms.sourcegitcommit: 5c09d121d3205e65fb33a2eca0e60bc30e777773
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96398713"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "97674943"
 ---
 # <a name="collaborate-in-workspaces"></a>Совместная работа в рабочих областях
 
@@ -49,7 +49,7 @@ ms.locfileid: "96398713"
 
 ### <a name="workspace-permissions-and-roles"></a>Разрешения и роли рабочей области
 
-Ниже указаны возможности четырех ролей: администраторов, членов, участников и зрителей. Для использования всех этих возможностей, за исключением просмотра и взаимодействия, требуется лицензия Power BI Pro.
+Ниже указаны возможности четырех ролей: администраторов, членов, участников и зрителей. Для использования всех этих возможностей, за исключением *просмотра и взаимодействия*, требуется лицензия Power BI Pro.
 
 [!INCLUDE[power-bi-workspace-roles-table](../includes/power-bi-workspace-roles-table.md)]
 

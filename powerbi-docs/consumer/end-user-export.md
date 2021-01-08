@@ -4,18 +4,18 @@ description: Экспортируйте данные из визуального
 author: mihart
 ms.author: mihart
 ms.reviewer: cmfinlan
-featuredvideoid: jtlLGRKBvXY
+featuredvideoid: removed
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 12/03/2020
+ms.date: 12/21/2020
 LocalizationGroup: Consumers
-ms.openlocfilehash: d8b9f11abe639d2892bc199a9f65400e5488dedc
-ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
+ms.openlocfilehash: cd07004149afd2525c5830e04e5c2490eeebcb3c
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "96578131"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721393"
 ---
 # <a name="export-data-from-a-visual"></a>Экспорт данных из визуального элемента
 
@@ -40,7 +40,7 @@ ms.locfileid: "96578131"
 
 3. Выберите **Экспорт в CSV**.
 
-4. Дальнейшее зависит от используемого браузера. Вам может быть предложено сохранить файл, или вы увидите ссылку на экспортированный файл в нижней части браузера. 
+4. Дальнейшее зависит от используемого браузера. Вам может быть предложено сохранить файл, или вы увидите ссылку на экспортированный файл в нижней части браузера. По умолчанию данные экспорта сохраняются в локальной папке "Загрузки". 
 
     ![Браузер Chrome, отображающий ссылку на экспортированный файл](media/end-user-export/power-bi-dashboards-export.png)
 
@@ -79,7 +79,7 @@ ms.locfileid: "96578131"
 
     ![Меню, в котором можно выбрать базовые или сводные данные](media/end-user-export/power-bi-export-underlying.png)
 
-5. Дальнейшее зависит от используемого браузера. Вам может быть предложено сохранить файл, или вы увидите ссылку на экспортированный файл в нижней части браузера. 
+5. Дальнейшее зависит от используемого браузера. Вам может быть предложено сохранить файл, или вы увидите ссылку на экспортированный файл в нижней части браузера. Если вы используете приложение Power BI в Microsoft Teams, экспортированный файл сохраняется в локальной папке "Загрузки". 
 
     ![Отображение экспортированного файла в браузере Microsoft Edge](media/end-user-export/power-bi-export-edge-screen.png)
 

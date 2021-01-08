@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
-ms.date: 07/28/2020
-ms.openlocfilehash: 795b2e7e1b9ef0c705f7240e9a20a5c2da2f81a3
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 12/18/2020
+ms.openlocfilehash: be256a0ed861ae7ebc26fe4e2a74e0d597ef5542
+ms.sourcegitcommit: b8e4dd67c59db079fdfa82a8a01c2a28fd1673ca
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96414928"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "97699322"
 ---
 # <a name="configure-power-bi-report-server-with-azure-application-proxy"></a>Настройка Сервера отчетов Power BI с помощью Azure Application Proxy
 
@@ -260,6 +260,9 @@ setspn -s MSSQLSVC/FQDN\_of\_SQL\_Server<SQL service service account>
 ### <a name="configure-the-application-registration"></a>Настройка регистрации приложения
 
 Прежде чем мобильное приложение Power BI сможет подключиться к Серверу отчетов Power BI и получить к нему доступ, необходимо настроить регистрацию приложения, которое было автоматически создано ранее, при выполнении инструкций в разделе [Публикация с помощью Azure AD Application Proxy](#publish-through-azure-ad-application-proxy) в этой статье.
+
+> [!NOTE]
+> Если вы используете политики условного доступа, для которых требуется, чтобы мобильное приложение Power BI было утвержденным клиентским приложением, вы не сможете использовать прокси приложения Azure AD для подключения мобильного приложения Power BI к серверу отчетов Power BI.
 
 1. На странице **Обзор** Azure Active Directory щелкните **Регистрация приложений**.
 2. На вкладке **Все приложения** найдите приложение, созданное для Сервера отчетов Power BI.

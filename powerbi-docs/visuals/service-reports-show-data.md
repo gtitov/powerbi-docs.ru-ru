@@ -9,12 +9,12 @@ ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 12/4/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 960a3dec2276acba994190e73de671f2b071bc50
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 7aa15bae7ab94619a9f652aa20da9222e3d4af41
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96409730"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721646"
 ---
 # <a name="display-a-visualizations-underlying-data"></a>Отображение базовых данных визуального элемента
 
@@ -52,7 +52,7 @@ ms.locfileid: "96409730"
 6. Чтобы скрыть данные, снимите флажок, выбрав **Проводник** > **Показать данные**.
 
 ## <a name="using-show-records"></a>Использование кнопки "Просмотреть записи"
-Вы можете сконцентрироваться на одной записи данных в визуализации и подробно рассмотреть его данные. 
+Вы можете сконцентрироваться на одной записи данных в визуализации и подробно изучить ее. 
 
 1. Для использования кнопки **Просмотреть записи** выберите визуализацию, чтобы сделать ее активной. 
 

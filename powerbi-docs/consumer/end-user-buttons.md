@@ -7,14 +7,14 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 10/10/2020
+ms.date: 12/21/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 450c14d05f9a7855d51d7aa2f073e48a0b016013
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 140ca42dc34e98133beac5fff671cf1ef244501c
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96400967"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721439"
 ---
 # <a name="buttons-in-the-power-bi-service"></a>Кнопки в служба Power BI
 Вы могли заметить, что в отчетах, получаемых от коллег, есть кнопки. На некоторых из них есть надписи, на других — стрелки, рисунки или даже раскрывающиеся меню. Из этой статьи вы узнаете, как распознать кнопку и определить ее назначение.

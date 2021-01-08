@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-fundamentals
 ms.topic: conceptual
-ms.date: 11/11/2020
+ms.date: 12/16/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: f2eacca4571b8d00c8fc7e5ca5c6ef7935afaf29
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e239b95fe18ba9ddfad399c5b53b10a3f1f4a4c2
+ms.sourcegitcommit: 5c09d121d3205e65fb33a2eca0e60bc30e777773
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96419505"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "97674897"
 ---
 # <a name="whats-new-in-power-bi-desktop"></a>Новые возможности Power BI Desktop
 
-## <a name="november-2020-update-2872610"></a>Обновление за ноябрь 2020 г. (2.87.261.0)
+## <a name="december-2020-update-2883210"></a>Обновление за декабрь 2020 г. (2.88.321.0)
 
-Наши обновления за ноябрь для Power BI Desktop включают целый ряд новых и улучшенных функций. Вам понравится. 
+Наши обновления Power BI Desktop за декабрь впечатлят вас, как поездка на санях по заснеженной дорожке с огнями. 
 
 В ежемесячных обновлениях блога и видео для Power BI Desktop теперь также содержатся сведения об обновленных функциях для Power BI Mobile и службы Power BI. В этой статье рассматриваются обновления для Power BI Desktop. Чтобы получить дополнительные сведения об обновлениях для Power BI Mobile и службы Power BI, ознакомьтесь с соответствующими статьями о новых возможностях.
 
@@ -46,30 +46,29 @@ ms.locfileid: "96419505"
 
 Ниже перечислены обновления, добавленные в приложение Power BI Desktop в этом месяце.
 
-
 ### <a name="reporting"></a>Отчеты
-* Новый список полей (предварительная версия) [[видео]](https://youtu.be/DT_tOas5YIo?t=15)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467053) 
-* Новое представление модели (предварительная версия) [[видео]](https://youtu.be/DT_tOas5YIo?t=61)   [[блог]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467054) [[статья]](../create-reports/power-bi-personalize-visuals.md)
-* Применение всех фильтров теперь в общедоступной версии [[видео]](https://youtu.be/DT_tOas5YIo?t=98)   [[блог]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467055)  [[статья]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
-* Ползунок визуального масштабирования [[видео]](https://youtu.be/DT_tOas5YIo?t=160)   [[блог]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467056)  [[статья]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
-* Выбор прямоугольника точки данных для визуального элемента "Карта" (предварительная версия) [[видео]](https://youtu.be/DT_tOas5YIo?t=185)   [[блог]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467057)  [[статья]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
-* Проверка отзыва сертификата для веб-соединений [[видео]](https://youtu.be/DT_tOas5YIo?t=292)   [[блог]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467058)  [[статья]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
-* Обновления отчетов с разбивкой на страницы [[видео]](https://youtu.be/DT_tOas5YIo?t=292)   [[блог]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467059)  [[статья]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
+* DirectQuery для наборов данных Power BI и Azure Analysis Services (предварительная версия) [[видео]](https://youtu.be/68YvRs49VZM?t=33)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831296)   [[статья]](../connect-data/desktop-directquery-datasets-azure-analysis-services.md)
+* Маленькие панели (предварительная версия) [[видео]](https://youtu.be/68YvRs49VZM?t=378)   [[блог]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831297)
+* Метки конфиденциальности для защиты данных в Power BI Desktop (предварительная версия) [[видео]](https://youtu.be/68YvRs49VZM?t=656)   [[блог]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831298) 
+* Ограничение точки данных для выбора увеличенного прямоугольника [[видео]](https://youtu.be/68YvRs49VZM?t=734)   [[блог]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831299) 
+* Панель выбора теперь доступна в представлении макета для мобильных устройств [[видео]](https://youtu.be/68YvRs49VZM?t=757)   [[блог]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831300) 
+* Автоматическое обновление страниц для источников Analysis Services [[видео]](https://youtu.be/68YvRs49VZM?t=789)   [[блог]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831301) 
 
-### <a name="analytics"></a>Аналитика
-* Обнаружение аномалий (предварительная версия) [[видео]](https://youtu.be/DT_tOas5YIo?t=199)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467061) 
-* Функция вопросов и ответов теперь поддерживает частично совпадающие значения данных [[видео]](https://youtu.be/DT_tOas5YIo?t=438)   [[блог]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467062)  [[статья]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
+
+### <a name="data-preparation"></a>Подготовка данных
+* Изменения в Power Query и потоках данных [[видео]](https://youtu.be/68YvRs49VZM?t=851)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831302)
 
 ### <a name="data-connectivity"></a>Подключение к данным
-* Общедоступная версия соединителя Hive LLAP [[видео]](https://youtu.be/DT_tOas5YIo?t=461)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467064)
-* Новые соединители данных — Actian, Anaplan, Starburst Presto [[видео]](https://youtu.be/DT_tOas5YIo?t=487)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467065)
+* Соединитель Microsoft Dataverse [[видео]](https://youtu.be/68YvRs49VZM?t=886)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831566)
+* Обновление Аналитики временных рядов Azure [[видео]](https://youtu.be/68YvRs49VZM?t=919)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831305)
+* Обновление SurveyMonkey [[видео]](https://youtu.be/68YvRs49VZM?t=926)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831568)
+* Обновление Cognite [[видео]](https://youtu.be/68YvRs49VZM?t=933)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831307)
 
 
 ### <a name="visuals"></a>Визуальные элементы
-* Новые визуальные элементы из различных поставщиков [[видео]](https://youtu.be/DT_tOas5YIo?t=688)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467072)
+* Новые визуальные элементы из различных поставщиков [[видео]](https://youtu.be/68YvRs49VZM?t=1330)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831588)
 
-
-Дополнительные сведения о каждой из этих новых функций см. в записи блога [Обзор возможностей Power BI Desktop](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/).
+Дополнительные сведения о каждой из этих новых функций см. в записи блога [Обзор возможностей Power BI Desktop](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/).
 
 
 > [!NOTE]
@@ -79,7 +78,7 @@ ms.locfileid: "96419505"
 ### <a name="power-bi-desktop-monthly-update-video"></a>Видео, посвященное ежемесячному обновлению Power BI Desktop
 Все эти обновления описываются в следующем видео. Это видео можно также посмотреть в записи блога:
 
-> [!VIDEO https://www.youtube.com/embed/DT_tOas5YIo]
+> [!VIDEO https://www.youtube.com/embed/68YvRs49VZM]
 
 ## <a name="more-videos"></a>Другие видео
 

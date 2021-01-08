@@ -10,12 +10,12 @@ ms.custom: video-fDb5zZ3xmxU
 ms.topic: how-to
 ms.date: 01/10/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f76203e00bb691abe9a4d212c930595d180798d8
-ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
+ms.openlocfilehash: 4b41ea6310cb644aeae92db17f52680734f68803
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "96999135"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721577"
 ---
 # <a name="create-key-influencers-visualizations"></a>Создание визуализации ключевых факторов влияния
 
@@ -260,7 +260,7 @@ ms.locfileid: "96999135"
 
 ![Снимок экрана: визуализация цены на дом, которая зависит от трех столбцов, обсуждаемых в этом разделе.](media/power-bi-visualization-influencers/power-bi-ki-measures-analysis.png)
 
-Если вы хотите узнать больше о том, как анализировать меры с помощью визуализации ключевых факторов влияния, просмотрите следующее видео:
+Если вы хотите узнать больше о том, как анализировать меры с помощью визуализации ключевых факторов влияния, просмотрите следующее видео. Сведения о том, как Power BI использует ML.NET, чтобы анализировать данные и получать полезные сведения, см. в статье [Power BI определяет ключевые факторы влияния с помощью ML.NET](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet/customers/power-bi).
 
 <iframe width="1167" height="631" src="https://www.youtube.com/embed/2X1cW8oPtc8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -410,3 +410,4 @@ ms.locfileid: "96999135"
 ## <a name="next-steps"></a>Дальнейшие действия
 - [Комбинированная диаграмма в Power BI](power-bi-visualization-combo-chart.md)
 - [Типы визуализаций в Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+- [Как Power BI использует ML.NET для определения ключевых факторов влияния](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet/customers/power-bi)

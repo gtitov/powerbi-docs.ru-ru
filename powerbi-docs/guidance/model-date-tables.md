@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 06/24/2020
-ms.openlocfilehash: 9040fb54e51dfeecad853e5ba980f423ab48e908
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: a2616b5f77a03056de03b213369d55e9b590b1b6
+ms.sourcegitcommit: 7599622381f35a161bfc54726675ed3c9cf13816
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417849"
+ms.lasthandoff: 12/31/2020
+ms.locfileid: "97827579"
 ---
 # <a name="create-date-tables-in-power-bi-desktop"></a>Создание таблиц дат в Power BI Desktop
 
@@ -54,10 +54,7 @@ ms.locfileid: "96417849"
 
 ## <a name="generate-with-power-query"></a>Создание таблицы дат с помощью Power Query
 
-Таблицу дат можно создать с помощью Power Query. Ниже приведены две записи в блоге, в которых показано, как это сделать.
-
-- [Создание измерения даты с помощью скрипта Power Query](https://www.mattmasson.com/2014/02/creating-a-date-dimension-with-a-power-query-script/) от Мэтта Мэссона (Matt Masson).
-- [Создание таблицы измерения даты в Power Query](https://blog.crossjoin.co.uk/2013/11/19/generating-a-date-dimension-table-in-power-query/) от Криса Вебба (Chris Webb).
+Таблицу дат можно создать с помощью Power Query. Дополнительные сведения см. в записи блога Криса Уэбба (Chris Webb) [Generating A Date Dimension Table In Power Query](https://blog.crossjoin.co.uk/2013/11/19/generating-a-date-dimension-table-in-power-query/) (Создание размерной таблицы дат в Power Query).
 
 > [!TIP]
 > Если у вас нет определения хранилища данных или другого согласованного определения времени в вашей организации, рекомендуем использовать Power Query для публикации [потока данных](../transform-model/dataflows/dataflows-introduction-self-service.md). Затем подключите всех разработчиков моделей данных к потоку данных, чтобы добавить таблицы дат в модели. Поток данных станет единым источником достоверной информации для времени в вашей организации.
@@ -85,5 +82,5 @@ ms.locfileid: "96417849"
 - [Самостоятельная подготовка данных в Power BI](../transform-model/dataflows/dataflows-introduction-self-service.md)
 - [Функция CALENDAR (DAX)](/dax/calendar-function-dax)
 - [Функция CALENDARAUTO (DAX)](/dax/calendarauto-function-dax)
-- Вопросы? [Задайте их в сообществе Power BI](https://community.powerbi.com/).
+- Вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 - У вас есть предложения? [Идеи по улучшению Power BI](https://ideas.powerbi.com/)

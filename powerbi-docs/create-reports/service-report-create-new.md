@@ -9,19 +9,19 @@ ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 10/14/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 806198b783785a06562411b53f7bd6f644b16918
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: a971e0d0b35b0a3988a1c10ea2b7b801830229d6
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96388202"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721554"
 ---
 # <a name="create-a-report-from-an-excel-file-in-the-power-bi-service"></a>Создание отчета из файла Excel в службе Power BI
 Вы ознакомились со статьей [Отчеты в Power BI](../consumer/end-user-reports.md) и хотите создать свои собственные отчеты. Существуют различные способы создания отчета. В этой статье мы создадим в службе Power BI простой отчет из файла Excel. Поняв принцип создания отчета, вы можете ознакомиться с более подробными темами, перечисленными в разделе [Дальнейшие действия](#next-steps) в конце статьи.  
 
 ## <a name="prerequisites"></a>Технические условия
 - [Регистрация в службе Power BI](../fundamentals/service-self-service-signup-for-power-bi.md). 
-- [Скачайте файл Excel "Анализ розничной торговли — пример"](https://go.microsoft.com/fwlink/?LinkId=529778) и сохраните его в OneDrive для бизнеса или в локальной среде.
+- [Скачайте файл Excel "Анализ розничной торговли — пример"](https://go.microsoft.com/fwlink/?LinkId=529778) и сохраните его на компьютере или в OneDrive для бизнеса.
 
 ## <a name="import-the-excel-file"></a>Импорт файла Excel
 Чтобы создать отчет таким способом, сначала вам потребуется файл и пустой холст отчета. Вы можете продолжить работу с файлом Excel "Анализ розничной торговли — пример".

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.date: 07/14/2020
+ms.date: 11/14/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: c83b7d1e52a0d443c52348bec91f935e288830d4
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 1a196d149a6519f9bcad6bd70ef02d62ef16f69b
+ms.sourcegitcommit: b472236df99b490db30f0168bd7284ae6e6095fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96388685"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "97600675"
 ---
 # <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>Скачивание отчета из службы Power BI в Power BI Desktop (предварительная версия)
       
@@ -54,7 +54,7 @@ ms.locfileid: "96388685"
 * Отчет должен быть создан в Power BI Desktop и *опубликован* в службе Power BI, либо PBIX-файл должен быть *отправлен* в службу Power BI.
 * Отчеты должны быть опубликованы или изменены после 23 ноября 2016 г. Отчеты, опубликованные до этой даты, невозможно скачать.
 * Эта функция не будет работать с отчетами и пакетами содержимого, которые изначально были созданы в службе Power BI.
-* Скачанные файлы всегда нужно открывать в последней версии Power BI Desktop. Скачанные PBIX-файлы могут не открываться в неактуальных версиях Power BI Desktop.
+* Скачанные файлы всегда нужно открывать в последней версии Power BI Desktop. Скачанные PBIX-файлы могут не открываться в неактуальных версиях Power BI Desktop. Например, скачанные PBIX-файлы нельзя открыть с помощью версии Power BI Desktop, которая не поддерживает защиту информации.
 * Если администратор отключил возможность скачивания данных, эта функция будет недоступна в службе Power BI.
 * Наборы данных с добавочным обновлением невозможно скачать в PBIX-файл.
 * Наборы данных, включенные для [больших моделей](../admin/service-premium-large-models.md), невозможно скачать в PBIX-файл.

@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 04/05/2020
-ms.openlocfilehash: 590d7e8dfe2739996a40a87ebffd2d236ea6a371
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.openlocfilehash: 9c547bd99513470e67bb9717546d9814a9a57c3c
+ms.sourcegitcommit: a92a3570eb14793a758a32e8fa1a756ec5d83f8c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098060"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "97708026"
 ---
 # <a name="export-paginated-report-to-file-preview"></a>Экспорт отчета с разбивкой на страницы в файл (предварительная версия)
 
@@ -289,6 +289,10 @@ private async Task<ExportedFile> ExportPaginatedReport(
     }
 }
 ```
+
+## <a name="limitations"></a>Ограничения
+
+Экспорт отчета с разбивкой на страницы, в котором в качестве источника данных используется набор данных Power BI, не поддерживается для субъектов-служб.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

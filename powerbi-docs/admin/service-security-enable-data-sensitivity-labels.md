@@ -6,14 +6,14 @@ ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
-ms.date: 08/10/2020
+ms.date: 12/09/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: eb2afe2e7fa21bc0583185cfc8a160b20f56236c
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 1732c1b6b8b748c4f3a820b31c4e4fe050a66fcd
+ms.sourcegitcommit: b472236df99b490db30f0168bd7284ae6e6095fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412122"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "97600330"
 ---
 # <a name="enable-sensitivity-labels-in-power-bi"></a>Активация меток конфиденциальности в Power BI
 
@@ -21,27 +21,37 @@ ms.locfileid: "96412122"
 
 Активация меток конфиденциальности дает следующие возможности.
 
-* Определенные пользователи и группы безопасности в организации могут классифицировать метки конфиденциальности и [применять их](./service-security-apply-data-sensitivity-labels.md) к своим панелям мониторинга, отчетам, наборам данных и потокам данных Power BI.
-* Все члены организации могут просматривать эти метки.
+* Определенные пользователи и группы безопасности в организации могут классифицировать метки конфиденциальности и [применять их](./service-security-apply-data-sensitivity-labels.md) к содержимому Power BI. В службе Power BI это их отчеты, панели мониторинга, а также наборы и потоки данных. В Power BI Desktop это PBIX-файлы.
+* В службе эти метки смогут видеть все члены организации. В версии Desktop метки будут отображаться только для тех членов организации, для которых они опубликованы.
 
 Для активации меток конфиденциальности требуется лицензия Azure Information Protection. Дополнительные сведения см. в разделе [Лицензирование и требования](#licensing-and-requirements).
+
+>[!NOTE]
+>В течение первых 48 часов после включения пользователями предварительной версии функции Information Protection **могут возникнуть проблемы с PBIX-файлами, к которым применены метки конфиденциальности (например, с публикацией PBIX-файлов в службе или скачиванием их из службы)** . Такие проблемы ожидаемы и будут автоматически устранены в течение 48 часов.
 
 ## <a name="licensing-and-requirements"></a>Лицензирование и требования
 
 * Для применения и просмотра меток конфиденциальности Microsoft Information Protection в Power BI требуется лицензия Azure Information Protection Premium P1 или Premium P2. Средство Azure Information Protection можно приобрести как отдельно, так и в составе одного из наборов лицензирования Майкрософт. Дополнительные сведения см. в статье [Цены на Azure Information Protection](https://azure.microsoft.com/pricing/details/information-protection/).
 
-* Чтобы применять метки к содержимому Power BI, в дополнение к указанным выше лицензиям Azure Information Protection пользователям потребуется лицензия Power BI Pro.
+    >[!NOTE]
+    > Если в организации используются метки конфиденциальности Azure Information Protection, их необходимо перенести на платформу унифицированных меток Microsoft Information Protection, чтобы их можно было использовать в Power BI. [Узнайте больше о переносе меток конфиденциальности.](/azure/information-protection/configure-policy-migrate-labels)
+
+* Чтобы применять метки к содержимому и файлам Power BI, в дополнение к указанным выше лицензиям Azure Information Protection пользователям потребуется лицензия Power BI Pro.
 
 * Приложения Office имеют отдельные [требования к лицензированию для просмотра и применения меток конфиденциальности]( https://docs.microsoft.com/microsoft-365/compliance/get-started-with-sensitivity-labels#subscription-and-licensing-requirements-for-sensitivity-labels ).
 
 * Перед включением меток конфиденциальности для арендатора убедитесь, что метки конфиденциальности определены и опубликованы для соответствующих пользователей и групп. Дополнительные сведения см. в статье [Создание и настройка меток конфиденциальности и соответствующих политик](/microsoft-365/compliance/create-sensitivity-labels).
 
->[!NOTE]
-> Если в организации используются метки конфиденциальности Azure Information Protection, их необходимо перенести на платформу унифицированных меток Microsoft Information Protection, чтобы их можно было использовать в Power BI. [Узнайте больше о переносе меток конфиденциальности.](/azure/information-protection/configure-policy-migrate-labels)
+* Для использования меток конфиденциальности в версии Desktop требуется выпуск за декабрь 2020 года или более поздняя версия.
+
+    >[!NOTE]
+    > При попытке открыть защищенный PBIX-файл с помощью версии Desktop, более ранней, чем за декабрь 2020 года, произойдет сбой, и вам будет предложено обновить версию Desktop.
 
 ## <a name="enable-sensitivity-labels"></a>Активация меток конфиденциальности
 
-Перейдите на портал **администрирования** Power BI, откройте панель **Параметры клиента** и найдите раздел **Information Protection**.
+Чтобы использовать метки конфиденциальности в службе и версии Desktop, необходимо активировать эти метки в клиенте. В этом разделе описывается, как включить их в параметрах клиента. Дополнительные сведения, касающиеся версии Desktop, см. в разделе [Отключение меток конфиденциальности в версии Desktop в организации](#disable-sensitivity-labels-in-desktop-across-your-org). 
+
+Чтобы активировать метки конфиденциальности, перейдите на **портал администрирования** Power BI, откройте панель **Параметры клиента** и найдите раздел **Information Protection**.
 
 ![Поиск раздела "Information Protection"](media/service-security-enable-data-sensitivity-labels/enable-data-sensitivity-labels-01.png)
 
@@ -60,6 +70,18 @@ ms.locfileid: "96412122"
 
 > [!IMPORTANT]
 > Задавать и редактировать метки конфиденциальность могут только те пользователи Power BI Pro с разрешениями на *создание* и *изменение* ресурса, которые входят в соответствующую группу безопасности, как описывается в этом разделе. Пользователи, не включенные в такую группу, не смогут задавать или редактировать метки.  
+
+## <a name="disable-sensitivity-labels-in-desktop-across-your-org"></a>Отключение меток конфиденциальности в версии Desktop в организации
+
+Для организаций, которые хотят, чтобы PBIX-файлы **не** поддерживали применение меток конфиденциальности, администратор Power BI может создать групповую политику, запрещающую пользователям классифицировать и защищать PBIX-файлы в Power BI или открывать файлы, к которым уже применена защита. Чтобы создать такую политику, выполните следующие действия.
+
+1. Откройте [редактор реестра](https://support.microsoft.com/windows/how-to-open-registry-editor-in-windows-10-deab38e6-91d6-e0aa-4b7c-8878d9e07b11).
+
+1. Найдите раздел **HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Microsoft Power BI Desktop**.
+
+1. Найдите параметр valueName **EnableInformationProtection** и задайте для него значение **false**.
+
+Дополнительные сведения и рекомендации, касающиеся ограничений на использование меток конфиденциальности в Power BI Desktop, см. в [обзоре меток конфиденциальности](./service-security-sensitivity-label-overview.md#limitations).
 
 ## <a name="troubleshooting"></a>Устранение неполадок
 

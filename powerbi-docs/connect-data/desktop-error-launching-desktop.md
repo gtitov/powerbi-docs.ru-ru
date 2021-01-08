@@ -7,20 +7,30 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: troubleshooting
-ms.date: 01/14/2020
+ms.date: 11/14/2020
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 8d33973f1a11050d104399c98866fdae0ffb1f8a
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 62b3c9bb10cb47df0d21eb05e381c5c4784b3106
+ms.sourcegitcommit: b472236df99b490db30f0168bd7284ae6e6095fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96404900"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "97600238"
 ---
 # <a name="troubleshoot-opening-power-bi-desktop"></a>Устранение неполадок с открытием Power BI Desktop
 
-В Power BI Desktop пользователям, установившим и использующим предыдущие версии *локального шлюза данных Power BI*, может быть запрещен запуск Power BI Desktop из-за ограничений политики администрирования, которую локальный шлюз Power BI налагает на именованные каналы на локальном компьютере.
+В этой статье описываются и рассматриваются рекомендации по некоторым проблемам с открытием Power BI. 
+
+## <a name="resolve-issues-with-opening-encrypted-pbix-files"></a>Устранение неполадок при открытии зашифрованных PBIX-файлов
+
+Зашифрованные PBIX-файлы нельзя открыть с помощью версии Power BI Desktop, которая не поддерживает защиту информации.
+
+Если вам необходимо продолжить использование Power BI Desktop, рекомендуемым решением является обновление до версии, поддерживающей защиту информации. Вы можете скачать [последнюю версию Power BI Desktop](https://www.microsoft.com/download/confirmation.aspx?id=58494) (эта ссылка является ссылкой на прямое скачивание для исполняемого файла установки). Последняя версия Power BI Desktop поддерживает защиту информации, а также может расшифровывать и открывать любой зашифрованный PBIX-файл.
+
+###
 
 ## <a name="resolve-issues-with-the-on-premises-data-gateway-and-power-bi-desktop"></a>Устранение проблем с локальным шлюзом данных и Power BI Desktop
+
+В Power BI Desktop пользователям, установившим и использующим предыдущие версии *локального шлюза данных Power BI*, может быть запрещен запуск Power BI Desktop из-за ограничений политики администрирования, которую локальный шлюз Power BI налагает на именованные каналы на локальном компьютере.
 
 У вас есть три варианта устранения проблемы, связанной с локальным шлюзом данных, и обеспечения открытия Power BI Desktop:
 

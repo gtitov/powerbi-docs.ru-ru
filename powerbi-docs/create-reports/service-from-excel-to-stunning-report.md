@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: tutorial
-ms.date: 07/30/2020
+ms.date: 12/14/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: 99f562ee315a74c9de6765308272e5e33153c4f0
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: a3ee3ac5cd23942878395f942a32dbe573cb0798
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96388869"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721600"
 ---
 # <a name="tutorial-from-excel-workbook-to-a-report-in-the-power-bi-service-to-microsoft-teams"></a>Руководство. Превращение книги Excel в отчет службе Power BI для Microsoft Teams
-Ваш руководитель требует отчет по последним показателям продаж и прибыли к концу дня. При этом последние данные хранятся в различных сторонних системах и в файлах на вашем ноутбуке. Раньше создание визуальных элементов и форматирование отчета занимало несколько часов и заставляло понервничать.
+Ваш руководитель требует отчет по последним показателям продаж и прибыли к концу дня. Но актуальные данные хранятся в файлах на вашем ноутбуке. Раньше создание отчета занимало несколько часов и заставляло понервничать.
 
 Не волнуйтесь. С Power BI можно быстро создать привлекательный отчет и поделиться им в Microsoft Teams!
 
@@ -32,6 +32,11 @@ ms.locfileid: "96388869"
 > * закрепить визуальные элементы отчета на панели мониторинга;
 > * добавить ссылку на панель мониторинга.
 > * Предоставление общего доступа к панели мониторинга в Microsoft Teams
+
+## <a name="prerequisites"></a>Технические условия
+- [Регистрация в службе Power BI](../fundamentals/service-self-service-signup-for-power-bi.md). 
+- Скачайте [книгу с примером финансовых данных](https://go.microsoft.com/fwlink/?LinkID=521962) и сохраните ее на компьютере или в OneDrive для бизнеса.
+
 
 ## <a name="prepare-data-in-excel"></a>Подготовка данных в Excel
 Для примера возьмем простой файл Excel. 
@@ -49,10 +54,7 @@ ms.locfileid: "96388869"
    ![Снимок экрана: данные в формате таблицы.](media/service-from-excel-to-stunning-report/pbi_excel_table.png)
 
 ## <a name="upload-your-excel-file-to-the-power-bi-service"></a>Отправка файла Excel в службу Power BI
-Служба Power BI подключается к нескольким источникам данных, включая файлы Excel на вашем компьютере. 
-
- > [!NOTE] 
- > Чтобы продолжить работу с руководством, скачайте [книгу с примером финансовых данных](https://go.microsoft.com/fwlink/?LinkID=521962).
+Служба Power BI подключается к нескольким источникам данных, включая файлы Excel на вашем компьютере.
 
 1. Чтобы начать работу, войдите в службу Power BI. Если вы еще не зарегистрировались, [это можно сделать бесплатно](https://powerbi.com).
 1. В разделе **Моя рабочая область** выберите **Создать** > **Отправить файл**.
@@ -190,9 +192,9 @@ ms.locfileid: "96388869"
 
 Вы также можете делится отчетами и панелями мониторинга с коллегами непосредственно в Microsoft Teams.
 
-1. Чтобы предоставить доступ в Teams, в верхней части панели мониторинга выберите элемент **Поделиться в Teams**.
+1. Чтобы предоставить доступ в Teams, в верхней части панели мониторинга выберите элемент **Чат в Teams**.
 
-   ![Снимок экрана: параметр "Поделиться в Teams".](media/service-from-excel-to-stunning-report/power-bi-share-teams.png)
+   ![Снимок экрана: вариант "Чат в Teams".](media/service-from-excel-to-stunning-report/power-bi-share-teams.png)
 
 2. В Power BI откроется диалоговое окно **Поделиться в Teams**. Введите имя пользователя, группы или канала и выберите **Поделиться**. 
    

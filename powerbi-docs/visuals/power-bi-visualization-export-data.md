@@ -6,17 +6,18 @@ ms.author: mihart
 manager: kvivek
 ms.reviewer: tessa
 featuredvideoid: jtlLGRKBvXY
+ms.custom: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: pbi-visuals
 ms.topic: how-to
-ms.date: 09/09/2020
+ms.date: 12/21/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b7aae0e05c74209e66503612d3c89bb430cb5185
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: bf388f28b83ad67fd246d23ba7113e74f0630a0e
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96414790"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721485"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>Экспорт данных, использованных для создания визуализации
 
@@ -105,7 +106,7 @@ ms.locfileid: "96414790"
 
     ![Снимок экрана: снимок экрана экспорта данных с выделенными параметрами "Сводные данные", "XLSX" и "Экспорт".](media/power-bi-visualization-export-data/power-bi-export-data5.png)
 
-1. При выборе элемента **Экспорт** браузер предложит сохранить файл. Откройте сохраненный файл в программе Excel.
+1. При выборе элемента **Экспорт** браузер предложит сохранить файл. Откройте сохраненный файл в программе Excel. Если вы используете приложение Power BI в Microsoft Teams, вы можете не получить те же запросы. Экспортированный файл сохраняется в локальной папке "Загрузки". 
 
     ![Снимок экрана: выходные данные Excel.](media/power-bi-visualization-export-data/power-bi-export-data9.png)
 
@@ -144,7 +145,7 @@ ms.locfileid: "96414790"
 
     ![Снимок экрана: окно "Экспорт данных" с вызываемыми базовыми данными.](media/power-bi-visualization-export-data/power-bi-underlying.png)
 
-1. При выборе элемента **Экспорт** браузер предложит сохранить файл. Откройте сохраненный файл в программе Excel.
+1. При выборе элемента **Экспорт** браузер предложит сохранить файл. Откройте сохраненный файл в программе Excel.  Если вы используете приложение Power BI в Microsoft Teams, вы можете не получить те же запросы. Экспортированный файл сохраняется в локальной папке "Загрузки". 
 
     ![Снимок экрана: файл XLSX, отображающий экспортированные данные.](media/power-bi-visualization-export-data/power-bi-excel.png)
     
@@ -225,7 +226,7 @@ ms.locfileid: "96414790"
 
 Учтите, что конфликтующие параметры портала администрирования Power BI переопределяют параметры отчета для экспорта данных.
 
-## <a name="limitations-and-considerations"></a>Ограничения и рекомендации
+## <a name="limitations-and-considerations"></a>Рекомендации и ограничения
 Эти ограничения и рекомендации применяются к Power BI Desktop и службе Power BI, включая Power BI Pro и Premium.
 
 - Чтобы экспортировать данные из визуального элемента, вам нужно иметь [разрешение на сборку для базового набора данных](../connect-data/service-datasets-build-permissions.md).

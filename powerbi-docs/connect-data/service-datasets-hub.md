@@ -1,5 +1,5 @@
 ---
-title: Обнаружение наборов данных с помощью концентратора наборов данных
+title: Обнаружение наборов данных с помощью концентратора наборов данных (предварительная версия)
 description: Узнайте, как находить, исследовать и использовать наборы данных в отчетах вашей организации.
 author: paulinbar
 ms.author: painbar
@@ -8,14 +8,14 @@ ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 12/14/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: c6b7170df78b6d544f7eb97ec62516577f9267b6
-ms.sourcegitcommit: b5365df7fc32b7c49f8a2bf2cf75b5edd6bda9b6
+ms.openlocfilehash: 4e09eb9e0b44fbddf8787f474fe1a93b0b4c2d71
+ms.sourcegitcommit: a92a3570eb14793a758a32e8fa1a756ec5d83f8c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97513811"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "97707980"
 ---
-# <a name="datasets-discovery-using-the-datasets-hub"></a>Обнаружение наборов данных с помощью концентратора наборов данных
+# <a name="datasets-discovery-using-the-datasets-hub-preview"></a>Обнаружение наборов данных с помощью концентратора наборов данных (предварительная версия)
 
 Концентратор наборов данных упрощает поиск, изучение и использование наборов данных в организации. Он предоставляет сведения о наборах данных, а также точки входа для создания отчетов на основе этих наборов данных или для использования этих наборов данных с помощью функции анализа в Excel.
 

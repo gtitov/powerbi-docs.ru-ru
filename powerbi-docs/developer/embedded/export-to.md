@@ -1,18 +1,18 @@
 ---
 title: Экспорт API отчетов встроенной аналитики Power BI
-description: Узнайте, как экспортировать внедренный отчет из Power BI.
+description: Узнайте, как экспортировать внедренный отчет Power BI, чтобы улучшить встроенные возможности бизнес-аналитики Power BI
 author: KesemSharabi
 ms.author: kesharab
 ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.date: 10/01/2020
-ms.openlocfilehash: a0aa5839272529a0217ea4a4355342c51d55a6c3
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.date: 12/28/2020
+ms.openlocfilehash: da0f5f155552a8a53b53789f3bfb6ebe839367c5
+ms.sourcegitcommit: a465a0c80ffc0f24ba6b8331f88420a0d21ac0b2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098290"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97805149"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Экспорт отчета Power BI в файл (предварительная версия)
 
@@ -30,7 +30,7 @@ ms.locfileid: "97098290"
 
 * **Кнопка Send to print (Отправить на печать)** . В приложении создайте кнопку, которая при нажатии активирует задание экспорта. Задание может экспортировать просматриваемый отчет в формате PDF или PPTX, а после его завершения пользователь может получить его в качестве загружаемого файла. Используя закладки, вы сможете экспортировать отчет в определенном состоянии, включая настроенные фильтры, срезы и дополнительные параметры. Так как API является асинхронным, для доступа к файлу может потребоваться некоторое время.
 
-* **Вложение электронной почты**. Отправка автоматизированного электронного письма через заданные интервалы с вложенным отчетом в формате PDF. Этот сценарий может быть полезен, если вы хотите автоматизировать отправку еженедельного отчета руководителям.
+* **Вложение электронной почты**. Отправка автоматизированного электронного письма через заданные интервалы с вложенным отчетом в формате PDF. Этот сценарий может быть полезен, если вы хотите автоматизировать отправку еженедельного отчета руководителям. Дополнительные сведения см. в статье [Экспорт отчета Power BI и его отправка по электронной почте с помощью Power Automate](../../collaborate-share/service-automate-power-bi-report-export.md).
 
 ## <a name="using-the-api"></a>Использование API
 
@@ -65,7 +65,24 @@ API является асинхронным. При вызове API [exportToFi
 >[!NOTE]
 >[Личные закладки](../../consumer/end-user-bookmarks.md#personal-bookmarks) и [Постоянные фильтры](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/) не поддерживаются.
 
-### <a name="authentication"></a>Authentication
+### <a name="filters"></a>Фильтры
+
+С помощью `reportLevelFilters` в [PowerBIReportExportConfiguration](/rest/api/power-bi/reports/exporttofile#powerbireportexportconfiguration) можно экспортировать отчет в отфильтрованном состоянии.
+
+Чтобы экспортировать отфильтрованный отчет, вставьте [параметры строки запроса URL-адреса](../../collaborate-share/service-url-filters.md), которые необходимо использовать в качестве фильтра, в [ExportFilter](/rest/api/power-bi/reports/exporttofile#exportfilter). При вводе строки необходимо удалить часть `?filter=` параметра запроса URL-адреса.
+
+В таблице ниже приведено несколько примеров синтаксиса строк, которые можно передать в `ExportFilter`.
+
+|Filter    |Синтаксис    |Пример    |
+|---|----|----|----|
+|Значение в поле    |Таблица/поле eq 'значение'    |Store/Territory eq 'NC'    |
+|Несколько значений в поле    |Таблица/поле in ('значение_1', 'значение_2')     |Store/Territory in ('NC', 'TN')    |
+|Отдельное значение в одном поле и другое уникальное значение в другом поле    |Таблица/поле_1 eq 'значение_1' and Таблица/поле_2 eq 'значение_2'    |Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'    |
+
+>[!NOTE]
+>`ReportLevelFilters` может содержать только один фильтр [ExportFilter](/rest/api/power-bi/reports/exporttofile#exportfilter).
+
+### <a name="authentication"></a>Аутентификация
 
 Проверку подлинности можно выполнять с помощью пользователя (главного пользователя) или [субъекта-службы](embed-service-principal.md).
 
@@ -142,7 +159,8 @@ private async Task<string> PostExportRequest(
     Guid reportId,
     Guid groupId,
     FileFormat format,
-    IList<string> pageNames = null /* Get the page names from the GetPages REST API */)
+    IList<string> pageNames = null, /* Get the page names from the GetPages REST API */
+    string urlFilter = null)
 {
     var powerBIReportExportConfiguration = new PowerBIReportExportConfiguration
     {
@@ -153,6 +171,9 @@ private async Task<string> PostExportRequest(
         // Note that page names differ from the page display names
         // To get the page names use the GetPages REST API
         Pages = pageNames?.Select(pn => new ExportReportPage(Name = pn)).ToList(),
+        // ReportLevelFilters collection needs to be instantiated explicitly
+        ReportLevelFilters = !string.IsNullOrEmpty(urlFilter) ? new List<ExportFilter>() { new ExportFilter(urlFilter) } : null,
+
     };
 
     var exportRequest = new ExportReportRequest
@@ -263,7 +284,8 @@ private async Task<ExportedFile> ExportPowerBIReport(
     FileFormat format,
     int pollingtimeOutInMinutes,
     CancellationToken token,
-    IList<string> pageNames = null  /* Get the page names from the GetPages REST API */)
+    IList<string> pageNames = null,  /* Get the page names from the GetPages REST API */
+    string urlFilter = null)
 {
     const int c_maxNumberOfRetries = 3; /* Can be set to any desired number */
     const int c_secToMillisec = 1000;
@@ -273,7 +295,7 @@ private async Task<ExportedFile> ExportPowerBIReport(
         int retryAttempt = 1;
         do
         {
-            var exportId = await PostExportRequest(reportId, groupId, format, pageNames);
+            var exportId = await PostExportRequest(reportId, groupId, format, pageNames, urlFilter);
             var httpMessage = await PollExportRequest(reportId, groupId, exportId, pollingtimeOutInMinutes, token);
             export = httpMessage.Body;
             if (export == null)
@@ -339,3 +361,6 @@ private async Task<ExportedFile> ExportPowerBIReport(
 
 > [!div class="nextstepaction"]
 >[Внедрение для организации](embed-sample-for-your-organization.md)
+
+> [!div class="nextstepaction"]
+>[Экспорт отчета Power BI и его отправка по электронной почте с помощью Power Automate](../../collaborate-share/service-automate-power-bi-report-export.md)
