@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 12/22/2020
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 88d508e5a71fec2574104356d77aaa0fb79bb0bc
-ms.sourcegitcommit: 1691ce556ab5b22e6f9d06086a054d165d482809
+ms.openlocfilehash: 730a997a6d1d304fe868dd5bdd5bfbed6e359d91
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/23/2020
-ms.locfileid: "97745239"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97927160"
 ---
 # <a name="microsoft-sustainability-calculator-support-page"></a>Страница поддержки Microsoft Sustainability Calculator
 
@@ -29,6 +29,7 @@ Microsoft Sustainability Calculator предоставляет новые ана
 - Идентификатор клиента
 - Ключ доступа
 - номер соглашения о регистрации;
+- Только участники роли администратора Azure могут пройти проверку подлинности и подключить калькулятор к данным компании. (**Только для предварительной версии за декабрь 2020 г.** )
 
 Чтобы найти номер регистрации своей компании, выполните следующие действия.
 
@@ -134,7 +135,7 @@ Microsoft Sustainability Calculator работает на базе Power BI Pr
 - [Видеоинструкции](https://go.microsoft.com/fwlink/?linkid=2151608)
 - [Преимущества облачных вычислений с точки зрения выбросов углекислого газа: исследование Microsoft Cloud в партнерстве с WSP](https://download.microsoft.com/download/7/3/9/739BC4AD-A855-436E-961D-9C95EB51DAF9/Microsoft_Cloud_Carbon_Study_2018.pdf)
 
-### <a name="faq"></a>ВОПРОСЫ И ОТВЕТЫ
+### <a name="faq"></a>Вопросы и ответы
 
 #### <a name="app-setup"></a>Настройка приложения
 

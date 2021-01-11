@@ -1,6 +1,6 @@
 ---
-title: Внедрение содержимого Power BI в приложение встроенной аналитики с помощью субъекта-службы и секрета приложения
-description: Сведения о том, как выполнять проверку подлинности внедренной аналитики с помощью субъекта-службы приложения Azure Active Directory и секрета приложения.
+title: Внедрение содержимого Power BI в приложение встроенной аналитики с помощью субъекта-службы и секрета приложения для получения оптимальной встроенной бизнес-аналитики
+description: Сведения о том, как выполнять проверку подлинности внедренной аналитики с помощью субъекта-службы приложения Azure Active Directory и секрета приложения. Получайте оптимальную встроенную бизнес-аналитику в Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
 ms.date: 11/23/2020
-ms.openlocfilehash: 8cf7b46687491f446d4e17fc96b020dbc08de5fc
-ms.sourcegitcommit: a92a3570eb14793a758a32e8fa1a756ec5d83f8c
+ms.openlocfilehash: 35bdaa8af06187767975126daa1f2445908fed9f
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/21/2020
-ms.locfileid: "97708072"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97886794"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-an-application-secret"></a>Внедрение содержимого Power BI с помощью субъект-службы и секрета приложения
 
