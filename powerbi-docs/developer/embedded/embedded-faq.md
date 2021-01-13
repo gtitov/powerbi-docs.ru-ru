@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
-ms.openlocfilehash: 4d8096793c4663cbed71c3149bde11305ebee71e
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: d787dfbb926a3a1224d5b4949003e0b0d260260f
+ms.sourcegitcommit: b4c457bfb4676381dc4a0d04d965e8dab0bc230e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97886702"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98155648"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Часто задаваемые вопросы о Power BI Embedded
 
@@ -35,7 +35,6 @@ ms.locfileid: "97886702"
 Power BI представляет собой решение программного обеспечения как услуги для аналитики, которое предоставляет организациям единое представление их критически важных бизнес-данных.
 
 Корпорация Майкрософт разработала службу Power BI Embedded для независимых поставщиков программного обеспечения, которые хотят внедрять визуальные элементы в свои приложения, чтобы помочь клиентам принимать аналитические решения. Это избавляет независимых поставщиков программного обеспечения от необходимости создавать свои собственные решения для аналитики. [Встроенная аналитика](embedding.md) позволяет бизнес-пользователям получать доступ к бизнес-данным и выполнять к ним запросы для формирования аналитических сведений в приложении.
-
 
 ### <a name="what-is-the-difference-between-power-bi-premium-and-power-bi-embedded"></a>В чем разница между Power BI Premium и Power BI Embedded?
 

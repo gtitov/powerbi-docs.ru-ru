@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 03/08/2020
-ms.openlocfilehash: 1331543973680879e4fcc2dbafc7323e72a27694
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: 5f337197655d41b830b237c04faa2642991c34ee
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97888174"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969818"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Получите сертификацию для визуального элемента Power BI
 
@@ -92,7 +92,7 @@ ms.locfileid: "97888174"
 * Используйте только открытые и доступные для просмотра компоненты OSS, например общедоступные библиотеки JavaScript или TypeScript.
 * Код должен поддерживать [API событий отрисовки](event-service.md).
 * Обеспечьте безопасную обработку DOM. Перед добавлением данных в модель DOM используйте очистку для пользовательского ввода или пользовательской информации.
-* Используйте [образец отчета](https://github.com/Microsoft/PowerBI-visuals/raw/gh-pages/assets/reports/large_data.pbix) в качестве тестового набора данных.
+* Используйте [образец отчета](https://github.com/PowerBi-Projects/PowerBI-visuals/tree/gh-pages/assets) в качестве тестового набора данных.
 
 **Не разрешено**
 * Доступ к внешним службам или ресурсам. Например, запросы HTTP/S или WebSocket не должны отправляться из Power BI во внешние службы.

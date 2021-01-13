@@ -1,6 +1,6 @@
 ---
-title: Создание емкости Power BI Embedded на портале Azure для решения встроенной бизнес-аналитики Power BI
-description: В этой статье рассматривается создание емкости Power BI в Microsoft Azure для решения встроенной бизнес-аналитики Power BI.
+title: Создание емкости Power BI Embedded на портале Azure | Документация Майкрософт
+description: В этой статье рассматривается создание емкости Power BI Embedded в Microsoft Azure.
 author: KesemSharabi
 ms.author: kesharab
 ms.service: powerbi
@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.reviewer: zakharb
 ms.custom: subject-armqs, devx-track-azurecli
 ms.date: 08/02/2020
-ms.openlocfilehash: 898da0f5e4284183f2ffa08fba8e6a50d9474d15
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: 73be957feae7fb869cca0af7bce0eeeb8daab03f
+ms.sourcegitcommit: b4c457bfb4676381dc4a0d04d965e8dab0bc230e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97887530"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98155733"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>Создание емкости Power BI Embedded на портале Azure
 
@@ -47,7 +47,8 @@ _ **Клиент Power BI:** По крайней мере одна учетна�
 
 4. Укажите необходимые сведения и нажмите **Просмотр и создание**.
 
-    ![Снимок экрана: вкладка "Основные" на странице Power B I Embedded для создания емкости на портале Azure.](media/azure-pbie-create-capacity/azure-create-capacity.png)
+    >[!div class="mx-imgBorder"]
+    >![Снимок экрана: вкладка "Основные" на странице Power B I Embedded для создания емкости на портале Azure.](media/azure-pbie-create-capacity/azure-create-capacity-old.png)
 
     * **Подписка** — подписка, в которой вы хотите создать емкость.
 

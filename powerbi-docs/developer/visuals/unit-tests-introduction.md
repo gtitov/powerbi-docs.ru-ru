@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: ee7ed48043a902a9b5ebd3c548ebec7505e76ab1
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: 784f41e8efa5c6d02a95ef451488883a4422b854
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97887921"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969496"
 ---
 # <a name="tutorial-add-unit-tests-for-power-bi-visual-projects"></a>Руководство. Добавление модульных тестов для проектов визуальных элементов Power BI
 
@@ -457,7 +457,7 @@ export class SampleBarChartDataBuilder extends TestDataViewBuilder {
 
 В модульных тестах у вас нет основных функций Power BI для воспроизведения данных. Однако вам нужно сопоставить статические данные с категориальным `dataview`. Класс `TestDataViewBuilder` можно использовать для его сопоставления.
 
-Дополнительные сведения о сопоставлении представлений данных см. в статье [Сопоставления представлений данных](https://github.com/Microsoft/PowerBI-visuals/blob/master/Capabilities/DataViewMappings.md).
+Дополнительные сведения о сопоставлении представлений данных см. в статье [Сопоставления представлений данных](https://github.com/PowerBi-Projects/PowerBI-visuals/blob/master/Capabilities/DataViewMappings.md).
 
 В методе `getDataView` вы вызываете метод `createCategoricalDataViewBuilder` с данными.
 

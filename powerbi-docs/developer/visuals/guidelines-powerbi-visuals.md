@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 08/12/2020
-ms.openlocfilehash: 67875f9b571e0a0376046a3cb080551d23e579e4
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: adb238b918d01bcdefe247a5452a0432b97d2e0c
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97889301"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969519"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Рекомендации по визуальным элементам Power BI
 Перед [публикацией](office-store.md) вашего визуального элемента Power BI для других пользователей в Microsoft AppSource, обязательно выполните рекомендации, чтобы сделать его поиск и использование максимально удобными.
@@ -57,7 +57,7 @@ ms.locfileid: "97889301"
 ## <a name="context-menu"></a>Контекстное меню
 Контекстное меню отображается по нажатию правой кнопки мыши, когда пользователь наводит указатель мыши на визуальный элемент.
 Все визуальные элементы Power BI должны использовать контекстное меню для обеспечения единого интерфейса.
-Обратитесь к [этой статье](https://github.com/Microsoft/PowerBI-visuals/blob/gh-pages/tutorials/building-bar-chart/adding-context-menu-to-the-bar.md), чтобы узнать, как добавить контекстное меню.
+Обратитесь к [этой статье](https://github.com/PowerBi-Projects/PowerBI-visuals/tree/gh-pages/tutorials/building-bar-chart), чтобы узнать, как добавить контекстное меню.
 
 >[!div class="mx-imgBorder"]
 >![Снимок экрана: контекстное меню визуального элемента Power BI.](media/guidelines-powerbi-visuals/context-menu.png)
