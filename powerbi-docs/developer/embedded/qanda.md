@@ -1,6 +1,6 @@
 ---
-title: Вопросы и ответы в Power BI Embedded
-description: Power BI Embedded позволяет интегрировать функцию "Вопросы и ответы" в приложение, с помощью которого пользователи могут задавать вопросы на естественном языке.
+title: Функция "Вопросы и ответы" во встроенной аналитике Power BI для более эффективного использования встроенной бизнес-аналитики Power BI
+description: Встроенная аналитика Power BI позволяет интегрировать функцию "Вопросы и ответы" в приложение, с помощью которого пользователи могут задавать вопросы на естественном языке. Получайте оптимальную встроенную бизнес-аналитику в Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,16 +8,16 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 11/20/2017
-ms.openlocfilehash: 0106cc9ddb0e82a7b40e362342fce5196ef655c5
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 43e886e6472c6d95b900ccdb5c2e73b8dca3d4a0
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749283"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97886610"
 ---
-# <a name="qa-in-power-bi-embedded"></a>Вопросы и ответы в Power BI Embedded
+# <a name="qa-in-power-bi-embedded-analytics"></a>Функция "Вопросы и ответы" во встроенной аналитике Power BI
 
-Power BI Embedded позволяет встроить функцию "Вопросы и ответы" в приложение, с помощью которого пользователи могут задавать вопросы на естественном языке и сразу же получать ответы в виде таких визуальных элементов, как диаграммы и графики.
+Встроенная аналитика Power BI позволяет встроить функцию "Вопросы и ответы" в приложение, с помощью которого пользователи могут задавать вопросы на естественном языке и сразу же получать ответы в виде таких визуальных элементов, как диаграммы и графики.
 
 ![Вопросы и ответы: интерактивный вопрос во внедренном окне](media/qanda/embedded-qanda.gif)
 
@@ -102,4 +102,4 @@ qna.on("visualRendered", function(event) {
 
 Чтобы попробовать внедрить компонент "Вопросы и ответы", воспользуйтесь [примером внедрения на JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/).
 
-У вас имеются и другие вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
+Остались вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

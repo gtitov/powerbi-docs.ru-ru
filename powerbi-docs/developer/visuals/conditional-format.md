@@ -1,6 +1,6 @@
 ---
-title: Условное форматирование
-description: Узнайте, как применить условное форматирование к визуальному проекту Power BI
+title: Условное форматирование во встроенной аналитике Power BI для более эффективного использования встроенной бизнес-аналитики Power BI
+description: Узнайте, как применить условное форматирование к проекту визуального элемента Power BI. Получайте оптимальную встроенную бизнес-аналитику в Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 10/27/2020
-ms.openlocfilehash: 5243d1eda3fef2c7b82350fb0ca2669eb43c7623
-ms.sourcegitcommit: b5365df7fc32b7c49f8a2bf2cf75b5edd6bda9b6
+ms.openlocfilehash: 13f9dae542b8e0a340a880ab50b2f57c660e0ed9
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97513854"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888772"
 ---
 # <a name="add-conditional-formatting"></a>Условное форматирование
 

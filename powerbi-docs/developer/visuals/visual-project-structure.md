@@ -1,6 +1,6 @@
 ---
-title: Структура проекта визуального элемента Power BI
-description: В этой статье описывается структура папок и файлов визуального проекта Power BI
+title: Структура проекта визуального элемента Power BI для более эффективного использования встроенной бизнес-аналитики Power BI
+description: В этой статье описывается структура папок и файлов визуального проекта Power BI. Получайте оптимальную встроенную бизнес-аналитику в Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 01/12/2020
-ms.openlocfilehash: df7a2909e3ccd745fdaa990ba5281a723ef6360d
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 4c946021138e49c0aed9668d9b3ea6079f458ccd
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96416722"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888036"
 ---
 # <a name="power-bi-visual-project-structure"></a>Структура проекта визуального элемента Power BI
 

@@ -1,6 +1,6 @@
 ---
-title: Инструменты для взаимодействия визуальных элементов Power BI
-description: В статье описывается добавление выделенных элементов в визуальные элементы Power BI с помощью инструментов для взаимодействия
+title: Средства для взаимодействия с визуальными элементами в Power BI для более эффективного использования встроенной бизнес-аналитики Power BI
+description: В статье описывается добавление выделенных элементов в визуальные элементы Power BI с помощью средств для взаимодействия. Получайте оптимальную встроенную бизнес-аналитику в Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 02/24/2020
-ms.openlocfilehash: f4d47347c98d19afdfbf07615842bfb4649dc1b9
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 533cf90ed9192a8d9e595cdea6320207b841b559
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79379267"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887783"
 ---
 # <a name="power-bi-visuals-interactivity-utils"></a>Инструменты для взаимодействия визуальных элементов Power BI
 

@@ -1,6 +1,6 @@
 ---
-title: Общие сведения об использовании средств диаграмм в визуальном элементе Power BI
-description: В этой статье описывается использование средств диаграмм для рисования осей и условных обозначений в визуальном элементе Power BI.
+title: Общие сведения об использовании средств для создания диаграмм в визуальных элементах Power BI для более эффективного использования встроенной бизнес-аналитики Power BI
+description: В этой статье описывается использование средств диаграмм для рисования осей и условных обозначений в визуальном элементе Power BI. Получайте оптимальную встроенную бизнес-аналитику в Power BI.
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: 531da1ede8b83af9fb8093a3178c945f374b835c
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 9094d639225eb82cbcf427346d1ad78943ddc90f
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79379398"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887875"
 ---
 # <a name="chart-utils"></a>Инструменты для диаграмм
 
@@ -42,7 +42,7 @@ npm install powerbi-visuals-utils-chartutils --save
 function getRecommendedNumberOfTicksForXAxis(availableWidth: number): number;
 ```
 
-Пример.
+Пример
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -60,7 +60,7 @@ axis.getRecommendedNumberOfTicksForXAxis(1024);
 function getRecommendedNumberOfTicksForYAxis(availableWidth: number);
 ```
 
-Пример.
+Пример
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -84,7 +84,7 @@ function getBestNumberOfTicks(
 ): number;
 ```
 
-Пример.
+Пример
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -132,7 +132,7 @@ function getTickLabelMargins(
 ): TickLabelMargins;
 ```
 
-Пример.
+Пример
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -164,7 +164,7 @@ axis.getTickLabelMargins(
 function isOrdinal(type: ValueTypeDescriptor): boolean;
 ```
 
-Пример.
+Пример
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -183,7 +183,7 @@ axis.isOrdinal(type);
 function isDateTime(type: ValueTypeDescriptor): boolean;
 ```
 
-Пример.
+Пример
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -202,7 +202,7 @@ axis.isDateTime(ValueType.fromDescriptor({ dateTime: true }));
 function getCategoryThickness(scale: any): number;
 ```
 
-Пример.
+Пример
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -226,7 +226,7 @@ let actualThickness = axis.getCategoryThickness(scale);
 function invertOrdinalScale(scale: d3.scale.Ordinal<any, any>, x: number);
 ```
 
-Пример.
+Пример
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -256,7 +256,7 @@ function findClosestXAxisIndex(
 ): number;
 ```
 
-Пример.
+Пример
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -302,7 +302,7 @@ function diffScaled(
 ): number;
 ```
 
-Пример.
+Пример
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -335,7 +335,7 @@ function createDomain(
 ): number[];
 ```
 
-Пример.
+Пример
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -386,7 +386,7 @@ function getCategoryValueType(
 ): number[];
 ```
 
-Пример.
+Пример
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -431,7 +431,7 @@ axis.getCategoryValueType(
 function createAxis(options: CreateAxisOptions): IAxisProperties;
 ```
 
-Пример.
+Пример
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -476,7 +476,7 @@ var os = axis.createAxis({
 function applyCustomizedDomain(customizedDomain, forcedDomain: any[]): any[];
 ```
 
-Пример.
+Пример
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -503,7 +503,7 @@ function combineDomain(
 ): any[];
 ```
 
-Пример.
+Пример
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -526,7 +526,7 @@ axis.combineDomain(forcedYDomain, xDomain, ensureXDomain);
 function powerOfTen(d: any): boolean;
 ```
 
-Пример.
+Пример
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -556,7 +556,7 @@ function hideCollidedLabels(
 ): LabelEnabledDataPoint[];
 ```
 
-Пример.
+Пример
 
 ```typescript
 let dataLabelManager = new DataLabelManager();
@@ -576,7 +576,7 @@ let filteredData = dataLabelManager.hideCollidedLabels(
 function isValid(rect: IRect): boolean;
 ```
 
-Пример.
+Пример
 
 ```typescript
 let rectangle = {
@@ -613,7 +613,7 @@ function getLabelPrecision(precision: number, format: string): number;
 function getLabelFormattedText(options: LabelFormattedTextOptions): string;
 ```
 
-Пример.
+Пример
 
 ```typescript
 import { dataLabelUtils } from "powerbi-visuals-utils-chartutils";
@@ -661,7 +661,7 @@ function enumerateCategoryLabels(
 function createColumnFormatterCacheManager(): IColumnFormatterCacheManager;
 ```
 
-Пример.
+Пример
 
 ```typescript
 import { dataLabelUtils } from "powerbi-visuals-utils-chartutils";
@@ -699,7 +699,7 @@ function createLegend(
 ): ILegend;
 ```
 
-Пример.
+Пример
 
 ```typescript
 public constructor(options: VisualConstructorOptions) {
@@ -749,7 +749,7 @@ export interface ILegend {
 function drawLegend(data: LegendData, viewport: IViewport): void;
 ```
 
-Пример.
+Пример
 
 ```typescript
 private renderLegend(): void {

@@ -1,6 +1,6 @@
 ---
-title: Руководство. Создание визуального элемента на основе React для Power BI
-description: В этом руководстве показано, как создать визуальный элемент Power BI с помощью React. Он отображает значение в кружке. Адаптивные размер и параметры позволяют выполнить его настройку.
+title: Создание визуальных элементов Power BI на основе React для более эффективного использования встроенной бизнес-аналитики Power BI
+description: В этом руководстве показано, как создать визуальный элемент Power BI с помощью React. Он отображает значение в кружке. Адаптивные размер и параметры позволяют выполнить его настройку. Получайте оптимальную встроенную бизнес-аналитику в Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 03/30/2020
-ms.openlocfilehash: d8e7b5dca207aef1a4f119bf324662dbcaa1bbab
-ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
+ms.openlocfilehash: 04c73d88d4051aa024a2bf3a56f3bdaf02b9dc1e
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94513328"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97889021"
 ---
 # <a name="tutorial-create-a-react-based-visual"></a>Руководство. Создание визуального элемента на основе React
 

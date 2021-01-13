@@ -1,6 +1,6 @@
 ---
-title: Добавление цветов в визуальные элементы службы Power BI
-description: В этой статье описывается, как добавлять цвета в визуальные элементы Power BI? и как управлять точками данных для визуального элемента с цветом.
+title: Добавление цветов в визуальные элементы Power BI для более эффективного использования встроенной бизнес-аналитики Power BI
+description: В этой статье описывается, как добавлять цвета в визуальные элементы Power BI? и как управлять точками данных для визуального элемента с цветом. Получайте оптимальную встроенную бизнес-аналитику в Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 03/27/2020
-ms.openlocfilehash: 3a68f3dedbef9e97b6c29d3a0923d43872a5f01a
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: e6b6fb1dbc1397b93ac12692c8610e6f36d0b8bf
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92048816"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887990"
 ---
 # <a name="add-colors-to-your-power-bi-visuals"></a>Добавление цветов в визуальные элементы службы Power BI
 

@@ -1,6 +1,6 @@
 ---
-title: Тестирование отправки визуального элемента Power BI
-description: В этой статье описываются тестовые случаи, которые должен пройти визуальный элемент перед публикацией в AppSource. Кроме того, существуют проверочные варианты.
+title: Тестирование отправки визуальных элементов Power BI для более эффективного использования встроенной бизнес-аналитики Power BI
+description: В этой статье описываются тестовые случаи, которые должен пройти визуальный элемент перед публикацией в AppSource. Кроме того, существуют проверочные варианты. Получайте оптимальную встроенную бизнес-аналитику в Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 04/15/2020
-ms.openlocfilehash: 515813aeb98010f838cfff75febbb1ef206bc2cf
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: b5054d821dc797f1606fea8ec5d0bb43569a57e5
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397491"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888473"
 ---
 # <a name="submission-testing-of-a-power-bi-visual"></a>Тестирование отправки визуального элемента Power BI
 

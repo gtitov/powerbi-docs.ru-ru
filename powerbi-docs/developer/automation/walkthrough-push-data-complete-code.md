@@ -1,6 +1,6 @@
 ---
-title: Полный листинг кода
-description: Пошаговое руководство по отправке данных — полный листинг кода
+title: Полный листинг кода во встроенной аналитике Power BI для более эффективного использования встроенной бизнес-аналитики Power BI
+description: Пошаговое руководство по отправке данных — полный листинг кода. Получайте оптимальную встроенную бизнес-аналитику в Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: madia
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: f2e421297eb942e6e9a622c91e9d5a074cb042ba
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: d478c742112c15c80657ec424f5a4d6739a3c6d7
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746500"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887484"
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>Полный листинг кода для отправки данных в набор данных
 
@@ -224,13 +224,13 @@ ms.locfileid: "91746500"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-* [Принудительная отправка данных в панель мониторинга Power BI](walkthrough-push-data.md)
-* [Регистрация приложения в Azure AD](../embedded/register-app.md)  
+* [Принудительная отправка данных набор данных Power BI](walkthrough-push-data.md)
+* [Регистрация приложения в Azure AD](../embedded/register-app.md)  
 * [Получение токена доступа для проверки подлинности](walkthrough-push-data-get-token.md)  
-* [Создание набора данных в панели мониторинга Power BI](walkthrough-push-data-create-dataset.md)  
-* [Получение набора данных для добавления строк в таблицу Power BI](walkthrough-push-data-get-datasets.md)  
+* [Создание набора данных в Power BI](walkthrough-push-data-create-dataset.md)  
+* [Получение набора данных для добавления строк в таблицу Power BI](walkthrough-push-data-get-datasets.md)  
 * [Добавление строк в таблицу Power BI](walkthrough-push-data-add-rows.md)  
 * [Справочник по REST API Power BI](/rest/api/power-bi/)  
-* [Обзор интерфейса REST API Power BI](overview-of-power-bi-rest-api.md)  
+* [Обзор интерфейса REST API Power BI](overview-of-power-bi-rest-api.md)  
 
-У вас имеются и другие вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+Остались вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)

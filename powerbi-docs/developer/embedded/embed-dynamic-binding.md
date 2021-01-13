@@ -1,18 +1,18 @@
 ---
-title: Подключение отчета к набору данных с помощью динамической привязки во внедренной аналитике Power BI
-description: Сведения о внедрении отчета с использованием динамической привязки.
+title: Подключение отчета к набору данных с помощью динамической привязки для встроенной бизнес-аналитики во встроенной аналитике Power BI
+description: Узнайте, как внедрить отчет с помощью динамической привязки во встроенной аналитике Power BI, создав более эффективную бизнес-аналитику для своих клиентов.
 author: KesemSharabi
 ms.author: kesharab
 ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/07/2019
-ms.openlocfilehash: d8a460f68838faab11cdab6d39f0e757a9789899
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.openlocfilehash: aacae4dbfae30d72468419a717340c806c6c4bca
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098382"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888910"
 ---
 # <a name="connect-a-report-to-a-dataset-using-dynamic-binding"></a>Подключение отчета к набору данных с помощью динамической привязки 
 

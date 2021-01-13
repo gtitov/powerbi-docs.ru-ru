@@ -1,6 +1,6 @@
 ---
-title: Функция supportsKeyboardFocus
-description: В этой статье описывается, как использовать функцию supportsKeyboardFocus в визуальных элементах Power BI, а также требования к ее использованию.
+title: Функция supportsKeyboardFocus в Power BI для более эффективного использования встроенной бизнес-аналитики Power BI
+description: В этой статье описывается, как использовать функцию supportsKeyboardFocus в визуальных элементах Power BI, а также требования к ее использованию. Получайте оптимальную встроенную бизнес-аналитику в Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 04/30/2020
-ms.openlocfilehash: 1e5a4cf8c80d8123d39fd2ab76898abc0c439ad9
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: 5ba87db8118076de4bf13abc0280223f9f04f871
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92049391"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887967"
 ---
 # <a name="use-the-supportskeyboardfocus-feature"></a>Использование функции supportsKeyboardFocus
 

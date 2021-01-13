@@ -1,6 +1,6 @@
 ---
-title: Общие сведения об использовании подсказок по служебным программам в визуальном элементе Power BI
-description: В этой статье описывается, как использовать подсказки по служебным программам для упрощения настройки всплывающих подсказок для визуальных элементов Power BI
+title: Общие сведения об использовании подсказок по служебным программам в визуальных элементах Power BI для более эффективного использования встроенной бизнес-аналитики Power BI
+description: В этой статье описывается, как использовать подсказки по служебным программам для упрощения настройки всплывающих подсказок для визуальных элементов Power BI. Получайте оптимальную встроенную бизнес-аналитику в Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 02/14/2020
-ms.openlocfilehash: 69650982bd3e71c235ffb09b00a99959bc02c231
-ms.sourcegitcommit: 1428acb6334649fc2d3d8ae4c42cfbc17e8f7476
+ms.openlocfilehash: b2ddc85d9ba2530dc394b4106d72b4af702bd9b4
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "92197640"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888657"
 ---
 # <a name="tooltip-utils"></a>Подсказки по служебным программам
 Эта статья поможет вам установить, импортировать и использовать подсказки по служебным программам. Эта служебная программа полезна для любых настроек всплывающих подсказок в визуальных элементах Power BI.

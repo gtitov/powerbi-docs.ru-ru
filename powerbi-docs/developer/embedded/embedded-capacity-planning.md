@@ -1,6 +1,6 @@
 ---
-title: Планирование ресурсов для встроенной аналитики Power BI
-description: Планирование ресурсов в аналитике Power BI Embedded.
+title: Планирование ресурсов в Power BI для более эффективного использования встроенной бизнес-аналитики Power BI
+description: Узнайте, как спланировать емкость во встроенной аналитике Power BI. Получайте оптимальную встроенную бизнес-аналитику в Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 03/03/2020
-ms.openlocfilehash: b172b48517ccc8c55821fa8e8217d5e2df398b2d
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.openlocfilehash: 69eeae495f66a4f41f25d5234f1b995d1e3d4986
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098359"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888841"
 ---
 # <a name="capacity-planning-in-power-bi-embedded-analytics"></a>Планирование ресурсов в аналитике Power BI Embedded
 

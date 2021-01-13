@@ -1,6 +1,6 @@
 ---
-title: Принудительная отправка данных в набор данных
-description: Принудительная отправка данных набор данных Power BI
+title: Принудительная отправка данных в набор данных в Power BI для более эффективного использования встроенной бизнес-аналитики Power BI
+description: Принудительная отправка данных в набор данных Power BI. Получайте оптимальную встроенную бизнес-аналитику в Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: rkarlin
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 05/22/2019
-ms.openlocfilehash: 792afe42cf302ae552b7f8f1c14d5f232ade320f
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 3c5805f4d498e8e2d8a788c5703a09a8109e024b
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746707"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887438"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Принудительная отправка данных набор данных Power BI
 
@@ -23,11 +23,11 @@ API Power BI позволяет принудительно отправлять
 
 ## <a name="steps-to-push-data-into-a-dataset"></a>Принудительная отправка данных в набор данных
 
-* Шаг 1. [Регистрация приложения в Azure AD](../embedded/register-app.md)
+* Шаг 1. [Регистрация приложения в Azure AD](../embedded/register-app.md)
 * Шаг 2. [Получение токена доступа для проверки подлинности](walkthrough-push-data-get-token.md)
 * Шаг 3. [Создание набора данных в панели мониторинга Power BI](walkthrough-push-data-create-dataset.md)
-* Шаг 4. [Получение набора данных для добавления строк в таблицу Power BI](walkthrough-push-data-get-datasets.md)
-* Шаг 5. [Добавление строк в таблицу Power BI](walkthrough-push-data-add-rows.md)
+* Шаг 4. [Получение набора данных для добавления строк в таблицу Power BI](walkthrough-push-data-get-datasets.md)
+* Шаг 5. [Добавление строк в таблицу Power BI](walkthrough-push-data-add-rows.md)
 
 В следующем разделе приводятся общие сведения об операциях API Power BI для отправки данных.
 
@@ -46,7 +46,7 @@ REST API Power BI позволяет принудительно отправля
 
 Строка JSON для набора данных имеет следующий формат.
 
-**Объект JSON набора данных Power BI**
+**Объект JSON набора данных Power BI**
 
 ```json
 {"name": "dataset_name", "tables":
@@ -60,7 +60,7 @@ REST API Power BI позволяет принудительно отправля
 }
 ```
 
-Таким образом, в нашем примере с набором данных по продажам и маркетингу нужно передать строку JSON, как показано ниже. В этом примере **SalesMarketing** — это имя набора данных, а **Product** — имя таблицы. После определения таблицы следует определить схему таблицы. В случае с набором данных **SalesMarketing** схема таблицы содержит следующие столбцы: ProductID, Manufacturer, Category, Segment, Product и IsCompete.
+Таким образом, в нашем примере с набором данных по продажам и маркетингу нужно передать строку JSON, как показано ниже. В этом примере **SalesMarketing** — это имя набора данных, а **Product** — имя таблицы. После определения таблицы следует определить схему таблицы. В случае набора данных **SalesMarketing** схема таблицы содержит следующие столбцы: ProductID, Manufacturer, Category, Segment, Product и IsCompete.
 
 **Пример объекта JSON набора данных**
 
@@ -105,12 +105,12 @@ REST API Power BI позволяет принудительно отправля
 
 ## <a name="power-bi-table-data-types"></a>Типы данных таблицы Power BI
 
-| **Тип данных** | **Ограничения** |
+| **Data type** | **Ограничения** |
 | --- | --- |
 | Int64 |Int64.MaxValue и Int64.MinValue не допускаются. |
 | Double |Значения Double.MaxValue и Double.MinValue не допускается. NaN не поддерживается. В некоторых функциях не поддерживаются +Infinity и -Infinity (например, Min, Max). |
-| Логический |Нет |
-| DateTime |Во время загрузки данных мы квантуем значения с частями суток на целые значения, кратные 1/300 секунды (3,33 мс). |
+| Логическое |None |
+| Datetime |Во время загрузки данных мы квантуем значения с частями суток на целые значения, кратные 1/300 секунды (3,33 мс). |
 | Строка |В настоящее время вмещает до 128 000 знаков. |
 
 ## <a name="learn-more-about-pushing-data-into-power-bi"></a>Дополнительные сведения о принудительной отправке данных в Power BI
@@ -119,8 +119,8 @@ REST API Power BI позволяет принудительно отправля
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-* [Регистрация бесплатной учетной записи Power BI с пользовательским клиентом каталога Azure Active Directory](../embedded/create-an-azure-active-directory-tenant.md)  
+* [Регистрация в Power BI](../embedded/create-an-azure-active-directory-tenant.md)  
 * [Общие сведения о JSON](https://json.org/)  
 * [Обзор интерфейса REST API Power BI](overview-of-power-bi-rest-api.md)  
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+Остались вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)

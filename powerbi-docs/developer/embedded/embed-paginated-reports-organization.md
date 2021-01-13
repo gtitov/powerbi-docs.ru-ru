@@ -1,6 +1,6 @@
 ---
-title: Внедрение отчетов с разбивкой на страницы в приложение встроенной аналитики Power BI для организации
-description: В этом руководстве содержатся сведения о том, как интегрировать (внедрить) отчет Power BI с разбивкой на страницы в приложение с помощью API-интерфейсов Power BI.
+title: Внедрение отчетов Power BI с разбивкой на страницы в приложение встроенной аналитики Power BI для более эффективной бизнес-аналитики для вашей организации
+description: В этом руководстве содержатся сведения о том, как интегрировать (внедрить) отчет Power BI с разбивкой на страницы в приложение с помощью API-интерфейсов Power BI. Получайте оптимальную встроенную бизнес-аналитику в Power BI.
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 06/25/2020
-ms.openlocfilehash: cb739ab6fee67f08184f8c160c13c58be15d649c
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.openlocfilehash: d4ef44cb0e03c5de7807f0e95cefa532353f4685
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098451"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885184"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-organization"></a>Руководство по Внедрение отчетов Power BI с разбивкой на страницы в приложение для организации
 
@@ -29,7 +29,7 @@ ms.locfileid: "97098451"
 
 ![Внедрение отчета Power BI](media/embed-paginated-reports-for-customers/embedded-paginated-report.png)
 
-В этом руководстве вы выполнили следующие задачи.
+В этом руководстве вы выполните следующие задачи:
 > [!div class="checklist"]
 > * регистрация приложения в Azure;
 > * внедрение отчета Power BI с разбивкой на страницы в приложение с помощью клиента Power BI.

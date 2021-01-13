@@ -9,17 +9,17 @@ ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 LocalizationGroup: Share your work
-ms.date: 06/28/2020
-ms.openlocfilehash: 6a1f8a69db20d44fc814c7e63e4ad13ed5fc955c
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 01/04/2021
+ms.openlocfilehash: e4d31a7bf83d4e94e2f3b71ca43924d468268f76
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96407384"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888416"
 ---
 # <a name="embed-a-report-web-part-in-sharepoint-online"></a>Внедрение веб-части отчетов в SharePoint Online
 
-С помощью новой веб-части отчетов Power BI для SharePoint Online вы можете легко внедрять интерактивные отчеты Power BI в страницы SharePoint Online.
+С помощью новой веб-части отчетов Power BI для SharePoint Online можно с легкостью внедрять интерактивные отчеты Power BI в страницы SharePoint Online.
 
 Если вы используете новый параметр **Внедрить в SharePoint Online**, внедренные отчеты учитывают все разрешения на доступ к объектам и параметры безопасности данных [на уровне строк](../admin/service-admin-rls.md), поэтому вы можете легко создавать безопасные внутренние порталы.
 
@@ -32,16 +32,16 @@ ms.locfileid: "96407384"
 * Для работы с внедренным отчетом пользователю необходимо выполнить вход в службу Power BI и активировать свою лицензию Power BI.
 
 > [!Note]
-> Для организаций, использующих Power BI в национальных облаках, нет бесплатной лицензии. В такой среде всем пользователям, которые хотят получить доступ к внедренному отчету в SharePoint, нужна лицензия на Power BI Pro.
+> Для организаций, использующих Power BI в национальных облаках, нет бесплатной лицензии. В такой среде всем пользователям, которые хотят получить доступ к внедренному отчету в SharePoint, нужна лицензия на Power BI Pro.
 
 ## <a name="embed-your-report"></a>Внедрение отчета
 Чтобы внедрить отчет в SharePoint Online, нужно получить URL-адрес отчета и использовать его с веб-частью Power BI в SharePoint Online.
 
 ### <a name="get-a-report-url"></a>Получение URL-адреса отчета
 
-1. Просмотрите отчет в Power BI.
+1. Откройте отчет в службе Power BI.
 
-2. В раскрывающемся меню **Дополнительные параметры (...)** выберите пункты **Внедрить** > **SharePoint Online**.
+2. В меню **Поделиться** выберите **Внедрить отчет** > **SharePoint Online**.
 
     ![Меню "Дополнительные параметры", пункт "SharePoint Online"](media/service-embed-report-spo/power-bi-more-options-sharepoint-online.png)
 

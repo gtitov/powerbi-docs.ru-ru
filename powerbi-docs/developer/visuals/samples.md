@@ -1,6 +1,6 @@
 ---
-title: Примеры визуальных элементов Power BI
-description: В этой статье представлены примеры визуальных элементов Power BI, в том числе срезы, более 20 типов диаграмм, WebGL, визуальные элементы и скрипты R.
+title: Примеры визуальных элементов Power BI для более эффективного использования встроенной бизнес-аналитики Power BI
+description: В этой статье представлены примеры визуальных элементов Power BI, в том числе срезы, более 20 типов диаграмм, WebGL, визуальные элементы и скрипты R. Получайте оптимальную встроенную бизнес-аналитику в Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 03/17/2019
-ms.openlocfilehash: 076ad6549cb68660313dcd8da5ccf8eb1f8f26c7
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: 3da805a10a8b43dc7b1f1750583a79494557d519
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92049161"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888496"
 ---
 # <a name="samples-of-power-bi-visuals"></a>Примеры визуальных элементов Power BI
 

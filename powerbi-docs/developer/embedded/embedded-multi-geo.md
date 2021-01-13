@@ -1,6 +1,6 @@
 ---
-title: Поддержка нескольких регионов для встроенной аналитики Power BI
-description: Узнайте, как развернуть содержимое в центрах обработки данных в регионах, отличных от домашнего региона Power BI Embedded.
+title: Поддержка нескольких регионов в Power BI Embedded для более эффективного использования встроенной бизнес-аналитики Power BI
+description: Узнайте, как развернуть содержимое в центрах обработки данных в регионах, отличных от домашнего региона вашего решения встроенной аналитики Power BI. Используйте поддержку нескольких регионов, чтобы обеспечить более эффективную встроенную аналитику для своих клиентов.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: nishalit
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 02/05/2019
-ms.openlocfilehash: 1868bab823408377ab600146b21592d902b59ff6
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.openlocfilehash: 4b9aacb460966f633161238cae82ba6731196ed4
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098106"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888289"
 ---
 # <a name="multi-geo-support-for-power-bi-embedded"></a>Поддержка нескольких регионов в Power BI Embedded
 
@@ -71,7 +71,7 @@ ms.locfileid: "97098106"
 
 3. **[API Azure Resource Manager](/rest/api/power-bi-embedded/capacities)** — все операции API Azure Resource Manager, включая *создание* и *удаление*, поддерживают использование нескольких регионов.
 
-## <a name="limitations-and-considerations"></a>Ограничения и рекомендации
+## <a name="limitations-and-considerations"></a>Рекомендации и ограничения
 
 * Убедитесь, что любое инициируемое вами перемещение данных между регионами соответствует всем корпоративным и государственным требованиям, прежде чем осуществлять его.
 

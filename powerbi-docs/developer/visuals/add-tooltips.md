@@ -1,6 +1,6 @@
 ---
-title: Подсказки в визуальных элементах Power BI
-description: В этой статье описывается отображение подсказок в визуальных элементах Power BI.
+title: Подсказки в визуальных элементах Power BI для более эффективного использования встроенной бизнес-аналитики Power BI
+description: В этой статье описывается отображение подсказок в визуальных элементах Power BI. Получайте оптимальную встроенную бизнес-аналитику в Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 04/09/2020
-ms.openlocfilehash: 60933d1a44cbf83f719c808b658b06009217ff53
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e3f5486faec033b48ba59b7076d5835035458584
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239953"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97889232"
 ---
 # <a name="tooltips-in-power-bi-visuals"></a>Подсказки в визуальных элементах Power BI
 

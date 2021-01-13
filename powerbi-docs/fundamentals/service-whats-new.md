@@ -9,12 +9,12 @@ ms.subservice: pbi-fundamentals
 ms.topic: conceptual
 ms.date: 04/14/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: 71ed2610ea77900fe51542b2257f4795f201694f
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: aac8eac050a3c864833d16a12016a1cc0ae398b7
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96394964"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888358"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Новые возможности службы Power BI
 На этой странице приводятся известные проблемы и описание новых функций **службы Power BI**. Соответствующие сведения о новых функциях и возможностях см. в следующей статье:
@@ -55,13 +55,13 @@ ms.locfileid: "96394964"
 * Новый интерфейс API журнала действий, позволяющий администраторам службы Power BI отслеживать действия пользователей и администраторов в клиенте.
 
 ### <a name="november-2019"></a>Ноябрь 2019 г.
-* Общедоступная предварительная версия [больших моделей в Power BI Premium](../admin/service-premium-large-models.md].
+* Общедоступная предварительная версия [больших моделей в Power BI Premium](../admin/service-premium-large-models.md).
 * Общедоступная предварительная версия возможности использования элементов управления Microsoft Cloud App Security в Power BI.
 
 ### <a name="october-2019"></a>Октябрь 2019 г.
 * Новое действие Power Automate для обновления наборов данных Power BI.
 * [Список контактов](https://powerbi.microsoft.com/blog/announcing-new-contact-lists-for-reports-and-dashboards-in-the-power-bi-service/) для отчетов и панелей мониторинга в службе Power BI.
-* Общая доступность [автоматизированного машинного обучения](../transform-model/service-machine-learning-automated
+* Общая доступность [автоматизированного машинного обучения](../transform-model/service-machine-learning-automated.md)
 * Общедоступная предварительная версия представления происхождения данных в Power BI.
 
 ### <a name="september-2019"></a>Сентябрь 2019 г.

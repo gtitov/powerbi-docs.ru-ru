@@ -1,6 +1,6 @@
 ---
-title: Программная настройка учетных данных для Power BI
-description: Порядок программной настройки учетных данных при автоматизации Power BI
+title: Программная настройка учетных данных для встроенной аналитики Power BI для более эффективного использования встроенной бизнес-аналитики Power BI
+description: Порядок программной настройки учетных данных при автоматизации Power BI. Получайте оптимальную встроенную бизнес-аналитику в Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 06/23/2020
-ms.openlocfilehash: 902fb0534eee307a84b24fe30496a32cccadb147
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.openlocfilehash: c87ca689d804c909ca3a6ca9544ac1a4568c8b86
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97097991"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887645"
 ---
 # <a name="configure-credentials-programmatically-for-power-bi"></a>Программная настройка учетных данных для Power BI
 

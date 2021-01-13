@@ -1,6 +1,6 @@
 ---
-title: Получение дополнительных данных из Power BI
-description: В этой статье описывается включение сегментированного получения больших наборов данных для визуальных элементов Power BI.
+title: Получение дополнительных данных из Power BI для более эффективного использования встроенной бизнес-аналитики Power BI
+description: В этой статье описывается включение сегментированного получения больших наборов данных для визуальных элементов Power BI. Получайте оптимальную встроенную бизнес-аналитику в Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 12/13/2020
-ms.openlocfilehash: 3dc94a24e5e6a84992745775b1639b7a186ed19d
-ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
+ms.openlocfilehash: 345efe91be1af5ee61d713c576f04657b182ad47
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97492088"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97886311"
 ---
 # <a name="fetch-more-data-from-power-bi"></a>Получение дополнительных данных из Power BI
 

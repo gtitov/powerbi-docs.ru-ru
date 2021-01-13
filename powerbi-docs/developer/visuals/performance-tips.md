@@ -1,6 +1,6 @@
 ---
-title: Советы по повышению производительности
-description: Как создать высокопроизводительный визуальный элемент Power BI
+title: Советы по повышению производительности Power BI для более эффективного использования встроенной бизнес-аналитики Power BI
+description: Как создать высокопроизводительный визуальный элемент Power BI. Получайте оптимальную встроенную бизнес-аналитику в Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 04/20/2020
-ms.openlocfilehash: c22c634ef59a1aae2994dcacaae62dc8ebed7474
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: c8bcf5e13ba769b976ab123adb3ba37f46b0359e
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746085"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885943"
 ---
 # <a name="how-to-build-a-high-performance-power-bi-visual"></a>Как создать высокопроизводительный визуальный элемент Power BI
 В этой статье рассматриваются методы, позволяющие разработчикам добиться высокой производительности при отрисовке визуальных элементов. 
@@ -76,7 +76,7 @@ ms.locfileid: "91746085"
 ### <a name="avoid-dom-manipulation"></a>Предотвращение обработки модели DOM 
 Максимально ограничьте обработку модели DOM.  Для выполнения таких операций вставки, как `prepend()`, `append()` и `after()`, требуются значительные затраты времени, поэтому используйте их только при необходимости.
 
-Например:
+например
 
   ```javascript
   for (let i=0; i<1000; i++) { 

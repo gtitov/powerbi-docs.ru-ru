@@ -1,6 +1,6 @@
 ---
-title: Включение функции синхронизации срезов для визуальных элементов Power BI
-description: В этой статье описывается добавление функции синхронизации срезов в визуальные элементы Power BI.
+title: Включение функции "Синхронизация срезов"для визуальных элементов Power BI для более эффективного использования встроенной бизнес-аналитики Power BI
+description: В этой статье описывается добавление функции синхронизации срезов в визуальные элементы Power BI. Получайте оптимальную встроенную бизнес-аналитику в Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 4e9989bb7a34a89cb6244a2378d6660a5079fc82
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: bd69e05bba3e9449f9fb6f07bd9625dfb1ea0c08
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748110"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885295"
 ---
 # <a name="sync-slicers-in-power-bi-visuals"></a>Синхронизация срезов для визуальных элементов Power BI
 

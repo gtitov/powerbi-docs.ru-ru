@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/17/2020
-ms.openlocfilehash: 7779976e7897b31e5f3dde2c4c3306c909ecf0f0
-ms.sourcegitcommit: 5c09d121d3205e65fb33a2eca0e60bc30e777773
+ms.openlocfilehash: 6eebe7b75db06b97d116ca0c17e67e9ee7b0562e
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/18/2020
-ms.locfileid: "97675586"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969657"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Новые возможности мобильных приложений для Power BI
 Соответствующие сведения о новых функциях и возможностях см. в следующей статье:
@@ -570,7 +570,7 @@ ms.locfileid: "97675586"
 #### <a name="all-devices"></a>Все устройства
 **Цвет фона для мобильных отчетов**. Определив цвет фона для отчета в Power BI Desktop, вы получите такой же фон и для мобильных отчетов. См. дополнительные сведения об [оптимизации страниц отчета для телефонов](../../create-reports/desktop-create-phone-report.md).
 
-**Разработка визуальных элементов Power BI для мобильных устройств**. Рекомендации по созданию привлекательных и функциональных визуальных элементов Power BI для мобильных устройств см. в этом [руководстве для разработчиков](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/MobileGuideline.md).
+**Разработка визуальных элементов Power BI для мобильных устройств**. Рекомендации по созданию привлекательных и функциональных визуальных элементов Power BI для мобильных устройств см. в этом [руководстве для разработчиков](https://github.com/PowerBi-Projects/PowerBI-visuals/blob/master/Tutorial/MobileGuideline.md).
 
 #### <a name="ios-devices"></a>Устройства iOS
 **Обращение к данным. Голосовой режим ввода вопросов**. Теперь вы можете [задавать вопросы о данных с помощью функции вопросов и ответов](mobile-apps-ios-qna.md) не только печатая текст, но и в режиме голосового ввода. 

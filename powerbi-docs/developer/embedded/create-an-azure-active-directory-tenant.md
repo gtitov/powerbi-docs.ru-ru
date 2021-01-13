@@ -1,6 +1,6 @@
 ---
-title: Создание клиента Azure Active Directory для использования с Power BI
-description: Узнайте, как создать клиент Azure Active Directory (Azure AD) для пользовательского приложения, которое вызывает интерфейсы REST API для Power BI.
+title: Создание клиента Azure Active Directory для использования со встроенной бизнес-аналитикой Power BI
+description: Узнайте, как создать новый клиент Azure Active Directory (Azure AD) для пользовательского приложения встроенной аналитики, которое вызывает REST API Power BI и включает встроенную бизнес-аналитику для клиентов.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 05/28/2019
-ms.openlocfilehash: 03ba0a3090a4224cdc97a2f5bdcf80dc4b59dc64
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 24e1d8678234b7b355d99985f8e8a567954d6211
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748777"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97889002"
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Создание клиента Azure Active Directory для использования с Power BI
 

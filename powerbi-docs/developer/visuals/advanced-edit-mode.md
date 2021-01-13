@@ -1,6 +1,6 @@
 ---
-title: Режим расширенного редактирования для визуальных элементов Power BI
-description: В этой статье описывается настройка расширенных элементов управления пользовательского интерфейса для визуальных элементов Power BI.
+title: Режим расширенного редактирования для визуальных элементов Power BI для более эффективного использования встроенной бизнес-аналитики Power BI
+description: В этой статье описывается настройка расширенных элементов управления пользовательского интерфейса для визуальных элементов Power BI. Получайте оптимальную встроенную бизнес-аналитику в Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 97242883fe90c8f5e115818a24e4bb1c49f69b77
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 02f02f23d3dfd7ec514e17d1bab17be715e9cd7d
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79380572"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97889140"
 ---
 # <a name="advanced-edit-mode-in-power-bi-visuals"></a>Режим расширенного редактирования для визуальных элементов Power BI
 
@@ -21,7 +21,7 @@ ms.locfileid: "79380572"
 
 По умолчанию визуальный элемент не поддерживает режим расширенного редактирования. Если требуется другое поведение, вы можете явно задать его в файле *capabilities.json* визуального элемента с помощью свойства `advancedEditModeSupport`.
 
-Возможные значения:
+Допустимые значения:
 
 - `0` — NotSupported
 
@@ -43,8 +43,8 @@ ms.locfileid: "79380572"
 
 Если нажать кнопку **Изменить**, визуальный элемент получает вызов update(), в котором элементу EditMode присвоено значение `Advanced`. В зависимости от заданного в файле *capabilities.json* значения выполняются следующие действия:
 
-* `SupportedNoAction` — не требуется никаких дальнейших действий со стороны узла.
-* `SupportedInFocus` — узел развертывает визуальный элемент в режим фокусировки.
+* `SupportedNoAction` —  не требуется никаких дальнейших действий со стороны узла.
+* `SupportedInFocus` —  узел развертывает визуальный элемент в режим фокусировки.
 
 ## <a name="exit-advanced-edit-mode"></a>Выход из режима расширенного редактирования
 

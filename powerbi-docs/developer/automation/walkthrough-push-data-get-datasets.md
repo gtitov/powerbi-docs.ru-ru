@@ -1,6 +1,6 @@
 ---
-title: Получение набора данных для добавления строк
-description: Пошаговое руководство по отправке данных — получение набора данных для добавления строк в таблицу Power BI
+title: Получение набора данных для добавления строк во встроенной аналитике Power BI для получения оптимальной встроенной бизнес-аналитики
+description: Пошаговое руководство по отправке данных — получение набора данных для добавления строк в таблицу Power BI. Получайте оптимальную встроенную бизнес-аналитику в Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: madia
@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 02/05/2019
-ms.openlocfilehash: a150666eafd8dc11b573150455775d2ecf6f7f1b
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: e1be761f68dfcd58de8623618acd859694b95bde
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748317"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887461"
 ---
-# <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>Шаг 4. Получение набора данных для добавления строк в таблицу Power BI
+# <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>Шаг 4. Получение набора данных для добавления строк в таблицу Power BI
 
 Эта статья является частью пошагового руководства по [принудительной отправке данных в набор данных](walkthrough-push-data.md).
 
@@ -27,16 +27,16 @@ ms.locfileid: "91748317"
 
 ## <a name="get-a-power-bi-dataset"></a>Получение набора данных Power BI
 
-> **ПРИМЕЧАНИЕ**. Перед началом работы убедитесь, что выполнены предыдущие шаги из пошагового руководства по [принудительной отправке данных в набор данных](walkthrough-push-data.md).
+> **ПРИМЕЧАНИЕ.** Перед началом работы убедитесь, что выполнены предыдущие шаги из пошагового руководства по [принудительной отправке данных в набор данных](walkthrough-push-data.md).
 
-1. В проекте консольного приложения, созданного при работе с разделом [Шаг 2. Получение токена доступа для проверки подлинности](walkthrough-push-data-get-token.md) пошагового руководства по принудительной отправке данных, установите пакет NuGet Newtonsoft.Json. Ниже приведены действия по установке пакета.
+1. В проекте консольного приложения, созданного на шаге 2 [Получение токена доступа для проверки подлинности](walkthrough-push-data-get-token.md) пошагового руководства по отправке данных, установите пакет NuGet Newtonsoft.Json. Ниже приведены действия по установке пакета.
 
      а. В Visual Studio 2015 выберите пункты **Сервис** > **Диспетчер пакетов NuGet** > **Консоль диспетчера пакетов**.
 
-     б. В **консоли диспетчера пакетов**введите команду Install-Package Newtonsoft.Json.
+     б. В **консоли диспетчера пакетов** введите команду Install-Package Newtonsoft.Json.
 2. После установки пакета добавьте директиву **using Newtonsoft.Json;** в файл Program.cs.
 3. В Program.cs добавьте приведенный ниже код для получения **идентификатора набора данных**.
-4. Запустите консольное приложение и войдите в свою учетную запись Power BI. В окне консоли вы должны увидеть **идентификатор набора данных** .
+4. Запустите консольное приложение и войдите в свою учетную запись Power BI. В окне консоли вы должны увидеть **идентификатор набора данных**.
 
 **Пример получения набора данных**
 
@@ -266,11 +266,11 @@ namespace walkthrough_push_data
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-* [Добавление строк в таблицу Power BI](walkthrough-push-data-add-rows.md)  
+* [Добавление строк в таблицу Power BI](walkthrough-push-data-add-rows.md)  
 * [Newtonsoft.Json](https://www.newtonsoft.com/json)  
 * [Получение наборов данных](/rest/api/power-bi/datasets/getdatasets)  
-* [Принудительная отправка данных в панель мониторинга Power BI](walkthrough-push-data.md)  
+* [Принудительная отправка данных в Power BI](walkthrough-push-data.md)  
 * [Обзор интерфейса REST API Power BI](overview-of-power-bi-rest-api.md)  
 * [Справочник по REST API Power BI](/rest/api/power-bi/)  
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+Остались вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)

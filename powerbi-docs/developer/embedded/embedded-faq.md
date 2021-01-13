@@ -1,6 +1,6 @@
 ---
-title: Часто задаваемые вопросы о встроенной аналитике Power BI
-description: Просмотрите список часто задаваемых вопросов о Power BI Embedded и ознакомьтесь с ответами.
+title: Часто задаваемые вопросы о встроенной аналитике Power BI для более эффективного использования встроенной бизнес-аналитики Power BI
+description: Ознакомьтесь со списком часто задаваемых вопросов о встроенной аналитике Power BI, которые позволят более эффективно использовать встроенную бизнес-аналитику клиентами.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
-ms.openlocfilehash: 5d402a32571f70f3a5a3b5686e3fc40ef07126c9
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.openlocfilehash: 4d8096793c4663cbed71c3149bde11305ebee71e
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098336"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97886702"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Часто задаваемые вопросы о Power BI Embedded
 

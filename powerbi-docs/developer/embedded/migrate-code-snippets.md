@@ -1,6 +1,6 @@
 ---
-title: Фрагменты кода для переноса содержимого из Power BI Embedded
-description: Здесь приведены некоторые фрагменты кода с базовыми операциями, необходимыми для переноса содержимого
+title: Фрагменты кода для переноса содержимого из коллекции рабочих областей в решение Power BI для оптимизации встроенной бизнес-аналитики
+description: Ниже приведены фрагменты кода основных операций, необходимых для переноса содержимого. Получайте оптимальную встроенную бизнес-аналитику в Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,20 +8,20 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 02/05/2019
-ms.openlocfilehash: 9ed021ce95fd1e978916c188c93ca77fa88ccdb6
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: f6b6023ac77d007b07662e200d6f165d56d67628
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96416515"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888726"
 ---
-# <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Фрагменты кода для переноса содержимого из коллекции рабочих областей Power BI
+# <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Фрагменты кода для переноса содержимого из коллекции рабочих областей Power BI
 
-Здесь приведены некоторые фрагменты кода с базовыми операциями, необходимыми для переноса содержимого. Сведения о связанных потоках для некоторых типов отчетов см. в разделе [Как перенести содержимое коллекции рабочих областей Power BI в Power BI Embedded](migrate-from-powerbi-embedded.md#content-migration).
+Ниже приведены фрагменты кода основных операций, необходимых для переноса содержимого. Сведения о связанных потоках для некоторых типов отчетов см. в разделе [Как перенести содержимое коллекции рабочих областей Power BI в Power BI Embedded](migrate-from-powerbi-embedded.md#content-migration).
 
 **Инструмент переноса** можно использовать, чтобы скопировать содержимое из Power BI Embedded (PaaS) в службу Power BI (SaaS). Особенно если содержимого у вас много. Дополнительные сведения см. в статье [Инструмент переноса Power BI Embedded](migrate-tool.md).
 
-Приведенный ниже код — это пример использования C# и [пакета SDK .NET для Power BI](https://www.nuget.org/profiles/powerbi).
+В приведенном ниже коде содержатся примеры с использованием C# и [пакета SDK Power BI для .NET](https://www.nuget.org/profiles/powerbi).
 
 Убедитесь, что для выполнения приведенных ниже фрагментов кода используются следующие пространства имен.
 
@@ -164,9 +164,9 @@ using System.Threading.Tasks;
 
 ## <a name="push-dataset-and-report"></a>Отправка набора данных и отчета
 
-Необходимо будет перестроить отчет для созданного набора данных.
+Потребуется перестроить отчет для созданного набора данных.
 
-В этом фрагменте кода предполагается, что набор данных для принудительной отправки уже находится в рабочей области в среде SaaS. Сведения об API отправки см. в статье [Принудительная отправка данных в набор данных Power BI](../automation/walkthrough-push-data.md).
+В этом фрагменте кода предполагается, что набор данных для принудительной отправки уже находится в рабочей области в среде SaaS. Сведения об API отправки см. в разделе [Принудительная отправка данных в набор данных Power BI](../automation/walkthrough-push-data.md).
 
 ```csharp
     var credentials = new TokenCredentials(<Your WSC access key>, "AppKey");
@@ -229,7 +229,7 @@ using System.Threading.Tasks;
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-[Инструмент переноса Power BI Embedded](migrate-tool.md)  
+[Встроенный инструмент миграции Power BI](migrate-tool.md)  
 [Внедрение в Power BI](embedding.md)  
 [Как перенести содержимое коллекции рабочих областей Power BI Embedded в Power BI](migrate-from-powerbi-embedded.md)  
 [Как внедрять панели мониторинга, отчеты и плитки Power BI](embed-sample-for-your-organization.md)  
@@ -239,4 +239,4 @@ using System.Threading.Tasks;
 [Пример внедрения JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
 [Техническая документация по Power BI Premium](https://aka.ms/pbipremiumwhitepaper)  
 
-У вас имеются и другие вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
+Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

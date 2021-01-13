@@ -1,6 +1,6 @@
 ---
-title: Рекомендации по визуальным элементам Power BI
-description: Узнайте, как опубликовать свои пользовательские визуальные элементы в Microsoft AppSource, чтобы их могли приобрести другие пользователи.
+title: Рекомендации по визуальным элементам Power BI для более эффективного использования встроенной бизнес-аналитики Power BI
+description: Узнайте, как опубликовать свои пользовательские визуальные элементы в Microsoft AppSource, чтобы их могли приобрести другие пользователи. Получайте оптимальную встроенную бизнес-аналитику в Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 08/12/2020
-ms.openlocfilehash: 427fba66b34fefb0b7ca9d70a29b08ebe7d743cb
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 67875f9b571e0a0376046a3cb080551d23e579e4
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96416147"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97889301"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Рекомендации по визуальным элементам Power BI
 Перед [публикацией](office-store.md) вашего визуального элемента Power BI для других пользователей в Microsoft AppSource, обязательно выполните рекомендации, чтобы сделать его поиск и использование максимально удобными.

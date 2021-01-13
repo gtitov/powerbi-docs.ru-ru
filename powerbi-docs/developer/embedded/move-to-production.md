@@ -1,6 +1,6 @@
 ---
-title: Перемещение внедренного приложения аналитики Power BI в рабочую среду
-description: Узнайте, какие действия необходимо выполнить, чтобы переместить приложение Power BI в рабочую среду.
+title: Перемещение приложения встроенной аналитики Power BI в рабочую среду для более эффективного использования встроенной бизнес-аналитики Power BI
+description: Узнайте, какие действия необходимо выполнить, чтобы переместить приложение Power BI в рабочую среду. Получайте оптимальную встроенную бизнес-аналитику в Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 06/02/2020
-ms.openlocfilehash: 188974531f7b78e04c2cf0f8072dcef7efe3b888
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.openlocfilehash: 71eff0f09c0e34ffd8789f1b56347d754b6589bc
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098198"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97886679"
 ---
 # <a name="move-your-embedded-app-to-production"></a>Перемещение внедренного приложения в рабочую среду
 

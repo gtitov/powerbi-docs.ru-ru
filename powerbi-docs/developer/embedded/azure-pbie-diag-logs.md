@@ -1,6 +1,6 @@
 ---
-title: Ведение журнала диагностики для службы Power BI Embedded в Azure | Документация Майкрософт
-description: Сведения о том, как настроить ведение журнала диагностики для службы Power BI Embedded в Azure.
+title: Ведение журнала диагностики для службы Power BI Embedded в Azure для решения встроенной бизнес-аналитики Power BI
+description: Сведения о ведении журнала диагностики для службы Power BI Embedded в Azure для решения встроенной бизнес-аналитики Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/13/2018
-ms.openlocfilehash: 4ab6a0d6135fcd2428df03e84596eebf6bba6704
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: c98fbf4aa05a634a6755a77f79c8189226c12eed
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417366"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887392"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Ведение журнала диагностики для Power BI Embedded в Azure
 

@@ -1,6 +1,6 @@
 ---
-title: Проверка подлинности пользователей и получение маркера доступа Azure AD для приложения
-description: Узнайте, как зарегистрировать приложение в Azure Active Directory для использования внедренного содержимого Power BI.
+title: Проверка подлинности пользователей и получение маркера доступа Azure AD для приложения встроенной аналитики Power BI для улучшения возможностей использования бизнес-аналитики клиентами
+description: Узнайте, как зарегистрировать приложение в Azure Active Directory для использования внедренного содержимого Power BI. Получайте оптимальную встроенную бизнес-аналитику в Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 06/04/2019
-ms.openlocfilehash: cb7c874fc68da361971c34879f2ea44006402bf4
-ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
+ms.openlocfilehash: 8001dd0e15ef713fa67256a45f645b0d7a0890c0
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "96906941"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888450"
 ---
 # <a name="get-an-azure-ad-access-token-for-your-power-bi-application"></a>Получение маркера доступа Azure AD для приложения Power BI
 
@@ -198,7 +198,7 @@ var authenticationContext = new AuthenticationContext(AuthorityUrl);
 m_tokenCredentials = new TokenCredentials(authenticationResult.AccessToken, "Bearer");
 ```
 
-## <a name="troubleshoot"></a>Устранение неполадок
+## <a name="troubleshoot"></a>Диагностика
 
 Сообщение об ошибке: "AuthenticationContext" не содержит определения для "AcquireToken", и не удалось найти доступный метод расширения "AcquireToken", принимающий тип "AuthenticationContext" в качестве первого аргумента (возможно, пропущена директива using или ссылка на сборку).
 
@@ -208,4 +208,4 @@ m_tokenCredentials = new TokenCredentials(authenticationResult.AccessToken, "Bea
 
 Теперь, когда у вас есть маркер доступа, можно вызвать REST API Power BI, чтобы внедрить содержимое.
 
-Остались вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
+У вас имеются и другие вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

@@ -1,6 +1,6 @@
 ---
-title: Создание SSL-сертификатов для визуальных элементов Power BI
-description: Сведения о создании SSL-сертификатов с помощью визуальных средств Power BI в Windows, Mac, Linux или вручную.
+title: Создание SSL-сертификатов для визуальных элементов Power BI для более эффективного использования встроенной бизнес-аналитики Power BI
+description: Сведения о создании SSL-сертификатов с помощью визуальных средств Power BI в Windows, Mac, Linux или вручную. Получайте оптимальную встроенную бизнес-аналитику в Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 05/08/2020
-ms.openlocfilehash: f6f458d2fe82668074d7cfb046cb5a72afa35c38
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: 7897d25f3ac49c0f1b728f2aaf05b8612de67055
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92048793"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885529"
 ---
 # <a name="create-an-ssl-certificate"></a>Создание SSL-сертификата
 
@@ -39,14 +39,14 @@ pbiviz --install-cert
 
 Для установки служебной программы OpenSSL также можно выполнить любую из следующих команд:
 
-- Из диспетчера пакетов *Brew* :
+- Из диспетчера пакетов *Brew*:
   
   ```cmd
   brew install openssl
   brew link openssl --force
   ```
 
-- С помощью *MacPorts* :
+- С помощью *MacPorts*:
   
   ```cmd
   sudo port install openssl
@@ -75,7 +75,7 @@ which certutil
 
 ### <a name="create-the-ssl-configuration-file"></a>Создание файла конфигурации SSL
 
-Создайте файл с именем */tmp/openssl.cnf* , содержащий следующий текст:
+Создайте файл с именем */tmp/openssl.cnf*, содержащий следующий текст:
 
 ```
 authorityKeyIdentifier=keyid,issuer
@@ -99,7 +99,7 @@ openssl x509 -outform pem -in /tmp/local-root-ca.pem -out /tmp/local-root-ca.crt
 
 ### <a name="generate-a-certificate-for-localhost"></a>Создайте сертификат для localhost 
 
-Чтобы создать сертификат для `localhost` с помощью созданного ЦС и *openssl.cnf* , выполните следующие команды:
+Чтобы создать сертификат для `localhost` с помощью созданного ЦС и *openssl.cnf*, выполните следующие команды:
 
 ```sh
 PBIVIZ=`which pbiviz`
@@ -170,11 +170,11 @@ openssl req -x509 -newkey rsa:4096 -keyout PowerBIVisualTest_private.key -out Po
 
 ### <a name="pem-format"></a>Формат PEM
 
-При использовании формата сертификата Privacy Enhanced Mail (PEM) сохраните файл сертификата как *PowerBIVisualTest_public.crt* и сохраните закрытый ключ как *PowerBIVisualTest_private. key* .
+При использовании формата сертификата Privacy Enhanced Mail (PEM) сохраните файл сертификата как *PowerBIVisualTest_public.crt* и сохраните закрытый ключ как *PowerBIVisualTest_private. key*.
 
 ### <a name="pfx-format"></a>Формат PFX
 
-При использовании формата сертификата Personal Information Exchange (PFX) сохраните файл сертификата как *PowerBIVisualTest_public.pfx* .
+При использовании формата сертификата Personal Information Exchange (PFX) сохраните файл сертификата как *PowerBIVisualTest_public.pfx*.
 
 Если для файла сертификата PFX требуется парольная фраза, выполните следующие действия:
 

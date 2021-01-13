@@ -1,19 +1,19 @@
 ---
-title: Выделение
-description: Ведение выбранных точек данных в визуальных элементах Power BI
+title: Выделение во встроенной аналитике Power BI для более эффективного использования встроенной бизнес-аналитики Power BI
+description: Выделение выбранных точек данных в визуальных элементах Power BI. Получайте оптимальную встроенную бизнес-аналитику в Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 10/31/2019
-ms.openlocfilehash: a472db6c6dcc1266a11e78d72ab8465df7682042
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f45b363ce4616a725d19d0b06f4f9fb96110ac8a
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114159"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97886541"
 ---
 # <a name="highlight-data-points-in-power-bi-visuals"></a>Выделение точек данных в визуальных элементах Power BI
 
@@ -32,7 +32,7 @@ ms.locfileid: "80114159"
 
 ## <a name="highlight-data-points-with-categorical-data-view-mapping"></a>Выделение точек данных с сопоставлением представления категориальных данных
 
-Визуальные элементы с сопоставлением представления категориальных данных имеют параметр `"supportsHighlight": true` в файле `capabilities.json`. Пример.
+Визуальные элементы с сопоставлением представления категориальных данных имеют параметр `"supportsHighlight": true` в файле `capabilities.json`. Пример:
 
 ```json
 {
@@ -275,7 +275,7 @@ div.value {
 
 ## <a name="highlight-data-points-with-matrix-data-view-mapping"></a>Выделение точек данных с сопоставлением представления матричных данных
 
-Визуальные элементы с сопоставлением представления матричных данных имеют параметр `"supportsHighlight": true` в файле `capabilities.json`. Пример.
+Визуальные элементы с сопоставлением представления матричных данных имеют параметр `"supportsHighlight": true` в файле `capabilities.json`. Пример:
 
 ```json
 {
@@ -336,7 +336,7 @@ div.value {
 |   R1   |   R13   |   R133   |   C1   |   C13   |   C133   |   9   |
 |   R2   |   R21   |   R211   |   C2   |   C21   |   C211   |   10   |
 |   R2   |   R21   |   R212   |   C2   |   C21   |   C212   |   11   |
-|   R2   |   R21   |   R213   |   C2   |   C21   |   C213   |   К 12 столбцам.   |
+|   R2   |   R21   |   R213   |   C2   |   C21   |   C213   |   12   |
 |   R2   |   R22   |   R221   |   C2   |   C22   |   C221   |   13   |
 |   R2   |   R22   |   R222   |   C2   |   C22   |   C222   |   14   |
 |   R2   |   R22   |   R223   |   C2   |   C22   |   C223   |   16   |

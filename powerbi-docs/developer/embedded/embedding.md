@@ -1,6 +1,6 @@
 ---
-title: Использование встроенной аналитики с Power BI
-description: Power BI предоставляет интерфейсы API для использования встроенной аналитики для панелей мониторинга и отчетов в приложениях. Узнайте, как использовать программное обеспечение и инструменты для встроенной аналитики и бизнес-аналитики в PaaS- и SaaS-окружении Power BI.
+title: Встроенная аналитика в Power BI для получения оптимальной встроенной бизнес-аналитики
+description: Power BI предоставляет API для внедрения панелей мониторинга и отчетов в приложениях. Получайте оптимальную встроенную бизнес-аналитику в Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -16,12 +16,12 @@ helpviewer_keywords:
 - Power BI APIs
 ms.custom: seodec18
 ms.date: 05/15/2019
-ms.openlocfilehash: 4dba33e2ae800198d4840139d43893a7dca77e4f
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: c7278dee5957e2b63b6821decec0171ba6b628a0
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396824"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887139"
 ---
 # <a name="embedded-analytics-with-power-bi"></a>Использование встроенной аналитики с Power BI
 

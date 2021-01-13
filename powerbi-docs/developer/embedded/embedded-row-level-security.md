@@ -1,6 +1,6 @@
 ---
-title: Использование безопасности на уровне строк с внедренным содержимым во внедренной аналитике Power BI
-description: Узнайте, какие действия необходимо выполнить для внедрения содержимого Power BI в приложение.
+title: Использование безопасности на уровне строк с внедренным содержимым во встроенной аналитике Power BI для более эффективного использования встроенной бизнес-аналитики Power BI
+description: Узнайте, какие действия необходимо выполнить для внедрения содержимого Power BI в приложение. Получайте оптимальную встроенную бизнес-аналитику в Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: nishalit
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 6f65bf5b430c5435936acbd3a7cdfbe4c57d1dec
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.openlocfilehash: 408b5a03b415e6b1dabdb762eefee81e1a4fe483
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098014"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887369"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Безопасность на уровне строк в Power BI Embedded
 

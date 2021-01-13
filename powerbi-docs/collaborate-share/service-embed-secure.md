@@ -7,14 +7,14 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 04/27/2020
+ms.date: 01/04/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: a7f8c6d52acff8cbaaa00004448a3fae300afb9b
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: cf056581c7c1f472e1e7ce20baf3d7afd8815bda
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411915"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97886036"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Внедрение отчета на защищенный портал или сайт
 
@@ -26,11 +26,11 @@ ms.locfileid: "96411915"
 
 1. Откройте отчет в службе Power BI.
 
-2. В меню **Дополнительные параметры (...)** выберите пункты **Внедрить** >  **Веб-сайт или портал**.
+2. В меню **Поделиться** выберите **Внедрить отчет** >  **Веб-сайт или портал**.
 
     ![Пункт "Веб-сайт или портал"](media/service-embed-secure/power-bi-more-options-website.png)
 
-2. Выберите параметр **Внедрение**, чтобы открыть диалоговое окно со ссылкой и кодом iFrame, который используется для безопасного внедрения отчета.
+2. В диалоговом окне **Безопасный код внедрения** выберите **ссылку, которую можно использовать для внедрения этого содержимого**, или **HTML-код, который можно вставить в блог или веб-сайт** в iFrame.
 
     ![Диалоговое окно с параметром "Внедрение"](media/service-embed-secure/secure-embed-code-dialog.png)
 

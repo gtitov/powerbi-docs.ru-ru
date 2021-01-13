@@ -1,6 +1,6 @@
 ---
-title: Добавление целевой страницы в визуальные элементы Power BI
-description: В этой статье описывается добавление целевой страницы в визуальные элементы Power BI.
+title: Добавление целевой страницы в визуальные элементы Power BI для более эффективного использования встроенной бизнес-аналитики Power BI
+description: В этой статье описывается добавление целевой страницы в визуальные элементы Power BI. Получайте оптимальную встроенную бизнес-аналитику в Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: 6f1590d5635ed6e55833350027c52379e5d7cf51
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 4381ecf63c0864c4d68e48959efc14baa9d4553b
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79379974"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97886357"
 ---
 # <a name="add-a-landing-page-to-your-power-bi-visuals"></a>Добавление целевой страницы в визуальные элементы Power BI
 

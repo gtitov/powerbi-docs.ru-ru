@@ -1,6 +1,6 @@
 ---
-title: Создание емкости Power BI Embedded на портале Azure | Документация Майкрософт
-description: В этой статье рассматривается создание емкости Power BI Embedded в Microsoft Azure.
+title: Создание емкости Power BI Embedded на портале Azure для решения встроенной бизнес-аналитики Power BI
+description: В этой статье рассматривается создание емкости Power BI в Microsoft Azure для решения встроенной бизнес-аналитики Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.service: powerbi
@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.reviewer: zakharb
 ms.custom: subject-armqs, devx-track-azurecli
 ms.date: 08/02/2020
-ms.openlocfilehash: 3ba075c33f689d76fb0c94aec09ed9fd309c718d
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 898da0f5e4284183f2ffa08fba8e6a50d9474d15
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96395148"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887530"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>Создание емкости Power BI Embedded на портале Azure
 
@@ -115,7 +115,7 @@ _ **Клиент Power BI:** По крайней мере одна учетна�
 
 ### <a name="create-a-capacity-with-azure-cli"></a>Создание емкости с помощью Azure CLI
 
-Чтобы создать емкость, используйте команду [az Power BI embedded-capacity create](/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity?view=azure-cli-latest#ext-powerbidedicated-az-powerbi-embedded-capacity-create).
+Чтобы создать емкость, используйте команду [az Power BI embedded-capacity create](/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity#ext-powerbidedicated-az-powerbi-embedded-capacity-create).
 
 ```azurecli
 az powerbi embedded-capacity create --location westeurope
@@ -127,7 +127,7 @@ az powerbi embedded-capacity create --location westeurope
 
 ### <a name="delete-a-capacity-with-azure-cli"></a>Удаление емкости с помощью Azure CLI
 
-Чтобы удалить емкость с помощью Azure CLI, используйте команду [az powerbi embedded-capacity delete](/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity?view=azure-cli-latest#ext-powerbidedicated-az-powerbi-embedded-capacity-delete).
+Чтобы удалить емкость с помощью Azure CLI, используйте команду [az powerbi embedded-capacity delete](/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity#ext-powerbidedicated-az-powerbi-embedded-capacity-delete).
 
 ```azurecli
 az powerbi embedded-capacity delete --name
@@ -136,7 +136,7 @@ az powerbi embedded-capacity delete --name
 
 ### <a name="manage-your-capacity-with-azure-cli"></a>Управление емкостью с помощью Azure CLI
 
-Просмотреть все команды Azure CLI для Power BI Embedded можно в разделе [az powerbi](/cli/azure/ext/powerbidedicated/powerbi?view=azure-cli-latest).
+Просмотреть все команды Azure CLI для Power BI Embedded можно в разделе [az powerbi](/cli/azure/ext/powerbidedicated/powerbi).
 
 # <a name="arm-template"></a>[Шаблон ARM](#tab/ARM-template)
 

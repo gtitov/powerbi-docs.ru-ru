@@ -1,6 +1,6 @@
 ---
-title: Руководство по Создание визуальных элементов Power BI с использованием языка R
-description: В этом учебнике описывается создание с использованием языка R визуального элемента Power BI с помощью редактора R-скриптов в Power BI Desktop.
+title: Создание визуальных элементов Power BI с поддержкой языка R для более эффективного использования встроенной бизнес-аналитики Power BI
+description: В этом учебнике описывается создание с использованием языка R визуального элемента Power BI с помощью редактора R-скриптов в Power BI Desktop. Получайте оптимальную встроенную бизнес-аналитику в Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 05/11/2020
-ms.openlocfilehash: 2046dc389b859ce71c4d26cc31cc686f812e461e
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: dde18b9945d808cc6b2630bdad4d83768b0e2e8b
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749329"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97889048"
 ---
 # <a name="tutorial-create-an-r-powered-power-bi-visual"></a>Руководство по Создание визуальных элементов Power BI с использованием языка R
 
@@ -33,7 +33,7 @@ ms.locfileid: "91749329"
 * Учетная запись **Power BI Pro**. [Зарегистрируйтесь для получения бесплатной пробной версии](https://powerbi.microsoft.com/pricing/) перед началом работы.
 * Подсистема R. Вы можете скачать и установить R бесплатно из разных источников, в том числе со [страницы загрузки Revolution Open](https://mran.revolutionanalytics.com/download/) и [репозитория CRAN](https://cran.r-project.org/bin/windows/base/). Дополнительные сведения см. в статье [Создание визуальных элементов Power BI с помощью языка R](../../create-reports/desktop-r-visuals.md).
 * [Power BI Desktop](../../fundamentals/desktop-get-the-desktop.md).
-* [Windows PowerShell](/powershell/scripting/install/installing-windows-powershell?view=powershell-6) версии 4 или более поздней для пользователей Windows ИЛИ [терминал](https://macpaw.com/how-to/use-terminal-on-mac) для пользователей OSX.
+* [Windows PowerShell](/powershell/scripting/install/installing-windows-powershell) версии 4 или более поздней для пользователей Windows ИЛИ [терминал](https://macpaw.com/how-to/use-terminal-on-mac) для пользователей OSX.
 
 ## <a name="getting-started"></a>Начало работы
 

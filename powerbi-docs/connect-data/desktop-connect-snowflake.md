@@ -7,16 +7,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: how-to
-ms.date: 05/08/2019
+ms.date: 01/04/2021
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 115fba44c69fceb3a4f309cd92358ef5bc2eff42
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 00f78fef9f1abd11d7c553009db5541822c59c85
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96405751"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97926374"
 ---
-# <a name="connect-to-a-snowflake-computing-warehouse-in-power-bi-desktop"></a>Подключение к хранилищу данных Snowflake Computing из Power BI Desktop
+# <a name="connect-to-snowflake-in-power-bi-desktop"></a>Подключение к Snowflake в Power BI Desktop
 В Power BI Desktop вы можете подключиться к хранилищу вычислительных ресурсов **Snowflake**, чтобы использовать его так же, как и любой другой источник данных в Power BI Desktop. 
 
 ## <a name="connect-to-a-snowflake-computing-warehouse"></a>Подключение к хранилищу вычислительных ресурсов Snowflake
@@ -33,7 +33,7 @@ ms.locfileid: "96405751"
 ![Снимок экрана: запрос учетных данных Snowflake с полями "Имя пользователя" и "Пароль"](media/desktop-connect-snowflake/connect-snowflake-4.png)
 
 > [!NOTE]
-> Если указаны имя пользователя и пароль для определенного сервера **Snowflake**, Power BI Desktop будет использовать те же учетные данные при последующих попытках подключения. Эти учетные данные можно изменить, последовательно выбрав элементы **Файл > Параметры и настройки > Параметры источника данных**.
+> Если указаны имя пользователя и пароль для определенного сервера **Snowflake**, Power BI Desktop будет использовать те же учетные данные при последующих попытках подключения. Эти учетные данные можно изменить, последовательно выбрав элементы **Файл > Параметры и настройки > Параметры источника данных**.
 > 
 > 
 

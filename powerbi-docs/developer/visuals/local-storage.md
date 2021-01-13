@@ -1,6 +1,6 @@
 ---
-title: API локального хранилища для визуальных элементов Power BI
-description: В этой статье описывается получение доступа к локальному хранилищу браузера с использованием API визуальных элементов Power BI
+title: API локального хранилища в визуальных элементах Power BI для более эффективного использования встроенной бизнес-аналитики Power BI
+description: В этой статье описывается получение доступа к локальному хранилищу браузера с использованием API визуальных элементов Power BI. Получайте оптимальную встроенную бизнес-аналитику в Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: rkarlin
@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 01/21/2019
-ms.openlocfilehash: e2cb11ea9be85916e6b5557e7933f6a6b5a7159a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: abec68c5622d3dcd96746148ed7a6da4f06c8ec0
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79380601"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888197"
 ---
 # <a name="local-storage-api"></a>API локального хранилища
 
 С помощью API локального хранилища пользовательский визуальный элемент может отправлять узлу запросы на сохранение или загрузку данных из хранилища устройства. Этот API реализует изоляцию, обеспечивая раздельный доступ к хранилищу для разных типов визуальных элементов.
 
-## <a name="sample"></a>Пример
+## <a name="sample"></a>Образец
 
 Пользовательский визуальный элемент должен увеличивать значение счетчика каждый раз при вызове метода обновления, но при этом такое значение должно сохраняться и не должно сбрасываться при каждом запуске визуального элемента:
 

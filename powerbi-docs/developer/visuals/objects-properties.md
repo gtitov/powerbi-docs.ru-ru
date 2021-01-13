@@ -1,6 +1,6 @@
 ---
-title: Объекты и свойства визуальных элементов Power BI
-description: В этой статье описываются настраиваемые свойства визуальных элементов Power BI.
+title: Объекты и свойства визуальных элементов Power BI для более эффективного использования встроенной аналитики Power BI
+description: В этой статье описываются настраиваемые свойства визуальных элементов Power BI. Получайте оптимальную встроенную бизнес-аналитику в Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: ae548abd0d579414a69b0d970213ff9d69ff2f08
-ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
+ms.openlocfilehash: 4596465fcd9f59768b18282ec3ad39d2531b7768
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "96120204"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885966"
 ---
 # <a name="objects-and-properties-of-power-bi-visuals"></a>Объекты и свойства визуальных элементов Power BI
 
@@ -50,7 +50,7 @@ ms.locfileid: "96120204"
 > [!NOTE]
 > `show` — это специальное свойство, позволяющее переключать объект.
 
-Пример.
+Пример
 
 ```json
 "properties": {
@@ -210,7 +210,7 @@ public enumerateObjectInstances(options: EnumerateVisualObjectInstancesOptions):
 selector: null
 ```
 
-#### <a name="columns"></a>columns
+#### <a name="columns"></a>столбцы
 
 Этот объект привязывается к столбцам с соответствующим `QueryName`.
 

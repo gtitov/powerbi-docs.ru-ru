@@ -1,19 +1,19 @@
 ---
-title: Поддержка режима высокой контрастности для визуальных элементов Power BI
-description: В этой статье описывается добавление поддержки высокой контрастности для визуальных элементов Power BI.
+title: Поддержка режима высокой контрастности для визуальных элементов Power BI для более эффективного использования встроенной бизнес-аналитики Power BI
+description: В этой статье описывается добавление поддержки высокой контрастности для визуальных элементов Power BI. Получайте оптимальную встроенную бизнес-аналитику в Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 9372187ae1fdfac27f6b3e7267a1c0622c063464
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f55427511a76fc65b3ae6b3933dca68ef742039c
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114343"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97889209"
 ---
 # <a name="high-contrast-mode-support-in-power-bi-visuals"></a>Поддержка режима высокой контрастности для визуальных элементов Power BI
 

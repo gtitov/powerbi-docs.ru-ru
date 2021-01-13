@@ -1,6 +1,6 @@
 ---
-title: Емкость и номера SKU в аналитике Power BI Embedded
-description: Сведения о емкости и номерах SKU в аналитике Power BI Embedded.
+title: Емкость и номера SKU в Power BI для более эффективного использования встроенной бизнес-аналитики Power BI
+description: Сведения о емкости и номерах SKU в аналитике Power BI Embedded. Получайте оптимальную встроенную бизнес-аналитику в Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,16 +8,16 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/17/2020
-ms.openlocfilehash: 4102ed7307c9b7be40fb682befc4056094cbe6ad
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 7ff6ada14128a6231b84adf83d90b3871e1c7537
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916942"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888818"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>Емкость и номера SKU в аналитике Power BI Embedded
 
-При переносе в рабочую среду для аналитики Power BI Embedded требуется емкость (ценовая категория *A* , *EM* или *P* ) для публикации внедренного содержимого Power BI.
+При переносе в рабочую среду для аналитики Power BI Embedded требуется емкость (ценовая категория *A*, *EM* или *P*) для публикации внедренного содержимого Power BI.
 
 Емкость — это выделенный набор ресурсов, зарезервированных для монопольного использования. Она позволяет публиковать панели мониторинга, отчеты и наборы данных для пользователей без необходимости приобретать лицензии для них. Она также обеспечивает предсказуемую и согласованную производительность для содержимого.
 
@@ -27,8 +27,8 @@ ms.locfileid: "92916942"
 ## <a name="what-is-embedded-analytics"></a>Что такое встроенная аналитика?
 
 Встроенная аналитика Power BI включает в себя два решения:
-* *Power BI Embedded*  — предложение Azure;
-* внедрение Power BI в рамках *Power BI Premium*  — предложение Office.
+* *Power BI Embedded* — предложение Azure;
+* внедрение Power BI в рамках *Power BI Premium* — предложение Office.
 
 ### <a name="power-bi-embedded"></a>Power BI Embedded
 

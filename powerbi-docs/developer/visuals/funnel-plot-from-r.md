@@ -1,6 +1,6 @@
 ---
-title: Создание визуального элемента R с воронкообразной диаграммой из скрипта R
-description: В этой статье показано, как создать воронкообразную диаграмму из скрипта R в визуальном элементе R Power BI.
+title: Создание воронкообразной диаграммы из скрипта R в визуальном элементе R Power BI для более эффективного использования встроенной бизнес-аналитики Power BI
+description: В этой статье показано, как создать воронкообразную диаграмму из скрипта R в визуальном элементе R Power BI. Получайте оптимальную встроенную бизнес-аналитику в Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 04/02/2020
-ms.openlocfilehash: 7ef9b75f01dedaf55be77312f07217593d886ef0
-ms.sourcegitcommit: 5c09d121d3205e65fb33a2eca0e60bc30e777773
+ms.openlocfilehash: f3d22a4143287588ad9290d000402a10a4cef227
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/18/2020
-ms.locfileid: "97675288"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97889278"
 ---
 # <a name="tutorial-build-a-funnel-plot-from-r-script-to-r-visual"></a>Руководство по Создание визуального элемента R с воронкообразной диаграммой из скрипта R
 В этой статье показано, как пошагово создать воронкообразную диаграмму с помощью скрипта R в визуальном элементе R.

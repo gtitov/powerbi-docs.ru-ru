@@ -1,6 +1,6 @@
 ---
-title: Добавление поддержки детализации
-description: В этой статье описывается добавление поддержки детализации для визуальных элементов Power BI.
+title: Добавление поддержки детализации в Power BI для более эффективного использования встроенной бизнес-аналитики Power BI
+description: В этой статье описывается добавление поддержки детализации для визуальных элементов Power BI. Получайте оптимальную встроенную бизнес-аналитику в Power BI.
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 602c13964e5364f9d21ec4e761fd42ea8d3e85f7
-ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
+ms.openlocfilehash: 40c8d7f362ca461b4295507c0ddff8db4bcc3509
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "95514132"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885474"
 ---
 # <a name="add-drill-down-support"></a>Добавление поддержки детализации
 
@@ -220,7 +220,7 @@ button {
 |   B    |    B2    |    B21    |    9    |
 |   B    |    B2    |    B22    |    10    |
 |   B    |    B3    |    B31    |    11    |
-|   B    |    B3    |    B32    |    К 12 столбцам.    |
+|   B    |    B3    |    B32    |    12    |
 
 Создайте иерархию в Power BI Desktop:
 
@@ -335,7 +335,7 @@ export class Visual implements IVisual {
 |   R1   |   R13   |   R133   |   C1   |   C13   |   C133   |   9   |
 |   R2   |   R21   |   R211   |   C2   |   C21   |   C211   |   10   |
 |   R2   |   R21   |   R212   |   C2   |   C21   |   C212   |   11   |
-|   R2   |   R21   |   R213   |   C2   |   C21   |   C213   |   К 12 столбцам.   |
+|   R2   |   R21   |   R213   |   C2   |   C21   |   C213   |   12   |
 |   R2   |   R22   |   R221   |   C2   |   C22   |   C221   |   13   |
 |   R2   |   R22   |   R222   |   C2   |   C22   |   C222   |   14   |
 |   R2   |   R22   |   R223   |   C2   |   C22   |   C223   |   16   |

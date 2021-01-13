@@ -1,6 +1,6 @@
 ---
-title: Инструмент переноса Power BI Embedded
-description: Этот инструмент переноса можно использовать для копирования отчетов из службы Azure Power BI Embedded (PaaS) в службу Power BI (SaaS).
+title: Инструмент переноса содержимого из коллекции рабочих областей в решение Power BI для оптимизации встроенной бизнес-аналитики
+description: Этот инструмент переноса можно использовать для копирования отчетов из службы Azure Power BI Embedded (PaaS) в службу Power BI (SaaS). Получайте оптимальную встроенную бизнес-аналитику в Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 06/30/2018
-ms.openlocfilehash: 60e80311ff12da2bc79b7f844c81c7b5c8f4c3ac
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 7156d0e414a4469cb4e0cba5ea5958e02e4e2e43
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354876"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885284"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Встроенный инструмент миграции Power BI
 
@@ -273,7 +273,7 @@ ms.locfileid: "85354876"
 [Как перенести содержимое коллекции рабочих областей Power BI Embedded в Power BI](migrate-from-powerbi-embedded.md)  
 [Что такое Power BI Premium?](../../admin/service-premium-what-is.md)  
 [Репозиторий Git JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)  
-[Git-репозиторий C# для Power BI](https://github.com/Microsoft/PowerBI-CSharp)  
+[Репозиторий Git Power BI C#](https://github.com/Microsoft/PowerBI-CSharp)  
 [Пример внедрения JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
 [Техническая документация по Power BI Premium](https://aka.ms/pbipremiumwhitepaper)  
 

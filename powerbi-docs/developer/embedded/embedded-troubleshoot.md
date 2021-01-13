@@ -1,6 +1,6 @@
 ---
-title: Устранение неполадок приложения встроенной аналитики Power BI
-description: В этой статье описаны распространенные проблемы, которые могут возникнуть при внедрении содержимого из Power BI.
+title: Устранение неполадок приложения встроенной аналитики Power BI для более эффективного использования встроенной бизнес-аналитики Power BI
+description: В этой статье описаны распространенные проблемы, которые могут возникнуть при внедрении содержимого из Power BI. Получайте оптимальную встроенную бизнес-аналитику в Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: troubleshooting
 ms.date: 02/05/2019
-ms.openlocfilehash: f46bdf5aec254763257fa4b121b4b8c135a0d58a
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.openlocfilehash: db2ae20436eddc4cb06287b6266488b65588dcb5
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098083"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887208"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Устранение неполадок внедренного приложения
 
@@ -119,7 +119,7 @@ _*_ (AADSTS70002: ошибка проверки учетных данных. AAD
 
 Чтобы создать эту политику, вы должны быть _ *глобальным администратором** для каталога, в котором создается и назначается политика. Ниже приведен пример сценария для создания политики и ее назначения пакету обновления для этого приложения:
 
-1. Установите [модуль PowerShell предварительной версии Azure AD](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0).
+1. Установите [модуль PowerShell предварительной версии Azure AD](/powershell/azure/active-directory/install-adv2).
 
 2. Выполните следующие команды PowerShell, строку за строкой (убедившись, что для переменной $sp в качестве результата не выводится несколько приложений).
 

@@ -1,6 +1,6 @@
 ---
-title: Рекомендации по производительности Power BI Embedded
-description: Эта статья содержит руководство для рекомендаций по внедрению лучших методов встроенной аналитики.
+title: Рекомендации по производительности встроенной аналитики Power BI для более эффективного использования встроенной бизнес-аналитики Power BI
+description: Эта статья содержит руководство для рекомендаций по внедрению лучших методов встроенной аналитики Power BI. Получайте оптимальную встроенную бизнес-аналитику в Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: 2d33ed5a707a3b4bc3e0a77a38128e7e00154798
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: f8bf41ae9a4b6f2e16aae2c05df8fa4448a0457c
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746684"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888795"
 ---
-# <a name="power-bi-embedded-performance-best-practices"></a>Рекомендации по повышению производительности Power BI Embedded
+# <a name="power-bi-embedded-analytics-performance-best-practices"></a>Рекомендации по производительности встроенной аналитики Power BI
 
 В этой статье приводятся рекомендации по ускорению отрисовки отчетов, панелей мониторинга и плиток в вашем приложении.
 
@@ -65,7 +65,7 @@ ms.locfileid: "91746684"
 
 Чтобы повысить производительность конечного пользователя, используйте `powerbi.preload()`. Метод `powerbi.preload()` скачивает JavaScript, CSS-файлы и другие артефакты, которые позже используются для внедрения отчета.
 
-Если внедрение отчета не выполняется сразу, вызовите `powerbi.preload()`. Так, если внедренное содержимое Power BI не отображается на домашней странице, используйте `powerbi.preload()` для скачивания и кэширования артефактов, которые используются для внедрения содержимого.
+Если внедрение отчета не выполняется сразу, вызовите `powerbi.preload()`. Так, если внедренное содержимое Power BI не отображается на домашней странице, используйте `powerbi.preload()` для скачивания и кэширования артефактов, которые используются для внедрения содержимого.
 
 ## <a name="bootstrapping-the-iframe"></a>Начальная загрузка iFrame
 
@@ -107,5 +107,5 @@ ms.locfileid: "91746684"
 ## <a name="next-steps"></a>Дальнейшие действия
 
 * [Руководство по оптимизации Power BI](../../guidance/power-bi-optimization.md)
-* [Устранение неполадок внедренного приложения](embedded-troubleshoot.md)
-* [Часто задаваемые вопросы о Power BI Embedded](embedded-faq.md)
+* [Устранение неполадок встроенной аналитики Power BI](embedded-troubleshoot.md)
+* [Вопросы и ответы о встроенной аналитике Power BI](embedded-faq.md)

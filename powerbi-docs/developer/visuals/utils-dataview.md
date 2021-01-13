@@ -1,6 +1,6 @@
 ---
-title: Общие сведения об использовании средств просмотра данных в визуальном элементе Power BI
-description: В этой статье описывается использование средств SVG для упрощения анализа объекта DataView в визуальных элементах Power BI.
+title: Общие сведения об использовании средств для работы с представлениями данных в визуальных элементах Power BI для более эффективного использования встроенной бизнес-аналитики Power BI
+description: В этой статье описывается использование средств SVG для упрощения анализа объекта DataView в визуальных элементах Power BI. Получайте оптимальную встроенную бизнес-аналитику в Power BI.
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: fc0ebf3d315b10bc14190a5ae01e8d389e2be0cc
-ms.sourcegitcommit: b5365df7fc32b7c49f8a2bf2cf75b5edd6bda9b6
+ms.openlocfilehash: 3c54333c35809ab272c065973d4d948e1ac37a8b
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97513742"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887829"
 ---
 # <a name="dataviewutils"></a>DataViewUtils
 

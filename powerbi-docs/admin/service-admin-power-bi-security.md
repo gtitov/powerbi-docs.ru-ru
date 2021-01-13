@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: ee7954cff7863ff58370bbe1e58f26c64644c8e8
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 9019ed9e64bca94a87e2ab9b6febdb7a25055b75
+ms.sourcegitcommit: c700e78dfedc34f5a74b23bbefdaef77e2a87f8a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857066"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97961162"
 ---
 # <a name="power-bi-security"></a>Безопасность Power BI
 
@@ -53,7 +53,7 @@ ms.locfileid: "90857066"
 
 ## <a name="data-and-service-security"></a>Безопасность данных и служб
 
-Дополнительные сведения см. в [центре управления безопасностью Майкрософт](https://www.microsoft.com/trustcenter).
+Дополнительные сведения см. в [центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/product-overview).
 
 Как описано ранее в этой статье, серверы Active Directory используют имя пользователя для входа в Power BI для сопоставления учетных данных с UPN. При этом **важно** отметить, что пользователи несут ответственность за данные, к которым предоставляют доступ: если пользователь подключается к источникам данных, указав свои учетные данные, а затем на основе этих данных предоставляет общий доступ к отчету (панели мониторинга, набору данных и т. д.), соответствующие пользователи получают доступ к отчету без проверки подлинности со стороны оригинального источника данных.
 

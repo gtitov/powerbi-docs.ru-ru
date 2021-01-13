@@ -1,6 +1,6 @@
 ---
-title: Получение токена доступа для проверки подлинности
-description: Пошаговое руководство по отправке данных — получение токена доступа для проверки подлинности
+title: Получение маркера доступа для проверки подлинности в Power BI для более эффективного использования встроенной бизнес-аналитики Power BI
+description: Пошаговое руководство по отправке данных — получение маркера доступа для проверки подлинности. Получайте оптимальную встроенную бизнес-аналитику в Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: madia
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 05/29/2019
-ms.openlocfilehash: b66c87d88e08a4c1f9ee4f9aebdbf44516d9cb43
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 22d30e14256a2e58e05e17207380842392fe0c23
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746523"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887415"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>Шаг 2. Получение токена доступа для проверки подлинности
 
@@ -31,11 +31,11 @@ ms.locfileid: "91746523"
 
 2. Установите [библиотеку проверки подлинности Azure AD для пакета NuGet .NET](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727). Этот пакет нужен приложению .NET для получения токена безопасности для проверки подлинности. 
 
-     а) Выберите пункты **Сервис** > **Диспетчер пакетов NuGet** > **Консоль диспетчера пакетов**.
+     а. Выберите **Инструменты** > **Диспетчер пакетов NuGet** > **Консоль диспетчера пакетов**.
 
-     б) Введите команду **Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory -Version 2.21.301221612**
+     б. Введите команду **Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory -Version 2.21.301221612**
 
-     c. В файле Program.cs добавьте `using Microsoft.IdentityModel.Clients.ActiveDirectory;`.
+     в. В файле Program.cs добавьте `using Microsoft.IdentityModel.Clients.ActiveDirectory;`.
 
 3. Добавьте пример кода, указанный после этих действий, в файл Program.cs.
 
@@ -45,7 +45,7 @@ ms.locfileid: "91746523"
 
    В окне консоли должна отображаться строка токена.
 
-**Пример кода получения маркера безопасности для проверки подлинности**
+**Пример кода получения токена безопасности для проверки подлинности**
 
 Добавьте этот код в Program {...}.
 
@@ -183,7 +183,7 @@ namespace walkthrough_push_data
 ## <a name="next-steps"></a>Дальнейшие действия
 
 * Следующая статья этого цикла: [Создание набора данных в Power BI](walkthrough-push-data-create-dataset.md)
-* [Обзор интерфейса REST API Power BI](overview-of-power-bi-rest-api.md)  
+* [Обзор интерфейса REST API Power BI](overview-of-power-bi-rest-api.md)  
 * [REST API в Power BI](/rest/api/power-bi/)  
 
-У вас имеются и другие вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+У вас имеются и другие вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)

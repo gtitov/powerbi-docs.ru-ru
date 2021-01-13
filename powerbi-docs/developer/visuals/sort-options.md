@@ -1,6 +1,6 @@
 ---
-title: Параметры сортировки для визуальных элементов Power BI
-description: В этой статье описывается реализация сортировки для визуальных элементов Power BI.
+title: Параметры сортировки для визуальных элементов Power BI для более эффективного использования встроенной бизнес-аналитики Power BI
+description: В этой статье описывается реализация сортировки для визуальных элементов Power BI. Получайте оптимальную встроенную бизнес-аналитику в Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: 3cb8f5af63960667dc46cab1d818ba48943fd582
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 0d24719b486608c283ec73f0188092a1ece3155e
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79378088"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97889255"
 ---
 # <a name="sorting-options-for-power-bi-visuals"></a>Параметры сортировки для визуальных элементов Power BI
 
@@ -39,8 +39,8 @@ ms.locfileid: "79378088"
 
 Параметры `clauses` могут содержать несколько объектов с двумя параметрами:
 
-- `role` — определяет `DataMapping` для сортировки
-- `direction` — определяет направление сортировки (1 — по возрастанию, 2 — по убыванию)
+- `role` —  определяет `DataMapping` для сортировки
+- `direction` —  определяет направление сортировки (1 — по возрастанию, 2 — по убыванию)
 
 ```json
     "sorting": {

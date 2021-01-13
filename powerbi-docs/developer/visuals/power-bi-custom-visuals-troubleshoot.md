@@ -1,6 +1,6 @@
 ---
-title: Устранение неполадок с визуализациями Power BI при разработке
-description: В этой статье описаны распространенные проблемы, которые могут возникнуть при разработке или создании настраиваемого визуального элемента Power BI.
+title: Устранение неполадок при разработке визуальных элементов Power BI для более эффективного использования встроенной бизнес-аналитики Power BI
+description: В этой статье описаны распространенные проблемы, которые могут возникнуть при разработке или создании настраиваемого визуального элемента Power BI. Получайте оптимальную встроенную бизнес-аналитику в Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,16 +8,16 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: troubleshooting
 ms.date: 11/06/2018
-ms.openlocfilehash: fda4bbddb2f0b1a878e0ddf85f31795405c66331
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 440bb6648dca1eaa85b697a10e9fd41180c66d7e
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417159"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888105"
 ---
 # <a name="troubleshoot-power-bi-visuals"></a>Устранение неполадок с визуальными элементами Power BI
 
-## <a name="debug"></a>Отладить
+## <a name="debug"></a>Отладка
 
 **Команда pbiviz не найдена (или похожие ошибки)**
 

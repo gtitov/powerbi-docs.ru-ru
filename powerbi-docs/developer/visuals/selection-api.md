@@ -1,6 +1,6 @@
 ---
-title: Выбор точек данных визуальных элементов Power BI
-description: В статье описывается добавление выделенных элементов в визуальные элементы Power BI
+title: Добавление точек данных в визуальный элемент Power BI для более эффективного использования встроенной бизнес-аналитики Power BI
+description: В статье описывается добавление выделенных элементов в визуальные элементы Power BI. Получайте оптимальную встроенную бизнес-аналитику в Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 57f443ec11d918966c25b9d59a1656bb02983fbb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: db215195444827f9464e10f9cbb190e292099584
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238045"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888335"
 ---
 # <a name="add-interactivity-into-visual-by-power-bi-visuals-selections"></a>Добавление интерактивности в визуальные элементы путем выбора визуальных элементов Power BI
 

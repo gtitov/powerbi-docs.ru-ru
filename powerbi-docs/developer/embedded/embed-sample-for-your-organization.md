@@ -1,6 +1,6 @@
 ---
-title: Внедрение содержимого в приложение встроенной аналитики Power BI для организации
-description: Узнайте, как внедрять в приложение необходимые организации отчеты (Power BI или отчеты с разбивкой на страницы), панели мониторинга или плитки, используя программные интерфейсы API Power BI для встроенной аналитики. Узнайте, как выполнять интеграцию Power BI в приложение с помощью программного обеспечения и средств встроенной аналитики, а также средств встроенной бизнес-аналитики.
+title: Внедрение содержимого в приложение встроенной аналитики Power BI для более эффективной бизнес-аналитики для вашей организации
+description: Узнайте, как выполнять интеграцию Power BI в приложение с помощью программного обеспечения и средств встроенной аналитики, а также средств встроенной бизнес-аналитики. Получайте оптимальную встроенную бизнес-аналитику в Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
-ms.openlocfilehash: 223495b68f160b637f5bcf40b37f1f1a1365fffd
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.openlocfilehash: 78ba14c8a715c927f35c32244734e66a5fb80473
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098175"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888979"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Руководство. Внедрение содержимого Power BI в приложение для организации
 

@@ -1,6 +1,6 @@
 ---
-title: Сертифицированные визуальные элементы Power BI
-description: Требования и процесс отправки пользовательского визуального элемента для сертификации, а также список сертифицированных визуальных элементов Power BI.
+title: Сертифицированные визуальные элементы в Power BI для более эффективного использования встроенной бизнес-аналитики Power BI
+description: Требования и процесс отправки пользовательского визуального элемента для сертификации, а также список сертифицированных визуальных элементов Power BI. Получайте оптимальную встроенную бизнес-аналитику в Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 03/08/2020
-ms.openlocfilehash: bbca1802b1136c4e9e16e70ab87ab7554612c037
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 1331543973680879e4fcc2dbafc7323e72a27694
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96386716"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888174"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Получите сертификацию для визуального элемента Power BI
 
@@ -180,4 +180,4 @@ ms.locfileid: "96386716"
 
 * [Публикация визуальных элементов Power BI в Microsoft AppSource](office-store.md)
 
-* Остались вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+* Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)

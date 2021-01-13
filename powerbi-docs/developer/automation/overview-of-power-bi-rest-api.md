@@ -1,6 +1,6 @@
 ---
-title: Что можно сделать с помощью API Power BI
-description: Что можно сделать с помощью API Power BI
+title: Что можно сделать с помощью API Power BI для более эффективного использования встроенной бизнес-аналитики Power BI
+description: Что можно сделать с помощью API Power BI? Получайте оптимальную встроенную бизнес-аналитику в Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: overview
 ms.date: 03/25/2019
-ms.openlocfilehash: fd9d9991b55ec6611504c96a30cb6383b8ac1296
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: 122028b2ac838763318ab5a0c4e6208138d93188
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92049276"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887622"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>Какие возможности API Power BI предоставляет разработчикам?
 
