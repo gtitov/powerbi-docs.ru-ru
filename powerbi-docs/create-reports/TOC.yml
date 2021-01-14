@@ -266,6 +266,8 @@
               href: ../visuals/power-bi-map-tips-and-tricks.md
             - name: "Настройка свойств осей X и\_Y"
               href: ../visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
+            - name: Обнаружение аномалий
+              href: ../visuals/power-bi-visualization-anomaly-detection.md
             - name: "Работа с ArcGIS\_Maps в визуализациях Power\_BI"
               href: ../visuals/power-bi-visualizations-arcgis.md
             - name: Простые диаграммы с областями
@@ -276,10 +278,6 @@
               href: ../visuals/power-bi-visualization-combo-chart.md
             - name: Визуальные элементы дерева декомпозиции
               href: ../visuals/power-bi-visualization-decomposition-tree.md
-            - name: Визуальные элементы с автоописанием
-              href: ../visuals/power-bi-visualization-smart-narrative.md
-            - name: Обнаружение аномалий
-              href: ../visuals/power-bi-visualization-anomaly-detection.md
             - name: Кольцевые диаграммы
               href: ../visuals/power-bi-visualization-doughnut-charts.md
             - name: Картограммы (хороплеты)
@@ -310,6 +308,8 @@
               href: ../visuals/desktop-high-density-scatter-charts.md
             - name: Визуальные элементы "Карта фигур" (предварительная версия)
               href: ../visuals/desktop-shape-map.md
+            - name: Визуальные элементы с автоописанием
+              href: ../visuals/power-bi-visualization-smart-narrative.md
             - name: Таблицы в отчетах и панелях мониторинга
               href: ../visuals/power-bi-visualization-tables.md
             - name: Диаграммы дерева
