@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 05/17/2020
-ms.openlocfilehash: 7ff6ada14128a6231b84adf83d90b3871e1c7537
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.date: 01/06/2021
+ms.openlocfilehash: 6b0277b342d454536154207ede2cb4bc2a2ba340
+ms.sourcegitcommit: b4c457bfb4676381dc4a0d04d965e8dab0bc230e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97888818"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98155671"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>Емкость и номера SKU в аналитике Power BI Embedded
 
@@ -27,8 +27,10 @@ ms.locfileid: "97888818"
 ## <a name="what-is-embedded-analytics"></a>Что такое встроенная аналитика?
 
 Встроенная аналитика Power BI включает в себя два решения:
+
 * *Power BI Embedded* — предложение Azure;
-* внедрение Power BI в рамках *Power BI Premium* — предложение Office.
+
+* внедрение Power BI в рамках *Power BI Premium* — предложение Microsoft Office.
 
 ### <a name="power-bi-embedded"></a>Power BI Embedded
 

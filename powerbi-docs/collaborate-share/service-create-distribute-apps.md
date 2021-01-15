@@ -8,12 +8,12 @@ ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 03/23/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: f15508f030a1fa2ee0112134faf71e94e752984c
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 981b4aa0f9e8bb12e4231476d27b8f58152ff3fd
+ms.sourcegitcommit: c86ce723d5db16fb960d1731795d84f4654e4b4e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96407706"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "98110919"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Публикация приложения в Power BI
 
@@ -70,7 +70,7 @@ ms.locfileid: "96407706"
     
     >[!IMPORTANT]
     >Если ваше приложение основано на наборах данных из других рабочих областей, именно вы обязаны убедиться, что все пользователи приложения имеют доступ к базовым наборам данных.
-    >
+    >Если приложение или отчет находятся в той же рабочей области, что и набор данных, в приложение следует добавить отчет, связанный с набором данных.
 
 6. Вы можете автоматически установить приложение для получателей, если администратор Power BI включил для вас соответствующий параметр на портале администрирования Power BI. Дополнительные сведения см. в [описании автоматической установки приложения](#automatically-install-apps-for-end-users) в этой статье.
 

@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 12/09/2020
+ms.date: 1/11/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 383c9bd20c86d89c5bf51c64c8027f86c1bfaab9
-ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
+ms.openlocfilehash: 3a3a0f44fd9f02942ecc8f6646d219ace649b295
+ms.sourcegitcommit: c86ce723d5db16fb960d1731795d84f4654e4b4e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "96998974"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "98110781"
 ---
 # <a name="dataset-connectivity-with-the-xmla-endpoint"></a>Возможность подключения к набору данных с помощью конечной точки XMLA
 
@@ -36,9 +36,9 @@ Power BI Premium использует протокол [XML для аналит
 
 **Visual Studio с поддержкой проектов Analysis Services**  (другое название — SQL Server Data Tools, или просто **SSDT**) — это средство разработки моделей корпоративного класса для табличных моделей Analysis Services. Расширения проектов Analysis Services поддерживаются во всех выпусках Visual Studio 2017 и более поздних версий, включая бесплатный выпуск Community. Для развертывания табличных моделей в рабочей области Premium требуется расширение версии 2.9.14 или более поздней. При развертывании в рабочей области Premium уровень совместимости модели должен быть не менее 1500. Для рабочей нагрузки наборов данных требуется доступ для чтения и записи по протоколу XMLA. Дополнительные сведения см. в статье [Средства для Analysis Services](/analysis-services/tools-and-applications-used-in-analysis-services?view=power-bi-premium-current&preserve-view=true).
 
-**SQL Server Management Studio (SSMS)**   — поддерживает запросы DAX, многомерные выражения и XMLA. Выполнение операций точного обновления и создание скриптов для метаданных набора данных с помощью [языка сценариев табличной модели](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference) (TMSL). Для операций запроса требуется доступ только для чтения. Для создания скриптов для метаданных требуется доступ для чтения и записи. При этом требуется SSMS версии 18.7.1 или более поздней. Загрузите это средство  [здесь](/sql/ssms/download-sql-server-management-studio-ssms).
+**SQL Server Management Studio (SSMS)**   — поддерживает запросы DAX, многомерные выражения и XMLA. Выполнение операций точного обновления и создание скриптов для метаданных набора данных с помощью [языка сценариев табличной модели](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference) (TMSL). Для операций запроса требуется доступ только для чтения. Для создания скриптов для метаданных требуется доступ для чтения и записи. Требуется SSMS версии **18.8** или более поздней. Загрузите это средство  [здесь](/sql/ssms/download-sql-server-management-studio-ssms).
 
-**SQL Server Profiler**  — это средство (устанавливается вместе с SSMS) обеспечивает трассировку и отладку событий набора данных. Хотя средство Profiler признано нерекомендуемым для SQL Server, оно по-прежнему входит в состав SSMS и поддерживается для Analysis Services и Power BI Premium. Требуется доступ только для чтения по протоколу XMLA. Дополнительные сведения см. в статье об  [SQL Server Profiler для Analysis Services](/analysis-services/instances/use-sql-server-profiler-to-monitor-analysis-services?view=power-bi-premium-current&preserve-view=true).
+**SQL Server Profiler**  — это средство (устанавливается вместе с SSMS) обеспечивает трассировку и отладку событий набора данных. Хотя средство Profiler признано нерекомендуемым для SQL Server, оно по-прежнему входит в состав SSMS и поддерживается для Analysis Services и Power BI Premium. Требуется SQL Server Profiler версии **18.8** или более поздней. Также в емкости Premium необходимо включить параметр "Только чтение XMLA". При подключении к конечной точке XMLA пользователю следует указать набор данных ([исходный каталог](#initial-catalog)). Дополнительные сведения см. в статье об  [SQL Server Profiler для Analysis Services](/analysis-services/instances/use-sql-server-profiler-to-monitor-analysis-services?view=power-bi-premium-current&preserve-view=true).
 
 **Мастер развертывания служб Analysis Services**  — это средство (устанавливается вместе с SSMS) обеспечивает развертывание проектов для разработанных с помощью Visual Studio табличных моделей в Analysis Services и рабочих областях Power BI Premium. Его можно запустить в интерактивном режиме или (для автоматизации) из командной строки. Требуется доступ на чтение и запись по протоколу XMLA. Дополнительные сведения см. в статье о [мастере развертывания служб Analysis Services](/analysis-services/deployment/deploy-model-solutions-using-the-deployment-wizard?view=power-bi-premium-current&preserve-view=true).
 
@@ -99,7 +99,9 @@ Power BI Premium использует протокол [XML для аналит
 
 ### <a name="initial-catalog"></a>Исходный каталог
 
-Для некоторых средств, таких как SQL Server Profiler, вам может понадобиться указать *исходный каталог*. Укажите набор данных (базу данных) в рабочей области. В диалоговом окне **Подключение к серверу** выберите **Параметры** > **Свойства подключения** > **Подключение к базе данных** и введите имя набора данных.
+В некоторых средствах, таких как SQL Server Profiler, необходимо указать *исходный каталог*, который является набором данных (базой данных) для подключения к рабочей области. В диалоговом окне **Подключение к серверу** выберите **Параметры** > **Свойства подключения** > **Подключение к базе данных** и введите имя набора данных.
+
+![Выбор набора данных в SQL Server Profiler](media/service-premium-connect-tools/sql-profiler-connection-properties.png)
 
 ### <a name="duplicate-workspace-names"></a>Дублирование имен рабочих областей
 
@@ -126,6 +128,10 @@ Power BI Premium использует протокол [XML для аналит
 - наборы данных на основе динамического подключения к набору данных Power BI в другой рабочей области (дополнительные сведения см. в статье [Введение в использование наборов данных в рабочих областях](../connect-data/service-datasets-across-workspaces.md));
 - Наборы данных с принудительной отправкой данных с помощью REST API.
 - Наборы данных книги Excel.
+
+### <a name="serverworkspace-alias"></a>Псевдоним сервера/рабочей области
+
+Псевдонимы серверов, поддерживаемые в Azure Analysis Services, не поддерживаются для рабочих областей Power BI Premium.
 
 ## <a name="security"></a>Безопасность
 

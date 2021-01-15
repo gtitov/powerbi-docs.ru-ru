@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 01/04/2019
-ms.openlocfilehash: a06553a3e0c090d4e4b0e007b61148115f8f5eb5
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: b9623b91555efe01817e4ffca3c6f80bd73c5243
+ms.sourcegitcommit: c86ce723d5db16fb960d1731795d84f4654e4b4e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97885230"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "98110896"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers"></a>Руководство. Внедрение отчетов Power BI с разбивкой на страницы в приложение для клиентов
 
@@ -58,10 +58,16 @@ ms.locfileid: "97885230"
 * **Power BI Premium** — для внедрения отчета с разбиением на страницы требуется емкость SKU *P*. При внедрении содержимого Power BI это решение называется *внедрением Power BI*. Дополнительные сведения об этой подписке см. в разделе [Что такое Power BI Premium?](../../admin/service-premium-what-is.md).
 * **Azure Power BI Embedded** — вы можете приобрести емкость на [портале Microsoft Azure](https://portal.azure.com). Эта подписка использует номера SKU *A*. Для внедрения отчетов с разбивкой на страницы требуется по крайней мере подписка *A4*. Дополнительные сведения о создании емкости Power BI Embedded см. в статье [Создание емкости Power BI Embedded на портале Azure](azure-pbie-create-capacity.md).
 
+    >[!NOTE]
+    >Недавно была выпущена новая версия Power BI Embedded, которая называется **Embedded 2-го поколения**. Embedded 2-го поколения упрощает управление внедренными емкостями и улучшает работу Power BI Embedded. Дополнительные сведения см. в разделе [Power BI Embedded 2-го поколения](power-bi-embedded-generation-2.md).
+
 В следующей таблице описаны ресурсы и ограничения для каждого SKU. Чтобы определить, какая емкость лучше соответствует вашим потребностям, ознакомьтесь с таблицей [Какой номер SKU следует приобрести для моего сценария](./embedded-faq.md#which-solution-should-i-choose).
 
 | Узлы емкости | Число виртуальных ядер | Серверные виртуальные ядра | ОЗУ (ГБ) | Интерфейсные виртуальные ядра | 
 | --- | --- | --- | --- | --- |
+| A1 с [Embedded 2-го поколения](power-bi-embedded-generation-2.md) | 1 | 0,5 | 2.5 | 0,5 |
+| A2 с [Embedded 2-го поколения](power-bi-embedded-generation-2.md) | 2 | 1 | 5 | 1 |
+| A3 с [Embedded 2-го поколения](power-bi-embedded-generation-2.md) | 4 | 2 | 10 | 2 |
 | P1/A4 | 8 | 4 | 25 | 4 |
 | P2/A5 | 16 | 8 | 50 | 8 |
 | P3/A6 | 32 | 16 | 100 | 16 |

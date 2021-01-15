@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: pbi-fundamentals
 ms.topic: conceptual
 ms.date: 12/01/2020
-ms.openlocfilehash: 1c0c572072fd085feab1533eb346d745b56f66b0
-ms.sourcegitcommit: 2fd64f96b5bfbc14ff47e5c892171e5c921fb525
+ms.openlocfilehash: 1ca4db3ad43553521c55866fd16b2440e3b64a65
+ms.sourcegitcommit: 73ca86f7633317fe3831839c4dd14a333b2f514c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "96502025"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "97979960"
 ---
 # <a name="power-bi-webinars"></a>Вебинары о Power BI
 [//]: # "Татевик Татеро (Tatevik Tatero) (tatevik.teroyan@simple-concepts.com) — это поставщик, работающий с Чонси Фрилс (Chauncy Freels) и помогающий вести этот список вебинаров"
@@ -28,52 +28,56 @@ ms.locfileid: "96502025"
 
 Начало работы с популярными вебинарами по запросу:
 
+**Аналитические сведения, основанные на данных, для принятия решений в режиме реального времени и более тесного взаимодействия с клиентами**  
+Авторы: Шрути Шукла (Shruti Shukla) и Чандра Стивенс (Chandra Stevens)  
+[Смотреть сейчас](https://info.microsoft.com/ww-Landing-DataDrivenInsights.html)
+
 **Быстрое начало работы с Power BI**  
 Автор: Мигель Мартинес (Miguel Martinez), Майкрософт  
-[Зарегистрироваться для просмотра 5 ноября 2020 г. с 10:00 до 11:00 (по Тихоокеанскому времени)](https://info.microsoft.com/ww-landing-get-up-and-running-quickly-with-power-bi.html?lcid=en-us)
+[Смотреть сейчас](https://info.microsoft.com/ww-landing-get-up-and-running-quickly-with-power-bi.html)
 
 **Настройка удаленного языка и региональных параметров с помощью Power BI и Microsoft Teams**  
 Автор: Лукаш Павловски (Lukasz Pawlowski)  
-[Смотреть сейчас](https://info.microsoft.com/ww-Landing-RemoteDataCulturePowerBIandMicrosoftTeams.html?LCID=EN-US)
+[Смотреть сейчас](https://info.microsoft.com/ww-Landing-RemoteDataCulturePowerBIandMicrosoftTeams.html)
 
 **Лучше вместе: 5 преимуществ, которые пользователи Excel получат от использования Power BI**  
 Авторы: Мигель Мартинес (Miguel Martinez) и Карлос Отеро (Carlos Otero)  
-[Смотреть сейчас](https://info.microsoft.com/ww-Landing-FiveBenefitsExcelUsersWillGetFromUsingPowerBI-Webinar.html?LCID=EN-US)
+[Смотреть сейчас](https://info.microsoft.com/ww-Landing-FiveBenefitsExcelUsersWillGetFromUsingPowerBI-Webinar.html)
 
 **Отслеживание данных в реальном времени с помощью Microsoft Power BI**  
 Авторы: Мигель Мартинес (Miguel Martinez) и Питер Майерс (Peter Myers)  
-[Смотреть сейчас](https://info.microsoft.com/ww-landing-Monitor-Your-Data-in-Real-time-with-Microsoft-Power-BI.html?lcid=en-us)
+[Смотреть сейчас](https://info.microsoft.com/ww-landing-Monitor-Your-Data-in-Real-time-with-Microsoft-Power-BI.html)
 
 **Ускорение Power BI в Azure Data Lake Storage с помощью Dremio**  
-Автор: Крис Вебб (Chris Webb) и Томер Ширан (Tomer Shiran) [Смотреть сейчас]( https://info.microsoft.com/ww-landing-Accelerate-Power-BI-on-Azure-Data-Lake-Storage-with-Dremio.html?lcid=en-us)
+Автор: Крис Вебб (Chris Webb) и Томер Ширан (Tomer Shiran) [Смотреть сейчас]( https://info.microsoft.com/ww-landing-Accelerate-Power-BI-on-Azure-Data-Lake-Storage-with-Dremio.html)
 
 **Создание масштабируемых решений бизнес-аналитики с помощью Power BI и Snowflake**  
 Авторы: Крис Уэбб (Chris Webb), Крейг Колье (Craig Collier) и Крис Холлидей (Chris Holliday)  
-[Смотреть сейчас](https://info.microsoft.com/ww-landing-build-scalable-BI-solutions-using-power-BI-and-snowflake.html?lcid=en-us)
+[Смотреть сейчас](https://info.microsoft.com/ww-landing-build-scalable-BI-solutions-using-power-BI-and-snowflake.html)
 
 **Повышение удовлетворенности пользователей с помощью рекомендаций по управлению содержимым бизнес-аналитики**  
 Автор: Нимрод Шалит (Nimrod Shalit)  
-[Смотреть сейчас](https://info.microsoft.com/ww-landing-Boost-User-Satisfaction-with-Best-Practices-for-Managing-BI-Content.html?lcid=en-us)
+[Смотреть сейчас](https://info.microsoft.com/ww-landing-Boost-User-Satisfaction-with-Best-Practices-for-Managing-BI-Content.html)
 
 **От аналитики к действиям. Управление культурой данных с помощью Power BI**  
 Авторы: Арун Улагаратчаган (Arun Ulagaratchagan) и Амир Нетц (Amir Netz)  
-[Смотреть сейчас]( https://info.microsoft.com/ww-landing-From-Insight-to-Action-Driving-a-Data-Culture-with-Power-BI.html?lcid=en-us)
+[Смотреть сейчас]( https://info.microsoft.com/ww-landing-From-Insight-to-Action-Driving-a-Data-Culture-with-Power-BI.html)
 
 **Поддержка улучшенной аналитики с использованием Power BI Embedded**  
 Автор: Алон Барам (Alon Baram)  
-[Смотреть сейчас](https://info.microsoft.com/ww-landing-Enable-Better-Analytics-with-Power-BI-Embedded.html?Lcid=EN-US)
+[Смотреть сейчас](https://info.microsoft.com/ww-landing-Enable-Better-Analytics-with-Power-BI-Embedded.html)
 
 **Как баскетбольный клуб "Майами Хит" использовал Power BI для принятия бизнес-решений**  
 Авторы: Эдсон Кревекур (Edson Crevecoeur), Фрэнк Меса (Frank Mesa) и Синру Тан (Xinrou Tan)  
-[Смотреть сейчас]( https://info.microsoft.com/ww-Landing-How-the-Miami-HEAT-Used-Power-BI-to-Drive-Business-Decisions.html?Lcid=EN-US)
+[Смотреть сейчас]( https://info.microsoft.com/ww-Landing-How-the-Miami-HEAT-Used-Power-BI-to-Drive-Business-Decisions.html)
 
 **Упрощение подготовки и анализа больших данных с помощью Power BI**  
 Автор: Прия Сати (Priya Sathy)  
-[Смотреть сейчас](https://info.microsoft.com/ww-landing-simplify-big-data-prep-and-analysis-with-power-BI.html?lcid=en-us)
+[Смотреть сейчас](https://info.microsoft.com/ww-landing-simplify-big-data-prep-and-analysis-with-power-BI.html)
 
 **Повышение эффективности принятия решений с помощью Power BI**  
 Авторы: Ким Манис (Kim Manis) и Лукаш Павловски (Lukasz Pawlowski)  
-[Смотреть сейчас](https://info.microsoft.com/ww-Landing-Improve-Decision-Making-with-Power-BI.html?LCID=EN-US)
+[Смотреть сейчас](https://info.microsoft.com/ww-Landing-Improve-Decision-Making-with-Power-BI.html)
 
 ## <a name="on-demand-webinars"></a>Вебинары по запросу
 
@@ -81,7 +85,7 @@ ms.locfileid: "96502025"
 
 **Изучение совокупного экономического эффекта Microsoft Power BI**  
 Меган Томлин (Megan Tomlin), корпорация Майкрософт, и Джонатан Липсиц (Jonathan Lipsitz), Forrester Consulting  
-[Смотреть сейчас]( https://info.microsoft.com/ww-landing-Explore-the-Total-Economic-Impact-Of-Microsoft-Power-BI.html?Lcid=EN-US)
+[Смотреть сейчас]( https://info.microsoft.com/ww-landing-Explore-the-Total-Economic-Impact-Of-Microsoft-Power-BI.html)
 
 **Аналитика в виртуальном событии Azure: Ускорение аналитики с помощью Azure Synapse Analytics**  
 от Гайле Шеппард (Gayle Sheppard) и Джон Макинтайр (John Macintyre)  
@@ -89,23 +93,23 @@ ms.locfileid: "96502025"
 
 **Как корпорация Майкрософт изменяет защиту данных бизнес-аналитики**  
 Антон Фриц (Anton Fritz) и Ади Регев (Adi Regev)  
-[Зарегистрироваться и начать просмотр](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html?lcid=EN-US)
+[Зарегистрироваться и начать просмотр](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html)
 
 **How to Become an Insights-Driven Business** (Как преобразовать предприятие для работы на основе аналитических сведений)  
 Амир Нетз (Amir Netz), Майкрософт и Борис Эвелсон (Boris Evelson), Forrester  
-[Зарегистрироваться и начать просмотр](https://info.microsoft.com/ww-landing-how-to-become-an-insights-driven-business.html?lcid=en-us)
+[Зарегистрироваться и начать просмотр](https://info.microsoft.com/ww-landing-how-to-become-an-insights-driven-business.html)
 
 **Три аспекта изменения бизнес-аналитики за счет искусственного интеллекта**  
 Джустина Лучник (Justyna Lucznik)  
-[Зарегистрироваться и начать просмотр](https://info.microsoft.com/ww-landing-Three-Ways-AI-Is-Changing-BI.html?lcid=EN-US&ocid=mkto_eml_EM581230A1LA1)
+[Зарегистрироваться и начать просмотр](https://info.microsoft.com/ww-landing-Three-Ways-AI-Is-Changing-BI.html&ocid=mkto_eml_EM581230A1LA1)
 
 **Power BI и будущее современной и корпоративной бизнес-аналитики**  
 Авторы: Арун Улаг и Амир Нетц (Arun Ulag и Amir Netz)  
-[Зарегистрироваться и начать просмотр](https://info.microsoft.com/ww-landing-The-Future-of-Modern-and-Enterprise-BI-video.html?LCID=EN-US)
+[Зарегистрироваться и начать просмотр](https://info.microsoft.com/ww-landing-The-Future-of-Modern-and-Enterprise-BI-video.html)
 
 **Девять тенденций, определяющих будущее аналитики больших данных**  
 за авторством Виджея Гопалакришнана (Vijay Gopalakrishnan)  
-[Зарегистрироваться и начать просмотр](https://info.microsoft.com/ww-landing-Nine-Trends-Shaping-the-Future-of-Big-Data-Analytics.html?Lcid=EN-US)
+[Зарегистрироваться и начать просмотр](https://info.microsoft.com/ww-landing-Nine-Trends-Shaping-the-Future-of-Big-Data-Analytics.html)
 
 **Getting Started with Power BI** (Начало работы с Power BI)  
 Автор: Мигель Мартинес (Miguel Martinez)  
@@ -113,7 +117,7 @@ ms.locfileid: "96502025"
 
 **Начало работы с приложением Power BI Mobile**  
 Автор: Майа Шенхав (Maya Shenhav)  
-[Зарегистрироваться и начать просмотр](https://info.microsoft.com/ww-Landing-Getting-Started-with-the-Power-BI-Mobile-App-Video.html?LCID=EN-US)
+[Зарегистрироваться и начать просмотр](https://info.microsoft.com/ww-Landing-Getting-Started-with-the-Power-BI-Mobile-App-Video.html)
 
 **Принципы навигации по панели мониторинга Power BI за 20 минут**  
 Автор: Мигель Мартинес (Miguel Martinez)  
@@ -125,7 +129,7 @@ ms.locfileid: "96502025"
 
 **Использование Power BI с Dynamics 365 Finance and Operations**  
 автор: Кевин Хорлок (Kevin Horlock)  
-[Зарегистрироваться и начать просмотр](https://info.microsoft.com/ww-landing-Using-Power-BI-with-Dynamics-365-Finance-and-Operations.html?LCID=EN-US)
+[Зарегистрироваться и начать просмотр](https://info.microsoft.com/ww-landing-Using-Power-BI-with-Dynamics-365-Finance-and-Operations.html)
 
 **Power BI от Майкрософт — упрощение финансового планирования и анализа**  
 Авторы: Кори Хрнсирик (Cory Hrncirik) и Мигель Мартинес (Miguel Martinez)  
@@ -133,7 +137,7 @@ ms.locfileid: "96502025"
 
 **Использование Power BI в Майкрософт: актуальность применения Power BI в группе Treasury**  
 Авторы: Панкай Гудимелла (Pankaj Gudimella) и Гуру Кирсигавасан (Guru Kirthigavasan)  
-[Зарегистрироваться и начать просмотр](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-Using-Power-BI-in-Modern-Treasury-Registration.html?LCID=EN-US)
+[Зарегистрироваться и начать просмотр](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-Using-Power-BI-in-Modern-Treasury-Registration.html)
 
 **Расширение возможностей приложений с помощью API JavaScript Power BI**  
 Автор: Нимрод Шалит (Nimrod Shalit)  
@@ -157,7 +161,7 @@ ms.locfileid: "96502025"
 
 **Рекомендации по управлению аналитикой Power BI Embedded для мультитенантных развертываний**  
 Автор: Нимрод Шалит (Nimrod Shalit)  
-[Зарегистрироваться и начать просмотр](https://info.microsoft.com/ww-landing-PBI-webinar-Best-Practices-for-Managing-Power-BI-Embedded-video.html?LCID=EN-US)
+[Зарегистрироваться и начать просмотр](https://info.microsoft.com/ww-landing-PBI-webinar-Best-Practices-for-Managing-Power-BI-Embedded-video.html)
 
 **Power BI: проводим аналитику правильно**  
 (Гохул Шанмугалингам (Gohul Shanmugalingam))  
@@ -200,7 +204,7 @@ ms.locfileid: "96502025"
 
 **Power BI: Извлечение ценных сведений из повседневных данных в отделе кадров**  
 Авторы: Иман Эфтекхари (Iman Eftekhari), Юлия Патон (Julia Paton) из Agile Analytics и Шахрам Карими (Shahram Karimi) из QBE Insurance  
-[Зарегистрироваться и начать просмотр](https://info.microsoft.com/How-to-Get-insights-from-Your-Workday-HR-Data-Registration.html?Lcid=en-us)
+[Зарегистрироваться и начать просмотр](https://info.microsoft.com/How-to-Get-insights-from-Your-Workday-HR-Data-Registration.html)
 
 **Достижение оптимального результата для производителей потребительских товаров и предприятий розничной торговли**  
 Автор: Лиз МакКриш (Liz McCreesh) из Thorogood  
@@ -208,7 +212,7 @@ ms.locfileid: "96502025"
 
 **Преобразование данных о клиентах для успешной розничной торговли с помощью Power BI**  
 Автор: Ангад Сони (Angad Soni) из Hitachi Solutions  
-[Зарегистрироваться и начать просмотр](https://info.microsoft.com/Transform-Your-Customer-Data-into-Retail-Success-OnDemandRegistration.html?LCID=EN-US?wt.mc_id=undefined)
+[Зарегистрироваться и начать просмотр](https://info.microsoft.com/Transform-Your-Customer-Data-into-Retail-Success-OnDemandRegistration.html?wt.mc_id=undefined)
 
 **Проверенные решения в сфере здравоохранения для улучшения результатов лечения и повышения рентабельности**  
 Авторы: Стивен Кракнелл (Stephen Cracknell) и Стюарт Маканлисс (Stuart Macanliss) из US Medical IT  
@@ -228,7 +232,7 @@ Scott Ball (Скотт Болл) и Enrique Plaza (Энрике Плаза), к�
 
 **Пять привычек успешного куратора трендов**  
 Автор: Рохит Бхаргава (Rohit Bhargava) из Non-Obvious  
-[Зарегистрироваться и начать просмотр](https://info.microsoft.com/ww-landing-5-Habits-of-a-Successful-Trend-Curator-Video.html?LCID=EN-US)
+[Зарегистрироваться и начать просмотр](https://info.microsoft.com/ww-landing-5-Habits-of-a-Successful-Trend-Curator-Video.html)
 
 ### <a name="community"></a>Сообщество ###
 

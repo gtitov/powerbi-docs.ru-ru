@@ -1,5 +1,5 @@
 ---
-title: Основные сведения о ролях администратора службы Power BI
+title: Основные сведения о ролях администратора Power BI
 description: В этой статьи описываются задачи администратора службы Power BI, а также роли, в которых предоставляются необходимые права администратора.
 author: kfollis
 ms.author: kfollis
@@ -7,33 +7,33 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 01/02/2020
+ms.date: 01/8/2021
 LocalizationGroup: Administration
-ms.openlocfilehash: 8ba05d9a7dd39df91cd7313038129f69e9b8d70b
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 1f06986333824ad6a7ad6a1ca38abb164b55ced8
+ms.sourcegitcommit: f791eef8e885f18c48997c9af63ab56211f1ceb8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96408051"
+ms.lasthandoff: 01/09/2021
+ms.locfileid: "98053381"
 ---
-# <a name="understanding-power-bi-service-administrator-roles"></a>Основные сведения о ролях администратора службы Power BI
+# <a name="understanding-power-bi-administrator-roles"></a>Основные сведения о ролях администратора Power BI
 
-Для администрирования клиента Power BI пользователю должна быть назначена одна из следующих ролей: администратор Power BI, администратор Power Platform или глобальный администратор Microsoft 365. Роли администратора Power BI или Power Platform пользователям назначают администраторы управления пользователями Microsoft 365 в Центре администрирования Microsoft 365 или с помощью скрипта PowerShell. Дополнительные сведения см. в статье, посвященной [назначению ролей учетным записям пользователей с помощью PowerShell](/office365/enterprise/powershell/assign-roles-to-user-accounts-with-office-365-powershell).
+Для администрирования Power BI для организации пользователю должна быть назначена одна из следующих ролей: администратор Power BI, администратор Power Platform или глобальный администратор Microsoft 365. Роли администратора Power BI или Power Platform пользователям назначают администраторы управления пользователями Microsoft 365 в Центре администрирования Microsoft 365 или с помощью скрипта PowerShell. Дополнительные сведения см. в статье, посвященной [назначению ролей учетным записям пользователей с помощью PowerShell](/office365/enterprise/powershell/assign-roles-to-user-accounts-with-office-365-powershell).
 
-Пользователи с ролями администратора Power BI и Power Platform могут полностью управлять клиентом Power BI и его административными функциями (кроме лицензирования). Когда роль будет назначена, пользователь сможет получить доступ к [порталу администрирования Power BI](service-admin-portal.md). Пользователь будет иметь доступ к метрикам использования, а также сможет управлять функциями Power BI на уровне клиента. Эти роли администратора идеально подходят пользователям, которым нужен доступ к порталу администрирования Power BI без полного административного доступа к службам Microsoft 365.
+Пользователи с ролями администратора Power BI и Power Platform могут полностью управлять параметрами Power BI в рамках организации и его административными функциями (кроме лицензирования). Когда роль будет назначена, пользователь сможет получить доступ к [порталу администрирования Power BI](service-admin-portal.md). Пользователь будет иметь доступ к метрикам использования, а также сможет управлять функциями Power BI на уровне организации. Эти роли администратора идеально подходят пользователям, которым нужен доступ к порталу администрирования Power BI без полного административного доступа к службам Microsoft 365.
 
 > [!NOTE]
 > В документации по Power BI под администратором Power BI понимается пользователь, которому назначена роль администратора Power BI или Power Platform. В документации четко указывается, когда для выполнения задачи требуется роль глобального администратора Microsoft 365.
 
 ## <a name="limitations-and-considerations"></a>Рекомендации и ограничения
 
-Роли администратора службы Power BI и администратора Power Platform не предоставляют следующие возможности:
+Роли администратора Power BI и администратора Power Platform не предоставляют следующие возможности:
 
 * Изменение пользователей и лицензий в Центре администрирования Microsoft 365.
 
 * Доступ к журналам аудита. Дополнительные сведения см. в разделе [Отслеживание действий пользователей в Power BI](service-admin-auditing.md).
 
-Для выполнения этих задач требуется роль глобального администратора Microsoft 365.
+Для выполнения этих задач требуется роль администратора Microsoft 365.
 
 ## <a name="assign-users-to-an-admin-role-in-the-microsoft-365-admin-center"></a>Назначение пользователям роли администратора в Центре администрирования Microsoft 365
 
@@ -59,12 +59,12 @@ ms.locfileid: "96408051"
 
 Вы также можете назначать роли пользователям с помощью PowerShell. Управление пользователями осуществляется с помощью Azure Active Directory (Azure AD). Если у вас нет модуля PowerShell для Azure AD, [скачайте и установите последнюю версию](https://www.powershellgallery.com/packages/AzureAD/).
 
-1. Сначала подключитесь к Azure AD.
+1. Подключение к Azure AD:
    ```
    PS C:\Windows\system32> Connect-AzureAD
    ```
 
-1. После этого получите **идентификатор объекта** для роли **Администратор службы Power BI**. Чтобы получить **идентификатор объекта**, можно выполнить команду [Get-AzureADDirectoryRole](/powershell/module/azuread/get-azureaddirectoryrole).
+1. Получите **ObjectId** для роли **Администратор Power BI**. Чтобы получить **идентификатор объекта**, можно выполнить команду [Get-AzureADDirectoryRole](/powershell/module/azuread/get-azureaddirectoryrole).
 
     ```
     PS C:\Windows\system32> Get-AzureADDirectoryRole
@@ -103,10 +103,11 @@ ms.locfileid: "96408051"
     ```powershell
     Add-AzureADDirectoryRoleMember -ObjectId 00f79122-c45d-436d-8d4a-2c0c6ca246bf -RefObjectId 6a2bfca2-98ba-413a-be61-6e4bbb8b8a4c
     ```
+Дополнительные сведения об использовании PowerShell для назначения ролей администратора см. в разделе [Роли Azure AD](/powershell/module/azuread/#directory-roles).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-[Администрирование Power BI в организации](service-admin-administering-power-bi-in-your-organization.md)  
+[Администрирование Power BI в организации](service-admin-administering-power-bi-in-your-organization.md)  
 [Портал администрирования Power BI](service-admin-portal.md)  
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
