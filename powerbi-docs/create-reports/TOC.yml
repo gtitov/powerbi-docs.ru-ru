@@ -13,6 +13,8 @@
       items:
         - name: "Power BI Desktop: создание отчета из книги\_Excel"
           href: desktop-excel-stunning-report.md
+        - name: 'Power BI Desktop: Многомерная модель для создания отчета'
+          href: desktop-dimensional-model-report.md
         - name: "Служба Power\_BI: создание отчета из книги\_Excel"
           href: service-from-excel-to-stunning-report.md
         - name: 'Онлайн-курс: Отчеты с разбивкой на страницы'
