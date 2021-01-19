@@ -9,8 +9,6 @@
           href: embedding.md
         - name: "Что такое Power\_BI Embedded в\_Azure"
           href: azure-pbie-what-is-power-bi-embedded.md
-        - name: "Что такое Power\_BI Embedded 2-го поколения"
-          href: power-bi-embedded-generation-2.md
     - name: Учебники
       expanded: true
       items:
@@ -40,6 +38,8 @@
           href: paginated-reports-row-level-security.md
         - name: Управление несколькими арендаторами
           href: embed-multi-tenancy.md
+        - name: Подключение отчета с помощью динамической привязки
+          href: embed-dynamic-binding.md
         - name: "Ведение журнала диагностики для Power\_BI Embedded в\_Azure"
           href: azure-pbie-diag-logs.md
         - name: Вопросы и ответы о функции внедрения
@@ -64,8 +64,6 @@
           href: register-app.md
         - name: Получение токена доступа Azure AD
           href: get-azuread-access-token.md
-        - name: Подключение отчета с помощью динамической привязки
-          href: embed-dynamic-binding.md
         - name: Внедрение функции "Вопросы и ответы"
           href: qanda.md
         - name: Устранение неполадок с внедренным приложением
