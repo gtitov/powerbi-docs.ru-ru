@@ -9,12 +9,12 @@ ms.subservice: pbi-dataflows
 ms.topic: how-to
 ms.date: 12/10/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: 116458c094159cbeeadaf2e955744759e4648220
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.openlocfilehash: fb688b20fd8b5ee1288f670fba9f7f45fc058680
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97097968"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565369"
 ---
 # <a name="dataflows-best-practices"></a>Рекомендации по потокам данных
 
@@ -22,7 +22,7 @@ ms.locfileid: "97097968"
 
 ## <a name="dataflows-across-the-power-platform"></a>Потоки данных в Power Platform
 
-Потоки данных можно использовать в различных технологиях Power Platform, таких как Power Query, Microsoft Dynamics 365, а также в других предложения Майкрософт. Дополнительные сведения о том, как потоки данных могут работать в Power Platform, см. в разделе, посвященном [использованию потоков данных в продуктах Майкрософт](https://docs.microsoft.com/power-query/dataflows/overview-dataflows-across-power-platform-dynamics-365).
+Потоки данных можно использовать в различных технологиях Power Platform, таких как Power Query, Microsoft Dynamics 365, а также в других предложения Майкрософт. Дополнительные сведения о том, как потоки данных могут работать в Power Platform, см. в разделе, посвященном [использованию потоков данных в продуктах Майкрософт](/power-query/dataflows/overview-dataflows-across-power-platform-dynamics-365).
 
 
 ## <a name="dataflows-best-practices-table-and-links"></a>Рекомендации по потокам данных (таблица и ссылки)
@@ -32,20 +32,20 @@ ms.locfileid: "97097968"
 
 |**Раздел**  |**Тема**  |**Ссылка на статью или содержимое**  |
 |---------|---------|---------|
-|Power Query     | Советы и рекомендации по максимально эффективной первичной обработке данных        |[Рекомендации по работе с Power Query](https://docs.microsoft.com/power-query/best-practices)        |
-|Использование вычисляемых сущностей     |Использование вычисляемых сущностей в потоке данных дает преимущества в производительности         |[Сценарии с вычисляемыми сущностями](https://docs.microsoft.com/power-query/dataflows/computed-entities-scenarios)         |
-|Разработка сложных потоков данных     |Шаблоны для разработки крупномасштабных и производительных потоков данных         |[Сложные потоки данных](https://docs.microsoft.com/power-query/dataflows/best-practices-developing-complex-dataflows)         |
-|Повторное использование потоков данных     |Шаблоны, рекомендации и варианты использования         |[Повторное использование потоков данных](https://docs.microsoft.com/power-query/dataflows/best-practices-reusing-dataflows)         |
-|Крупномасштабные реализации     |Крупномасштабное использование и рекомендации по дополнению корпоративной архитектуры         |[Хранение данных с помощью потоков данных](https://docs.microsoft.com/power-query/dataflows/best-practices-for-data-warehouse-using-dataflows)         |
+|Power Query     | Советы и рекомендации по максимально эффективной первичной обработке данных        |[Рекомендации по работе с Power Query](/power-query/best-practices)        |
+|Использование вычисляемых сущностей     |Использование вычисляемых сущностей в потоке данных дает преимущества в производительности         |[Сценарии с вычисляемыми сущностями](/power-query/dataflows/computed-entities-scenarios)         |
+|Разработка сложных потоков данных     |Шаблоны для разработки крупномасштабных и производительных потоков данных         |[Сложные потоки данных](/power-query/dataflows/best-practices-developing-complex-dataflows)         |
+|Повторное использование потоков данных     |Шаблоны, рекомендации и варианты использования         |[Повторное использование потоков данных](/power-query/dataflows/best-practices-reusing-dataflows)         |
+|Крупномасштабные реализации     |Крупномасштабное использование и рекомендации по дополнению корпоративной архитектуры         |[Хранение данных с помощью потоков данных](/power-query/dataflows/best-practices-for-data-warehouse-using-dataflows)         |
 |Использование расширенных вычислений     |Потенциальное повышение производительности потока данных до 25 раз         |[Расширенное ядро вычислений](dataflows-premium-workload-configuration.md#using-the-compute-engine-to-improve-performance)         |
 |Оптимизация параметров рабочей нагрузки     |Получите максимальную производительность инфраструктуры потоков данных с помощью возможностей для повышения производительности         |[Конфигурация рабочей нагрузки потоков данных](dataflows-premium-workload-configuration.md)         |
-|Соединение и развертывание таблиц     |Создание высокопроизводительных соединений         |[Оптимизация операций по развертыванию таблиц](https://docs.microsoft.com/power-query/optimize-expanding-table-columns)         |
-|Рекомендации по свертыванию запросов     |Ускорение преобразований с использованием исходной системы         |[Свертывание запроса](https://docs.microsoft.com/power-query/power-query-folding)         |
-|Использование профилирования данных     |Общие сведения о качестве, распределении и профиле столбцов         |[Средства профилирования данных](https://docs.microsoft.com/power-query/data-profiling-tools)         |
-|Реализация обработки ошибок     |Разработка надежных потоков данных, устойчивых к ошибкам обновления, с рекомендациями         |[Шаблоны для распространенных ошибок](https://docs.microsoft.com/power-query/dealing-with-errors)  </br> [Обработка сложных ошибок](https://docs.microsoft.com/power-query/error-handling)      |
-|Использование представления схемы      |Улучшение процесса разработки при работе с широкой таблицей и выполнении операций на уровне схемы         |[Представление схемы](https://docs.microsoft.com/power-query/schema-view)         |
-|Связанные сущности      |Повторное использование преобразований и ссылки на них         |[Связанные сущности](https://docs.microsoft.com/power-query/dataflows/linked-entities)         |
-|Добавочное обновление      |Загрузка последних или измененных данных в сравнении с полной перезагрузкой         |[Добавочное обновление](https://docs.microsoft.com/power-query/dataflows/incremental-refresh)         |
+|Соединение и развертывание таблиц     |Создание высокопроизводительных соединений         |[Оптимизация операций по развертыванию таблиц](/power-query/optimize-expanding-table-columns)         |
+|Рекомендации по свертыванию запросов     |Ускорение преобразований с использованием исходной системы         |[Свертывание запроса](/power-query/power-query-folding)         |
+|Использование профилирования данных     |Общие сведения о качестве, распределении и профиле столбцов         |[Средства профилирования данных](/power-query/data-profiling-tools)         |
+|Реализация обработки ошибок     |Разработка надежных потоков данных, устойчивых к ошибкам обновления, с рекомендациями         |[Шаблоны для распространенных ошибок](/power-query/dealing-with-errors)  </br> [Обработка сложных ошибок](/power-query/error-handling)      |
+|Использование представления схемы      |Улучшение процесса разработки при работе с широкой таблицей и выполнении операций на уровне схемы         |[Представление схемы](/power-query/schema-view)         |
+|Связанные сущности      |Повторное использование преобразований и ссылки на них         |[Связанные сущности](/power-query/dataflows/linked-entities)         |
+|Добавочное обновление      |Загрузка последних или измененных данных в сравнении с полной перезагрузкой         |[Добавочное обновление](/power-query/dataflows/incremental-refresh)         |
 |||
 
 

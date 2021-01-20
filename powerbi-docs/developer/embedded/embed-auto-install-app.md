@@ -8,16 +8,16 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: ''
 ms.date: 04/16/2019
-ms.openlocfilehash: f6418f8a9b927b05b3809032b28a740553ec625c
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: 66ba3b7d573c86b32a91bc0a98cd5ec0775fec75
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97888933"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565853"
 ---
 # <a name="auto-install-power-bi-apps-when-embedding-for-your-organization"></a>Автоматическая установка приложений Power BI при внедрении для организации
 
-Для внедрения содержимого из приложения пользователь, выполняющий эту операцию, должен иметь [доступ к приложению](../../collaborate-share/service-create-distribute-apps.md). Если приложение установлено для пользователя, то внедрение осуществляется без проблем. Дополнительные сведения см. в разделе [Внедрение отчетов или панелей мониторинга из приложения](embed-from-apps.md). На сайте PowerBI.com можно указать, что все приложения могут [устанавливаться автоматически](https://powerbi.microsoft.com/blog/automatically-install-apps/). Однако это действие выполняется на уровне клиента и применяется ко всем приложениям.
+Для внедрения содержимого из приложения пользователь, выполняющий эту операцию, должен иметь [доступ к приложению](../../collaborate-share/service-create-distribute-apps.md). Если приложение установлено для пользователя, то внедрение осуществляется без проблем. Дополнительные сведения см. в разделе [Внедрение отчетов или панелей мониторинга из приложения](./index.yml). На сайте PowerBI.com можно указать, что все приложения могут [устанавливаться автоматически](https://powerbi.microsoft.com/blog/automatically-install-apps/). Однако это действие выполняется на уровне клиента и применяется ко всем приложениям.
 
 ## <a name="auto-install-app-on-embedding"></a>Автоматическая установка приложений при внедрении
 

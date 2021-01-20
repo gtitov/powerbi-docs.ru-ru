@@ -8,16 +8,16 @@ ms.subservice: pbi-security
 ms.topic: conceptual
 ms.date: 11/20/2020
 ms.custom: subject-security-benchmark
-ms.openlocfilehash: ef74b3bcddd981c9f63172fa2e641335a081836d
-ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
+ms.openlocfilehash: a76c7f9d205fe47322768a514a1e5d89a36a2306
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "96577723"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565743"
 ---
 # <a name="azure-security-baseline-for-power-bi"></a>Базовые параметры безопасности Azure для Power BI
 
-Данные базовые параметры безопасности служат для применения рекомендаций из [Azure Security Benchmark версии 2.0](https://docs.microsoft.com/azure/security/benchmarks/overview) к Power BI. Azure Security Benchmark содержит рекомендации по обеспечению безопасности облачных решений в Azure. Содержимое сгруппировано по **элементам управления безопасностью**, определенным в Azure Security Benchmark, и связанному руководству, применимому к Power BI. **Элементы управления**, неприменимые к Power BI, были исключены.
+Данные базовые параметры безопасности служат для применения рекомендаций из [Azure Security Benchmark версии 2.0](/azure/security/benchmarks/overview) к Power BI. Azure Security Benchmark содержит рекомендации по обеспечению безопасности облачных решений в Azure. Содержимое сгруппировано по **элементам управления безопасностью**, определенным в Azure Security Benchmark, и связанному руководству, применимому к Power BI. **Элементы управления**, неприменимые к Power BI, были исключены.
 
 Сведения о том, как Power BI полностью соответствует Azure Security Benchmark, см. в [файле полного сопоставления базовых параметров безопасности Power BI](https://github.com/MicrosoftDocs/SecurityBenchmarks/tree/master/Azure%20Offer%20Security%20Baselines).
 
@@ -29,7 +29,7 @@ ms.locfileid: "96577723"
 
 **Инструкции**: Power BI поддерживает подключение клиента Power BI к конечной точке приватного канала и отключение доступа к общедоступному Интернету.
 
-- [Приватные каналы для доступа к Power BI](https://docs.microsoft.com/power-bi/admin/service-security-private-links)
+- [Приватные каналы для доступа к Power BI](../admin/service-security-private-links.md)
 
 **Мониторинг Центра безопасности Azure**: Неприменимо
 
@@ -47,13 +47,13 @@ ms.locfileid: "96577723"
 
 Примечание. Azure AD поддерживает внешние удостоверения, которые позволяют пользователям без учетной записи Майкрософт входить в свои приложения и ресурсы с помощью их внешнего удостоверения.
 
-- [Tenancy in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/single-and-multi-tenant-apps) (Аренда в Azure Active Directory)
+- [Tenancy in Azure Active Directory](/azure/active-directory/develop/single-and-multi-tenant-apps) (Аренда в Azure Active Directory)
 
-- [Создание и настройка экземпляра Azure AD](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-access-create-new-tenant)
+- [Создание и настройка экземпляра Azure AD](/azure/active-directory/fundamentals/active-directory-access-create-new-tenant)
 
-- [Использование внешних поставщиков удостоверений для приложения](https://docs.microsoft.com/azure/active-directory/b2b/identity-providers)
+- [Использование внешних поставщиков удостоверений для приложения](/azure/active-directory/b2b/identity-providers)
 
-- [Оценка безопасности удостоверений в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/identity-secure-score)
+- [Оценка безопасности удостоверений в Azure Active Directory](/azure/active-directory/fundamentals/identity-secure-score)
 
 **Мониторинг Центра безопасности Azure**: Неприменимо
 
@@ -73,7 +73,7 @@ ms.locfileid: "96577723"
 
 **Инструкции**: Power BI использует Azure Active Directory для предоставления управления удостоверениями и доступом к ресурсам Azure, облачным и локальным приложениям. Сюда входят корпоративные удостоверения, например для сотрудников, а также внешние удостоверения, например для партнеров и поставщиков. Это обеспечивает единый вход (SSO) для управления доступом к данным и ресурсам организации в локальной среде и в облаке, а также для обеспечения их безопасности. Подключите пользователей, приложения и устройства к Azure AD, чтобы обеспечить простой, безопасный доступ и более широкие возможности управления.
 
-- [Общие сведения о едином входе в приложения с помощью Azure AD](https://docs.microsoft.com/azure/active-directory/manage-apps/what-is-single-sign-on)
+- [Общие сведения о едином входе в приложения с помощью Azure AD](/azure/active-directory/manage-apps/what-is-single-sign-on)
 
 **Мониторинг Центра безопасности Azure**: Неприменимо
 
@@ -89,9 +89,9 @@ ms.locfileid: "96577723"
 
 Примечание. MFA можно применять только для учетных записей пользователей, входящих в Azure AD. Субъекты-службы Power BI не поддерживают MFA.
 
-- [Включение MFA в Azure](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-getstarted)
+- [Включение MFA в Azure](/azure/active-directory/authentication/howto-mfa-getstarted)
 
-- [Общие сведения о вариантах проверки подлинности без использования пароля для Azure Active Directory](https://docs.microsoft.com/azure/active-directory/authentication/concept-authentication-passwordless)
+- [Общие сведения о вариантах проверки подлинности без использования пароля для Azure Active Directory](/azure/active-directory/authentication/concept-authentication-passwordless)
 
 **Мониторинг Центра безопасности Azure**: Неприменимо
 
@@ -101,7 +101,7 @@ ms.locfileid: "96577723"
 
 **Инструкции**: определите политики обнаружения аномалий в Microsoft Cloud App Security с независимо задаваемой областью действия, при необходимости включая пользователей и группы, на которых они будут распространяться. Эти политики обнаружения аномалий позволяют обнаруживать и отслеживать аномалии поведения, связанные с доступом пользователей к Power BI.
 
-- [Использование элементов управления Microsoft Cloud App Security в Power BI](https://docs.microsoft.com/power-bi/admin/service-security-using-microsoft-cloud-app-security-controls)
+- [Использование элементов управления Microsoft Cloud App Security в Power BI](../admin/service-security-using-microsoft-cloud-app-security-controls.md)
 
 **Мониторинг Центра безопасности Azure**: Неприменимо
 
@@ -111,13 +111,13 @@ ms.locfileid: "96577723"
 
 **Инструкции**: Power BI поддерживает условный доступ Azure AD для более детализированного контроля доступа на основе определяемых пользователем условий, таких как имена входа пользователей из определенных диапазонов IP-адресов, потребуется использовать MFA для входа. Для различных вариантов использования также можно использовать политику управления сеансами с детализированной проверкой подлинности.
 
-- [Общие сведения об условном доступе в Azure](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)
+- [Общие сведения об условном доступе в Azure](/azure/active-directory/conditional-access/overview)
 
-- [Распространенные политики условного доступа](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policy-common)
+- [Распространенные политики условного доступа](/azure/active-directory/conditional-access/concept-conditional-access-policy-common)
 
-- [Настройка управления сеансом проверки подлинности с условным доступом](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime)
+- [Настройка управления сеансом проверки подлинности с условным доступом](/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime)
 
-- [Использование элементов управления Microsoft Cloud App Security в Power BI](https://docs.microsoft.com/power-bi/admin/service-security-using-microsoft-cloud-app-security-controls)
+- [Использование элементов управления Microsoft Cloud App Security в Power BI](../admin/service-security-using-microsoft-cloud-app-security-controls.md)
 
 **Мониторинг Центра безопасности Azure**: Неприменимо
 
@@ -131,7 +131,7 @@ ms.locfileid: "96577723"
  
 Для GitHub можно использовать функцию проверки собственных секретов для обнаружения учетных данных или других форм секретов в коде.
 
-- [Использование собственных ключей шифрования для Power BI](https://docs.microsoft.com/power-bi/admin/service-encryption-byok)
+- [Использование собственных ключей шифрования для Power BI](../admin/service-encryption-byok.md)
 
  
 Настройка учетных данных
@@ -164,11 +164,11 @@ Power BI поддерживает политики сеансов в Azure AD 
 
 Включите привилегированный доступ JIT для учетных записей администратора Power BI, используя управление привилегированным доступом M365.
 
-- [Роли администратора, связанные с Power BI](https://docs.microsoft.com/power-bi/admin/service-admin-administering-power-bi-in-your-organization#administrator-roles-related-to-power-bi)
+- [Роли администратора, связанные с Power BI](../admin/service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi)
 
-- [Управление привилегированным доступом в M365](https://docs.microsoft.com/microsoft-365/compliance/privileged-access-management-overview?view=o365-worldwide&amp;preserve-view=true)
+- [Управление привилегированным доступом в M365](/microsoft-365/compliance/privileged-access-management-overview?amp;preserve-view=true&view=o365-worldwide)
 
-- [Элементы управления Microsoft Cloud App Security в Power BI](https://docs.microsoft.com/power-bi/admin/service-security-using-microsoft-cloud-app-security-controls)
+- [Элементы управления Microsoft Cloud App Security в Power BI](../admin/service-security-using-microsoft-cloud-app-security-controls.md)
 
 **Мониторинг Центра безопасности Azure**: Неприменимо
 
@@ -178,7 +178,7 @@ Power BI поддерживает политики сеансов в Azure AD 
 
 **Инструкции**: ограничьте число учетных записей или ролей с высоким уровнем привилегий и доступа к Power BI.
 
-Можно включить привилегированный доступ JIT, воспользовавшись инструкциями по управлению привилегированным доступом M365, которые представлены [здесь](https://docs.microsoft.com/microsoft-365/compliance/privileged-access-management-overview?view=o365-worldwide&amp;preserve-view=true).
+Можно включить привилегированный доступ JIT, воспользовавшись инструкциями по управлению привилегированным доступом M365, которые представлены [здесь](/microsoft-365/compliance/privileged-access-management-overview?amp;preserve-view=true&view=o365-worldwide).
 
 Дополнительные сведения см. на странице 183 документа по развертыванию Power BI Enterprise в [этой статье](https://aka.ms/PBIEnterpriseDeploymentWP).
 
@@ -196,7 +196,7 @@ Power BI поддерживает политики сеансов в Azure AD 
 
 После обеспечения соответствия этим требованиям можно следовать приведенным ниже рекомендациям по отслеживанию активности пользователей в Power BI:
 
-- [Наблюдение за действиями пользователей в Power BI](https://docs.microsoft.com/power-bi/admin/service-admin-auditing)
+- [Наблюдение за действиями пользователей в Power BI](../admin/service-admin-auditing.md)
 
 **Мониторинг Центра безопасности Azure**: Неприменимо
 
@@ -208,9 +208,9 @@ Power BI поддерживает политики сеансов в Azure AD 
 
 Следует убедиться, что учетные данные (например, пароль, сертификат или смарт-карта) для учетных записей аварийного доступа защищены и известны только тем лицам, которые имеют право использовать их только в экстренной ситуации.
 
-- [Управление учетными записями для аварийного доступа в Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-emergency-access)
+- [Управление учетными записями для аварийного доступа в Azure AD](/azure/active-directory/users-groups-roles/directory-emergency-access)
 
-- [Защита учетных записей M365](https://docs.microsoft.com/microsoft-365/campaigns/m365-campaigns-protect-admin-accounts)
+- [Защита учетных записей M365](/microsoft-365/campaigns/m365-campaigns-protect-admin-accounts)
 
 **Мониторинг Центра безопасности Azure**: Неприменимо
 
@@ -221,9 +221,9 @@ Power BI поддерживает политики сеансов в Azure AD 
 **Инструкции**: защищенные изолированные рабочие станции критически важны для защиты привилегированных ролей, таких как администраторы, разработчики и критические операторы обслуживания. Используйте высокозащищенные рабочие станции пользователей и (или) Бастион Azure для выполнения административных задач, связанных с управлением Power BI. Чтобы развернуть защищенную и управляемую рабочую станцию для административных задач, используйте Azure Active Directory, Advanced Threat Protection в Microsoft Defender и (или) Microsoft Intune. Защищенными рабочими станциями можно централизованно управлять, чтобы обеспечить безопасную настройку, включая строгую проверку подлинности, базовые параметры программного обеспечения и оборудования, ограниченный логический и сетевой доступ.
 
 Общие сведения о привилегированном доступе
-- [рабочие станции](https://docs.microsoft.com/azure/active-directory/devices/concept-azure-managed-workstation)
+- [рабочие станции](/azure/active-directory/devices/concept-azure-managed-workstation)
 
-- [Развертывание рабочей станции с привилегированным доступом](https://docs.microsoft.com/azure/active-directory/devices/howto-azure-managed-workstation)
+- [Развертывание рабочей станции с привилегированным доступом](/azure/active-directory/devices/howto-azure-managed-workstation)
 
 **Мониторинг Центра безопасности Azure**: Неприменимо
 
@@ -239,7 +239,7 @@ Power BI поддерживает политики сеансов в Azure AD 
 
 Используйте метки конфиденциальности Microsoft Information Protection для классификации и добавления меток к отчетам, панелям мониторинга, наборам данных и потокам данных в службе Power BI, а также для защиты конфиденциального содержимого от несанкционированного доступа и утечки при экспорте содержимого из службы Power BI в файлы Excel, PowerPoint и PDF.
 
-- [Применение меток конфиденциальности в Power BI](https://docs.microsoft.com/power-bi/admin/service-security-apply-data-sensitivity-labels)
+- [Применение меток конфиденциальности в Power BI](../admin/service-security-apply-data-sensitivity-labels.md)
 
 **Мониторинг Центра безопасности Azure**: Неприменимо
 
@@ -247,13 +247,13 @@ Power BI поддерживает политики сеансов в Azure AD 
 
 ### <a name="dp-2-protect-sensitive-data"></a>DP-2: защита конфиденциальных данных
 
-**Инструкции**: Power BI интегрируется с метками конфиденциальности Microsoft Information Protection для защиты конфиденциальных данных. Дополнительные сведения см. в статье [Метки конфиденциальности Microsoft Information Protection в Power BI](https://docs.microsoft.com/power-bi/admin/service-security-sensitivity-label-overview)
+**Инструкции**: Power BI интегрируется с метками конфиденциальности Microsoft Information Protection для защиты конфиденциальных данных. Дополнительные сведения см. в статье [Метки конфиденциальности Microsoft Information Protection в Power BI](../admin/service-security-sensitivity-label-overview.md)
 
-Power BI позволяет пользователям служб применять собственный ключ для защиты неактивных данных. Дополнительные сведения см. в разделе [Использование собственных ключей шифрования для Power BI](https://docs.microsoft.com/power-bi/admin/service-encryption-byok)
+Power BI позволяет пользователям служб применять собственный ключ для защиты неактивных данных. Дополнительные сведения см. в разделе [Использование собственных ключей шифрования для Power BI](../admin/service-encryption-byok.md)
 
-У клиентов есть возможность размещать источники данных в локальной среде, использовать прямые запросы или Live Connect с локальным шлюзом данных, чтобы свести к минимуму раскрытие данных в облачной службе. Дополнительные сведения см. в разделе [Что такое локальный шлюз данных?](https://docs.microsoft.com/data-integration/gateway/service-gateway-onprem)
+У клиентов есть возможность размещать источники данных в локальной среде, использовать прямые запросы или Live Connect с локальным шлюзом данных, чтобы свести к минимуму раскрытие данных в облачной службе. Дополнительные сведения см. в разделе [Что такое локальный шлюз данных?](/data-integration/gateway/service-gateway-onprem)
 
-Power BI поддерживает безопасность на уровне строк. Дополнительные сведения см. в статье [Безопасность на уровне строк (RLS) в Power BI](https://docs.microsoft.com/power-bi/admin/service-admin-rls). Обратите внимание, что RLS может применяться даже к источникам данных прямых запросов, в которых PBIX-файл выступает в качестве прокси, обеспечивающего безопасность.
+Power BI поддерживает безопасность на уровне строк. Дополнительные сведения см. в статье [Безопасность на уровне строк (RLS) в Power BI](../admin/service-admin-rls.md). Обратите внимание, что RLS может применяться даже к источникам данных прямых запросов, в которых PBIX-файл выступает в качестве прокси, обеспечивающего безопасность.
 
 **Мониторинг Центра безопасности Azure**: Неприменимо
 
@@ -266,7 +266,7 @@ Power BI поддерживает безопасность на уровне с
 Используя Cloud App Security вместе с Power BI, вы сможете защитить отчеты, данные и службы Power BI от непредвиденных утечек и нарушений. С помощью Cloud App Security вы можете создавать политики условного доступа к данным организации, используя элементы управления сеансами в реальном времени в Azure Active Directory (Azure AD), что позволяет гарантировать безопасность аналитических данных в Power BI. После настройки необходимых политик администраторы смогут отслеживать доступ пользователей и осуществляемые ими действия, выполнять анализ рисков в реальном времени, а также задавать элементы управления для меток.
 
 Использование
-- [Элементы управления Microsoft Cloud App Security в Power BI](https://docs.microsoft.com/power-bi/admin/service-security-using-microsoft-cloud-app-security-controls)
+- [Элементы управления Microsoft Cloud App Security в Power BI](../admin/service-security-using-microsoft-cloud-app-security-controls.md)
 
 **Мониторинг Центра безопасности Azure**: Неприменимо
 
@@ -276,9 +276,9 @@ Power BI поддерживает безопасность на уровне с
 
 **Инструкции**: убедитесь, что для согласования взаимодействия по протоколу HTTP все клиенты и источники данных, подключающиеся к ресурсам Power BI, могут использовать TLS версии 1.2 или более поздней.
 
-- [Принудительное использование версии TLS](https://docs.microsoft.com/power-bi/admin/service-admin-power-bi-security#enforcing-tls-version-usage)
+- [Принудительное использование версии TLS](../admin/service-admin-power-bi-security.md#enforcing-tls-version-usage)
 
-- [Сведения о безопасности TLS](https://docs.microsoft.com/security/engineering/solving-tls1-problem)
+- [Сведения о безопасности TLS](/security/engineering/solving-tls1-problem)
 
 **Мониторинг Центра безопасности Azure**: Неприменимо
 
@@ -288,7 +288,7 @@ Power BI поддерживает безопасность на уровне с
 
 **Инструкции**: Power BI шифрует неактивные и внутрипроцессные данные. По умолчанию Power BI использует для шифрования ваших данных ключи, управляемые Майкрософт. Организации могут использовать собственные ключи для шифрования неактивных данных пользователя в Power BI, от изображений отчетов до импортированных наборов данных в емкостях Premium.
 
-- [Использование собственного ключа в Power BI](https://docs.microsoft.com/power-bi/admin/service-encryption-byok)
+- [Использование собственного ключа в Power BI](../admin/service-encryption-byok.md)
 
 **Мониторинг Центра безопасности Azure**: Неприменимо
 
@@ -302,7 +302,7 @@ Power BI поддерживает безопасность на уровне с
 
 **Инструкции**: используйте Azure Sentinel с журналами аудита Power BI Office, чтобы группа безопасности могла определить риски для ваших ресурсов Power BI.
 
-- [Подключение журналов Office 365 к Azure Sentinel](https://docs.microsoft.com/azure/sentinel/connect-office-365)
+- [Подключение журналов Office 365 к Azure Sentinel](/azure/sentinel/connect-office-365)
 
 **Мониторинг Центра безопасности Azure**: Неприменимо
 
@@ -316,9 +316,9 @@ Azure Resource Graph может запрашивать и обнаруживат
 
 Упорядочите ресурсы логически в соответствии с классификацией вашей организации с помощью тегов, а также других метаданных в Azure (имя, описание и категория).  
 
-- [Как создавать запросы с помощью обозревателя Azure Resource Graph](https://docs.microsoft.com/azure/governance/resource-graph/first-query-portal)
+- [Как создавать запросы с помощью обозревателя Azure Resource Graph](/azure/governance/resource-graph/first-query-portal)
 
-- [Руководство по именованию ресурсов и присвоению тегов](https://docs.microsoft.com/azure/cloud-adoption-framework/decision-guides/resource-tagging/?toc=/azure/azure-resource-manager/management/toc.json)
+- [Руководство по именованию ресурсов и присвоению тегов](/azure/cloud-adoption-framework/decision-guides/resource-tagging/?toc=%2fazure%2fazure-resource-manager%2fmanagement%2ftoc.json)
 
 **Мониторинг Центра безопасности Azure**: Неприменимо
 
@@ -330,13 +330,13 @@ Azure Resource Graph может запрашивать и обнаруживат
 
 Используйте политику Azure для аудита и ограничения служб, которые пользователи могут подготавливать в вашей среде. Используйте Azure Resource Graph для запроса и обнаружения ресурсов в своих подписках. Можно также использовать Azure Monitor, чтобы создать правила для активации оповещений при обнаружении неутвержденной службы.
 
-- [Настройка Политики Azure и управление ею](https://docs.microsoft.com/azure/governance/policy/tutorials/create-and-manage)
+- [Настройка Политики Azure и управление ею](/azure/governance/policy/tutorials/create-and-manage)
 
 Отказ от ресурсов определенного типа с помощью
-- [Политика Azure](https://docs.microsoft.com/azure/governance/policy/samples/built-in-policies#general)
+- [Политика Azure](/azure/governance/policy/samples/built-in-policies#general)
 
 Создание запросов с помощью Azure
-- [Обозреватель Resource Graph](https://docs.microsoft.com/azure/governance/resource-graph/first-query-portal)
+- [Обозреватель Resource Graph](/azure/governance/resource-graph/first-query-portal)
 
 **Мониторинг Центра безопасности Azure**: Неприменимо
 
@@ -348,9 +348,9 @@ Azure Resource Graph может запрашивать и обнаруживат
 
 ### <a name="lt-2-enable-threat-detection-for-azure-identity-and-access-management"></a>LT-2: включение обнаружения угроз для управления удостоверениями и доступом Azure
 
-**Инструкции**: перешлите журналы из Power BI в SIEM, чтобы затем их можно было использовать для настройки обнаружения угроз. Кроме того, используйте элементы управления Microsoft Cloud App Security (MCAS) в Power BI, чтобы включить обнаружение аномалий с помощью инструкций, представленных [здесь](https://docs.microsoft.com/power-bi/admin/service-security-using-microsoft-cloud-app-security-controls).
+**Инструкции**: перешлите журналы из Power BI в SIEM, чтобы затем их можно было использовать для настройки обнаружения угроз. Кроме того, используйте элементы управления Microsoft Cloud App Security (MCAS) в Power BI, чтобы включить обнаружение аномалий с помощью инструкций, представленных [здесь](../admin/service-security-using-microsoft-cloud-app-security-controls.md).
 
-- [Отслеживание действий пользователей в Power BI](https://docs.microsoft.com/power-bi/admin/service-admin-auditing)
+- [Отслеживание действий пользователей в Power BI](../admin/service-admin-auditing.md)
 
 **Мониторинг Центра безопасности Azure**: Неприменимо
 
@@ -360,7 +360,7 @@ Azure Resource Graph может запрашивать и обнаруживат
 
 **Инструкции**: Power BI является полностью управляемым предложением SaaS, поэтому базовая настройка сети и ведение журнала — это обязанность корпорации Майкрософт. Для клиентов, использующих приватные каналы, можно настроить ведение журнала и мониторинг.
 
-- [Ведение журнала и мониторинг приватных каналов](https://docs.microsoft.com/azure/private-link/private-link-overview#logging-and-monitoring)
+- [Ведение журнала и мониторинг приватных каналов](/azure/private-link/private-link-overview#logging-and-monitoring)
 
 **Мониторинг Центра безопасности Azure**: Неприменимо
 
@@ -411,11 +411,11 @@ Azure Resource Graph может запрашивать и обнаруживат
  
 - Данные о действиях не сохраняются, если клиент перемещается в другой регион Azure.
 
-- [Данные аудита Power BI](https://docs.microsoft.com/power-bi/admin/service-admin-auditing#operations-available-in-the-audit-and-activity-logs)
+- [Данные аудита Power BI](../admin/service-admin-auditing.md#operations-available-in-the-audit-and-activity-logs)
 
-- [Журнал действий Power BI](https://docs.microsoft.com/power-bi/admin/service-admin-auditing#use-the-activity-log)
+- [Журнал действий Power BI](../admin/service-admin-auditing.md#use-the-activity-log)
 
-- [Журнал аудита Power BI](https://docs.microsoft.com/power-bi/admin/service-admin-auditing#use-the-audit-log)
+- [Журнал аудита Power BI](../admin/service-admin-auditing.md#use-the-audit-log)
 
 **Мониторинг Центра безопасности Azure**: Неприменимо
 
@@ -456,11 +456,11 @@ Azure Resource Graph может запрашивать и обнаруживат
 
 - Данные о действиях не сохраняются, если клиент перемещается в другой регион Azure.
 
-- [Данные аудита Power BI](https://docs.microsoft.com/power-bi/admin/service-admin-auditing#operations-available-in-the-audit-and-activity-logs)
+- [Данные аудита Power BI](../admin/service-admin-auditing.md#operations-available-in-the-audit-and-activity-logs)
 
-- [Журнал действий Power BI](https://docs.microsoft.com/power-bi/admin/service-admin-auditing#use-the-activity-log)
+- [Журнал действий Power BI](../admin/service-admin-auditing.md#use-the-activity-log)
 
-- [Журнал аудита Power BI](https://docs.microsoft.com/power-bi/admin/service-admin-auditing#use-the-audit-log)
+- [Журнал аудита Power BI](../admin/service-admin-auditing.md#use-the-audit-log)
 
 **Мониторинг Центра безопасности Azure**: Неприменимо
 
@@ -470,7 +470,7 @@ Azure Resource Graph может запрашивать и обнаруживат
 
 **Инструкции**: настройте политики хранения для журналов аудита Office в соответствии с требованиями, нормативными актами и бизнес-требованиями.
 
-- [Политики хранения журналов аудита Office](https://docs.microsoft.com/microsoft-365/compliance/audit-log-retention-policies)
+- [Политики хранения журналов аудита Office](/microsoft-365/compliance/audit-log-retention-policies)
 
 **Мониторинг Центра безопасности Azure**: Неприменимо
 
@@ -484,9 +484,9 @@ Azure Resource Graph может запрашивать и обнаруживат
 
 **Инструкции**: убедитесь, что в организации имеются процессы для реагирования на инциденты безопасности, эти процессы обновлены для Azure и они регулярно применяются для обеспечения готовности.
 
-- [Реализация безопасности в среде предприятия](https://docs.microsoft.com/azure/cloud-adoption-framework/security/security-top-10#4-process-update-incident-response-ir-processes-for-cloud)
+- [Реализация безопасности в среде предприятия](/azure/cloud-adoption-framework/security/security-top-10#4-process-update-incident-response-ir-processes-for-cloud)
 
-- [Справочное руководство по реагированию на инциденты](https://docs.microsoft.com/microsoft-365/downloads/IR-Reference-Guide.pdf)
+- [Справочное руководство по реагированию на инциденты](/microsoft-365/downloads/IR-Reference-Guide.pdf)
 
 **Мониторинг Центра безопасности Azure**: Неприменимо
 
@@ -496,7 +496,7 @@ Azure Resource Graph может запрашивать и обнаруживат
 
 **Инструкции**: укажите контактные данные для информирования об инцидентах безопасности в Центре безопасности Azure. Эта контактная информация используется корпорацией Майкрософт для связи с вами, если центр Microsoft Security Response Center (MSRC) обнаруживает, что доступ к данным был осуществлен незаконно или неавторизованным лицом. Вы также можете настроить оповещения и уведомления об инцидентах в разных службах Azure в зависимости от потребностей реагирования на инциденты. 
 
-- [Настройка контакта по безопасности в Центре безопасности Azure](https://docs.microsoft.com/azure/security-center/security-center-provide-security-contact-details)
+- [Настройка контакта по безопасности в Центре безопасности Azure](/azure/security-center/security-center-provide-security-contact-details)
 
 **Мониторинг Центра безопасности Azure**: Неприменимо
 
@@ -508,7 +508,7 @@ Azure Resource Graph может запрашивать и обнаруживат
 
 Мониторинг предупреждений, связанных с Power BI в Microsoft Cloud App Security. Высококачественные оповещения можно создавать на основе опыта прошлых инцидентов, проверенных источников сообщества и средств, предназначенных для создания и очистки оповещений путем отказа и корреляции различных источников сигналов.
 
-- [Мониторинг оповещений в Cloud App Security](https://docs.microsoft.com/cloud-app-security/monitor-alerts)
+- [Мониторинг оповещений в Cloud App Security](/cloud-app-security/monitor-alerts)
 
 **Мониторинг Центра безопасности Azure**: Неприменимо
 
@@ -520,7 +520,7 @@ Azure Resource Graph может запрашивать и обнаруживат
 
 Убедитесь в том, что имеются письменные планы реагирования на инциденты, которые определяют все действия персонала, а также этапы обработки инцидентов и управления ими для проверки после инцидента.
 
-- [Обзор инцидентов в службе Защиты от угроз (Майкрософт)](https://docs.microsoft.com/microsoft-365/security/mtp/incidents-overview)
+- [Обзор инцидентов в службе Защиты от угроз (Майкрософт)](/microsoft-365/security/mtp/incidents-overview)
 
 **Мониторинг Центра безопасности Azure**: Неприменимо
 
@@ -533,7 +533,7 @@ Azure Resource Graph может запрашивать и обнаруживат
  
 Защита от угроз (Майкрософт) применяет корреляционную аналитику и объединяет все связанные оповещения и расследования от различных продуктов в одном инциденте. Защита от угроз (Майкрософт) также инициирует получение уникальных оповещений о действиях, которые могут быть идентифицированы только как вредоносные, с учетом полной видимости, которую Защита от угроз (Майкрософт) использует для всей организации и набора продуктов. Таким образом, Защита от угроз (Майкрософт) предоставляет более обширную историю атаки, позволяя аналитику в области безопасности понять сложные угрозы для организации и справиться с ними.
 
-- [Определение приоритета инцидентов в службе Защиты от угроз (Майкрософт)](https://docs.microsoft.com/microsoft-365/security/mtp/incident-queue?view=o365-worldwide&amp;preserve-view=true)
+- [Определение приоритета инцидентов в службе Защиты от угроз (Майкрософт)](/microsoft-365/security/mtp/incident-queue?amp;preserve-view=true&view=o365-worldwide)
 
 **Мониторинг Центра безопасности Azure**: Неприменимо
 
@@ -545,7 +545,7 @@ Azure Resource Graph может запрашивать и обнаруживат
  
 Используйте функции автоматизации рабочих процессов в службы Защиты от угроз (Майкрософт), чтобы автоматически активировать расследования и реагирование при получении оповещений системы безопасности. 
  
-- [Автоматическое исследование и реагирование в службе Защиты от угроз (Майкрософт)](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir)
+- [Автоматическое исследование и реагирование в службе Защиты от угроз (Майкрософт)](/microsoft-365/security/mtp/mtp-autoir)
 
 **Мониторинг Центра безопасности Azure**: Неприменимо
 
@@ -569,7 +569,7 @@ Azure Resource Graph может запрашивать и обнаруживат
 
 **Инструкции**: отслеживайте свой экземпляр Power BI с помощью REST API для администрирования Power BI.
 
-- [REST API для администрирования Power BI](https://docs.microsoft.com/rest/api/power-bi/admin)
+- [REST API для администрирования Power BI](/rest/api/power-bi/admin)
 
 - [Технический документ по развертыванию Power BI Enterprise](https://aka.ms/PBIEnterpriseDeploymentWP)
 
@@ -583,7 +583,7 @@ Azure Resource Graph может запрашивать и обнаруживат
 
 Следуйте правилам тестирования Microsoft Cloud на проникновение, чтобы убедиться, что тесты на проникновение не нарушают политики Майкрософт. Используйте стратегию Майкрософт и рекомендации "красных команд", а затем выполните тест на проникновение в режиме реального времени для управляемых корпорацией Майкрософт облачной инфраструктуры, служб и приложений.
 
-- [Тестирование на проникновение в Azure](https://docs.microsoft.com/azure/security/fundamentals/pen-testing)
+- [Тестирование на проникновение в Azure](/azure/security/fundamentals/pen-testing)
 
 - [Правила взаимодействия при выполнении тестирования на проникновение](https://www.microsoft.com/msrc/pentest-rules-of-engagement?rtc=1)
 
@@ -601,7 +601,7 @@ Azure Resource Graph может запрашивать и обнаруживат
 
 **Инструкции**: при использовании функции создания собственных ключей (BYOK) в Power BI необходимо периодически проверять, что у вас есть доступ к ключам, управляемым клиентом, и восстанавливать их.
 
-- [BYOK в Power BI](https://docs.microsoft.com/power-bi/admin/service-encryption-byok)
+- [BYOK в Power BI](../admin/service-encryption-byok.md)
 
 **Мониторинг Центра безопасности Azure**: Неприменимо
 
@@ -611,13 +611,13 @@ Azure Resource Graph может запрашивать и обнаруживат
 
 **Инструкции**: если вы используете функцию создания собственных ключей (BYOK) в Power BI, убедитесь, что служба Key Vault, которая управляет ключами, управляемыми клиентом, настроена с помощью рекомендаций к BYOK, приведенным в документации по Power BI ниже. Включите обратимое удаление и очистку защиты в Azure Key Vault, чтобы защитить ключи от случайного или вредоносного удаления.
 
-- [BYOK в Power BI](https://docs.microsoft.com/power-bi/admin/service-encryption-byok)
+- [BYOK в Power BI](../admin/service-encryption-byok.md)
 
-- [Включение обратимого удаления и очистки защиты в Key Vault](https://docs.microsoft.com/azure/storage/blobs/storage-blob-soft-delete?tabs=azure-portal)
+- [Включение обратимого удаления и очистки защиты в Key Vault](/azure/storage/blobs/storage-blob-soft-delete?tabs=azure-portal)
 
 Сведения о ключах для ресурсов шлюза см. в документации по ключу восстановления шлюза ниже.
 
-- [Ключ восстановления локального шлюза данных](https://docs.microsoft.com/data-integration/gateway/service-gateway-recovery-key)
+- [Ключ восстановления локального шлюза данных](/data-integration/gateway/service-gateway-recovery-key)
 
 **Мониторинг Центра безопасности Azure**: Неприменимо
 
@@ -650,13 +650,13 @@ Azure Resource Graph может запрашивать и обнаруживат
 -   Соответствующие криптографические стандарты
 
 Дополнительные сведения см. в следующих ресурсах.
-- [Рекомендации по архитектуре безопасности Azure — хранилище, данные и шифрование](https://docs.microsoft.com/azure/architecture/framework/security/storage-data-encryption?toc=/security/compass/toc.json&amp;bc=/security/compass/breadcrumb/toc.json)
+- [Рекомендации по архитектуре безопасности Azure — хранилище, данные и шифрование](/azure/architecture/framework/security/storage-data-encryption?amp;bc=%2fsecurity%2fcompass%2fbreadcrumb%2ftoc.json&toc=%2fsecurity%2fcompass%2ftoc.json)
 
-- [Основы безопасности Azure — безопасность, шифрование и хранение данных в Azure](https://docs.microsoft.com/azure/security/fundamentals/encryption-overview)
+- [Основы безопасности Azure — безопасность, шифрование и хранение данных в Azure](/azure/security/fundamentals/encryption-overview)
 
-- [Cloud Adoption Framework — рекомендации по защите и шифрованию данных в Azure](https://docs.microsoft.com/azure/security/fundamentals/data-encryption-best-practices?toc=/azure/cloud-adoption-framework/toc.json&amp;bc=/azure/cloud-adoption-framework/_bread/toc.json)
+- [Cloud Adoption Framework — рекомендации по защите и шифрованию данных в Azure](/azure/security/fundamentals/data-encryption-best-practices?amp;bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json)
 
-- [Azure Security Benchmark — управление ресурсами](https://docs.microsoft.com/azure/security/benchmarks/security-controls-v2-asset-management)
+- [Azure Security Benchmark — управление ресурсами](/azure/security/benchmarks/security-controls-v2-asset-management)
 
 - [Azure Security Benchmark — защита данных](/azure/security/benchmarks/security-controls-v2-data-protection)
 
@@ -672,11 +672,11 @@ Azure Resource Graph может запрашивать и обнаруживат
 
 Убедитесь, что стратегия сегментации реализована единообразно по всем типам элементов управления, включая безопасность сети, модели удостоверений и доступа, а также модели разрешения и доступа приложений, равно как и управление персоналом.
 
-- [Руководство по стратегии сегментации в Azure (видео)](https://docs.microsoft.com/security/compass/microsoft-security-compass-introduction#azure-components-and-reference-model-2151)
+- [Руководство по стратегии сегментации в Azure (видео)](/security/compass/microsoft-security-compass-introduction#azure-components-and-reference-model-2151)
 
-- [Руководство по стратегии сегментации в Azure (документ)](https://docs.microsoft.com/security/compass/governance#enterprise-segmentation-strategy)
+- [Руководство по стратегии сегментации в Azure (документ)](/security/compass/governance#enterprise-segmentation-strategy)
 
-- [Согласование сегментации сети с помощью стратегии сегментации на уровне предприятия](https://docs.microsoft.com/security/compass/network-security-containment#align-network-segmentation-with-enterprise-segmentation-strategy)
+- [Согласование сегментации сети с помощью стратегии сегментации на уровне предприятия](/security/compass/network-security-containment#align-network-segmentation-with-enterprise-segmentation-strategy)
 
 **Мониторинг Центра безопасности Azure**: Неприменимо
 
@@ -686,7 +686,7 @@ Azure Resource Graph может запрашивать и обнаруживат
 
 **Инструкции**: непрерывно измеряйте и снижайте риски для отдельных ресурсов и сред, в которых они размещены. Определите приоритеты для важных ресурсов и областей, где существует высокий риск атак, таких как опубликованные приложения, точки входа в сеть и выхода из нее, конечные точки пользователя и администратора и т. д.
 
-- [Azure Security Benchmark — управление состоянием защиты и уязвимостью](https://docs.microsoft.com/azure/security/benchmarks/security-controls-v2-posture-vulnerability-management)
+- [Azure Security Benchmark — управление состоянием защиты и уязвимостью](/azure/security/benchmarks/security-controls-v2-posture-vulnerability-management)
 
 **Мониторинг Центра безопасности Azure**: Неприменимо
 
@@ -696,11 +696,11 @@ Azure Resource Graph может запрашивать и обнаруживат
 
 **Инструкции**: убедитесь, что вы задокументировали и распространили четкие стратегии для ролей и обязанностей в организации в отношении безопасности. Определение приоритетов для обеспечения четкой отчетности за принятие решений в области безопасности, обучение всех пользователей по общей модели ответственности и обучение технических команд по технологиям защиты облака.
 
-- [Рекомендации по обеспечению безопасности в Azure 1 — люди: обучение команд обеспечению безопасности облака](https://docs.microsoft.com/azure/cloud-adoption-framework/security/security-top-10#1-people-educate-teams-about-the-cloud-security-journey)
+- [Рекомендации по обеспечению безопасности в Azure 1 — люди: обучение команд обеспечению безопасности облака](/azure/cloud-adoption-framework/security/security-top-10#1-people-educate-teams-about-the-cloud-security-journey)
 
-- [Рекомендации по обеспечению безопасности в Azure 2 — люди: обучение команд технологиям обеспечения безопасности облака](https://docs.microsoft.com/azure/cloud-adoption-framework/security/security-top-10#2-people-educate-teams-on-cloud-security-technology)
+- [Рекомендации по обеспечению безопасности в Azure 2 — люди: обучение команд технологиям обеспечения безопасности облака](/azure/cloud-adoption-framework/security/security-top-10#2-people-educate-teams-on-cloud-security-technology)
 
-- [Рекомендации по обеспечению безопасности в Azure 3 — процесс: назначение ответственных за принятие решений по обеспечению безопасности облака](https://docs.microsoft.com/azure/cloud-adoption-framework/security/security-top-10#4-process-update-incident-response-ir-processes-for-cloud)
+- [Рекомендации по обеспечению безопасности в Azure 3 — процесс: назначение ответственных за принятие решений по обеспечению безопасности облака](/azure/cloud-adoption-framework/security/security-top-10#4-process-update-incident-response-ir-processes-for-cloud)
 
 **Мониторинг Центра безопасности Azure**: Неприменимо
 
@@ -725,13 +725,13 @@ Azure Resource Graph может запрашивать и обнаруживат
 -   Актуальные артефакты безопасности сети (например, схемы сети, эталонная архитектура сети)
 
 Дополнительные сведения см. в следующих ресурсах.
-- [Рекомендации по обеспечению безопасности в Azure 11 — архитектура: единая стратегия обеспечения безопасности](https://docs.microsoft.com/azure/cloud-adoption-framework/security/security-top-10#11-architecture-establish-a-single-unified-security-strategy)
+- [Рекомендации по обеспечению безопасности в Azure 11 — архитектура: единая стратегия обеспечения безопасности](/azure/cloud-adoption-framework/security/security-top-10#11-architecture-establish-a-single-unified-security-strategy)
 
 - [Azure Security Benchmark — безопасность сети](/azure/security/benchmarks/security-controls-v2-network-security)
 
-- [Обзор сетевой безопасности Azure](https://docs.microsoft.com/azure/security/fundamentals/network-overview)
+- [Обзор сетевой безопасности Azure](/azure/security/fundamentals/network-overview)
 
-- [Стратегия архитектуры корпоративной сети](https://docs.microsoft.com/azure/cloud-adoption-framework/ready/enterprise-scale/architecture)
+- [Стратегия архитектуры корпоративной сети](/azure/cloud-adoption-framework/ready/enterprise-scale/architecture)
 
 **Мониторинг Центра безопасности Azure**: Неприменимо
 
@@ -755,13 +755,13 @@ Azure Resource Graph может запрашивать и обнаруживат
 
 Дополнительные сведения см. в следующих ресурсах.
 
-- [Azure Security Benchmark — управление удостоверениями](https://docs.microsoft.com/azure/security/benchmarks/security-controls-v2-identity-management)
+- [Azure Security Benchmark — управление удостоверениями](/azure/security/benchmarks/security-controls-v2-identity-management)
 
 - [Azure Security Benchmark — привилегированный доступ](/azure/security/benchmarks/security-controls-v2-privileged-access)
 
-- [Рекомендации по обеспечению безопасности в Azure 11 — архитектура: единая стратегия обеспечения безопасности](https://docs.microsoft.com/azure/cloud-adoption-framework/security/security-top-10#11-architecture-establish-a-single-unified-security-strategy)
+- [Рекомендации по обеспечению безопасности в Azure 11 — архитектура: единая стратегия обеспечения безопасности](/azure/cloud-adoption-framework/security/security-top-10#11-architecture-establish-a-single-unified-security-strategy)
 
-- [Общие сведения о безопасности при управлении удостоверениями в Azure](https://docs.microsoft.com/azure/security/fundamentals/identity-management-overview)
+- [Общие сведения о безопасности при управлении удостоверениями в Azure](/azure/security/fundamentals/identity-management-overview)
 
 **Мониторинг Центра безопасности Azure**: Неприменимо
 
@@ -793,11 +793,11 @@ Azure Resource Graph может запрашивать и обнаруживат
 
 - [Azure Security Benchmark — реагирование на инциденты](/azure/security/benchmarks/security-controls-v2-incident-response)
 
-- [Рекомендации по обеспечению безопасности в Azure 4 — процесс: обновление процессов реагирования на инциденты для облака](https://docs.microsoft.com/azure/cloud-adoption-framework/security/security-top-10#4-process-update-incident-response-ir-processes-for-cloud)
+- [Рекомендации по обеспечению безопасности в Azure 4 — процесс: обновление процессов реагирования на инциденты для облака](/azure/cloud-adoption-framework/security/security-top-10#4-process-update-incident-response-ir-processes-for-cloud)
 
-- [Руководство по выбору Azure Adoption Framework, решения для ведения журналов и создания отчетов](https://docs.microsoft.com/azure/cloud-adoption-framework/decision-guides/logging-and-reporting/)
+- [Руководство по выбору Azure Adoption Framework, решения для ведения журналов и создания отчетов](/azure/cloud-adoption-framework/decision-guides/logging-and-reporting/)
 
-- [Масштабирование Azure Enterprise, управление и мониторинг](https://docs.microsoft.com/azure/cloud-adoption-framework/ready/enterprise-scale/management-and-monitoring)
+- [Масштабирование Azure Enterprise, управление и мониторинг](/azure/cloud-adoption-framework/ready/enterprise-scale/management-and-monitoring)
 
 **Мониторинг Центра безопасности Azure**: Неприменимо
 

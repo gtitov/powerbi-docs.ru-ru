@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
-ms.openlocfilehash: 78ba14c8a715c927f35c32244734e66a5fb80473
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: da356800a49e6d8876a147862dd08541ed2999bc
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97888979"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565689"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Руководство. Внедрение содержимого Power BI в приложение для организации
 
@@ -57,7 +57,7 @@ ms.locfileid: "97888979"
 
 >[!NOTE]
 >В приложении потребуется перейти в раздел *Проверка подлинности* и в поле *URI перенаправления* вставить адрес перенаправления.
-Дополнительные сведения о перенаправлении см. в статье [Ограничения для URI перенаправления (URL-адреса ответа)](https://docs.microsoft.com/azure/active-directory/develop/reply-url).
+Дополнительные сведения о перенаправлении см. в статье [Ограничения для URI перенаправления (URL-адреса ответа)](/azure/active-directory/develop/reply-url).
 
 ## <a name="set-up-your-power-bi-environment"></a>Настройка рабочей среды Power BI
 
@@ -428,7 +428,7 @@ function updateEmbedReport() {
 В этом руководстве вы узнали, как внедрить содержимое Power BI в свое приложение с помощью учетной записи организации Power BI. Теперь вы можете попробовать внедрить содержимое Power BI в приложение с помощью приложений. Кроме того, вы можете попробовать внедрить содержимое Power BI для своих клиентов (на данный момент не поддерживается внедрение отчетов с разбивкой на страницы):
 
 > [!div class="nextstepaction"]
-> [Внедрение из приложений](embed-from-apps.md)
+> [Внедрение из приложений](./index.yml)
 
 > [!div class="nextstepaction"]
 >[Внедрение для клиентов](embed-sample-for-customers.md)

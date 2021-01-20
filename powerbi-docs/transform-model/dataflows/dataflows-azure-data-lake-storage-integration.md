@@ -9,12 +9,12 @@ ms.subservice: pbi-dataflows
 ms.topic: how-to
 ms.date: 12/10/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: 646f3d37bb0200cf423ccdffb42dc4ce866ade9f
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.openlocfilehash: bf9740e0f4f6a2e25e1d5d0cc49671bd6eb90b37
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098267"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565410"
 ---
 # <a name="configuring-dataflow-storage-to-use-azure-data-lake-gen-2"></a>Настройка хранилища потоков данных для использования Azure Data Lake 2-го поколения 
 
@@ -26,7 +26,7 @@ ms.locfileid: "97098267"
 
 Чтобы использовать собственную учетную запись ADLS 2-го поколения, необходимо иметь разрешения владельца на уровне учетной записи хранения, группы ресурсов или подписки. Если вы являетесь администратором, вам все равно необходимо назначить себе разрешение владельца. 
 
-Учетная запись хранения должна быть создана с включенным [иерархическим пространством имен (HNS)](https://docs.microsoft.com/azure/storage/blobs/create-data-lake-storage-account). 
+Учетная запись хранения должна быть создана с включенным [иерархическим пространством имен (HNS)](/azure/storage/blobs/create-data-lake-storage-account). 
 
 Кроме того, учетная запись хранения ADLS 2-го поколения должна быть развернута в том же регионе, что и ваш клиент Power BI. Если расположения ресурсов находятся в разных регионах, возникает ошибка.
 

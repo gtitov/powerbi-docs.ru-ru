@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 12/22/2020
-ms.openlocfilehash: de954c5950f550c3ed2f3c340714851f5233d3e8
-ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
+ms.openlocfilehash: a0cfeaece56594c52a8d747350c5f9bfb0886cad
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97969772"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565472"
 ---
 # <a name="tutorial-embed-power-bi-content-using-a-sample-embed-for-your-customers-application"></a>Руководство. Внедрение содержимого Power BI с помощью примера *внедрения для клиентов*
 
@@ -185,7 +185,7 @@ ms.locfileid: "97969772"
 
 ## <a name="step-4---create-and-publish-a-power-bi-report"></a>Шаг 4. Создание и публикация отчета Power BI
 
-Следующим шагом является создание отчета и его отправка в рабочую область. Можно [создать собственный отчет](/power-bi/fundamentals/desktop-getting-started#build-reports) с помощью Power BI Desktop, а затем [опубликовать](/powerbi-docs/fundamentals/desktop-getting-started#share-your-work) его в рабочей области. Можно также отправить пример отчета в рабочую область.
+Следующим шагом является создание отчета и его отправка в рабочую область. Можно [создать собственный отчет](../../fundamentals/desktop-getting-started.md#build-reports) с помощью Power BI Desktop, а затем [опубликовать](/powerbi-docs/fundamentals/desktop-getting-started#share-your-work) его в рабочей области. Можно также отправить пример отчета в рабочую область.
 
 >[!Tip]
 >Если у вас уже есть рабочая область с отчетом, этот шаг можно пропустить.

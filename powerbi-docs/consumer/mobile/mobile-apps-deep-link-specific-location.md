@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 11/16/2020
-ms.openlocfilehash: 1c2260fdc3df201a655e6641c351319e366eac6b
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 8c5b3c394d54df390d690d58b56e9084f9829733
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413134"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565651"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Создание ссылки на определенное расположение в мобильных приложениях Power BI
 Вы можете использовать ссылки для прямого доступа к конкретному содержимому Power BI, например к конкретному отчету, странице отчета, панели мониторинга, плитке и т. д.
@@ -193,7 +193,7 @@ https<nolink>://app.powerbi.com/Redirect? **[ПАРАМЕТРЫ ЗАПРОСА]*
 
 В мобильных приложениях Power BI ссылки внутри Power BI работают точно так же, как в службе Power BI.
 
-Если вы хотите добавить ссылку на отчет, указывающий на другой элемент Power BI, можно просто скопировать URL-адрес этого элемента из адресной строки браузера. См. дополнительные сведения о [добавлении гиперссылки в текстовое поле в отчете](https://docs.microsoft.com/power-bi/service-add-hyperlink-to-text-box).
+Если вы хотите добавить ссылку на отчет, указывающий на другой элемент Power BI, можно просто скопировать URL-адрес этого элемента из адресной строки браузера. См. дополнительные сведения о [добавлении гиперссылки в текстовое поле в отчете](../../create-reports/service-add-hyperlink-to-text-box.md).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 Ваши отзывы помогают нам решить, что следует добавить в следующие выпуски, поэтому не забудьте проголосовать за функции, которые хотели бы увидеть в мобильных приложениях Power BI. 
@@ -201,4 +201,4 @@ https<nolink>://app.powerbi.com/Redirect? **[ПАРАМЕТРЫ ЗАПРОСА]*
 * [Приложения Power BI для мобильных устройств](mobile-apps-for-mobile-devices.md)
 * Подпишитесь на страницу @MSPowerBI в Twitter
 * Присоединяйтесь к обсуждению в [сообществе Power BI](http://community.powerbi.com/).
-* [Что такое Power BI?](../../power-bi-overview.md)
+* [Что такое Power BI?](../../fundamentals/power-bi-overview.md)

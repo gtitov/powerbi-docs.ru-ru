@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 11/06/2020
 ms.custom: video-01UrT-z37sw
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2e3d7c276c90edde6ce6270a9deea07d185ecdcc
-ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
+ms.openlocfilehash: 43b2e9c33bf420c7446aa2eb198048101704a1ba
+ms.sourcegitcommit: 396633fc5f7cff1f7d518f558b20043b2e05a513
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "96999043"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "98191942"
 ---
 # <a name="create-smart-narrative-summaries-preview"></a>Создание сводок визуальных элементов с автоописанием (предварительная версия)
 
@@ -37,7 +37,7 @@ ms.locfileid: "96999043"
 
 
 ## <a name="get-started"></a>Начало работы 
-Посмотрите это видео об использовании визуальных элементов с автоописанием, а затем попробуйте проработать с ними самостоятельно, следуя приведенному ниже руководству.  Для работы с этим руководством скачайте [пример файла](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Monthly%20Desktop%20Blog%20Samples/2020/2020SU09%20Blog%20Demo%20-%20September.pbix) сценария продаж через Интернет.
+Посмотрите это видео об использовании визуальных элементов с автоописанием, а затем попробуйте проработать с ними самостоятельно, следуя приведенному ниже руководству.  Для работы с этим руководством скачайте [пример файла](https://github.com/microsoft/powerbi-desktop-samples/blob/main/Monthly%20Desktop%20Blog%20Samples/2020/2020SU09%20Blog%20Demo%20-%20September.pbix) сценария продаж через Интернет.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/01UrT-z37sw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

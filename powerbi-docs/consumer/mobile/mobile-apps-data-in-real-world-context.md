@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
-ms.openlocfilehash: b6564cafe087000fd0ce4409fac2cbfc78d0e8fa
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 5710f70dafbb01aca68cfc03107a1f1ededaf015
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413157"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565880"
 ---
 # <a name="get-data-from-the-real-world-with-the-power-bi-mobile-apps"></a>Получение данных из реального мира с помощью мобильных приложений Power BI
 Мобильные приложения Power BI могут связывать объекты физического мира непосредственно с соответствующей информацией BI несколькими способами. 
@@ -27,7 +27,7 @@ ms.locfileid: "96413157"
 
 * [Создание QR-кода для плитки в Power BI](../../create-reports/service-create-qr-code-for-tile.md)
 * [Сканирование QR-кода Power BI на мобильном устройстве](mobile-apps-qr-code.md)
-* [Сканирование QR-кода с помощью приложения Power BI для смешанной реальности](mobile-mixed-reality-app.md#scan-a-report-qr-code-in-holographic-view)
+* [Сканирование QR-кода с помощью приложения Power BI для смешанной реальности](./mobile-hololens2-app.md#open-reports-with-qr-codes)
 
 ## <a name="qr-codes-for-reports"></a>QR-коды для отчетов
 Вы можете создать QR-код для отчета.  Отсканировав его с помощью устройства iPhone (поддержка для телефонов с Android будет добавлена в ближайшем будущем), ваши коллеги смогут увидеть связанный с этим кодом отчет. 

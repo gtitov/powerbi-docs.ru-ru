@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 04/02/2019
-ms.openlocfilehash: c30b8f7ebe403e38fa59fa248aacc4b3086bf9ed
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: 624e0a2838a08d1cf68ae58223fe979a56312b48
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97885874"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565945"
 ---
 # <a name="register-an-azure-ad-application-to-use-with-power-bi"></a>Регистрация приложения Azure AD для использования с Power BI
 
@@ -247,7 +247,7 @@ ms.locfileid: "97885874"
 
 # <a name="c"></a>[C#](#tab/CSharp)
 
-Вы можете также изменить разрешения приложения Azure AD с помощью C#. Дополнительные сведения см. в разделе об API [oAuth2PermissionGrant](https://docs.microsoft.com/graph/api/oauth2permissiongrant-get). Этот метод может быть полезен, если вы собираетесь автоматизировать некоторые процессы.
+Вы можете также изменить разрешения приложения Azure AD с помощью C#. Дополнительные сведения см. в разделе об API [oAuth2PermissionGrant](/graph/api/oauth2permissiongrant-get). Этот метод может быть полезен, если вы собираетесь автоматизировать некоторые процессы.
 
 Дополнительные сведения об HTTP-запросах см. на [вкладке HTTP](register-app.md?tabs=customers%2CHTTP#change-your-azure-ad-apps-permissions).
 

@@ -9,12 +9,12 @@ ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 01/10/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fd4f984be74c0408eae5c476fa30994de55961a0
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 47a8ef221caadfabebc5da00793b7fff0b8687f8
+ms.sourcegitcommit: 396633fc5f7cff1f7d518f558b20043b2e05a513
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96386373"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "98191873"
 ---
 # <a name="create-and-view-decomposition-tree-visuals-in-power-bi"></a>Создание и просмотр визуальных элементов дерева декомпозиции в Power BI
 
@@ -32,7 +32,7 @@ ms.locfileid: "96386373"
 - сценарий продаж, который разбивает продажи видеоигр по множеству факторов, таких как жанр игры и издатель.
 
 PBIX-файл, используемый в сценарии цепочки поставок, можно найти здесь: [PBIX-файл примера цепочки поставок](
-https://github.com/microsoft/powerbi-desktop-samples/blob/master/Sample%20Reports/Supply%20Chain%20Sample.pbix).
+https://github.com/microsoft/powerbi-desktop-samples/blob/main/Sample%20Reports/Supply%20Chain%20Sample.pbix).
 
 > [!NOTE]
 > Для предоставления общего доступа к отчету Power BI и вам, и коллеге необходимо иметь отдельные лицензии Power BI Pro или сохранить отчет в емкости Премиум.    

@@ -9,12 +9,12 @@ ms.subservice: pbi-fundamentals
 ms.topic: conceptual
 ms.date: 04/14/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: aac8eac050a3c864833d16a12016a1cc0ae398b7
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: 262f6d4ba95828ed77f1a3161ac1a9fca46f99f3
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97888358"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565021"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Новые возможности службы Power BI
 На этой странице приводятся известные проблемы и описание новых функций **службы Power BI**. Соответствующие сведения о новых функциях и возможностях см. в следующей статье:
@@ -61,7 +61,7 @@ ms.locfileid: "97888358"
 ### <a name="october-2019"></a>Октябрь 2019 г.
 * Новое действие Power Automate для обновления наборов данных Power BI.
 * [Список контактов](https://powerbi.microsoft.com/blog/announcing-new-contact-lists-for-reports-and-dashboards-in-the-power-bi-service/) для отчетов и панелей мониторинга в службе Power BI.
-* Общая доступность [автоматизированного машинного обучения](../transform-model/service-machine-learning-automated.md)
+* Общая доступность [автоматизированного машинного обучения](../transform-model/dataflows/dataflows-machine-learning-integration.md)
 * Общедоступная предварительная версия представления происхождения данных в Power BI.
 
 ### <a name="september-2019"></a>Сентябрь 2019 г.

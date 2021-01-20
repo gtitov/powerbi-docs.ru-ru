@@ -9,12 +9,12 @@ ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 01/23/2020
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6168a1fb8d64444b703c6acac21c3bac67c4219a
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: a622da545d4fa9fca8b9478f6d5293d2b34296e9
+ms.sourcegitcommit: 396633fc5f7cff1f7d518f558b20043b2e05a513
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96396505"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "98191712"
 ---
 # <a name="use-performance-analyzer-to-examine-report-element-performance"></a>Проверка производительности элементов отчета с помощью Анализатора производительности
 
@@ -58,7 +58,7 @@ ms.locfileid: "96396505"
 * **Визуальное отображение** — время, необходимое для отрисовки визуального элемента на экране, включая время на получение веб-изображений или геокодирования. 
 * **Другие** — время, необходимое визуальному элементу для подготовки запросов, ожидания завершения отображения других визуальных элементов или выполнения других операций фоновой обработки.
 
-Значения **Длительность (мс)** показывают разницу между метками времени *начала* и *завершения* каждой операции. Большинство операций с холстом и визуальными элементами выполняются последовательно в одном потоке пользовательского интерфейса, который используется совместно несколькими операциями. В значение длительности включается время, потраченное в очереди, пока выполнялись другие операции. В [примере анализатора производительности](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Performance%20Analyzer) в GitHub и [документации](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Performance%20Analyzer/Power%20BI%20Performance%20Analyzer%20Export%20File%20Format.docx) по нему представлены подробные сведения о том, как визуальные элементы запрашивают данные и как они отрисовываются.
+Значения **Длительность (мс)** показывают разницу между метками времени *начала* и *завершения* каждой операции. Большинство операций с холстом и визуальными элементами выполняются последовательно в одном потоке пользовательского интерфейса, который используется совместно несколькими операциями. В значение длительности включается время, потраченное в очереди, пока выполнялись другие операции. В [примере анализатора производительности](https://github.com/microsoft/powerbi-desktop-samples/tree/main/Performance%20Analyzer) в GitHub и [документации](https://github.com/microsoft/powerbi-desktop-samples/blob/main/Performance%20Analyzer/Power%20BI%20Performance%20Analyzer%20Export%20File%20Format.docx) по нему представлены подробные сведения о том, как визуальные элементы запрашивают данные и как они отрисовываются.
 
 
 ![Элементы данных журнала](media/desktop-performance-analyzer/performance-analyzer-06.png)
@@ -94,5 +94,5 @@ ms.locfileid: "96396505"
 
 Сведения о примере анализатора производительности см. в следующих ресурсах.
 
-* [Пример анализатора производительности](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Performance%20Analyzer)
-* [Документация по примеру анализатора производительности](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Performance%20Analyzer/Power%20BI%20Performance%20Analyzer%20Export%20File%20Format.docx)
+* [Пример анализатора производительности](https://github.com/microsoft/powerbi-desktop-samples/tree/main/Performance%20Analyzer)
+* [Документация по примеру анализатора производительности](https://github.com/microsoft/powerbi-desktop-samples/blob/main/Performance%20Analyzer/Power%20BI%20Performance%20Analyzer%20Export%20File%20Format.docx)

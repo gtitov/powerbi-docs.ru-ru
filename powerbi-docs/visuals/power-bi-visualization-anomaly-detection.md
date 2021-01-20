@@ -9,12 +9,12 @@ ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 11/10/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: cd08d5e6196c1cd321efbe89ec0727d314eff4ce
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: fdd93e0839f9eb0dd99586fb5ddcd07000de0dd7
+ms.sourcegitcommit: 396633fc5f7cff1f7d518f558b20043b2e05a513
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96409868"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "98191919"
 ---
 # <a name="anomaly-detection-preview"></a>Обнаружение аномалий (предварительная версия)
 
@@ -27,7 +27,7 @@ ms.locfileid: "96409868"
 :::image type="content" source="media/power-bi-visualization-anomaly-detection//preview-feature-switch.png" alt-text="Снимок экрана: включение предварительной версии функции &quot;Обнаружение аномалий&quot;.":::
  
 ## <a name="get-started"></a>Начало работы
-В этом учебнике используются данные о продажах через Интернет различных товаров. Для работы с этим руководством скачайте [пример файла](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Monthly%20Desktop%20Blog%20Samples/2020/2020SU09%20Blog%20Demo%20-%20September.pbix) сценария продаж через Интернет.
+В этом учебнике используются данные о продажах через Интернет различных товаров. Для работы с этим руководством скачайте [пример файла](https://github.com/microsoft/powerbi-desktop-samples/blob/main/Monthly%20Desktop%20Blog%20Samples/2020/2020SU09%20Blog%20Demo%20-%20September.pbix) сценария продаж через Интернет.
 
 Обнаружение аномалий можно включить, нажав на диаграмму и добавив параметр "Найти аномалии" на панели аналитики. 
 

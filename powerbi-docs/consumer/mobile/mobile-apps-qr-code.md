@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/02/2019
-ms.openlocfilehash: ab6d8f208300350a613cc63dab948f42376b905e
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 96859efbaf86c8c6e9abf459500c38d49ee4f112
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96414560"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565503"
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>Сканирование QR-кода Power BI на мобильном устройстве
 Применяется к:
@@ -31,7 +31,7 @@ QR-коды в Power BI могут связывать любой предмет 
 Если ваши коллеги не предоставили вам доступ к отчету или панели мониторинга, запросить доступ можно непосредственно из мобильного приложения. 
 
 > [!NOTE]
-> Кроме того, можно [сосканировать QR-код отчета с помощью приложения Power BI для смешанной реальности](mobile-mixed-reality-app.md#scan-a-report-qr-code-in-holographic-view).
+> Кроме того, можно [сосканировать QR-код отчета с помощью приложения Power BI для смешанной реальности](./mobile-hololens2-app.md#open-reports-with-qr-codes).
 
 ## <a name="scan-a-power-bi-qr-code-on-your-iphone-with-the-power-bi-scanner"></a>Сканирование QR-кода Power BI на устройстве iPhone с помощью сканера Power BI
 
@@ -77,5 +77,5 @@ QR-коды в Power BI могут связывать любой предмет 
 * [Подключение к данным Power BI из реального мира](mobile-apps-data-in-real-world-context.md) с помощью мобильных приложений
 * [Создание QR-кода для плитки в службе Power BI](../../create-reports/service-create-qr-code-for-tile.md)
 * [Создание QR-кода для отчета в Power BI](../../create-reports/service-create-qr-code-for-report.md)
-* Кроме того, можно [сосканировать QR-код с помощью приложения Power BI для смешанной реальности](mobile-mixed-reality-app.md).
+* Кроме того, можно [сосканировать QR-код с помощью приложения Power BI для смешанной реальности](./mobile-hololens2-app.md).
 * У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

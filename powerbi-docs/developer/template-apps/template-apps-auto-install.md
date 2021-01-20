@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/23/2020
-ms.openlocfilehash: 33de464a1bb1389fadfbc7a85ded9365321e0a62
-ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
+ms.openlocfilehash: 0852fcb2c932680f6c20aeee94a89c68f473e46d
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97926311"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565738"
 ---
 # <a name="automated-configuration-of-a-template-app-installation"></a>Автоматическая настройка установки приложения-шаблона
 
@@ -42,7 +42,7 @@ ms.locfileid: "97926311"
 
 1. ISV получает маркер *только для приложения* на основе [субъекта-службы (маркера только для приложения)](../embedded/embed-service-principal.md), который зарегистрирован в клиенте ISV.
 
-1. С помощью [REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/) независимый поставщик программного обеспечения создает *билет установки*, который содержит конфигурацию параметров пользователя, подготовленную поставщиком программного обеспечения.
+1. С помощью [REST API Power BI](/rest/api/power-bi/) независимый поставщик программного обеспечения создает *билет установки*, который содержит конфигурацию параметров пользователя, подготовленную поставщиком программного обеспечения.
 
 1. ISV перенаправляет пользователя в Power BI с помощью метода перенаправления ```POST```, содержащего билет установки.
 
@@ -56,23 +56,23 @@ ms.locfileid: "97926311"
 Чтобы обеспечить установку приложения-шаблона в полностью автоматическом режиме, требуются следующие необходимые компоненты.
 
 * Лицензия Power BI Pro. Если вы не зарегистрированы в Power BI Pro, [зарегистрируйтесь для получения бесплатной пробной версии](https://powerbi.microsoft.com/pricing/), прежде чем начать.
-* Настроенный клиент Azure Active Directory (Azure AD). Инструкции по настройке см. в разделе [Создание клиента Azure AD](https://docs.microsoft.com/power-bi/developer/embedded/create-an-azure-active-directory-tenant).
-* **Субъект-служба (маркер только для приложения)** , зарегистрированная в указанном выше клиенте. Подробнее см. в статье [Внедрение содержимого Power BI с помощью субъект-службы и секрета приложения](https://docs.microsoft.com/power-bi/developer/embedded/embed-service-principal). Обязательно зарегистрируйте приложение в качестве **серверного веб-приложения**. чтобы создать секрет приложения. В этом процессе необходимо сохранить *идентификатор приложения* (идентификатор клиента) и *секрет приложения* (секрет клиента) для последующих шагов.
-* Параметризованное **приложение-шаблон**, готовое к установке. Приложение-шаблон должно быть создано в том же клиенте, в котором вы регистрируете приложение в Azure AD. Дополнительные сведения см. в [советах по работе с приложениями-шаблонами](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-tips) или в статье [Создание приложений-шаблонов в Power BI](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-create). В приложении-шаблоне необходимо отметить следующие сведения для следующих шагов.
+* Настроенный клиент Azure Active Directory (Azure AD). Инструкции по настройке см. в разделе [Создание клиента Azure AD](../embedded/create-an-azure-active-directory-tenant.md).
+* **Субъект-служба (маркер только для приложения)** , зарегистрированная в указанном выше клиенте. Подробнее см. в статье [Внедрение содержимого Power BI с помощью субъект-службы и секрета приложения](../embedded/embed-service-principal.md). Обязательно зарегистрируйте приложение в качестве **серверного веб-приложения**. чтобы создать секрет приложения. В этом процессе необходимо сохранить *идентификатор приложения* (идентификатор клиента) и *секрет приложения* (секрет клиента) для последующих шагов.
+* Параметризованное **приложение-шаблон**, готовое к установке. Приложение-шаблон должно быть создано в том же клиенте, в котором вы регистрируете приложение в Azure AD. Дополнительные сведения см. в [советах по работе с приложениями-шаблонами](../../connect-data/service-template-apps-tips.md) или в статье [Создание приложений-шаблонов в Power BI](../../connect-data/service-template-apps-create.md). В приложении-шаблоне необходимо отметить следующие сведения для следующих шагов.
      * *Идентификатор приложения*, *ключ пакета* и *идентификатор владельца*, поскольку они отображаются в URL-адресе установки в конце процесса [Определение свойств приложения-шаблона](../../connect-data/service-template-apps-create.md#define-the-properties-of-the-template-app) при создании приложения. Вы также можете получить эту же ссылку, щелкнув **Получить ссылку** в разделе [Управление выпусками](../../connect-data/service-template-apps-create.md#manage-the-template-app-release) приложения-шаблона.
     * *Имена параметров*, как они определены в наборе данных приложения-шаблона. В именах параметров используются строки, учитывающие регистр. Их также можно получить на вкладке **Настройки параметров** при [определении свойств приложения-шаблона](../../connect-data/service-template-apps-create.md#define-the-properties-of-the-template-app) или из параметров набора данных в Power BI.
 
     >[!NOTE]
-    >Вы можете протестировать предварительно настроенное приложение в приложении-шаблоне, если последнее готово к установке, даже если оно еще не открыто в AppSource. Чтобы пользователи за пределами клиента могли использовать приложение с автоматической установкой для установки приложения-шаблона, последний должен быть общедоступным в [Marketplace для приложений Power BI](https://app.powerbi.com/getdata/services). Перед распространением приложения-шаблона с помощью создаваемого приложения с автоматической установкой обязательно опубликуйте его в [центре партнеров](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer).
+    >Вы можете протестировать предварительно настроенное приложение в приложении-шаблоне, если последнее готово к установке, даже если оно еще не открыто в AppSource. Чтобы пользователи за пределами клиента могли использовать приложение с автоматической установкой для установки приложения-шаблона, последний должен быть общедоступным в [Marketplace для приложений Power BI](https://app.powerbi.com/getdata/services). Перед распространением приложения-шаблона с помощью создаваемого приложения с автоматической установкой обязательно опубликуйте его в [центре партнеров](/azure/marketplace/partner-center-portal/create-power-bi-app-offer).
 
 ## <a name="main-steps-and-apis"></a>Основные шаги и API
 
-Основные шаги по автоматизации настройки установки приложения-шаблона и необходимые API описаны в последующих разделах. Несмотря на то что большинство действий выполняются с помощью [REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/), приведенные ниже примеры кода выполняются с помощью пакета SDK для .NET.
+Основные шаги по автоматизации настройки установки приложения-шаблона и необходимые API описаны в последующих разделах. Несмотря на то что большинство действий выполняются с помощью [REST API Power BI](/rest/api/power-bi/), приведенные ниже примеры кода выполняются с помощью пакета SDK для .NET.
 
 ## <a name="step-1-create-a-power-bi-client-object"></a>Шаг 1. Создание клиентского объекта Power BI
 
-Для использования REST API Power BI необходимо получить *маркер доступа* для [субъекта-службы](../embedded/embed-service-principal.md) от Azure AD. [Маркер доступа Azure AD](../embedded/get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data) для приложения Power BI необходимо получить, прежде чем выполнять вызовы [REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/).
-Для создания клиента Power BI с помощью маркера доступа потребуется создать объект клиента Power BI, что позволит работать с интерфейсами [REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/). Для создания объекта клиента Power BI маркер **AccessToken** упаковывается в объект **Microsoft.Rest.TokenCredentials**.
+Для использования REST API Power BI необходимо получить *маркер доступа* для [субъекта-службы](../embedded/embed-service-principal.md) от Azure AD. [Маркер доступа Azure AD](../embedded/get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data) для приложения Power BI необходимо получить, прежде чем выполнять вызовы [REST API Power BI](/rest/api/power-bi/).
+Для создания клиента Power BI с помощью маркера доступа потребуется создать объект клиента Power BI, что позволит работать с интерфейсами [REST API Power BI](/rest/api/power-bi/). Для создания объекта клиента Power BI маркер **AccessToken** упаковывается в объект **Microsoft.Rest.TokenCredentials**.
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -91,7 +91,7 @@ using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 ## <a name="step-2-create-an-install-ticket"></a>Шаг 2. Создание билета установки
 
 Создайте билет установки, который будет использоваться для перенаправления пользователей в Power BI. API, используемый для этой операции, — это API-интерфейс **CreateInstallTicket**.
-* [Приложения-шаблоны CreateInstallTicket](https://docs.microsoft.com/rest/api/power-bi/templateapps/createinstallticket)
+* [Приложения-шаблоны CreateInstallTicket](/rest/api/power-bi/templateapps/createinstallticket)
 
 Пример создания билета установки для установки и настройки приложения-шаблона см. в файле [InstallTemplateApp/InstallAppFunction.cs](https://github.com/microsoft/Template-apps-examples/blob/master/Developer%20Samples/Automated%20Install%20Azure%20Function/InstallTemplateAppSample/InstallTemplateApp/InstallAppFunction.cs) в [примере приложения](https://github.com/microsoft/Template-apps-examples/tree/master/Developer%20Samples/Automated%20Install%20Azure%20Function/InstallTemplateAppSample).
 

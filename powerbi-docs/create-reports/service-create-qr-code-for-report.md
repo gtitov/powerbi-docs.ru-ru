@@ -9,19 +9,19 @@ ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 03/13/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: 7d163519162c6e7ab2cd1a13b10320d5c66796a8
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 6322876bec350ca3d7c3fde4586387d640423f07
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96395286"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565526"
 ---
 # <a name="create-a-qr-code-for-a-report-in-power-bi-to-use-in-the-mobile-apps"></a>Создание QR-кода для отчета в Power BI для использования в мобильных приложениях
 QR-коды в Power BI могут связывать любой физический предмет с соответствующей информацией BI &#151; навигация или поиск не требуются.
 
 QR-код можно создавать в службе Power BI для любого отчета, даже для недоступного для редактирования. Созданный QR-код необходимо поместить в ключевое расположение. Например, его можно вставить в сообщение электронной почты либо распечатать и вставить в определенное место. 
 
-Коллеги, которым вы предоставили доступ к отчету, могут просканировать QR-код и получить доступ к отчету прямо [с мобильного устройства](../consumer/mobile/mobile-apps-qr-code.md). Для этого можно использовать сканер QR-кодов в приложении Power BI или любой другой установленный на устройстве QR-сканер. Кроме того, можно [сосканировать QR-код отчета с помощью приложения Power BI для смешанной реальности](../consumer/mobile/mobile-mixed-reality-app.md#scan-a-report-qr-code-in-holographic-view).
+Коллеги, которым вы предоставили доступ к отчету, могут просканировать QR-код и получить доступ к отчету прямо [с мобильного устройства](../consumer/mobile/mobile-apps-qr-code.md). Для этого можно использовать сканер QR-кодов в приложении Power BI или любой другой установленный на устройстве QR-сканер. Кроме того, можно [сосканировать QR-код отчета с помощью приложения Power BI для смешанной реальности](../consumer/mobile/mobile-hololens2-app.md#open-reports-with-qr-codes).
 
 ## <a name="create-a-qr-code-for-a-report"></a>Создание QR-кода для отчета
 1. Откройте отчет в службе Power BI.

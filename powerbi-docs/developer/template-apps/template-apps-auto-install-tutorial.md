@@ -7,12 +7,12 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/23/2020
-ms.openlocfilehash: 1bf62e99d666c05af8efc05ecbc496d69c586ae6
-ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
+ms.openlocfilehash: a44bd7837e7605fd23e49a91e3e9eba106d5a933
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97927117"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565773"
 ---
 # <a name="tutorial-automate-configuration-of-template-app-installation-using-an-azure-function"></a>Руководство. Автоматизация настройки установки приложения-шаблона с помощью функции Azure
 
@@ -38,7 +38,7 @@ ms.locfileid: "97927117"
 
 Дополнительные сведения об общем процессе автоматизации и используемых приложением API см. в разделе [Автоматизация настройки установки приложения-шаблона.](template-apps-auto-install.md)
 
-В нашем простом приложении используется функция Azure. Дополнительные сведения о функциях Azure см. в [документации по функциям Azure](https://docs.microsoft.com/azure/azure-functions/).
+В нашем простом приложении используется функция Azure. Дополнительные сведения о функциях Azure см. в [документации по функциям Azure](/azure/azure-functions/).
 
 ## <a name="basic-flow"></a>Базовый поток действий
 
@@ -48,7 +48,7 @@ ms.locfileid: "97927117"
 
 1. ISV получает маркер *только для приложения* на основе [субъекта-службы (маркера только для приложения)](../embedded/embed-service-principal.md), который зарегистрирован в клиенте ISV.
 
-1. С помощью [REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/) независимый поставщик программного обеспечения создает *билет установки*, который содержит конфигурацию параметров пользователя, подготовленную поставщиком программного обеспечения.
+1. С помощью [REST API Power BI](/rest/api/power-bi/) независимый поставщик программного обеспечения создает *билет установки*, который содержит конфигурацию параметров пользователя, подготовленную поставщиком программного обеспечения.
 
 1. ISV перенаправляет пользователя в Power BI с помощью метода перенаправления ```POST```, содержащего билет установки.
 
@@ -59,18 +59,18 @@ ms.locfileid: "97927117"
 
 ## <a name="prerequisites"></a>Предварительные требования
 
-* Настроенный клиент Azure Active Directory (Azure AD). Инструкции по настройке см. в разделе [Создание клиента Azure AD](https://docs.microsoft.com/power-bi/developer/embedded/create-an-azure-active-directory-tenant).
-* [Субъект-служба (маркер только для приложения)](https://docs.microsoft.com/power-bi/developer/embedded/embed-service-principal), зарегистрированная в указанном выше клиенте.
-* Параметризованное [приложение-шаблон](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-overview), готовое к установке. Приложение-шаблон должно быть создано в том же клиенте, в котором вы регистрируете приложение в Azure AD. Дополнительные сведения см. в [советах по работе с приложениями-шаблонами](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-tips.md) или в статье [Создание приложений-шаблонов в Power BI](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-create).
+* Настроенный клиент Azure Active Directory (Azure AD). Инструкции по настройке см. в разделе [Создание клиента Azure AD](../embedded/create-an-azure-active-directory-tenant.md).
+* [Субъект-служба (маркер только для приложения)](../embedded/embed-service-principal.md), зарегистрированная в указанном выше клиенте.
+* Параметризованное [приложение-шаблон](../../connect-data/service-template-apps-overview.md), готовое к установке. Приложение-шаблон должно быть создано в том же клиенте, в котором вы регистрируете приложение в Azure AD. Дополнительные сведения см. в [советах по работе с приложениями-шаблонами](../../connect-data/service-template-apps-tips.md) или в статье [Создание приложений-шаблонов в Power BI](../../connect-data/service-template-apps-create.md).
 * Лицензия Power BI Pro. Если вы не зарегистрированы в Power BI Pro, [зарегистрируйтесь для получения бесплатной пробной версии](https://powerbi.microsoft.com/pricing/), прежде чем начать.
 
 ## <a name="set-up-your-template-apps-automation-development-environment"></a>Настройка среды разработки для автоматизации приложения-шаблона
 
-Прежде чем продолжить настройку приложения, следуйте инструкциям в разделе [Краткое руководство. Создание приложения Функций Azure с помощью Конфигурации приложений Azure](https://docs.microsoft.com/azure/azure-app-configuration/quickstart-azure-functions-csharp) для того, чтобы разработать функцию Azure вместе с Конфигурацией приложения Azure. Создайте конфигурацию приложения, как описано в статье.
+Прежде чем продолжить настройку приложения, следуйте инструкциям в разделе [Краткое руководство. Создание приложения Функций Azure с помощью Конфигурации приложений Azure](/azure/azure-app-configuration/quickstart-azure-functions-csharp) для того, чтобы разработать функцию Azure вместе с Конфигурацией приложения Azure. Создайте конфигурацию приложения, как описано в статье.
 
 ### <a name="register-an-application-in-azure-ad"></a>Регистрация приложение в Azure AD
 
-Создайте субъект-службу, как описано в разделе [Внедрение содержимого Power BI с помощью субъект-службы и секрета приложения](https://docs.microsoft.com/power-bi/developer/embedded/embed-service-principal).
+Создайте субъект-службу, как описано в разделе [Внедрение содержимого Power BI с помощью субъект-службы и секрета приложения](../embedded/embed-service-principal.md).
 
 Обязательно зарегистрируйте приложение в качестве **серверного веб-приложения**. чтобы создать секрет приложения.
 
@@ -89,12 +89,12 @@ ms.locfileid: "97927117"
 * *Имена параметров*, как они определены в наборе данных приложения-шаблона. В именах параметров используются строки, учитывающие регистр. Их также можно получить на вкладке **Настройки параметров** при [определении свойств приложения-шаблона](../../connect-data/service-template-apps-create.md#define-the-properties-of-the-template-app) или из параметров набора данных в Power BI.
 
 >[!NOTE]
->Вы можете протестировать предварительно настроенное приложение в приложении-шаблоне, если последнее готово к установке, даже если оно еще не открыто в AppSource. Чтобы пользователи за пределами клиента могли использовать приложение с автоматической установкой для установки приложения-шаблона, последний должен быть общедоступным в [Marketplace для приложений Power BI](https://app.powerbi.com/getdata/services). Перед распространением приложения-шаблона с помощью создаваемого приложения с автоматической установкой обязательно опубликуйте его в [центре партнеров](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer).
+>Вы можете протестировать предварительно настроенное приложение в приложении-шаблоне, если последнее готово к установке, даже если оно еще не открыто в AppSource. Чтобы пользователи за пределами клиента могли использовать приложение с автоматической установкой для установки приложения-шаблона, последний должен быть общедоступным в [Marketplace для приложений Power BI](https://app.powerbi.com/getdata/services). Перед распространением приложения-шаблона с помощью создаваемого приложения с автоматической установкой обязательно опубликуйте его в [центре партнеров](/azure/marketplace/partner-center-portal/create-power-bi-app-offer).
 
 
 ## <a name="install-and-configure-your-template-app"></a>Установка и настройка приложения-шаблона
 
-В этом разделе будет использоваться пример функции автоматической установки Azure, созданный для предварительной настройки и установки приложения-шаблона. Этот пример намеренно упрощен в целях наглядности. Она позволяет использовать [функции Azure](https://docs.microsoft.com/azure/azure-functions/functions-overview) и [Конфигурацию приложений Azure](https://docs.microsoft.com/azure/azure-app-configuration/overview) для быстрого развертывания и простого использования API автоматической установки приложений-шаблонов.
+В этом разделе будет использоваться пример функции автоматической установки Azure, созданный для предварительной настройки и установки приложения-шаблона. Этот пример намеренно упрощен в целях наглядности. Она позволяет использовать [функции Azure](/azure/azure-functions/functions-overview) и [Конфигурацию приложений Azure](/azure/azure-app-configuration/overview) для быстрого развертывания и простого использования API автоматической установки приложений-шаблонов.
 
 ### <a name="download-visual-studio-version-2017-or-later"></a>Скачайте [Visual Studio](https://www.visualstudio.com/) (версии 2017 или более поздней).
 
@@ -200,7 +200,7 @@ ms.locfileid: "97927117"
 
 ## <a name="test-your-function-locally"></a>Локальное тестирование функции
 
-Выполните действия, описанные в разделе [Запуск функции локально](https://docs.microsoft.com/azure/azure-functions/functions-create-your-first-function-visual-studio#run-the-function-locally) для запуска функции.
+Выполните действия, описанные в разделе [Запуск функции локально](/azure/azure-functions/functions-create-your-first-function-visual-studio#run-the-function-locally) для запуска функции.
 
 Настройте портал на выдачу запроса ```POST``` по URL-адресу функции. Например, ```POST http://localhost:7071/api/install```. Текст запроса должен быть объектом JSON, описывающим пары "ключ-значение". Ключи — это *имена параметров*, как указано в Power BI Desktop. Значения — это требуемые значения для каждого параметра в приложении-шаблоне.
 
@@ -218,4 +218,4 @@ ms.locfileid: "97927117"
 
 ### <a name="publish-your-project-to-azure"></a>Публикация проекта в Azure
 
-Чтобы опубликовать проект в Azure, следуйте инструкциям в [документации по Функциям Azure](https://docs.microsoft.com/azure/azure-functions/functions-create-your-first-function-visual-studio#publish-the-project-to-azure). Затем можно интегрировать интерфейсы API автоматической установки приложения-шаблона в продукт и начать тестирование в рабочих средах.
+Чтобы опубликовать проект в Azure, следуйте инструкциям в [документации по Функциям Azure](/azure/azure-functions/functions-create-your-first-function-visual-studio#publish-the-project-to-azure). Затем можно интегрировать интерфейсы API автоматической установки приложения-шаблона в продукт и начать тестирование в рабочих средах.
