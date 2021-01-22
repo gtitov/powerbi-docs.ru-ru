@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 09/04/2020
+ms.date: 01/12/2021
 ms.custom: contperf-fy21q1, contperf-fy20q4
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2c15c6afbf1a84ab5e8103a8d73792705418d2e6
-ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
+ms.openlocfilehash: b849921b0ec9c5bbad46394343d266179ba547b8
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97621724"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98227291"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>Создание новых рабочих областей в Power BI
 
@@ -24,7 +24,8 @@ ms.locfileid: "97621724"
 Готовы перенести классическую рабочую область? Дополнительные сведения см. в статье [Обновление классических рабочих областей до новых рабочих областей в Power BI](service-upgrade-workspaces.md).
 
 > [!NOTE]
-> Чтобы включить безопасность на уровне строк (RLS) для пользователей Power BI Pro, просматривающих содержимое в рабочей области, назначьте им роль зрителя. См. объяснение разных ролей в разделе [Роли в новых рабочих областях](service-new-workspaces.md#roles-in-the-new-workspaces).
+> Ищете материалы о создании пакетов содержимого? Пакеты содержимого устарели, их использовать не рекомендуется. Сейчас самое время обновить пакеты содержимого до приложений. См. раздел с планом обновления рабочей области в записи блога о том, что [администраторы Power BI могут обновлять классические рабочие области](https://powerbi.microsoft.com/blog/announcing-power-bi-admins-can-upgrade-classic-workspaces-and-roadmap-update/).
+> 
 
 ## <a name="create-one-of-the-new-workspaces"></a>Создание новой рабочей области
 
@@ -59,6 +60,9 @@ ms.locfileid: "97621724"
 ## <a name="give-access-to-your-workspace"></a>Предоставление доступа к вашей рабочей области
 
 Любой пользователь, имеющий роль администратора в рабочей области, может предоставить доступ к ней другим пользователям, добавив им различные роли. Авторы рабочих областей автоматически являются администраторами. Объяснение ролей см. в разделе [Роли в новых рабочих областях](service-new-workspaces.md#roles-in-the-new-workspaces).
+
+> [!NOTE]
+> Чтобы включить безопасность на уровне строк (RLS) для пользователей Power BI Pro, просматривающих содержимое в рабочей области, назначьте им роль зрителя. См. объяснение разных ролей в разделе [Роли в новых рабочих областях](service-new-workspaces.md#roles-in-the-new-workspaces).
 
 1. Так как вы являетесь администратором, на странице со списком содержимого рабочей области вы видите действие **Доступ**.
 

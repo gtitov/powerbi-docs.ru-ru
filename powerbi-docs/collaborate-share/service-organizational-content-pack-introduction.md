@@ -7,18 +7,19 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 10/23/2019
+ms.date: 01/12/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: bd7fdea827d0fbaf4c56f373ea028a8fffdc3123
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 038a0c57fe5994b2b15b64dfe67f3eda77ef86f2
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411708"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98227107"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Знакомство с пакетами содержимого организации в Power BI
+
 > [!NOTE]
-> Нельзя создавать пакеты содержимого организации или устанавливать их в новом интерфейсе рабочей области. Сейчас самое время обновить пакеты содержимого для приложений, если вы еще этого не сделали. Узнайте [больше о новом интерфейсе рабочей области](service-create-the-new-workspaces.md).
+> Пакеты содержимого организации использовать не рекомендуется. Сейчас самое время обновить пакеты содержимого для приложений, если вы еще этого не сделали. См. раздел с планом обновления рабочей области в записи блога о том, что [администраторы Power BI могут обновлять классические рабочие области](https://powerbi.microsoft.com/blog/announcing-power-bi-admins-can-upgrade-classic-workspaces-and-roadmap-update/).
 > 
 
 Вам требуется регулярно рассылать отчеты членам группы по электронной почте? Попробуйте использовать такой подход. Упаковывайте свои панели мониторинга, отчеты, книги Excel и наборы данных и опубликуйте их для своей группы в виде *пакета содержимого организации*. Ваша группа может легко найти созданные пакеты содержимого: все они содержатся в AppSource. Являясь частью Power BI, они используют все функции Power BI, включая интерактивный просмотр данных, новые визуальные элементы, вопросы и ответы, интеграцию с другими источниками данных, обновление данных и многое другое.

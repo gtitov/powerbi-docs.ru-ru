@@ -7,25 +7,26 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 08/06/2019
+ms.date: 01/12/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0a72582a54903c97dd9594f6a4a1c5980aea8e16
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: b0b57967ed86c25f51c08a94e4c252c250e85304
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411731"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98227199"
 ---
 # <a name="tutorial-create-and-publish-a-power-bi-organizational-content-pack"></a>Руководство. Создание и публикация пакета содержимого организации в Power BI
+
+> [!NOTE]
+> Пакеты содержимого организации использовать не рекомендуется. Сейчас самое время обновить пакеты содержимого для приложений, если вы еще этого не сделали. См. раздел с планом обновления рабочей области в записи блога о том, что [администраторы Power BI могут обновлять классические рабочие области](https://powerbi.microsoft.com/blog/announcing-power-bi-admins-can-upgrade-classic-workspaces-and-roadmap-update/).
+> 
 
 В этом руководстве вы создадите пакет содержимого организации, предоставите доступ к нему определенной группе и опубликуете его в библиотеке пакетов содержимого своей организации в Power BI.
 
 Создание пакетов содержимого отличается от предоставления общего доступа к информационным панелям и от совместной работы над ними в группе. Чтобы определить наилучшее решение в вашей ситуации, ознакомьтесь со статьей [Способы совместного использования работы в Power BI](service-how-to-collaborate-distribute-dashboards-reports.md).
 
 Создание пакета контента организации требует, чтобы у вас и ваших коллег была [учетная запись Power BI Pro](https://powerbi.microsoft.com/pricing).
-
-> [!NOTE]
-> Нельзя создавать или устанавливать пакеты содержимого организации в новом интерфейсе рабочей области. Сейчас самое время обновить пакеты содержимого для приложений, если вы еще этого не сделали. Узнайте [больше о новом интерфейсе рабочей области](service-create-the-new-workspaces.md).
 
 ## <a name="create-and-publish-a-content-pack"></a>Создание и публикация пакета содержимого
 

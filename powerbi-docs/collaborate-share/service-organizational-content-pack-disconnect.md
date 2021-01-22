@@ -7,19 +7,19 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 08/02/2018
+ms.date: 01/12/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5cd1ebd1502241cf07e7de8cff5f0eb769a1b59f
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e95634f8bf41d8e969612b247645577bfef5ef32
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96406418"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98227084"
 ---
 # <a name="remove-your-connection-to-a-power-bi-organizational-content-pack"></a>Удаление подключения к пакету содержимого организации в Power BI
 
 > [!NOTE]
-> Нельзя создавать пакеты содержимого организации или устанавливать их в новом интерфейсе рабочей области. Сейчас самое время обновить пакеты содержимого для приложений, если вы еще этого не сделали. Узнайте [больше о новом интерфейсе рабочей области](service-create-the-new-workspaces.md).
+> Пакеты содержимого организации использовать не рекомендуется. Сейчас самое время обновить пакеты содержимого для приложений, если вы еще этого не сделали. См. раздел с планом обновления рабочей области в записи блога о том, что [администраторы Power BI могут обновлять классические рабочие области](https://powerbi.microsoft.com/blog/announcing-power-bi-admins-can-upgrade-classic-workspaces-and-roadmap-update/).
 > 
 
 Ваш коллега создал содержимое пакета, а вы нашли его в AppSource и добавили в рабочую область Power BI. Однако он вам больше не нужен.  Как его удалить?

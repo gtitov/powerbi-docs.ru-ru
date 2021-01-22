@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.date: 07/06/2020
+ms.date: 01/19/2021
 LocalizationGroup: Create reports
-ms.openlocfilehash: cadb8d45af40c91e7008e771f2a52ef2ea508341
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: abed7e9f6da352d5461868e6371ffefb814eb3ff
+ms.sourcegitcommit: 96080432af4c8e3fe46c23274478ccffa0970efb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96393469"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98597636"
 ---
 # <a name="add-multiple-fields-to-a-hierarchy-slicer"></a>Добавление нескольких полей в иерархический срез
 
@@ -76,6 +76,11 @@ ms.locfileid: "96393469"
 1. Разверните пункт **Элементы**, а затем увеличьте или уменьшите значение параметра **Макет с пошаговым отступом**. Кроме того, вы можете просто ввести цифру в поле.
 
     :::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-indentation.png" alt-text="Снимок экрана с заданием отступа для иерархического среза.":::
+    
+## <a name="limitations-and-considerations"></a>Рекомендации и ограничения
+
+- Для использования этой возможности в табличных моделях требуется SQL Server Analysis Services 2017 или более поздней версии.
+- Для использования этой возможности в многомерных моделях требуется SQL Server Analysis Services 2019 с накопительным обновлением 5 или более поздней версии с включенным SuperDAXMD. См. дополнительные сведения о [SuperDAXMD](/analysis-services/multidimensional-models/dax-for-multidimensional-models#superdaxmd).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

@@ -8,14 +8,14 @@ ms.custom: contperf-fy20q4
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 09/17/2020
+ms.date: 01/12/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3d32851c5ff0722f59caa5536b67fb1c3267907b
-ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
+ms.openlocfilehash: df0591e7ae934ffa945e0e780b2764c7170358f1
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97622069"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98227038"
 ---
 # <a name="export-reports-to-powerpoint"></a>Экспорт отчетов в PowerPoint
 
@@ -105,7 +105,8 @@ ms.locfileid: "97622069"
 
 * Некоторые отчеты невозможно экспортировать. К ним относятся следующие объекты.
     - Если вы совместно используете панель мониторинга с кем-либо не из вашей организации (то есть этот пользователь находится вне клиента Power BI), этот пользователь не сможет экспортировать отчеты, связанные с общей панелью мониторинга, в PowerPoint. Например, если вы aaron@contoso.com, вы сможете предоставить общий доступ david@cohowinery.com. Но david@cohowinery.com не может экспортировать связанные отчеты в PowerPoint.
-    - Отчеты, содержащие более 50 страниц. Будут экспортированы только первые 50 страниц.
+    - Отчеты, содержащие более 50 страниц.
+    - Экспортируемые отчеты размером более 500 МБ. 
     - Отчеты, экспортируемые в более старые версии PowerPoint.
     - Отчеты, обработка которых занимает больше часа. 
     - Страницы отчета, загрузка которых занимает больше 6 минут. 

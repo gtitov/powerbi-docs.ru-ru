@@ -9,12 +9,12 @@ ms.subservice: pbi-data-sources
 ms.topic: troubleshooting
 ms.date: 11/14/2020
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 62b3c9bb10cb47df0d21eb05e381c5c4784b3106
-ms.sourcegitcommit: b472236df99b490db30f0168bd7284ae6e6095fb
+ms.openlocfilehash: c41f8f9b23ef57d5dd6fd4b851918b7ffa5904a0
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "97600238"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98226946"
 ---
 # <a name="troubleshoot-opening-power-bi-desktop"></a>Устранение неполадок с открытием Power BI Desktop
 
@@ -58,7 +58,7 @@ ms.locfileid: "97600238"
 
 Часто проблему можно устранить, если открыть Power BI Desktop от имени администратора, прежде чем устанавливать подключение SQL Server.
 
-После открытия Power BI Desktop от имени администратора и установки подключения необходимые библиотеки DLL регистрируются правильно. После этого открытие приложения Power BI Desktop от имени администратора не требуется.
+После открытия Power BI Desktop от имени администратора и установки подключения необходимые библиотеки DLL регистрируются правильно. После этого открытие приложения Power BI Desktop от имени администратора не требуется. При подключении к SQL Server с использованием альтернативных учетных данных Windows вам каждый раз потребуется открывать Power BI Desktop от имени администратора.
 
 ## <a name="get-help-with-other-launch-issues"></a>Получение справки по другим проблемам при запуске
 

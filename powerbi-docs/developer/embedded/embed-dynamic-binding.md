@@ -1,18 +1,18 @@
 ---
-title: Подключение отчета к набору данных с помощью динамической привязки для встроенной бизнес-аналитики во встроенной аналитике Power BI
-description: Узнайте, как внедрить отчет с помощью динамической привязки во встроенной аналитике Power BI, создав более эффективную бизнес-аналитику для своих клиентов.
+title: Подключение отчета Power BI к набору данных с помощью динамической привязки
+description: Сведения о подключении отчета Power BI к набору данных с помощью динамической привязки во встроенной аналитике Power BI.
 author: KesemSharabi
 ms.author: kesharab
-ms.topic: how-to
+ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.date: 11/07/2019
-ms.openlocfilehash: aacae4dbfae30d72468419a717340c806c6c4bca
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.date: 01/17/2021
+ms.openlocfilehash: 0bc33ed37e389b42f5c27f8271cc461eb99e229a
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97888910"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565823"
 ---
 # <a name="connect-a-report-to-a-dataset-using-dynamic-binding"></a>Подключение отчета к набору данных с помощью динамической привязки 
 
@@ -36,33 +36,15 @@ ms.locfileid: "97888910"
 |*Внедрение для клиентов*     |Данные приложения         |Маркер доступа для пользователей, не работающих с Power BI         |Должен включать разрешения как для отчета, так и для динамически привязанного набора данных. Используйте [API для создания токена внедрения для нескольких элементов](/rest/api/power-bi/embedtoken/generatetoken), чтобы создать токен внедрения, поддерживающий несколько артефактов.         |
 
 ## <a name="adjusting-the-config-object"></a>Настройка объекта конфигурации
-Добавьте `datasetBinding` к объекту конфигурации. Используйте приведенный ниже пример в качестве справки.
 
-```javascript
-var config = {
-    type: 'report',
-    tokenType: models.TokenType.Embed,
-    accessToken: accessToken,
-    embedUrl: embedUrl,
-    id: "reportId", // The wanted report id
-    permissions: permissions,
-
-    // -----  Adjustment required for dynamic binding ---- //
-    datasetBinding: {
-        datasetId: "notOriginalDatasetId",  // </The wanted dataset id
-    }
-    // ---- End of dynamic binding adjustment ---- //
-};
-
-// Get a reference to the embedded report HTML element
-var embedContainer = $('#embedContainer')[0];
-
-// Embed the report and display it within the div container
-var report = powerbi.embed(embedContainer, config);
-```
+Чтобы обеспечить функционирование динамической привязки, необходимо добавить `datasetBinding` в объект конфигурации. Сведения о том, как это сделать, см. в статье о [динамической привязке наборов данных к отчету](/javascript/api/overview/powerbi/bind-report-datasets). 
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-Если вы еще не знакомы с принципами внедрения содержимого в Power BI, обратитесь к представленным ниже руководствам:
-* [Руководство. Внедрение содержимого Power BI в приложение для клиентов](embed-sample-for-customers.md)
-* [Руководство. Внедрение содержимого Power BI в приложение для организации](embed-sample-for-your-organization.md)
+Если вы еще не знакомы с принципами внедрения содержимого в Power BI, обратитесь к представленным ниже руководствам.
+
+>[!div class="nextstepaction"]
+>[Внедрение содержимого Power BI в приложение для клиентов](embed-sample-for-customers.md)
+
+>[!div class="nextstepaction"]
+>[Внедрение содержимого Power BI в приложение для организации](embed-sample-for-your-organization.md)

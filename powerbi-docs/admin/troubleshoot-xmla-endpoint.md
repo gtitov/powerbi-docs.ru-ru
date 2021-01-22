@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: troubleshooting
-ms.date: 01/11/2021
+ms.date: 01/13/2021
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: 16a07065507abfe825c39677f234d626070827b4
-ms.sourcegitcommit: c86ce723d5db16fb960d1731795d84f4654e4b4e
+ms.openlocfilehash: 0753a9c3d5b832275f65ac11b87f90c38606f289
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "98110735"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98226992"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>Устранение неполадок с подключением конечных точек XMLA
 
@@ -217,6 +217,10 @@ Error returned: ‘Metadata change of current operation cannot be resolved, plea
 ## <a name="workspaceserver-alias"></a>Псевдоним рабочей области/сервера
 
 В отличие от Azure Analysis Services, [псевдонимы](/azure/analysis-services/analysis-services-server-alias) серверов **не поддерживаются** для рабочих областей Power BI Premium. 
+
+## <a name="dataset-refresh-through-the-xmla-endpoint"></a>Обновление набора данных с помощью конечной точки XMLA
+
+Дата и время последнего обновления отображаются в нескольких местах Power BI, таких как обновленные столбцы в отчетах и списках, сведения о наборе данных, параметры набора данных и журнал обновления набора данных. Сейчас дата и время обновления, отображаемые в Power BI, **не** включают операции обновления, выполняемые с помощью конечной точки XMLA с использованием TMSL/TOM, SSMS или сторонних средств.
 
 ## <a name="see-also"></a>См. также раздел
 

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 01/04/2021
+ms.date: 01/14/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: 800e81b8fe5e9c2f108b71a4d8fb6bf9732a29ac
-ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
+ms.openlocfilehash: 6b28537c9ea757fb43179196f9d7cb053955c5e0
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97926852"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98227222"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Публикация в Интернете из Power BI
 
@@ -189,7 +189,7 @@ ms.locfileid: "97926852"
 - Отчеты, использующие любой источник данных динамического подключения, включая локальные многомерные службы Analysis Services, размещенные в табличной модели Analysis Services, и службы Azure Analysis Services.
 - Отчеты, использующие [общий набор данных](../connect-data/service-datasets-across-workspaces.md), который хранится в другой рабочей области отчета.
 - [Общие и сертифицированные наборы данных](../connect-data/service-datasets-share.md).
-- Отчеты, к которым вам предоставлен доступ непосредственно или через пакет содержимого организации.
+- Отчеты, к которым вам предоставлен доступ непосредственно или через приложение.
 - Отчеты в рабочей области, в которой вы не являетесь участником с правами редактирования.
 - В настоящее время в отчетах для функции **Опубликовать в Интернете** не поддерживаются визуальные элементы R и Python.
 - Экспорт данных из визуальных элементов в отчете, опубликованном в Интернете.
