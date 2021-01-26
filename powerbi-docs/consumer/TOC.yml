@@ -26,8 +26,6 @@
           href: end-user-license.md
         - name: Как задавать вопросы на естественном языке
           href: end-user-q-and-a.md
-        - name: Работа с "новым видом"
-          href: service-new-look.md
         - name: 'Новый вид: куда переместились действия?'
           href: service-new-look-where-actions.md
     - name: Практическое руководство
@@ -80,7 +78,7 @@
               href: end-user-analyze-visuals.md
             - name: Отчеты с разбивкой на страницы в Power BI
               items:
-                - name: Отчеты с разбиением на страницы
+                - name: Отчеты с разбивкой на страницы
                   href: end-user-paginated-report.md
                 - name: Просмотр отчета с разбивкой на страницы
                   href: paginated-reports-view-power-bi-service.md
