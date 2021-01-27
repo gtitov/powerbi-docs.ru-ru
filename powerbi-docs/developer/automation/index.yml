@@ -1,5 +1,5 @@
 ### YamlMime:Landing
-title: Документация по автоматизации для более эффективного использования встроенной бизнес-аналитики Power BI
+title: Документация по автоматизации Power BI
 summary: С помощью автоматизации Power BI можно управлять объектами Power BI, такими как отчеты, наборы данных и рабочие области.
 metadata:
   title: Документация по автоматизации Power BI
@@ -12,12 +12,12 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: def78e481474b7186457d019404f4604406ce967
-  ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+  ms.openlocfilehash: eb357c5a89afec8f42b86ec80bca688e37101322
+  ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 01/05/2021
-  ms.locfileid: "97887599"
+  ms.lasthandoff: 01/26/2021
+  ms.locfileid: "98781550"
 landingContent:
 - title: Начало работы
   linkLists:
@@ -39,6 +39,12 @@ landingContent:
       url: walkthrough-push-data-add-rows.md
     - text: Руководство. Автоматизация настройки приложения-шаблона
       url: ../template-apps/template-apps-auto-install-tutorial.md
+- title: Интерфейсы API клиента
+  linkLists:
+  - linkListType: whats-new
+    links:
+    - text: Интерфейсы API клиента для аналитики Power BI Embedded
+      url: /javascript/api/overview/powerbi/
 - title: Работа с данными
   linkLists:
   - linkListType: concept

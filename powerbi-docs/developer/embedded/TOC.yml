@@ -110,11 +110,11 @@
           href: 'https://aka.ms/embedsetup'
         - name: Пример площадки JavaScript
           href: 'https://go.microsoft.com/fwlink/?linkid=848279'
-        - name: "Вики-сайт по JavaScript для Power\_BI"
-          href: 'https://github.com/Microsoft/powerbi-javascript/wiki'
+        - name: "Интерфейсы API клиента для аналитики Power\_BI Embedded"
+          href: /javascript/api/overview/powerbi/
         - name: Примеры и скрипты для разработчика
           href: 'https://go.microsoft.com/fwlink/?linkid=851293'
         - name: Сообщество Power BI
           href: 'https://go.microsoft.com/fwlink/?linkid=848280'
         - name: Stack Overflow
-          href: 'https://go.microsoft.com/fwlink/?linkid=848281'
+          href: 'https://go.microsoft.com/fwlink/?linkid=2153505'

@@ -12,7 +12,7 @@
       items:
         - name: "Руководство. Разработка визуального элемента Power\_BI \"Круглая визитка\""
           href: develop-circle-card.md
-        - name: "Создание визуальных элементов на основе\_React"
+        - name: "Руководство. Создание визуального элемента Power\_BI с помощью React"
           href: create-react-visual.md
         - name: Создание линейчатой диаграммы
           href: create-bar-chart.md

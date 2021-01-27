@@ -1,5 +1,5 @@
 ### YamlMime:Hub
-title: Документация разработчика по более эффективному использованию встроенной бизнес-аналитики Power BI
+title: Документация разработчика Power BI
 summary: Разработчики Power BI могут внедрять содержимое Power BI, разрабатывать визуальные элементы Power BI и автоматизировать процессы Power BI.
 brand: power-bi
 metadata:
@@ -13,12 +13,12 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: 701f9e5e02d8b8cb8d019deebd9ae226560e07df
-  ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+  ms.openlocfilehash: 51bd353206d605cd0627e10e226d0950adf8de0f
+  ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 01/05/2021
-  ms.locfileid: "97885690"
+  ms.lasthandoff: 01/26/2021
+  ms.locfileid: "98781457"
 highlightedContent:
   items:
   - title: Использование встроенной аналитики с Power BI
@@ -30,6 +30,9 @@ highlightedContent:
   - title: Визуальные элементы в Power BI
     itemType: overview
     url: visuals/power-bi-custom-visuals.md
+  - title: Интерфейсы API клиента для аналитики Power BI Embedded
+    itemType: whats-new
+    url: /javascript/api/overview/powerbi/
   - title: Автоматизированная настройка приложения-шаблона
     itemType: concept
     url: template-apps/template-apps-auto-install.md
@@ -105,6 +108,6 @@ additionalContent:
     - title: Тестовая площадка
       summary: Изучение функций и интерфейсов API.
       url: https://aka.ms/pbieplayground
-    - title: Вики-документация по JavaScript
-      summary: Изучение базы знаний JavaScript.
-      url: https://github.com/Microsoft/powerbi-javascript/wiki
+    - title: Интерфейсы API клиента для аналитики Power BI Embedded
+      summary: Обзор интерфейсов API клиента для аналитики Power BI Embedded.
+      url: /javascript/api/overview/powerbi/
