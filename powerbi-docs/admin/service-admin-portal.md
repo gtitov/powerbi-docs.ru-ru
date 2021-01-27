@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 01/05/2020
+ms.date: 01/25/2021
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 554cce8c0313ad6624a2991aa09f60c98ff454be
-ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
+ms.openlocfilehash: 8305d4662da9f4f7b8a5cce2b3badf5e70e88bc5
+ms.sourcegitcommit: 5c5a27aa7ba21612df4c4096e635dfe4b9aaebcf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97969614"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "98861314"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Администрирование Power BI на портале администрирования
 
@@ -174,12 +174,6 @@ Premium на пользователя — это новый способ лиц
     ![Включено с исключением определенных пользователей](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
 
 Следующие несколько разделов содержат общие сведения о различных типах параметров клиента.
-
-## <a name="tenant-wide-new-look-settings"></a>Параметры нового интерфейса на уровне клиента
-
-Если параметр **Новый вид** отключен, пользователи в этой организации могут включать и отключать новый вид Power BI. Если параметр **Новый вид** включен, *всем* пользователям этой организации предоставляется современный интерфейс Power BI. Они не смогут отключить новый вид. Параметр "Новый вид" включен по умолчанию.
-
-:::image type="content" source="media/service-admin-portal/admin-portal-new-look-disable.png" alt-text="Снимок экрана: параметр &quot;Отключить новый вид&quot; на портале администрирования.":::
 
 ## <a name="help-and-support-settings"></a>Параметры справки и поддержки
 

@@ -11,12 +11,12 @@ ms.subservice: pbi-fundamentals
 ms.topic: conceptual
 ms.date: 11/14/2019
 LocalizationGroup: Get started
-ms.openlocfilehash: 8da3446814d2c356acb24100eaa03df23be8f567
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: d61ed128827572198e24bb8f31e190f328e273ff
+ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96416791"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98687595"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Основные понятия для разработчиков в службе Power BI
 
@@ -218,7 +218,7 @@ ms.locfileid: "96416791"
 Как только вы начинаете вводить свой вопрос, вы попадаете на страницу вопросов и ответов. По мере ввода вопросы и ответы помогают вам задать правильный вопрос и найти лучший ответ, используя перефразирование, автозаполнение, предложенные варианты и многое другое. Получив нужную визуализацию (ответ), закрепите ее на панели мониторинга. Дополнительные сведения см. в статье [Вопросы и ответы в Power BI](../consumer/end-user-q-and-a.md).
 
 ### <a name="4-icons-in-the-black-header-bar"></a>4. **Значки в черной строке заголовка**
-Значки в верхнем правом углу представляют ресурсы для параметров, уведомлений, скачиваний, получения справки, включения и отключения функции **Новый вид**, а также отправки отзывов команде Power BI.  
+Значки в верхнем правом углу представляют ресурсы для параметров, уведомлений, скачиваний, получения справки и отправки отзывов команде Power BI.  
 
 ![Снимок экрана: служба Power BI с кнопками значков](media/service-basic-concepts/power-bi-icons.png)
 

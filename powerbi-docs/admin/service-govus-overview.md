@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/19/2021
 ms.custom: gcc
 LocalizationGroup: Get started
-ms.openlocfilehash: e7100be7890673cecc77a8a1147a25a942fc4666
-ms.sourcegitcommit: 96080432af4c8e3fe46c23274478ccffa0970efb
+ms.openlocfilehash: 06a2dff78cc2367afb153111e080e29a16fc82ab
+ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98597618"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98686989"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI для клиентов из государственных организаций США
 
@@ -129,9 +129,9 @@ Azure распределяется между несколькими облак�
 |[Внедрение в SharePoint Online с использованием веб-части Power BI](/sharepoint/dev/spfx/web-parts/overview-client-side-web-parts)|![доступен](../media/yes.png)|![доступен](../media/yes.png)|![недоступно](../media/no.png)|
 |[Защита данных (метки MIP)](service-security-sensitivity-label-overview.md)|![доступен](../media/yes.png)|![доступен](../media/yes.png) |Первый квартал 2021 г.|
 |[Потоки данных — прямой запрос](../transform-model/dataflows/dataflows-configure-consume.md) | ![доступен](../media/yes.png) |![доступен](../media/yes.png)|Не планируется |
+|[Потоки данных — оптимизация ядра вычислений SQL](../transform-model/dataflows/dataflows-premium-features.md) | ![доступен](../media/yes.png) |![доступен](../media/yes.png)|Не планируется |
 |[Вкладка Power BI в Teams](../collaborate-share/service-collaborate-microsoft-teams.md)<sup>3</sup>|![доступен](../media/yes.png)|![недоступно](../media/no.png)|![недоступно](../media/no.png)|
 |[Крупные модели](service-premium-large-models.md) | Первый квартал 2021 г. |Первый квартал 2021 г.| Не планируется |
-|[Потоки данных — оптимизация ядра вычислений SQL](../transform-model/dataflows/dataflows-premium-features.md) | ![недоступно](../media/no.png) |![недоступно](../media/no.png)| ![недоступно](../media/no.png) |
 |[Соединитель для получения данных о качестве звонка](/microsoftteams/cqd-power-bi-connector)|![недоступно](../media/no.png)|![недоступно](../media/no.png)|![недоступно](../media/no.png)|
 |[Использование собственного хранилища (Azure Data Lake 2-го поколения)](../transform-model/dataflows/dataflows-azure-data-lake-storage-integration.md)|![недоступно](../media/no.png)|![недоступно](../media/no.png)|![недоступно](../media/no.png)|
 

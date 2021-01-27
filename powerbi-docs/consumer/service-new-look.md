@@ -7,14 +7,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: conceptual
-ms.date: 12/09/2020
+ms.date: 01/25/2021
 LocalizationGroup: Get started
-ms.openlocfilehash: 5e357b275cd6648721b021f68a9b8496e266e003
-ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
+ROBOTS: NOINDEX
+ms.openlocfilehash: 5de13f991e5439cf25bf8c00dc260fccc4918318
+ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "96999101"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "98780774"
 ---
 # <a name="the-new-look-of-the-power-bi-service"></a>"Новый внешний вид" службы Power BI
 
@@ -70,5 +71,4 @@ ms.locfileid: "96999101"
 ## <a name="next-steps"></a>Дальнейшие действия
 
 - [Использование обновленной ленты в Power BI Desktop](../create-reports/desktop-ribbon.md)
-- [Согласие на новый интерфейс рабочих областей](../collaborate-share/service-workspaces-new-look.md)
 - [Power BI для потребителей](end-user-consumer.md)
