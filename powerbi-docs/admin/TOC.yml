@@ -142,7 +142,7 @@
           href: /powershell/power-bi/
           maintainContext: true
         - name: Справочник по URL-адресу службы
-          href: power-bi-whitelist-urls.md
+          href: power-bi-allow-list-urls.md
     - name: Ресурсы
       items:
         - name: Подходы к развертыванию и управлению Power BI
