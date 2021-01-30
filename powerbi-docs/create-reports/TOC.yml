@@ -67,6 +67,8 @@
               href: desktop-high-density-sampling.md
             - name: Сведения о доступности
               href: desktop-accessibility-overview.md
+            - name: Отзыв сертификатов
+              href: desktop-certificate-revocation.md
             - name: Вопросы и ответы на естественном языке
               items:
                 - name: '"Вопросы и ответы": введение'

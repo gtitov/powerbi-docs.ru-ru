@@ -26,7 +26,7 @@
       items:
         - name: Емкость и номера SKU в аналитике Power BI Embedded
           href: embedded-capacity.md
-        - name: Планирование емкостей
+        - name: Планирование ресурсов
           href: embedded-capacity-planning.md
         - name: Рекомендации по созданию токена внедрения
           href: generate-embed-token.md
@@ -96,6 +96,8 @@
               href: /rest/api/power-bi-embedded/
             - name: "REST\_API в Power\_BI"
               href: /rest/api/power-bi/
+        - name: "Курс по разработке в Power\_BI за один день"
+          href: /power-bi/learning-catalog/developer-online-course
         - name: Справочник по данным мониторинга Power BI Embedded
           href: monitor-power-bi-embedded-reference.md
         - name: Библиотеки Power BI
