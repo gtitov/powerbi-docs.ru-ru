@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
-ms.date: 05/04/2020
-ms.openlocfilehash: 28058161672de9db0cac5093e652e1d551f6a80a
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.date: 01/25/2021
+ms.openlocfilehash: bbe88b206c4c07e2e296b9c85d46be7901f5972a
+ms.sourcegitcommit: 5c5a27aa7ba21612df4c4096e635dfe4b9aaebcf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93297321"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "98861291"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service"></a>Публикация отчета с разбивкой на страницы в службе Power BI
 
@@ -27,23 +27,23 @@ ms.locfileid: "93297321"
 
 Если рабочая область не имеет значка с бриллиантом ![Значок емкости Power BI Premium в виде бриллианта](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) рядом с именем, ее следует добавить в емкость Premium. 
 
-1. Выберите **Рабочие области** , щелкните многоточие ( **...** ) рядом с именем рабочей области и выберите **Изменить рабочую область**.
+1. Выберите **Рабочие области**, щелкните многоточие (**...**) рядом с именем рабочей области и выберите **Изменить рабочую область**.
 
     ![Выбор действия "Изменить рабочую область"](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-edit-workspace.png)
 
-1. В диалоговом окне **Изменение рабочей области** разверните узел **Дополнительно** , затем переместите ползунок **Dedicated capacity** (Выделенная емкость) в положение **Вкл.**
+1. В диалоговом окне **Изменение рабочей области** разверните узел **Дополнительно**, затем переместите ползунок **Dedicated capacity** (Выделенная емкость) в положение **Вкл.**
 
     ![Выбор выделенной емкости](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-edit-workspace-dialog.png)
 
    Возможно, вы не сможете внести такое изменение. В этом случае обратитесь к администратору емкости Power BI Premium, чтобы он предоставил вам права назначения для добавления рабочей области в емкость Premium.
 
-## <a name="from-report-builder-publish-a-paginated-report"></a>В построителе отчетов опубликуйте отчет с разбивкой на страницы
+## <a name="from-report-builder-publish-a-paginated-report-to-the-power-bi-service"></a>Публикация в Report Builder отчета с разбивкой на страницы в службе Power BI
 
-1. Создайте отчет с разбивкой на страницы в построителе отчетов и сохраните этот отчет на локальный компьютер.
+1. Создайте новый отчет с разбивкой на страницы или откройте существующий из службы Power BI в Report Builder. Если открыть в службе существующий отчет с разбивкой на страницы, параметр **Сохранить** будет отключен, так как вы обновляете отчет, используемый в службе Power BI.
 
-1. В построителе отчетов в меню **Файл** выберите **Сохранить как**.
+1. В Report Builder в меню **Файл** выберите **Опубликовать**.
 
-    ![Меню "Файл" > "Сохранить" > "Сохранить как"](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-save-as.png)
+    ![Выберите меню "Файл" и "Опубликовать".](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-save-as.png)
 
     Если вы еще не вошли в Power BI, войдите в систему или создайте учетную запись. В правом верхнем углу построителя отчетов выберите **Вход** и выполните требуемые действия.
 
@@ -77,7 +77,7 @@ ms.locfileid: "93297321"
 
     ![Элемент "Получить файлы" в Power BI](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-files-get.png)
 
-1. Выберите **Локальный файл** , перейдите к отчету с разбивкой на страницы и щелкните **Открыть**.
+1. Выберите **Локальный файл**, перейдите к отчету с разбивкой на страницы и щелкните **Открыть**.
 
     ![Выбор элемента "Локальный файл"](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-local-file.png)
 

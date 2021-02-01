@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 04/05/2020
-ms.openlocfilehash: 42f110356c891235d17810dbb1f220f0a006c066
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: befb64ec85c02f8993d828202df06aafc5901482
+ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97887093"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "98781518"
 ---
 # <a name="export-paginated-report-to-file-preview"></a>Экспорт отчета с разбивкой на страницы в файл (предварительная версия)
 
@@ -122,6 +122,42 @@ API `exportToFile` можно использовать для программн
       }
 }
 ```
+
+### <a name="single-sign-on-sql-and-dataverse-sso"></a>Единый вход SQL и Dataverse (SSO)
+
+В Power BI есть возможность задать OAuth с использованием SSO. При этом для получения данных используются учетные данные пользователя, просматривающего отчет. Маркер доступа в заголовке запроса не используется для доступа к данным. Маркер должен передаваться вместе с действующим удостоверением в тексте сообщения POST.
+
+С маркерами доступа проблема может быть в том, что вам нужно получить правильный маркер для ресурса, к которому вы обращаетесь.
+
+- Ресурс для Azure SQL — `https://database.windows.net`.
+- Ресурс для Dataverse — адрес `https://` вашей среды. Например, `https://contoso.crm.dynamics.com`.
+
+Получите доступ к API маркера с помощью метода [AuthenticationContext.AcquireTokenAsync](https://docs.microsoft.com/dotnet/api/microsoft.identitymodel.clients.activedirectory.authenticationcontext.acquiretokenasync).
+
+Ниже приведен пример предоставления действующего имени пользователя с маркером доступа.
+
+```json
+{
+       "format":"PDF",
+       "paginatedReportConfiguration":{
+          "formatSettings":{
+             "AccessiblePDF":"true",
+             "PageHeight":"11in",
+             "PageWidth":"8.5in",
+             "MarginBottom":"2in"
+          },
+          "identities":[
+             {
+                "username":"john@contoso.com",
+                "identityBlob": {
+                "value": "eyJ0eX....full access token"
+         }
+        }
+     ]
+   }
+}
+```
+
 ## <a name="ppu-concurrent-requests"></a>Количество одновременных запросов в PPU
 API `exportToFile` позволяет использовать один запрос в течение пяти минут при использовании [Premium на пользователя (PPU)](../../admin/service-premium-per-user-faq.md). Несколько запросов (более одного) в течение пяти минут приведет к ошибке 429: *Слишком много запросов*.
 

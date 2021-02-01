@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 06/18/2020
 LocalizationGroup: Administration
-ms.openlocfilehash: 9ed9b42a42e497eaa332b3b1eb93be6247ddc542
-ms.sourcegitcommit: c700e78dfedc34f5a74b23bbefdaef77e2a87f8a
+ms.openlocfilehash: 09e215dbb32dcb93b2ae8ca51953eb636e1aad81
+ms.sourcegitcommit: e8c3f327ac0fc73c118874a24d2601733f8f9e45
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97961231"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98718492"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>Вопросы и ответы о высоком уровне доступности, отработке отказа и аварийном восстановлении в Power BI
 
@@ -23,6 +23,10 @@ ms.locfileid: "97961231"
 ## <a name="what-does-high-availability-mean-for-power-bi"></a>Что означает "высокий уровень доступности" в Power BI?
 
 Power BI — это полностью управляемое программное обеспечение как услуга (SaaS).  Эта служба разработана и предоставляется корпорацией Майкрософт таким образом, чтобы обеспечивать устойчивость к сбоям инфраструктуры и бесперебойный доступ пользователей к отчетам.  Для службы реализуется [соглашение об уровне обслуживания 99,9 %](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37).
+
+Power BI использует **Зоны доступности Azure** для защиты отчетов Power BI, приложений и данных о сбоях в центре данных. Этот компонент автоматически применяется и используется для Power BI. Зоны доступности находятся в изолированных расположениях в регионе Azure, предоставляя три или более уникальных расположений в регионе Azure с избыточным питанием, охлаждением и возможностями сети. Зоны доступности позволяют клиентам Power BI запускать критически важные приложения с повышенной доступностью и отказоустойчивостью с учетом сбоев центра обработки данных. Зоны доступности позволяют клиентам выдерживать сбои центра обработки данных благодаря избыточности и логической изоляции служб. 
+
+Дополнительные сведения о **Зонах доступности** см. в следующей статье, в которой подробно рассматриваются [регионы и Зоны доступности в Azure](https://docs.microsoft.com/azure/availability-zones/az-overview).
 
 ## <a name="what-is-a-power-bi-failover"></a>Что такое отработка отказа в Power BI?
 

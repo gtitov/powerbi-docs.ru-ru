@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: tutorial
-ms.date: 01/11/2021
+ms.date: 01/19/2021
 LocalizationGroup: Reports
-ms.openlocfilehash: f5d35d7fc189f055a6f51e493fd313eb31f0564f
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
+ms.openlocfilehash: 03eac7aefdebb31eac353c969db2bf8810173395
+ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98565985"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98687382"
 ---
 # <a name="tutorial-from-dimensional-model-to-stunning-report-in-power-bi-desktop"></a>Руководство. Преобразование книги Excel в привлекательный отчет в Power BI Desktop 
 
@@ -64,11 +64,10 @@ ms.locfileid: "98565985"
 
 :::image type="content" source="media/desktop-dimensional-model-report/desktop-load-tables.png" alt-text="Загрузка таблиц в навигаторе.":::
 
-Убедитесь, что типы данных столбцов соответствуют значениям, указанным в следующей таблице. Чтобы внести изменения, выберите запрос, а затем выберите один или несколько столбцов.
+Убедитесь, что типы данных столбцов соответствуют значениям, указанным в следующей таблице. Чтобы разрешить Power BI обнаруживать типы данных, выберите запрос, а затем выберите один или несколько столбцов. На вкладке **Преобразование** выберите **Определить тип данных**. Чтобы внести изменения в определенный тип данных, на вкладке **Главная** выберите **Тип данных**, а затем выберите соответствующий тип данных из таблицы.
 
 :::image type="content" source="media/desktop-dimensional-model-report/power-query-change-data-types.png" alt-text="Проверка типов данных столбцов.":::
 
-На вкладке **Главная** выберите **Тип данных**, а затем выберите соответствующий тип данных из таблицы.
 
 |Запрос  |Столбец  |Тип данных  |
 |---------|---------|---------|
@@ -330,8 +329,9 @@ ms.locfileid: "98565985"
 
 1. Выберите пустую область в нижней половине холста отчета. 
 
-1. На панели "Поля" выберите **Сумма продаж** из таблицы **Продажи**, **Категория продукта** из таблицы **Продукт** и **Тип бизнеса** из таблицы **Торговый посредник**. 
-
+1. На панели "Поля" выберите **Сумма продаж** из таблицы **Продажи**, **Категория продукта** из таблицы **Продукт** и **Тип бизнеса** из таблицы **Торговый посредник**.
+    :::image type="content" source="media/desktop-dimensional-model-report/report-sales-amount-by-product-category-field-well.png" alt-text="Убедитесь, что в разделе &quot;Строки&quot; выбраны поля &quot;Категория&quot; и &quot;Тип бизнеса&quot;, а в разделе &quot;Значения&quot; — поле &quot;Объем продаж&quot;.":::
+    
     Power BI автоматически создаст гистограмму с группировкой. Измените визуализацию на **Матрица**: 
 
     :::image type="content" source="media/desktop-dimensional-model-report/report-sales-amount-by-product-category-change-to-matrix.png" alt-text="Изменение гистограммы с группировкой на матрицу.":::
@@ -346,7 +346,7 @@ ms.locfileid: "98565985"
 
 1. На панели форматирования матрицы откройте раздел **Условное форматирование** и включите **Гистограммы**. Выберите **Дополнительные элементы управления** и задайте более светлый цвет для столбцов положительных значений. Нажмите кнопку **ОК**. 
 
-1. Увеличьте ширину столбца "Сумма продаж", чтобы он занимал все пространство. 
+1. Увеличьте ширину столбца "Сумма продаж", чтобы он занимал все пространство, перетащив матрицу.
 
     :::image type="content" source="media/desktop-dimensional-model-report/report-sales-amount-by-product-category-add-databars.png" alt-text="Матрица с гистограммами по сумме продаж.":::
 

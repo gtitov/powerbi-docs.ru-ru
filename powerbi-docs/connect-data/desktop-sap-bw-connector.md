@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: how-to
-ms.date: 01/13/2020
+ms.date: 01/21/2021
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1808638ad0ccaa2adc57d56bf1677dea0ca24440
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: fec45c895b4b4eb43bd6efd2e5428d789ff4f44d
+ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96404670"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98687104"
 ---
 # <a name="use-the-sap-business-warehouse-connector-in-power-bi-desktop"></a>Использование соединителя SAP Business Warehouse в Power BI Desktop
 
@@ -45,8 +45,8 @@ ms.locfileid: "96404670"
 
 Соединитель поставляется в 32- и 64-разрядной версиях. Выберите версию, соответствующую установке Power BI Desktop. В настоящее время на веб-сайте указаны две версии для платформы .NET 4.0:
 
-* соединитель SAP для Microsoft .NET 3.0.22.0 для 32-разрядных (x86) версий Windows в виде ZIP-файла (6896 КБ), 1 июня 2019 г.;
-* соединитель SAP для Microsoft .NET 3.0.22.0 для 64-разрядных (x64) версий Windows в виде ZIP-файла (7180 КБ), 1 июня 2019 г.
+* соединитель SAP для Microsoft .NET 3.0.22.0 для 32-разрядных (x86) версий Windows или более поздней версии (.NET Framework 4.0);
+* соединитель SAP для Microsoft .NET 3.0.22.0 для 64-разрядных (x64) версий Windows или более поздней версии (.NET Framework 4.0).
 
 При установке в разделе **Optional setup steps** (Дополнительные этапы установки) обязательно установите флажок *Install assemblies to GAC* (Установить сборки в глобальном кэше сборок).
 

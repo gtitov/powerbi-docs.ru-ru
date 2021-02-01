@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-fundamentals
 ms.topic: tutorial
-ms.date: 07/08/2020
+ms.date: 01/13/2021
 LocalizationGroup: Get started
-ms.openlocfilehash: 4e74bec243faad281c457caaa15a6edacf2b10cb
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 04777ba93b6a4639b55406b3952a80de963cb540
+ms.sourcegitcommit: 5c5a27aa7ba21612df4c4096e635dfe4b9aaebcf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417136"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "98861222"
 ---
 # <a name="tutorial-get-started-creating-in-the-power-bi-service"></a>Руководство. Начало работы со службой Power BI
 В этом руководстве содержатся вводные сведения о некоторых функциях *службы Power BI*. Здесь вы выполните такие действия, как подключение к данным, создание отчета и панели мониторинга, а также зададите вопросы к данным. Служба Power BI позволяет выполнять гораздо больше задач. Это руководство предназначено только для того, чтобы привлечь ваш интерес. Чтобы получить представление о том, как служба Power BI связана с другими предложениями Power BI, рекомендуется ознакомиться со статьей [Что такое Power BI](power-bi-overview.md).
@@ -40,7 +40,7 @@ ms.locfileid: "96417136"
 
 ## <a name="step-1-get-data"></a>Шаг 1. Получить данные
 
-Часто, когда требуется создать отчет Power BI, вы начинаете работу в Power BI Desktop. Power BI Desktop предлагает больше возможностей. Перед разработкой отчета можно преобразовать, оформить и смоделировать данные. На этот раз, однако, мы приступим к созданию отчета с нуля в службе Power BI.
+Часто, когда требуется создать отчет Power BI, вы начинаете работу в Power BI Desktop. Power BI Desktop предлагает больше возможностей. Перед разработкой отчетов можно преобразовать, оформить и смоделировать данные. На этот раз, однако, мы приступим к созданию отчета с нуля в службе Power BI.
 
 В этом руководстве мы получаем данные из простого файла Microsoft Excel. Хотите попробовать? [Скачайте файл с примером финансовых данных](https://go.microsoft.com/fwlink/?LinkID=521962).
 
@@ -223,6 +223,8 @@ ms.locfileid: "96417136"
 4. Выберите **Удалить**.
 
 ## <a name="next-steps"></a>Дальнейшие действия
+
+[Быстрое создание отчета путем вставки данных в службу Power BI](https://powerbi.microsoft.com/en-us/blog/quickly-create-reports-power-bi-service/)
 
 Изучите следующие подборки материалов Microsoft Learn для Power BI.
 

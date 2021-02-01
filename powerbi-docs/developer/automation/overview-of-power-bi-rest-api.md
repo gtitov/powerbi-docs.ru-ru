@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: overview
 ms.date: 03/25/2019
-ms.openlocfilehash: 122028b2ac838763318ab5a0c4e6208138d93188
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: 8fac168bf4e2d1cb7b386a1e22da99f39b579da8
+ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97887622"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "98781562"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>Какие возможности API Power BI предоставляет разработчикам?
 
@@ -37,8 +37,8 @@ ms.locfileid: "97887622"
 
 | Инструменты | Описание |
 |---------|-------------|
-| [Инструмент "Тестовая площадка"](https://microsoft.github.io/PowerBI-JavaScript/demo) | Воспользуйтесь полным примером использования API-интерфейсов JavaScript в Power BI. Этот инструмент также позволит быстро познакомиться с разными примерами Power BI Embedded. |
-| [Вики-сайт по JavaScript для Power BI](https://github.com/Microsoft/powerbi-javascript/wiki) | Дополнительные сведения об API-интерфейсах JavaScript в Power BI. |
+| [Инструмент "Тестовая площадка"](https://microsoft.github.io/PowerBI-JavaScript/demo) | Воспользуйтесь полным примером работы с интерфейсами API клиента для аналитики Power BI Embedded. Этот инструмент также позволит быстро познакомиться с разными примерами Power BI Embedded. |
+| [Интерфейсы API клиента для аналитики Power BI Embedded](/javascript/api/overview/powerbi/) | Дополнительные сведения об интерфейсах API клиента для аналитики Power BI. |
 | [Postman](https://www.getpostman.com/) | Выполнение запросов, тестирование, отладка, мониторинг, запуск автоматических тестов и многое другое. |
 
 ## <a name="push-data-into-power-bi"></a>Принудительная отправка данных в Power BI
@@ -51,7 +51,7 @@ ms.locfileid: "97887622"
 
 * [Примеры для разработчиков Power BI](https://github.com/Microsoft/PowerBI-Developer-Samples)
 * [Пакет SDK для .NET](https://github.com/Microsoft/PowerBI-CSharp)
-* [API JavaScript](https://github.com/Microsoft/PowerBI-JavaScript)
+* [Интерфейсы API клиента для аналитики Power BI Embedded](/javascript/api/overview/powerbi/)
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

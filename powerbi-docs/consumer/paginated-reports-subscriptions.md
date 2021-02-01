@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 01/04/2021
-ms.openlocfilehash: 67efe0e7abd23792f46561f78b0b048b431561a4
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.date: 01/22/2021
+ms.openlocfilehash: 88293bbfc39f75472422e6785099421efcd45802
+ms.sourcegitcommit: e8c3f327ac0fc73c118874a24d2601733f8f9e45
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97888013"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98718538"
 ---
 # <a name="subscribe-yourself-and-others-to-paginated-reports-in-the-power-bi-service"></a>Создание подписки на отчет с разбивкой на страницы в службе Power BI для себя и других пользователей 
 
@@ -22,6 +22,8 @@ ms.locfileid: "97888013"
 При настройке подписок можно указать частоту получения сообщений электронной почты: ежедневно, еженедельно ежемесячно или каждый час. Вы также можете выбрать время запуска подписки. Количество подписок, которые можно настроить для каждого отчета, не ограничено. 
 
 ## <a name="considerations-for-paginated-report-subscriptions"></a>Рекомендации по подпискам на отчеты с разбивкой на страницы 
+
+- Для создания подписки для себя не требуются разрешения на изменение отчета с разбивкой на страницы, но у вас должны быть такие разрешения, если вы создаете подписку для другого пользователя. Если в рабочей области, в которой находится отчет с разбивкой на страницы, есть по крайней мере роль участника, вы можете создавать подписки для других пользователей. Узнайте больше о [ролях в рабочих областях](../collaborate-share/service-new-workspaces.md#roles-in-the-new-workspaces).
 
 - В отличие от подписок на панели мониторинга или отчеты Power BI, ваша подписка содержит вложение со всеми выходными данными отчета.  Поддерживаются следующие типы вложений: PDF, презентация PowerPoint (PPTX), книга Excel (XLSX), документ Word (DOCX), CSV-файл и XML.
 
