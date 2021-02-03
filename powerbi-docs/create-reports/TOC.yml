@@ -248,7 +248,7 @@
               href: ../visuals/power-bi-report-visualizations.md
             - name: Изменение визуальных элементов в отчетах
               href: ../visuals/power-bi-report-change-visualization-type.md
-            - name: 'Названия, фон и легенда для визуальных элементов'
+            - name: 'Настройка заголовков, фона, условных обозначений и других элементов визуализаций'
               href: ../visuals/power-bi-visualization-customize-title-background-and-legend.md
             - name: Показать элементы без данных
               href: desktop-show-items-no-data.md
