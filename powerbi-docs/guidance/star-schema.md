@@ -2,18 +2,18 @@
 title: Общие сведения о схеме типа "звезда" и ее значении в Power BI
 description: Ознакомьтесь со схемой типа "звезда" и ее значением при разработке моделей данных Power BI, оптимизированных для повышения производительности и удобства использования.
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 09/09/2019
-ms.openlocfilehash: 4d54a0d27ed7cbf0c464a6c4d770e39b99e8b384
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 8d3a23b577fde668b546f471a861e980a976f629
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96419114"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088058"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>Общие сведения о схеме типа "звезда" и ее значении в Power BI
 

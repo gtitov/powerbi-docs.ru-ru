@@ -2,19 +2,19 @@
 title: Управление сеткой диаграммы в отчетах Power BI
 description: Три совета для более эффективного управления сеткой диаграммы в визуальных элементах отчетов Power BI в Power BI Desktop или службе Power BI.
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 featuredvideoid: Y-igshes2LI
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 02/15/2020
-ms.openlocfilehash: 1d2e082aa28fe0a3dfb0f1be4f2d910baa064e94
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 5f0917a346c44bf31b702d791aaba7bbc2a9b51a
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417803"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088265"
 ---
 # <a name="tips-to-control-chart-gridlines-in-power-bi-reports"></a>Советы по управлению сеткой диаграммы в отчетах Power BI
 

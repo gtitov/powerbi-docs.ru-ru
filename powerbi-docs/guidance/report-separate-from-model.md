@@ -2,18 +2,18 @@
 title: Отделение отчетов от моделей в Power BI Desktop
 description: Руководство по отделению отчетов от моделей в Power BI Desktop.
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 04/11/2020
-ms.openlocfilehash: a45299015883615b4773fe5db1c9864e01a47c4b
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 20e674765d2a908ff1952b0f316d125d0e3c5bd3
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418372"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088311"
 ---
 # <a name="separate-reports-from-models-in-power-bi-desktop"></a>Отделение отчетов от моделей в Power BI Desktop
 

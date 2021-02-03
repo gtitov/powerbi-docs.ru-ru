@@ -2,18 +2,18 @@
 title: Руководство по получению данных для отчетов с разбивкой на страницы
 description: Руководство по созданию источников и наборов данных для отчетов Power BI с разбивкой на страницы.
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 02/16/2020
-ms.openlocfilehash: 5869402a1f5147dbd4cea18b426452e115a97911
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: c29e4dfa97b91cb16fc76d095ce05a04b906ee7f
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96419045"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088104"
 ---
 # <a name="data-retrieval-guidance-for-paginated-reports"></a>Руководство по получению данных для отчетов с разбивкой на страницы
 

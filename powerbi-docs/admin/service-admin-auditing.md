@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 08/20/2020
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 3c1e2b4513b3ac920d447ef0b8195c76c1ec2a04
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: cf10ac72f387438a60d3840c69ad1ee713c26708
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413755"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99086219"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Отслеживание действий пользователей в Power BI
 
@@ -122,7 +122,7 @@ $activities[0]
 
 Чтобы получить доступ к журналам аудита, вам нужно выполнить следующие требования:
 
-- Для доступа к журналам аудита вы должны быть глобальным администратором или вам должна быть назначена роль журналов аудита или журналов аудита в режиме просмотра в Exchange Online. По умолчанию группы ролей управления соответствием и управления организацией назначены на странице **Разрешения** в центре администрирования Exchange. Дополнительные сведения о ролях, которые могут просматривать журналы аудита, см. в разделе [Требования для поиска в журнале аудита](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#requirements-to-search-the-audit-log).
+- Для доступа к журналам аудита вы должны быть глобальным администратором или вам должна быть назначена роль журналов аудита или журналов аудита в режиме просмотра в Exchange Online. По умолчанию группы ролей управления соответствием и управления организацией назначены на странице **Разрешения** в центре администрирования Exchange. Дополнительные сведения о ролях, которые могут просматривать журналы аудита, см. в разделе [Требования для поиска в журнале аудита](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#requirements-to-search-the-audit-log).
 
     Чтобы предоставить учетным записям без прав администратора доступ к журналу аудита, сделайте пользователя участником одной из этих групп ролей. Если вы хотите сделать это другим способом, вы можете создать пользовательскую группу ролей в центре администрирования Exchange, назначить упомянутые выше роли, связанные с журналом аудита, этой группе, а затем включить учетную запись без прав администратора в новую группу ролей. См. дополнительные сведения об [управлении группами ролей в Exchange Online](/Exchange/permissions-exo/role-groups).
 
@@ -211,7 +211,7 @@ $activities[0]
 
 ### <a name="use-powershell-to-search-audit-logs"></a>Поиск в журналах аудита с помощью PowerShell
 
-Вы также можете получить доступ к журналам аудита по имени пользователя с помощью PowerShell. В следующем примере показано, как подключиться к Exchange Online PowerShell и извлечь записи журнала аудита Power BI с помощью команды [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps/). Чтобы запустить скрипт, администратор должен назначить вам соответствующие разрешения, как описано в разделе [Требования для использования журнала аудита](#audit-log-requirements).
+Вы также можете получить доступ к журналам аудита по имени пользователя с помощью PowerShell. В следующем примере показано, как подключиться к Exchange Online PowerShell и извлечь записи журнала аудита Power BI с помощью команды [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps&preserve-view=true/). Чтобы запустить скрипт, администратор должен назначить вам соответствующие разрешения, как описано в разделе [Требования для использования журнала аудита](#audit-log-requirements).
 
 ```powershell
 Set-ExecutionPolicy RemoteSigned
@@ -226,7 +226,7 @@ Search-UnifiedAuditLog -StartDate 9/11/2018 -EndDate 9/15/2018 -RecordType Power
 
 ### <a name="use-powershell-to-export-audit-logs"></a>Экспорт журналов аудита с помощью PowerShell
 
-Вы также можете экспортировать результаты поиска журналов аудита с помощью PowerShell. В следующем примере показано, как отправить данные из команды [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps/) и экспортировать результаты с помощью командлета [Export-CSV](/powershell/module/microsoft.powershell.utility/export-csv). Чтобы запустить скрипт, администратор должен назначить вам соответствующие разрешения, как описано в разделе [Требования для использования журнала аудита](#audit-log-requirements).
+Вы также можете экспортировать результаты поиска журналов аудита с помощью PowerShell. В следующем примере показано, как отправить данные из команды [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps&preserve-view=true/) и экспортировать результаты с помощью командлета [Export-CSV](/powershell/module/microsoft.powershell.utility/export-csv). Чтобы запустить скрипт, администратор должен назначить вам соответствующие разрешения, как описано в разделе [Требования для использования журнала аудита](#audit-log-requirements).
 
 ```powershell
 $UserCredential = Get-Credential

@@ -2,18 +2,18 @@
 title: Образец модели DAX
 description: Образец модели DAX для поддержки статей справки.
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 06/25/2020
-ms.openlocfilehash: b2930003da1593ef5d5888c611af6700e00d3d07
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: f9fabfe8ccb4350a8d00a7d140618d742dd8c1e4
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96394067"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088449"
 ---
 # <a name="dax-sample-model"></a>Образец модели DAX
 

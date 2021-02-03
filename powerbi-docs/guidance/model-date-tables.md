@@ -2,18 +2,18 @@
 title: Создание таблиц дат в Power BI Desktop
 description: Методы создания таблиц дат в Power BI Desktop, а также рекомендации.
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 06/24/2020
-ms.openlocfilehash: a2616b5f77a03056de03b213369d55e9b590b1b6
-ms.sourcegitcommit: 7599622381f35a161bfc54726675ed3c9cf13816
+ms.openlocfilehash: ede11b592084c83e6306f21b96e8fe1ecb38dd61
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/31/2020
-ms.locfileid: "97827579"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99086954"
 ---
 # <a name="create-date-tables-in-power-bi-desktop"></a>Создание таблиц дат в Power BI Desktop
 

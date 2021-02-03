@@ -2,18 +2,18 @@
 title: Размеры для локальных шлюзов данных
 description: Руководство по работе с размерами локального шлюза данных.
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 12/30/2019
-ms.openlocfilehash: c0506b492a0c28140256dc0be850358836b284b0
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 35630891a66b9aed0b9e568d8e34180e3ee41544
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96419424"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088403"
 ---
 # <a name="on-premises-data-gateway-sizing"></a>Размеры для локальных шлюзов данных
 
@@ -84,7 +84,7 @@ ms.locfileid: "96419424"
 
 - Стремитесь достичь надежности и скорости с меньшими и согласованными задержками.
 - Устраните или уменьшите количество скачков между шлюзом и источниками данных.
-- Удалите все регулирования, накладываемые уровнем прокси-сервера брандмауэра. Дополнительные сведения о конечных точках Power BI см. в статье [URL-адреса Power BI для списка разрешений](../admin/power-bi-whitelist-urls.md).
+- Удалите все регулирования, накладываемые уровнем прокси-сервера брандмауэра. Дополнительные сведения о конечных точках Power BI см. в статье [URL-адреса Power BI для списка разрешений](../admin/power-bi-allow-list-urls.md).
 - Настройте [Azure ExpressRoute](/azure/expressroute/expressroute-introduction), чтобы установить частные управляемые подключения к Power BI.
 - Для источников данных в виртуальных машинах Azure необходимо, чтобы виртуальные машины были [размещены вместе со службой Power BI](../admin/service-admin-where-is-my-tenant-located.md).
 - Обеспечьте хорошую связь между компьютером шлюза и локальной службой Active Directory для рабочих нагрузок активного подключения к SQL Server Analysis Services (SSAS), включая динамическую безопасность на уровне строк.

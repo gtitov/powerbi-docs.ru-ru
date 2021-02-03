@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 05/13/2020
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 7db1b6c2df9a8ad32b76ae452ee76828df5823c0
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: cd55b23bf6f8d86fbb31b261e9f63ec6b8ebc775
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96408511"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99085666"
 ---
 # <a name="get-a-power-bi-service-subscription-for-your-organization"></a>Получение подписки на службу Power BI для организации
 
@@ -55,7 +55,7 @@ ms.locfileid: "96408511"
 
 8. Чтобы проверить свою покупку, перейдите на страницу **Выставления счетов** > **Products & services** (Продукты и службы) и найдите **Power BI Pro**.
 
-Дополнительные сведения о приобретении службы Power BI для организации и управления ею см. в статье [Power BI в организации](/microsoft-365/admin/misc/power-bi-in-your-organization?view=o365-worldwide).
+Дополнительные сведения о приобретении службы Power BI для организации и управления ею см. в статье [Power BI в организации](/microsoft-365/admin/misc/power-bi-in-your-organization).
 
 ## <a name="more-ways-to-get-power-bi-for-your-organization"></a>Дополнительные способы получения Power BI для вашей организации
 
@@ -98,4 +98,4 @@ ms.locfileid: "96408511"
 
 - [Просмотр лицензий пользователей и управление ими](service-admin-manage-licenses.md)
 - [Включение и отключение самостоятельной регистрации и приобретения](service-admin-disable-self-service.md)
-- [Документация по бизнес-подпискам и выставлению счетов](/microsoft-365/commerce/?view=o365-worldwide)
+- [Документация по бизнес-подпискам и выставлению счетов](/microsoft-365/commerce/)

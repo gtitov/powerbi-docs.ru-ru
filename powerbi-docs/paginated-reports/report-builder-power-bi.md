@@ -9,12 +9,12 @@ ms.subservice: report-builder
 featuredvideoid: 78TZeiEhveY
 ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
-ms.openlocfilehash: 32d42ee139ceb03326b99d88e6033475ed2a4cc7
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: ce45260c536733dde9dcfe7c654ed4f56c58c7ea
+ms.sourcegitcommit: 1872a167d1e4d731ad00cf8a6d951c31aa54bcce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96416262"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "98925769"
 ---
 # <a name="power-bi-report-builder"></a>Построитель отчетов Power BI
 
@@ -22,7 +22,7 @@ ms.locfileid: "96416262"
 
 Power BI Report Builder — это инструмент для создания отчетов с разбивкой на страницы, которые можно опубликовать в службе Power BI.  При разработке отчета с разбивкой на страницы вы создаете определение отчета, указывающее, какие данные нужно получить, откуда и как их отобразить. Когда вы запускаете отчет, обработчик отчетов анализирует созданное вами определение отчета, затем извлекает нужные данные и объединяет их с макетом отчета, чтобы сформировать отчет. Просмотрите отчет с разбивкой на страницы в построителе отчетов, а затем опубликовать его в службе Power BI.
  
-Готовы начать разработку? [Установите Power BI Report Builder](https://aka.ms/pbireportbuilder) из Центра загрузки Майкрософт.
+Готовы начать разработку? [Установите Power BI Report Builder](https://go.microsoft.com/fwlink/?linkid=2086513) из Центра загрузки Майкрософт.
 
 Предпочитаете видеообучение? Ознакомьтесь с [видеокурсом: отчеты с разбивкой на страницы в Power BI за один день](../learning-catalog/paginated-reports-online-course.md).
 

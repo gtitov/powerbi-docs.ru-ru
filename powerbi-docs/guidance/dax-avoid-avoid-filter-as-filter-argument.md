@@ -2,18 +2,18 @@
 title: 'DAX: Предотвращение использования FILTER в качестве аргумента фильтра'
 description: Рекомендации по использованию функции FILTER в качестве аргумента фильтра.
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 12/30/2019
-ms.openlocfilehash: 651b4f1323738809e19c0ee42f1dbe71f7bc3998
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 74ddac5a3ac2fa5e6e0fae9f3fdf5c7f79ba22d3
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96394343"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088587"
 ---
 # <a name="dax-avoid-using-filter-as-a-filter-argument"></a>DAX: Предотвращение использования FILTER в качестве аргумента фильтра
 

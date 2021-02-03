@@ -9,12 +9,12 @@ ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 68d12c69afadb3d5d82782c239381844c1d58b5e
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: b019ed8177a4300b39d41c53c2e7d6a4d84e673a
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413548"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99086563"
 ---
 # <a name="incremental-refresh-in-power-bi"></a>Добавочное обновление в Power BI
 
@@ -116,7 +116,7 @@ ms.locfileid: "96413548"
 
 #### <a name="current-date"></a>Текущая дата
 
-*Текущая дата* зависит от системной даты на момент обновления. Если для набора данных в службе Power BI включено запланированное обновление, то при определении текущей даты учитывается указанный часовой пояс. Как вызванные вручную, так и запланированные обновления через службу Power BI учитывают часовой пояс (если он доступен). Например, обновление, которое выполняется в 20 часов по тихоокеанскому времени (США и Канада) с заданным часовым поясом, определяет текущую дату по тихоокеанскому времени, а не по Гринвичу (в противном случае это будет следующий день). Операции обновления, которые не были вызваны через службу Power BI, например [команда обновления TMSL](/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current), не учитывают часовой пояс запланированного обновления.
+*Текущая дата* зависит от системной даты на момент обновления. Если для набора данных в службе Power BI включено запланированное обновление, то при определении текущей даты учитывается указанный часовой пояс. Как вызванные вручную, так и запланированные обновления через службу Power BI учитывают часовой пояс (если он доступен). Например, обновление, которое выполняется в 20 часов по тихоокеанскому времени (США и Канада) с заданным часовым поясом, определяет текущую дату по тихоокеанскому времени, а не по Гринвичу (в противном случае это будет следующий день). Операции обновления, которые не были вызваны через службу Power BI, например [команда обновления TMSL](/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current&preserve-view=true), не учитывают часовой пояс запланированного обновления.
 
 ![Часовой пояс](media/service-premium-incremental-refresh/time-zone2.png)
 
@@ -180,7 +180,7 @@ in
 
 #### <a name="override-incremental-refresh-behavior"></a>Переопределение поведения при добавочном обновлении
 
-С помощью SSMS вы также можете получить более полный контроль над процессом вызова добавочных обновлений с помощью [языка сценариев табличной модели (TMSL)](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference?view=power-bi-premium-current) и [модели табличных объектов (TOM)](/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo?view=power-bi-premium-current). Например, в SSMS в обозревателе объектов щелкните правой кнопкой мыши таблицу и пункт меню **Обработать таблицу**. Затем нажмите кнопку **Сценарий**, чтобы создать команду обновления TMSL.
+С помощью SSMS вы также можете получить более полный контроль над процессом вызова добавочных обновлений с помощью [языка сценариев табличной модели (TMSL)](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference?view=power-bi-premium-current&preserve-view=true) и [модели табличных объектов (TOM)](/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo?view=power-bi-premium-current&preserve-view=true). Например, в SSMS в обозревателе объектов щелкните правой кнопкой мыши таблицу и пункт меню **Обработать таблицу**. Затем нажмите кнопку **Сценарий**, чтобы создать команду обновления TMSL.
 
 ![Кнопка "Сценарий" в диалоговом окне "Обработка таблиц"](media/service-premium-incremental-refresh/ssms-process-table.png)
 
@@ -208,7 +208,7 @@ in
 }
 ```
 
-Дополнительные сведения о переопределении поведения добавочного обновления по умолчанию см. в статье [Команда обновления](/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current).
+Дополнительные сведения о переопределении поведения добавочного обновления по умолчанию см. в статье [Команда обновления](/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current&preserve-view=true).
 
 ### <a name="custom-queries-for-detect-data-changes"></a>Пользовательские запросы для обнаружения изменений данных
 
@@ -248,7 +248,7 @@ in
 
 ![Набор средств ALM](media/service-premium-incremental-refresh/alm-toolkit.png)
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также раздел
 
 [Возможность подключения к набору данных с помощью конечной точки XMLA](service-premium-connect-tools.md)   
 [Troubleshooting refresh scenarios](../connect-data/refresh-troubleshooting-refresh-scenarios.md) (Устранение неполадок в сценариях обновления)

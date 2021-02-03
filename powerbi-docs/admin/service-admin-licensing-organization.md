@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/11/2020
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 0c13d0f54d18527e6b8614f40b5b15fd46187968
-ms.sourcegitcommit: e8c3f327ac0fc73c118874a24d2601733f8f9e45
+ms.openlocfilehash: 0da3b5134db770c97b5b86b215998df91c1f646c
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2021
-ms.locfileid: "98718515"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99085988"
 ---
 # <a name="licensing-the-power-bi-service-for-users-in-your-organization"></a>Лицензирование службы Power BI для пользователей в организации
 
@@ -27,7 +27,7 @@ ms.locfileid: "98718515"
 
 ## <a name="who-can-purchase-and-assign-licenses"></a>Кто может приобретать и назначать лицензии?
 
-Для приобретения или назначения лицензий в организации требуется роль администратора. Она назначается с помощью центра администрирования Azure Active Directory или центра администрирования Microsoft 365. В приведенной ниже таблице показано, какая роль необходима для выполнения задач, связанных с покупкой и лицензированием. Дополнительные сведения о ролях администраторов в Azure Active Directory см. в руководстве по [просмотру и назначению ролей администратора в Azure Active Directory](/azure/active-directory/users-groups-roles/directory-manage-roles-portal). Дополнительные сведения о ролях администраторов в Microsoft 365, включая рекомендации, см. в статье [Роли администраторов](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide).
+Для приобретения или назначения лицензий в организации требуется роль администратора. Она назначается с помощью центра администрирования Azure Active Directory или центра администрирования Microsoft 365. В приведенной ниже таблице показано, какая роль необходима для выполнения задач, связанных с покупкой и лицензированием. Дополнительные сведения о ролях администраторов в Azure Active Directory см. в руководстве по [просмотру и назначению ролей администратора в Azure Active Directory](/azure/active-directory/users-groups-roles/directory-manage-roles-portal). Дополнительные сведения о ролях администраторов в Microsoft 365, включая рекомендации, см. в статье [Роли администраторов](/microsoft-365/admin/add-users/about-admin-roles).
 
 | Кто может приобретать службы и лицензии? | Кто может управлять лицензиями пользователей? |
 | --------------- | --------------- |
@@ -114,7 +114,7 @@ ms.locfileid: "98718515"
 ## <a name="next-steps"></a>Дальнейшие действия
 
 - [Приобретение и назначение лицензий Power BI Pro](service-admin-purchasing-power-bi-pro.md)
-- [Документация по бизнес-подпискам и выставлению счетов](/microsoft-365/commerce/?view=o365-worldwide)
+- [Документация по бизнес-подпискам и выставлению счетов](/microsoft-365/commerce/)
 - [Поиск пользователей Power BI, выполнивших вход](service-admin-access-usage.md)
 - Остались вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 

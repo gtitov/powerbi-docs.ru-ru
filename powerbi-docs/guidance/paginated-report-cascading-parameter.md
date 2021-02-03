@@ -2,18 +2,18 @@
 title: Каскадные параметры в отчетах с разбивкой на страницы
 description: Руководство по проектированию отчетов с разбивкой на страницы с использованием каскадных параметров.
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 01/14/2020
-ms.openlocfilehash: fca5d6556c296094e4536ecf965388e2a4224ed9
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 826c43d67d76f1f53f2bf9b45e519469b9e71c75
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417918"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99087713"
 ---
 # <a name="use-cascading-parameters-in-paginated-reports"></a>Каскадные параметры в отчетах с разбивкой на страницы
 

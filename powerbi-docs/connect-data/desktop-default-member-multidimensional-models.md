@@ -9,18 +9,18 @@ ms.subservice: pbi-data-sources
 ms.topic: conceptual
 ms.date: 01/10/2019
 LocalizationGroup: Data from files
-ms.openlocfilehash: 333651ad89e50a3debe73dfdafc0dced865553a5
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: b339117e8cba73da35759a600d3f303b93415711
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96405452"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99086410"
 ---
 # <a name="work-with-multidimensional-models-in-power-bi"></a>Работа с многомерными моделями в Power BI
 
 Power BI позволяет подключаться к многомерным моделям и создавать отчеты для визуализации всех видов данных в модели. При работе с многомерными моделями в Power BI применяются правила обработки данных с учетом того, какой столбец определен как *элемент по умолчанию*. 
 
-Также Power BI обрабатывает данные из модели с учетом того, где используется столбец, который содержит атрибут **DefaultMember**. Атрибут *DefaultMember* настаивается с помощью CSDL для определенного столбца в многомерной модели. Дополнительные сведения об элементе по умолчанию см. в описании [свойств атрибута](/sql/analysis-services/multidimensional-models/attribute-properties-define-a-default-member?view=sql-server-2017). При выполнении запроса DAX указанный в модели элемент по умолчанию применяется автоматически.
+Также Power BI обрабатывает данные из модели с учетом того, где используется столбец, который содержит атрибут **DefaultMember**. Атрибут *DefaultMember* настаивается с помощью CSDL для определенного столбца в многомерной модели. Дополнительные сведения об элементе по умолчанию см. в описании [свойств атрибута](/sql/analysis-services/multidimensional-models/attribute-properties-define-a-default-member). При выполнении запроса DAX указанный в модели элемент по умолчанию применяется автоматически.
 
 В статье описаны особенности использования Power BI при работе с многомерными моделями с учетом того, где находится *элемент по умолчанию*. 
 

@@ -7,13 +7,13 @@ ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
-ms.date: 06/18/2019
-ms.openlocfilehash: 063750445f3c8ef1fb50f77535ccf01295bd45ec
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.date: 01/28/2021
+ms.openlocfilehash: 0dca634769a7b2779d3ee4168dc2c37f1c33bd9c
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97885667"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99043167"
 ---
 # <a name="understand-data-view-mapping-in-power-bi-visuals"></a>Общие сведения о сопоставлениях представлений данных в визуальных элементах Power BI
 
@@ -429,7 +429,7 @@ export class Visual implements IVisual {
 "use strict";
 import powerbi from "powerbi-visuals-api";
 import DataView = powerbi.DataView;
-import DataViewDataViewCategoricalSingle = powerbi.DataViewCategorical;
+import DataViewCategorical = powerbi.DataViewCategorical;
 import DataViewValueColumnGroup = powerbi.DataViewValueColumnGroup;
 import PrimitiveValue = powerbi.PrimitiveValue;
 // standart imports

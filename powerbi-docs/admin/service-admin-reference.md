@@ -9,17 +9,17 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: 6afc49e0d2fe67c89d906d4715959892868b0027
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 2218889e170519e651127d4246ab61a7505735fb
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96408097"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99085619"
 ---
 # <a name="powershell-cmdlets-rest-apis-and-net-client-library-for-power-bi-administration"></a>Командлеты PowerShell, REST API и клиентская библиотека .NET для администрирования Power BI
 Power BI позволяет администраторам создавать сценарии для типовых задач с помощью командлетов PowerShell. Кроме того, это решение предоставляет интерфейсы REST API и клиентскую библиотеку .NET для разработки административных решений. В этом разделе приводится список командлетов и соответствующих API и REST API конечных точек. Для получения дополнительной информации см.
 
-- PowerShell: [загрузка](https://www.powershellgallery.com/packages/MicrosoftPowerBIMgmt/) и [документация](/powershell/power-bi/overview?view=powerbi-ps)
+- PowerShell: [загрузка](https://www.powershellgallery.com/packages/MicrosoftPowerBIMgmt/) и [документация](/powershell/power-bi/overview?view=powerbi-ps&preserve-view=true)
 - [Документация](/rest/api/power-bi/admin) по REST API
 - [Загрузка](https://www.nuget.org/packages/Microsoft.PowerBI.Api/) клиентской библиотеки .NET
 

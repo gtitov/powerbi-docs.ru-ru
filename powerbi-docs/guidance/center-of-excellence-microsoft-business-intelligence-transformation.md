@@ -2,18 +2,18 @@
 title: Преобразование бизнес-аналитики с Майкрософт
 description: Узнайте, как корпорация Майкрософт успешно развивает культуру данных для принятия бизнес-решений. Описывается стратегия и концепция бизнес-аналитики, принятая в Майкрософт.
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/19/2020
-ms.openlocfilehash: fa3f8c553fd55e77e92b4a933df332bdd8c4dc6d
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: f64fa087665aec7515737d6c4d70328c0c74b13a
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96394458"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088633"
 ---
 # <a name="microsofts-bi-transformation"></a>Преобразование бизнес-аналитики с Майкрософт
 

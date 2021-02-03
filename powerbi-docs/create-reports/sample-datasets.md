@@ -10,12 +10,12 @@ ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 03/27/2020
 LocalizationGroup: Samples
-ms.openlocfilehash: 2e14a81c6ae04048f85fae417b354a110436fc50
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: f69be1cd602c0b20c48581a5d6ee1ff034749b2a
+ms.sourcegitcommit: f7330dabb9cd8bce90bb2efec3e3273a11578f10
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96396207"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "99495140"
 ---
 # <a name="get-samples-for-power-bi"></a>Получить примеры для Power BI
 Предположим, что вы не знакомы с Power BI и хотите оценить эту службу, но у вас нет данных.  Или, возможно, вам хотелось бы просмотреть отчеты, иллюстрирующие некоторые возможности Power BI. Мы их предоставим.
@@ -42,7 +42,7 @@ Power BI предлагает различные примеры для разн
 Это можно сделать способами, показанными ниже.
 
 - Просматривать и работать с данными в [коллекции историй данных](https://community.powerbi.com/t5/Data-Stories-Gallery/Sales-amp-Returns-Sample-Report/m-p/876607) сообщества Power BI.
-- Загрузить PBIX-файл и тщательно изучить его. Загляните "за кулисы", чтобы увидеть, как Мигель сделал это. Загрузка файла начнется автоматически, если перейти по этой ссылке: [Пример отчета "Продажи и доход"](https://go.microsoft.com/fwlink/?linkid=2113239).
+- Загрузить PBIX-файл и тщательно изучить его. Загляните "за кулисы", чтобы увидеть, как Мигель сделал это. Загрузка файла начнется автоматически, если перейти по этой ссылке: [Пример отчета "Продажи и доход"](https://github.com/microsoft/powerbi-desktop-samples/blob/main/Sample%20Reports/Sales%20%26%20Returns%20Sample%20v201912.pbix).
 - Ознакомиться с этим отчетом в записи блога Power BI "[Знакомство с новым примером отчета по продажам и доходам](https://powerbi.microsoft.com/blog/take_a_tour_of_the_new_sales_returns_sample_report/)".
 
 ## <a name="sample-app-from-appsource"></a>Пример приложения в AppSource

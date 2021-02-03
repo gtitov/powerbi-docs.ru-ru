@@ -9,12 +9,12 @@ ms.subservice: powerbi-eim
 ms.topic: conceptual
 ms.date: 09/17/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: 4405b83dae3d517b16099725ab10990cc8e503f4
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: d3d5721ff3b00b4a739a95dea9070d4c5c9d26b5
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413364"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99086287"
 ---
 # <a name="data-protection-in-power-bi"></a>Защита данных в Power BI
 
@@ -36,7 +36,7 @@ Power BI играет ключевую роль в передаче аналит
 * **Отслеживать и защищать пользовательские операции с конфиденциальными данными в режиме реального времени** с помощью оповещений, мониторинга сеансов и возможности устранения рисков, используя Cloud App Security.
 * **Расширить возможности администраторов безопасности**, которые используют отчеты о защите данных и анализируют систему безопасности с помощью Microsoft Cloud App Security для улучшения уровня защиты организации.
 
-Ознакомьтесь с дополнительными сведениями о [метках конфиденциальности Microsoft Information Protection](/microsoft-365/compliance/sensitivity-labels?view=o365-worldwide) и [Cloud App Security](/cloud-app-security/what-is-cloud-app-security).
+Ознакомьтесь с дополнительными сведениями о [метках конфиденциальности Microsoft Information Protection](/microsoft-365/compliance/sensitivity-labels) и [Cloud App Security](/cloud-app-security/what-is-cloud-app-security).
 
 
 ## <a name="next-steps"></a>Дальнейшие действия

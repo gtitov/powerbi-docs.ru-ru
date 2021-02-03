@@ -2,18 +2,18 @@
 title: Развертывание в Power BI
 description: Рекомендации по развертыванию, поддержке и мониторингу содержимого при переходе в Power BI.
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/20/2020
-ms.openlocfilehash: bfa3ffad111c7ab819ed1269586a7b32ccf43bba
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 65520d7126b0bce422d018ed973f2b63b217bde9
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96419275"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99086908"
 ---
 # <a name="deploy-to-power-bi"></a>Развертывание в Power BI
 

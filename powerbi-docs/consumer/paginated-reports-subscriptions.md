@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 01/22/2021
-ms.openlocfilehash: 88293bbfc39f75472422e6785099421efcd45802
-ms.sourcegitcommit: e8c3f327ac0fc73c118874a24d2601733f8f9e45
+ms.openlocfilehash: 5817bf3752a03361be4e982faf10dffb67bda0b5
+ms.sourcegitcommit: 1872a167d1e4d731ad00cf8a6d951c31aa54bcce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2021
-ms.locfileid: "98718538"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "98925790"
 ---
 # <a name="subscribe-yourself-and-others-to-paginated-reports-in-the-power-bi-service"></a>Создание подписки на отчет с разбивкой на страницы в службе Power BI для себя и других пользователей 
 
@@ -29,7 +29,7 @@ ms.locfileid: "98718538"
 
 - Вы можете включить изображение предварительного просмотра для отчета в текст сообщения электронной почты.  Это необязательный элемент, который может немного отличаться от первой страницы вложенного документа отчета в зависимости от выбранного формата вложения. 
 
-- Максимальный размер вложения отчета — 24 МБ. 
+- Максимальный размер вложения отчета равен 25 МБ. 
 
 - Вы можете подписать других пользователей на отчеты с разбивкой на страницы, которые подключены к поддерживаемым сейчас источникам данных, включая наборы данных Power BI или Azure Analysis Services. Помните, что вложение отчета отражает данные на основе ваших разрешений, как это происходит и в SQL Server Reporting Services. 
 

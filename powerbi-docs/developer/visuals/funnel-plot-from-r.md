@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 04/02/2020
-ms.openlocfilehash: f1f8c037a3ceb66d8ffb5abab6bccd4ec9bc7adc
-ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
+ms.openlocfilehash: 3d618735f2783e0fce0be938fbdcac7beb5d399e
+ms.sourcegitcommit: f7330dabb9cd8bce90bb2efec3e3273a11578f10
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97969565"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "99495117"
 ---
 # <a name="tutorial-build-a-funnel-plot-from-r-script-to-r-visual"></a>Руководство по Создание визуального элемента R с воронкообразной диаграммой из скрипта R
 В этой статье показано, как пошагово создать воронкообразную диаграмму с помощью скрипта R в визуальном элементе R.
@@ -270,7 +270,7 @@ ms.locfileid: "97969565"
 
 * Вам не обязательно разрабатывать визуальные элементы R с нуля, так как вы можете использовать код с [GitHub](https://github.com/Microsoft?utf8=%E2%9C%93&q=PowerBI&type=&language=R). Вы можете выбрать визуальный элемент для использования в качестве шаблона и скопировать код в новый проект.
 
-   Например, попробуйте использовать [настраиваемый визуальный элемент сплайна](https://github.com/PowerBi-Projects/PowerBI-visuals-spline).
+   Например, попробуйте использовать [настраиваемый визуальный элемент сплайна](https://github.com/microsoft/PowerBI-visuals-spline).
 
 * Каждый визуальный элемент R применяет оператор `unique` к своей входной таблице. Чтобы избежать удаления одинаковых строк, попробуйте добавить дополнительное поле ввода с уникальным идентификатором и проигнорировать его в коде R.   
 

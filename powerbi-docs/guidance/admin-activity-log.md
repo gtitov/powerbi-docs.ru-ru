@@ -2,18 +2,18 @@
 title: Доступ к журналу действий Power BI
 description: Руководство и пример кода сценария PowerShell для работы с журналом действий Power BI.
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: sample
 ms.date: 09/03/2020
-ms.openlocfilehash: 18ce155419f712cce2c4973949cd02ffbd870724
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 0e86966225060c24aa154c0b29ea533dad89908b
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96394665"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088702"
 ---
 # <a name="access-the-power-bi-activity-log"></a>Доступ к журналу действий Power BI
 
@@ -30,7 +30,7 @@ ms.locfileid: "96394665"
 - Получение списка пользователей для прямого общего доступа к отчетам.
 
 > [!NOTE]
-> Вам необходимы базовые знания об [API администрирования Power BI](/rest/api/power-bi/admin) и [модулях PowerShell для Power BI](/powershell/power-bi/overview?view=powerbi-ps). Перед выполнением этих блоков сценариев следует установить модули PowerShell. Дополнительные сведения см. в разделе [Отслеживание действий пользователей в Power BI](../admin/service-admin-auditing.md#use-the-activity-log).
+> Вам необходимы базовые знания об [API администрирования Power BI](/rest/api/power-bi/admin) и [модулях PowerShell для Power BI](/powershell/power-bi/overview?view=powerbi-ps&preserve-view=true). Перед выполнением этих блоков сценариев следует установить модули PowerShell. Дополнительные сведения см. в разделе [Отслеживание действий пользователей в Power BI](../admin/service-admin-auditing.md#use-the-activity-log).
 >
 > Получение событий Power BI может происходить с задержкой до 30 минут.
 

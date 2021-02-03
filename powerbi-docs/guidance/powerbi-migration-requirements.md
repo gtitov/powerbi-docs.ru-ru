@@ -2,18 +2,18 @@
 title: Сбор требований для миграции в Power BI
 description: Рекомендации по сбору требований и определению их приоритетности при миграции в Power BI.
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/20/2020
-ms.openlocfilehash: 2aee1be1d5e221f8feaeae05f8284f0388b4b8af
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 13cac1198010b9cd53d9fd3af2b9575d2f9b3809
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418562"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99087138"
 ---
 # <a name="gather-requirements-to-migrate-to-power-bi"></a>Сбор требований для миграции в Power BI
 

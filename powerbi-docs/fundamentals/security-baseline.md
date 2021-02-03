@@ -8,12 +8,12 @@ ms.subservice: pbi-security
 ms.topic: conceptual
 ms.date: 11/20/2020
 ms.custom: subject-security-benchmark
-ms.openlocfilehash: a76c7f9d205fe47322768a514a1e5d89a36a2306
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
+ms.openlocfilehash: 04a971aa6d1e584866ff7740676ab35b2e0e17af
+ms.sourcegitcommit: f7330dabb9cd8bce90bb2efec3e3273a11578f10
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98565743"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "99494887"
 ---
 # <a name="azure-security-baseline-for-power-bi"></a>Базовые параметры безопасности Azure для Power BI
 
@@ -166,7 +166,7 @@ Power BI поддерживает политики сеансов в Azure AD 
 
 - [Роли администратора, связанные с Power BI](../admin/service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi)
 
-- [Управление привилегированным доступом в M365](/microsoft-365/compliance/privileged-access-management-overview?amp;preserve-view=true&view=o365-worldwide)
+- [Управление привилегированным доступом в M365](/microsoft-365/compliance/privileged-access-management-overview?view=o365-worldwide&preserve-view=true)
 
 - [Элементы управления Microsoft Cloud App Security в Power BI](../admin/service-security-using-microsoft-cloud-app-security-controls.md)
 
@@ -178,7 +178,7 @@ Power BI поддерживает политики сеансов в Azure AD 
 
 **Инструкции**: ограничьте число учетных записей или ролей с высоким уровнем привилегий и доступа к Power BI.
 
-Можно включить привилегированный доступ JIT, воспользовавшись инструкциями по управлению привилегированным доступом M365, которые представлены [здесь](/microsoft-365/compliance/privileged-access-management-overview?amp;preserve-view=true&view=o365-worldwide).
+Можно включить привилегированный доступ JIT, воспользовавшись инструкциями по управлению привилегированным доступом M365, которые представлены [здесь](/microsoft-365/compliance/privileged-access-management-overview?view=o365-worldwide&preserve-view=true).
 
 Дополнительные сведения см. на странице 183 документа по развертыванию Power BI Enterprise в [этой статье](https://aka.ms/PBIEnterpriseDeploymentWP).
 
@@ -221,7 +221,7 @@ Power BI поддерживает политики сеансов в Azure AD 
 **Инструкции**: защищенные изолированные рабочие станции критически важны для защиты привилегированных ролей, таких как администраторы, разработчики и критические операторы обслуживания. Используйте высокозащищенные рабочие станции пользователей и (или) Бастион Azure для выполнения административных задач, связанных с управлением Power BI. Чтобы развернуть защищенную и управляемую рабочую станцию для административных задач, используйте Azure Active Directory, Advanced Threat Protection в Microsoft Defender и (или) Microsoft Intune. Защищенными рабочими станциями можно централизованно управлять, чтобы обеспечить безопасную настройку, включая строгую проверку подлинности, базовые параметры программного обеспечения и оборудования, ограниченный логический и сетевой доступ.
 
 Общие сведения о привилегированном доступе
-- [рабочие станции](/azure/active-directory/devices/concept-azure-managed-workstation)
+- [рабочие станции](https://4sysops.com/archives/understand-the-microsoft-privileged-access-workstation-paw-security-model/)
 
 - [Развертывание рабочей станции с привилегированным доступом](/azure/active-directory/devices/howto-azure-managed-workstation)
 
@@ -533,7 +533,7 @@ Azure Resource Graph может запрашивать и обнаруживат
  
 Защита от угроз (Майкрософт) применяет корреляционную аналитику и объединяет все связанные оповещения и расследования от различных продуктов в одном инциденте. Защита от угроз (Майкрософт) также инициирует получение уникальных оповещений о действиях, которые могут быть идентифицированы только как вредоносные, с учетом полной видимости, которую Защита от угроз (Майкрософт) использует для всей организации и набора продуктов. Таким образом, Защита от угроз (Майкрософт) предоставляет более обширную историю атаки, позволяя аналитику в области безопасности понять сложные угрозы для организации и справиться с ними.
 
-- [Определение приоритета инцидентов в службе Защиты от угроз (Майкрософт)](/microsoft-365/security/mtp/incident-queue?amp;preserve-view=true&view=o365-worldwide)
+- [Определение приоритета инцидентов в службе Защиты от угроз (Майкрософт)](/microsoft-365/security/mtp/incident-queue?view=o365-worldwide&preserve-view=true)
 
 **Мониторинг Центра безопасности Azure**: Неприменимо
 

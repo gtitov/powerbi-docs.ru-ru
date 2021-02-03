@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: troubleshooting
 ms.date: 10/24/2019
-ms.openlocfilehash: 943c8283d48b4281d2ddb5d7eeed0e69db4ee6fc
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: ae73a14763babb4bf3d2c2a80d1b90d8a1cff76f
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96405314"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99086494"
 ---
 # <a name="troubleshoot-developing-directquery-models-in-power-bi-desktop"></a>Устранение неполадок с разработкой моделей DirectQuery в Power BI Desktop
 
@@ -54,7 +54,7 @@ ms.locfileid: "96405314"
 
 В этой папке находится вложенная папка _\Data_, содержащая файл трассировки FlightRecorderCurrent.trc для текущего сеанса Power BI. Соответствующая папка рабочей области удаляется по завершении связанного сеанса Power BI Desktop.
 
-Файлы трассировки можно открыть с помощью средства SQL Server Profiler, которое доступно для скачивания бесплатно в составе SQL Server Management Studio. Получить SQL Server Management Studio вы можете из [этого расположения](/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017).
+Файлы трассировки можно открыть с помощью средства SQL Server Profiler, которое доступно для скачивания бесплатно в составе SQL Server Management Studio. Получить SQL Server Management Studio вы можете из [этого расположения](/sql/ssms/download-sql-server-management-studio-ssms).
 
 После скачивания и установки SQL Server Management Studio запустите SQL Server Profiler.
 

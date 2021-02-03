@@ -8,13 +8,13 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.date: 07/28/2020
-ms.openlocfilehash: 6d63e8825965a18d2ea5b6d56112c3a063c3456e
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 01/25/2021
+ms.openlocfilehash: ba0fada8ed167b9ba788f4f0d2f9ab9e900dcde4
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418079"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99044294"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Сравнение решения "Сервер отчетов Power BI" и службы Power BI
 
@@ -43,7 +43,7 @@ ms.locfileid: "96418079"
 | Анализ в Excel | Нет | Да | [Анализ в Excel](../collaborate-share/service-analyze-in-excel.md) 
 | Отчеты с разбивкой на страницы | Да | Да | [Отчеты с разбивкой на страницы доступны в службе Power BI](../paginated-reports/paginated-reports-report-builder-power-bi.md) в предварительной версии для емкости Premium. |
 | Мобильные приложения Power BI | Да | Да | [Обзор мобильных приложений Power BI](../consumer/mobile/mobile-apps-for-mobile-devices.md) |
-| Карты ArcGIS | Нет | Да | [Карты ArcGIS от ESRI в службе Power BI и Power BI Desktop](../visuals/power-bi-visualizations-arcgis.md) |
+| ArcGIS for Power BI. | Да | Да | [ArcGIS for Power BI](../visuals/power-bi-visualizations-arcgis.md). |
 | Подписки по электронной почте на отчеты Power BI | Нет | Да | [Создание подписки](../collaborate-share/service-report-subscribe.md) на отчеты и панели мониторинга в службе Power BI для себя или других пользователей |
 | Подписки по электронной почте на отчеты с разбивкой на страницы | Да | Да | [Создание подписки на отчет с разбивкой на страницы в службе Power BI для себя и других пользователей](../consumer/paginated-reports-subscriptions.md)<br><br>[Доставка электронной почты в Reporting Services](/sql/reporting-services/working-with-subscriptions-web-portal)  |
 | Оповещения о данных | Нет | Да | [Оповещения о данных](../create-reports/service-set-data-alerts.md) в службе Power BI

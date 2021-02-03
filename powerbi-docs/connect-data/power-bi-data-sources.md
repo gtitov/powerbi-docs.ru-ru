@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: conceptual
 ms.date: 12/14/2020
-ms.openlocfilehash: 67a0577c906e23fc51182120f1445814bdcd8028
-ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
+ms.openlocfilehash: def849c9a3b867f181dbc91628260cf24491e855
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97491835"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99087943"
 ---
 # <a name="power-bi-data-sources"></a>Источники данных Power BI
 
@@ -44,7 +44,7 @@ ms.locfileid: "97491835"
 | Хранилище таблиц Azure | Да | Да | Нет | Да | Нет | Да |
 | Соединитель BI | Да | Да | Да | Да | Да | Нет |
 | BI360 — отчеты по бюджетам и финансам | Да | Да | Нет | нет | Нет | Нет |
-| Microsoft Dataverse | Да | Да | нет | Нет | Нет | Да |
+| Microsoft Dataverse | Да | Да | Да | Нет | Нет | Да |
 | Data.World — получение набора данных | Да | Да | Нет | Нет | Нет | Нет |
 | Denodo | Да | Да | Да | Да | Да | Нет |
 | Dremio | Да | Да | Да | Да | Да | нет |
