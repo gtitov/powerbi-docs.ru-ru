@@ -9,6 +9,8 @@
           href: embedding.md
         - name: "Что такое Power\_BI Embedded в\_Azure"
           href: azure-pbie-what-is-power-bi-embedded.md
+        - name: "Что такое Power\_BI Embedded 2-го поколения"
+          href: power-bi-embedded-generation-2.md
     - name: Учебники
       expanded: true
       items:
@@ -26,7 +28,7 @@
       items:
         - name: Емкость и номера SKU в аналитике Power BI Embedded
           href: embedded-capacity.md
-        - name: Планирование ресурсов
+        - name: Планирование емкостей
           href: embedded-capacity-planning.md
         - name: Рекомендации по созданию токена внедрения
           href: generate-embed-token.md
