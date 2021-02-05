@@ -12,24 +12,24 @@ metadata:
   ms.collection: collection
   author: maggiesMSFT
   ms.author: maggies
-  ms.date: 12/16/2020
-  ms.openlocfilehash: be6ec499d78d3ba5f3899fcb8556296568a40319
-  ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
+  ms.date: 02/03/2021
+  ms.openlocfilehash: 8f8956075030eee75077b9da9b6fccca94b73546
+  ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 12/17/2020
-  ms.locfileid: "97621862"
+  ms.lasthandoff: 02/04/2021
+  ms.locfileid: "99533057"
 highlightedContent:
   items:
   - title: Начало работы с Power BI Desktop
     itemType: get-started
     url: fundamentals/desktop-getting-started.md
-  - title: DirectQuery для наборов данных Power BI и Azure Analysis
+  - title: Интерфейсы API клиента для аналитики Power BI Embedded
+    itemType: overview
+    url: /javascript/api/overview/powerbi/
+  - title: Обнаружение наборов данных с помощью центра наборов данных (предварительная версия)
     itemType: concept
-    url: connect-data/desktop-directquery-datasets-azure-analysis-services.md
-  - title: Использование моделей Машинного обучения Azure в Power BI
-    itemType: tutorial
-    url: connect-data/service-aml-integrate.md
+    url: connect-data/service-datasets-hub.md
   - title: Power BI в Microsoft Learn
     itemType: learn
     url: /learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link
@@ -234,13 +234,24 @@ conceptualContent:
 additionalContent:
   sections:
   - title: Связанные инструменты
-  - items:
+    items:
     - title: Cервере отчетов Power BI
       summary: Сервер отчетов Power BI — это локальный сервер отчетов с веб-порталом, на котором можно просматривать отчеты, отчеты с разбивкой на страницы и ключевые показатели эффективности Power BI, а также управлять ими.
       url: report-server/index.yml
     - title: REST API в Power BI
       summary: Интерфейсы REST API Power BI предоставляют конечные точки служб для внедрения, администрирования и работы с пользовательскими ресурсами.
       url: /rest/api/power-bi/
-    - title: Документация по Microsoft Power Platform
-      summary: Сведения о том, как решения Power BI, Power Apps, Power Automate и Power Virtual Agents работают вместе и дополняют друг друга.
-      url: /power-platform/
+    - title: Интерфейсы API клиента для аналитики Power BI Embedded
+      summary: Клиентская библиотека для внедрения Power BI с помощью JavaScript или TypeScript.
+      url: /javascript/api/overview/powerbi/
+  - title: Другие продукты Microsoft Power Platform
+    items:
+    - title: Power Apps
+      summary: Создавайте приложения быстро и с минимальным написанием кода для модернизации процессов и решения сложных бизнес-задач в организации.
+      url: /powerapps/
+    - title: Power Automate
+      summary: Создавайте автоматизированные рабочие процессы между часто используемыми приложениями и службами, чтобы синхронизировать файлы, получать уведомления и выполнять другие действия.
+      url: /power-automate/
+    - title: Power Virtual Agents
+      summary: Создавайте мощных ботов с помощью интерактивного графического интерфейса без написания кода, не задействуя программистов и специалистов по обработке и анализу данных.
+      url: /power-virtual-agents/
