@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 11/11/2020
+ms.date: 01/28/2021
 LocalizationGroup: Premium
-ms.openlocfilehash: f74d667cd95f1fd34d97c3942ac6ab44d083d4c3
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: c4e50f7fa0c8f3313b3e7e58001ae33d8c327d85
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96408396"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99043144"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Как купить Power BI Premium
 
@@ -22,7 +22,7 @@ ms.locfileid: "96408396"
 
 - Использование номеров SKU P для типичных рабочих сценариев. Для номеров SKU P требуется фиксировать ежемесячное или ежегодное обязательство, а счета выставляются ежемесячно.
 
-Дополнительные сведения о Power BI Premium см. в статье [Что такое Power BI Premium?](service-premium-what-is.md). Актуальные цены и сведения о планировании см. на [странице цен на Power BI](https://powerbi.microsoft.com/pricing/) и воспользуйтесь [калькулятором Power BI Premium](https://powerbi.microsoft.com/calculator/). Авторам содержимого по-прежнему требуется [лицензия Power BI Pro](service-admin-purchasing-power-bi-pro.md), даже если в организации используется Power BI Premium. Для организации необходимо приобрести по меньшей мере одну лицензию Power BI Pro. При использовании номеров SKU A _всем пользователям_, которые потребляют содержимое, также требуются лицензии Pro.
+Дополнительные сведения о Power BI Premium см. в статье [Что такое Power BI Premium?](service-premium-what-is.md). Актуальные цены и сведения о планировании см. на [странице цен на Power BI](https://powerbi.microsoft.com/pricing/). Авторам содержимого по-прежнему требуется [лицензия Power BI Pro](service-admin-purchasing-power-bi-pro.md), даже если в организации используется Power BI Premium. Для организации необходимо приобрести по меньшей мере одну лицензию Power BI Pro. При использовании номеров SKU A _всем пользователям_, которые потребляют содержимое, также требуются лицензии Pro.
 
 > [!NOTE]
 > Если срок действия подписки Premium истекает, у вас есть 30 дней полного доступа к емкости. После этого ваше содержимое будет размещено в общей емкости. В общей емкости не поддерживаются модели, размер которых превышает 1 ГБ.
@@ -117,7 +117,6 @@ ms.locfileid: "96408396"
 
 [Настройка и администрирование емкостей Power BI Premium](service-admin-premium-manage.md)\
 [Страница цен на Power BI](https://powerbi.microsoft.com/pricing/)\
-[Калькулятор Power BI Premium](https://powerbi.microsoft.com/calculator/)\
 [Вопросы и ответы по Power BI Premium](service-premium-faq.md)\
 [Технический документ по планированию развертывания Power BI Enterprise](https://aka.ms/pbienterprisedeploy)
 

@@ -8,15 +8,15 @@ ms.service: powerbi
 ms.subservice: pbi-explore
 Ms.custom: css_fy20Q4
 ms.topic: how-to
-ms.date: 01/25/2021
+ms.date: 02/01/2021
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: a3492383d5341518de178419afe29df1af8fa26b
-ms.sourcegitcommit: 5c5a27aa7ba21612df4c4096e635dfe4b9aaebcf
+ms.openlocfilehash: 4ec3b034822ca9db86bc8d481588d44ae44158a1
+ms.sourcegitcommit: f7330dabb9cd8bce90bb2efec3e3273a11578f10
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "98861268"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "99495163"
 ---
 # <a name="licenses-and-subscriptions-for-business-users"></a>Лицензии и подписки для *бизнес-пользователей*
 
@@ -36,7 +36,7 @@ ms.locfileid: "98861268"
 
 ## <a name="licenses"></a>Лицензии
 
-Каждый пользователь службы Power BI имеет *бесплатную* лицензию, лицензию *Pro* или лицензию *Premium на пользователя**. Если вы являетесь *бизнес-пользователем* Power BI, вы, вероятно, используете лицензию, управляемую администратором Power BI.
+Каждый пользователь службы Power BI имеет *бесплатную* лицензию, лицензию *Pro* или лицензию *Premium на пользователя* *. Если вы являетесь *бизнес-пользователем* Power BI, вы, вероятно, используете лицензию, управляемую администратором Power BI.
 
 Одновременно можно иметь несколько лицензий.  Возможности в службе всегда соответствуют лицензии с разрешениями самого высокого уровня.
 

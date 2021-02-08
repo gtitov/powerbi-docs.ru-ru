@@ -2,18 +2,18 @@
 title: Связи модели в Power BI Desktop
 description: Введение в теорию о связях моделей в Power BI Desktop
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: pbi-transform-model
 ms.topic: conceptual
 ms.date: 10/15/2019
-ms.openlocfilehash: 7aeae77efeadfa3b39f9c39cadc36b2a046286b2
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: 101207fe60f4e66344b936bdef2c4b18d9ab947f
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97888583"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088173"
 ---
 # <a name="model-relationships-in-power-bi-desktop"></a>Связи модели в Power BI Desktop
 
@@ -53,7 +53,7 @@ ms.locfileid: "97888583"
 
 ### <a name="cardinality"></a>Кратность
 
-Связь между моделями должна быть определена с помощью типа кратности. Есть четыре варианта типа кратности, представляющие характеристики данных связанных столбцов отправителя и получателя. Одна сторона означает, что в столбце содержатся уникальные значения, а две стороны — что в столбце могут содержаться дублирующиеся значения.
+Связь между моделями должна быть определена с помощью типа кратности. Есть четыре варианта типа кратности, представляющие характеристики данных связанных столбцов отправителя и получателя. Сторона "один" означает, что в столбце содержатся уникальные значения, а сторона "многие" — что в столбце могут содержаться дублирующиеся значения.
 
 > [!NOTE]
 > Если при обновлении данных происходит попытка загрузить дублирующиеся значения в "односторонний" столбец, вся операция завершится ошибкой.

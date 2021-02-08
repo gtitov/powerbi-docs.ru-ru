@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.custom: ''
 ms.date: 09/22/2020
-ms.openlocfilehash: 890b3c8124cc1711e08415cdcfda1f51b548fa63
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 68494784e3c5b21c0c3e15bd5a3a816fd07e5f8b
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91983075"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99043558"
 ---
 # <a name="upgrade-power-bi-report-server"></a>Обновить сервер отчетов Power BI
 
@@ -22,7 +22,7 @@ ms.locfileid: "91983075"
 
  **Скачать** ![Значок скачивания](media/upgrade/download.png "Значок скачивания")
 
-Чтобы скачать сервер отчетов Power BI и службу Power BI Desktop, оптимизированную для сервера отчетов Power BI, перейдите на страницу [Локальная работа с отчетами с использованием сервера Power BI Report Server](https://powerbi.microsoft.com/report-server/).
+Чтобы скачать Сервер отчетов Power BI и приложение Power BI Desktop для Сервера отчетов Power BI, перейдите на страницу [Локальная работа с отчетами с использованием сервера Power BI Report Server](https://powerbi.microsoft.com/report-server/).
 
 ## <a name="before-you-begin"></a>Перед началом
 
@@ -38,7 +38,7 @@ ms.locfileid: "91983075"
 
 * Используйте полную модель восстановления для создания резервной копии базы данных **reportserver**.
 * Используйте простую модель восстановления для создания резервной копии базы данных **reportservertempdb**.
-* Можно использовать разные расписания для резервного копирования каждой базы данных. Единственная причина создания резервной копии базы данных **reportservertempdb** состоит в том, чтобы избежать ее повторного создания в случае сбоя оборудования. В случае сбоя оборудования нет необходимости восстанавливать данные в базе данных **reportservertempdb**, однако необходима структура таблицы. При утере базы данных **reportservertempdb**единственный способ вернуть ее — это повторно создать базу данных сервера отчетов. При повторном создании базы данных **reportservertempdb** важно, чтобы она имела то же имя, что и первичная база данных сервера отчетов.
+* Можно использовать разные расписания для резервного копирования каждой базы данных. Единственная причина создания резервной копии базы данных **reportservertempdb** состоит в том, чтобы избежать ее повторного создания в случае сбоя оборудования. В случае сбоя оборудования нет необходимости восстанавливать данные в базе данных **reportservertempdb**, однако необходима структура таблицы. При утере базы данных **reportservertempdb** единственный способ вернуть ее — это повторно создать базу данных сервера отчетов. При повторном создании базы данных **reportservertempdb** важно, чтобы она имела то же имя, что и первичная база данных сервера отчетов.
 
 Дополнительные сведения об архивации и восстановлении реляционных баз данных SQL Server см. в [этой статье](/sql/relational-databases/backup-restore/back-up-and-restore-of-sql-server-databases).
 
@@ -82,12 +82,12 @@ ms.locfileid: "91983075"
 
 ## <a name="upgrade-power-bi-desktop"></a>Обновление Power BI Desktop
 
-После обновления сервера отчетов необходимо, чтобы все авторы отчетов Power BI обновились до версии Power BI Desktop, оптимизированной для сервера отчетов Power BI и соответствующей ему.
+После обновления сервера отчетов необходимо, чтобы все авторы отчетов Power BI обновились до версии Power BI Desktop для Сервера отчетов Power BI, соответствующей версии сервера.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
 * [Обзор функций администратора](admin-handbook-overview.md)  
-* [Установка приложения Power BI Desktop, оптимизированного для сервера отчетов Power BI](install-powerbi-desktop.md)  
+* [Установка Power BI Desktop для Сервера отчетов Power BI](install-powerbi-desktop.md)  
 * [Verify a Reporting Services installation](/sql/reporting-services/install-windows/verify-a-reporting-services-installation) (Проверка установки служб Reporting Services)  
 * [Configure the Report Server Service Account (SSRS Configuration Manager)](/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager) (Настройка учетной записи службы сервера отчетов (System Center Configuration Manager))  
 * [Configure Report Server URLs (SSRS Configuration Manager)](/sql/reporting-services/install-windows/configure-report-server-urls-ssrs-configuration-manager) (Настройка URL-адресов сервера отчетов (System Center Configuration Manager))  

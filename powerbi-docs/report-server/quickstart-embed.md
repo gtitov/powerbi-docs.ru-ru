@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.openlocfilehash: 698f12f4bf5266373be8393d2add45d70979ab41
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 8141b5049d777d27208e2db4b026a3fad4b74cfe
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418447"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99043121"
 ---
 # <a name="embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>По внедрению отчета решения "Сервер отчетов Power BI" с помощью iFrame в SharePoint Server
 
@@ -23,7 +23,7 @@ ms.locfileid: "96418447"
 
 ## <a name="prerequisites"></a>Предварительные требования
 * Установленный и настроенный [Сервер отчетов Power BI](https://powerbi.microsoft.com/report-server/).
-* Установленное [приложение Power BI Desktop, оптимизированное для Сервера отчетов Power BI](install-powerbi-desktop.md).
+* Установленное приложение [Power BI Desktop для Сервера отчетов Power BI](install-powerbi-desktop.md).
 * Установленная и настроенная [среда SharePoint 2013, 2016 или 2019](/sharepoint/install/install).
 * Internet Explorer 11 поддерживается, только если для режима документа установлен режим IE11 (Microsoft Edge) или при использовании SharePoint Online. Вы можете использовать другие поддерживаемые браузеры в локальной среде SharePoint и в SharePoint Online.
 
@@ -33,7 +33,7 @@ ms.locfileid: "96418447"
 
     ![Скачивание примера PBIX-файла](media/quickstart-embed/quickstart_embed_14.png)
 
-2. Распакуйте файл и откройте пример PBIX-файла в Power BI Desktop, оптимизированном для Сервера отчетов Power BI.
+2. Распакуйте файл и откройте пример PBIX-файла в Power BI Desktop для Сервера отчетов Power BI.
 
     ![Средство сервера отчетов для Power BI Desktop](media/quickstart-embed/quickstart_embed_02.png)
 

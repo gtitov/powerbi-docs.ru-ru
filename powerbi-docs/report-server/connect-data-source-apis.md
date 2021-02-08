@@ -8,24 +8,24 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 10/26/2020
-ms.openlocfilehash: 4e1947abe0fa0f17e1db92619f0aa7fba5df5575
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: b7f431ba6b8f559380916c17689d0eab74a0c9a7
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96415480"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99044317"
 ---
 # <a name="change-data-source-connection-strings-in-power-bi-reports-with-powershell---power-bi-report-server"></a>Изменение строк подключения к источникам данных в отчетах Power BI с помощью PowerShell — сервер отчетов Microsoft Power BI
 
 
-Начиная с выпуска Сервера отчетов Power BI за октябрь 2020 г., мы предоставляем возможность обновлять подключения для отчетов Power BI для DirectQuery.
+Начиная с выпуска Сервера отчетов Power BI за октябрь 2020 г., мы предоставляем возможность обновлять подключения к отчетам Power BI для DirectQuery.
 
 > [!IMPORTANT]
 > Это также является критическим изменением по сравнению с тем, как аналогичную настройку можно выполнить в предыдущих выпусках. Если вы используете версию Сервера отчетов Power BI, выпущенную до октября 2020 г., см. раздел [Изменение строк подключения к источникам данных в отчетах Power BI с помощью PowerShell — Сервер отчетов Power BI (до октября 2020 г.)](connect-data-source-apis-pre-oct-2020.md).
 
 ## <a name="prerequisites"></a>Предварительные требования.
-- Скачайте выпуск [Сервера отчетов Power BI за октябрь 2020 г. и оптимизированную для него версию Power BI Desktop](https://powerbi.microsoft.com/report-server/).
-- Отчет, сохраненный в выпуске Power BI Desktop за октябрь 2020 г., оптимизированном для Сервера отчетов, с включенными **расширенными метаданными наборов данных**.
+- Скачайте выпуск [Сервера отчетов Power BI и приложения Power BI Desktop для Сервера отчетов Power BI](https://powerbi.microsoft.com/report-server/) за октябрь 2020 г. или более поздний.
+- Отчет, сохраненный в выпуске Power BI Desktop для Сервера отчетов за октябрь 2020 г. или более позднем, с включенными **расширенными метаданными наборов данных**.
 - Отчет, использующий параметризованные соединения. Только отчеты с параметризованными соединениями и базами данных могут быть обновлены после публикации.
 - В этом примере используются инструменты PowerShell Reporting Services. Вы можете добиться того же результата с помощью новых REST API.
 

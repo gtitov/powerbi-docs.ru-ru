@@ -9,12 +9,12 @@ ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 01/04/2021
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 134c11108da77c87ba087df9ac5564521d7a303d
-ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
+ms.openlocfilehash: 32029ee1c5b19205fafe10c77babfe9bf764341d
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97926390"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99086471"
 ---
 # <a name="connect-to-an-oracle-database-with-power-bi-desktop"></a>Подключение к базе данных Oracle с помощью Power BI Desktop
 Для подключения к базе данных Oracle с помощью Power BI Desktop необходимо установить правильное программное обеспечение клиента Oracle на компьютере, где выполняется Power BI Desktop. Используемое клиентское программное обеспечение Oracle зависит от того, какую версию Power BI Desktop вы установили: 32-разрядную или 64-разрядную. Это также зависит от версии сервера Oracle.
@@ -24,7 +24,7 @@ ms.locfileid: "97926390"
 - Клиент доступа к данным Oracle (ODAC) — программное обеспечение версии 11.2 и более поздней
 
 > [!NOTE]
-> Если вы настраиваете базу данных Oracle для сервера отчетов Power BI Desktop, локальный шлюз данных или сервер отчетов Power BI, см. статью [Тип соединения Oracle (построитель отчетов и сервер отчетов Power BI)](/sql/reporting-services/report-data/oracle-connection-type-ssrs?view=sql-server-ver15). 
+> Если вы настраиваете базу данных Oracle для сервера отчетов Power BI Desktop, локальный шлюз данных или сервер отчетов Power BI, см. статью [Тип соединения Oracle (построитель отчетов и сервер отчетов Power BI)](/sql/reporting-services/report-data/oracle-connection-type-ssrs). 
 
 
 ## <a name="determining-which-version-of-power-bi-desktop-is-installed"></a>Определение установленной версии Power BI Desktop
@@ -58,7 +58,7 @@ ms.locfileid: "97926390"
    > [!NOTE]
    > Если вы используете локальную базу данных или автономные подключения к базе данных, вам может потребоваться поместить имя сервера в кавычки, чтобы избежать ошибок подключения. 
       
-4. Если вы хотите импортировать данные с помощью собственного запроса к базе данных, запрос можно поместить в поле **Инструкция SQL**, которое появляется при развертывании раздела **Дополнительные параметры** диалогового окна **База данных Oracle**.
+4. Если вы хотите импортировать данные с помощью собственного запроса к базе данных, запрос можно поместить в поле **Инструкция SQL**, которое появляется при развертывании раздела **Дополнительные параметры** диалогового окна **База данных Oracle**.  Power BI Desktop не поддерживает собственные запросы Oracle, которые выполняют хранимую процедуру. Собственные запросы Oracle в блоке "begin ... end" не возвращают результирующий набор.  
    
    ![Развертывание раздела "Дополнительные параметры"](media/desktop-connect-oracle-database/connect-oracle-database_4.png)
 
@@ -89,4 +89,5 @@ ms.locfileid: "97926390"
 
 Если при подключении к базе данных Oracle в Power BI Gateway отображается сообщение об ошибке *Ссылка на объект не задана*, выполните инструкции в разделе [Управление своим источником данных — Oracle](service-gateway-onprem-manage-oracle.md).
 
-Если вы используете Сервер отчетов Power BI, см. сведения о [типе соединения Oracle](/sql/reporting-services/report-data/oracle-connection-type-ssrs?view=sql-server-ver15).
+Если вы используете Сервер отчетов Power BI, см. сведения о [типе соединения Oracle](/sql/reporting-services/report-data/oracle-connection-type-ssrs).
+

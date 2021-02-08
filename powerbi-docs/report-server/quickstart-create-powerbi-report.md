@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 07/24/2020
-ms.openlocfilehash: 965c3837b2d0153716442ea37b52b468be9742fb
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e3c4d97ba6d5ba43e05feecca6a1f0d0c27c89aa
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96414123"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99043810"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Создание отчета Power BI для Сервера отчетов Power BI
 Отчеты Power BI можно хранить и администрировать локально на веб-портале Сервера отчетов Power BI так же, как и в облачной службе Power BI (https://powerbi.com). Вы можете создавать и редактировать отчеты в приложении Power BI Desktop, а затем публиковать их на веб-портале. Затем можно сообщить читателям в вашей организации о том, что эти отчеты можно просматривать в браузере или мобильном приложении Power BI на мобильных устройствах.
@@ -22,13 +22,13 @@ ms.locfileid: "96414123"
 
 Ниже описаны четыре шага, с помощью которых можно приступить к работе.
 
-## <a name="step-1-install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Шаг 1. Установка приложения Power BI Desktop, оптимизированного для сервера отчетов Power BI
+## <a name="step-1-install-power-bi-desktop-for-power-bi-report-server"></a>Шаг 1. Установка Power BI Desktop для Сервера отчетов Power BI
 
-Если вы уже создавали отчеты Power BI в приложении Power BI Desktop, то вы практически готовы создавать отчеты Power BI для сервера отчетов Power BI. Рекомендуется установить версию Power BI Desktop, оптимизированную для сервера отчетов Power BI, так как это обеспечит постоянную синхронизацию сервера с приложением. Обе версии Power BI Desktop можно установить на одном компьютере.
+Если вы уже создавали отчеты Power BI в приложении Power BI Desktop, то вы практически готовы создавать отчеты Power BI для сервера отчетов Power BI. Рекомендуется установить версию Power BI Desktop для Сервера отчетов Power BI, так как это обеспечит постоянную синхронизацию сервера с приложением. Обе версии Power BI Desktop можно установить на одном компьютере.
 
 1. На веб-портале сервера отчетов последовательно выберите **Загрузка** > **Power BI Desktop**.
 
-    ![Скачивание Power BI Desktop из веб-портала](media/quickstart-create-powerbi-report/report-server-download-web-portal.png)
+    ![Скачивание Power BI Desktop из веб-портала](media/install-powerbi-desktop/report-server-download-web-portal.png)
 
     Либо перейдите на домашнюю страницу [Сервера отчетов Power BI](https://powerbi.microsoft.com/report-server/) и выберите **Расширенные параметры загрузки**.
 
@@ -44,9 +44,9 @@ ms.locfileid: "96414123"
 
 2. На завершающем этапе процесса установки выберите параметр **Start Power BI Desktop now** (Запустить Power BI Desktop).
    
-    После автоматического запуска приложения вы будете готовы к работе. Если в строке заголовка вы видите **Power BI Desktop (октябрь 2020 г.)** , вы установили правильную версию.
+    После автоматического запуска приложения вы будете готовы к работе. Если в строке заголовка отображается **Power BI Desktop (январь 2021 г.)** , вы установили правильную версию.
 
-    ![Power BI Desktop (октябрь 2020 г.)](media/quickstart-create-powerbi-report/power-bi-report-server-desktop-may-2020.png)
+    ![Power BI Desktop (январь 2021 г.)](media/install-powerbi-desktop/power-bi-report-server-desktop.png)
 
 3. Если вы не знакомы с Power BI Desktop, просмотрите видеоролики на экране приветствия.
    
@@ -102,7 +102,7 @@ ms.locfileid: "96414123"
 * Интерактивное обучение [Изучение Power BI Desktop](/learn/modules/get-data-power-bi/2-getting-started-power-bi-desktop)
 
 ### <a name="power-bi-report-server"></a>Cервере отчетов Power BI
-* [Установка приложения Power BI Desktop, оптимизированного для сервера отчетов Power BI](install-powerbi-desktop.md)  
+* [Установка Power BI Desktop для Сервера отчетов Power BI](install-powerbi-desktop.md)  
 * [Что такое Сервер отчетов Power BI?](get-started.md)  
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

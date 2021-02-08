@@ -9,12 +9,12 @@ ms.subservice: pbi-fundamentals
 ms.topic: overview
 ms.date: 07/23/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: 5a71999cc5358c1849a534ff2b3eb9d689791ceb
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 07dba29c57b533537513d84361b4b7b2b61f9221
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96419551"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088127"
 ---
 # <a name="what-is-power-bi-desktop"></a>Что такое Power BI Desktop?
 
@@ -70,7 +70,7 @@ ms.locfileid: "96419551"
 
 Порядок запуска редактора Power Query
 
-- На вкладке **Главная** выберите **Изменить запросы**  >  **Редактировать запросы**.
+- На вкладке **Главная** ленты в разделе **Запросы** выберите **Преобразовать данные**.
 
    Появится окно **редактора Power Query**.
 

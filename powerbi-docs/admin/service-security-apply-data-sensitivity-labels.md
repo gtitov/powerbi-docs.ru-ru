@@ -8,12 +8,12 @@ ms.subservice: powerbi-eim
 ms.topic: how-to
 ms.date: 12/09/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: 09188b3b03fd5bfb720b98045ee9d895d337d677
-ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
+ms.openlocfilehash: a50a8c8514a4316f16a6a38647804aabf878d5ad
+ms.sourcegitcommit: 1872a167d1e4d731ad00cf8a6d951c31aa54bcce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97969174"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "98925694"
 ---
 # <a name="how-to-apply-sensitivity-labels-in-power-bi"></a>Применение меток конфиденциальности в Power BI
 
@@ -95,7 +95,7 @@ ms.locfileid: "97969174"
 ![Снимок экрана с меткой конфиденциальности в строке состояния в версии Desktop.](media/service-security-apply-data-sensitivity-labels/sensitivity-label-in-desktop-status-bar.png)
 
 ### <a name="sensitivity-labels-when-uploading-or-downloading-pbix-files-tofrom-the-service"></a>Метки конфиденциальности при отправке или скачивании PBIX-файлов в службе
-* При публикации PBIX-файла в службе Power BI из версии Desktop или передаче PBIX-файла в службу Power BI непосредственно с помощью команды **Получить данные** метка PBIX-файла применяется как к отчету, так и к набору данных, созданному в службе. Если PBIX-файл, который вы публикуете или отправляете, заменяет существующие ресурсы (т. е. ресурсы, имеющие то же имя, что и PBIX-файл), метка PBIX-файла перезапишет все метки этих ресурсов.
+* При публикации PBIX-файла в службе Power BI из версии Desktop или передаче PBIX-файла в службу Power BI непосредственно с помощью команды **Получить данные** метка PBIX-файла применяется как к отчету, так и к набору данных, созданному в службе. Если PBIX-файл, который вы публикуете или отправляете, заменяет существующие ресурсы (т. е. ресурсы, имеющие то же имя, что и PBIX-файл), метка PBIX-файла перезапишет все метки этих ресурсов. Если PBIX-файл не имеет метки, метки в службе сохранятся.
 * Если при использовании команды скачивания в PBIX-файл в службе Power BI скачиваемый отчет и набор данных имеют метки и эти метки отличаются, к PBIX-файлу будет применена метка с более строгими требованиями.
 
 ## <a name="remove-sensitivity-labels"></a>Удаление меток конфиденциальности

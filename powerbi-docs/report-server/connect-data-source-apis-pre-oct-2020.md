@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 10/26/2020
-ms.openlocfilehash: 72b81f10b6337530ab05f1fcef0a17a5869af867
-ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
+ms.openlocfilehash: f0dd30e721d8325fdbfd8b562083fbedef2af9c0
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "98226750"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99044202"
 ---
 # <a name="change-data-source-connection-strings-in-power-bi-reports-with-powershell---power-bi-report-server-pre-october-2020"></a>Изменение строк подключения к источникам данных в отчетах Power BI с помощью PowerShell — Сервер отчетов Power BI (до октября 2020 г.)
 
@@ -21,7 +21,7 @@ ms.locfileid: "98226750"
 Для взаимодействия с необходимыми API вы можете изменить строки подключения к источнику данных отчетов Power BI, размещенных на Сервере отчетов Power BI, с помощью PowerShell. 
 
 > [!IMPORTANT]
-> Если вы используете последнюю версию Сервера отчетов Power BI (октябрь 2020 г.), см. раздел [Изменение строк подключения к источникам данных в отчетах Power BI с помощью PowerShell — Сервер отчетов Power BI](connect-data-source-apis.md).
+> Если вы используете последнюю версию Сервера отчетов Power BI, см. раздел [Изменение строк подключения к источникам данных в отчетах Power BI с помощью PowerShell — Сервер отчетов Power BI](connect-data-source-apis.md).
 
 > [!NOTE]
 > Сейчас эта функция работает только для DirectQuery. Поддержка импорта и обновления данных ожидается в ближайшее время.

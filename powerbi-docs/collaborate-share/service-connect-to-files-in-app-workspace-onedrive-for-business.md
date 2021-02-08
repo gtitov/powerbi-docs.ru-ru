@@ -1,28 +1,28 @@
 ---
-title: Подключение к файлам в OneDrive для рабочей области Power BI
-description: Узнайте о хранении файлов Excel, CSV и Power BI Desktop в хранилище OneDrive для рабочей области Power BI, а также о подключении к ним.
+title: Подключение к файлам в OneDrive для классической рабочей области
+description: Узнайте о хранении файлов Excel, CSV и Power BI Desktop в хранилище OneDrive для классической рабочей области Power BI, а также о подключении к ним.
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: lukasz
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 10/15/2020
+ms.date: 01/28/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: 6c3c43d8aad26249ac1b8afab09bdcbf1414f0cf
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: f6544a137b8f656e938db4516de5e8c0685394b4
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411984"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99085823"
 ---
-# <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-workspace"></a>Подключение к файлам, хранящимся в OneDrive, для рабочей области Power BI
-При [создании рабочей области в Power BI](service-create-workspaces.md) также создается группа Microsoft 365 со связанным хранилищем OneDrive для бизнеса. В этой статье объясняется, как хранить и обновлять файлы Excel, CSV и Power BI Desktop в OneDrive для бизнеса. Эти обновления будут автоматически отражаться в отчетах и на панелях мониторинга Power BI на основе этих файлов.
+# <a name="connect-to-files-stored-in-onedrive-for-a-classic-workspace"></a>Подключение к файлам, хранящимся в OneDrive, для классической рабочей области
+При [создании *классической* рабочей области в Power BI](service-create-workspaces.md) также создается группа Microsoft 365 со связанным хранилищем OneDrive для бизнеса. В этой статье объясняется, как хранить и обновлять файлы Excel, CSV и Power BI Desktop в OneDrive для бизнеса. Эти обновления будут автоматически отражаться в отчетах и на панелях мониторинга Power BI на основе этих файлов.
 
 > [!NOTE]
-> В новом интерфейсе рабочей области изменятся отношения между рабочими областями Power BI и группами Microsoft 365. Группа Microsoft 365 не создается автоматически при каждом создании одной из новых рабочих областей. Узнайте о [создании новых рабочих областей](service-create-the-new-workspaces.md)
+> В *новом* интерфейсе рабочей области изменятся отношения между рабочими областями Power BI и группами Microsoft 365. Группа Microsoft 365 не создается автоматически при каждом создании одной из новых рабочих областей. Вы также можете [выбрать новую рабочую область для OneDrive](service-create-the-new-workspaces.md#set-a-workspace-onedrive).
 
-Добавление файлов в рабочую область состоит из двух этапов. 
+Добавление файлов в классическую рабочую область состоит из двух этапов. 
 
 1. Сначала вам необходимо [отправить файлы в хранилище OneDrive для бизнеса](#1-upload-files-to-the-onedrive-for-business-for-your-workspace) для рабочей области.
 2. Затем вы [подключитесь к этим файлам из Power BI](#2-import-excel-files-as-datasets-or-as-excel-online-workbooks).

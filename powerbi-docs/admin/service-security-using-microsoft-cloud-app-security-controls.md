@@ -2,19 +2,19 @@
 title: Использование элементов управления Microsoft Cloud App Security в Power BI
 description: Сведения об использовании Microsoft Cloud App Security в Power BI
 author: paulinbar
-ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
 ms.date: 06/15/2020
+ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: f7bd3a59395e9f5f1ea167b7e7988aeb9882a72f
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 8a09de5777332d69332cae6928022e7e99fe689e
+ms.sourcegitcommit: 2e81649476d5cb97701f779267be59e393460097
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413341"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "99422290"
 ---
 # <a name="using-microsoft-cloud-app-security-controls-in-power-bi"></a>Использование элементов управления Microsoft Cloud App Security в Power BI
 
@@ -24,19 +24,19 @@ ms.locfileid: "96413341"
 
 Cloud App Security можно настраивать не только для Power BI, но и для самых разных приложений и служб. Чтобы использовать преимущества этой службы для защиты данных и результатов аналитики в Power BI, необходимо настроить Cloud App Security. Дополнительные сведения об этой службе, в том числе описание принципов ее работы, панели мониторинга и оценок рисков для приложений см. в документации по [Cloud App Security](/cloud-app-security/).
 
+## <a name="cloud-app-security-licensing"></a>Лицензирование Cloud App Security
 
-## <a name="using-cloud-app-security-with-power-bi"></a>Использование Microsoft Cloud App Security в Power BI
-
-Чтобы использовать Cloud App Security в Power BI, необходимо задействовать и настроить соответствующие службы безопасности Майкрософт, причем в некоторых случаях это требуется сделать вне среды Power BI.
-
-### <a name="cloud-app-security-licensing"></a>Лицензирование Cloud App Security
-
-Чтобы использовать Cloud App Security в клиенте, вам потребуются указанные ниже [лицензии](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2NXYO).
+Чтобы использовать Cloud App Security в Power BI, необходимо задействовать и настроить соответствующие службы безопасности Майкрософт, причем в некоторых случаях это требуется сделать вне среды Power BI. Чтобы использовать Cloud App Security в клиенте, вам потребуются указанные ниже [лицензии](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2NXYO).
 * Microsoft Cloud App Security: предоставляет возможности Cloud App Security для всех поддерживаемых приложений, входящих в наборы EMS E5 и Microsoft 365 E5.
 * Office 365 Cloud App Security: предоставляет возможности Cloud App Security только для Office 365; входит в состав набора Office 365 E5.
-* Azure Active Directory Premium P1, чтобы использовать преимущества основных возможностей Cloud App Security.
 
-В разделах ниже описываются шаги, которые необходимо выполнить для использования Cloud App Security в Power BI.
+
+## <a name="configure-real-time-controls-for-power-bi-with-cloud-app-security"></a>Настройка элементов управления в реальном времени для Power BI с помощью Cloud App Security
+
+> [!NOTE]
+> * Для использования элементов управления в реальном времени Cloud App Security требуется лицензия Azure Active Directory Premium P1.
+
+В следующих разделах описаны действия по настройке элементов управления в реальном времени для Power BI с помощью Cloud App Security.
 
 ### <a name="set-session-policies-in-azure-ad-required"></a>Настройка политик сеансов в Azure AD (обязательно)
 Действия по настройке элементов управления сеансами выполняются на порталах Azure AD и Cloud App Security. На портале Azure AD вы создаете политику условного доступа для Power BI и перенаправляете сеансы, используемые в Power BI, через службу Cloud App Security. 
@@ -60,6 +60,20 @@ Cloud App Security можно настраивать не только для Po
 С помощью меток конфиденциальности вы можете классифицировать и защитить конфиденциальное содержимое. Благодаря этому сотрудники вашей организации смогут работать с находящимися вне ее среды партнерам, не нарушая при этом требований к защите конфиденциального содержимого и данных. 
 
 Дополнительные сведения о применении меток конфиденциальности для Power BI можно найти в [этой статье](service-security-sensitivity-label-overview.md). Также далее приведен [пример политики Power BI на основе меток конфиденциальности](#example).
+
+## <a name="custom-policies-to-alert-on-suspicious-user-activity-in-power-bi"></a>Пользовательские политики оповещения о подозрительных действиях пользователей в Power BI
+
+Политика действий Cloud App Security позволяет администраторам определять собственные правила для обнаружения поведения пользователей, которое отличается от обычного, и автоматического принятия мер, если поведение кажется слишком опасным. Пример:
+
+* **Удаление большого количества меток конфиденциальности.** Пример: оповещать меня, если один пользователь удалил метки конфиденциальности из 20 разных отчетов менее чем за 5 минут.
+
+* **Понижение уровня меток конфиденциальности.** Пример: оповещать меня, когда отчет с меткой "Строго конфиденциально" меняет уровень конфиденциальности на "Общедоступный".
+
+> [!NOTE]
+> * Уникальные идентификаторы артефактов и меток конфиденциальности Power BI можно узнать с помощью [интерфейсов REST API для Power BI](/rest/api/power-bi/). См. статьи [Получение наборов данных](/rest/api/power-bi/datasets/getdatasets) и [Получение отчетов](/rest/api/power-bi/reports/getreports).
+
+
+Пользовательские политики действий настраиваются на портале Cloud App Security. [Подробнее](/cloud-app-security/user-activity-policies). 
 
 ## <a name="built-in-cloud-app-security-detections-for-power-bi"></a>Встроенные обнаружения Cloud App Security для Power BI
 

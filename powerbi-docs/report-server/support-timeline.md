@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/27/2020
-ms.openlocfilehash: 07b3004553f62dbdd138d93bf1aba2c08287b9c6
-ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
+ms.date: 01/25/2021
+ms.openlocfilehash: 5dbc4526061d6b39a3e7f4eff3b06a68784792f6
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93044828"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99043466"
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>Сроки предоставления поддержки для сервера отчетов Power BI
 
@@ -30,12 +30,12 @@ ms.locfileid: "93044828"
 
 | **Версия** | **Период доступности** | **Дата окончания поддержки** |
 | --- | --- | --- |
-| Сентябрь 2019 г. | Сентябрь 2019 г. | Версия за сентябрь 2019 г. и все предыдущие версии больше не поддерживаются
-| Январь 2020 г. | Январь 2020 г. | Январь 2021 г.
+| Январь 2020 г. | Январь 2020 г. | Версия за январь 2020 г. и все предыдущие версии больше не поддерживаются.
 | Май 2020 г. | Май 2020 г. | Май 2021 г.
 | Октябрь 2020 г. | Октябрь 2020 г. | Октябрь 2021 г.
+| Январь 2021 г. | Январь 2021 г. | Январь 2022 г.
 
-Чтобы скачать сервер отчетов Power BI и службу Power BI Desktop, оптимизированную для сервера отчетов Power BI, перейдите на страницу [Локальная работа с отчетами с использованием сервера Power BI Report Server](https://powerbi.microsoft.com/report-server/).
+Чтобы скачать Сервер отчетов Power BI и приложение Power BI Desktop для Сервера отчетов Power BI, перейдите на страницу [Локальная работа с отчетами с использованием сервера Power BI Report Server](https://powerbi.microsoft.com/report-server/).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Новые возможности сервера отчетов Power BI](whats-new.md)  

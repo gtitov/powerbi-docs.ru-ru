@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: troubleshooting
-ms.date: 01/13/2021
+ms.date: 02/02/2021
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: 0753a9c3d5b832275f65ac11b87f90c38606f289
-ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
+ms.openlocfilehash: 98bc3da33f38974f3dfcb9e155111e7d16e6c069
+ms.sourcegitcommit: f7330dabb9cd8bce90bb2efec3e3273a11578f10
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "98226992"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "99494473"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>Устранение неполадок с подключением конечных точек XMLA
 
@@ -221,6 +221,10 @@ Error returned: ‘Metadata change of current operation cannot be resolved, plea
 ## <a name="dataset-refresh-through-the-xmla-endpoint"></a>Обновление набора данных с помощью конечной точки XMLA
 
 Дата и время последнего обновления отображаются в нескольких местах Power BI, таких как обновленные столбцы в отчетах и списках, сведения о наборе данных, параметры набора данных и журнал обновления набора данных. Сейчас дата и время обновления, отображаемые в Power BI, **не** включают операции обновления, выполняемые с помощью конечной точки XMLA с использованием TMSL/TOM, SSMS или сторонних средств.
+
+## <a name="discover_m_expressions"></a>DISCOVER_M_EXPRESSIONS 
+
+Представление управления данными DISCOVER_M_EXPRESSIONS в настоящее время не поддерживается в Power BI при использовании конечной точки XMLA. Приложения могут использовать табличную модель объектов для получения выражений M, используемых моделью данных.
 
 ## <a name="see-also"></a>См. также раздел
 

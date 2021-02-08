@@ -8,429 +8,324 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
-ms.date: 02/04/2020
-ms.openlocfilehash: da356800a49e6d8876a147862dd08541ed2999bc
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
+ms.date: 12/17/2020
+ms.openlocfilehash: fbae63597ecf4ff36783ad83785f87c242359f90
+ms.sourcegitcommit: 2e81649476d5cb97701f779267be59e393460097
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98565689"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "99494995"
 ---
-# <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Руководство. Внедрение содержимого Power BI в приложение для организации
+# <a name="tutorial-embed-power-bi-content-using-a-sample-embed-for-your-organization-application"></a>Руководство. Внедрение содержимого Power BI с помощью примера *внедрения для организации*
 
-В **Power BI** можно внедрять в приложение отчеты (Power BI или отчеты с разбивкой на страницы), панели мониторинга и плитки, используя принадлежащие пользователю данные. **Принадлежащие пользователю данные** для приложения расширяют возможности службы Power BI, позволяя использовать встроенную аналитику. В этом руководстве показано, как интегрировать отчет (Power BI или отчет с разбивкой на страницы) в приложение. Вы можете использовать пакет SDK для .NET Power BI и API Power BI для JavaScript для внедрения Power BI в приложение для вашей организации.
+Встроенная аналитика Power BI позволяет внедрять в приложение содержимое Power BI, такое как отчеты, панели мониторинга и плитки.
 
-![Внедрение отчета Power BI](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
+Из этого руководства вы узнаете, как выполнять следующие задачи:
 
-В этом руководстве вы выполните следующие задачи:
-> [!div class="checklist"]
-> * регистрация приложения в Azure;
-> * внедрение отчета Power BI или отчета с разбивкой на страницы в приложение с помощью клиента Power BI.
+>[!div class="checklist"]
+>* Настройте внедренную среду.
+>* Настройте пример приложения *внедрения для организации* (также известный как *User Owns Data*).
 
-## <a name="prerequisites"></a>Предварительные требования
+Для работы с приложением пользователям потребуется входить в Power BI.
 
-Для работы вам понадобятся:
+Решение "Внедрение для организации" обычно используется предприятиями и крупными организациями и предназначено для внутренних пользователей.
 
-* [учетная запись Power BI Pro](../../fundamentals/service-self-service-signup-for-power-bi.md);
-* подписка [Microsoft Azure](https://azure.microsoft.com/);
-* собственная установка [клиента Azure Active Directory](create-an-azure-active-directory-tenant.md).
-* Для внедрения отчетов с разбивкой на страницы требуется емкость не менее P1. См. статью [Какой размер емкости Premium требуется для отчетов с разбивкой на страницы?](../../paginated-reports/paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports)
+## <a name="code-sample-specifications"></a>Спецификации примера кода
 
-Если вы не зарегистрированы в **Power BI**, перед началом работы [пройдите бесплатную регистрацию](https://powerbi.microsoft.com/pricing/).
+В этом руководстве содержатся инструкции по настройке примера приложения *внедрения для организации* на одной из следующих платформ.
 
-Если у вас нет подписки Azure, перед началом работы [создайте бесплатную учетную запись](https://azure.microsoft.com/free/?WT.mc_id=A261C142F).
+* .NET Framework
+* .NET Core
+* React TypeScript
 
 >[!NOTE]
->[Premium на пользователя (PPU)](../../admin/service-premium-per-user-faq.md) поддерживается. Однако если вы используете PPU, доступ к решению смогут получить только пользователи PPU в вашей организации.
+>Примеры для *.NET Core* и *.NET Framework* позволяют конечному пользователю просматривать любую панель мониторинга, отчет или плитку Power BI , к которым у него есть доступ в службе Power BI. Пример для *React TypeScript* позволяет внедрить только один отчет, к которому у пользователя уже есть доступ в службе Power BI.
 
-## <a name="set-up-your-embedded-analytics-development-environment"></a>Настройка среды разработки для встроенной аналитики
+Примеры кода поддерживают следующие браузеры:
 
-Чтобы внедрить в приложение отчеты, панели мониторинга и плитки, необходимо убедиться, что среда допускает внедрение с помощью Power BI.
+* Microsoft Edge
+* Google Chrome
+* Mozilla Firefox;
 
-Воспользуйтесь [средством настройки внедрения](https://app.powerbi.com/embedsetup), чтобы быстро приступить к работе и скачать пример приложения с пошаговой инструкцией для создания среды и внедрения отчета. При внедрении отчета с разбивкой на страницы вам понадобится емкость не менее P1 для создаваемой рабочей области.
+## <a name="prerequisites"></a>Предварительные условия
 
-Если вы решили настроить среду вручную, см. инструкции ниже.
+Прежде чем приступить к работе с этим руководством, убедитесь, что у вас есть как Power BI, так и указанные ниже зависимости кода.
 
-### <a name="register-an-application-in-azure-active-directory"></a>Регистрация приложения в Azure Active Directory
+* **Зависимости Power BI**
 
-[Зарегистрируйте приложение](register-app.md) в Azure Active Directory, чтобы предоставить ему доступ к [REST API Power BI](/rest/api/power-bi/). Регистрация приложения позволит создать удостоверение для приложения и предоставить ему разрешения на доступ к ресурсам REST Power BI.
+    * Собственный [клиент Azure Active Directory](create-an-azure-active-directory-tenant.md).
 
->[!NOTE]
->В приложении потребуется перейти в раздел *Проверка подлинности* и в поле *URI перенаправления* вставить адрес перенаправления.
-Дополнительные сведения о перенаправлении см. в статье [Ограничения для URI перенаправления (URL-адреса ответа)](/azure/active-directory/develop/reply-url).
+    * Одна из следующих лицензий:
 
-## <a name="set-up-your-power-bi-environment"></a>Настройка рабочей среды Power BI
+        * [Power BI Pro](../../admin/service-admin-purchasing-power-bi-pro.md)
 
-### <a name="create-a-workspace"></a>Создать рабочую область
+        * [Premium на пользователя (PPU)](../../admin/service-premium-per-user-faq.md)
 
-Если вы планируете внедрять отчеты, панели мониторинга и плитки в приложение для клиентов, необходимо разместить содержимое в рабочей области. Можно настроить рабочие области разных типов: [традиционные](../../collaborate-share/service-create-workspaces.md) или [новые](../../collaborate-share/service-create-the-new-workspaces.md).
+    >[!NOTE]
+    >Для [переноса в рабочую среду](move-to-production.md) потребуется одна из следующих конфигураций:
+    >* все пользователи с лицензией Pro;
+    >* все пользователи с лицензией PPU;
+    >* [емкость](embedded-capacity.md). Эта конфигурация позволяет всем пользователям иметь бесплатные лицензии.
 
-### <a name="create-and-publish-your-power-bi-reports"></a>Создание и публикация отчетов Power BI
+* **Зависимости кода**
 
-С помощью Power BI Desktop можно создавать отчеты и наборы данных. Затем можно публиковать эти отчеты в рабочей области. У пользователя, публикующего отчеты в рабочей области, должна быть лицензия Power BI Pro.
+    # <a name="net-core"></a>[.NET Core](#tab/net-core)
 
-1. Скачайте [демонстрационный](https://github.com/Microsoft/powerbi-desktop-samples) пример из GitHub.
+    * [Пакет SDK для .NET Core 3.1](https://dotnet.microsoft.com/download/dotnet-core) (или более поздней версии)
+    
+    * Интегрированная среда разработки (IDE) Мы рекомендуем использовать одну из следующих:
 
-    ![Загрузка демонстрации](media/embed-sample-for-your-organization/embed-sample-for-your-organization-026-1.png)
+        * [Visual Studio](https://visualstudio.microsoft.com/)
 
-2. Откройте PBIX-файл с образцом отчета в Power BI Desktop.
+        * [Visual Studio Code](https://code.visualstudio.com/)
 
-   ![Пример отчета Power BI Desktop](media/embed-sample-for-your-organization/embed-sample-for-your-organization-027.png)
+    # <a name="net-framework"></a>[.NET Framework](#tab/net-framework)
 
-3. Опубликуйте его в рабочей области.
+    * [.NET Framework 4.8](https://dotnet.microsoft.com/download/dotnet-framework/)
+    
+    * [Visual Studio](https://visualstudio.microsoft.com/)
 
-   ![Публикация отчета Power BI Desktop](media/embed-sample-for-your-organization/embed-sample-for-your-organization-028.png)
+    # <a name="react-typescript"></a>[React TypeScript](#tab/react)
 
-    Теперь вы можете просмотреть отчет в веб-службе Power BI.
+    * Текстовый редактор
 
-   ![Просмотр отчета Power BI Desktop](media/embed-sample-for-your-organization/embed-sample-for-your-organization-029.png)
-   
-### <a name="create-and-publish-your-paginated-reports"></a>Создание и публикация отчетов с разбивкой на страницы
+    * Терминал командной строки (или PowerShell)
 
-Для создания отчетов с разбивкой на страницы можно использовать [построитель отчетов Power BI](../../paginated-reports/paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder). Затем можно [отправить отчет](../../paginated-reports/paginated-reports-quickstart-aw.md#upload-the-report-to-the-service) в рабочую область, которой назначена емкость не менее P1. У конечного пользователя, отправляющего отчет, должна быть лицензия Power BI Pro на публикацию в рабочей области.
-   
-## <a name="embed-your-content-by-using-the-sample-application"></a>Внедрение содержимого с помощью примера приложения
+---
 
-Этот пример намеренно упрощен в целях наглядности.
+## <a name="method"></a>Метод
 
-Чтобы приступить к внедрению содержимого, используя пример приложения, выполните указанные ниже действия.
+Чтобы создать пример приложения *внедрения для организации*, выполните указанные ниже действия.
 
-1. Скачайте [Visual Studio](https://www.visualstudio.com/) (версии 2013 или более поздней). Обязательно скачайте последнюю версию [пакета NuGet](https://www.nuget.org/profiles/powerbi).
+1. [Зарегистрируйте приложение Azure AD](#step-1---register-an-azure-ad-application).
 
-2. Чтобы начать работу, скачайте [пример с данными, принадлежащими пользователю](https://github.com/Microsoft/PowerBI-Developer-Samples), из GitHub.
+2. [Создайте рабочую область Power BI](#step-2---create-a-power-bi-workspace).
 
-    ![Пример приложения с данными, принадлежащими пользователю](media/embed-sample-for-your-organization/embed-sample-for-your-organization-026.png)
+3. [Создание отчет Power BI и опубликуйте его](#step-3---create-and-publish-a-power-bi-report).
 
-3. Откройте файл **Cloud.config** в примере приложения.
+4. [Получите значения параметров внедрения](#step-4---get-the-embedding-parameter-values).
 
-    Здесь есть поля, которые нужно заполнить, чтобы успешно запустить приложение.
+5. [Внедрите свое содержимое](#step-5---embed-your-content).
 
-    | Поле |
-    |--------------------|
-    | **[Идентификатор приложения](#application-id)** |
-    | **[Идентификатор рабочей области](#workspace-id)** |
-    | **[Идентификатор отчета](#report-id)** |
-    | **[AADAuthorityUrl](#aadauthorityurl)** |
+## <a name="step-1---register-an-azure-ad-application"></a>Шаг 1. Регистрация приложения в Azure AD
 
-    ![Файл Cloud.config](media/embed-sample-for-your-organization/embed-sample-for-your-organization-030.png)
+Регистрация приложения в Azure AD позволяет создать для него удостоверение.
 
-### <a name="application-id"></a>Идентификатор приложения
+[!INCLUDE[Register Azure AD app](../../includes/embed-tutorial-register-app.md)]
 
-Укажите в поле **applicationId** значение **идентификатора приложения** из **Azure**. Поле **applicationId** используется приложением для его идентификации для пользователей, у которых запрашиваются разрешения.
+## <a name="step-2---create-a-power-bi-workspace"></a>Шаг 2. Создание рабочей области Power BI
 
-Чтобы получить значение **applicationId**, сделайте следующее.
+[!INCLUDE[Create a Power BI workspace](../../includes/embed-tutorial-create-workspace.md)]
 
-1. Войдите на [портал Azure](https://portal.azure.com).
+## <a name="step-3---create-and-publish-a-power-bi-report"></a>Шаг 3. Создание и публикация отчета Power BI
 
-2. В области навигации слева выберите **Все службы**, а затем — **Регистрация приложений**.
+[!INCLUDE[Create a Power BI report](../../includes/embed-tutorial-create-report.md)]
 
-3. Выберите приложение, для которого требуется **applicationId**.
+## <a name="step-4---get-the-embedding-parameter-values"></a>Шаг 4. Получение значений параметров внедрения
 
-    ![Выбор приложения](media/embed-sample-for-your-organization/embed-sample-for-your-organization-042.png)
+Чтобы внедрить содержимое, необходимо получить значения для ряда параметров. Необходимые значения зависят от языка примера приложения, который вы хотите использовать. В таблице ниже перечислены значения параметров, необходимые для каждого примера.
 
-4. В поле **Идентификатор приложения** указан GUID. Используйте этот **идентификатор приложения** как значение параметра **applicationId** приложения.
+|Параметр  |.NET Core  |.NET Framework  |React TypeScript |
+|---------|---------|---------|---------|
+|[Идентификатор клиента](#client-id) |![Область применения](../../media/yes.png) |![Область применения](../../media/yes.png)         |![Область применения](../../media/yes.png) |
+|[Секрет клиента](#workspace-id) |![Область применения](../../media/yes.png) |![Область применения](../../media/yes.png) |![Неприменимо.](../../media/no.png) |
+|[Идентификатор рабочей области]() |![Неприменимо.](../../media/no.png) |![Неприменимо.](../../media/no.png) |![Область применения](../../media/yes.png) |
+|[Идентификатор отчета]() |![Неприменимо.](../../media/no.png) |![Неприменимо.](../../media/no.png) |![Область применения](../../media/yes.png) |
 
-    ![applicationId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-043.png)
+### <a name="client-id"></a>Идентификатор клиента
+
+>[!TIP]
+>**Область применения:** ![Применяется к:](../../media/yes.png).NET Core ![Применяется к:](../../media/yes.png).NET Framework ![Применяется к:](../../media/yes.png)React TypeScript
+
+[!INCLUDE[Get the client ID](../../includes/embed-tutorial-client-id.md)]
+
+### <a name="client-secret"></a>Секрет клиента
+
+>[!TIP]
+>**Область применения:** ![Применяется к:](../../media/yes.png).NET Core ![Применяется к:](../../media/yes.png).NET Framework ![Не применяется к:](../../media/no.png)React TypeScript
+
+[!INCLUDE[Get the client secret](../../includes/embed-tutorial-client-secret.md)]
 
 ### <a name="workspace-id"></a>Идентификатор рабочей области
 
-Укажите в поле **workspaceId** GUID рабочей области (группы) из Power BI. Эти данные можно получить из URL-адреса после входа в службу Power BI или с помощью PowerShell.
+>[!TIP]
+>**Область применения:** ![Не применяется к:](../../media/no.png).NET Core ![Не применяется к:](../../media/no.png).NET Framework ![Применяется к:](../../media/yes.png)React TypeScript
 
-URL-адрес <br>
-
-![workspaceId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-040.png)
-
-PowerShell <br>
-
-```powershell
-Get-PowerBIworkspace -name "User Owns Embed Test"
-```
-
-   ![workspaceId из PowerShell](media/embed-sample-for-your-organization/embed-sample-for-your-organization-040-ps.png)
+[!INCLUDE[Get the workspace ID](../../includes/embed-tutorial-workspace-id.md)]
 
 ### <a name="report-id"></a>Идентификатор отчета
 
-Укажите в поле **reportId** значение GUID отчета из Power BI. Эти данные можно получить из URL-адреса после входа в службу Power BI или с помощью PowerShell.
+>[!TIP]
+>**Область применения:** ![Не применяется к:](../../media/no.png).NET Core ![Не применяется к:](../../media/no.png).NET Framework ![Применяется к:](../../media/yes.png)ReactTypeScript
 
-URL-адрес отчета Power BI <br>
+[!INCLUDE[Get the report ID](../../includes/embed-tutorial-report-id.md)]
 
-![Идентификатор отчета Power BI](media/embed-sample-for-your-organization/embed-sample-for-your-organization-041.png)
+## <a name="step-5---embed-your-content"></a>Шаг 5. Внедрение содержимого
 
+Пример приложения внедрения Power BI позволяет создать приложение Power BI *внедрения для организации*.
 
-URL-адрес отчета с разбивкой на страницы<br>
+Выполните указанные ниже действия, чтобы изменить пример приложения *внедрения для организации*, внедрив отчет Power BI.
 
-![Идентификатор отчета с разбивкой на страницы](media/embed-sample-for-your-organization/paginated-reports-url.png)
+[!INCLUDE[Embedding steps](../../includes/embed-tutorial-embedding-steps.md)]
 
-PowerShell <br>
+4. В зависимости от языка, который должен использоваться приложением, откройте одну из следующих папок:
 
-```powershell
-Get-PowerBIworkspace -name "User Owns Embed Test" | Get-PowerBIReport
-```
+    * .NET Core
+    * .NET Framework
+    * React-TS
 
-![reportId из PowerShell](media/embed-sample-for-your-organization/embed-sample-for-your-organization-041-ps.png)
+    >[!NOTE]
+    >Примеры приложений *внедрения для организации* поддерживают только перечисленные выше платформы. Примеры приложений на *Java*, *Node JS* и *Python* поддерживают только решение *[внедрения для клиентов](embed-sample-for-customers.md)* .
 
-### <a name="aadauthorityurl"></a>AADAuthorityUrl
+# <a name="net-core"></a>[.NET Core](#tab/net-core)
 
-Укажите в сведениях **AADAuthorityUrl** URL-адрес, который позволяет осуществлять внедрение с помощью клиента организации либо гостевого пользователя.
+### <a name="configure-your-azure-ad-app"></a>Настройка приложения Azure AD
 
-Для внедрения с помощью клиента организации используйте URL-адрес *https://login.microsoftonline.com/common/oauth2/authorize* .
+[!INCLUDE[Configure the Azure AD authentication options](../../includes/embed-tutorial-org-azure-ad-app.md)]
 
-Для внедрения с помощью гостя используйте URL-адрес `https://login.microsoftonline.com/report-owner-tenant-id`, где нужно добавить идентификатор клиента владельца отчета вместо *report-owner-tenant-id*.
+5. В разделе *Конфигурации платформы* откройте платформу *Веб* и в разделе **URI перенаправления** добавьте `https://localhost:5000/signin-oidc`.
 
-### <a name="run-the-application"></a>Выполнение приложения
+    > [!NOTE]
+    >Если у вас нет платформы **Веб**, выберите **Добавить платформу** и в окне *Настройка платформ* выберите **Веб**.
 
-1. Выберите **Запуск** в **Visual Studio**.
+6. Сохраните изменения.
 
-    ![Выполнение приложения](media/embed-sample-for-your-organization/embed-sample-for-your-organization-033.png)
+:::image type="content" source="media/embed-sample-for-your-organization/azure-ad-net-configurations.png" alt-text="Снимок экрана: конфигурации проверки подлинности для приложения Azure AD с кодом URI веб-перенаправления для примера приложения .NET Core.":::
 
-2. Теперь выберите **Внедрить отчет**. В зависимости от того, какое содержимое вы хотите проверить (отчеты, панели мониторинга или плитки), выберите нужный вариант в приложении.
+### <a name="configure-the-sample-embedding-app"></a>Настройка примера приложения для внедрения
 
-    ![Выбор содержимого](media/embed-sample-for-your-organization/embed-sample-for-your-organization-034.png)
+1. Откройте папку **Внедрение для организации**.
 
-3. Теперь вы можете просмотреть отчет в примере приложения.
+2. Откройте *пример приложения внедрения для организации* одним из приведенных ниже методов.
 
-    ![Просмотр отчета в приложении](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
+    * Если вы используете [Visual Studio](https://visualstudio.microsoft.com/), откройте файл **UserOwnsData.sln**.
 
-## <a name="embed-your-content-within-your-application"></a>Внедрение содержимого в приложении
+    * Если вы используете [Visual Studio Code](https://code.visualstudio.com/), откройте папку **UserOwnsData**.
 
-Несмотря на то, что шаги по внедрению содержимого можно выполнить с помощью [интерфейсов REST API Power BI](/rest/api/power-bi/), примеры кода, описанные в этой статье, созданы с помощью пакета SDK для .NET.
+3. Откройте файл **appsettings.json** и введите следующие значения параметров:
 
-Чтобы интегрировать отчет в веб-приложение, используйте REST API Power BI или пакет SDK Power BI C#. Можно также использовать маркер доступа Azure Active Directory для получения отчета. Затем вы загружаете отчет, используя тот же токен доступа. REST API Power BI обеспечивает программный доступ к определенным ресурсам Power BI. Дополнительные сведения см. в документации по [интерфейсу REST API для Power BI](/rest/api/power-bi/) и [интерфейсу API JavaScript для Power BI](https://github.com/Microsoft/PowerBI-JavaScript).
+    * `ClientId` — используйте [идентификатор клиента](#client-id);
 
-### <a name="get-an-access-token-from-azure-ad"></a>Получение токена доступа из Azure AD
+    * `ClientSecret` — используйте [секрет клиента](#client-secret).
 
-Перед вызовами REST API Power BI в приложении потребуется получить маркер доступа из Azure AD. Дополнительные сведения см. в статье [Authenticate users and get an Azure AD access token for your Power BI app](get-azuread-access-token.md) (Проверка подлинности для пользователей и получение маркера доступа Azure AD для приложения Power BI).
+### <a name="run-the-sample-app"></a>Запуск примера приложения
 
-### <a name="get-a-report"></a>Получение отчета
+1. Запустите проект, выбрав соответствующий параметр:
 
-Для получения отчета Power BI или отчета с разбивкой на страницы используется операция [Получение отчетов](/rest/api/power-bi/reports/getreports), возвращающая список отчетов Power BI и отчетов с разбивкой на страницы. В списке отчетов можно получить идентификатор отчета.
+    * Если вы используете **Visual Studio**, выберите **IIS Express** (воспроизвести).
 
-### <a name="get-reports-by-using-an-access-token"></a>Получение отчетов с помощью маркера доступа
+    * Если вы используете **Visual Studio Code**, выберите **Выполнить > Начать отладку**.
 
-Операция [Получение отчетов](/rest/api/power-bi/reports/getreports) возвращает список отчетов. Можно получить один отчет в списке отчетов.
+[!INCLUDE[The embedded application sample app interface](../../includes/embed-tutorial-org-sample-app.md)]
 
-Для вызова REST API необходимо включить заголовок *авторизации* в формате *Носитель {маркер доступа}* .
+# <a name="net-framework"></a>[.NET Framework](#tab/net-framework)
 
-#### <a name="get-reports-with-the-rest-api"></a>Получение отчетов с помощью REST API
+### <a name="configure-your-azure-ad-app"></a>Настройка приложения Azure AD
 
-Ниже приведен пример кода для получения отчетов с помощью REST API:
+[!INCLUDE[Configure the Azure AD authentication options](../../includes/embed-tutorial-org-azure-ad-app.md)]
 
-> [!Note]
-> Пример получения элемента содержимого, который вы хотите внедрить, можно найти в файле Default.aspx.cs в [примере приложения](https://github.com/Microsoft/PowerBI-Developer-Samples). Это может быть отчет, панель мониторинга или плитка.
+5. В разделе *Конфигурации платформы* настройте указанные ниже параметры.
 
-```csharp
-using Newtonsoft.Json;
+    1. Для платформы *Веб* в разделе **URI перенаправления** добавьте `https://localhost:44300/`.
 
-//Get a Report. In this sample, you get the first Report.
-protected void GetReport(int index)
-{
-    //Configure Reports request
-    System.Net.WebRequest request = System.Net.WebRequest.Create(
-        String.Format("{0}/Reports",
-        baseUri)) as System.Net.HttpWebRequest;
+        > [!NOTE]
+        >Если у вас нет платформы **Веб**, выберите **Добавить платформу** и в окне *Настройка платформ* выберите **Веб**.
+    
+    2. В разделе *Неявное предоставление разрешения и гибридные потоки* включите параметр **Токен идентификатора**.
+    
+6. Сохраните изменения.
 
-    request.Method = "GET";
-    request.ContentLength = 0;
-    request.Headers.Add("Authorization", String.Format("Bearer {0}", accessToken.Value));
+:::image type="content" source="media/embed-sample-for-your-organization/azure-ad-framework-configurations.png" alt-text="Снимок экрана: конфигурации проверки подлинности для приложения Azure AD с кодом URI веб-перенаправления и выбранным маркером доступа для примера приложения .NET Framework.":::
 
-    //Get Reports response from request.GetResponse()
-    using (var response = request.GetResponse() as System.Net.HttpWebResponse)
-    {
-        //Get reader from response stream
-        using (var reader = new System.IO.StreamReader(response.GetResponseStream()))
-        {
-            //Deserialize JSON string
-            PBIReports Reports = JsonConvert.DeserializeObject<PBIReports>(reader.ReadToEnd());
+### <a name="configure-the-sample-embedding-app"></a>Настройка примера приложения для внедрения
 
-            //Sample assumes at least one Report.
-            //You could write an app that lists all Reports
-            if (Reports.value.Length > 0)
-            {
-                var report = Reports.value[index];
+1. Откройте папку **Внедрение для организации**.
 
-                txtEmbedUrl.Text = report.embedUrl;
-                txtReportId.Text = report.id;
-                txtReportName.Text = report.name;
-            }
-        }
-    }
-}
-
-//Power BI Reports used to deserialize the Get Reports response.
-public class PBIReports
-{
-    public PBIReport[] value { get; set; }
-}
-public class PBIReport
-{
-    public string id { get; set; }
-    public string reportType { get; set }
-    public string name { get; set; }
-    public string webUrl { get; set; }
-    public string embedUrl { get; set; }
-}
-```
-
-#### <a name="get-reports-by-using-the-net-sdk"></a>Получение отчетов с помощью пакета SDK для .NET
-
-Вы можете использовать пакет SDK для .NET, чтобы получить список отчетов, не вызывая REST API напрямую. В следующем примере кода показано, как получить список отчетов:
-
-```csharp
-using Microsoft.IdentityModel.Clients.ActiveDirectory;
-using Microsoft.PowerBI.Api.V2;
-using Microsoft.PowerBI.Api.V2.Models;
-
-var tokenCredentials = new TokenCredentials(<ACCESS TOKEN>, "Bearer");
-
-// Create a Power BI Client object. It is used to call Power BI APIs.
-using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
-{
-    // Get the first report all reports in that workspace
-    ODataResponseListReport reports = client.Reports.GetReports();
-
-    Report report = reports.Value.FirstOrDefault();
-
-    var embedUrl = report.EmbedUrl;
-}
-```
-
-### <a name="load-a-report-by-using-javascript"></a>Загрузка отчета с помощью JavaScript
-
-Чтобы загрузить отчет в элемент div веб-страницы, вы можете использовать JavaScript. Ниже приведен пример кода для получения отчета из определенной рабочей области:
-
-> [!NOTE]  
-> Пример загрузки элемента содержимого, который вы хотите внедрить, можно найти в файле **Default.aspx** в [примере приложения](https://github.com/Microsoft/PowerBI-Developer-Samples).
-
-```javascript
-<!-- Embed Report-->
-<div> 
-    <asp:Panel ID="PanelEmbed" runat="server" Visible="true">
-        <div>
-            <div><b class="step">Step 3</b>: Embed a report</div>
-
-            <div>Enter an embed url for a report from Step 2 (starts with https://):</div>
-            <input type="text" id="tb_EmbedURL" style="width: 1024px;" />
-            <br />
-            <input type="button" id="bEmbedReportAction" value="Embed Report" />
-        </div>
-
-        <div id="reportContainer"></div>
-    </asp:Panel>
-</div>
-```
-
-#### <a name="sitemaster"></a>Site.master
-
-```javascript
-window.onload = function () {
-    // client side click to embed a selected report.
-    var el = document.getElementById("bEmbedReportAction");
-    if (el.addEventListener) {
-        el.addEventListener("click", updateEmbedReport, false);
-    } else {
-        el.attachEvent('onclick', updateEmbedReport);
-    }
-
-    // handle server side post backs, optimize for reload scenarios
-    // show embedded report if all fields were filled in.
-    var accessTokenElement = document.getElementById('MainContent_accessTokenTextbox');
-    if (accessTokenElement !== null) {
-        var accessToken = accessTokenElement.value;
-        if (accessToken !== "")
-            updateEmbedReport();
-    }
-};
-
-// update embed report
-function updateEmbedReport() {
-
-    // check if the embed url was selected
-    var embedUrl = document.getElementById('tb_EmbedURL').value;
-    if (embedUrl === "")
-        return;
-
-    // get the access token.
-    accessToken = document.getElementById('MainContent_accessTokenTextbox').value;
-
-    // Embed configuration used to describe the what and how to embed.
-    // This object is used when calling powerbi.embed.
-    // You can find more information at https://github.com/Microsoft/PowerBI-JavaScript/wiki/Embed-Configuration-Details.
-    var config = {
-        type: 'report',
-        accessToken: accessToken,
-        embedUrl: embedUrl
-    };
-
-    // Grab the reference to the div HTML element that will host the report.
-    var reportContainer = document.getElementById('reportContainer');
-
-    // Embed the report and display it within the div container.
-    var report = powerbi.embed(reportContainer, config);
-
-    // report.on will add an event handler which prints to Log window.
-    report.on("error", function (event) {
-        var logView = document.getElementById('logView');
-        logView.innerHTML = logView.innerHTML + "Error<br/>";
-        logView.innerHTML = logView.innerHTML + JSON.stringify(event.detail, null, "  ") + "<br/>";
-        logView.innerHTML = logView.innerHTML + "---------<br/>";
-    }
-  );
-}
-```
-
-## <a name="using-a-power-bi-premium-capacity"></a>Использование емкости Power BI Premium
-
-Завершив разработку приложения, вернитесь к рабочей области с емкостью.
-
-### <a name="create-a-capacity"></a>Создание емкости
-
-Создав емкость, вы получите ресурс для содержимого в рабочей области. Для отчетов с разбивкой на страницы рабочая область должна иметь емкость не менее P1. Вы можете создать емкость с помощью [Power BI Premium](../../admin/service-premium-what-is.md).
-
-В таблице ниже перечислены номера SKU Power BI Premium, доступные в [Microsoft 365](../../admin/service-admin-premium-purchase.md).
-
-| Узел емкости | Общее количество виртуальных ядер<br/>(серверная часть + внешний интерфейс) | Виртуальные ядра в серверной части | Виртуальные ядра для внешнего интерфейса | Ограничения для подключений DirectQuery и активных подключений |
-| --- | --- | --- | --- | --- | --- |
-| EM1 |1 виртуальное ядро |0,5 виртуальных ядер, 3 ГБ ОЗУ |0,5 виртуальных ядер |3,75 в секунду |
-| EM2 |2 виртуальных ядра |1 виртуальное ядро, 5 ГБ ОЗУ |1 виртуальное ядро |7,5 в секунду |
-| EM3 |4 виртуальных ядра |2 виртуальных ядра, 10 ГБ ОЗУ |2 виртуальных ядра |15 в секунду |
-| P1 |8 виртуальных ядер |4 виртуальных ядра, 25 ГБ ОЗУ |4 виртуальных ядра |30 в секунду |
-| P2 |16 виртуальных ядер |8 виртуальных ядер, 50 ГБ ОЗУ |8 виртуальных ядер |60 в секунду |
-| P3 |32 виртуальных ядра |16 виртуальных ядер, 100 ГБ ОЗУ |16 виртуальных ядер |120 в секунду |
-| P4 |64 виртуальных ядра |32 виртуальных ядра, 200 ГБ ОЗУ |32 виртуальных ядра |240 в секунду |
-| P5 |128 виртуальных ядер |64 виртуальных ядра, 400 ГБ ОЗУ |64 виртуальных ядра |480 в секунду |
-
-> [!NOTE]
-> - Если вы пытаетесь выполнить внедрение с приложениями Microsoft Office, вы можете использовать номера SKU EM для доступа к содержимому по бесплатной лицензии Power BI. Но нельзя получить доступ к содержимому с бесплатной лицензией Power BI, если вы используете Powerbi.com или Power BI Mobile.
-> - Если вы хотите выполнить внедрение с приложениями Microsoft Office через Powerbi.com или Power BI Mobile, вы можете получить доступ к содержимому с бесплатной лицензией Power BI.
-
-### <a name="assign-a-workspace-to-a-capacity"></a>Назначение рабочей области для емкости
-
-После создания емкости ей можно назначить рабочую область. Для этого сделайте следующее:
-
-1. В службе Power BI разверните рабочие области и щелкните многоточие возле рабочей области, которую вы используете для внедрения содержимого. Затем выберите команду **Изменить рабочие области**.
-
-    ![Изменение рабочей области](media/embed-sample-for-your-organization/embed-sample-for-your-organization-036.png)
-
-2. Разверните раздел **Дополнительно** и установите переключатель **Выделенная емкость** в положение "Вкл.". Выберите созданную емкость. Затем нажмите кнопку **Save** (Сохранить).
-
-    ![Назначение емкости](media/embed-sample-for-your-organization/embed-sample-for-your-organization-024.png)
-
-3. После нажатия кнопки **Сохранить** рядом с именем рабочей области должен появиться ромб.
-
-    ![Рабочая область, связанная с емкостью](media/embed-sample-for-your-organization/embed-sample-for-your-organization-037.png)
-
-## <a name="admin-settings"></a>Параметры администратора
-
-Глобальные администраторы или администраторы служб Power BI могут включать и отключать возможность использования REST API для клиента. Администраторы Power BI могут задать этот параметр для всей организации или отдельных групп безопасности. По умолчанию он включен для всей организации. Можно внести эти изменения на [портале администрирования Power BI](../../admin/service-admin-portal.md).
+2. В [Visual Studio](https://visualstudio.microsoft.com/) откройте файл **UserOwnsData.sln**.
+
+3. Откройте файл **Web.config** и введите следующие значения параметров:
+
+    * `clientId` — используйте [идентификатор клиента](#client-id);
+
+    * `clientSecret` — используйте [секрет клиента](#client-secret).
+
+### <a name="run-the-sample-app"></a>Запуск примера приложения
+
+1. Запустите проект, выбрав **IIS Express** (воспроизвести).
+
+[!INCLUDE[The embedded application sample app interface](../../includes/embed-tutorial-org-sample-app.md)]
+
+# <a name="react-typescript"></a>[React TypeScript](#tab/react)
+
+### <a name="configure-your-azure-ad-app"></a>Настройка приложения Azure AD
+
+[!INCLUDE[Configure the Azure AD authentication options](../../includes/embed-tutorial-org-azure-ad-app.md)]
+
+5. В разделе *Конфигурации платформы* настройте платформу **Веб** указанным ниже образом.
+
+    1. В разделе **URI перенаправления** добавьте `https://localhost:3000` и нажмите **Настроить**.
+
+        > [!NOTE]
+        >Если у вас нет платформы **Веб**, выберите **Добавить платформу** и в окне *Настройка платформ* выберите **Веб**.
+
+    2. В разделе *Неявное предоставление разрешения и гибридные потоки* включите оба параметра:
+        * **Маркеры доступа в Azure Active Directory**
+        * **Маркеры идентификации**
+    
+6. Сохраните изменения.
+
+:::image type="content" source="media/embed-sample-for-your-organization/azure-ad-react-configurations.png" alt-text="Снимок экрана: конфигурации проверки подлинности для приложения Azure AD с кодом URI веб-перенаправления, установленным в значение localhost 3000.":::
+
+### <a name="configure-the-sample-embedding-app"></a>Настройка примера приложения для внедрения
+
+1. Откройте папку **Внедрение для организации** > **UserOwnsData** > **src**.
+
+2. В текстовом редакторе откройте файл **Config.ts** и введите следующие значения параметров:
+
+    * `clientId` — используйте [идентификатор клиента](#client-id);
+
+    * `workspaceId` — используйте [идентификатор рабочей области](#client-secret);
+
+    * `reportId` — используйте [идентификатор отчета](#report-id).
+
+3. Сохраните файл.
+
+### <a name="run-the-sample-app"></a>Запуск примера приложения
+
+1. Откройте терминал и перейдите к папке **Внедрение для организации** > **UserOwnsData**.
+
+2. Выполните следующую команду, чтобы установить необходимые зависимости:
+
+   `npm install`
+
+3. Запустите приложение с помощью следующей команды:
+
+   `npm run start`
+
+    >[!NOTE]
+    >При первом входе вам будет предложено предоставить приложению разрешения Azure AD.
+
+---
+
+## <a name="developing-your-application"></a>Разработка приложения
+
+После настройки и запуска примера приложения *внедрения для клиентов* можно приступить к разработке собственного приложения.
+
+[!INCLUDE[Move to production](../../includes/embed-tutorial-production.md)]
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-В этом руководстве вы узнали, как внедрить содержимое Power BI в свое приложение с помощью учетной записи организации Power BI. Теперь вы можете попробовать внедрить содержимое Power BI в приложение с помощью приложений. Кроме того, вы можете попробовать внедрить содержимое Power BI для своих клиентов (на данный момент не поддерживается внедрение отчетов с разбивкой на страницы):
-
 > [!div class="nextstepaction"]
-> [Внедрение из приложений](./index.yml)
+>[Перенос в рабочую среду](move-to-production.md)
 
-> [!div class="nextstepaction"]
+>[!div class="nextstepaction"]
 >[Внедрение для клиентов](embed-sample-for-customers.md)
 
-Если у вас возникли вопросы, [задайте их участникам сообщества Power BI](https://community.powerbi.com/).
+> [!div class="nextstepaction"]
+>[Внедрение отчетов с разбивкой на страницы для клиентов](embed-paginated-reports-customers.md)
+
+> [!div class="nextstepaction"]
+>[Внедрение отчетов с разбивкой на страницы для организации](embed-paginated-reports-organization.md)
+
+>[!div class="nextstepaction"]
+>[Спросить в сообществе Power BI](https://community.powerbi.com/)

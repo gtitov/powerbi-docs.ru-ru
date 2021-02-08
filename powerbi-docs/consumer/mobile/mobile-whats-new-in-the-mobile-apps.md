@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/17/2020
-ms.openlocfilehash: 8301b51ccbb2ac344e24a297f9a309fc3601b3e1
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
+ms.openlocfilehash: 4a50d35ee3aa25932537846a13fc2d75c6fa38df
+ms.sourcegitcommit: 1872a167d1e4d731ad00cf8a6d951c31aa54bcce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98565594"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "98925795"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Новые возможности мобильных приложений для Power BI
 Соответствующие сведения о новых функциях и возможностях см. в следующей статье:
@@ -24,6 +24,10 @@ ms.locfileid: "98565594"
 
 >[!NOTE]
 >Поддержка мобильного приложения Power BI для **телефонов под управлением Windows 10 Mobile** будет прекращена 16 марта 2021 г. [Дополнительные сведения](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
+
+## <a name="january-2021"></a>Январь 2021 г.
+### <a name="workspace-support-with-a-power-bi-free-license"></a>Поддержка рабочих областей для бесплатной лицензии Power BI
+Пользователи с бесплатной лицензией Power BI теперь могут открывать и просматривать рабочие области, в которые они добавлены как зрители, непосредственно из списка рабочих областей. Это изменение применимо к содержимому, размещенному в емкости Power BI Premium.
 
 ## <a name="december-2020"></a>Декабрь 2020 г.
 ### <a name="weve-added-anomaly-detection-to-the-mobile-apps"></a>Обнаружение аномалий теперь и в мобильных приложениях
@@ -215,7 +219,7 @@ ms.locfileid: "98565594"
 Добавлена поддержка пользовательской навигации по приложениям. Теперь при открытии приложения в Power BI Mobile доступен пользовательский интерфейс навигации, созданный автором приложения. Навигация по приложениям может быть организована по содержимому и включать новые элементы, такие как ссылки и сворачиваемые разделы.
 Дополнительные сведения см. в статье [Пользовательская навигация](https://powerbi.microsoft.com/blog/designing-custom-navigation-for-power-bi-apps-is-now-available/).
 
-## <a name="august-2019"></a>Август 2019 г.
+## <a name="august-2019"></a>Август 2019 г.
 
 ### <a name="introducting-power-bi-mobile-new-look-preview-ios-and-android"></a>Представляем новый дизайн Power BI Mobile (предварительная версия) (iOS и Android)
 

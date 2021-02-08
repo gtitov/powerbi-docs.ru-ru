@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 01/22/2021
-ms.openlocfilehash: 50c89bdaa47aa8a687178a33627cf9148720acf2
-ms.sourcegitcommit: e8c3f327ac0fc73c118874a24d2601733f8f9e45
+ms.openlocfilehash: 2cc5b33065b46f690462454ce55bc16407d77f0b
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2021
-ms.locfileid: "98718584"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99043834"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>Безопасность на уровне строк (RLS) на сервере отчетов Power BI
 
@@ -44,7 +44,7 @@ ms.locfileid: "98718584"
 
  Если отчет не содержит необходимые роли, вы должны открыть его в Power BI Desktop, добавить или изменить роли, а затем сохранить на сервере отчетов Power BI. 
 
-1. В Power BI Desktop сохраните отчет на сервере отчетов Power BI. Необходимо использовать версию Power BI Desktop, оптимизированную для сервера отчетов Power BI.
+1. В Power BI Desktop сохраните отчет на сервере отчетов Power BI. Необходимо использовать версию Power BI Desktop для Сервера отчетов Power BI.
 2. В службе отчетов Power BI нажмите кнопку с многоточием ( **…** ) рядом с отчетом. 
 
 3. Выберите **Управление** > **Безопасность на уровне строк**. 

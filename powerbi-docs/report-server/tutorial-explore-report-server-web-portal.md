@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: tutorial
 ms.date: 05/06/2019
-ms.openlocfilehash: 85fcd6249a833c35cb98fca6abf2881ab1a4bf7e
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e66b15498f7ba66005448d88dc26cf715947f7da
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418424"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99043949"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>Руководство. Изучение возможностей веб-портала Сервера отчетов Power BI на виртуальной машине
 С помощью этого руководства вы создадите виртуальную машину с установленным Сервером отчетов Power BI, чтобы изучить возможности просмотра, редактирования и управления, предоставляемые в Power BI. В руководстве используется пример отчетов с разбивкой на страницы и ключевых показателей эффективности.
@@ -103,7 +103,7 @@ ms.locfileid: "96418424"
 |---------|---------|
 |![Номер 1](media/tutorial-explore-report-server-web-portal/number-1.png) | Примеры отчетов Power BI (PBIX) |
 |![Номер 2](media/tutorial-explore-report-server-web-portal/number-2.png) | Ссылки на документацию по Серверу отчетов Power BI |
-|![Номер 3](media/tutorial-explore-report-server-web-portal/number-3.png) | Запуск приложения Power BI Desktop, оптимизированного для Сервера отчетов Power BI (январь 2019 г.) |
+|![Номер 3](media/tutorial-explore-report-server-web-portal/number-3.png) | Запуск приложения Power BI Desktop для Сервера отчетов Power BI (январь 2021 г.) |
 |![Номер 4](media/tutorial-explore-report-server-web-portal/number-4.png) | Открытие в браузере веб-портала Сервера отчетов Power BI |
 |![Номер 5](media/tutorial-explore-report-server-web-portal/number-5.png) | Запуск SQL Server Data Tools для создания отчета с разбивкой на страницы (RDL) |
 
@@ -162,7 +162,7 @@ ms.locfileid: "96418424"
 
 1. Выберите **Разрешить**, чтобы этот сайт получил возможность открывать программу на локальном компьютере. 
 
-     В Power BI Desktop откроется отчет. На верхней панели отображается имя "Power BI Desktop (январь 2019 г.)". Это версия, оптимизированная для Сервера отчетов Power BI.
+     В Power BI Desktop откроется отчет. На верхней панели отображается имя "Power BI Desktop (январь 2021 г.)". Это версия, оптимизированная для Сервера отчетов Power BI.
 
     Используйте версию Power BI Desktop, установленную в виртуальной машине. Невозможно перейти в другой домен для отправки отчета.
 
