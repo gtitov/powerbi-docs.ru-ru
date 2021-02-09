@@ -312,6 +312,10 @@
               href: ../visuals/power-bi-visualization-scatter.md
             - name: Использование точечных диаграмм с высокой плотностью
               href: ../visuals/desktop-high-density-scatter-charts.md
+            - name: Создание маленьких диаграмм (предварительная версия)
+              href: ../visuals/power-bi-visualization-small-multiples.md
+            - name: Работа с маленькими диаграммами (предварительная версия)
+              href: ../visuals/power-bi-visualization-small-multiples-interact.md
             - name: Визуальные элементы "Карта фигур" (предварительная версия)
               href: ../visuals/desktop-shape-map.md
             - name: Визуальные элементы с автоописанием
