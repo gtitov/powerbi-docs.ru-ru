@@ -10,12 +10,12 @@ ms.reviewer: ''
 ms.custom: ''
 ms.date: 04/28/2020
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 3dbd769d11b3122591e0a34df9d74ca8e9c1e3b2
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: f23a7029f365f35d8f8f9324ff45716f45ba778d
+ms.sourcegitcommit: afdc9d41da6a4fced63030648d3f976425131732
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96410673"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "99570067"
 ---
 # <a name="azure-sql-database-with-directquery"></a>База данных SQL Azure с DirectQuery
 
@@ -32,7 +32,6 @@ ms.locfileid: "96410673"
 * Убедитесь, что в правилах брандмауэра [разрешен доступ к службам Azure](/azure/sql-database/sql-database-networkaccess-overview#allow-azure-services).
 * Каждое действие, например выбор столбца или добавление фильтра, отправляет запрос в базу данных.
 * Плитки обновляются каждый час (обновление не требуется планировать). Можно указать частоту обновления в разделе дополнительных параметров при подключении.
-* Функция вопросов и ответов для наборов данных DirectQuery недоступна.
 * Изменения схемы не извлекаются автоматически.
 
 Эти ограничения и примечания могут быть изменены по мере улучшения службы. Ниже описаны инструкции по подключению.

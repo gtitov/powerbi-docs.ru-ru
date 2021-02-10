@@ -7,12 +7,12 @@ ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 09/09/2020
-ms.openlocfilehash: 6ad81bc88ee559fa08400b5ed8a74dd1a9b6051f
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 74e99f42677c6adda73a8b5e2e3043e2d039f5b3
+ms.sourcegitcommit: afdc9d41da6a4fced63030648d3f976425131732
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96410029"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "99569906"
 ---
 # <a name="limitations-of-power-bi-qa"></a>Ограничения модуля "Вопросы и ответы" в Power BI
 
@@ -34,8 +34,6 @@ ms.locfileid: "96410029"
 **Поддержка DirectQuery для модуля "Вопросы и ответы"** (предварительная версия)
 
 Модуль "Вопросы и ответы" теперь поддерживает источники DirectQuery SQL, в том числе SQL Server 2019, базу данных SQL Azure и Azure Synapse Analytics. С помощью этого модуля можно задавать вопросы на естественном языке по отношению к этим источникам данных. Существует одно небольшое изменение в поведении модуля, когда он находится в режиме DirectQuery: после ввода вопроса следует нажать кнопку **Отправить**. Это изменение предотвращает перегрузку источника DirectQuery с ненужными запросами при вводе.
-
-Другие источники DirectQuery не поддерживаются для модуля "Вопросы и ответы". Если в наборе данных есть другие источники DirectQuery, мы не блокируем модуль "Вопросы и ответы", но на некоторые вопросы могут быть неправильно получены ответы или возвращаться ошибки.
 
 ### <a name="data-sources-not-supported"></a>Неподдерживаемые источники данных
 

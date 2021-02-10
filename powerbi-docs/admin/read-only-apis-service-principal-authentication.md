@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 12/01/2020
+ms.date: 02/04/2021
 ms.author: painbar
 ms.custom: ''
 LocalizationGroup: Administration
-ms.openlocfilehash: 48e1a82b7a88bf4535acea49ea6770cedfdbf304
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
+ms.openlocfilehash: e255fbef8b29422ea7736e43adaa5e4197a6338f
+ms.sourcegitcommit: afdc9d41da6a4fced63030648d3f976425131732
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98564870"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "99569952"
 ---
 # <a name="enable-service-principal-authentication-for-read-only-admin-apis-preview"></a>Включение аутентификации субъекта-службы для интерфейсов API администрирования с доступом только на чтение (предварительная версия)
 
@@ -51,19 +51,23 @@ ms.locfileid: "98564870"
     >[!IMPORTANT]
     >После активации субъекта-службы для использования с Power BI разрешения приложения в Azure AD перестают действовать. В дальнейшем управление разрешениями приложения осуществляется на портале администрирования Power BI.
 
+## <a name="supported-apis"></a>Поддерживаемые API
+
+Субъект-служба в настоящее время поддерживает следующие API:
+* [GetGroupsAsAdmin](/rest/api/power-bi/admin/groups_getgroupsasadmin) с $expand для панелей мониторинга, наборов данных, отчетов и потоков данных 
+* [GetDashboardsAsAdmin](/rest/api/power-bi/admin/dashboards_getdashboardsasadmin) с элементами $expand
+* [GetDatasourcesAsAdmin](/rest/api/power-bi/admin/datasets_getdatasourcesasadmin) 
+* [GetDatasetToDataflowsLinksAsAdmin](/rest/api/power-bi/admin/datasets_getdatasettodataflowslinksingroupasadmin)
+* [GetDataflowDatasourcesAsAdmin](/rest/api/power-bi/admin/dataflows_getdataflowdatasourcesasadmin) 
+* [GetDataflowUpstreamDataflowsAsAdmin](/rest/api/power-bi/admin/dataflows_getupstreamdataflowsingroupasadmin) 
+* [GetCapacitiesAsAdmin](/rest/api/power-bi/admin/getcapacitiesasadmin)
+* [GetActivityLog](/rest/api/power-bi/admin/getactivityevents)
+* [GetModifiedWorkspaces](/rest/api/power-bi/admin/workspaceinfo_getmodifiedworkspaces)
+* [WorkspaceGetInfo](/rest/api/power-bi/admin/workspaceinfo_postworkspaceinfo)
+* [WorkspaceScanStatus](/rest/api/power-bi/admin/workspaceinfo_getscanstatus)
+* [WorkspaceScanResult](/rest/api/power-bi/admin/workspaceinfo_getscanresult)
+
 ## <a name="considerations-and-limitations"></a>Рекомендации и ограничения
+
 * С помощью субъекта-службы нельзя входить на портал Power BI.
 * Для включения субъекта-службы в параметрах API администрирования на портале администрирования Power BI требуются права администратора Power BI.
-* Субъект-служба в настоящее время поддерживает следующие API:
-    * [GetGroupsAsAdmin](/rest/api/power-bi/admin/groups_getgroupsasadmin) с $expand для панелей мониторинга, наборов данных, отчетов и потоков данных 
-    * [GetDashboardsAsAdmin](/rest/api/power-bi/admin/dashboards_getdashboardsasadmin) с элементами $expand
-    * [GetDatasourcesAsAdmin](/rest/api/power-bi/admin/datasets_getdatasourcesasadmin) 
-    * [GetDatasetToDataflowsLinksAsAdmin](/rest/api/power-bi/admin/datasets_getdatasettodataflowslinksingroupasadmin)
-    * [GetDataflowDatasourcesAsAdmin](/rest/api/power-bi/admin/dataflows_getdataflowdatasourcesasadmin) 
-    * [GetDataflowUpstreamDataflowsAsAdmin](/rest/api/power-bi/admin/dataflows_getupstreamdataflowsingroupasadmin) 
-    * [GetCapacitiesAsAdmin](/rest/api/power-bi/admin/getcapacitiesasadmin)
-    * [GetActivityLog](/rest/api/power-bi/admin/getactivityevents)
-    * [GetModifiedWorkspaces](/rest/api/power-bi/admin/workspaceinfo_getmodifiedworkspaces)
-    * [WorkspaceGetInfo](/rest/api/power-bi/admin/workspaceinfo_postworkspaceinfo)
-    * [WorkspaceScanStatus](/rest/api/power-bi/admin/workspaceinfo_getscanstatus)
-    * [WorkspaceScanResult](/rest/api/power-bi/admin/workspaceinfo_getscanresult)
