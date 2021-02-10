@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
-ms.date: 10/12/2020
-ms.openlocfilehash: 17e153528e45a52de7addf3563c58c2586600660
-ms.sourcegitcommit: 383d87841d2509131fac7cc02c5c37c6a868144f
+ms.date: 02/03/2021
+ms.openlocfilehash: 73c7e0b2256d4a45fb9f433a887827e772a32257
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92026026"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99533080"
 ---
 # <a name="use-web-application-proxy-and-active-directory-federated-services---power-bi-report-server"></a>Использование прокси-службы веб-приложения и федеративных служб Active Directory — сервер отчетов Power BI
 
@@ -93,7 +93,7 @@ ms.locfileid: "92026026"
 
 ## <a name="3-configure-web-application-proxy-wap"></a>3. Настройка прокси-службы веб-приложения (WAP)
 
-Вам понадобится включить роль Windows прокси-службы веб-приложения (роль) на сервере в вашей среде. Эта роль должна быть включена на сервере Windows 2016. Дополнительные сведения см. в статье о [прокси-службе веб-приложения в Windows Server 2016](/windows-server/remote/remote-access/web-application-proxy/web-application-proxy-windows-server) и в разделе о [публикации приложений с помощью предварительной проверки подлинности AD FS](/windows-server/remote/remote-access/web-application-proxy/Publishing-Applications-using-AD-FS-Preauthentication).
+Вам понадобится включить роль Windows прокси-службы веб-приложения (роль) на сервере в вашей среде. Эта роль должна быть включена на сервере Windows 2016. Дополнительные сведения см. в статье о [прокси-службе веб-приложения в Windows Server 2016](/windows-server/remote/remote-access/web-application-proxy/web-application-proxy-windows-server) и в разделе о [публикации приложений с помощью предварительной проверки подлинности AD FS](/windows-server/remote/remote-access/web-application-proxy/Publishing-Applications-using-AD-FS-Preauthentication#BKMK_1.2).
 
 ### <a name="configure-constrained-delegation"></a>Настройка ограниченного делегирования
 

@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
+ms.custom: subject-monitoring
 ms.date: 01/14/2021
-ms.openlocfilehash: fc6b9dd4d50d665211324d1b6c05e62468fc034d
-ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.openlocfilehash: 9c07e75736b3ccdb33bf76f79656a8982cddb6d8
+ms.sourcegitcommit: f17acb16018752c234db6bff1f51f5130be12c58
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "98690806"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "99617026"
 ---
 # <a name="monitoring-power-bi-embedded-data-reference"></a>Справочник по данным мониторинга Power BI Embedded
 
