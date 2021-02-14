@@ -63,7 +63,7 @@
     - name: Практические руководства
       expanded: true
       items:
-        - name: подключение к источникам данных.
+        - name: Подключение к источникам данных
           href: desktop-connect-to-data.md
         - name: Подключение к данным
           items:
@@ -257,6 +257,8 @@
           items:
             - name: Подключение к службам с помощью приложений
               href: service-connect-to-services.md
+            - name: Анализ популярных акций с помощью Power BI
+              href: service-connect-to-analyze-stocks.md
             - name: "Отчет по отслеживанию COVID-19 в\_США"
               href: service-connect-to-covid-19-tracking.md
             - name: Отчет о присутствии для антикризисных коммуникаций
