@@ -9,12 +9,12 @@ ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 46e2684b468e480da5db5287ffc40466d71c8f22
-ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
+ms.openlocfilehash: f99f40fd04154f2a934fb812dfc1a4683e64ceb9
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94512224"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99532988"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>Мониторинг емкостей Premium в приложении
 
@@ -27,6 +27,8 @@ ms.locfileid: "94512224"
 
 > [!NOTE]
 > Power BI Premium недавно выпустили новую версию Premium — **Premium 2-го поколения**. В настоящее время она доступна в предварительной версии. Premium 2-го поколения упрощает управление емкостью уровня Premium и сокращает расходы на управление. Дополнительные сведения см. в разделе о [емкости Power BI Premium 2-го поколения (предварительная версия)](service-premium-what-is.md#power-bi-premium-generation-2-preview).
+>
+>Дополнительные сведения об улучшениях Power BI Embedded 2-го поколения см. в статье [Power BI Embedded 2-го поколения](../developer/embedded/power-bi-embedded-generation-2.md).
 
 ## <a name="install-the-app"></a>Установка приложения
 

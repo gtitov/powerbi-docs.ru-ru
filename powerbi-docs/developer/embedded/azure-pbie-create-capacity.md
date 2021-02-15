@@ -1,6 +1,6 @@
 ---
-title: Создание емкости Power BI Embedded на портале Azure | Документация Майкрософт
-description: В этой статье рассматривается создание емкости Power BI Embedded в Microsoft Azure.
+title: Создание емкости Power BI Embedded на портале Azure для решения встроенной бизнес-аналитики Power BI
+description: В этой статье рассматривается создание емкости Power BI в Microsoft Azure для решения встроенной бизнес-аналитики Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.service: powerbi
@@ -9,13 +9,13 @@ ms.devlang: csharp, javascript
 ms.topic: how-to
 ms.reviewer: zakharb
 ms.custom: subject-armqs, devx-track-azurecli
-ms.date: 08/02/2020
-ms.openlocfilehash: 73be957feae7fb869cca0af7bce0eeeb8daab03f
-ms.sourcegitcommit: b4c457bfb4676381dc4a0d04d965e8dab0bc230e
+ms.date: 01/14/2021
+ms.openlocfilehash: e006d4fe23c85daf941ba7274027ee21b0f44eac
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98155733"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99532666"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>Создание емкости Power BI Embedded на портале Azure
 
@@ -27,9 +27,9 @@ ms.locfileid: "98155733"
 
 * **Подписка Azure.** Посетите страницу [бесплатной пробной версии Azure](https://azure.microsoft.com/free/), чтобы создать учетную запись.
 
-* **Azure Active Directory.** Ваша подписка должна быть связана с клиентом Azure Active Directory (Azure AD). Кроме того, **_вам необходимо войти в Azure с учетной записью в этом клиенте_* _. Учетные записи Майкрософт не поддерживаются. Дополнительные сведения см. в разделе [Проверка подлинности и разрешения пользователей](/azure/analysis-services/analysis-services-manage-users).
+* **Azure Active Directory.** Ваша подписка должна быть связана с клиентом Azure Active Directory (Azure AD). Кроме того, **_вам необходимо войти в Azure с учетной записью в этом арендаторе_**. Учетные записи Майкрософт не поддерживаются. Дополнительные сведения см. в разделе [Проверка подлинности и разрешения пользователей](/azure/analysis-services/analysis-services-manage-users).
 
-_ **Клиент Power BI:** По крайней мере одна учетная запись в клиенте Azure AD должна быть зарегистрирована в Power BI.
+* **Клиент Power BI.** По крайней мере одна учетная запись в клиенте Azure AD должна быть зарегистрирована в Power BI.
 
 * **Группа ресурсов.** Используйте существующую группу ресурсов или [создайте новую](/azure/azure-resource-manager/resource-group-overview).
 
@@ -46,9 +46,9 @@ _ **Клиент Power BI:** По крайней мере одна учетна�
 3. В Power BI Embedded выберите **Добавить**.
 
 4. Укажите необходимые сведения и нажмите **Просмотр и создание**.
-
-    >[!div class="mx-imgBorder"]
-    >![Снимок экрана: вкладка "Основные" на странице Power B I Embedded для создания емкости на портале Azure.](media/azure-pbie-create-capacity/azure-create-capacity-old.png)
+    
+    > [!div class="mx-imgBorder"]
+    >![Снимок экрана: вкладка "Основные" на странице Power B I Embedded для создания емкости на портале Azure.](media/azure-pbie-create-capacity/azure-create-capacity.png)
 
     * **Подписка** — подписка, в которой вы хотите создать емкость.
 
@@ -66,7 +66,19 @@ _ **Клиент Power BI:** По крайней мере одна учетна�
         >* Вы можете выбрать другого пользователя или субъект-службу в качестве администратора емкости.
         >* Администратор емкости должен относиться к клиенту, в котором подготавливается емкость. Пользователи типа "бизнес-бизнес" (B2B) не могут быть администраторами емкости.
 
+    * **Режим ресурсов** — выберите один из двух режимов ресурсов Power BI Embedded:
+
+        * **Embedded 1-го поколения** — классический ресурс Power BI Embedded.
+
+        * **Embedded 2-го поколения** — новый ресурс Power BI Embedded, предлагающий улучшенные возможности. Дополнительные сведения см. в статье [Power BI Embedded 2-го поколения](power-bi-embedded-generation-2.md).
+        
+        >[!IMPORTANT]
+        >Создав ресурс емкости, вы не сможете изменить поколение. Если вы хотите изменить поколение Power BI Embedded, можно создать другой ресурс нужного поколения и переназначить ему рабочие области. Этот процесс также можно автоматизировать с помощью API Azure Resource Manager.
+
 # <a name="azure-cli"></a>[Azure CLI](#tab/CLI)
+
+>[!NOTE]
+>Azure CLI не поддерживается для [Power BI Embedded 2-го поколения (предварительная версия)](power-bi-embedded-generation-2.md).
 
 ### <a name="use-azure-cloud-shell"></a>Использование Azure Cloud Shell
 
@@ -128,7 +140,7 @@ az powerbi embedded-capacity create --location westeurope
 
 ### <a name="delete-a-capacity-with-azure-cli"></a>Удаление емкости с помощью Azure CLI
 
-Чтобы удалить емкость с помощью Azure CLI, используйте команду [az powerbi embedded-capacity delete](/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity#ext-powerbidedicated-az-powerbi-embedded-capacity-delete).
+Чтобы удалить емкость с помощью Azure CLI, используйте команду [Azure Power BI для удаления емкости Embedded](/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity#ext-powerbidedicated-az-powerbi-embedded-capacity-delete).
 
 ```azurecli
 az powerbi embedded-capacity delete --name
@@ -137,7 +149,7 @@ az powerbi embedded-capacity delete --name
 
 ### <a name="manage-your-capacity-with-azure-cli"></a>Управление емкостью с помощью Azure CLI
 
-Просмотреть все команды Azure CLI для Power BI Embedded можно в разделе [az powerbi](/cli/azure/ext/powerbidedicated/powerbi).
+Просмотреть все команды Azure CLI для Power BI Embedded можно [здесь](/cli/azure/ext/powerbidedicated/powerbi).
 
 # <a name="arm-template"></a>[Шаблон ARM](#tab/ARM-template)
 
@@ -149,7 +161,13 @@ az powerbi embedded-capacity delete --name
 
 ### <a name="review-the-template"></a>Изучение шаблона
 
-Шаблон, используемый в этом кратком руководстве, взят из [шаблонов быстрого запуска Azure](https://azure.microsoft.com/resources/templates/101-power-bi-embedded).
+Шаблоны, используемые в этом кратком руководстве, взяты на [этой странице](https://azure.microsoft.com/resources/templates/101-power-bi-embedded).
+
+В шаблоне определен один ресурс Azure, [Microsoft.PowerBIDedicated/capacities Az](/azure/templates/microsoft.powerbidedicated/allversions), который создает емкость Power BI Embedded.
+
+#### <a name="embedded-gen1"></a>Embedded 1-го поколения
+
+Используйте этот шаблон для создания классического ресурса Power BI Embedded.
 
 ```json
 {
@@ -159,14 +177,14 @@ az powerbi embedded-capacity delete --name
         "name": {
             "type": "string",
             "metadata": {
-              "description": "The capacity name, which is displayed in the Azure portal and the Power BI admin portal"
+                "description": "The capacity name, which is displayed in the Azure portal and the Power BI admin portal"
             }
         },
         "location": {
             "type": "string",
             "defaultValue": "[resourceGroup().location]",
             "metadata": {
-              "description": "The location where Power BI is hosted for your tenant"
+                "description": "The location where Power BI is hosted for your tenant"
             }
         },
         "sku": {
@@ -180,13 +198,13 @@ az powerbi embedded-capacity delete --name
                 "A6"
             ],
             "metadata": {
-              "description": "The pricing tier, which determines the v-core count and memory size for the capacity"
+                "description": "The pricing tier, which determines the v-core count and memory size for the capacity"
             }
         },
         "admin": {
             "type": "string",
             "metadata": {
-              "description": "A user within your Power BI tenant, who will serve as an admin for this capacity"
+                "description": "A user within your Power BI tenant, who will serve as an admin for this capacity"
             }
         }
     },
@@ -211,7 +229,70 @@ az powerbi embedded-capacity delete --name
 }
 ```
 
-В шаблоне определен один ресурс Azure, [Microsoft.PowerBIDedicated/capacities Az](/azure/templates/microsoft.powerbidedicated/allversions), который создает емкость Power BI Embedded.
+#### <a name="embedded-gen2-preview"></a>Embedded 2-го поколения (предварительная версия)
+
+Используйте этот шаблон для создания ресурса [Embedded 2-го поколения](power-bi-embedded-generation-2.md).
+
+```json
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "name": {
+            "type": "string",
+            "metadata": {
+                "description": "The capacity name, which is displayed in the Azure portal and the Power BI admin portal"
+            }
+        },
+        "location": {
+            "type": "string",
+            "defaultValue": "[resourceGroup().location]",
+            "metadata": {
+                "description": "The location where Power BI is hosted for your tenant"
+            }
+        },
+        "sku": {
+            "type": "string",
+            "allowedValues": [
+                "A1",
+                "A2",
+                "A3",
+                "A4",
+                "A5",
+                "A6"
+            ],
+            "metadata": {
+                "description": "The pricing tier, which determines the v-core count and memory size for the capacity"
+            }
+        },
+        "admin": {
+            "type": "string",
+            "metadata": {
+                "description": "A user within your Power BI tenant, who will serve as an admin for this capacity"
+            }
+        }
+    },
+    "resources": [
+        {
+            "type": "Microsoft.PowerBIDedicated/capacities",
+            "apiVersion": "2018-09-01-preview",
+            "name": "[parameters('name')]",
+            "location": "[parameters('location')]",
+            "sku": {
+                "name": "[parameters('sku')]"
+            },
+            "properties": {
+                "administration": {
+                    "members": [
+                        "[parameters('admin')]"
+                    ]
+                },
+                "mode": "Gen2"
+            }
+        }
+    ]
+}
+```
 
 ### <a name="deploy-the-template"></a>Развертывание шаблона
 

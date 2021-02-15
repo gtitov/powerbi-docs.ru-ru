@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/02/2019
-ms.openlocfilehash: 3d35df1c38a0a62325f88fa19ee7267a3b209647
-ms.sourcegitcommit: f7330dabb9cd8bce90bb2efec3e3273a11578f10
+ms.openlocfilehash: 28baefb80037d1f78d2a2fd51b3989aa5d2a1ebb
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "99494532"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99533103"
 ---
 # <a name="scan-barcodes-from-the-mobile-app-to-get-filtered-data"></a>Сканирование штрихкодов из мобильного приложения для получения отфильтрованных данных 
 Вы можете сканировать штрихкоды в реальном мире и сразу же переходить непосредственно к отфильтрованной соответствующим образом информации в мобильном приложении Power BI.

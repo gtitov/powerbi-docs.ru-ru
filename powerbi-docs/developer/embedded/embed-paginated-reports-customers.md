@@ -1,6 +1,6 @@
 ---
-title: Внедрение отчетов с разбивкой на страницы в приложение встроенной аналитики Power BI для более эффективной бизнес-аналитики для ваших клиентов
-description: Узнайте, как интегрировать (внедрить) отчет Power BI с разбивкой на страницы в приложение с помощью API-интерфейсов Power BI. Получайте оптимальную встроенную бизнес-аналитику в Power BI.
+title: Внедрение отчетов с разбивкой на страницы в приложение встроенной аналитики Power BI для ваших клиентов
+description: Сведения о том, как интегрировать (внедрить) отчет Power BI с разбивкой на страницы в приложение встроенной аналитики.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: rkarlin
@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
-ms.date: 01/04/2019
-ms.openlocfilehash: 1cbe656618e2d4240aebfe95ef4ebc2679616054
-ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
+ms.date: 01/14/2021
+ms.openlocfilehash: 081c6c409a2aed7003952b30ff16dcb7f032ed40
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "98781625"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99533149"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers"></a>Руководство. Внедрение отчетов Power BI с разбивкой на страницы в приложение для клиентов
 
@@ -58,10 +58,16 @@ ms.locfileid: "98781625"
 * **Power BI Premium** — для внедрения отчета с разбиением на страницы требуется емкость SKU *P*. При внедрении содержимого Power BI это решение называется *внедрением Power BI*. Дополнительные сведения об этой подписке см. в разделе [Что такое Power BI Premium?](../../admin/service-premium-what-is.md).
 * **Azure Power BI Embedded** — вы можете приобрести емкость на [портале Microsoft Azure](https://portal.azure.com). Эта подписка использует номера SKU *A*. Для внедрения отчетов с разбивкой на страницы требуется по крайней мере подписка *A4*. Дополнительные сведения о создании емкости Power BI Embedded см. в статье [Создание емкости Power BI Embedded на портале Azure](azure-pbie-create-capacity.md).
 
+    >[!NOTE]
+    >Недавно была выпущена новая версия Power BI Embedded, которая называется **Embedded 2-го поколения**. Embedded 2-го поколения упрощает управление внедренными емкостями и улучшает работу Power BI Embedded. Дополнительные сведения см. в разделе [Power BI Embedded 2-го поколения](power-bi-embedded-generation-2.md).
+
 В следующей таблице описаны ресурсы и ограничения для каждого SKU. Чтобы определить, какая емкость лучше соответствует вашим потребностям, ознакомьтесь с таблицей [Какой номер SKU следует приобрести для моего сценария](./embedded-faq.md#which-solution-should-i-choose).
 
 | Узлы емкости | Число виртуальных ядер | Серверные виртуальные ядра | ОЗУ (ГБ) | Интерфейсные виртуальные ядра | 
 | --- | --- | --- | --- | --- |
+| A1 с [Embedded 2-го поколения](power-bi-embedded-generation-2.md) | 1 | 0,5 | 2.5 | 0,5 |
+| A2 с [Embedded 2-го поколения](power-bi-embedded-generation-2.md) | 2 | 1 | 5 | 1 |
+| A3 с [Embedded 2-го поколения](power-bi-embedded-generation-2.md) | 4 | 2 | 10 | 2 |
 | P1/A4 | 8 | 4 | 25 | 4 |
 | P2/A5 | 16 | 8 | 50 | 8 |
 | P3/A6 | 32 | 16 | 100 | 16 |
@@ -206,7 +212,7 @@ Get-PowerBIworkspace -name "Paginated Report Embed" | Get-PowerBIReport
 
 При внедрении отчетов Power BI с разбивкой на страницы для ваших клиентов в приложении в **Azure AD** необходимо иметь [субъект-службу](embed-service-principal.md) и получить [маркер доступа Azure AD](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data) для приложения Power BI, прежде чем выполнять вызовы к [интерфейсам REST API Power BI](/rest/api/power-bi/).
 
-Для создания клиента Power BI с помощью **маркера доступа** создайте объект клиента Power BI, что позволит работать с интерфейсами [REST API Power BI](/rest/api/power-bi/). Для создания объекта клиента Power BI маркер **AccessToken** упаковывается в объект **_Microsoft.Rest.TokenCredentials_* _.
+Для создания клиента Power BI с помощью **маркера доступа** создайте объект клиента Power BI, что позволит работать с интерфейсами [REST API Power BI](/rest/api/power-bi/). Для создания объекта клиента Power BI маркер **AccessToken** упаковывается в объект **_Microsoft.Rest.TokenCredentials_**.
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -228,7 +234,7 @@ using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 
 Ниже приведен пример кода для получения первого отчета из определенной рабочей области.
 
-_Пример получения элемента содержимого (отчета, панели мониторинга или плитки), который вы хотите внедрить, можно найти в файле Services\EmbedService.cs в [примере приложения](https://github.com/Microsoft/PowerBI-Developer-Samples).*
+*Пример получения элемента содержимого (отчета, панели мониторинга или плитки), который вы хотите внедрить, можно найти в файле Services\EmbedService.cs в [примере приложения](https://github.com/Microsoft/PowerBI-Developer-Samples).*
 
 ```csharp
 using Microsoft.PowerBI.Api.V2;

@@ -8,13 +8,13 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
-ms.date: 11/23/2020
-ms.openlocfilehash: 35bdaa8af06187767975126daa1f2445908fed9f
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.date: 02/04/2021
+ms.openlocfilehash: 6a322d331dce9fd989a93545745cf7feb2d9eb70
+ms.sourcegitcommit: afdc9d41da6a4fced63030648d3f976425131732
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97886794"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "99569975"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-an-application-secret"></a>Внедрение содержимого Power BI с помощью субъект-службы и секрета приложения
 
@@ -243,7 +243,7 @@ Add-PowerBIWorkspaceUser -Id $pbiWorkspace.Id -AccessRight Member -PrincipalType
 * Для включения субъекта-службы в параметрах разработчика на портале администрирования Power BI требуются права администратора Power BI.
 * [Внедренные для организации](embed-sample-for-your-organization.md) приложения не могут использовать субъект-службу.
 * Управление [потоками данных](../../transform-model/dataflows/dataflows-introduction-self-service.md) не поддерживается.
-* Сейчас субъект-служба не поддерживает никакие API администратора.
+* Субъект-служба поддерживает только некоторые API администрирования с доступом только на чтение. Чтобы включить поддержку субъекта-службы для API администрирования с доступом только на чтение, включите параметры администратора службы Power BI в своем арендаторе. Дополнительные сведения см. в статье [Включение аутентификации субъекта-службы для интерфейсов API администрирования с доступом только на чтение](../../admin/read-only-apis-service-principal-authentication.md).
 * При использовании субъекта-службы с источником данных [Azure Analysis Services](/azure/analysis-services/analysis-services-overview) сам субъект-служба должен иметь разрешения экземпляра Azure Analysis Services. Использовать для этой цели группу безопасности, содержащую субъект-службу, нельзя.
 
 ## <a name="next-steps"></a>Дальнейшие действия

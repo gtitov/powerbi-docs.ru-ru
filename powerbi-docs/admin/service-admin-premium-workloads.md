@@ -9,12 +9,12 @@ ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 04340be9c7e3700630657306093e3d96e3e9e693
-ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
+ms.openlocfilehash: 62579a12588449e0119b96fb3a7c7da2ef7858e5
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97491421"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99532919"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Настройка рабочих нагрузок в емкости Premium
 
@@ -22,6 +22,8 @@ ms.locfileid: "97491421"
 
 > [!NOTE]
 > Power BI Premium недавно выпустили новую версию Premium — **Premium 2-го поколения**. В настоящее время она доступна в предварительной версии. Premium 2-го поколения упрощает управление емкостью уровня Premium и сокращает расходы на управление. Дополнительные сведения см. в разделе о [емкости Power BI Premium 2-го поколения (предварительная версия)](service-premium-what-is.md#power-bi-premium-generation-2-preview).
+>
+>Дополнительные сведения об улучшениях Power BI Embedded 2-го поколения см. в статье [Power BI Embedded 2-го поколения](../developer/embedded/power-bi-embedded-generation-2.md).
 
 ## <a name="default-memory-settings"></a>Параметры памяти по умолчанию
 

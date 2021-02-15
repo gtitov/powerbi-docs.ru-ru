@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/15/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8a09de5777332d69332cae6928022e7e99fe689e
-ms.sourcegitcommit: 2e81649476d5cb97701f779267be59e393460097
+ms.openlocfilehash: 7907242c3ef71b1b621820cbb66bd93e88ff1c99
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "99422290"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99532712"
 ---
 # <a name="using-microsoft-cloud-app-security-controls-in-power-bi"></a>Использование элементов управления Microsoft Cloud App Security в Power BI
 
@@ -63,7 +63,7 @@ Cloud App Security можно настраивать не только для Po
 
 ## <a name="custom-policies-to-alert-on-suspicious-user-activity-in-power-bi"></a>Пользовательские политики оповещения о подозрительных действиях пользователей в Power BI
 
-Политика действий Cloud App Security позволяет администраторам определять собственные правила для обнаружения поведения пользователей, которое отличается от обычного, и автоматического принятия мер, если поведение кажется слишком опасным. Пример:
+Политики действий Cloud App Security позволяют администраторам определять собственные правила для обнаружения поведения пользователей, которое отличается от обычного, и автоматического принятия мер, если поведение кажется слишком опасным. Пример:
 
 * **Удаление большого количества меток конфиденциальности.** Пример: оповещать меня, если один пользователь удалил метки конфиденциальности из 20 разных отчетов менее чем за 5 минут.
 

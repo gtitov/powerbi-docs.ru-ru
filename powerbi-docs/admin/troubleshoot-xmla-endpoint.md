@@ -10,12 +10,12 @@ ms.topic: troubleshooting
 ms.date: 02/02/2021
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: 98bc3da33f38974f3dfcb9e155111e7d16e6c069
-ms.sourcegitcommit: f7330dabb9cd8bce90bb2efec3e3273a11578f10
+ms.openlocfilehash: 0ae9a37d8d3a54d02811b9f3051d11cb1ab82ff8
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "99494473"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99532574"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>Устранение неполадок с подключением конечных точек XMLA
 
@@ -144,7 +144,7 @@ Power BI возвращает указанную ниже ошибку, если
 
 ### <a name="query-execution"></a>выполнение запроса.
 
-При подключении к рабочей области в емкости [Premium 2-го поколения](service-premium-what-is.md#power-bi-premium-generation-2-preview) в SQL Server Management Studio может отображаться следующая ошибка:
+При подключении к рабочей области в емкости [Premium 2-го поколения](service-premium-what-is.md#power-bi-premium-generation-2-preview) или [Embedded 2-го поколения](../developer/embedded/power-bi-embedded-generation-2.md) в SQL Server Management Studio может отображаться следующая ошибка:
 
 ```
 Executing the query ...
@@ -155,7 +155,7 @@ Error -1052311437:
 
 ### <a name="refresh-operations"></a>Операции обновления
 
-При использовании SSMS v18.7.1 или более ранней версии для выполнения длительной операции обновления (> 1 минуты) на набор данных в емкости Premium 2-го поколения среда SSMS может вывести сообщение об ошибке следующего вида, даже если операция обновления выполнена успешно:
+При использовании SSMS v18.7.1 или более ранней версии для выполнения длительной операции обновления (> 1 минуты) на набор данных в емкости Premium 2-го поколения или [Embedded 2-го поколения](../developer/embedded/power-bi-embedded-generation-2.md) среда SSMS может вывести сообщение об ошибке следующего вида, даже если операция обновления выполнена успешно:
 
 ```
 Executing the query ...

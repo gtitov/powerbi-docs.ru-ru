@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 10/19/2020
-ms.openlocfilehash: 7cba43ff6339ce890ca2f4f1744282648eaf877b
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.date: 02/09/2021
+ms.openlocfilehash: d8460fe1a3eb199848f47181837225f1e540bb08
+ms.sourcegitcommit: de3b45cad5ae21c77692ce4490e21de01d21e6f3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93297896"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "100013643"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Отчеты с разбивкой на страницы в Power BI: Часто задаваемые вопросы 
 
@@ -28,6 +28,13 @@ ms.locfileid: "93297896"
 ### <a name="what-size-premium-capacity-do-i-need-for-paginated-reports"></a>Какой размер емкости Premium требуется для отчетов с разбивкой на страницы?
 
 Рабочая нагрузка отчетов с разбивкой на страницы доступна для номеров SKU P1 – P3.  Вы также можете использовать ее в сценариях внедрения или тестирования и разработки в номерах SKU A4–A6.
+
+> [!NOTE]
+> Для Power BI недавно выпущена новая версия Premium — **Premium 2-го поколения**. В настоящее время она доступна в предварительной версии. В **Premium 2-го поколения** рабочая нагрузка "Отчеты с разбивкой на страницы" доступна для SKU P1–P3 и A1–A6. 
+>
+>Premium 2-го поколения упрощает управление емкостью уровня Premium и сокращает расходы на управление. Дополнительные сведения см. в разделе о [емкости Power BI Premium 2-го поколения (предварительная версия)](../admin/service-premium-what-is.md#power-bi-premium-generation-2-preview).
+>
+>Дополнительные сведения об улучшениях Power BI Embedded 2-го поколения см. в статье [Power BI Embedded 2-го поколения](../developer/embedded/power-bi-embedded-generation-2.md).
 
 ### <a name="what-is-the-maximum-memory-threshold-i-can-put-for-paginated-reports-in-my-capacity"></a>Какое максимальное пороговое значение памяти я могу указать в моей емкости для отчетов с разбивкой на страницы?
 
@@ -81,6 +88,9 @@ ms.locfileid: "93297896"
 Администраторы Power BI могут изменять максимальный процент памяти по умолчанию на портале администрирования. Перейдите в раздел рабочей нагрузки **Отчеты с разбивкой на страницы** на вкладке **Параметры емкости** страницы **Power BI Premium**.
 
 :::image type="content" source="media/paginated-reports-faq/paginated-reports-capacity-settings.png" alt-text="Раздел Отчеты с разбивкой на страницы на вкладке Параметры емкости":::
+
+> [!NOTE]
+> **Premium 2-го поколения** (в настоящее время на этапе предварительной версии) не требует изменения параметров памяти. Память в Premium 2-го поколения автоматически управляется базовой системой. В **Premium 2-го поколения** рабочая нагрузка "Отчеты с разбивкой на страницы" доступна для SKU P1–P3 и A1–A6.
 
 ## <a name="general"></a>Общие
 

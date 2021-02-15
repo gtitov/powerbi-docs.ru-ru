@@ -10,12 +10,12 @@ ms.subservice: pbi-data-sources
 ms.topic: conceptual
 ms.date: 06/26/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 07b16bb90b548f071472f9f7d22095ccdff78f56
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: d3a30098b793ccb75cbae6c271ab1685b3176a10
+ms.sourcegitcommit: f17acb16018752c234db6bff1f51f5130be12c58
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96401726"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "99616971"
 ---
 # <a name="create-visuals-by-using-python-packages-in-the-power-bi-service"></a>Создание визуальных элементов с помощью пакетов Python в службе Power BI
 Вы можете использовать эффективный [язык программирования Python](https://www.python.org/) для создания визуальных элементов в службе Power BI. В службе Power BI поддерживается множество пакетов Python, и многие из них поддерживаются постоянно.

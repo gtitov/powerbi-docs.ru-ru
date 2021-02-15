@@ -9,12 +9,12 @@ ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 5cce18c2ec4a24b06f4cf48d5fd2b542109d70c6
-ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
+ms.openlocfilehash: 2eb1c5bd685cedabd96483867546c7578124af45
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94512500"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99532850"
 ---
 # <a name="configure-and-manage-capacities-in-power-bi-premium"></a>Настройка и администрирование емкостей Power BI Premium
 
@@ -24,7 +24,7 @@ ms.locfileid: "94512500"
 
 ![Экран параметров емкости Power BI](media/service-admin-premium-manage/premium-capacity-management.png)
 
-*Емкость* — это ключевая характеристика предложений Power BI Premium и Power BI Embedded. Это набор ресурсов, зарезервированных для монопольного использования вашей организацией. Наличие емкости позволяет публиковать панели мониторинга, отчеты и наборы данных для пользователей в организации. При этом вам не нужно приобретать лицензии для каждого пользователя. Она также обеспечивает предсказуемую и согласованную производительность содержимого, размещенного в емкости. Дополнительные сведения см. в статье [Что такое Power BI Premium?](service-premium-what-is.md)
+*Емкость* — это ключевая характеристика предложений Power BI Premium и [Power BI Embedded](../developer/embedded/azure-pbie-what-is-power-bi-embedded.md). Это набор ресурсов, зарезервированных для монопольного использования вашей организацией. Наличие емкости позволяет публиковать панели мониторинга, отчеты и наборы данных для пользователей в организации. При этом вам не нужно приобретать лицензии для каждого пользователя. Она также обеспечивает предсказуемую и согласованную производительность содержимого, размещенного в емкости. Дополнительные сведения см. в статье [Что такое Power BI Premium?](service-premium-what-is.md)
 
 > [!NOTE]
 > Power BI Premium недавно выпустили новую версию Premium — **Premium 2-го поколения**. В настоящее время она доступна в предварительной версии. Premium 2-го поколения упрощает управление емкостью уровня Premium и сокращает расходы на управление. Дополнительные сведения см. в разделе о [емкости Power BI Premium 2-го поколения (предварительная версия)](service-premium-what-is.md#power-bi-premium-generation-2-preview).

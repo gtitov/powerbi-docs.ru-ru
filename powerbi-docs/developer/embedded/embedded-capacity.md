@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 01/06/2021
-ms.openlocfilehash: c27d95715fe436b59825390b1cc16111e83ffc1d
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
+ms.date: 01/14/2021
+ms.openlocfilehash: b37182cbdf030e8b32fdfe307d0a652fef678b9b
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98564986"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99533034"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>Емкость и номера SKU в аналитике Power BI Embedded
 
@@ -37,6 +37,9 @@ ms.locfileid: "98564986"
 Служба Power BI Embedded предназначена для независимых поставщиков программного обеспечения и разработчиков, которые хотят внедрить визуальные элементы в свои приложения.
 
 Приложения, в которых используется Power BI Embedded, позволяют пользователям потреблять содержимое, хранящееся в емкости Power BI Embedded.
+
+>[!NOTE]
+>Недавно была выпущена новая версия Power BI Embedded, которая называется **Embedded 2-го поколения**. Embedded 2-го поколения упрощает управление внедренными емкостями и улучшает работу Power BI Embedded. Дополнительные сведения см. в разделе [Power BI Embedded 2-го поколения](power-bi-embedded-generation-2.md).
 
 ### <a name="power-bi-premium"></a>Power BI Premium
 
@@ -142,6 +145,10 @@ Power BI Embedded поставляется с номером SKU [*A*.](../../a
 | P4 | 64 | 32 | 200 | 32 | 240 | 48 |
 | P5 | 128 | 64 | 400 | 64 | 480 | 96 |
 | | | | | | | |
+
+#### <a name="embedded-gen-2-memory-enhancements-preview"></a>Улучшения для памяти в Embedded 2-го поколения (предварительная версия)
+
+При использовании [Power BI Embedded 2-го поколения](power-bi-embedded-generation-2.md) (также называется Embedded 2-го поколения) объем памяти, доступный на каждом узле, задается по ограничению объема памяти для одного элемента Power BI (например, отчета или панели мониторинга), а не по совокупному потреблению памяти. Например, в Embedded 2-го поколения емкости A4 размер одного набора данных ограничен 25 ГБ. Для сравнения, в исходной версии Embedded общая занимаемая память одновременной обработки наборов данных не должна превышать 25 ГБ.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/17/2020
-ms.openlocfilehash: 4a50d35ee3aa25932537846a13fc2d75c6fa38df
-ms.sourcegitcommit: 1872a167d1e4d731ad00cf8a6d951c31aa54bcce
+ms.date: 02/10/2021
+ms.openlocfilehash: 83c7a778b6c799bd759443e7601e1f624ed5f9e5
+ms.sourcegitcommit: 5c943a05071efb69a17ca4c501c6b89f2f351f1a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "98925795"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "100089498"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Новые возможности мобильных приложений для Power BI
 Соответствующие сведения о новых функциях и возможностях см. в следующей статье:
@@ -24,6 +24,13 @@ ms.locfileid: "98925795"
 
 >[!NOTE]
 >Поддержка мобильного приложения Power BI для **телефонов под управлением Windows 10 Mobile** будет прекращена 16 марта 2021 г. [Дополнительные сведения](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
+
+## <a name="february-2021"></a>Февраль 2021 года
+### <a name="support-for-power-bi-in-split-screens-android-tablets-only"></a>Поддержка для Power BI в режиме разделения экрана (только для планшетов Android)
+
+Если ваш планшет Android поддерживает работу с несколькими окнами, вы можете просматривать свои данные в другом приложении и взаимодействовать с ним в режиме разделения экрана. [Дополнительные сведения](mobile-apps-split-screen.md)
+
+![Снимок экрана: мобильное приложение, используемое в режиме разделения экрана.](media/mobile-whats-new-in-the-mobile-apps/power-bi-mobile-split-screen.png)
 
 ## <a name="january-2021"></a>Январь 2021 г.
 ### <a name="workspace-support-with-a-power-bi-free-license"></a>Поддержка рабочих областей для бесплатной лицензии Power BI
@@ -184,11 +191,11 @@ ms.locfileid: "98925795"
 
 ### <a name="see-all-your-latest-power-bi-activity"></a>Все последние действия в Power BI
  
-Веб-канал действий помогает в реальном времени отслеживать все, что происходит с вашим содержимым Power BI. Просто откройте вкладку действий на главной странице приложения, и вы увидите все последние уведомления, предупреждения, комментарии, @mentions и многое другое. [Подробнее](mobile-apps-home-page.md#activity-feed).
+Веб-канал действий помогает в реальном времени отслеживать все, что происходит с вашим содержимым Power BI. Просто откройте вкладку действий на главной странице приложения, и вы увидите все последние уведомления, предупреждения, комментарии, @mentions и многое другое. [Дополнительные сведения](mobile-apps-home-page.md#activity-feed).
 
 ### <a name="use-bookmarks-in-your-reports"></a>Использование закладок в отчетах
 
-Создаваемые в Power BI закладки стали доступны в мобильном приложении Power BI. Теперь при открытии приложения вы можете использовать закладки, созданные автором отчета, равно как и свои собственные. [Подробнее](mobile-reports-in-the-mobile-apps.md#bookmarks).
+Создаваемые в Power BI закладки стали доступны в мобильном приложении Power BI. Теперь при открытии приложения вы можете использовать закладки, созданные автором отчета, равно как и свои собственные. [Дополнительные сведения](mobile-reports-in-the-mobile-apps.md#bookmarks).
 
 ## <a name="october-2019"></a>Октябрь 2019 г.
 
@@ -273,7 +280,7 @@ ms.locfileid: "98925795"
 
 ### <a name="device-protection-ios"></a>Защита устройств (iOS)
 
-Пользователи могут использовать встроенную защиту устройств для защиты Power BI, запрашивая Face ID, Touch ID или секретный код для доступа к Power BI. Этой функцией может управлять пользователь с помощью параметров приложения, а также администратор с помощью Intune или другого средства MDM. [Подробнее](./mobile-native-secure-access.md).
+Пользователи могут использовать встроенную защиту устройств для защиты Power BI, запрашивая Face ID, Touch ID или секретный код для доступа к Power BI. Этой функцией может управлять пользователь с помощью параметров приложения, а также администратор с помощью Intune или другого средства MDM. [Дополнительные сведения](./mobile-native-secure-access.md).
 
 ### <a name="one-page-report-slideshow-windows"></a>Слайд-шоу из одностраничных отчетов (Windows)
 

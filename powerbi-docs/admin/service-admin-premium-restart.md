@@ -9,12 +9,12 @@ ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 367195e0e09bbfb7de20acfa71b8da9742664ca2
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: da6108927e9d6182c08db68972a5452514eedca7
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413571"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99532965"
 ---
 # <a name="restart-a-power-bi-premium-capacity"></a>Перезапуск емкости Power BI Premium
 
@@ -30,6 +30,8 @@ Power BI постоянно совершенствуется с целью за
 
 > [!NOTE]
 > Power BI Premium недавно выпустили новую версию Premium — **Premium 2-го поколения**. В настоящее время она доступна в предварительной версии. Предварительная версия 2-го поколения не требует перезагрузки, поэтому эта функция недоступна в версии Premium 2-го поколения.
+>
+> Емкости **Embedded 2-го поколения** также не требуют перезапуска. Дополнительные сведения об улучшениях Power BI Embedded 2-го поколения см. в статье [Power BI Embedded 2-го поколения](../developer/embedded/power-bi-embedded-generation-2.md).
 
 ## <a name="is-the-restart-process-safe-will-i-lose-any-data"></a>Безопасен ли процесс перезапуска? Не будут ли потеряны данные?
 

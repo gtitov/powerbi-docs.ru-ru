@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: fd4ca0d87530c6421321e10ed97c3ea4e9a32c8d
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 2313e736dee73666bb5ddb380b39a217c6b61237
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96408028"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99532643"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi"></a>Использование собственных ключей шифрования для Power BI
 
@@ -26,6 +26,8 @@ BYOK облегчает соблюдение нормативных требов
 
 > [!IMPORTANT]
 > Power BI Premium недавно выпустили новую версию Premium — **Premium 2-го поколения**. В настоящее время она доступна в предварительной версии. Предварительная версия емкости 2-го поколения **не** поддерживает BYOK.
+>
+>Емкости **Embedded 2-го поколения** в предварительной версии также **не** поддерживают создание собственных ключей. Дополнительные сведения об улучшениях Power BI Embedded 2-го поколения см. в статье [Power BI Embedded 2-го поколения](../developer/embedded/power-bi-embedded-generation-2.md).
 
 ## <a name="data-source-and-storage-considerations"></a>Рекомендации по источнику и хранилищу данных
 

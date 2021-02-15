@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/11/2020
 ms.custom: ''
 LocalizationGroup: Premium
-ms.openlocfilehash: dd0080f96117be949a7d4901f8445a509740b5b0
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: f3bdf12106ffa15764719fe3146a1ed52adf5990
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413456"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99532942"
 ---
 # <a name="optimizing-premium-capacities"></a>Оптимизация емкостей Premium
 
@@ -30,6 +30,8 @@ ms.locfileid: "96413456"
 
 > [!NOTE]
 > Power BI Premium недавно выпустили новую версию Premium — **Premium 2-го поколения**. В настоящее время она доступна в предварительной версии. Premium 2-го поколения упрощает управление емкостью уровня Premium и сокращает расходы на управление. Дополнительные сведения см. в разделе о [емкости Power BI Premium 2-го поколения (предварительная версия)](service-premium-what-is.md#power-bi-premium-generation-2-preview).
+>
+>Дополнительные сведения об улучшениях Power BI Embedded 2-го поколения см. в статье [Power BI Embedded 2-го поколения](../developer/embedded/power-bi-embedded-generation-2.md).
 
 Рекомендации и лучшие методики в этой статье гарантируют оптимальное использование ЦП для каждого набора данных и других артефактов Power BI.
 

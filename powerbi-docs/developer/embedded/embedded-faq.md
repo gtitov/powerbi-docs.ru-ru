@@ -1,19 +1,19 @@
 ---
-title: Часто задаваемые вопросы о встроенной аналитике Power BI для более эффективного использования встроенной бизнес-аналитики Power BI
-description: Ознакомьтесь со списком часто задаваемых вопросов о встроенной аналитике Power BI, которые позволят более эффективно использовать встроенную бизнес-аналитику клиентами.
+title: Часто задаваемые вопросы о встроенной аналитике Power BI
+description: Просмотрите список часто задаваемых вопросов об аналитике Power BI Embedded и ознакомьтесь с ответами.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 02/11/2020
-ms.openlocfilehash: d787dfbb926a3a1224d5b4949003e0b0d260260f
-ms.sourcegitcommit: b4c457bfb4676381dc4a0d04d965e8dab0bc230e
+ms.date: 01/14/2021
+ms.openlocfilehash: e9487cc0cd799e925108163f729fdbf7da5d3ad5
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98155648"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99533011"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Часто задаваемые вопросы о Power BI Embedded
 
@@ -41,6 +41,10 @@ Power BI представляет собой решение программно
 Power BI Premium — это комплексное решение бизнес-аналитики для предприятий, которое обеспечивает единое представление данных организации, сведений о партнерах, клиентах и поставщиках. Power BI Premium помогает организациям в принятии решений. Power BI Premium — это продукт SaaS, позволяющий пользователям работать с содержимым через мобильные приложения, приложения собственной разработки или портал Power BI.
 
 Служба Power BI Embedded предназначена для независимых поставщиков программного обеспечения, которые хотят внедрить визуальные элементы в свои приложения. Power BI Embedded помогает клиентам принимать решения. Так как эта служба создана для разработчиков приложений, пользователи этих приложений, как в организации, так и за ее пределами, могут работать с содержимым, хранящимся в емкости Power BI Embedded. Вы не можете предоставить общий доступ к содержимому емкости Power BI Embedded с помощью публикации одним щелчком в Интернете или SharePoint.
+
+### <a name="what-is-power-bi-embedded-generation-2"></a>Что такое Power BI Embedded 2-го поколения?
+
+Недавно была выпущена новая версия Power BI Embedded, которая называется **Embedded 2-го поколения**. Embedded 2-го поколения упрощает управление внедренными емкостями и улучшает работу Power BI Embedded. Дополнительные сведения см. в разделе [Power BI Embedded 2-го поколения](power-bi-embedded-generation-2.md).
 
 ### <a name="what-is-the-microsoft-recommendation-for-when-a-customer-should-buy-power-bi-premium-vs-power-bi-embedded"></a>В каких случаях корпорация Майкрософт рекомендует покупать Power BI Premium, а в каких — Power BI Embedded?
 
