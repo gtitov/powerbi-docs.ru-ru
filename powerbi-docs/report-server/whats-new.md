@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/27/2021
-ms.openlocfilehash: bb69df893a3a9841d911e558e2ef2afb09230122
-ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.openlocfilehash: a0e5ced79c5aee6d6392b3d52fcc8e6d638faf27
+ms.sourcegitcommit: 00e3eb2ec4f18d48a73cfd020bb42d08e859ad06
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "99087092"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "100531937"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Новые возможности сервера отчетов Power BI
 
@@ -254,7 +254,7 @@ ms.locfileid: "99087092"
 
 - Диагностика запросов
 
-#### <a name="other"></a>Другое
+#### <a name="other"></a>Другие
 
 - Использование системных учетных данных по умолчанию для веб-прокси
 
@@ -443,7 +443,7 @@ ms.locfileid: "99087092"
 - Классы цветов и текста в темах
 - Новые темы по умолчанию
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Аналитика
 
 - Пользовательские строки форматирования
 - Обновления условного форматирования для параметров форматирования
@@ -492,7 +492,7 @@ ms.locfileid: "99087092"
 
 #### <a name="cross-highlight-by-axis-labels"></a>Перекрестное выделение по меткам оси
 
-Выберите метки категорий осей в визуальном элементе, чтобы перекрестно выделять другие элементы на странице точно так же, как вы выбираете точки данных в визуальном элементе. Дополнительные сведения см. в статье [Перекрестное выделение](../create-reports/power-bi-reports-filters-and-highlighting.md#ad-hoc-cross-filtering-and-cross-highlighting).
+Выберите метки категорий осей в визуальном элементе, чтобы перекрестно выделять другие элементы на странице точно так же, как вы выбираете точки данных в визуальном элементе. Дополнительные сведения см. в статье [Перекрестное выделение](../create-reports/power-bi-reports-filters-and-highlighting.md#cross-filter-and-cross-highlight-visuals).
 
 #### <a name="all-the-new-features"></a>Все новые функции
 
@@ -519,7 +519,7 @@ ms.locfileid: "99087092"
 - Управление положением меток для данных в строке
 - Управление размером текста для визуального индикатора КПЭ
 
-#### <a name="analytics"></a>Analytics
+#### <a name="analytics"></a>Аналитика
 
 - Общедоступная версия отображения дат в иерархическом виде  
 
@@ -652,7 +652,7 @@ ms.locfileid: "99087092"
 - [Пересмотр среза](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#slicer)
 - [Всплывающие подсказки на странице отчета](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#reportPageTooltips)
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Аналитика
 
 - [Новая функция DAX: COMBINEVALUES()](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#combineValues)
 - [Детализация меры](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#measureDrillthrough)
@@ -741,7 +741,7 @@ ms.locfileid: "99087092"
 - [Поиск по панели форматирования и аналитики](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#search)
 - [Панель свойств поля и описания поля](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#fieldPropertiesPane)
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Аналитика
 
 - [UTCNOW() и UTCTODAY()](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#utcDAX)
 - [Пометка таблицы настраиваемой даты](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#customDateTable)
@@ -861,4 +861,4 @@ Excel и Power BI включают ряд средств, уникальных �
 
 - [Блог по Microsoft Power BI](https://powerbi.microsoft.com/blog/)
 
-Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
+Остались вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
