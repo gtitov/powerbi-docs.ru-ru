@@ -59,8 +59,6 @@
               href: desktop-ribbon.md
             - name: Работа с представлением отчета
               href: desktop-report-view.md
-            - name: Типы фильтров в отчетах
-              href: power-bi-report-filter-types.md
             - name: Фильтры и выделение в отчетах
               href: power-bi-reports-filters-and-highlighting.md
             - name: Выборка линий с высокой плотностью
@@ -142,6 +140,26 @@
               href: desktop-tooltips.md
             - name: Экспорт отчетов в PDF-файлы
               href: desktop-export-to-pdf.md
+            - name: Фильтры и срезы в отчетах
+              items:
+                - name: Добавление фильтра в отчет
+                  href: power-bi-report-add-filter.md
+                - name: Формат фильтров в отчетах
+                  href: power-bi-report-filter.md
+                - name: Типы фильтров в отчетах
+                  href: power-bi-report-filter-types.md
+                - name: Срезы
+                  href: ../visuals/power-bi-visualization-slicers.md
+                - name: Срезы числового диапазона
+                  href: desktop-slicer-numeric-range.md
+                - name: Срезы и фильтры относительных дат
+                  href: ../visuals/desktop-slicer-filter-date-range.md
+                - name: Срезы и фильтры относительного времени
+                  href: slicer-filter-relative-time.md
+                - name: Создание элемента "Срез" с возможностью изменения размера
+                  href: power-bi-slicer-filter-responsive.md
+                - name: Добавление нескольких полей в срез
+                  href: power-bi-slicer-hierarchy-multiple-fields.md
             - name: Применение аналитических сведений для объяснения колебаний в визуализациях (предварительная версия)
               href: desktop-insights.md
             - name: Использование аналитических сведений для поиска различий в распределении (предварительная версия)
@@ -158,10 +176,6 @@
               href: desktop-bookmarks.md
             - name: Работа с темами отчетов
               href: desktop-report-themes.md
-            - name: Работа с фильтрами в отчетах
-              href: power-bi-report-filter.md
-            - name: Добавление фильтра в отчет
-              href: power-bi-report-add-filter.md
             - name: Применение группирования данных и их разделения
               href: desktop-grouping-and-binning.md
             - name: Применение линий сетки и привязки к сетке
@@ -174,18 +188,6 @@
               href: desktop-add-custom-column.md
             - name: Использование встроенных меток иерархии
               href: desktop-inline-hierarchy-labels.md
-            - name: Срезы
-              href: ../visuals/power-bi-visualization-slicers.md
-            - name: Срезы числового диапазона
-              href: desktop-slicer-numeric-range.md
-            - name: Срезы и фильтры относительных дат
-              href: ../visuals/desktop-slicer-filter-date-range.md
-            - name: Срезы и фильтры относительного времени
-              href: slicer-filter-relative-time.md
-            - name: Создание элемента "Срез" с возможностью изменения размера
-              href: power-bi-slicer-filter-responsive.md
-            - name: Добавление нескольких полей в срез
-              href: power-bi-slicer-hierarchy-multiple-fields.md
             - name: Ограничение доступа к данным с помощью безопасности на уровне строк
               href: desktop-rls.md
             - name: Настройка подсказок
